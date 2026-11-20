@@ -1,0 +1,392 @@
+{
+  "endpoint": "https://api-publica.datajud.cnj.jus.br/api_publica_tjsp/_search",
+  "consultas": {
+    "inquerito_P1": {
+      "size": 40,
+      "track_total_hits": true,
+      "_source": [
+        "numeroProcesso",
+        "classe",
+        "dataAjuizamento",
+        "orgaoJulgador",
+        "assuntos",
+        "grau",
+        "nivelSigilo"
+      ],
+      "query": {
+        "function_score": {
+          "query": {
+            "bool": {
+              "filter": [
+                {
+                  "terms": {
+                    "assuntos.codigo": [
+                      3431,
+                      15623,
+                      11978,
+                      14692,
+                      14693
+                    ]
+                  }
+                },
+                {
+                  "terms": {
+                    "classe.codigo": [
+                      279
+                    ]
+                  }
+                },
+                {
+                  "term": {
+                    "nivelSigilo": 0
+                  }
+                },
+                {
+                  "match": {
+                    "grau": "G1"
+                  }
+                },
+                {
+                  "range": {
+                    "dataAjuizamento": {
+                      "gte": 20190101000000,
+                      "lt": 20200123000000
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "random_score": {
+            "seed": 20261120,
+            "field": "_seq_no"
+          },
+          "boost_mode": "replace"
+        }
+      }
+    },
+    "inquerito_P2": {
+      "size": 40,
+      "track_total_hits": true,
+      "_source": [
+        "numeroProcesso",
+        "classe",
+        "dataAjuizamento",
+        "orgaoJulgador",
+        "assuntos",
+        "grau",
+        "nivelSigilo"
+      ],
+      "query": {
+        "function_score": {
+          "query": {
+            "bool": {
+              "filter": [
+                {
+                  "terms": {
+                    "assuntos.codigo": [
+                      3431,
+                      15623,
+                      11978,
+                      14692,
+                      14693
+                    ]
+                  }
+                },
+                {
+                  "terms": {
+                    "classe.codigo": [
+                      279
+                    ]
+                  }
+                },
+                {
+                  "term": {
+                    "nivelSigilo": 0
+                  }
+                },
+                {
+                  "match": {
+                    "grau": "G1"
+                  }
+                },
+                {
+                  "range": {
+                    "dataAjuizamento": {
+                      "gte": 20200123000000,
+                      "lt": 20210528000000
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "random_score": {
+            "seed": 20261120,
+            "field": "_seq_no"
+          },
+          "boost_mode": "replace"
+        }
+      }
+    },
+    "inquerito_P3": {
+      "size": 40,
+      "track_total_hits": true,
+      "_source": [
+        "numeroProcesso",
+        "classe",
+        "dataAjuizamento",
+        "orgaoJulgador",
+        "assuntos",
+        "grau",
+        "nivelSigilo"
+      ],
+      "query": {
+        "function_score": {
+          "query": {
+            "bool": {
+              "filter": [
+                {
+                  "terms": {
+                    "assuntos.codigo": [
+                      3431,
+                      15623,
+                      11978,
+                      14692,
+                      14693
+                    ]
+                  }
+                },
+                {
+                  "terms": {
+                    "classe.codigo": [
+                      279
+                    ]
+                  }
+                },
+                {
+                  "term": {
+                    "nivelSigilo": 0
+                  }
+                },
+                {
+                  "match": {
+                    "grau": "G1"
+                  }
+                },
+                {
+                  "range": {
+                    "dataAjuizamento": {
+                      "gte": 20210528000000,
+                      "lt": 20250101000000
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "random_score": {
+            "seed": 20261120,
+            "field": "_seq_no"
+          },
+          "boost_mode": "replace"
+        }
+      }
+    },
+    "acao_penal_P1": {
+      "size": 40,
+      "track_total_hits": true,
+      "_source": [
+        "numeroProcesso",
+        "classe",
+        "dataAjuizamento",
+        "orgaoJulgador",
+        "assuntos",
+        "grau",
+        "nivelSigilo"
+      ],
+      "query": {
+        "function_score": {
+          "query": {
+            "bool": {
+              "filter": [
+                {
+                  "terms": {
+                    "assuntos.codigo": [
+                      3431,
+                      15623,
+                      11978,
+                      14692,
+                      14693
+                    ]
+                  }
+                },
+                {
+                  "terms": {
+                    "classe.codigo": [
+                      283,
+                      10943
+                    ]
+                  }
+                },
+                {
+                  "term": {
+                    "nivelSigilo": 0
+                  }
+                },
+                {
+                  "match": {
+                    "grau": "G1"
+                  }
+                },
+                {
+                  "range": {
+                    "dataAjuizamento": {
+                      "gte": 20190101000000,
+                      "lt": 20200123000000
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "random_score": {
+            "seed": 20261120,
+            "field": "_seq_no"
+          },
+          "boost_mode": "replace"
+        }
+      }
+    },
+    "acao_penal_P2": {
+      "size": 40,
+      "track_total_hits": true,
+      "_source": [
+        "numeroProcesso",
+        "classe",
+        "dataAjuizamento",
+        "orgaoJulgador",
+        "assuntos",
+        "grau",
+        "nivelSigilo"
+      ],
+      "query": {
+        "function_score": {
+          "query": {
+            "bool": {
+              "filter": [
+                {
+                  "terms": {
+                    "assuntos.codigo": [
+                      3431,
+                      15623,
+                      11978,
+                      14692,
+                      14693
+                    ]
+                  }
+                },
+                {
+                  "terms": {
+                    "classe.codigo": [
+                      283,
+                      10943
+                    ]
+                  }
+                },
+                {
+                  "term": {
+                    "nivelSigilo": 0
+                  }
+                },
+                {
+                  "match": {
+                    "grau": "G1"
+                  }
+                },
+                {
+                  "range": {
+                    "dataAjuizamento": {
+                      "gte": 20200123000000,
+                      "lt": 20210528000000
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "random_score": {
+            "seed": 20261120,
+            "field": "_seq_no"
+          },
+          "boost_mode": "replace"
+        }
+      }
+    },
+    "acao_penal_P3": {
+      "size": 40,
+      "track_total_hits": true,
+      "_source": [
+        "numeroProcesso",
+        "classe",
+        "dataAjuizamento",
+        "orgaoJulgador",
+        "assuntos",
+        "grau",
+        "nivelSigilo"
+      ],
+      "query": {
+        "function_score": {
+          "query": {
+            "bool": {
+              "filter": [
+                {
+                  "terms": {
+                    "assuntos.codigo": [
+                      3431,
+                      15623,
+                      11978,
+                      14692,
+                      14693
+                    ]
+                  }
+                },
+                {
+                  "terms": {
+                    "classe.codigo": [
+                      283,
+                      10943
+                    ]
+                  }
+                },
+                {
+                  "term": {
+                    "nivelSigilo": 0
+                  }
+                },
+                {
+                  "match": {
+                    "grau": "G1"
+                  }
+                },
+                {
+                  "range": {
+                    "dataAjuizamento": {
+                      "gte": 20210528000000,
+                      "lt": 20250101000000
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "random_score": {
+            "seed": 20261120,
+            "field": "_seq_no"
+          },
+          "boost_mode": "replace"
+        }
+      }
+    }
+  }
+}
