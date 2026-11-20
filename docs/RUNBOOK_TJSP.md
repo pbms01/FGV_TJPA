@@ -154,6 +154,10 @@ Em aberto: máscara mínima de CPF, RG, telefone e endereço nos textos gravados
 - INV: o art. 154-A citado em 15 de 30; o resto são sentenças de outros crimes que mencionam a expressão.
 - O indicador de condenação (busca de "condeno" ou "julgo procedente" no fim da sentença, ainda sem conferência manual) aparece em 20 de 30 sentenças na FE e em 22 de 30 na CL.
 
+## Extração (20/11/2026)
+
+A amostra de 200 está fechada (INV 36 em censo, CL 50, FE 114), e o texto das denúncias está em `textos/tjsp/denuncias/`. `python scripts/extrai_denuncias.py` gera `dados/extracao/denuncias_tjsp.csv` e os segmentos por processo. As regras, os casos lidos, a validação manual dos indicadores e a decisão sobre a unidade de análise estão em `dados/extracao/LEIAME.md`. Os dados pessoais ainda não estão mascarados.
+
 ## Pendências
 
 - Rodar a coleta completa (cerca de 5,4 mil resultados brutos somando as quatro consultas, antes de deduplicar): via A no seu computador ou via B no navegador, com o painel visível.

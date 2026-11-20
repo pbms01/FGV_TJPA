@@ -26,6 +26,7 @@ Estado em 20/11/2026, à tarde: a fase 1 é o TJSP, e o produto é o máximo de 
 | `scripts/coleta_janelas.py`, `coleta_censo.py` | Censo por janelas de data (o `coleta_censo.py` depende de ordenar por `_id`, que o cluster passou a recusar) |
 | `scripts/analisa_censo.py`, `amostra.py` | Análise local do censo e sorteio local |
 | `scripts/panorama.py` | Panorama por metadados de TJSP, TJMG, TJBA e TJPA |
+| `scripts/extrai_denuncias.py` | Extração por regras das 200 denúncias da amostra TJSP: cota, narrativa, capitulação, dispositivos, indicadores de meio, alertas; saídas e validação em `dados/extracao/LEIAME.md` |
 | `scripts/extrai_inicio.py` | Extração das primeiras páginas de PDF com OCR de reserva e troca de CPF/CNPJ por hash |
 | `scripts/persistente.sh`, `tenta.sh` | Repetição até concluir ou até um prazo |
 | `consultas/consulta_datajud_tjsp.json` | As seis consultas exatas que o sorteio do TJSP envia |
