@@ -63,7 +63,7 @@ A unidade principal é a denúncia, sem as duplicatas, com o peso amostral do pr
 ## Pendências
 
 - Codificar à mão uma segunda subamostra independente se os indicadores forem usados como variável de resultado. Os 12 casos da rodada 2 não bastam para estimar precisão por estrato.
-- A codificação manual de artifício e papel (`codificacao_manual_r*.csv`) cobre 36 denúncias. Estender para o corpus todo exige uma codificação assistida, por leitura caso a caso, porque as regex não distinguem o papel do denunciado (titular da conta, executor ou ambos).
+- A codificação de artifício e papel cobre agora as 200 denúncias: 36 manuais (`codificacao_manual_r*.csv`) e 164 assistidas (`codificacao_assistida.csv`, seção própria abaixo). A assistida ainda precisa de conferência humana por amostra antes de servir como variável de resultado.
 
 ## Validação dos indicadores por codificação manual
 
@@ -90,3 +90,56 @@ Os ajustes posteriores corrigiram duas dessas falhas:
 Os indicadores `m_pix` e `m_boleto` medem menção, não o meio de pagamento da vítima. Eles também disparam com o Pix tentado pelo invasor, com o boleto da compra fraudulenta feita pelo réu e com o extrato transcrito. `m_conta_laranja` deixa escapar a conta recebedora identificada só pelo número.
 
 A leitura também trouxe um achado substantivo. Dentro do INV, uma parte relevante do 154-A não tem fim patrimonial: é controle da parceira ou ex-parceira, com acesso ao celular ou às redes sociais da vítima, em contexto de violência doméstica. A coluna `contexto_vd` exige um contexto de VD narrado ou a Lei 11.340 na capitulação. Menção solta não basta, como o nome do Anexo de VD no cabeçalho, outro fato do réu ou "a casa da ex-esposa". Com essa regra, são 7 das 34 denúncias INV e 5 das 29 capituladas no 154-A. Nos estratos CL e FE não há nenhuma.
+
+## Codificação assistida das 164 denúncias restantes
+
+`codificacao_assistida.csv` tem as mesmas colunas e o mesmo vocabulário da r1 e cobre as 164 denúncias que as rodadas manuais não alcançaram (INV 24, CL 38, FE 102), incluindo as duas duplicatas, codificadas como a denúncia de origem e marcadas na nota. Somada às rodadas manuais, a codificação cobre as 200 denúncias da amostra, ou 198 sem as duplicatas.
+
+A leitura foi feita caso a caso, em lotes por estrato, por `scripts/lote_codificacao.py ESTRATO N`, que imprime a narrativa e o início da capitulação de cada caso ainda não codificado. A narrativa de até 5.000 caracteres vai inteira. Acima disso vão o início (3.000), as frases do restante que tocam conta, Pix, transferência, invasão ou o denunciado (até 1.800) e o fim (600), porque é ali que a denúncia costuma identificar a conta recebedora. Foram 27 narrativas compactadas (INV 2, 3, 4, 7, 8, 11, 21, 22, 32, 36 e 43; CL 12, 15, 18, 25, 32, 34, 36 e 53; FE 7, 31, 42, 55, 79, 102, 107 e 122), e no INV 36 (GAECO, Operação Atratus) a leitura foi completada por busca dirigida no texto integral. A gravação passa por `scripts/grava_codificacao.py`, que busca o número pelo par estrato e ordem e recusa valor fora do vocabulário.
+
+Esta codificação foi feita pelo assistente, não pelo pesquisador. Ela é um ponto de partida auditável, e a nota de cada linha resume o fato que sustenta a codificação.
+
+### Regras aplicadas
+
+- `papel_denunciado`: `titular_conta` quando o vínculo descrito do denunciado com o fato é a conta que recebeu o valor (cedida, vendida, emprestada ou aberta para o golpe), inclusive quando ele arregimenta contas de terceiros; `executor` quando ele fez a abordagem, o contato ou a operação sem que conta sua recebesse o valor; `misto` quando a mesma pessoa executa e recebe na própria conta, ou quando denunciados diferentes têm esses papéis distintos; `invasor`, como na r1, para o autor da invasão sem fim patrimonial ou voltada à venda de dados.
+- `meio_contato`: o canal em que o golpista conversou com a vítima. O anúncio no Facebook ou na OLX seguido de conversa pelo WhatsApp fica como `whatsapp`; leilão e loja falsos ficam como `site`; `telefone` inclui ligação, SMS e aplicativo de mensagens não nomeado; `sistema` quando não houve contato com a vítima (invasão, acesso à conta).
+- `pix_pagamento`: o valor saiu da vítima, ou da conta dela, para o recebedor por Pix, inclusive quando o Pix foi feito pelos golpistas de dentro da conta da vítima. A menção a Pix tentado, a Pix de pulverização posterior ou a comprovante falso de Pix não conta.
+- `boleto`: a vítima pagou boleto. `invasao`: invasão de dispositivo ou acesso não autorizado a conta ou sistema, inclusive aplicativos bancários de celular roubado. A engenharia social em que a própria vítima valida o aparelho do golpista (falsa central) ficou como 0.
+- `conta_do_denunciado`: o valor do fato entrou em conta de denunciado. Nos casos fora da tipologia (tráfico, anabolizantes) ficou 0 mesmo quando a denúncia menciona contas de laranjas.
+- `contexto`: `violencia_domestica` segue a regra da coluna `contexto_vd` (VD narrada ou Lei 11.340 na capitulação), e as duas medidas coincidem nos 34 INV.
+
+### Categorias acrescentadas
+
+O vocabulário da r1 não cobria alguns casos. As categorias novas estão no dicionário `NOVOS` de `grava_codificacao.py`:
+
+| Campo | Valor | Uso | Casos |
+| --- | --- | --- | --- |
+| contexto | `relacional` | conflito entre ex-parceiros ou conhecidos sem VD narrada | INV 6, 27, 39, 41 |
+| contexto | `outro` | fato sem fraude patrimonial (tráfico, anabolizantes) | CL 12, 25 |
+| meio_contato | `outro` | canal inexistente ou não descrito | INV 40, CL 12, CL 25, FE 23 |
+| artificio | `extorsao_transferencia` | vítima constrangida, sob arma ou ameaça, a transferir ou entregar cartões e senhas | CL 1, 7, 11, 18; FE 81 |
+| artificio | `taxa_antecipada` | falso empréstimo, falsa vaga ou serviço inexistente com pagamento antecipado | CL 35, 44; FE 2, 8, 9, 37, 66, 117 |
+| artificio | `devassa_privacidade` | invasão para ler e divulgar comunicações, sem fim patrimonial e fora da relação de parceria | INV 39 |
+| artificio | `falso_relacionamento` | perfil falso que cria vínculo afetivo e pede dinheiro | FE 96 |
+| artificio | `outro` | denúncia sem fraude ou invasão (calúnia, tráfico, anabolizantes, furto de fios) | INV 40, CL 12, CL 25, FE 123 |
+
+### Resultados (198 denúncias sem duplicatas, % ponderado dentro do estrato)
+
+| Estrato | Papel do denunciado | Valor na conta de denunciado | Artifícios principais |
+| --- | --- | --- | --- |
+| INV (34) | invasor 52,9%; executor 20,6%; misto 20,6%; titular 5,9% | 23,5% | controle da parceira 26,5%; invasão de sistema com venda de dados 17,6%; sequestro de conta 14,7%; insider 11,8% |
+| CL (50) | titular 87,9%; misto 10,0%; executor 2,1% | 96,5% | venda falsa 22,7%; falso parente 19,5%; falsa central 12,8% |
+| FE (114) | titular 52,7%; misto 26,1%; executor 21,2% | 78,8% | venda falsa 30,3%; falso parente 20,3%; falsa central 18,9% |
+
+O achado das rodadas manuais se confirma no corpus. Em CL o valor do fato entrou em conta de denunciado em 48 das 50 denúncias, e as duas restantes estão fora da tipologia (tráfico e anabolizantes). Em FE isso ocorre em 90 das 114, com o denunciado só como titular ou também como executor. Os 24 executores sem conta própria em FE concentram-se nas compras fraudulentas contra empresas (7, com cartão de terceiro ou comprovante falso de Pix) e no golpe do motoboy, em que o falso funcionário do banco recolhe o cartão (7), seguidos da venda falsa (4) e da maquininha (2). No INV, além dos 7 casos de VD, há 4 casos `relacionais` (ex-parceiros ou colegas) sem VD narrada.
+
+### Regex contra a codificação assistida
+
+`validacao_regex_assistida.csv` repete, para as 162 assistidas sem duplicatas, a comparação de `validacao_regex.csv` (rodada `a1`). A concordância foi de 0,98 em falso parente, 0,97 em invasão, 0,96 em boleto, 0,95 em WhatsApp, 0,93 em Pix, 0,90 em falsa central, 0,86 em venda falsa e 0,77 em conta do denunciado. As três últimas erram quase sempre por omissão (15, 17 e 31 falsos negativos), porque a regex não reconhece a falsa central descrita sem as palavras-chave, a venda falsa narrada como "anúncio" ou "intermediário" e a conta recebedora identificada só pelo número ou pela chave Pix. O Pix e o boleto erram por excesso, como já se sabia, porque medem menção. Como a referência aqui é a codificação assistida, a concordância mede coerência entre dois procedimentos automáticos, e não precisão.
+
+### Casos de fronteira para conferência
+
+- INV 6, 27 e 41: ex-parceiros, codificados `relacional` porque a denúncia não narra VD nem invoca a Lei 11.340; no INV 41 a vítima é mulher e há ameaça de divulgar fotos íntimas.
+- INV 3 e 32 (mesma denúncia): `titular_conta`, porque a imputação de invasão aos três se apoia nas contas e nos repasses; `misto` seria a leitura alternativa.
+- INV 36 e CL 25: denúncias do GAECO muito longas, lidas por trechos.
+- FE 23 (dinâmica confusa e canal não descrito), FE 31 (triangulação no Mercado Livre sem conta dos denunciados), FE 67 (locação sem devolução, sem meio eletrônico, em `compra_fraudulenta_empresa`) e FE 97 (sistema da VR Benefícios em `invasao_sistema_bancario`).

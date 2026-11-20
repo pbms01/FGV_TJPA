@@ -2,7 +2,7 @@
 
 Base processual para um exame cibercriminológico da fraude mediada por tecnologia, construída apenas com processos judiciais. A consulta pública de julgados do tribunal fornece os números de processo, e o Codex (PDPJ) lê as peças. O texto lido vai para o repositório.
 
-Estado em 20/11/2026, à noite: a fase 1 (TJSP) tem a amostra de 200 denúncias fechada (INV 36 em censo, CL 50, FE 114), com o texto gravado, a extração por regras feita e validada por codificação manual. O estado, as decisões e os próximos passos estão em `docs/HANDOFF.md`, que é o ponto de partida de qualquer sessão nova. Os números-alvo vieram da Consulta de Julgados de 1º Grau do e-SAJ (cjpg), por busca textual, porque o TJSP quase não usa os códigos TPU que nomeiam o tipo. O DataJud fica como denominador. O recorte TJPA será replanejado depois.
+Estado em 20/11/2026, à noite: a fase 1 (TJSP) tem a amostra de 200 denúncias fechada (INV 36 em censo, CL 50, FE 114), com o texto gravado, a extração por regras feita e validada por codificação manual, e a codificação de artifício, meio e papel do denunciado estendida às 200 denúncias (36 manuais e 164 assistidas, estas pendentes de conferência por amostra). O estado, as decisões e os próximos passos estão em `docs/HANDOFF.md`, que é o ponto de partida de qualquer sessão nova. Os números-alvo vieram da Consulta de Julgados de 1º Grau do e-SAJ (cjpg), por busca textual, porque o TJSP quase não usa os códigos TPU que nomeiam o tipo. O DataJud fica como denominador. O recorte TJPA será replanejado depois.
 
 ## Estrutura
 
@@ -30,6 +30,7 @@ Estado em 20/11/2026, à noite: a fase 1 (TJSP) tem a amostra de 200 denúncias 
 | `scripts/pipe_conversa.py`, `scripts/mk_mapa.sh` | Coleta das denúncias na conversa: IDs da peça a partir do mapa do Codex, gravação do texto, manifesto e status |
 | `scripts/sorteio_complemento_fe.py` | Complemento do sorteio da FE (ordens 120 a 131) |
 | `scripts/extrai_denuncias.py` | Extração por regras das 200 denúncias da amostra TJSP: cota, narrativa, capitulação, dispositivos, indicadores de meio, alertas; saídas e validação em `dados/extracao/LEIAME.md` |
+| `scripts/lote_codificacao.py`, `scripts/grava_codificacao.py` | Codificação assistida de artifício, meio e papel: o primeiro imprime em forma compacta o próximo lote não codificado de um estrato, o segundo grava em `dados/extracao/codificacao_assistida.csv` com checagem de vocabulário |
 | `scripts/extrai_inicio.py` | Extração das primeiras páginas de PDF com OCR de reserva e troca de CPF/CNPJ por hash |
 | `scripts/persistente.sh`, `tenta.sh` | Repetição até concluir ou até um prazo |
 | `consultas/consulta_datajud_tjsp.json` | As seis consultas exatas que o sorteio do TJSP envia |

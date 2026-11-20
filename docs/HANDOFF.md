@@ -1,4 +1,4 @@
-# Handoff: fase 1 TJSP, amostra e extração fechadas (20/11/2026, noite)
+# Handoff: fase 1 TJSP, amostra, extração e codificação de papel fechadas (20/11/2026, noite)
 
 Repositório pbms01/FGV_TJPA, branch `coleta-datajud`, que ainda não foi mesclado no main. Este arquivo substitui o estado da conversa e deve ser lido antes de qualquer passo novo.
 
@@ -20,6 +20,8 @@ Arquivos de dados:
 - manifesto em `textos/tjsp/manifesto.csv` (606 partes);
 - status por processo em `dados/codex/status.csv`, onde vale a última linha de cada número;
 - amostra e pesos em `dados/cjpg/amostra_tjsp.csv` e `dados/cjpg/sorteio_listas.json`.
+
+Codificação de artifício, meio e papel: cobre as 200 denúncias, com 36 manuais (`dados/extracao/codificacao_manual_r1.csv` e `_r2.csv`) e 164 assistidas (`dados/extracao/codificacao_assistida.csv`). A assistida foi feita pelo assistente, por leitura caso a caso com `scripts/lote_codificacao.py` e gravação por `scripts/grava_codificacao.py`, e ainda não foi conferida pelo pesquisador. Regras, categorias novas e casos de fronteira estão na seção própria do `dados/extracao/LEIAME.md`.
 
 Extração: `python scripts/extrai_denuncias.py` gera `dados/extracao/denuncias_tjsp.csv` (200 linhas, cerca de 72 colunas) e `dados/extracao/segmentos/<numero>.json` (cota, narrativa, capitulação). As regras, a validação e as decisões estão em `dados/extracao/LEIAME.md`, a leitura obrigatória antes de mexer na extração.
 
@@ -43,16 +45,17 @@ Distribuição pela capitulação, sem duplicatas e com peso dentro do estrato:
 
 Nenhuma denúncia capitula o 171 §2º, VII.
 
-Achados da codificação manual de 36 denúncias:
+Achados da codificação de 198 denúncias sem duplicatas (36 manuais e 162 assistidas), com peso dentro do estrato:
 
-- Em 22 das 24 denúncias CL e FE codificadas, o denunciado é o titular da conta recebedora, sozinho ou também como executor.
-- No INV, 7 das 34 denúncias (5 das 29 no 154-A) têm contexto de violência doméstica (coluna `contexto_vd`), sem nenhuma nos outros estratos.
+- O valor do fato entrou em conta de denunciado em 48 das 50 denúncias CL (96,5%) e em 90 das 114 FE (78,8%). As duas CL restantes estão fora da tipologia (tráfico e anabolizantes). Em FE o papel se divide em titular 52,7%, misto 26,1% e executor sem conta 21,2%; os executores concentram-se em compras fraudulentas contra empresas e no golpe do motoboy.
+- Artifícios principais: em FE, venda falsa 30,3%, falso parente 20,3% e falsa central 18,9%; em CL, venda falsa 22,7%, falso parente 19,5% e falsa central 12,8%; no INV, controle da parceira 26,5%, invasão de sistema com venda de dados 17,6% e sequestro de conta 14,7%.
+- No INV, 7 das 34 denúncias (5 das 29 no 154-A) têm contexto de violência doméstica (coluna `contexto_vd`, que coincide com a codificação), sem nenhuma nos outros estratos. Outras 4 são conflitos entre ex-parceiros ou colegas sem VD narrada (`relacional`).
 
-A validação das regex fora da amostra (rodada r2, 12 casos) deu concordância de 0,83 a 1,00 (`dados/extracao/validacao_regex.csv`). `m_pix` e `m_boleto` medem menção, não meio de pagamento.
+A validação das regex fora da amostra (rodada r2, 12 casos) deu concordância de 0,83 a 1,00 (`dados/extracao/validacao_regex.csv`). Contra a codificação assistida (`validacao_regex_assistida.csv`, 162 casos), a concordância vai de 0,77 (conta do denunciado) a 0,98 (falso parente), com as regex de conta, venda falsa e falsa central errando por omissão. `m_pix` e `m_boleto` medem menção, não meio de pagamento.
 
 ## Próximos passos, em ordem
 
-1. Codificação assistida de artifício, meio e papel do denunciado nas 164 denúncias ainda não codificadas, por leitura caso a caso e em lotes por estrato. O formato é o de `dados/extracao/codificacao_manual_r1.csv`, com as mesmas colunas e o mesmo vocabulário de `artificio` e `papel_denunciado`.
+1. Conferência da codificação assistida pelo pesquisador, numa amostra estratificada (por exemplo, 8 casos por estrato com semente nova) somada aos casos de fronteira listados no `dados/extracao/LEIAME.md`. Correções entram por `python3 scripts/grava_codificacao.py`, que substitui a linha do mesmo número. A conferência decide também se as categorias novas (`relacional`, `extorsao_transferencia`, `taxa_antecipada`, `devassa_privacidade`, `falso_relacionamento`, `outro`) ficam ou são fundidas.
 2. Capitulação acolhida na sentença e resultado (condenação ou absolvição), campos previstos no produto e ainda não coletados. A `amostra_tjsp.csv` já traz `condena` e `absolve`, indicadores sem conferência calculados sobre o teor da sentença no cjpg, e `cd_doc_cjpg`, mas o teor não foi guardado no repo. Há dois caminhos: reler a sentença pelo cjpg, no navegador, pelo `cd_doc_cjpg`, ou pelo Codex, uma chamada de batch por processo com a sentença no mapa.
 3. Portar as melhorias do pipe da conversa (`scripts/pipe_conversa.py`) para `scripts/codex_denuncias.py`: candidata de reserva antes do "Recebida a denúncia", filtro de denúncia nomeada, deduplicação por código PJe, guarda contra folha de inquérito e regras de OCR.
 4. Máscara de CPF, RG, telefone e endereço para a versão de circulação, quando o usuário decidir.
