@@ -52,7 +52,30 @@ Como o cjpg funciona por dentro: `GET /cjpg/pesquisar.do` com os campos do formu
 
 Indicadores por resultado: `m_171_2A`, `m_fraude_eletronica`, `m_154A`, `m_laranja`, `m_imputacao` (achou o trecho "foi denunciado", "ofereceu denúncia", "incurso nas penas"), `condena` e `absolve` (no dispositivo), e `imputacao` (420 caracteres a partir desse trecho).
 
-## Passo 2 · localizar a denúncia no Codex (sessão com o conector)
+## Passo 1b · amostra de 200 (decisão de 20/11/2026)
+
+Não se coleta o universo; sorteia-se uma amostra de 200 denúncias.
+
+| Estrato | Lista do cjpg | Meta | Sorteio (com reserva) |
+| --- | --- | --- | --- |
+| INV | invasão | censo | todas as páginas, todos os julgados com art. 154-A |
+| CL | conta laranja | 50 | 34 páginas, até 2 por página |
+| FE | "fraude eletrônica" e acréscimo do "§ 2º-A" | 200 menos INV e CL obtidos | 38 páginas da FE e 28 da FE_amp, até 2 por página |
+
+Regras: páginas por amostragem sistemática com início aleatório sobre a lista ordenada por data; dentro da página, até 2 elegíveis escolhidos ao acaso; estratos excludentes por precedência (INV, depois CL, depois FE; do acréscimo FE_amp só entra o que não tem a expressão "fraude eletrônica"); peso igual ao inverso da fração de páginas sorteadas vezes a fração de elegíveis tomados na página; ordem de processamento aleatória dentro do estrato, para que parar na meta produza subamostra aleatória. Semente 20261120. A margem para uma proporção, a 95%, fica perto de 9 pontos na FE e 13 na CL; um modo de execução presente em 3% da FE ou 6% da CL aparece ao menos uma vez com cerca de 95% de probabilidade.
+
+Execução: colar `scripts/cjpg_sorteio.js` numa aba do cjpg, `sorteio.iniciar()`, acompanhar com `sorteio.estado()` e gravar `JSON.stringify(sorteio.resultado())` num arquivo; depois `python scripts/sorteio_para_csv.py arquivo.json`, que gera `dados/cjpg/amostra_tjsp.csv` e `dados/cjpg/sorteio_listas.json`.
+
+## Passo 2 · ler a denúncia pelo Codex (fora do contexto)
+
+    export TECJUSTICA_API_KEY=...
+    python scripts/codex_denuncias.py --simular   # plano
+    python scripts/codex_denuncias.py             # coleta, retomável
+    python scripts/codex_denuncias.py --teste     # parsers, sem rede
+
+O script chama o endpoint MCP da TecJustica direto, em sequência, uma chamada a cada 6,5 s e no máximo 140 chamadas estimadas por hora. Por processo: mapa de documentos, depois leitura em lote de todas as partes da categoria "Peça Inicial" do 1º grau (descarta o dossiê de 2º grau e as cópias redistribuídas). Processa a invasão inteira, a conta laranja até 50 e a fraude até completar 200. Registra `sigilo`, `sem_peca_inicial` e `sem_texto` em `dados/codex/status.csv`; a reserva do mesmo estrato repõe a perda. Grava o texto em `textos/tjsp/denuncias/<numero>/` e o manifesto em `textos/tjsp/manifesto.csv`, sem a linha `Original:`.
+
+## Passo 2 (manual) · localizar a denúncia no Codex numa conversa
 
 Na ordem de `alvos_cjpg_tjsp.csv`, priorizando as linhas com o indicador do tipo verdadeiro, em ritmo de até 15 chamadas por minuto:
 

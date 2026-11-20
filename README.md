@@ -14,6 +14,9 @@ Estado em 20/11/2026, à tarde: a fase 1 é o TJSP, e o produto é o máximo de 
 | `docs/RUNBOOK_TJSP.md` | Fase 1: números-alvo pelo cjpg, localização da denúncia no Codex, gravação do texto lido, campos do corpus, achados do piloto |
 | `scripts/cjpg_alvos.py` | Números-alvo do TJSP pela Consulta de Julgados de 1º Grau: quatro consultas textuais, indicadores de precisão, consolidação por número (só biblioteca padrão) |
 | `scripts/cjpg_navegador.js` | Mesmo coletor para rodar numa aba do cjpg (via do piloto) |
+| `scripts/cjpg_sorteio.js` | Sorteio da amostra de 200 (estratos INV, CL, FE; semente 20261120) numa aba do cjpg |
+| `scripts/sorteio_para_csv.py` | Converte o resultado do sorteio em `dados/cjpg/amostra_tjsp.csv` |
+| `scripts/codex_denuncias.py` | Lê pelo Codex a denúncia de cada processo da amostra e grava só o texto, dentro da cota (roda com a chave TecJustica do usuário) |
 | `scripts/testes/cjpg_fixture.html` | Fixture sintética da listagem do cjpg para testar o parser (`--teste`) |
 | `dados/cjpg/` | Piloto de 20/11/2026: 110 linhas com metadados, indicadores e recorte da imputação, e os totais de cada consulta |
 | `scripts/censo_denuncias_tjsp.py` | Censo DataJud dos códigos 11978, 15623 e 15755 no TJSP (denominador, quando a API voltar) |
