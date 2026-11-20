@@ -19,3 +19,14 @@ numero,estrato,status,docs,chamadas_estimadas,quando,detalhe
 1503737-83.2020.8.26.0050,INV,sem_peca_inicial,0,1,2026-11-20T20:24:29+00:00,recebimento da denúncia em 16/03/2023 sem a peça no acervo
 1503077-84.2023.8.26.0050,INV,ok,1,2,2026-11-20T20:25:45+00:00,denúncia juntada como Manifestao_MP_ao_Juiz.pdf
 1502872-40.2024.8.26.0270,INV,ok,3,2,2026-11-20T20:26:38+00:00,denúncia juntada como Manifestao_do_MP.pdf
+1531706-19.2023.8.26.0228,INV,ok,1,2,2026-11-20T20:27:04+00:00,
+1503431-80.2021.8.26.0050,INV,ok,1,2,2026-11-20T20:27:24+00:00,"sem texto, não lidas: 0efd536b-158c-5316-8555-073211a5157e"
+1502535-50.2022.8.26.0099,INV,sem_peca_inicial,0,1,2026-11-20T20:27:33+00:00,acervo só com peças do juízo; nenhuma peça do MP
+1500983-37.2023.8.26.0577,INV,ok,3,2,2026-11-20T20:27:52+00:00,
+1521758-82.2025.8.26.0228,INV,sem_peca_inicial,0,2,2026-11-20T20:29:56+00:00,candidata lida não era denúncia: Manifestao_do_MP.pdf
+1521758-82.2025.8.26.0228,INV,sem_peca_inicial,0,1,2026-11-20T20:30:17+00:00,recebimento em 2025-09-01 (ordem 91) sem denúncia no acervo; ordens 57-75 ausentes do mapa; manifestação MP de 08/08 é declinação do GEDEC
+1500474-59.2023.8.26.0431,INV,ok,1,2,2026-11-20T20:30:38+00:00,
+1508231-98.2025.8.26.0378,INV,ok,3,2,2026-11-20T20:31:07+00:00,
+1533131-04.2021.8.26.0050,INV,ok,1,2,2026-11-20T20:31:26+00:00,
+1502025-56.2021.8.26.0007,INV,ok,1,2,2026-11-20T20:31:47+00:00,
+1539731-70.2023.8.26.0050,INV,ok,1,2,2026-11-20T20:32:09+00:00,

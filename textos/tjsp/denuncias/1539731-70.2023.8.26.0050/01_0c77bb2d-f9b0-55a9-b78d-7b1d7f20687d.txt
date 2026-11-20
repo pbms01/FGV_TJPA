@@ -1,0 +1,209 @@
+[Texto nativo do PJe]
+
+MINISTÉRIO PÚBLICO
+DO ESTADO DE SÃO PAULO
+EXMO. SR. DR. JUIZ DE DIREITO DA 4ª VARA CRIMINAL
+
+DA COMARCA DE SÃO PAULO.
+
+Processo nº 1539731-70.2023.8.26.0050
+
+1.Consta que, em “... 07 de setembro de 2023” (pg. 49;
+
+sic), e na Rua Umuarama, 332, Vila Prudente, nesta Capital, RICARDO
+
+CALICCHIO, qualificado a pg. 11, invadiu dispositivo informático de
+
+uso da empresa “W5 Comunicações e Publicidade Ltda.”, conectado à
+
+rede de computadores, com o fim obter, adulterar e destruir dados e
+
+informações sem autorização expressa ou tácita, daí resultando
+
+prejuízos econômicos à empresa vítima.
+
+2.Segundo se depreende do inquérito policial anexo,
+
+RICARDO, até o “... mês de agosto” (pg. 11; sic) anterior à data acima
+
+indicada, era funcionário da empresa vítima “W5 Comunicações e
+
+Publicidade Ltda.” (segundo o próprio, “... devido a uma crise de ansiedade,
+
+decidiu pedir demissão” -pg. 11; sic-, aliás), isso laborando na “... área de
+
+T.I.” (pg. 03 do Apenso nº 1540523-24.2023.8.26.0050; sic) da empresa, de
+
+modo que tinha conhecimento dos dispositivos informáticos dela,
+
+especialmente de que mantinha “... sites e sistemas ... hospedados na AWS
+
+Avenida Dr. Abraão Ribeiro, 313 (Avenida A - Rua 07 – térreo)
+
+Fones: (11) 3429-6361 e (11) 3429-6362
+MINISTÉRIO PÚBLICO
+DO ESTADO DE SÃO PAULO
+Amazon” (pg. 06; sic), mas sendo que ao assim se desligar dela, permaneceu
+
+“... na posse de um notebook da empresa” (pg. 06; sic), qual seja, um dos
+
+dois notebooks apreendidos conforme pg. 68 do Apenso nº 1540523-
+
+24.2023.8.26.0050, mais especificamente o “... da marca DELL, de cor
+
+PRATA, do modelo P102F, de número serial “75T2NF3”” (pg. 33; sic),
+
+periciado conforme o laudo IC de pgs. 31/47.
+
+Por qualquer razão ainda não apurada, então, e justo
+
+valendo-se de seus conhecimentos acerca dos dispositivos informáticos da
+
+empresa vítima, RICARDO invadiu na data acima indicada (07 de setembro
+
+de 2023) o referido “... servidor” (pg. 06; sic) “AWS Amazon” a partir “...
+
+do IP 187.38.186.137” (pg. 49; sic), ou seja, de “... IP ... administrado pela
+
+Operadora Claro NXT telecomunicações tendo o cadastro ... em nome de ...
+
+PATRICIA REGINA SALVADOR” (pg. 19 do Apenso nº 1540523-
+
+24.2023.8.26.0050; sic), então “... esposa” (pg. 11) dele acusado, e daí
+
+promoveu “... a exclusão de todos os sites e sistemas hospedados” (pg. 06;
+
+sic) pela empresa no tal servidor.
+
+Ou seja, de “... mais de 120 sites que nele estavam,
+
+causando grandes prejuízos financeiros” (pg. 04; sic) à empresa, pois um dos
+
+serviços que prestava era justamente o “... de criação de site e revenda de
+
+hospedagem” (pg. 04; sic).
+
+Ocorre que Caio Walace Martinez, o dono da “W5”, daí
+
+descobriu junto à “AWS Amazon” “... o endereço do IP do responsável pela
+
+invasão” (pg. 04; sic), bem como passou a desconfiar de RICARDO após
+
+solicitar que “... olhasse se havia backups” (pg. 06; sic) no notebook que
+
+havia ficado com ele, mas ele acusado lhe cobrou por isso.
+
+Avenida Dr. Abraão Ribeiro, 313 (Avenida A - Rua 07 – térreo)
+
+Fones: (11) 3429-6361 e (11) 3429-6362
+MINISTÉRIO PÚBLICO
+DO ESTADO DE SÃO PAULO
+Assim, noticiou tais fatos à “... Divisão de Crimes
+
+Cibernéticos – DCCIBER” (pg. 02; sic) do DEIC, que daí constatou que o
+
+tal IP usado na invasão era cadastrado em nome da esposa de RICARDO e
+
+em seguida pediu e obteve ordem de busca domiciliar na casa dele então
+
+situada na Rua Umuarama, 332, nesta Capital (v. o apenso referido).
+
+E daí cumprida a tal ordem já em 25 de outubro de 2023
+
+e assim lá encontrado e apreendido, dentre outros eletrônicos, o notebook
+
+acima indicado “... da marca DELL, de cor PRATA, do modelo P102F, de
+
+número serial “75T2NF3”” (pg. 33; sic), perícia nele havida confirmou que
+
+por ele realmente “... houve acesso ao servidor da AWS AMAZON na data
+
+dos fatos (07/09/2023 e 08/09/203) (,) bem como em dias anteriores” (pg.
+
+23; sic) à invasão.
+
+Ou seja, que RICARDO realmente havia sido o
+
+responsável pela invasão que gerou prejuízo econômico à empresa “W5”.
+
+Tanto que, ainda que dizendo nesta mesma data de 25 de
+
+outubro de 2023 que “... não tem nenhuma responsabilidade com o fato e que
+
+o wi-fi era compartilhado com outros funcionários da empresa” (pg. 11; sic),
+
+ou seja, o “wi-fi” de sua própria casa, RICARDO acabou formalmente
+
+indiciado pela dd. Autoridade policial.
+
+Por fim, diga-se que Caio, o representante da empresa
+
+“W5”, expressou formal representação pela apuração dos fatos em data de
+
+28 de setembro de 2023 (v. pg. 07).
+
+3.Diante do exposto, denuncio RICARDO
+
+CALICCHIO, requerendo seja citado a acompanhar o devido processo
+
+legal, a seguir o rito comum ordinário previsto nos artigos 394 e seguintes
+
+do CPP, ouvindo-se as pessoas abaixo arroladas e prosseguindo-se até sua
+
+Avenida Dr. Abraão Ribeiro, 313 (Avenida A - Rua 07 – térreo)
+
+Fones: (11) 3429-6361 e (11) 3429-6362
+MINISTÉRIO PÚBLICO
+DO ESTADO DE SÃO PAULO
+final condenação como incurso no art. 154A, §2º, do CP, uma vez restando
+
+devidamente comprovada sob contraditório a acusação.
+
+Rol
+
+1.Caio Walace Martinez (pgs. 06/07);
+
+2.Paulo Marcelo Lopes (PC; pg. 28), e;
+
+3.Durval Gradella Junior (PC; pg. 64 do Apenso nº 1540523-
+
+24.2023.8.26.0050)
+
+SP, 08 de março de 2024.
+
+Luiz Arthur Iughetti Capuzzo
+
+4º PJCrim da Capital
+
+Avenida Dr. Abraão Ribeiro, 313 (Avenida A - Rua 07 – térreo)
+
+Fones: (11) 3429-6361 e (11) 3429-6362
+MINISTÉRIO PÚBLICO
+DO ESTADO DE SÃO PAULO
+4ª Vara Criminal da Capital
+
+MM Juiz:
+
+1.Ofereço denúncia em separado contra o indiciado
+
+RICARDO (art. 154A, §2º, do CP), em quatro (04) laudas;
+
+2.Requeiro FA e certidões de praxe em nome dele, e;
+
+3.Por fim, anoto que considerando-se a causa de aumento
+
+de pena do §2º do art. 154A, do CP, de um lado, bem como que inexistente
+
+confissão formal e circunstanciada da parte dele, deixo de cogitar no caso
+
+seja do benefício do art. 89, Lei 9.099/95, seja de ANPP, pois daí descabidos.
+
+SP, 08 de março de 2024.
+
+Luiz Arthur Iughetti Capuzzo
+
+4ª PJCrim da Capital
+
+Avenida Dr. Abraão Ribeiro, 313 (Avenida A - Rua 07 – térreo)
+
+Fones: (11) 3429-6361 e (11) 3429-6362
