@@ -2,12 +2,13 @@
 
 Base processual para um exame cibercriminológico da fraude mediada por tecnologia, construída apenas com processos judiciais. A consulta pública de julgados do tribunal fornece os números de processo, e o Codex (PDPJ) lê as peças. O texto lido vai para o repositório.
 
-Estado em 20/11/2026, à tarde: a fase 1 é o TJSP, e o produto é o máximo de denúncias com a descrição da conduta e a tipificação. Os números-alvo vêm da Consulta de Julgados de 1º Grau do e-SAJ (cjpg), por busca textual (`scripts/cjpg_alvos.py`, roteiro em `docs/RUNBOOK_TJSP.md`). O DataJud deixou de ser a porta de entrada por dois motivos: ficou saturado de 19/11 à tarde até 20/11 (registro em `dados/datajud_disponibilidade_20261119_20.jsonl`), e o piloto mostrou que o TJSP quase não usa os códigos que nomeiam o tipo (0 julgados de ação penal no 15623 contra 1.702 pela expressão "fraude eletrônica"). O censo por código fica como denominador. O recorte TJPA será replanejado depois.
+Estado em 20/11/2026, à noite: a fase 1 (TJSP) tem a amostra de 200 denúncias fechada (INV 36 em censo, CL 50, FE 114), com o texto gravado, a extração por regras feita e validada por codificação manual. O estado, as decisões e os próximos passos estão em `docs/HANDOFF.md`, que é o ponto de partida de qualquer sessão nova. Os números-alvo vieram da Consulta de Julgados de 1º Grau do e-SAJ (cjpg), por busca textual, porque o TJSP quase não usa os códigos TPU que nomeiam o tipo. O DataJud fica como denominador. O recorte TJPA será replanejado depois.
 
 ## Estrutura
 
 | Caminho | Conteúdo |
 | --- | --- |
+| `docs/HANDOFF.md` | Estado da pesquisa, decisões, próximos passos e modo de operar o Codex; ler primeiro |
 | `docs/plano-captura.md` | Plano completo: recorte, achados da sondagem, escada de captura, amostragem, livro de códigos, regra de seleção das peças, dado pessoal, riscos |
 | `docs/linhas-de-pesquisa.md` | Arquitetura das linhas de pesquisa em criminologia informática que o livro de códigos serve |
 | `docs/RUNBOOK.md` | Roteiro da coleta do TJPA (fases, ritmo, IDs do documento do plano) |
@@ -26,6 +27,8 @@ Estado em 20/11/2026, à tarde: a fase 1 é o TJSP, e o produto é o máximo de 
 | `scripts/coleta_janelas.py`, `coleta_censo.py` | Censo por janelas de data (o `coleta_censo.py` depende de ordenar por `_id`, que o cluster passou a recusar) |
 | `scripts/analisa_censo.py`, `amostra.py` | Análise local do censo e sorteio local |
 | `scripts/panorama.py` | Panorama por metadados de TJSP, TJMG, TJBA e TJPA |
+| `scripts/pipe_conversa.py`, `scripts/mk_mapa.sh` | Coleta das denúncias na conversa: IDs da peça a partir do mapa do Codex, gravação do texto, manifesto e status |
+| `scripts/sorteio_complemento_fe.py` | Complemento do sorteio da FE (ordens 120 a 131) |
 | `scripts/extrai_denuncias.py` | Extração por regras das 200 denúncias da amostra TJSP: cota, narrativa, capitulação, dispositivos, indicadores de meio, alertas; saídas e validação em `dados/extracao/LEIAME.md` |
 | `scripts/extrai_inicio.py` | Extração das primeiras páginas de PDF com OCR de reserva e troca de CPF/CNPJ por hash |
 | `scripts/persistente.sh`, `tenta.sh` | Repetição até concluir ou até um prazo |
