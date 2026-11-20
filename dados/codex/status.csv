@@ -133,3 +133,13 @@ numero,estrato,status,docs,chamadas_estimadas,quando,detalhe
 1507790-61.2024.8.26.0602,FE,ok,5,2,2026-11-20T21:19:00+00:00,
 1500103-41.2023.8.26.0449,FE,ok,1,2,2026-11-20T21:19:22+00:00,"sem texto, não lidas: d6802ebb-7a31-53dc-855a-d27e9cf1a83d 96920f42-881b-5b2a-8df4-e6a82ece87ef 4a98a6c8-53c9-51e8-9233-f4c2be26ef89 fffdde23-7155-5517-9221-3c2a1ce77850"
 1500537-47.2025.8.26.0550,FE,ok,5,2,2026-11-20T21:19:51+00:00,denúncia juntada como Petio.pdf
+1501201-64.2024.8.26.0081,FE,ok,4,2,2026-11-20T21:20:33+00:00,
+1500995-27.2025.8.26.0530,FE,ok,7,2,2026-11-20T21:21:07+00:00,
+1507069-80.2026.8.26.0395,FE,sem_peca_inicial,0,2,2026-11-20T21:22:01+00:00,candidata lida não era denúncia: Manifestao_do_MP.pdf
+1504918-07.2023.8.26.0506,FE,sigilo,0,1,2026-11-20T21:22:12+00:00,mapa: acesso indisponível (sigilo)
+1505742-53.2021.8.26.0047,FE,sem_peca_inicial,0,1,2026-11-20T21:22:28+00:00,"denúncia digitalizada: texto indexado só contém carimbo de protocolo, sem OCR"
+1500282-89.2023.8.26.0411,FE,ok,4,2,2026-11-20T21:22:55+00:00,
+1500579-11.2023.8.26.0213,FE,ok,6,2,2026-11-20T21:23:27+00:00,
+1525576-62.2023.8.26.0050,FE,ok,1,2,2026-11-20T21:23:47+00:00,
+1506170-60.2022.8.26.0577,FE,sem_peca_inicial,0,1,2026-11-20T21:23:56+00:00,mapa sem nenhuma peça do MP (só atos do juízo)
+1500819-85.2021.8.26.0272,FE,ok,1,2,2026-11-20T21:24:16+00:00,
