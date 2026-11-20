@@ -1,0 +1,66 @@
+SENTENÇA
+
+Processo Digital nº:	1505966-37.2024.8.26.0224
+Classe – Assunto:	Ação Penal - Procedimento Ordinário - Fato Atípico
+Documento de Origem:	Boletim de Ocorrência - 3054697/2024 - 05º D.P. GUARULHOS
+Autor:	Justiça Pública
+Réu:	MARIANA LOCATELLI PAIXAO
+
+Juiz(a) de Direito: Dr(a). BRUNA MONIELLE PINHEIRO ALVES
+
+Vistos.
+
+O MINISTÉRIO PÚBLICO DO ESTADO DE SÃO PAULO moveu ação penal contra o réu MARIANA LOCATELLI PAIXÃO, como incurso no artigo 154-A, do Código Penal, pois, entre 16/05/2023 e 29/09/2023, na Rua Silvestre Vasconcelos Calmon, n. 51, Sala 103, Vila Pedro Moreira, nesta cidade e comarca de Guarulhos, invadiu dispositivo informático, conectado à rede de computadores, mediante violação indevida de mecanismo de segurança e com o fim de obter, adulterar ou destruir dados ou informações sem autorização expressa ou tácita do titular do dispositivo ou instalar vulnerabilidades para obter vantagem ilícita.
+
+Segundo apurado, à época dos fatos, a acusada ingressou para prestar serviços autônomos de odontologia, na Clínica X Odontologia, desligando-se por espontânea vontade no mês de março de 2023. 
+
+Ocorre que, em 16 maio de 2023, ou seja, após desligar-se da empresa, mesmo sem ter-lhe sido ofertada senha, tão pouco autorização para tanto, MARIANA acessou sistema de cadastro de clientes da clínica, através de um computador externo, para acessar agenda de atendimento de pacientes da clínica odontológica, tendo acesso a informações sigilosas, como dados cadastrais dos pacientes, compreendido como dados pessoais, identificação, telefone, e-mail, plano e valores de tratamento, agendas e fichas clínicas (fls.08/13).
+
+Denúncia inicialmente rejeitada a fls. 76/77.
+
+Porém, após apresentação de recurso ministerial a inicial foi recebida (fls. 150).
+
+A acusada apresentou defesa escrita (fls. 165/172).
+
+Ratificado o recebimento da denúncia às fls. 1186/1188.
+
+Em audiência de instrução a acusada foi interrogado, após serem ouvidas a vítima e uma testemunha de acusação (fls. 1230/1231). 
+
+Em debates, o Ministério Público requereu a improcedência da ação penal ante a atipicidade do fato (fls. 1230/1231). 
+
+A Defesa por sua vez, requereu preliminarmente reconhecimento de nulidades processuais relativas ao acordo de não persecução penal, suspensão condicional do processo, ausência de exame de corpo de delito e legitimidade da representação da vítima
+
+No mérito pugnou pela improcedência da ação penal ante a atipicidade do fato bem como pelo exercício regular de direito. Ainda teceu teses subsidiárias em caso de condenação (fls. 1230/1231).
+
+É o relatório. 
+
+Fundamento e D E C I D O.
+
+Deixo de apreciar as preliminares arguidas pela Defesa por se mostrarem incapazes de infirmar o desfecho judicial ora adotado, tendo em vista o reconhecimento da improcedência da presente ação.
+
+Nesta seara, quanto ao mérito, a ação é improcedente.
+
+A representante do consultório vítima confirmou que MARIANA acessou indevidamente o sistema do consultório: Mariana era cirurgiã dentista no consultório. Ela trabalhou cerca de 04 anos e meio. Ela saiu 09/03/2023, foi o último dia de atendimento dela no consultório. No período entre maio e setembro, ela não trabalhava mais na clínica. Dentro do consultório tem um computador no qual já há login e senha salvos. Nunca foi fornecido login e senha aos funcionários, inclusive Mariana não tinha o login e senha. As provas dos acessos indevidos foram apresentadas pela própria Mariana em um processo trabalhista, incluindo cerca de 390 prints de agendas e dados de pacientes, com registros de acesso ao sistema em datas posteriores ao desligamento. Os acessos não foram feitos no computador da clínica. Ela não entrou na clínica após o desligamento. Nunca autorizou o acesso após o desligamento. Ela fez print do sistema, compartilhou no processo trabalhista, mas não sabe se ela fez alguma alteração no sistema porque ela entrou com seu login. Ela comprova os prints. os prints anexados ao processo trabalhista continham informações sensíveis de vários pacientes, como nomes, prontuários e telefones, inclusive agendas que não pertenciam à Mariana. Não sabe se ela entrou em contato com algum desses pacientes. A clínica teve prejuízo porque utilizou os prints no processo trabalhista. Chegaram a um acordo. O acordo considerou o tempo que ela teria acessado o sistema indevidamente. Quando Mariana trabalhava estava com cinco colaboradores. O sistema é um aplicativo via site. Os prints que realizou era de seu sistema. A senha nunca foi passada para funcionários, pois os computadores já tinham as credenciais salvas, e que Mariana não recebeu login e senha individualmente. É a única representante legal da empresa. Marcos, seu esposo, auxiliava nas atividades da empresa e tinha contato com os colaboradores. Mariana foi quem pediu demissão. Mariana buscava ser reconhecida como CLT, apesar de atuar como prestadora de serviços, e que o valor do processo era elevado devido a essa reivindicação. O valor acordado no processo trabalhista foi de R$ 45.000, mas não se recordava do valor inicial postulado por Mariana.
+
+Da mesma forma a acusada, em Juízo, admitiu que acessou o sistema da empresa vítima, porém o fez para posterior ajuizamento de ação trabalhista: Trabalhou por quase cinco anos na clínica odontológica, atuando como cirurgiã-dentista e responsável técnica, sendo orientada por seu advogado trabalhista, Dr. Marcos, a reunir provas para comprovar vínculo empregatício e horas extras.  Acessou o sistema de agenda da clínica utilizando seu login e senha, fornecidos pela empresa, para tirar prints dos atendimentos realizados, com o objetivo de comprovar seu vínculo empregatício em processo trabalhista. Tinha livre acesso ao sistema durante o período em que trabalhou na clínica, podendo agendar, excluir ou marcar consultas. O acesso era feito tanto no ambiente de trabalho quanto externamente, apenas quando necessário para agendar pacientes de emergência.  Não criou agendas fictícias, não marcou consultas durante após o período em que foi desligada, não entrou em contato com pacientes. Não chegou a pedir a agenda dos atendimentos realizados porque a proprietária não iria fornecer. Jamais pegaria dados de alguém. Não tinha ciência de que não poderia entrar no sistema. Além de dentista também era a responsável técnica da clínica. Na ausência da Erica eventual responsabilização em fiscalização seria sua. Acessava a plataforma fora do ambiente do trabalha. Agendava quando precisava fazer agendamentos de urgência. Erica poderia agendar paciente que não tivesse conhecimento. Tinha que entrar no sistema para verificar a agenda. Saiu da clínica devido a um ambiente insustentável, alegando assédio e situações de desrespeito, incluindo toque indevido por parte de Marcos, marido de Érica, além de mudanças de horário de almoço e conflitos internos. 
+
+A explicação da ré, verossímil e plausível, não está isolada nos autos, e encontra-se em perfeita harmonia com os demais elementos de prova colhidos nos autos.
+
+O depoimento da testemunha Bianca a qual trabalhou no mesmo consultório é coeso e harmônico com a versão apresentada pela acusada em Juízo: Era colega de Mariana da empresa. Realizava agendamentos como secretária, tanto por telefone e quando saiu do consultório, marcava o retorno. Não realizava agendamento de retornos fora da clínica. Seu acesso era somente durante o horário de trabalho. Seu acesso ao sistema era restrito ao horário de trabalho e realizado em computadores já logados, com cada funcionário possuindo login individual. Apenas as doutoras rotativas compartilhavam um login específico. Mariana tinha permissão para acessar a agenda fora do ambiente da clínica, especialmente para casos de urgência ou emergência de pacientes, utilizando seu próprio login. O horário de trabalho era das 8h às 18h, considerado universal para todos os funcionários, embora Mariana e Erica eventualmente permaneciam após o expediente para atendimentos. Saiu antes da Mariana. Saiu da empresa por conta de situações de tratamento hostil por parte de Marcos, marido de Erica, levando à sua dispensa após ter comunicado à Erica intenção de tomar medidas trabalhistas. saiu da empresa em junho de 2021 e não estava empregada durante o período investigado (maio a setembro de 2023), tendo iniciado trabalho em outro local logo após sua saída.  Nunca mais acessou o sistema de informática da clínica após seu desligamento em 2021 e não sabe se houve alguma alteração para acessá-lo.
+Embora tenha restado comprovado o acesso ao sistema sem autorização da acusada, é certo que ela não se valeu do referido acesso para obtenção de vantagem ilícita, elementar do elemento subjetivo específico do tipo penal imputado à ré. 
+
+Ao contrário, foi apurado em instrução probatória nos autos, especialmente em depoimentos colhidos das partes que MARIANA utilizou login próprio somente para tirar “prints” das agendas do sistema do consultório para fins de ajuizamento de ação trabalhista o que foi confirmado pela própria representante da empresa vítima.
+
+Dessa forma indene de dúvida que a conduta da ré é atípica ante a ausência do intuito do acesso ao sistema para obtenção de vantagem ilícita.
+
+Resta comprovada, portanto, a ausência de dolo específico na conduta da acusada, o que torna o fato atípico.
+
+Assim sendo, não se pode afirmar que a ré praticou o delito narrado na denúncia.
+
+Ante o exposto, e atento ao que mais consta dos autos, JULGO IMPROCEDENTE a ação penal e absolvo MARIANA LOCATELLI PAIXÃO, já qualificada, com fulcro no art. 386, III, do Código de Processo Penal.
+
+P.R.I.C.
+
+Guarulhos, 27 de julho de 2026.
+
+DOCUMENTO ASSINADO DIGITALMENTE NOS TERMOS DA LEI 11.419/2006, CONFORME IMPRESSÃO À MARGEM DIREITA
