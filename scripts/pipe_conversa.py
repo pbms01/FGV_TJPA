@@ -39,19 +39,20 @@ if cmd == 'next':
 elif cmd == 'ids':
     s = ler(sys.argv[2]); num = re.search(r'\d{7}-\d{2}\.\d{4}\.\d\.\d{2}\.\d{4}', s).group(0)
     ps = c.pecas_iniciais(s); pul = []
+    # categoria "Peça Inicial" às vezes traz folhas do inquérito junto: havendo denúncia nomeada, fica só ela (e aditamentos),
+    # antes do descarte de partes sem texto, para não trocar a denúncia escaneada por folha nativa do inquérito
+    den = [p for p in ps if re.search(r'Den\w*ncia|Aditamento', p['nome'], re.I)]
+    if den and len(den) < len(ps):
+        pul += [p for p in ps if p not in den]; ps = den
     if any(not p['sem_texto'] for p in ps):
         # parte sem texto do mesmo protocolo de uma parte nativa é página da própria peça (vai por OCR); de outro protocolo, descarta
         nat = {p['pje'].rpartition('_')[0] for p in ps if not p['sem_texto']}
-        pul = [p for p in ps if p['sem_texto'] and p['pje'].rpartition('_')[0] not in nat]; ps = [p for p in ps if p not in pul]
+        pul += [p for p in ps if p['sem_texto'] and p['pje'].rpartition('_')[0] not in nat]; ps = [p for p in ps if p not in pul]
     vis = set(); ded = []
     for p in ps:  # a mesma peça às vezes aparece duas vezes no acervo (mesmo ordinal e protocolo, IDs distintos)
         k = (p['ordinal'], p['pje'])
         (pul if k in vis else ded).append(p); vis.add(k)
     ps = ded
-    # categoria "Peça Inicial" às vezes traz folhas do inquérito junto: havendo denúncia nomeada, fica só ela (e aditamentos)
-    den = [p for p in ps if re.search(r'Den\w*ncia|Aditamento', p['nome'], re.I)]
-    if den and len(den) < len(ps):
-        pul += [p for p in ps if p not in den]; ps = den
     cand = False
     if not ps:
         # reserva: peça do MP mais próxima antes da decisão de recebimento da denúncia
