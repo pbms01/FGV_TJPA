@@ -49,11 +49,23 @@ elif cmd == 'ids':
         nat = {p['pje'].rpartition('_')[0] for p in ps if not p['sem_texto']}
         pul += [p for p in ps if p['sem_texto'] and p['pje'].rpartition('_')[0] not in nat]; ps = [p for p in ps if p not in pul]
     vis = set(); ded = []
-    for p in ps:  # a mesma peça às vezes aparece duas vezes no acervo (mesmo ordinal e protocolo, IDs distintos)
-        k = (p['ordinal'], p['pje'])
-        (pul if k in vis else ded).append(p); vis.add(k)
-    ps = ded
+    # a mesma parte às vezes aparece repetida no acervo (mesmo código PJe, IDs e até ordinais distintos):
+    # fica uma por código PJe, preferindo a de texto nativo à cópia sem texto
+    for p in sorted(ps, key=lambda p: p['sem_texto']):
+        (pul if p['pje'] in vis else ded).append(p); vis.add(p['pje'])
+    ps = sorted(ded, key=lambda p: (p['protocolo'], p['parte']))
     cand = False
+    if not ps:
+        # denúncia nomeada como tal mas classificada fora da categoria Peça Inicial (ex.: "Outros")
+        ent = [m.groups() for m in re.finditer(r'\[(\d+)\] (\S+) \| (Den\w*ncia[^|\n]*) \| ([^\n]*)\n\s+ID: (\S+) \| PJe: (\S+)', s)]
+        vis2 = set(); ent = [e for e in ent if not (e[4] in vis2 or vis2.add(e[4]))]
+        if ent:
+            ps = [{'ordinal': int(x[0]), 'data': x[1], 'nome': x[2], 'id': x[4], 'pje': x[5], 'protocolo': x[5].rpartition('_')[0],
+                   'parte': int(x[5].rpartition('_')[2] or 0) if x[5].rpartition('_')[2].isdigit() else 0,
+                   'sem_texto': 'sem texto' in x[3]} for x in ent]
+            if any(not p['sem_texto'] for p in ps): ps = [p for p in ps if not p['sem_texto']]
+            vis = set(); ps = [p for p in ps if not (p['pje'] in vis or vis.add(p['pje']))]
+            ps.sort(key=lambda p: (p['protocolo'], p['parte']))
     if not ps:
         # reserva: peça do MP mais próxima antes da decisão de recebimento da denúncia
         ent = [m.groups() for m in re.finditer(r'\[(\d+)\] (\S+) \| ([^|\n]+) \| ([^\n]*)\n\s+ID: (\S+) \| PJe: (\S+)(?:\n\s+Mov: ([^\n]*))?', s)]
