@@ -11,9 +11,9 @@ Uso:
 
 Decisões não óbvias:
 - Censo, não amostra: o objetivo da fase é o máximo de denúncias. O tamanho da coleta é o do universo.
-- Sem filtro de classe nem de grau: no TJSP o inquérito vira ação penal sob o mesmo número, e o registro
-  de 2º grau traz a classe original. Filtrar por classe perderia denúncias; a consolidação por número
-  decide depois qual registro serve.
+- Sem filtro de classe nem de grau: o registro de 2º grau traz a classe original sob o mesmo número
+  (visto no Codex em 20/11/2026), e o inquérito pode seguir como ação penal sob o mesmo número (a conferir
+  no censo). Filtrar por classe perderia denúncias; a consolidação por número decide qual registro serve.
 - Só sigilo 0: o conector Codex não abre os sigilosos. Eles são contados à parte, como massa escura.
 - Janelas mensais de ajuizamento, sem ordenação: o cluster recusa ordenar por _id (20/11/2026), o que
   impede o search_after; uma janela que passar do tamanho da página é partida ao meio e refeita.
