@@ -11,7 +11,7 @@
 ## Lacunas
 
 - C21 (MPCE) e C27 (MPSP) são denúncias conhecidas só por notícia; não há peça arquivada.
-- C34, C45, C50 e C73 estão cortados perto de 50 mil caracteres, limite da consulta por termo da CJPG. A consulta por número (coluna `link_cjpg`) devolve a íntegra.
+- C34, C45, C50 e C73 vieram cortados perto de 50 mil caracteres na consulta por termo da CJPG e foram substituídos pela íntegra obtida na consulta por número (coluna `link_cjpg`), conferida pelo mesmo início e pela presença do dispositivo.
 
 ## Recorte e método
 
