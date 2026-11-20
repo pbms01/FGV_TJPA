@@ -40,7 +40,9 @@ elif cmd == 'ids':
     s = ler(sys.argv[2]); num = re.search(r'\d{7}-\d{2}\.\d{4}\.\d\.\d{2}\.\d{4}', s).group(0)
     ps = c.pecas_iniciais(s); pul = []
     if any(not p['sem_texto'] for p in ps):
-        pul = [p for p in ps if p['sem_texto']]; ps = [p for p in ps if not p['sem_texto']]
+        # parte sem texto do mesmo protocolo de uma parte nativa é página da própria peça (vai por OCR); de outro protocolo, descarta
+        nat = {p['pje'].rpartition('_')[0] for p in ps if not p['sem_texto']}
+        pul = [p for p in ps if p['sem_texto'] and p['pje'].rpartition('_')[0] not in nat]; ps = [p for p in ps if p not in pul]
     vis = set(); ded = []
     for p in ps:  # a mesma peça às vezes aparece duas vezes no acervo (mesmo ordinal e protocolo, IDs distintos)
         k = (p['ordinal'], p['pje'])
