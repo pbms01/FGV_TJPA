@@ -8,7 +8,7 @@ A base mede o funil de atrito da criminalidade patrimonial mediada por tecnologi
 
 A unidade de análise é o número CNJ seguido por todas as classes que assume, e não o acórdão isolado. O escopo material do piloto é o estelionato (art. 171 do CP, inclusive o § 2º-A) e a invasão de dispositivo informático (art. 154-A do CP). O furto mediante fraude eletrônica e a via cível de consumo bancário entram numa segunda volta, depois de calibrado o método.
 
-O TJSP, o TJMG e o TJBA entram apenas por metadados, como termo de comparação; a leitura de autos continua restrita ao TJPA. Em 20/11/2026 o recorte TJPA foi posto de lado, e o TJSP passou a ser o alvo da seleção de processos (ver `scripts/sorteio_datajud_tjsp.py`).
+O TJSP, o TJMG e o TJBA entram apenas por metadados, como termo de comparação; a leitura de autos continua restrita ao TJPA. Em 20/11/2026 o recorte TJPA foi posto de lado, e o TJSP passou a ser o alvo da seleção de processos (ver `scripts/sorteio_datajud_tjsp.py`). No TJSP, entram só os códigos que nomeiam o próprio tipo: 11978 (art. 154-A), 15623 (art. 171, § 2º-A) e 15755 (art. 171, § 2º, VII); o furto informático fica fora por não ter código (ver README).
 
 ## O que a sondagem de 19/11/2026 estabeleceu
 

@@ -22,10 +22,22 @@ Estado em 20/11/2026: o recorte TJPA está pausado e o alvo atual é o TJSP. A s
 | `consultas/consulta_datajud_tjsp.json` | As seis consultas exatas que o sorteio do TJSP envia |
 | `dados/` | Contagem por ano do estelionato no TJPA (19/11) e log de disponibilidade da API |
 
+## Recorte do TJSP (decisão de 20/11/2026)
+
+Só entram os assuntos da TPU que nomeiam o próprio tipo, conferidos no SGT versão 05/11/2026:
+
+| Código | Assunto no SGT | Tipo | Janela de ajuizamento |
+| --- | --- | --- | --- |
+| 11978 | Invasão de Dispositivo Informático | art. 154-A CP | 19/11/2016 em diante, partida em 28/05/2021 (Lei 14.155/2021) |
+| 15623 | Fraude Eletrônica | art. 171, § 2º-A, CP | 28/05/2021 em diante, partida em 19/09/2025 (criação do código) |
+| 15755 | Estelionato Mediante Cessão de Conta Laranja | art. 171, § 2º, VII, CP | 04/05/2026 em diante (Lei 15.397/2026) |
+
+Ficam fora o furto informático (art. 155, § 4º-B), sem código próprio e absorvido pelo 3417 Furto Qualificado, e os códigos genéricos de estelionato (3431, 3432, 14692), que não separam o meio digital. 14693, 15624 e 15756 pertencem à árvore de ato infracional.
+
 ## Como gerar a lista de alvos do TJSP
 
 ```bash
-python scripts/sorteio_datajud_tjsp.py                  # 120 alvos (6 células de 20) em alvos_tjsp.csv
+python scripts/sorteio_datajud_tjsp.py                  # até 20 alvos por célula (10 células) em alvos_tjsp.csv
 python scripts/sorteio_datajud_tjsp.py --por-celula 50  # amostra maior
 python scripts/sorteio_datajud_tjsp.py --so-consulta    # só imprime as consultas
 ```
