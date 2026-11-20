@@ -1,0 +1,17 @@
+rodada,indicador,coluna,vp,fp,fn,vn,erros
+r1,whatsapp,m_whatsapp,9,0,0,15,
+r1,pix_pagamento,m_pix,5,3,0,16,INV17+ CL54+ FE108+
+r1,boleto,m_boleto,3,2,0,19,CL14+ FE6+
+r1,falso_parente,m_falso_parente,4,0,0,20,
+r1,falsa_central,m_falsa_central,2,0,0,22,
+r1,venda_falsa,m_venda_falsa,7,0,0,17,
+r1,conta_do_denunciado,m_conta_laranja,16,1,2,5,INV35- CL8- FE83+
+r1,invasao,m_invasao_dispositivo,7,0,0,17,
+r2,whatsapp,m_whatsapp,5,0,1,6,FE14-
+r2,pix_pagamento,m_pix,2,2,0,8,INV28+ CL29+
+r2,boleto,m_boleto,0,0,0,12,
+r2,falso_parente,m_falso_parente,0,0,1,11,CL16-
+r2,falsa_central,m_falsa_central,0,0,1,11,FE26-
+r2,venda_falsa,m_venda_falsa,4,1,0,7,INV28+
+r2,conta_do_denunciado,m_conta_laranja,6,0,2,4,CL50- FE14-
+r2,invasao,m_invasao_dispositivo,3,0,0,9,

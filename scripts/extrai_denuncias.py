@@ -26,6 +26,10 @@ import csv, glob, hashlib, json, os, re, unicodedata
 BASE = "textos/tjsp/denuncias"
 OUT = "dados/extracao"
 TRUNCADOS = set()  # 1503431-80.2021 foi relido pela cópia de 2025 (OCR), completa
+# correções conferidas em outra peça do processo; valem sobre o parser
+CORRECOES = {
+    "1521208-63.2020.8.26.0228": ({"154A": True}, "capitulação diz 155-A; a sentença de 22/09/2022 lê 154-A e §2º"),
+}
 CNJ = r"\d{7}-\d{2}\.\d{4}\.8\.26\.\d{4}"
 
 
@@ -168,9 +172,9 @@ MEIOS = {
     "link_phishing": r"\blink\b|phishing|site falso|p[áa]gina falsa",
     "acesso_remoto_app": r"acesso remoto|anydesk|teamviewer|malware|instal\w+ (de )?(um |o )?(aplicativo|programa|app)|aplicativo (de acesso|malicioso|falso)",
     "emprestimo_consignado": r"empr[ée]stimo|consignad",
-    "falso_parente": r"(passando-se|se passando|se passou|se passar|fazendo-se passar|identific\w*-se como|se identific\w* como|apresent\w*-se como|se apresent\w* como|dissimul\w* ser|fing\w* ser|supostamente enviad\w* por|perfil[^.]{0,30}(foto|nome))[^.]{0,45}(filh|net[oa]|sobrinh|irm[ãa]|m[ãa]e\b|pai\b|parente|prim[oa]|tia\b|tio\b|genro|nora|afilhad)|foto(grafia)? d[oa] (seu |sua )?(filh|net|sobrinh|irm)|(troc|mud)\w* (de |o |seu )?(n[úu]mero|numeral|celular|telefone)",
-    "falsa_central": r"falsa central|central de atendimento|funcion[áa]ri[oa] d[oa] banco|setor de seguran[çc]a|central de seguran[çc]a|gerente",
-    "venda_falsa": r"(venda|anunci)[^.]{0,60}(ve[íi]culo|carro|moto|im[óo]vel|celular|m[óo]ve)|n[ãa]o entreg",
+    "falso_parente": r"(passando-se|se passando|se passou|se passar|fazendo-se passar|se fez passar|identific\w*-se como|se identific\w* como|apresent\w*-se como|se apresent\w* como|dissimul\w* ser|fing\w* ser|supostamente enviad\w* por|perfil[^.]{0,30}(foto|nome))[^.]{0,45}(filh|net[oa]|sobrinh|irm[ãa]|m[ãa]e\b|pai\b|parente|prim[oa]|tia\b|tio\b|genro|nora|afilhad|cunhad|sogr)|foto(grafia)? d[oa] (seu |sua )?(filh|net|sobrinh|irm)|(troc|mud)\w* (de |o |seu )?(n[úu]mero|numeral|celular|telefone)",
+    "falsa_central": r"falsa central|central de atendimento|funcion[áa]ri[oa] d[oa] banco|setor de seguran[çc]a|central de seguran[çc]a|(passando-se|se passando|identific\w*-se) (como |por )?(representante|atendente|funcion[áa]ri)|em nome d[ao] (bv|banco|financeira|institui[çc][ãa]o)|acreditando tratar-se d[ao] (bv|banco|financeira|institui|empresa)",
+    "venda_falsa": r"(anunci\w*|leil[ãa]o|site de vendas|marketplace|\bolx\b)[^.]{0,160}(ve[íi]culo|carro|caminh|moto|autom|im[óo]vel|celular|geladeira|m[óo]ve|eletro|produto|bem\b|bens\b)|(adquirir|compra d[eo]|comprar|negocia[çc][ãa]o d[eo])[^.]{0,80}(ve[íi]culo|carro|caminh|moto|autom|im[óo]vel|celular|geladeira|m[óo]ve|eletro)|n[ãa]o entreg|jamais recebeu o",
     "conta_laranja": r"(cedeu|cedid[oa]|emprest\w+|forne\w+|disponibiliz\w+|vend\w+|alug\w+|repass\w+)[^.]{0,40}(sua |seus? |a )?(conta|dados banc|cart[ãa]o)|conta (banc[áa]ria )?(de|em nome de) terceir|conta laranja|contas? de passagem",
     "invasao_dispositivo": r"invad|acesso (indevido|n[ãa]o autorizado)|sem autoriza[çc][ãa]o do titular",
     "senha_credencial_clonagem": r"senha|credenciais|clon(ou|agem|ad[oa])|token|c[óo]digo de (verifica|seguran|acesso)",
@@ -179,6 +183,8 @@ MEIOS = {
 
 def campos(numero, t, seg):
     n = seg["narrativa"] or t
+    # telefone/WhatsApp e e-mail institucionais do cabeçalho da Promotoria
+    n = re.sub(r"(WhatsApp|Telefone|Tel\.?|Fone)\s*:\s*\(?\d{2}\)?\s*[\d\s-]{8,11}|[\w.]+@mpsp\.mp\.br", " ", n)
     nl = n.lower()
     r = {}
     # valores em reais na narrativa
@@ -197,6 +203,17 @@ def campos(numero, t, seg):
     r["ano_fato"] = m.group(3) if m else ""
     for k, rx in MEIOS.items():
         r["m_" + k] = bool(re.search(rx, nl))
+    # titular da conta recebedora: o denunciado (a lista de MEIOS só pega a cessão narrada)
+    r["m_conta_laranja"] = r["m_conta_laranja"] or bool(
+        re.search(r"conta (banc[áa]ria |corrente )?(de |em nome d[oa] |pertencente (ao|[àa]) )?(titularidade d[oa] )?(denunciad|acusad|indiciad)", nl)
+        or re.search(r"(em sua (pr[óo]pria )?conta|na conta d[oa] (denunciad|acusad))|benefici[áa]ri[oa][^.]{0,60}(denunciad|acusad)", nl)
+        or re.search(r"(conta|chave pix)[^.]{0,80}(titularidade|em nome|pertencente|benefici[áa]ri[oa])[^.]{0,20}(d[aeo]s? )?(ora )?(denunciad[oa]|[A-ZÁÉÍÓÚÂÊÔÃÕÇ]{3,} [A-ZÁÉÍÓÚÂÊÔÃÕÇ]{2,})", n))
+    # violência doméstica e familiar: no INV, boa parte do 154-A é controle da parceira ou ex-parceira.
+    # Menção solta não basta (nome do Anexo de VD no cabeçalho, outro fato, "casa da ex-esposa")
+    r["contexto_vd"] = bool(re.search(r"11\.?340", seg["capitulacao"]) or re.search(
+        r"(contexto|cen[áa]rio|[âa]mbito)( configurador)? de viol[êe]ncia dom[ée]stica|prevalecendo-se de rela[çc][õo]es dom[ée]sticas"
+        r"|rela[çc][ãa]o [íi]ntima de afeto|medidas protetivas|contra sua ex-?\s?\w+|(v[íi]tima|ofendida)[^.]{0,80}sua ex-?\s?(namorad|companheir|espos|mulher|convivente)"
+        r"|sua ex-?\s?(namorad|companheir|espos|mulher|convivente)\w*[^.]{0,40}(v[íi]tima|ofendida)", nl))
     r["vitima_idosa"] = bool(re.search(r"idos[oa]|\b(6\d|7\d|8\d|9\d) anos de idade|estatuto do idoso", nl + seg["capitulacao"].lower()))
     r["coautores_desconhecidos"] = bool(re.search(r"(n[ãa]o|ainda n[ãa]o|at[ée] o momento n[ãa]o) identificad|desconhecid", nl))
     r["vitima_pj"] = bool(re.search(r"empresa|ltda|s\.a\.|s/a\b|pessoa jur[íi]dica", nl))
@@ -231,10 +248,12 @@ def main():
         t, cortado = carrega(numero)
         seg = segmenta(t)
         f = artigos(seg["capitulacao"])
+        corr, nota_corr = CORRECOES.get(numero, ({}, ""))
+        f.update(corr)
         r = {"numero": numero, "estrato": a.get("estrato"), "ordem": a.get("ordem_no_estrato"),
              "lista": a.get("lista"), "peso": a.get("peso"), "comarca": a.get("comarca"),
              "chars_total": len(t), "chars_cota": len(seg["cota"]), "chars_narrativa": len(seg["narrativa"]),
-             "anexo_cortado": cortado}
+             "anexo_cortado": cortado, "correcao_manual": nota_corr}
         r.update({"a_" + k: v for k, v in f.items()})
         r.update(campos(numero, t, seg))
         # tipo pela capitulação (pós-estratificação)

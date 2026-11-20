@@ -1,0 +1,13 @@
+numero,estrato,ordem,contexto,meio_contato,artificio,papel_denunciado,whatsapp,pix_pagamento,boleto,falso_parente,falsa_central,venda_falsa,investimento,conta_do_denunciado,invasao,nota
+1501258-20.2023.8.26.0210,INV,10,institucional,sistema,insercao_dados_falsos,executor,0,0,0,0,0,0,0,0,0,servidor municipal desvia Bolsa Salário com cadastros falsos; 312 e 313-A
+1503254-95.2021.8.26.0348,INV,1,violencia_domestica,presencial,controle_parceira,invasor,0,0,0,0,0,0,0,0,1,perseguição e ameaça; invade o celular tomado da ex-namorada
+1533131-04.2021.8.26.0050,INV,28,patrimonial,presencial,roubo_celular_invasao,misto,0,0,0,0,0,0,0,0,1,roubo com arma e entrega do celular ao invasor; Pix tentado pelo invasor
+1503355-93.2022.8.26.0576,INV,45,institucional,sistema,insider_empresa,executor,0,0,0,0,0,0,0,0,1,empregado furta medicamentos, falsifica notas e adultera sistema da empresa; vítima PJ
+1504271-04.2025.8.26.0389,CL,29,patrimonial,presencial,maquininha,misto,0,0,0,0,0,0,0,1,0,abordagem na rua e duas cobranças em máquina de cartão; um denunciado forneceu a máquina e recebeu os valores
+1509497-13.2020.8.26.0050,CL,50,patrimonial,site,venda_falsa,titular_conta,1,0,0,0,0,1,0,1,0,site de leilão falso; conta recebedora provavelmente do denunciado
+1520144-96.2022.8.26.0050,CL,16,patrimonial,whatsapp,falso_parente,titular_conta,1,1,0,1,0,0,0,1,0,falsa cunhada; quatro titulares de conta; vítima idosa
+1598052-03.2019.8.26.0224,CL,57,patrimonial,whatsapp,venda_falsa,titular_conta,1,0,0,0,0,1,0,1,0,veículo anunciado na OLX; depósitos nas contas dos dois denunciados
+1501811-67.2020.8.26.0050,FE,76,patrimonial,whatsapp,falso_conhecido,titular_conta,1,0,0,0,0,0,0,1,0,WhatsApp clonado de amigo pede dinheiro; contas cedidas
+1500390-66.2022.8.26.0084,FE,14,patrimonial,site,venda_falsa,titular_conta,1,0,0,0,0,1,0,1,0,leilão falso hospedado na Malásia; TED para conta da empresa da denunciada
+1500194-72.2022.8.26.0480,FE,63,patrimonial,whatsapp,venda_falsa,titular_conta,1,1,0,0,0,1,0,1,0,golpe do intermediário na venda de moto; cinco contas abertas com o mesmo documento
+1537439-49.2022.8.26.0050,FE,26,patrimonial,rede_social,falsa_taxa_plataforma,titular_conta,0,0,0,0,1,0,0,1,0,vítima vendedora no Enjoei recebe e-mail falso cobrando taxa

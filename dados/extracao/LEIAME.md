@@ -52,7 +52,7 @@ Duplicatas de denúncia (desmembramento ou renumeração): INV 7 repete INV 2, e
 
 ## Distribuição pela capitulação (sem duplicatas, % ponderado dentro do estrato)
 
-- INV, 34 denúncias: 154-A 28 (82,4%), outro tipo 2, 155 2, lavagem 1, 171 §2º-A 1.
+- INV, 34 denúncias: 154-A 29 (85,3%), outro tipo 2, 155 1, lavagem 1, 171 §2º-A 1.
 - CL, 50: 171 §2º-A 23 (47,3%), 171 sem §2º-A 14 (27,8%), 155 §4º-B 5 (10,7%), 158 2, 180 2, 155 comum 2, lavagem 1, drogas 1. Nenhuma denúncia capitula o 171 §2º, VII.
 - FE, 114: 171 §2º-A 100 (86,3%), 171 sem §2º-A 11 (10,8%), 155 comum 2, 155 §4º-B 1.
 
@@ -62,5 +62,31 @@ A unidade principal é a denúncia, sem as duplicatas, com o peso amostral do pr
 
 ## Pendências
 
-- Codificar manualmente o meio e o papel do denunciado numa subamostra, para medir a precisão das regex `m_*`.
-- Conferir na sentença a capitulação de INV 35 (155-A).
+- Codificar à mão uma segunda subamostra independente se os indicadores forem usados como variável de resultado. Os 12 casos da rodada 2 não bastam para estimar precisão por estrato.
+- A codificação manual de artifício e papel (`codificacao_manual_r*.csv`) cobre 36 denúncias. Estender para o corpus todo exige uma codificação assistida, por leitura caso a caso, porque as regex não distinguem o papel do denunciado (titular da conta, executor ou ambos).
+
+## Validação dos indicadores por codificação manual
+
+Codifiquei à mão 36 denúncias, em duas rodadas: `codificacao_manual_r1.csv` (24 casos, 8 por estrato, semente 20261120) e `codificacao_manual_r2.csv` (12 casos, 4 por estrato, semente 20261121, sem repetir a r1). Para cada caso registrei contexto, meio de contato, artifício, papel do denunciado e oito indicadores binários comparáveis às colunas `m_*`.
+
+As regex foram ajustadas olhando a r1. Por isso, a r1 mede o ajuste, e só a r2 mede o desempenho fora da amostra. A r2 foi medida antes dos dois últimos ajustes, e o resultado está em `validacao_regex.csv`. Em 12 casos, a concordância foi:
+
+| Indicador | Concordância (r2) | Divergências |
+|---|---|---|
+| WhatsApp | 0,92 | FE 14 |
+| Falso parente | 0,92 | CL 16 |
+| Falsa central | 0,92 | FE 26 |
+| Venda falsa | 0,92 | INV 28 |
+| Pix | 0,83 | INV 28, CL 29 |
+| Conta do denunciado | 0,83 | CL 50, FE 14 |
+| Boleto | 1,00 | |
+| Invasão | 1,00 | |
+
+Os ajustes posteriores corrigiram duas dessas falhas:
+
+- a limpeza do telefone da Promotoria no cabeçalho apagava o WhatsApp do golpista quando ele vinha sem dois-pontos (FE 14);
+- "se fez passar por sua cunhada" não casava com a lista de verbos e de parentescos (CL 16).
+
+Os indicadores `m_pix` e `m_boleto` medem menção, não o meio de pagamento da vítima. Eles também disparam com o Pix tentado pelo invasor, com o boleto da compra fraudulenta feita pelo réu e com o extrato transcrito. `m_conta_laranja` deixa escapar a conta recebedora identificada só pelo número.
+
+A leitura também trouxe um achado substantivo. Dentro do INV, uma parte relevante do 154-A não tem fim patrimonial: é controle da parceira ou ex-parceira, com acesso ao celular ou às redes sociais da vítima, em contexto de violência doméstica. A coluna `contexto_vd` exige um contexto de VD narrado ou a Lei 11.340 na capitulação. Menção solta não basta, como o nome do Anexo de VD no cabeçalho, outro fato do réu ou "a casa da ex-esposa". Com essa regra, são 7 das 34 denúncias INV e 5 das 29 capituladas no 154-A. Nos estratos CL e FE não há nenhuma.
