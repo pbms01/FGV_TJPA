@@ -73,10 +73,12 @@ def pecas_iniciais(mapa):
     (no piloto, 3 de 5); por isso se usa a categoria inteira.
     """
     m = re.search(r"\nPe[çc]a Inicial \(\d+ docs?\):\n(.*?)(?:\n\n[^\n]+\(\d+ docs?\):|\n\n=== |\Z)", mapa, re.S)
-    if not m:
-        return []
+    entradas = RE_ENTRADA.findall(m.group(1) + "\n") if m else []
+    # aditamentos da denúncia aparecem em outras categorias ("Outros")
+    ids = {e[4] for e in entradas}
+    entradas += [e for e in RE_ENTRADA.findall(mapa) if re.search(r"Aditamento.*Den", e[2], re.I) and e[4] not in ids and not ids.add(e[4])]
     vistos, partes = set(), []
-    for ordinal, data, nome, resto, uid, pje in RE_ENTRADA.findall(m.group(1) + "\n"):
+    for ordinal, data, nome, resto, uid, pje in entradas:
         if pje.upper().startswith("SG"):          # dossiê de 2º grau
             continue
         chars = re.search(r"(\d+)\s+chars", resto)
