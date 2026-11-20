@@ -40,7 +40,7 @@ O último ponto decorre do caso INV 3 (0001915-31.2023.8.26.0050). A peça salva
 
 INV 22 (1503431-80.2021.8.26.0050) foi relido. O texto nativo do PJe termina na página 16 de 24, e foi substituído pela cópia de 2025 da mesma denúncia (OCR em duas páginas), que é completa. A capitulação imputa o 154-A, §§ 3º e 4º, na redação anterior à Lei 14.155/2021, e o art. 12, §§ 1º e 3º, I, da Lei 9.609/98, em concurso material.
 
-Os 14 alertas FE restantes são imputações reais fora do §2º-A, porque o estrato veio da sentença (CJPG) e não da denúncia. São nove processos no 171 caput (um deles tentado), dois no 171 §4º, dois no furto qualificado comum (um deles com extorsão para o segundo réu) e um no 155 §4º-B contra idoso.
+Os 14 alertas FE restantes são imputações reais fora do §2º-A, porque o estrato veio da sentença (CJPG) e não da denúncia. São dez processos no 171 caput (um deles tentado), um no 171 §4º, dois no furto qualificado comum (um deles com extorsão para o segundo réu) e um no 155 §4º-B contra idoso.
 
 Os seis alertas INV restantes também são imputações reais de outro tipo:
 
