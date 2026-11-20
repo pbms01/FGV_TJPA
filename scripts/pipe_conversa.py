@@ -41,17 +41,23 @@ elif cmd == 'ids':
     ps = c.pecas_iniciais(s); pul = []
     if any(not p['sem_texto'] for p in ps):
         pul = [p for p in ps if p['sem_texto']]; ps = [p for p in ps if not p['sem_texto']]
-    tot = 0
-    for p in ps:
-        m = re.search(r'\[%d\] %s \| [^\n]*?(\d+) chars' % (p['ordinal'], p['data']), s); tot += int(m.group(1)) if m else 2000
-        cand = False
+    vis = set(); ded = []
+    for p in ps:  # a mesma peça às vezes aparece duas vezes no acervo (mesmo ordinal e protocolo, IDs distintos)
+        k = (p['ordinal'], p['pje'])
+        (pul if k in vis else ded).append(p); vis.add(k)
+    ps = ded
+    # categoria "Peça Inicial" às vezes traz folhas do inquérito junto: havendo denúncia nomeada, fica só ela (e aditamentos)
+    den = [p for p in ps if re.search(r'Den\w*ncia|Aditamento', p['nome'], re.I)]
+    if den and len(den) < len(ps):
+        pul += [p for p in ps if p not in den]; ps = den
+    cand = False
     if not ps:
         # reserva: peça do MP mais próxima antes da decisão de recebimento da denúncia
         ent = [m.groups() for m in re.finditer(r'\[(\d+)\] (\S+) \| ([^|\n]+) \| ([^\n]*)\n\s+ID: (\S+) \| PJe: (\S+)(?:\n\s+Mov: ([^\n]*))?', s)]
         rec = [e for e in ent if e[6] and 'Recebida a den' in e[6]]
         if rec:
-            o = int(rec[0][0])
-            cs = [e for e in ent if o - 20 <= int(e[0]) < o and e[5].startswith('PG') and re.search(r'Manifesta[^|]*MP|Manifesta[^|]*Minist|Cota|Peti', e[2])
+            o = min(int(e[0]) for e in rec)
+            cs = [e for e in ent if o - 60 <= int(e[0]) < o and e[5].startswith('PG') and re.search(r'Manifesta[^|]*MP|Manifesta[^|]*Minist|Cota|Peti', e[2])
                   and int((re.search(r'(\d+) chars', e[3]) or [0, 0])[1]) >= 1000]
             if cs:
                 e = max(cs, key=lambda e: int(e[0])); cand = True; proto = e[5].rpartition('_')[0]; vis = set()
@@ -61,8 +67,12 @@ elif cmd == 'ids':
     if not ps:
         status(num, 'sem_peca_inicial', 0, 1); print('SEM PECA INICIAL', num); sys.exit()
     json.dump({'numero': num, 'partes': ps, 'puladas': [p['id'] for p in pul], 'candidata': cand}, open(CUR, 'w'))
+    tot = 0
+    for p in ps:
+        m = re.search(r'\[%d\] %s \| [^\n]*?(\d+) chars' % (p['ordinal'], p['data']), s); tot += int(m.group(1)) if m and int(m.group(1)) else 2000
     if cand: print('CANDIDATA (sem peça inicial no mapa):', ps[0]['ordinal'], ps[0]['nome'], file=sys.stderr)
-    rep = max(1, min(50 // len(ps), math.ceil(75000 / max(tot, 1))))
+    # peça sem texto indexado (OCR) tem tamanho desconhecido: repete o máximo para garantir a persistência do resultado
+    rep = 50 // len(ps) if any(p['sem_texto'] for p in ps) else max(1, min(50 // len(ps), math.ceil(75000 / max(tot, 1))))
     print(num, len(ps), 'partes', tot, 'chars, rep', rep, file=sys.stderr)
     print(json.dumps([p['id'] for p in ps] * rep))
 elif cmd == 'grava':
