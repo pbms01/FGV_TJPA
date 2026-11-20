@@ -1,0 +1,149 @@
+{
+ "gerado": "2026-11-20T18:57:22.080Z",
+ "fonte": "TJSP, Consulta de Julgados de 1º Grau (esaj.tjsp.jus.br/cjpg)",
+ "consultas": [
+  {
+   "rotulo": "FE",
+   "pesquisa_livre": "\"fraude eletrônica\"",
+   "total": 1702,
+   "filtro_classe": "8657,8803,8804 (TPU 283, 10943, 10944)"
+  },
+  {
+   "rotulo": "FE_amp",
+   "pesquisa_livre": "(\"2º-A\" E estelionato) NÃO \"fraude eletrônica\"",
+   "total": 1173,
+   "filtro_classe": "8657,8803,8804 (TPU 283, 10943, 10944)"
+  },
+  {
+   "rotulo": "INV",
+   "pesquisa_livre": "\"invasão de dispositivo informático\"",
+   "total": 80,
+   "filtro_classe": "8657,8803,8804 (TPU 283, 10943, 10944)"
+  },
+  {
+   "rotulo": "CL",
+   "pesquisa_livre": "\"conta laranja\" OU \"contas laranja\" OU \"contas laranjas\" OU \"cessão de conta\" OU \"cessão de contas\"",
+   "total": 364,
+   "filtro_classe": "8657,8803,8804 (TPU 283, 10943, 10944)"
+  }
+ ],
+ "invasao_sem_filtro_de_classe": {
+  "total": 233,
+  "classes": [
+   [
+    "Ação Penal - Procedimento Ordinário",
+    76
+   ],
+   [
+    "Inquérito Policial",
+    67
+   ],
+   [
+    "Procedimento Comum Cível",
+    25
+   ],
+   [
+    "Termo Circunstanciado",
+    25
+   ],
+   [
+    "Representação Criminal/Notícia de Crime",
+    15
+   ],
+   [
+    "Procedimento do Juizado Especial Cível",
+    10
+   ],
+   [
+    "Ação Penal - Procedimento Sumário",
+    4
+   ],
+   [
+    "Crimes de Calúnia, Injúria e Difamação de Competência do Juiz Singular",
+    3
+   ],
+   [
+    "Procedimento Especial da Lei Antitóxicos",
+    1
+   ],
+   [
+    "Crimes de Responsabilidade dos Funcionários Públicos",
+    1
+   ],
+   [
+    "Restauração de Autos Criminal",
+    1
+   ],
+   [
+    "Mandado de Segurança Cível",
+    1
+   ],
+   [
+    "Embargos à Execução",
+    1
+   ],
+   [
+    "Habeas Corpus Criminal",
+    1
+   ],
+   [
+    "Ação Penal de Competência do Júri",
+    1
+   ],
+   [
+    "Tutela Antecipada Antecedente",
+    1
+   ]
+  ],
+  "com154A": [
+   [
+    "Ação Penal - Procedimento Ordinário",
+    45
+   ],
+   [
+    "Inquérito Policial",
+    27
+   ],
+   [
+    "Procedimento Comum Cível",
+    10
+   ],
+   [
+    "Representação Criminal/Notícia de Crime",
+    8
+   ],
+   [
+    "Termo Circunstanciado",
+    5
+   ],
+   [
+    "Procedimento do Juizado Especial Cível",
+    4
+   ],
+   [
+    "Ação Penal - Procedimento Sumário",
+    3
+   ],
+   [
+    "Crimes de Responsabilidade dos Funcionários Públicos",
+    1
+   ],
+   [
+    "Restauração de Autos Criminal",
+    1
+   ],
+   [
+    "Embargos à Execução",
+    1
+   ],
+   [
+    "Habeas Corpus Criminal",
+    1
+   ],
+   [
+    "Tutela Antecipada Antecedente",
+    1
+   ]
+  ]
+ }
+}

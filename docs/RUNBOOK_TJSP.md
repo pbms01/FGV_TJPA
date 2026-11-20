@@ -1,62 +1,106 @@
 # Fase 1: corpus de denúncias do TJSP
 
-Revisão do plano em 20/11/2026. O TJSP vem primeiro, e o produto desta fase é o máximo de denúncias com a descrição da conduta e a tipificação dada pelo Ministério Público. O recorte TJPA fica suspenso e será replanejado depois desta coleta.
+Revisão de 20/11/2026, à tarde. O produto da fase continua o mesmo: o máximo de denúncias do TJSP com a descrição da conduta e a tipificação dada pelo Ministério Público. Muda a porta de entrada. Os números-alvo passam a vir da Consulta de Julgados de 1º Grau do e-SAJ (cjpg), por busca textual, e não mais do DataJud por código de assunto. O DataJud fica como denominador para quando voltar a responder. O recorte TJPA segue suspenso.
 
-## Recorte
+## Por que o cjpg
 
-Assuntos da TPU que nomeiam o próprio tipo, conferidos no SGT versão 05/11/2026, em qualquer classe e grau, só processos públicos (sigilo 0):
+Piloto de 20/11/2026, com filtro de ação penal (classes TPU 283, 10943 e 10944):
 
-| Código | Assunto | Tipo | Janela de ajuizamento |
+| Tipo | Pelo código de assunto | Pela busca textual |
+| --- | --- | --- |
+| Fraude eletrônica (art. 171, § 2º-A) | 15623: 0 julgados | "fraude eletrônica": 1.702 |
+| Invasão de dispositivo (art. 154-A) | 11978: 2 julgados | "invasão de dispositivo informático": 80 |
+| Conta laranja (art. 171, § 2º, VII) | 15755: não existe na árvore do cjpg | variantes de "conta laranja" e "cessão de conta": 364 |
+
+As denúncias por art. 171, § 2º-A estão cadastradas no assunto genérico Estelionato (3431). O código TPU que nomeia o tipo quase não é usado no 1º grau do TJSP, de modo que o recorte por código perderia praticamente todo o fenômeno. A busca pelo texto da imputação o alcança e casa com o objeto da fase. O dado sobre o desuso do código é ele próprio um achado sobre a visibilidade do tipo (ver `claude/quadro-visibilidade-tpu-lei-14155.md` no Project).
+
+## Consultas
+
+Todas com filtro de classe `8657,8803,8804` (código interno do cjpg; a cadeia de cada nó traz o TPU: 283 ordinário, 10943 sumário, 10944 sumaríssimo).
+
+| Rótulo | Pesquisa livre | Total em 20/11 | Observação |
 | --- | --- | --- | --- |
-| 11978 | Invasão de Dispositivo Informático | art. 154-A CP | desde 19/11/2016 |
-| 15623 | Fraude Eletrônica | art. 171, § 2º-A, CP | desde 28/05/2021 (vigência do tipo; o código é de 19/09/2025) |
-| 15755 | Estelionato Mediante Cessão de Conta Laranja | art. 171, § 2º, VII, CP | desde 04/05/2026 |
+| FE | `"fraude eletrônica"` | 1.702 | Também casa furto mediante fraude eletrônica (art. 155, § 4º-B), que está fora do recorte; separar pelo indicador do § 2º-A |
+| FE_amp | `"2º-A" E estelionato` | 3.240 | Amplia a FE; o incremento real ainda não foi medido. O piloto rodou a variante `("2º-A" E estelionato) NÃO "fraude eletrônica"` (1.173), mas o NÃO não excluiu a frase e as 20 primeiras linhas coincidiram com a FE; por isso a versão final dispensa o NÃO e deduplica no consolidado |
+| INV | `"invasão de dispositivo informático"` | 80 | Só metade das sentenças do piloto cita o art. 154-A; não usar `"dispositivo informático"`, que puxa o furto do art. 155, § 4º-B |
+| CL | `"conta laranja" OU "contas laranja" OU "contas laranjas" OU "cessão de conta" OU "cessão de contas"` | 364 | Pega a conduta em qualquer período; a Lei 15.397/2026 (vigente desde 04/05/2026) separa os casos pela data do fato, a apurar na denúncia |
 
-Censo, não amostra. Ficam fora o furto informático (sem código próprio) e os códigos genéricos de estelionato.
+Regras de redação das consultas: o índice quebra o número do artigo (`"154-A"` casou "pág. 154" e devolveu 3.723 resultados dominados por tráfico), então se usa o nome do tipo ou expressões da narrativa, nunca o dispositivo sozinho. A palavra "denúncia" não ajuda a filtrar, porque casa também "denúncia de golpe"; o filtro de classe faz esse papel.
 
-## Passo 1 · censo no DataJud (zero token)
+## Universo e vieses
 
-    python scripts/censo_denuncias_tjsp.py
+O cjpg só lista processo com sentença de 1º grau publicada. O universo passa a ser o das ações penais sentenciadas, e ficam de fora os processos em curso e os que correm em segredo de justiça. O efeito é maior nos casos recentes, sobretudo na conta laranja posterior a maio de 2026. Quando o DataJud voltar, o censo por código (`scripts/censo_denuncias_tjsp.py`) mede o universo codificado e serve de comparação.
 
-Grava `censo_tjsp.jsonl` (registros brutos, com movimentos resumidos) e `numeros_tjsp.csv` (um número por linha, já ordenado: primeiro os que têm movimento de denúncia, depois ações penais sem esse movimento, depois o resto). Retoma das janelas feitas se cair. Rodar quando a API pública responder; em 19 e 20/11/2026 ela esteve saturada.
+Na invasão, a busca sem filtro de classe devolveu 233 julgados: 80 ações penais (48 citam o art. 154-A), 67 inquéritos policiais (27 citam o 154-A, quase sempre arquivamentos), 25 termos circunstanciados, 15 representações criminais e ações cíveis de indenização. Os arquivamentos ficam fora do corpus de denúncias, mas servem à linha do funil de atrito e estão listados em `dados/cjpg/piloto_totais_20261120.json`.
+
+## Passo 1 · números-alvo pelo cjpg (zero token)
+
+Duas vias, com as mesmas regras e os mesmos indicadores.
+
+Via A, script Python (só biblioteca padrão), para rodar no seu computador:
+
+    python scripts/cjpg_alvos.py                  # as quatro consultas, todas as páginas
+    python scripts/cjpg_alvos.py --so INV CL      # só algumas
+    python scripts/cjpg_alvos.py --max-paginas 3  # piloto
+    python scripts/cjpg_alvos.py --texto          # grava também o inteiro teor da sentença
+
+Grava `dados/cjpg/bruto/<rótulo>.jsonl` (uma linha por resultado, retomável pelas páginas já feitas) e consolida em `alvos_cjpg_tjsp.csv`, um número por linha com as consultas que o trouxeram. Pausa de 3 s entre requisições, um único fluxo, sem disfarce de navegador. Se a resposta trouxer CAPTCHA ou erro repetido, para e registra; não há tentativa de contornar barreira. Nesta sessão de 20/11, o acesso automatizado a partir do workspace foi recusado pelo classificador de segurança, por isso a via A fica para o seu computador ou para uma autorização expressa.
+
+Via B, navegador (foi a do piloto): abrir `https://esaj.tjsp.jus.br/cjpg/`, colar `scripts/cjpg_navegador.js` na aba e usar `cjpg.iniciar('FE')`, `cjpg.estado()` e `cjpg.lote(0, 300)`. Uma consulta por vez, porque a paginação depende da última consulta da sessão. Com o painel do navegador oculto, os temporizadores desaceleram (no piloto, cerca de 10 s por página).
+
+Como o cjpg funciona por dentro: `GET /cjpg/pesquisar.do` com os campos do formulário abre a consulta na sessão, e `GET /cjpg/trocarDePagina.do?pagina=N` devolve cada página de 10 resultados, o mesmo que o botão da página faz. A listagem já traz, oculto, o inteiro teor de cada sentença; os indicadores são calculados sobre ele.
+
+Indicadores por resultado: `m_171_2A`, `m_fraude_eletronica`, `m_154A`, `m_laranja`, `m_imputacao` (achou o trecho "foi denunciado", "ofereceu denúncia", "incurso nas penas"), `condena` e `absolve` (no dispositivo), e `imputacao` (420 caracteres a partir desse trecho).
 
 ## Passo 2 · localizar a denúncia no Codex (sessão com o conector)
 
-Na ordem de `numeros_tjsp.csv`, ritmo de até 15 chamadas por minuto:
+Na ordem de `alvos_cjpg_tjsp.csv`, priorizando as linhas com o indicador do tipo verdadeiro, em ritmo de até 15 chamadas por minuto:
 
-1. `pdpj_list_movimentos` com `tipo_filter` "Denúncia": o movimento de oferecimento ou recebimento costuma trazer o documento vinculado.
-2. Sem vínculo, `pdpj_mapa_documentos`. No e-SAJ do TJSP os nomes são genéricos ("Petição.pdf", "Documento_1.pdf"), então vale a leitura mínima: `pdpj_read_documento` com `max_chars` 1500 nas candidatas (primeiras peças do MP depois da distribuição da ação penal), só para reconhecer a denúncia ou o aditamento.
-3. Se o conector devolver só o dossiê de 2º grau (ele não escolhe grau, e o registro de apelação traz poucas peças), o acórdão entra como fonte de reserva: costuma resumir a narrativa da denúncia e a capitulação. Marcar como tal.
-4. Peça sem texto indexado não se lê: escolhe-se pelo vínculo ou pela posição e marca-se para confirmação no download.
+1. `pdpj_mapa_documentos`: no caso conferido no piloto (1503319-14.2023.8.26.0577), a denúncia veio como "Peça Inicial (provável)", em três documentos de uma página ("Denncia.pdf", cerca de 2 mil caracteres cada), com texto nativo do PJe.
+2. Se o mapa não apontar a peça inicial, `pdpj_list_movimentos` com `tipo_filter` "Denúncia" e leitura mínima (`max_chars` 1500) das primeiras peças do MP depois do recebimento.
+3. Se o conector devolver só o dossiê de 2º grau, o acórdão entra como fonte de reserva, marcado como tal.
+4. O relatório da sentença do cjpg costuma transcrever a imputação e o resumo dos fatos; serve de conferência e de reserva quando a denúncia não abrir.
 
-Gravar `alvos_denuncias_tjsp.csv`, sem nomes e sem URL: ordem, numero, codigos, documento_id, papel (denuncia, aditamento, acordao_reserva), texto_indexado, paginas, chars, leitura_minima, motivo (quando não houver alvo).
+No caso conferido, a denúncia cita o inquérito pelo mesmo número da ação penal, o que confirma, ao menos aí, a continuidade do número que o censo por DataJud tratava como "a conferir".
 
-## Passo 3 · download e extração (sessão no app desktop)
+## Passo 3 · gravar o texto lido (sem baixar a peça)
 
-1. Por alvo, `pdpj_get_documento_url`, download imediato, hash SHA-256, manifesto sem a URL, pausa a cada 20 downloads.
-2. Texto: `pdftotext`; OCR (`tesseract -l por`) só nas páginas com menos de 500 caracteres.
-3. Pseudonimização antes de gravar o texto: CPF e CNPJ viram hash com sal (`scripts/extrai_inicio.py`); nomes de denunciados e vítimas viram papéis (DENUNCIADO 1, VÍTIMA 1).
-4. Dois campos por denúncia: a narrativa do fato (do início do relato até o pedido) e a capitulação (o trecho "incurso nas penas do art. ..." e os dispositivos citados).
+Decisão de 20/11/2026: não se pseudonimiza e não se baixa a peça; grava-se no repositório só o texto lido pelo Codex.
 
-PDFs e textos brutos ficam no computador, fora do repositório.
+1. `textos/tjsp/denuncias/<numero>/<documento_id>.txt`, um arquivo por documento, na ordem das páginas, com o cabeçalho de procedência que o Codex devolve (texto nativo, OCR ou parser).
+2. Manifesto `textos/tjsp/manifesto.csv`: numero, documento_id, papel (denuncia, aditamento, acordao_reserva, sentenca_cjpg), procedencia, chars, sha256 do texto gravado, data da leitura.
+3. A linha `Original:` que o Codex devolve traz um link com token de acesso: nunca entra em arquivo, manifesto ou commit.
+4. O inteiro teor das sentenças do cjpg, quando gravado (`--texto`), vai para `textos/tjsp/sentencas_cjpg/`.
+
+Em aberto: máscara mínima de CPF, RG, telefone e endereço nos textos gravados, que recomendei e aguarda sua decisão.
 
 ## Produto: `denuncias_tjsp.csv`
 
 | Campo | Conteúdo |
 | --- | --- |
-| numero | número CNJ |
-| codigo_tpu | 11978, 15623 ou 15755 (pode haver mais de um) |
-| classe, orgao, ajuizamento | do DataJud |
-| data_denuncia | do movimento ou do texto |
-| narrativa | descrição da conduta, pseudonimizada |
-| capitulacao_texto | trecho literal da tipificação |
+| numero | número CNJ (dígito verificador conferido) |
+| consultas | rótulos do cjpg que trouxeram o número (FE, FE_amp, INV, CL) |
+| classe, assunto, comarca, vara | do cjpg |
+| data_sentenca | data de disponibilização no cjpg |
+| data_denuncia | do texto ou do movimento |
+| narrativa | descrição da conduta, do início do relato até o pedido |
+| capitulacao_texto | trecho literal da tipificação na denúncia |
 | dispositivos | lista normalizada (ex.: CP 171 § 2º-A; CP 154-A § 3º; CP 288) |
-| fonte | denuncia, aditamento ou acordao_reserva |
-| extracao | texto nativo ou OCR |
-| hash_pdf | SHA-256 do arquivo |
+| capitulacao_sentenca | tipificação acolhida na sentença, para medir a distância entre denúncia e sentença |
+| resultado | condenação, absolvição, parcial (indicadores do cjpg, conferidos na leitura) |
+| fonte | denuncia, aditamento, acordao_reserva ou sentenca_cjpg |
+| procedencia | texto nativo ou OCR |
 
-## Achados que condicionam a fase (sondagem de 20/11/2026)
+## Achados do piloto (20/11/2026)
 
-- O Codex abre documentos do e-SAJ do TJSP, de 1º e de 2º grau, mas os nomes dos arquivos não dizem o que são e as peças recentes vêm sem texto indexado.
-- Um número com apelação pode abrir no Codex só com o acórdão.
-- O volume é desconhecido até o censo rodar; no TJPA o 15623 não aparece em processo algum, e se o TJSP também quase não o usa, a fraude eletrônica terá poucas denúncias, o que já é um achado sobre a visibilidade do tipo (ver `claude/quadro-visibilidade-tpu-lei-14155.md` no Project).
+- 110 linhas, 79 números distintos, todos com dígito verificador válido (`dados/cjpg/piloto_cjpg_tjsp_20261120.csv`).
+- FE: o § 2º-A aparece em 23 de 30 sentenças; 3 das 30 estão em assunto de furto. Algumas sentenças trazem denúncia por art. 171, caput, e discutem a fraude eletrônica depois, o que torna útil comparar a capitulação da denúncia com a da sentença.
+- CL: "laranja" ou "cessão de conta" em 30 de 30; o § 2º-A em 19.
+- INV: o art. 154-A citado em 15 de 30; o resto são sentenças de outros crimes que mencionam a expressão.
+- O indicador de condenação (busca de "condeno" ou "julgo procedente" no fim da sentença, ainda sem conferência manual) aparece em 20 de 30 sentenças na FE e em 22 de 30 na CL.
+
+## Pendências
+
+- Rodar a coleta completa (cerca de 5,4 mil resultados brutos somando as quatro consultas, antes de deduplicar): via A no seu computador ou via B no navegador, com o painel visível.
+- Medir o incremento real da FE_amp sobre a FE depois de deduplicar.
+- Censo por código no DataJud, como denominador, quando a API voltar.
