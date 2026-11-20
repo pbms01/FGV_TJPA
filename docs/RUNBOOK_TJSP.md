@@ -63,6 +63,22 @@ Na ordem de `alvos_cjpg_tjsp.csv`, priorizando as linhas com o indicador do tipo
 
 No caso conferido, a denúncia cita o inquérito pelo mesmo número da ação penal, o que confirma, ao menos aí, a continuidade do número que o censo por DataJud tratava como "a conferir".
 
+### Dimensionamento do Codex (20/11/2026)
+
+Limites segundo a skill do conector sincronizada nesta sessão (a página publicada não pôde ser conferida): 20 chamadas reais por minuto e 300 por hora por chave; metade disso (10 por minuto, 150 por hora) para fluxos automatizados; teto global de 130 por minuto somando todos os usuários; 30 perguntas por dia em `pdpj_perguntar_processo`; leitura em lote de até 50 documentos por 1 chamada (mais 1 por documento que exija OCR); chamadas sequenciais, nunca em paralelo; diante de "aguarde Xs", esperar e não repetir.
+
+Medições em três processos do piloto:
+
+| Processo | Documentos | O que se observou |
+| --- | --- | --- |
+| 1503319-14.2023.8.26.0577 | 397 | mapa com 65,8 KB (gravado em arquivo pela sessão); denúncia em 3 partes, 6,3 KB; denúncia e sentença em lote, 30 KB, inteiro no contexto |
+| 1501939-55.2025.8.26.0004 | 259 | mapa com 40 KB, inteiro no contexto; denúncia em 5 partes, mas o destaque "peça inicial provável" listou só 3; `pdpj_analise_essencial` com 5 vagas leu 2 páginas da denúncia e 3 despachos |
+| 1505779-08.2022.8.26.0577 | não abriu | sigilo no Codex, embora a sentença seja pública no cjpg |
+
+Conclusões: (1) rota por processo é mapa (1 chamada) e leitura em lote de todas as partes da categoria "Peça Inicial" do 1º grau (1 chamada), cerca de 2 chamadas reais; (2) não usar `pdpj_perguntar_processo` (30 por dia), `pdpj_analise_essencial` (gasta vagas com despachos) nem `pdpj_list_movimentos` com filtro "Denúncia" (devolve só a decisão de recebimento); (3) a sentença vem do cjpg e não passa pelo Codex; (4) a perda por sigilo no Codex pode não ser aleatória (a invasão tende a correr em segredo), então é registrada como variável e reposta pela reserva do mesmo estrato.
+
+Orçamento para 200 denúncias, com perda planejada de 25%: cerca de 270 processos e 540 chamadas reais, ou seja, cerca de 3,6 horas na metade da cota (150 por hora), em blocos de até 70 processos por hora. No contexto de uma conversa, cada processo custa de 30 a 80 KB (mapa de 15 a 65 KB, à razão de cerca de 155 bytes por documento, mais a denúncia lida e regravada), o que não cabe numa sessão; daí a coleta por script fora do contexto ou em blocos isolados.
+
 ## Passo 3 · gravar o texto lido (sem baixar a peça)
 
 Decisão de 20/11/2026: não se pseudonimiza e não se baixa a peça; grava-se no repositório só o texto lido pelo Codex.
