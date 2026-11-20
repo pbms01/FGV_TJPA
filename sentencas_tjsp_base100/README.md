@@ -7,6 +7,8 @@
 - `sentencas/`: 128 arquivos de texto, um por sentença, nomeados `C###_<número CNJ>.txt`. O texto é o publicado na CJPG, extraído do HTML da consulta, sem edição.
 - `indice.csv`: uma linha por caso (C01 a C130), com família, processo, órgão, data da decisão, data do fato, arquivo, tamanho, indicação de texto completo e link de consulta por número na CJPG.
 - `fichas.jsonl`: as 130 fichas de análise (conduta, capitulação, solução, fundamento, pena, divergência e ponto para análise), a mesma base da planilha.
+- `planilha/`: exportação em CSV das três abas da planilha de trabalho (Casos, Método, Reserva e contrastes), que é a versão de referência das fichas.
+- `coleta/`: metadados da triagem (2.081 sentenças triadas, 586 na fila, processos usados e descartados) e os scripts da coleta, da triagem, da leitura e da conferência; o corpus de texto integral não está incluído.
 
 ## Lacunas
 
