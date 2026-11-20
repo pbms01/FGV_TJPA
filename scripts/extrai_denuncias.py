@@ -25,7 +25,7 @@ import csv, glob, hashlib, json, os, re, unicodedata
 
 BASE = "textos/tjsp/denuncias"
 OUT = "dados/extracao"
-TRUNCADOS = {"1503431-80.2021.8.26.0050"}  # leitura do Codex cortada na pág. 16 de 24
+TRUNCADOS = set()  # 1503431-80.2021 foi relido pela cópia de 2025 (OCR), completa
 CNJ = r"\d{7}-\d{2}\.\d{4}\.8\.26\.\d{4}"
 
 
@@ -40,13 +40,21 @@ def carrega(numero):
         t = re.sub(r"\[Texto nativo do PJe\]|\[OCR[^\]]*\]", " ", t)
         partes.append(t)
     t = re.sub(r"\s+", " ", " ".join(partes)).strip()
+    # rodapé de conferência do e-SAJ e carimbo do STJ, repetidos em cada página das cópias
+    # digitalizadas; partem a capitulação ao meio quando ela cruza a página
+    t = re.sub(r"Este documento é cópia do original, assinado digitalmente.{0,500}?fls\.\s*\d+", " ", t)
+    t = re.sub(r"\(e-STJ Fl\.\s*\d+\)|Documento recebido eletronicamente da origem", " ", t)
+    t = re.sub(r"\s+", " ", t).strip()
     # corte de peça de outro processo anexada
+    # o número dos autos citado na abertura da peça vale como próprio: processos redistribuídos
+    # ou renumerados trazem a denúncia com o número de origem (ex.: INV 3)
+    proprios = {numero, *re.findall(CNJ, t[:2000])}
     for m in re.finditer(r"EXCELENT[ÍI]SSIM", t):
         if m.start() < 2000:
             continue
         janela = t[m.start(): m.start() + 600]
-        outros = [n for n in re.findall(CNJ, janela) if n != numero]
-        if outros and numero not in janela:
+        outros = [n for n in re.findall(CNJ, janela) if n not in proprios]
+        if outros and not proprios & set(re.findall(CNJ, janela)):
             return t[: m.start()].strip(), True
     return t, False
 
@@ -118,15 +126,16 @@ def artigos(cap):
     c = c.replace("º", "o").replace("°", "o").replace("ª", "a")
     f = {}
     f["171"] = bool(re.search(r"\b171\b", c))
-    f["171_2A"] = bool(re.search(r"171[^0-9]{0,40}(§|par|paragrafo|\$|p\.)[^0-9]{0,15}2\s*o?\s*-?\s*a\b", c)
-                       or re.search(r"\b2\s*o?\s*-\s*a\b", c))
+    # variantes vistas: "§ 2º-A", "§ 2ª-A", "§2.º-A", "§ 2-Aº", "§ 2º- <cabeçalho de página> A"
+    f["171_2A"] = bool(re.search(r"171[^0-9]{0,40}(§|par|paragrafo|\$|p\.)[^0-9]{0,15}2\s*[oa.]*\s*-\s*(endereco:.{0,300}?\s)?ao?\b", c)
+                       or re.search(r"\b2\s*[oa.]*\s*-\s*ao?\b", c))
     f["171_2_VII"] = bool(re.search(r"171[^.;]{0,60}2\s*o?[^-a0-9][^.;]{0,25}\bvii\b", c))
     f["171_4"] = bool(re.search(r"171[^.;]{0,80}(§§?|par)[^.;]{0,30}\b4\s*o?\b|\b4\s*o?\s*\(?\s*(idos|vitima idos)", c)
                       or re.search(r"e\s*(§\s*)?4\s*o?\s*,?\s*(do|ambos|todos|,|\()", c))
     f["171_caput"] = bool(re.search(r"171\s*,?\s*(\"|“)?caput", c)) and not f["171_2A"]
     f["154A"] = bool(re.search(r"154\s*[-–]?\s*a\b", c))
     f["155"] = bool(re.search(r"\b155\b", c))
-    f["155_4B"] = bool(re.search(r"155[^.;]{0,40}4\s*o?\s*-\s*b", c))
+    f["155_4B"] = bool(re.search(r"155[^.;]{0,90}4\s*o?\s*-?\s*b\b", c))
     f["180"] = bool(re.search(r"\b180\b", c))
     f["147"] = bool(re.search(r"\b147\b", c))
     f["313A"] = bool(re.search(r"313\s*-\s*a", c))
