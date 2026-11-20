@@ -31,7 +31,7 @@ BIN = COLS[7:16]
 NOVOS = {
     "contexto": {"relacional", "outro"},
     "meio_contato": {"outro"},
-    "artificio": {"devassa_privacidade", "taxa_antecipada", "extorsao_transferencia", "outro"},
+    "artificio": {"devassa_privacidade", "taxa_antecipada", "extorsao_transferencia", "falso_relacionamento", "outro"},
     "papel_denunciado": set(),
 }
 
