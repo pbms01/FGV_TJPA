@@ -44,6 +44,9 @@ elif cmd == 'ids':
     den = [p for p in ps if re.search(r'Den\w*ncia|Aditamento', p['nome'], re.I)]
     if den and len(den) < len(ps):
         pul += [p for p in ps if p not in den]; ps = den
+    # sem denúncia nomeada, peças do inquérito na categoria não servem: esvazia para cair na busca por nome e na candidata do MP
+    if not den and ps and all(re.search(r'Inqu|Portaria|Boletim|DELPOL|Relat', p['nome'], re.I) for p in ps):
+        pul += ps; ps = []
     if any(not p['sem_texto'] for p in ps):
         # parte sem texto do mesmo protocolo de uma parte nativa é página da própria peça (vai por OCR); de outro protocolo, descarta
         nat = {p['pje'].rpartition('_')[0] for p in ps if not p['sem_texto']}
