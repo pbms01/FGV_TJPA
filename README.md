@@ -2,7 +2,7 @@
 
 Base processual para um exame cibercriminológico do funil de atrito da fraude mediada por tecnologia, construída apenas com processos judiciais: o DataJud (API pública do CNJ) define o universo e sorteia a amostra, o Codex (PDPJ) localiza as peças, e uma sessão local baixa, extrai, pseudonimiza e codifica.
 
-Estado em 20/11/2026: o recorte TJPA está pausado e o alvo atual é o TJSP. A seleção dos números de processo está pronta em `scripts/sorteio_datajud_tjsp.py`, mas ainda não rodou contra o servidor, porque a API pública do DataJud ficou saturada de 19/11 à tarde até 20/11 (registro em `dados/datajud_disponibilidade_20261119_20.jsonl`).
+Estado em 20/11/2026 (revisão do plano): a fase 1 é o TJSP, e o produto é o máximo de denúncias com a descrição da conduta e a tipificação, por censo dos três códigos que nomeiam o tipo (roteiro em `docs/RUNBOOK_TJSP.md`, censo em `scripts/censo_denuncias_tjsp.py`). O recorte TJPA será replanejado depois. O alvo atual é o TJSP. A seleção dos números de processo está pronta em `scripts/sorteio_datajud_tjsp.py`, mas ainda não rodou contra o servidor, porque a API pública do DataJud ficou saturada de 19/11 à tarde até 20/11 (registro em `dados/datajud_disponibilidade_20261119_20.jsonl`).
 
 ## Estrutura
 
@@ -11,6 +11,8 @@ Estado em 20/11/2026: o recorte TJPA está pausado e o alvo atual é o TJSP. A s
 | `docs/plano-captura.md` | Plano completo: recorte, achados da sondagem, escada de captura, amostragem, livro de códigos, regra de seleção das peças, dado pessoal, riscos |
 | `docs/linhas-de-pesquisa.md` | Arquitetura das linhas de pesquisa em criminologia informática que o livro de códigos serve |
 | `docs/RUNBOOK.md` | Roteiro da coleta do TJPA (fases, ritmo, IDs do documento do plano) |
+| `docs/RUNBOOK_TJSP.md` | Fase 1: censo, localização da denúncia no Codex, download e extração, campos do corpus |
+| `scripts/censo_denuncias_tjsp.py` | Censo DataJud dos códigos 11978, 15623 e 15755 no TJSP, consolidado por número e ordenado pela presença de movimento de denúncia |
 | `scripts/sorteio_datajud_tjsp.py` | Seleção dos processos-alvo do TJSP: sorteio estratificado no servidor, autônomo, só biblioteca padrão |
 | `scripts/sorteio_servidor.py` | Mesmo sorteio para o TJPA, sobre `datajud.py` |
 | `scripts/datajud.py` | Cliente mínimo com rejeição de resposta parcial e registro de cada tentativa |
