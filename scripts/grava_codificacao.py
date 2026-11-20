@@ -29,9 +29,9 @@ BIN = COLS[7:16]
 
 # Categorias novas da codificação assistida; cada uma precisa de nota no LEIAME.
 NOVOS = {
-    "contexto": {"relacional"},
+    "contexto": {"relacional", "outro"},
     "meio_contato": {"outro"},
-    "artificio": {"devassa_privacidade", "outro"},
+    "artificio": {"devassa_privacidade", "taxa_antecipada", "extorsao_transferencia", "outro"},
     "papel_denunciado": set(),
 }
 
