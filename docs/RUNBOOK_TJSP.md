@@ -75,6 +75,22 @@ Execução: colar `scripts/cjpg_sorteio.js` numa aba do cjpg, `sorteio.iniciar()
 
 O script chama o endpoint MCP da TecJustica direto, em sequência, uma chamada a cada 6,5 s e no máximo 140 chamadas estimadas por hora. Por processo: mapa de documentos, depois leitura em lote de todas as partes da categoria "Peça Inicial" do 1º grau (descarta o dossiê de 2º grau e as cópias redistribuídas). Processa a invasão inteira, a conta laranja até 50 e a fraude até completar 200. Registra `sigilo`, `sem_peca_inicial` e `sem_texto` em `dados/codex/status.csv`; a reserva do mesmo estrato repõe a perda. Grava o texto em `textos/tjsp/denuncias/<numero>/` e o manifesto em `textos/tjsp/manifesto.csv`, sem a linha `Original:`.
 
+### Bloco piloto (20/11/2026, 10 primeiros da invasão, pelo conector desta conversa)
+
+| Medida | Resultado |
+| --- | --- |
+| Processos | 10 em cerca de 6 minutos de chamadas; 19 chamadas reais estimadas |
+| Denúncias obtidas | 9; 1 sem peça inicial (processo físico de 2010, digitalizado só a partir de 2015) |
+| Sigilo | nenhum neste bloco |
+| Mapa | de 120 a 2.826 documentos; acima de cerca de 50 KB vai para arquivo, abaixo entra no contexto |
+| Denúncia | de 1 a 5 partes, de 5,8 mil a 117 mil caracteres, todas em texto nativo |
+| Desmembramento | 2 processos de Presidente Prudente com a mesma denúncia (as 4 partes com hash idêntico) |
+| Precisão do estrato INV | 7 das 9 denúncias imputam o art. 154-A; 1 imputa o art. 171, § 2º-A, e 1 os arts. 312 e 313-A (a sentença é que menciona o 154-A) |
+
+Consequências: (1) o estrato definitivo vem da capitulação da denúncia, não da sentença; o estrato do sorteio fica como estrato de desenho, e a análise usa pós-estratificação; (2) a unidade de análise precisa ser decidida entre processo e denúncia, porque uma denúncia pode aparecer em mais de um processo sorteado; (3) processos anteriores à digitalização ficam sem denúncia no Codex, e o relatório da sentença do cjpg é a fonte de reserva; (4) havendo parte em texto nativo, as cópias sem texto indexado não são lidas (evita OCR); (5) o espaçamento do texto é normalizado (recuo e linhas em branco), sem tocar no conteúdo.
+
+Técnica usada só na conversa, para o texto não passar pelo contexto: pedir na leitura em lote o mesmo documento repetido, que sai do cache do servidor, até a resposta passar de cerca de 75 KB e ser gravada em arquivo pela sessão. O script no computador do usuário não precisa disso.
+
 ## Passo 2 (manual) · localizar a denúncia no Codex numa conversa
 
 Na ordem de `alvos_cjpg_tjsp.csv`, priorizando as linhas com o indicador do tipo verdadeiro, em ritmo de até 15 chamadas por minuto:

@@ -103,9 +103,15 @@ def separa_lote(texto):
         if not uid:
             continue
         corpo = RE_ORIGINAL.sub("", bloco)
-        corpo = re.sub(r"\n*Ao responder, cite as pecas.*\Z", "", corpo, flags=re.S).strip("\n") + "\n"
-        docs[uid.group(1)] = corpo
+        corpo = re.sub(r"\n*Ao responder, cite as pecas.*\Z", "", corpo, flags=re.S)
+        docs[uid.group(1)] = normaliza(corpo)
     return docs
+
+
+def normaliza(corpo):
+    """Só espaçamento: tira recuo e espaço final de cada linha e junta linhas em branco repetidas."""
+    linhas = [l.strip() for l in corpo.splitlines()]
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(linhas)).strip("\n") + "\n"
 
 
 def procedencia(corpo):
@@ -228,6 +234,10 @@ def processa(cx, alvo):
     partes = pecas_iniciais(mapa)
     if not partes:
         return "sem_peca_inicial", 0, 1, ""
+    # Com alguma parte em texto nativo, as partes sem texto (cópias posteriores,
+    # em regra) ficam de fora para não gastar OCR; ficam anotadas no detalhe.
+    puladas = [p for p in partes if p["sem_texto"]] if any(not p["sem_texto"] for p in partes) else []
+    partes = [p for p in partes if p not in puladas]
     custo = 1 + sum(p["sem_texto"] for p in partes)
     lote = cx.chamar("pdpj_read_documentos_batch",
                      {"numero_processo": numero, "documento_ids": [p["id"] for p in partes]}, custo=custo)
@@ -246,7 +256,8 @@ def processa(cx, alvo):
                 "pje": p["pje"], "data": p["data"], "procedencia": procedencia(corpo), "chars": len(corpo),
                 "sha256": hashlib.sha256(corpo.encode()).hexdigest(), "lido_em": agora()})
         gravados += 1
-    return ("ok" if gravados else "sem_texto"), gravados, 1 + custo, ""
+    detalhe = ("sem texto, não lidas: " + " ".join(p["id"] for p in puladas)) if puladas else ""
+    return ("ok" if gravados else "sem_texto"), gravados, 1 + custo, detalhe
 
 
 def plano(amostra, feitos):
