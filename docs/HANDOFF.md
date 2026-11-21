@@ -1,6 +1,32 @@
-# Handoff: fase 1 TJSP, com amostra, extração, codificação de papel, sentenças da amostra e segundo grau da Lei 15.397/2026 (21/11/2026)
+# Handoff: fase 1 TJSP coletada; próxima sessão começa a análise criminológica (21/11/2026)
 
 Repositório pbms01/FGV_TJPA, branch `coleta-datajud`, que ainda não foi mesclado no main. Este arquivo substitui o estado da conversa e deve ser lido antes de qualquer passo novo.
+
+## Para a próxima sessão: análise sob a perspectiva da criminologia informática
+
+A coleta da fase 1 está encerrada para fins de análise. As pendências de coleta seguem na seção de próximos passos e não bloqueiam a análise: conferência da codificação assistida, segundo leitor das sentenças lidas por regras, FE 16, inteiro teor de 18 acórdãos e o CL 34, pautado para 03/12/2026. A referência teórica é o doc `claude/criminologia-informatica-linhas-de-pesquisa.md` do Project: quatro elementos (delito, infrator, vítima, controle social), o teste de eliminação de Wall como critério comum e a exigência de produto utilizável por quem investiga, acusa, julga ou previne.
+
+Base analítica, unida pela coluna `numero`, com o peso de `dados/cjpg/amostra_tjsp.csv` e sem as duplicatas marcadas em `duplicata_de` (198 denúncias):
+
+| Arquivo | Unidade | O que traz | Estado |
+| --- | --- | --- | --- |
+| `dados/extracao/denuncias_tjsp.csv` | denúncia (200) | estrato, capitulação, indicadores de meio, conta, Pix, boleto, ano do fato | extração por regras validada por leitura; `ano_fato` com ruído |
+| `dados/extracao/codificacao_manual_r1.csv`, `_r2.csv` e `codificacao_assistida.csv` | denúncia | artifício, meio de contato, papel do denunciado, valor em conta de denunciado, contexto de violência doméstica | 36 manuais; 164 assistidas sem conferência do pesquisador |
+| `dados/extracao/sentencas_amostra.csv` | processo (199) | resultado, capitulação acolhida, pena, regime, substituição, Lei 15.397/2026, notas | 29 lidas à mão, 57 corrigidas, 113 só pelo leitor por regras |
+| `dados/extracao/matriz_casos.csv` e `sentencas_matriz.csv` | caso (29) | matriz de seleção para exame qualitativo | lida à mão |
+| `dados/tjsp2/apelacoes_amostra.csv` | processo (23) | andamento em segundo grau das sentenças que trataram do inciso VII | DJEN até 21/11/2026 |
+| `dados/tjsp2/acordaos_inciso_vii.csv` | acórdão (125) | decisão e fundamento sobre o 171 §2º, VII | leitura da ementa |
+| `textos/tjsp/` | peça | texto integral de denúncias, sentenças, acórdãos e razões do MP | sem máscara |
+
+O que a base sustenta, por linha de pesquisa:
+
+- Com força: 2.2 (gargalos logísticos: a conta laranja, com o papel do denunciado, o valor em conta, a pena do titular e a desclassificação para o VII em primeiro e segundo grau), 1.4 (avaliação do tipo novo da Lei 15.397/2026, com sentenças, apelações, razões do MP e 56 acórdãos) e 1.1 (taxonomia pelo teste de eliminação, cruzando artifício e meio com a capitulação da denúncia e da sentença).
+- Em parte: 2.1 (organização: 288 e Lei 12.850 nas capitulações e o papel "misto"), 3.4 (vulnerabilidade: §4º do 171 e artifícios dirigidos a idosos), 3.3 (dano: os valores de reparação do art. 387, IV, estão nos textos das sentenças, ainda não extraídos), 3.2 (notificação: a representação e o §5º revogado aparecem nos textos, sem variável) e o eixo da seletividade do controle (quem chega à denúncia e à pena).
+- Não sustenta: 1.2 e 1.3 (cifra oculta e deslocamento pedem séries externas, como DataJud e boletins de ocorrência), 2.3, 3.1, 4.1, 4.2, 4.3 e 4.4.
+
+Vieses que toda conclusão precisa carregar: o cjpg lista só processos com sentença de primeiro grau publicada, de modo que a base é de casos que chegaram à sentença; os estratos vêm de termos da sentença, corrigidos pela pós-estratificação pela capitulação da denúncia; processos em segredo de justiça ficam fora; é só o TJSP, com sentenças de 2022 a 2026; e a codificação assistida e 113 sentenças ainda não tiveram segundo leitor.
+
+Primeira questão proposta para a análise: quem o sistema penal alcança na fraude eletrônica, o elo físico (o titular da conta de passagem) ou o autor do ardil, e o que a Lei 15.397/2026 muda nisso. Escolhi essa porque é a única que a base acompanha em todas as etapas (papel na denúncia, pena na sentença e desclassificação em segundo grau) e porque devolve produto direto às linhas 2.2 e 1.4.
 
 ## Onde estamos
 
