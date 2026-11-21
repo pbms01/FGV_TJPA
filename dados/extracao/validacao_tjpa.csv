@@ -103,3 +103,4 @@ pena_regra,0816542-54.2023.8.14.0401,FE,sentenca,pena_meses,56 (leitor da fase 1
 pena_regra,0820374-48.2025.8.14.0006,FE,sentenca,pena_meses,60 (leitor da fase 1),100,1,pena definitiva com o aumento de 2/3 do art. 71
 pena_regra,0823940-81.2025.8.14.0401,FE,sentenca,pena_meses,6 (leitor da fase 1),60,1,o leitor pegou 6 meses de outro trecho; a definitiva é de 5 anos
 pena_regra,0800267-58.2024.8.14.0057,FE,sentenca,pena_meses,24 (leitor da fase 1),24,1,"a primeira versão da regra pegou o título ""3ª Fase: Pena Definitiva""; o título passou a ser pulado"
+revisao_doc,0814514-45.2025.8.14.0401,FE,sentenca,tipo_acolhido,171 outro,171 §2º-A,0,"""Art. 171, & 2ºA"": o ""&"" no lugar do ""§""; corrigido em normaliza_ocr"

@@ -362,11 +362,12 @@ def do_171(c, m):
 def normaliza_ocr(c):
     """Grafias de OCR e de digitação vistas nas denúncias do MPPA (texto já sem acento e minúsculo).
 
-    O "§" lido como "8", "$" ou "$8" depois do número do artigo ("171, 82º-A", "171, 8 2º-A",
+    O "§" lido como "8", "$", "$8" ou "&" depois do número do artigo ("171, 82º-A", "171, 8 2º-A",
     "155, 84º"); o § 2º-A sem hífen ("§ 2º A", "§2ºA"); travessão no lugar do hífen; o inciso
     II lido como "Il" e o I como "|"; "c/ c", "clc" e "Art ." com espaço.
     """
     c = c.replace("–", "-").replace("—", "-")
+    c = re.sub(r"&\s*(?=\d)", "§ ", c)  # "171, & 2ºA" (0814514-45.2025, sentença)
     c = re.sub(r"\bart\s+\.", "art.", c)
     c = re.sub(r"\bc\s*/\s*c\b|\bc[l1]c\b", "c/c", c)
     c = re.sub(r"(\b(?:171|155|154\s*-?\s*a|157|158|180|288|297|299)\s*,?\s*)(?:\$\s*8|\$|8)\s*(?=\d)", r"\1§ ", c)
