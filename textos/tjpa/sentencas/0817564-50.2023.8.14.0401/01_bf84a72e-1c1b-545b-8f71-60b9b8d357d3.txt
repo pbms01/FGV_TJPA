@@ -1,0 +1,382 @@
+[Texto nativo do PJe]
+
+di
+PODER JUDICIÁRIO
+
+TRIBUNAL DE JUSTIÇA DO ESTADO DO PARÁ
+
+10ª VARA CRIMINAL DE BELÉM
+
+PROC. N.º 0817564-50.2023.8.14.0401
+
+RÉUS: GIDEONI ASSUNÇÃO SOUZA; ANDREW FERREIRA DE ARRUDA; CHLISLEYNE SANDRIELLY MORAIS DE OLIVEIRA e GEISI DA SILVA CUNHA.
+
+VÍTIMAS: RUI GUILHERME SILVA DOS SANTOS; CLÁUDIO DE CASTRO COUTINHO; MARIA ELIZABETH FERREIRA DO MONTE.
+
+CAPITULAÇÃO PROVISÓRIA: art. 171, § 2ºA, do Código Penal, e art. 1º§ 4º, da Lei nº 9.613/1998, em concurso material (CP, art. 69).
+
+***********************************************************************************************************************
+
+SENTENÇA N.º 094/2026 (CM)
+
+Vistos.
+
+I - RELATÓRIO:
+
+Tratase de ação penal proposta pelo Ministério Público do Estado do Pará em face de GIDEONI ASSUNÇÃO SOUZA, ANDREW FERREIRA DE ARRUDA, CHLISLEYNE SANDRIELLY MORAIS DE OLIVEIRA e GEISI DA SILVA CUNHA, imputandolhes a prática dos crimes previstos no art. 171, § 2ºA, do Código Penal, e no art. 1º da Lei nº 9.613/1998, em concurso material, nos termos da denúncia (ID 100355203).
+
+Consta da exordial acusatória que, no período compreendido entre abril e agosto de 2022, no contexto de fraude eletrônica praticada por meio do aplicativo WhatsApp, pessoas ainda não totalmente identificadas passaram a se comunicar com as vítimas RUI GUILHERME SILVA DOS SANTOS, CLÁUDIO DE CASTRO COUTINHO e MARIA ELIZABETH FERREIRA DO MONTE, fazendose passar por familiares ou pessoas de confiança, alegando falsamente a utilização de número telefônico provisório, em razão de suposto problema no aparelho celular.
+
+Segundo narrado, valendose de engenharia social, com informações verossímeis e discurso de urgência, os interlocutores induziram as vítimas em erro, levandoas a realizar transferências bancárias, inclusive via PIX, destinadas a contas bancárias vinculadas aos acusados, ocasionandolhes prejuízo patrimonial.
+
+Ainda conforme o Ministério Público, os valores indevidamente obtidos teriam sido posteriormente movimentados por meio do sistema bancário, com o objetivo de ocultar e dissimular a origem ilícita do numerário, razão pela qual imputou aos denunciados a prática, em tese, dos crimes de estelionato eletrônico e lavagem de dinheiro.
+
+A denúncia (ID 100355203) foi recebida por este Juízo, conforme decisão proferida sob o ID 100355105.
+
+Regularmente citados os réus, apresentaram resposta à acusação, sendo GIDEONI ASSUNÇÃO SOUZA, ANDREW FERREIRA DE ARRUDA e GEISI DA SILVA CUNHA, assistidos pela Defensoria Pública (ID 111963556, 114432252 e 114432018), e CHILISLEYNE SANDRIELLY MORAIS DE OLIVEIRA, representado por advogado constituído (ID 109423348), com documentos complementares no ID 109423349.
+
+Analisadas as defesas apresentadas, não se verificou a ocorrência de qualquer das hipóteses previstas no art. 397 do Código de Processo Penal, razão pela qual foi ratificado o recebimento da denúncia, com a determinação de prosseguimento do feito, conforme decisão constante do ID 115623097.
+
+Designada audiência de instrução e julgamento por despacho lançado sob o ID 115623097, compareceram as partes, dando-se início à fase instrutória, com a oitiva da vítima RUI GUILHERME SILVA DOS SANTOS, conforme termo de audiência juntado sob o ID 128664450, com registro audiovisual no ID 128664452. Na ocasião, relatou ter recebido mensagens, via aplicativo WhatsApp, de pessoa que se fazia passar por familiar próximo, alegando estar utilizando número telefônico provisório. Narrou que, acreditando tratar-se de pedido legítimo, realizou transferências bancárias para contas por ele desconhecidas, vindo, posteriormente, a constatar que havia sido vítima de fraude eletrônica.
+
+Na sequência, foi ouvida a vítima CLÁUDIO DE CASTRO COUTINHO, que, ao ser inquirido em juízo, relatou ter recebido mensagens via WhatsApp de indivíduo que se passou por sua filha, alegando ter perdido o celular e solicitando dinheiro para pagamento de uma conta. Informou que, como sua filha reside com ele, desconfiou da situação e decidiu verificar pessoalmente, constatando que ela se encontrava em casa, não havendo, portanto, prejuízo financeiro. Acrescentou que o contato foi realizado por número desconhecido, sem foto de perfil, tratando-o como "pai" e solicitando pagamento por meio de código de barras, circunstâncias que reforçaram a suspeita, uma vez que tal forma de pedido não era habitual. Os depoimentos foram gravados em mídia audiovisual, conforme consignado no termo de audiência de ID 128664450, com registro no ID 128664452.
+
+A vítima MARIA ELIZABETH FERREIRA DO MONTE não foi ouvida em juízo, tendo o Ministério Público requerido a desistência de sua oitiva, o que foi homologado pelo juízo, conforme consta dos autos.
+
+Não havendo testemunhas a serem inquiridas, procedeu-se aos interrogatórios dos réus, exceto da ré GEISI DA SILVA CUNHA, que apesar de intimada, não compareceu, nem justificou sua ausência, reconhecida sua ausência nos termos do art. 367, do CPP, conforme termo de audiência constante do ID 128664450, com registro audiovisual no ID 128664455.
+
+Encerrada a instrução probatória, não houve requerimento de diligências complementares, sendo aberto prazo para apresentação de alegações finais, nos termos do art. 403 do Código de Processo Penal.
+
+O Ministério Público apresentou alegações finais escritas sob o ID 130146833, pugnando pela condenação dos réus nos termos da denúncia.
+
+As defesas, por sua vez, apresentaram memoriais escritos, sendo GIDEONI ASSUNÇÃO SOUZA, ANDREW FERREIRA DE ARRUDA e GEISI DA SILVA CUNHA, assistidos pela Defensoria Pública (IDs 137731314 e 137731315 e 137732844) e CHLISLEYNE SANDRIELLY MORAIS DE OLIVEIRA representada por advogado constituído (ID 131465135), nos quais reiteraram teses absolutórias, notadamente a negativa de autoria, a ausência de dolo, a insuficiência probatória e a inexistência de crime autônomo de lavagem de dinheiro.
+
+Vieram os autos conclusos para sentença.
+
+II - FUNDAMENTAÇÃO:
+
+2.1. Da Preliminar - Extinção da punibilidade - Ré: GEISI DA SILVA CUNHA × MARIA ELIZABETH FERREIRA DO MONTE (VÍTIMA)
+
+Ainda que não arguida pelas partes, a questão comporta exame de ofício, por se tratar de condição de procedibilidade e causa de extinção da punibilidade, nos termos do art. 61 do Código de Processo Penal.
+
+No caso, o crime de estelionato, previsto no art. 171 do Código Penal, passou a constituir, como regra, ação penal pública condicionada à representação do ofendido, exigindo manifestação válida de vontade como condição de procedibilidade.
+
+Antes do exame do mérito propriamente dito, impõese o exame de questão de ordem pública relacionada à existência de condição de procedibilidade da ação penal, notadamente quanto ao exercício válido do direito de representação pela vítima MARIA ELIZABETH FERREIRA DO MONTE, cuja ausência pode ensejar a extinção da punibilidade.
+
+Consta apenas o boletim de ocorrência registrado de forma virtual por terceira pessoa, Sra. GLAUCIA MONTE BORGES, filha da vítima (ID 100355214, pág. 153), não havendo termo de representação formalizado pela ofendida. A vítima não foi ouvida na fase policial, não compareceu em juízo para ser inquirida (ID 160543542) e não houve ratificação posterior do interesse em representar, tendo o Ministério Público requerido a desistência de sua oitiva, circunstância que reforça a inexistência de manifestação válida de vontade nos autos.
+
+Dessa forma, ausente manifestação válida e inequívoca de vontade da vítima no sentido de ver processada a acusada: GEISI DA SILVA CUNHA, resta não atendida a condição de procedibilidade exigida para o crime de estelionato, nos termos do art. 171, § 5º, do Código Penal. Transcorrido o prazo decadencial de seis meses sem o exercício regular do direito de representação, impõese o reconhecimento da decadência, nos termos do art. 107, inciso IV, do Código Penal, c/c art. 38 do Código de Processo Penal, ficando prejudicada a análise do mérito.
+
+2.2. Ré: CHLISLEYNE SANDRIELLY MORAIS DE OLIVEIRA × CLÁUDIO DE CASTRO COUTINHO (VÍTIMA). Crimes de estelionato eletrônico (art. 171, § 2ºA, c/c art. 14, II, do Código Penal) e de lavagem de dinheiro (art. 1º, § 4º, da Lei nº 9.613/1998), em concurso material (art. 69 do CP).
+
+a) Da Materialidade Delitiva dos crimes de tentativa estelionato e lavagem de dinheiro.
+
+A materialidade do crime de estelionato eletrônico, na forma tentada, encontrase comprovada pelo boletim de ocorrência registrado por Brena Bastos e Silva Coutinho, filha da vítima, no qual  narra que CLÁUDIO DE CASTRO COUTINHO recebeu mensagens por meio do aplicativo WhatsApp de pessoa que se fez passar por sua filha, utilizando expressamente o nome "Brena", tratandoo como "pai", alegando o uso de número telefônico provisório e solicitando auxílio financeiro, com indicação para que eventual repasse fosse realizado para conta bancária de titularidade da ré CHLISLEYNE SANDRIELLY MORAIS DE OLIVEIRA, mantida junto ao Mercado Pago, agência nº 0001, conta nº 56337492532, CPF nº 011.476.08105 (ID 100355122, págs. 46).
+
+A materialidade também se confirma pelas conversas mantidas via WhatsApp, juntadas aos autos em forma de prints (ID 100355211, págs. 4243), nas quais se verifica o emprego de ardil, consistente na falsa identidade de familiar próximo e na solicitação de auxílio financeiro, evidenciando a existência do fato típico, ainda que não consumado.
+
+Por outro lado, não restou configurada a materialidade do crime de lavagem de dinheiro, uma vez que não houve ingresso de valores na esfera patrimonial da acusada, tratandose de estelionato na modalidade tentada, inexistindo produto do crime antecedente, bem como não se comprovou a prática de atos autônomos de ocultação ou dissimulação de bens, direitos ou valores, razão pela qual não se configura o delito previsto no art. 1º, § 4º, da Lei nº 9.613/1998.
+
+b) Da autoria delitiva:
+
+No tocante à autoria, não há prova segura de que a ré CHLISLEYNE SANDRIELLY MORAIS DE OLIVEIRA tenha praticado ou participado da tentativa de estelionato imputada.
+
+Conforme relatado no boletim de ocorrência registrado por Brena Bastos e Silva Coutinho, filha da vítima CLÁUDIO DE CASTRO COUTINHO, o interlocutor que manteve contato com o ofendido solicitou que eventual valor fosse depositado em conta mantida junto ao Mercado Pago, indicando expressamente dados bancários de titularidade da ré, circunstância que explica a vinculação de seu nome aos fatos.
+
+Em interrogatório judicial, a ré confirmou ser titular da referida conta bancária, alegando, contudo, que teria emprestado a conta a terceira pessoa, versão que, embora não afaste automaticamente sua responsabilidade, não foi infirmada por outros elementos probatórios.
+
+As conversas juntadas aos autos demonstram que o contato com a vítima partiu do número telefônico +55 (91) 91170170 (ID 100355211, págs. 4243), cuja titularidade, segundo o relatório policial, seria de pessoa identificada como Luiz Felipe Pontes da Silva. Todavia, não há prova de que a ré tenha mantido contato com a vítima, figurado como interlocutora das mensagens ou possua vínculo comprovado com o titular da linha telefônica utilizada, tampouco que tivesse participado da troca de mensagens ou da condução do ardil.
+
+Assim, embora o nome da acusada apareça vinculado aos fatos em razão da indicação de sua conta bancária, não se comprovou que ela tenha tido domínio do fato, participado da comunicação fraudulenta ou atuado com dolo na tentativa de estelionato, permanecendo a prova restrita ao plano indiciário.
+
+Diante desse contexto, embora comprovada a materialidade do crime de estelionato eletrônico na forma tentada, persiste dúvida razoável quanto à autoria, pois não há prova de que a ré CHLISLEYNE SANDRIELLY MORAIS DE OLIVEIRA tenha mantido contato com a vítima, figurado como interlocutora das mensagens ou possuísse vínculo com o titular da linha telefônica utilizada, limitandose a prova à indicação de conta bancária de sua titularidade como possível destinatária para o repasse, circunstância isolada e insuficiente para sustentar juízo condenatório, impondose a absolvição pelo art. 386, VII, do Código de Processo Penal; quanto ao crime de lavagem de dinheiro, inexiste a própria materialidade delitiva, uma vez que não houve ingresso de valores nem a prática de atos autônomos de ocultação ou dissimulação, razão pela qual resta igualmente afastada qualquer imputação penal.
+
+2.3. Réu: GIDEONI ASSUNÇÃO SOUZA X RUI GUILHERME SILVA DOS SANTOS (VÍTIMA). Crimes de estelionato eletrônico (art. 171, § 2ºA, do Código Penal) e de lavagem de dinheiro (art. 1º, § 4º, da Lei nº 9.613/1998), em concurso material (art. 69 do CP).
+
+a) Materialidade delitiva dos crimes de estelionato eletrônico e lavagem de dinheiro.
+
+In casu, a materialidade delitiva dos crimes imputados na denúncia revela-se parcialmente comprovada nos autos, devendo ser analisada de forma distinta, ainda que inseridos no mesmo contexto fático, em razão da diversidade típica entre os delitos de estelionato eletrônico e lavagem de dinheiro. Vejamos:
+
+Conforme se extrai do boletim de ocorrência lavrado sob o nº 100355211 (pág. 1), a vítima noticiou ter sido induzida em erro mediante fraude praticada por meio eletrônico, consistente em abordagem realizada via aplicativo WhatsApp, por pessoa que se fazia passar por familiar próximo, alegando estar utilizando número telefônico provisório.
+
+A vítima formalizou representação criminal (Num. 100355211 - pág. 3), bem como prestou depoimento em sede policial, narrando as circunstâncias do golpe sofrido.
+
+Constam, ainda, dos autos elementos informativos relativos à movimentação financeira realizada pela vítima, consistente no pagamento da quantia de R$ 1.200,00 (mil e duzentos reais), efetuado por meio de transferência bancária (TED), conforme documentos juntados sob o ID 100355211 - págs. 6 a 8 e pág. 14.
+
+Tais elementos evidenciam, nesta fase da análise, a ocorrência de prejuízo patrimonial e a utilização de meio eletrônico no contexto da fraude narrada, mostrando-se suficientes para a aferição da materialidade do crime de estelionato eletrônico.
+
+No tocante ao crime de lavagem de dinheiro, imputado ao réu GIDEONI ASSUNÇÃO SOUZA, a materialidade deve ser examinada de forma autônoma, à luz do disposto no art. 1º da Lei nº 9.613/1998, que exige a demonstração de atos destinados à ocultação ou dissimulação da origem ilícita dos valores, não se confundindo com o simples recebimento ou trânsito do numerário.
+
+No caso, os elementos constantes dos autos limitam-se à indicação de transferência bancária no valor de R$ 1.200,00 (mil e duzentos reais), proveniente, em tese, do crime antecedente, não havendo demonstração da prática de atos posteriores e autônomos voltados à ocultação ou dissimulação da origem ilícita do numerário, razão pela qual não se evidencia a materialidade do delito de lavagem de dinheiro.
+
+b) Da Autoria delitiva:
+
+A autoria delitiva, em relação ao réu GIDEONI ASSUNÇÃO SOUZA, encontra-se devidamente demonstrada nos autos, pois, senão vejamos:
+
+A vítima RUI GUILHERME SILVA DOS SANTOS, ouvida em juízo (registro audiovisual - ID 128664452), confirmou a narrativa apresentada na fase inquisitorial, relatando ter sido induzida em erro mediante fraude praticada por meio eletrônico, conduta que resultou em efetivo prejuízo patrimonial.
+
+A prova documental acostada aos autos, especialmente aquela constante nos IDs 1003355211, págs. 6 a 8 e pág. 14, evidencia que a quantia de R$ 1.200,00 (mil e duzentos reais), transferida por meio de TED, teve como beneficiário o réu, elemento objetivo que o vincula diretamente ao resultado patrimonial advindo da fraude.
+
+Em seu interrogatório judicial (ID 128664455), o acusado negou a prática dos fatos. Tal versão, contudo, mostra-se isolada e dissociada do conjunto probatório, notadamente diante da prova bancária que demonstra o ingresso do valor em sua conta, circunstância suficiente para afastar a negativa defensiva.
+
+Assim, a autoria restou configurada pela convergência entre a palavra firme e coerente da vítima e a prova documental idônea, consistente na identificação do réu como beneficiário direto da transferência fraudulenta, mostrando-se plenamente suficiente para sustentar a imputação do crime de estelionato eletrônico.
+
+2.3.1. Das teses defensivas:
+
+As teses absolutórias suscitadas pelas defesas não merecem acolhimento. Pois, senão vejamos:
+
+a) Negativa de autoria:
+
+A negativa de autoria não subsiste diante do conjunto probatório produzido. Conforme já analisado, a palavra da vítima mostrou-se firme, coerente e harmônica com os demais elementos de convicção, tendo sido corroborada por prova documental idônea, notadamente os registros bancários que identificam o réu como beneficiário direto da transferência decorrentes da fraude.
+
+A simples negativa genérica do acusado, desacompanhada de qualquer suporte probatório mínimo, não é suficiente para afastar a imputação, sobretudo quando isolada frente a provas produzidas sob o crivo do contraditório.
+
+b) Ausência de dolo:
+
+Também não procede a alegação de ausência de dolo. O dolo no crime de estelionato decorre do emprego consciente de meio fraudulento com o objetivo de obtenção de vantagem ilícita, o que restou evidenciado pelas circunstâncias fáticas do caso concreto.
+
+A utilização de fraude eletrônica, aliada ao efetivo ingresso dos valores na esfera patrimonial dos réus, revela atuação voluntária e consciente, não havendo nos autos qualquer elemento que indique erro escusável, desconhecimento da origem ilícita do numerário ou atuação culposa.
+
+c) Insuficiência probatória:
+
+Não há que se falar em insuficiência de provas. A condenação não se sustenta em presunções, mas em prova oral coerente e prova documental robusta, especialmente a bancária, que demonstra o nexo entre a conduta fraudulenta e o resultado patrimonial obtido.
+
+O acervo probatório é suficiente, harmônico e convergente, não se exigindo prova impossível ou inequívoca além da razoabilidade, mas apenas aquela apta a formar juízo seguro de condenação, o que se verifica no caso.
+
+d) Inexistência de crime autônomo de lavagem de dinheiro:
+
+No que se refere à alegação de inexistência de crime autônomo de lavagem de dinheiro, razão assiste parcialmente à defesa, quando não demonstrada a prática de atos posteriores de ocultação ou dissimulação autônomos em relação ao estelionato.
+
+Com efeito, o simples recebimento e usufruto do produto do crime antecedente, sem a prática de condutas adicionais destinadas a ocultar ou dissimular a origem ilícita do numerário, não caracteriza, por si só, o delito previsto na Lei nº 9.613/98, sob pena de bis in idem.
+
+Assim, ausentes elementos que indiquem a autonomia típica necessária, afasta-se a imputação do crime de lavagem de dinheiro, permanecendo íntegra a responsabilidade penal pelo delito antecedente, conforme o caso.
+
+2.4. Réu: ANDREW FERREIRA DE ARRUDA X Vítima: RUI GUILHERME SILVA DOS SANTOS - Crimes de estelionato eletrônico (art. 171, § 2ºA, do Código Penal) e de lavagem de dinheiro (art. 1º, § 4º, da Lei nº 9.613/1998), em concurso material (art. 69 do CP).
+
+a)  Materialidade delitiva dos crimes de estelionato eletrônico e lavagem de dinheiro:
+
+No que se refere ao crime de estelionato eletrônico, a materialidade está demonstrada pelo boletim de ocorrência (ID 100355211 - pág. 1), pela representação formal da vítima (ID 100355211 - pág. 3), pelo depoimento prestado na fase policial (ID 100355211 - pág. 3) e confirmado em juízo, bem como pelas provas documentais juntadas aos autos (ID 100355211 - págs. 9 a 13), que evidenciam a realização de dois pagamentos por meio de boletos bancários, totalizando o valor de R$ 3.400,00 (três mil e quatrocentos reais).
+
+Tais documentos demonstram de forma clara que a vítima foi induzida em erro mediante fraude praticada por meio eletrônico, ocasionando efetivo prejuízo patrimonial, circunstância suficiente para a caracterização da materialidade do delito previsto no art. 171, § 2º-A, do Código Penal.
+
+Quanto ao crime de lavagem de dinheiro, a materialidade delitiva encontra-se delineada pela documentação bancária acostada aos autos (ID 100355211 - págs. 9 a 13), que indica a movimentação dos valores provenientes da infração antecedente, em contexto que, em tese, pode revelar atos destinados à ocultação ou dissimulação da origem ilícita do numerário.
+
+Diante da ocorrência dos fatos acima descritos, resta suficientemente comprovada a materialidade do crime de estelionato eletrônico imputado ao réu ANDREW FERREIRA DE ARRUDA, uma vez que os elementos constantes dos autos demonstram apenas o recebimento e a movimentação do produto do crime antecedente (estelionato), sem a prática de atos posteriores e autônomos de ocultação ou dissimulação, circunstância que afasta a subsistência típica do delito previsto no art. 1º da Lei nº 9.613/98.
+
+b) Autoria Delitiva:
+
+A autoria delitiva, em relação ao réu ANDREW FERREIRA DE ARRUDA, encontra-se devidamente comprovada no que concerne ao crime de estelionato eletrônico.
+
+A vítima RUI GUILHERME SILVA DOS SANTOS, ouvida em sede policial e em juízo, relatou de forma firme, coerente e harmônica ter sido induzida em erro mediante fraude eletrônica, efetuando o pagamento de dois boletos bancários, que totalizaram a quantia de R$ 3.400,00, valores vinculados à atuação do acusado, conforme demonstrado pela prova documental constante dos autos.
+
+Os documentos bancários acostados evidenciam o nexo entre a fraude praticada e o resultado patrimonial obtido, demonstrando que o réu se beneficiou diretamente do produto do crime, circunstância suficiente para a configuração da autoria.
+
+Em seu interrogatório judicial, o acusado negou a prática dos fatos. Tal negativa, contudo, mostra-se isolada e desacompanhada de qualquer elemento probatório capaz de corroborá-la, não sendo apta a infirmar o conjunto probatório produzido sob o crivo do contraditório.
+
+Ressalte-se que o réu não comprovou qualquer alegação de desconhecimento da fraude ou de atuação de terceiros, limitando-se a negar genericamente os fatos, o que não se mostra suficiente diante da prova oral e documental robusta dos autos.
+
+No tocante à imputação do crime de lavagem de dinheiro, a autoria resta prejudicada, uma vez que, conforme já fundamentado, inexistem nos autos elementos que indiquem a prática de atos posteriores e autônomos de ocultação ou dissimulação do numerário, sendo a conduta do réu restrita ao exaurimento do crime antecedente.
+
+2.4.1. Das teses defensivas:
+
+As teses defensivas apresentadas não merecem acolhimento, ressalvada a imputação relativa ao crime de lavagem de dinheiro, que será especificamente afastada.
+
+a) Negativa de autoria
+
+A negativa de autoria não prospera. O conjunto probatório produzido é firme, coerente e convergente no sentido da imputação.
+
+A palavra da vítima RUI GUILHERME SILVA DOS SANTOS, colhida tanto na fase policial quanto em juízo, mostrou-se consistente e harmônica, sendo corroborada pela prova documental, especialmente os comprovantes dos pagamentos realizados, que demonstram o nexo entre a fraude praticada e o prejuízo sofrido.
+
+A negativa apresentada pelo réu em interrogatório judicial constitui versão isolada, desacompanhada de qualquer elemento probatório mínimo que a sustente, não sendo suficiente para afastar a autoria delitiva comprovada nos autos.
+
+b) Ausência de dolo
+
+Não procede, igualmente, a alegação de ausência de dolo.
+
+O dolo no crime de estelionato eletrônico decorre da atuação consciente e voluntária voltada à obtenção de vantagem ilícita mediante fraude, o que se infere das circunstâncias do caso concreto, notadamente da indução da vítima em erro e do efetivo ingresso do numerário decorrente da fraude.
+
+Inexistem nos autos elementos que indiquem erro escusável, desconhecimento da ilicitude da conduta ou atuação meramente culposa, motivo pelo qual resta evidenciado o dolo necessário à configuração do delito.
+
+c) Insuficiência probatória
+
+Não há que se falar em insuficiência de provas para a condenação.
+
+A materialidade e a autoria do crime de estelionato eletrônico encontram-se lastreadas em prova oral coerente, aliada a prova documental idônea, não se tratando de condenação fundada em presunções, mas em elementos probatórios suficientes para formar juízo seguro de responsabilização penal.
+
+O conjunto probatório, apreciado de forma global e sistemática, atende ao standard probatório exigido para a condenação.
+
+d) Inexistência de crime autônomo de lavagem de dinheiro
+
+Quanto à imputação do crime de lavagem de dinheiro, assiste razão à defesa.
+
+Conforme já fundamentado, os elementos constantes dos autos demonstram apenas o recebimento e a movimentação do produto do crime antecedente, sem a comprovação da prática de atos posteriores e autônomos de ocultação ou dissimulação da origem ilícita dos valores.
+
+Tal circunstância afasta a subsistência típica do delito previsto no art. 1º da Lei nº 9.613/98, sob pena de indevida ampliação do tipo penal e violação ao princípio do non bis in idem, tratando-se, no caso, de mero exaurimento do crime de estelionato eletrônico.
+
+Diante disso, rejeitam-se as teses defensivas de negativa de autoria, ausência de dolo e insuficiência probatória, mantendo-se a responsabilização penal pelo crime de estelionato eletrônico, acolhendo-se apenas a tese defensiva relativa à inexistência de crime autônomo de lavagem de dinheiro.
+
+III. DISPOSITIVO:
+
+Ante o exposto, JULGO PARCIALMENTE PROCEDENTE a pretensão punitiva estatal, nos seguintes termos:
+
+3.1. Quanto à ré GEISI DA SILVA CUNHA, em relação aos fatos imputados envolvendo a vítima MARIA ELIZABETH FERREIRA DO MONTE, DECLARO EXTINTA A PUNIBILIDADE, em razão da decadência do direito de representação, com fundamento no art. 107, inciso IV, do Código Penal, c/c art. 38 do Código de Processo Penal, restando prejudicada a análise do mérito quanto aos crimes de estelionato tentado e lavagem de dinheiro.
+
+3.2. Quanto à ré CHLISLEYNE SANDRIELLY MORAIS DE OLIVEIRA (fatos relativos à vítima CLÁUDIO DE CASTRO COUTINHO): JULGO IMPROCEDENTE a pretensão punitiva estatal para ABSOLVER a ré das imputações que lhe foram feitas, quanto ao crime de estelionato eletrônico, na forma tentada, com fundamento no art. 386, inciso VII, do Código de Processo Penal, por insuficiência de provas  e quanto ao crime de lavagem de dinheiro, com fundamento no art. 386, inciso III, do Código de Processo Penal, por inexistência de materialidade delitiva.
+
+3.3. Quanto ao réu GIDEONI ASSUNÇÃO SOUZA (Fato relativo à vítima RUI GUILHERME SILVA DOS SANTOS): CONDENO-O como incurso no art. 171, § 2º-A, do Código Penal, pelo crime de estelionato eletrônico, na forma consumada, e ABSOLVO-O da imputação relativa ao crime de lavagem de dinheiro (art. 1º da Lei nº 9.613/1998), por ausência de materialidade e de comprovação de atos autônomos de ocultação ou dissimulação, nos termos do art. 386, III, do Código de Processo Penal.
+
+3.4. Quanto ao réu ANDREW FERREIRA DE ARRUDA (Fato relativo à vítima RUI GUILHERME SILVA DOS SANTOS):
+
+CONDENO-O como incurso no art. 171, § 2º-A, do Código Penal, pelo crime de estelionato eletrônico, na forma consumada, e ABSOLVO-O da imputação relativa ao crime de lavagem de dinheiro (art. 1º da Lei nº 9.613/1998), por inexistência de atos autônomos de ocultação ou dissimulação da origem ilícita dos valores, nos termos do art. 386, III, do Código de Processo Penal.
+
+IV - Das circunstâncias judiciais (art. 59 do Código Penal):
+
+Antes de proceder à análise das circunstâncias judiciais previstas no art. 59 do Código Penal, cumpre registrar que se trata de processo de elevada complexidade, envolvendo pluralidade de réus e vítimas, com reiteração de fatos de mesma natureza, praticados em curto intervalo de tempo e mediante idêntico modus operandi, no contexto de fraudes eletrônicas. As condutas foram perpetradas à distância, por réus residentes em outros entes federativos, em detrimento de vítimas domiciliadas no Estado do Pará, sob circunstâncias fáticas substancialmente idênticas, com igual dinâmica de execução, meios empregados e contexto operacional, não se verificando peculiaridades relevantes que justifiquem diferenciação prévia na fixação da pena-base.
+
+Ressalte-se que, embora determinadas vítimas sejam pessoas idosas, tal circunstância não será valorada nesta etapa, por constituir elemento específico previsto pelo legislador como agravante legal, cuja incidência foi devidamente comprovada nos autos apenas em relação a vítimas determinadas e será examinada na fase própria da dosimetria, nos termos do art. 61, II, alínea "h", do Código Penal, evitando-se, assim, qualquer indevida duplicidade de valoração.
+
+Nesse contexto, dispensa-se a repetição de análises idênticas para cada fato ou vítima, procedendo-se à apreciação conjunta das circunstâncias judiciais comuns, sem prejuízo do princípio da individualização da pena, que será plenamente observado nas fases subsequentes da dosimetria. Assim, as circunstâncias judiciais do art. 59 do Código Penal serão avaliadas de forma única, servindo de base para a fixação conjunta da pena-base, por se mostrarem homogêneas em relação aos fatos e aos executores envolvidos.
+
+4.1. Dito isso, passa-se à análise das circunstâncias judiciais do art. 59 do Código Penal e a fixação da pena-base:
+
+Superada a questão organizacional acima exposta, passa-se à análise das circunstâncias judiciais previstas no art. 59 do Código Penal, consideradas de forma única e conjunta, por se mostrarem homogêneas em relação aos fatos e aos executores envolvidos.
+
+A Culpabilidade dos réus: são idênticas, pois revela-se normal à espécie, não se constatando conduta que extrapole o desvalor ínsito ao tipo penal. Os réus agiram com dolo direto, consistente na utilização consciente de fraude eletrônica para obtenção de vantagem ilícita, sem que, contudo, se evidenciem elementos que indiquem especial reprovação que justifique exasperação da pena-base neste vetor.
+
+Os antecedentes criminais dos réus GIDEONI ASSUNÇÃO SOUZA e ANDREW FERREIRA DE ARRUDA, conforme se verifica das certidões de antecedentes criminais expedidas pelo Estado do Pará (IDs 167001794 - Pág. 1/2 e 167001797 - Pág. 1/2) e pelo Estado do Mato Grosso (IDs 129083854 e 129083851), não serão valorados negativamente. Com efeito, embora constem certidões provenientes de ambas as unidades da federação, não há qualquer registro de sentença penal condenatória transitada em julgado, inexistindo apontamento apto a caracterizar reincidência ou maus antecedentes, razão pela qual o vetor deve ser valorado de forma neutra, nos termos do art. 59 do Código Penal.
+
+A conduta social dos réus: Nos autos não há elementos concretos e específicos capazes de demonstrar desvio relevante na conduta social dos acusados. Ausente prova segura quanto ao comportamento dos réus em seu meio familiar, social ou profissional, a circunstância deve ser apreciada de forma neutra.
+
+A personalidade dos agentes: Do mesmo modo, não foram produzidos elementos probatórios aptos a revelar traços de personalidade voltados de forma habitual à prática criminosa. A análise deste vetor não pode basear-se em presunções abstratas ou generalizações inerentes ao tipo penal, razão pela qual também é valorado neutro.
+
+Os motivos do crime: consistiram na obtenção de vantagem econômica ilícita, finalidade comum e inerente ao delito de estelionato, não se verificando motivação especial ou diversa daquela já prevista pelo legislador ao tipificar a conduta, motivo pelo qual este vetor não comporta valoração negativa autônoma.
+
+As circunstâncias do crime são idênticas em relação a ambos os executores e consistem na prática de estelionato por meio eletrônico, mediante fraude eletrônica, com atuação à distância, uso reiterado de contato telefônico e simulação genérica de vínculo familiar, fazendose passar por pessoa da família para induzir a vítima em erro e obter vantagem econômica indevida.
+
+Tal dinâmica insere-se no modus operandi ordinariamente contemplado pelo tipo penal do estelionato eletrônico, previsto no art. 171, § 2ºA, do Código Penal, não havendo elementos concretos que extrapolem aqueles já considerados pelo legislador ao qualificar a conduta. O vetor deve ser valorado de forma neutra.
+
+As consequências do crime: não extrapolam aquelas ordinariamente decorrentes do tipo penal, uma vez que o prejuízo patrimonial suportado pela vítima se encontra delimitado nos valores comprovados nos autos, sem notícia de dano extraordinário de ordem moral ou material que justifique exasperação nesta fase.
+
+O comportamento da vítima, Rui Guilherme Silva dos Santos:  não contribuiu para a ocorrência do delito, tendo agido de boa-fé diante da fraude sofrida.
+
+4.2. Para o Réu GIDEONI ASSUNÇÃO SOUZA X RUI GUILHERME SILVA DOS SANTOS (vítima).
+
+No tocante à primeira fase da dosimetria:
+
+À vista da análise conjunta das circunstâncias judiciais, todas valoradas de forma neutra, e observados os critérios da proporcionalidade e da individualização da pena, fixo a pena-base no mínimo legal, qual seja, 04 (quatro) anos de reclusão e 10 (dez) dias-multa, sendo cada dia-multa fixado à razão de 1/30 (um trigésimo) do salário-mínimo vigente à época do fato, nos termos do art. 49 do Código Penal, por se mostrar suficiente à reprovação e prevenção do delito.
+
+Segunda Fase da Dosimetria:
+
+Na segunda fase da dosimetria, não há circunstâncias atenuantes a serem reconhecidas.
+
+Por outro lado, incide a circunstância agravante prevista no art. 61, inciso II, alínea "h", do Código Penal, uma vez que a vítima RUI GUILHERME SILVA DOS SANTOS é pessoa idosa, circunstância devidamente comprovada nos autos, conforme documento de identificação juntado sob o ID 128664450, do qual consta que a vítima nasceu em 27/12/1957.
+
+Diante disso, agravo a pena em 1/6 (um sexto), fixando-a em 04 (quatro) anos e 08 (oito) meses de reclusão e 11 (onze) dias-multa, mantido o valor unitário do dia-multa anteriormente fixado, passando-se à terceira fase da dosimetria.
+
+Terceira Fase da Dosimetria:
+
+Na terceira fase da dosimetria, não há causas especiais de aumento ou de diminuição de pena a serem avaliadas, inexistindo previsão legal incidente ao caso concreto nesta etapa.
+
+Dessa forma, mantém-se a pena conforme fixada na fase anterior, sem alterações nesta fase.
+
+Regime Inicial de Cumprimento da Pena:
+
+Considerando o quantum da pena aplicada, fixado em 04 (quatro) anos e 08 (oito) meses de reclusão, bem como a ausência de circunstâncias judiciais desfavoráveis, fixo o regime inicial SEMIABERTO para o cumprimento da pena privativa de liberdade, nos termos do art. 33, § 2º, alínea "b", do Código Penal.
+
+Substituição da Pena Privativa de Liberdade e Suspensão Condicional da Pena:
+
+Incabível a substituição da pena privativa de liberdade por penas restritivas de direitos, prevista no art. 44 do Código Penal, uma vez que o quantum da pena aplicada é superior a 04 (quatro) anos, razão pela qual, igualmente, afasto a suspensão condicional da pena, prevista no art. 77 do mesmo diploma legal, diante da incompatibilidade do montante fixado com o benefício.
+
+4.3. Para Réu ANDREW FERREIRA DE ARRUDA X RUI GUILHERME SILVA DOS SANTOS (vítima).
+
+Analisando as circunstâncias judiciais previstas no art. 59 do Código Penal, não se verificam vetores desfavoráveis a serem valorados negativamente em relação ao réu ANDREW FERREIRA DE ARRUDA, conforme já examinado de forma uniforme para os dois réus.
+
+Diante disso, fixo a pena-base no patamar mínimo legal, qual seja, 04 (quatro) anos de reclusão e 10 (dez) dias-multa, sendo cada dia-multa fixado à razão de 1/30 (um trigésimo) do salário-mínimo vigente à época do fato, nos termos do art. 49 do Código Penal, passando-se à segunda fase da dosimetria.
+
+Segunda Fase da Dosimetria:
+
+Na segunda fase da dosimetria, não há circunstâncias atenuantes a serem reconhecidas.
+
+Por outro lado, incide a circunstância agravante prevista no art. 61, inciso II, alínea "h", do Código Penal, uma vez que a vítima RUI GUILHERME SILVA DOS SANTOS é pessoa idosa, circunstância devidamente comprovada nos autos (ID 128664450), do qual consta que a vítima nasceu em 27/12/1957.
+
+Diante disso, agravo a pena em 1/6 (um sexto), elevando-a para 04 (quatro) anos e 08 (oito) meses de reclusão e 11 (onze) dias-multa, mantido o valor unitário do dia-multa anteriormente fixado, passando-se à terceira fase da dosimetria.
+
+Terceira Fase da Dosimetria:
+
+Na terceira fase da dosimetria, não há causas especiais de aumento ou de diminuição de pena a serem aplicadas, inexistindo previsão legal incidente ao caso concreto nesta etapa.
+
+Dessa forma, mantém-se a pena conforme fixada na fase anterior, sem alterações nesta fase.
+
+Regime Inicial de Cumprimento da Pena:
+
+Diante da pena definitivamente estabelecida, fixada em 04 (quatro) anos e 08 (oito) meses de reclusão e o pagamento de 11 (onze) DM, e inexistindo circunstâncias judiciais que recomendem maior rigor na execução, estabeleço o regime inicial SEMIABERTO para o cumprimento da sanção corporal, em conformidade com o disposto no art. 33, § 2º, alínea "b", do Código Penal.
+
+Substituição da Pena e Suspensão Condicional:
+
+Tendo em vista que a pena privativa de liberdade fixada supera o limite legal de 04 (quatro) anos, mostra-se inviável a substituição da pena por restritivas de direitos, nos termos do art. 44 do Código Penal.
+
+Pelo mesmo motivo, afasto a aplicação da suspensão condicional da pena, prevista no art. 77 do Código Penal, em razão da incompatibilidade com o quantum da pena fixada.
+
+V. Disposições Gerais:
+
+5.1. Do Direito de Recorrer em Liberdade:
+
+Os réus responderam ao processo em liberdade e, ausentes os requisitos do art. 312 do Código de Processo Penal, não há fundamento, nem requerimento por parte da acusação, para a decretação da prisão preventiva.
+
+Assim, concedo-lhes o direito de recorrer em liberdade, nos termos do art. 387, § 1º, do Código de Processo Penal.
+
+5.2. Da Detração Penal:
+
+Nos termos do art. 387, § 2º, do Código de Processo Penal, verifico que os réus responderam ao processo em liberdade, assim permanecendo até o presente momento.
+
+Eventual período de custódia cautelar deverá ser considerado para fins de detração pelo Juízo da Execução Penal, a quem compete a apuração do tempo a ser abatido.
+
+5.3. Da reparação dos danos:
+
+Nos termos do art. 387, inciso IV, do Código de Processo Penal, fixo o valor mínimo para a reparação dos danos dos causados à vítima, considerando os prejuízos patrimoniais devidamente comprovados nos autos, sem prejuízo de ulterior liquidação ou complementação na esfera cível, nos seguintes termos:
+
+a)
+GIDEONI ASSUNÇÃO SOUZA:
+
+Condeno o réu ao pagamento da quantia de R$ 1.200,00 (mil e duzentos reais), a título de reparação mínima do dano, valor correspondente à quantia transferida pela vítima RUI GUILHERME SILVA DOS SANTOS.
+
+b)
+ANDREW FERREIRA DE ARRUDA:
+
+Condeno o réu ao pagamento da quantia de R$ 3.400,00 (três mil e quatrocentos reais), a título de reparação mínima do dano, valor referente às quantias pagas pela mesma vítima.
+
+Os valores ora fixados deverão ser atualizados monetariamente a partir da data do respectivo desembolso, acrescidos de juros legais, na forma da lei.
+
+A presente fixação não impede a execução no juízo competente após o trânsito em julgado, nem obsta eventual propositura de ação na esfera cível para discussão de outros efeitos patrimoniais.
+
+VI. Disposições finais:
+
+Oportunamente, após o trânsito em julgado (CF, art. 5º, LVII) da presente decisão, adotem-se as seguintes providências de praxe:
+
+(1) Em observância ao disposto no art. 71, § 2º, do Código Eleitoral, c/c art. 15, III, da Constituição Federal, proceda-se ao registro desta condenação junto ao Egrégio Tribunal Regional Eleitoral do Estado do Pará, no cadastro do sistema pertinente (INFODIP);
+
+(2) Expeçam-se as guias definitivas de execução penal, com encaminhamento à Vara de Execução Penal competente;
+
+(3) Procedam-se às comunicações e aos registros de praxe, inclusive junto aos órgãos competentes;
+
+(4) Condeno os réus GIDEONI ASSUNÇÃO SOUZA e ANDREW FERREIRA DE ARRUDA ao pagamento das custas processuais, nos termos do art. 804 do Código de Processo Penal.
+
+Considerando que ambos os réus são assistidos pela Defensoria Pública (IDs 111963556 e 114432252), fica suspensa a exigibilidade das custas processuais, nos termos do art. 98, § 3º, do Código de Processo Civil, enquanto perdurar a situação de hipossuficiência econômica, a ser aferida pelo Juízo da execução.
+
+Ressalte-se que o entendimento firmado pelo Superior Tribunal de Justiça e por este Tribunal de Justiça do Estado do Pará é no sentido de que, ainda que concedido o benefício da gratuidade da justiça ou havendo patrocínio pela Defensoria Pública, a condenação ao pagamento das custas é imperativa, devendo apenas ser suspensa a sua exigibilidade, pelo prazo legal, enquanto perdurar a situação de hipossuficiência econômica do condenado.
+
+Intimem-se todos desta sentença, nos termos da legislação vigente, devendo os réus condenados (GIDEONI ASSUNÇÃO SOUZA e ANDREW FERREIRA DE ARRUDA), a ré absolvida CHLISLEYNE SANDRIELLY MORAIS DE OLIVEIRA e a ré GEISI DA SILVA CUNHA, em relação à qual foi declarada extinta a punibilidade, serem intimados por intermédio da Defensoria Pública.
+
+Intime-se, ainda, o Ministério Público e, por fim, as vítimas, nos termos do art. 201, § 2º, do Código de Processo Penal.
+
+Ressalte-se que, tendo os acusados respondido ao processo em liberdade, é dispensável a intimação pessoal, sendo suficiente a intimação dos respectivos defensores, conforme entendimento consolidado do Superior Tribunal de Justiça e do Supremo Tribunal Federal, nos termos do art. 392, inciso II, do Código de Processo Penal.
+
+Publique-se e registre-se, conforme disposto no art. 387, inciso VI (em resumo no Diário da Justiça), c/c art. 389, ambos do Código de Processo Penal.
+
+Cumpra-se, com as cautelas legais.
+
+Belém/PA, data da assinatura eletrônica.
+
+SANDRA MARIA FERREIRA CASTELO BRANCO
+
+Juíza de Direito da 10ª Vara Criminal de Belém

@@ -189,11 +189,18 @@ def cmd_grava(arq, chamadas, extra=""):
             # a capitulação pode estar em qualquer parte da denúncia; fica a primeira encontrada
             cap = cap or (re.sub(r"\s+", " ", m[0])[:170] if m else "")
         else:
-            m = re.findall(r"(?:condeno|condenar|conden[áa]-l[oa]s?|absolvo|absolv[êe]-l[oa]s?|julg\w+\s+(?:parcialmente\s+)?"
-                           r"(?:im)?procedente|extin\w+ a punibilidade|rejeito a den[úu]ncia)[^.]{0,140}", plano, re.I)
-            # o último "condeno" costuma ser o das custas; ele só vale se não houver outro
-            m = [x for x in m if not re.search(r"custas|honor", x, re.I)] or m
-            disp = re.sub(r"\s+", " ", m[-1])[:150] if m else "dispositivo não localizado"
+            RE_DISP = (r"(?:condeno|condenar|conden[áa]-l[oa]s?|absolvo|absolv[êe]-l[oa]s?|julg\w+\s+(?:parcialmente\s+)?"
+                       r"(?:im)?procedente|extin\w+ a punibilidade|rejeito a den[úu]ncia)[^.]{0,140}")
+            # com vários réus, a última decisão é a de um deles ou a das custas; vale a primeira depois do
+            # "Ante o exposto" (ou do título DISPOSITIVO), e só sem esse marco a última do texto
+            marcos = list(re.finditer(r"ante o exposto|diante do exposto|pelo exposto|isto posto|dispositivo\s*:?", plano, re.I))
+            depois = re.findall(RE_DISP, plano[marcos[-1].start():], re.I) if marcos else []
+            m = [x for x in depois if not re.search(r"custas|honor", x, re.I)]
+            if not m:
+                m = re.findall(RE_DISP, plano, re.I)
+                m = [x for x in m if not re.search(r"custas|honor", x, re.I)] or m
+                m = m[-1:]
+            disp = re.sub(r"\s+", " ", m[0])[:150] if m else "dispositivo não localizado"
     if cands and not n["den"]:
         notas.append("nenhuma das %d candidatas era denúncia" % len(cands))
     st = "ok" if n["den"] else ("so_sentenca" if n["sent"] else "sem_texto")
