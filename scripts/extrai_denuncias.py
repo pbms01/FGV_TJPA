@@ -124,6 +124,24 @@ def segmenta(t):
     return seg
 
 
+MENCAO_ARTIGO = re.compile(r"\b(?:artigos?|arts?)\b")
+
+
+def do_171(c, m):
+    """Diz se o parágrafo casado em m pertence ao art. 171.
+
+    As alternativas soltas das regex do § 2º-A e do § 4º existem para pegar o
+    parágrafo separado do artigo por cabeçalho de página. Sozinhas, também pegam
+    o § 2º-A do roubo (art. 157) e os §§ 3º e 4º do art. 154-A. A regra: o trecho
+    entre a última menção a "artigo" ou "art." e o parágrafo precisa citar o 171,
+    o que cobre "artigos 155 e 171, § 2º-A" e o cabeçalho no meio do dispositivo.
+    """
+    antes = c[:m.start()]
+    mencoes = list(MENCAO_ARTIGO.finditer(antes))
+    trecho = antes[mencoes[-1].start():] if mencoes else antes
+    return bool(re.search(r"\b171\b", trecho))
+
+
 def artigos(cap):
     """Lista de dispositivos do Código Penal e leis citados na capitulação."""
     c = sem_acento(cap).lower()
@@ -132,10 +150,10 @@ def artigos(cap):
     f["171"] = bool(re.search(r"\b171\b", c))
     # variantes vistas: "§ 2º-A", "§ 2ª-A", "§2.º-A", "§ 2-Aº", "§ 2º- <cabeçalho de página> A"
     f["171_2A"] = bool(re.search(r"171[^0-9]{0,40}(§|par|paragrafo|\$|p\.)[^0-9]{0,15}2\s*[oa.]*\s*-\s*(endereco:.{0,300}?\s)?ao?\b", c)
-                       or re.search(r"\b2\s*[oa.]*\s*-\s*ao?\b", c))
+                       or any(do_171(c, m) for m in re.finditer(r"\b2\s*[oa.]*\s*-\s*ao?\b", c)))
     f["171_2_VII"] = bool(re.search(r"171[^.;]{0,60}2\s*o?[^-a0-9][^.;]{0,25}\bvii\b", c))
     f["171_4"] = bool(re.search(r"171[^.;]{0,80}(§§?|par)[^.;]{0,30}\b4\s*o?\b|\b4\s*o?\s*\(?\s*(idos|vitima idos)", c)
-                      or re.search(r"e\s*(§\s*)?4\s*o?\s*,?\s*(do|ambos|todos|,|\()", c))
+                      or any(do_171(c, m) for m in re.finditer(r"e\s*(§\s*)?4\s*o?\s*,?\s*(do|ambos|todos|,|\()", c)))
     f["171_caput"] = bool(re.search(r"171\s*,?\s*(\"|“)?caput", c)) and not f["171_2A"]
     f["154A"] = bool(re.search(r"154\s*[-–]?\s*a\b", c))
     f["155"] = bool(re.search(r"\b155\b", c))

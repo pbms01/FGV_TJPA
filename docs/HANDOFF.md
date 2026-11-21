@@ -32,6 +32,7 @@ Extração: `python scripts/extrai_denuncias.py` gera `dados/extracao/denuncias_
 - Dados pessoais sem máscara nesta fase, por decisão do usuário ("não vamos por ora mascarar"). O `scripts/extrai_inicio.py` mascara, mas não está em uso.
 - Correções manuais conferidas em outra peça ficam no dicionário `CORRECOES` do script. Por ora há só o INV 35, cuja capitulação diz 155-A e cuja sentença lê 154-A.
 - INV 22 foi relido pela cópia de 2025 (OCR), porque o texto nativo do PJe termina na página 16 de 24.
+- As regex do §2º-A e do §4º do 171 só aceitam o parágrafo solto quando o trecho desde a última menção a artigo cita o 171 (rodada 3 do LEIAME). Antes, o §2º-A do roubo levava CL 11 e CL 18 ao 171 §2º-A; hoje estão no 158.
 
 ## Resultados até aqui
 
@@ -40,7 +41,7 @@ Distribuição pela capitulação, sem duplicatas e com peso dentro do estrato:
 | Estrato | Denúncias | Distribuição |
 | --- | --- | --- |
 | INV | 34 | 154-A 85,3% |
-| CL | 50 | 171 §2º-A 47,3%; 171 sem §2º-A 27,8%; 155 §4º-B 10,7% |
+| CL | 50 | 171 §2º-A 43,2%; 171 sem §2º-A 27,8%; 155 §4º-B 10,7%; 158 7,2% |
 | FE | 114 | 171 §2º-A 86,3%; 171 sem §2º-A 10,8% |
 
 Nenhuma denúncia capitula o 171 §2º, VII.
@@ -90,4 +91,4 @@ A validação das regex fora da amostra (rodada r2, 12 casos) deu concordância 
 - `docs/RUNBOOK_TJSP.md`: roteiro do cjpg e do Codex.
 - `docs/plano-captura.md`: plano completo.
 - `dados/extracao/LEIAME.md`: extração.
-- No Project "Criminologia Informática" do claude.ai, o doc `claude/plano-captura-base-tjpa.md` espelha o estado da coleta.
+- No Project "Criminologia Informática" do claude.ai, o doc `claude/plano-captura-base-tjpa.md` espelha o estado da coleta, e o `claude/matriz-selecao-casos.md` resume a matriz de 29 casos para exame criminológico (documento editável em https://claude.ai/artifact/4rUKtiqaqKiia9LUKqGm3Y), que convém usar para ordenar a coleta das sentenças do passo 2.

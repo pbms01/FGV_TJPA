@@ -50,10 +50,16 @@ Os seis alertas INV restantes também são imputações reais de outro tipo:
 
 Duplicatas de denúncia (desmembramento ou renumeração): INV 7 repete INV 2, e INV 3 repete INV 32.
 
+Rodada 3 (20/11/2026, na montagem da matriz de seleção de casos): a alternativa solta que lia o §2º-A partido por cabeçalho de página aceitava qualquer "2º-A" da capitulação, inclusive o §2º-A do roubo (art. 157). A do §4º tinha o mesmo defeito e pegava os §§ 3º e 4º do 154-A, o § 4º do 155 e parágrafos de leis especiais. As duas alternativas passaram a exigir que o trecho entre a última menção a "artigo" ou "art." e o parágrafo cite o 171 (função `do_171` do script). A nova execução mudou só estes campos:
+
+- CL 11 e CL 18 (roubo com arma e extorsão) saíram do 171 §2º-A e foram para o 158; em INV 24 e INV 28, também roubos, caiu só a marca `a_171_2A`, porque o tipo já era 154-A;
+- `a_171_4` deixou de marcar CL 25, FE 123 e INV 6, 11, 19, 20, 21, 22, 33, 39 e 44 (de 47 para 36 processos);
+- CL 13 e FE 28, em que o cabeçalho de página separa o 171 do parágrafo, continuam com §2º-A e §4º.
+
 ## Distribuição pela capitulação (sem duplicatas, % ponderado dentro do estrato)
 
 - INV, 34 denúncias: 154-A 29 (85,3%), outro tipo 2, 155 1, lavagem 1, 171 §2º-A 1.
-- CL, 50: 171 §2º-A 23 (47,3%), 171 sem §2º-A 14 (27,8%), 155 §4º-B 5 (10,7%), 158 2, 180 2, 155 comum 2, lavagem 1, drogas 1. Nenhuma denúncia capitula o 171 §2º, VII.
+- CL, 50: 171 §2º-A 21 (43,2%), 171 sem §2º-A 14 (27,8%), 155 §4º-B 5 (10,7%), 158 4 (7,2%), 180 2, 155 comum 2, lavagem 1, drogas 1. Nenhuma denúncia capitula o 171 §2º, VII.
 - FE, 114: 171 §2º-A 100 (86,3%), 171 sem §2º-A 11 (10,8%), 155 comum 2, 155 §4º-B 1.
 
 ## Unidade de análise
