@@ -57,6 +57,7 @@ Estado em 21/11/2026: a coleta da fase 1 (TJSP) está encerrada para fins de an�
 | `scripts/analise_q6_servico.py` | Questão 6: vítima e pontos do serviço por família do artifício, cruzados com o ressarcimento pelo intermediário da questão 3; grava `dados/analise/q6_*` |
 | `scripts/titular_conta.py` | Leitor da versão do titular da conta (cessão, negativa, ausência), de a quem e por quanto, dos antecedentes e da menoridade relativa, na denúncia e na sentença; `valida` imprime as 101 leituras |
 | `scripts/analise_q7_titular.py` | Questão 7: versão, perfil e desfecho do titular de só conta, com o ANPP da cota; grava `dados/analise/q7_*` |
+| `scripts/fenomenos_ponderados.py` | Os 18 fenômenos de maior valor prático das questões 1 a 7, com percentual simples e ponderado e os casos de origem; grava `dados/analise/fenomenos.csv` e `fenomenos_casos.csv` |
 | `scripts/segundo_leitor.py` | Concordância entre a primeira leitura (congelada em `dados/conferencia/primeira_leitura.csv`) e o segundo leitor cego, e conferência de que a adjudicação (`dados/conferencia/adjudicacao.csv`) está aplicada aos dados |
 | `docs/analise/` | Notas analíticas das questões 1 a 7 e nota de método do segundo leitor, espelhadas no Project "Criminologia Informática" |
 | `scripts/registra_apelacao.py` e `scripts/grava_acordao.py` | Andamento em segundo grau das sentenças que trataram da Lei 15.397/2026 (`dados/tjsp2/apelacoes_amostra.csv`) e gravação de acórdãos e razões de apelação lidos pelo Codex |
