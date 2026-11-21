@@ -1,0 +1,337 @@
+{
+ "codificacao": {
+  "contexto": {
+   "n": 34,
+   "concordancia": 0.88,
+   "n_sorteados": 24,
+   "concordancia_sorteados": 0.92,
+   "kappa": 0.75,
+   "divergencias": [
+    "FE 97",
+    "INV 41",
+    "INV 40",
+    "INV 34"
+   ]
+  },
+  "meio_contato": {
+   "n": 34,
+   "concordancia": 0.85,
+   "n_sorteados": 24,
+   "concordancia_sorteados": 0.92,
+   "kappa": 0.82,
+   "divergencias": [
+    "INV 41",
+    "INV 27",
+    "FE 47",
+    "INV 6",
+    "FE 90"
+   ]
+  },
+  "artificio": {
+   "n": 34,
+   "concordancia": 0.91,
+   "n_sorteados": 24,
+   "concordancia_sorteados": 0.92,
+   "kappa": 0.9,
+   "divergencias": [
+    "INV 24",
+    "INV 2",
+    "INV 36"
+   ]
+  },
+  "papel_denunciado": {
+   "n": 34,
+   "concordancia": 0.91,
+   "n_sorteados": 24,
+   "concordancia_sorteados": 0.92,
+   "kappa": 0.88,
+   "divergencias": [
+    "CL 25",
+    "CL 48",
+    "CL 40"
+   ]
+  },
+  "whatsapp": {
+   "n": 34,
+   "concordancia": 1.0,
+   "n_sorteados": 24,
+   "concordancia_sorteados": 1.0,
+   "kappa": 1.0,
+   "divergencias": []
+  },
+  "pix_pagamento": {
+   "n": 34,
+   "concordancia": 1.0,
+   "n_sorteados": 24,
+   "concordancia_sorteados": 1.0,
+   "kappa": 1.0,
+   "divergencias": []
+  },
+  "boleto": {
+   "n": 34,
+   "concordancia": 0.97,
+   "n_sorteados": 24,
+   "concordancia_sorteados": 0.96,
+   "kappa": 0.65,
+   "divergencias": [
+    "INV 2"
+   ]
+  },
+  "falso_parente": {
+   "n": 34,
+   "concordancia": 1.0,
+   "n_sorteados": 24,
+   "concordancia_sorteados": 1.0,
+   "kappa": 1.0,
+   "divergencias": []
+  },
+  "falsa_central": {
+   "n": 34,
+   "concordancia": 0.94,
+   "n_sorteados": 24,
+   "concordancia_sorteados": 0.96,
+   "kappa": 0.77,
+   "divergencias": [
+    "INV 36",
+    "CL 35"
+   ]
+  },
+  "venda_falsa": {
+   "n": 34,
+   "concordancia": 0.97,
+   "n_sorteados": 24,
+   "concordancia_sorteados": 1.0,
+   "kappa": 0.91,
+   "divergencias": [
+    "INV 32"
+   ]
+  },
+  "investimento": {
+   "n": 34,
+   "concordancia": 0.97,
+   "n_sorteados": 24,
+   "concordancia_sorteados": 1.0,
+   "kappa": 0.65,
+   "divergencias": [
+    "INV 32"
+   ]
+  },
+  "conta_do_denunciado": {
+   "n": 34,
+   "concordancia": 1.0,
+   "n_sorteados": 24,
+   "concordancia_sorteados": 1.0,
+   "kappa": 1.0,
+   "divergencias": []
+  },
+  "invasao": {
+   "n": 34,
+   "concordancia": 1.0,
+   "n_sorteados": 24,
+   "concordancia_sorteados": 1.0,
+   "kappa": 1.0,
+   "divergencias": []
+  }
+ },
+ "sentenca": {
+  "resultado": {
+   "n": 50,
+   "concordancia": 0.8,
+   "n_sorteados": 34,
+   "concordancia_sorteados": 0.82,
+   "kappa": 0.54,
+   "n_auto": 24,
+   "concordancia_auto": 0.83,
+   "divergencias": [
+    "FE 110",
+    "CL 13",
+    "INV 45",
+    "INV 29",
+    "FE 92",
+    "CL 43",
+    "FE 103",
+    "CL 25",
+    "CL 58",
+    "CL 22"
+   ]
+  },
+  "tipo_acolhido": {
+   "n": 50,
+   "concordancia": 0.98,
+   "n_sorteados": 34,
+   "concordancia_sorteados": 0.97,
+   "kappa": 0.97,
+   "n_auto": 24,
+   "concordancia_auto": 1.0,
+   "divergencias": [
+    "INV 26"
+   ]
+  },
+  "pena_meses": {
+   "n": 50,
+   "concordancia": 1.0,
+   "n_sorteados": 34,
+   "concordancia_sorteados": 1.0,
+   "n_auto": 24,
+   "concordancia_auto": 1.0,
+   "divergencias": []
+  },
+  "regime": {
+   "n": 50,
+   "concordancia": 0.98,
+   "n_sorteados": 34,
+   "concordancia_sorteados": 0.97,
+   "kappa": 0.97,
+   "n_auto": 24,
+   "concordancia_auto": 1.0,
+   "divergencias": [
+    "FE 20"
+   ]
+  },
+  "substituida": {
+   "n": 50,
+   "concordancia": 0.94,
+   "n_sorteados": 34,
+   "concordancia_sorteados": 0.91,
+   "kappa": 0.89,
+   "n_auto": 24,
+   "concordancia_auto": 0.88,
+   "divergencias": [
+    "CL 53",
+    "FE 82",
+    "INV 5"
+   ]
+  },
+  "lei_15397": {
+   "n": 50,
+   "concordancia": 0.98,
+   "n_sorteados": 34,
+   "concordancia_sorteados": 1.0,
+   "kappa": 0.96,
+   "n_auto": 24,
+   "concordancia_auto": 1.0,
+   "divergencias": [
+    "CL 48"
+   ]
+  },
+  "rep_status": {
+   "n": 50,
+   "concordancia": 1.0,
+   "n_sorteados": 34,
+   "concordancia_sorteados": 1.0,
+   "kappa": 1.0,
+   "divergencias": []
+  },
+  "rep_material": {
+   "n": 50,
+   "concordancia": 1.0,
+   "n_sorteados": 34,
+   "concordancia_sorteados": 1.0,
+   "divergencias": []
+  },
+  "rep_moral": {
+   "n": 50,
+   "concordancia": 1.0,
+   "n_sorteados": 34,
+   "concordancia_sorteados": 1.0,
+   "divergencias": []
+  },
+  "rep_fundamentos": {
+   "n": 11,
+   "concordancia": 0.82,
+   "n_sorteados": 6,
+   "concordancia_sorteados": 0.83,
+   "divergencias": [
+    "CL 48",
+    "CL 58"
+   ]
+  },
+  "rep_moral_negado": {
+   "n": 50,
+   "concordancia": 0.98,
+   "n_sorteados": 34,
+   "concordancia_sorteados": 0.97,
+   "kappa": 0.79,
+   "divergencias": [
+    "FE 68"
+   ]
+  },
+  "rep_individualizada": {
+   "n": 50,
+   "concordancia": 1.0,
+   "n_sorteados": 34,
+   "concordancia_sorteados": 1.0,
+   "kappa": 1.0,
+   "divergencias": []
+  },
+  "rep_solidaria": {
+   "n": 50,
+   "concordancia": 1.0,
+   "n_sorteados": 34,
+   "concordancia_sorteados": 1.0,
+   "kappa": 1.0,
+   "divergencias": []
+  },
+  "intermediario_ressarciu": {
+   "n": 50,
+   "concordancia": 0.94,
+   "n_sorteados": 34,
+   "concordancia_sorteados": 0.94,
+   "kappa": 0.38,
+   "divergencias": [
+    "CL 13",
+    "FE 70",
+    "CL 24"
+   ]
+  },
+  "conseq_valoracao": {
+   "n": 50,
+   "concordancia": 0.88,
+   "n_sorteados": 34,
+   "concordancia_sorteados": 0.88,
+   "kappa": 0.82,
+   "divergencias": [
+    "INV 26",
+    "CL 12",
+    "CL 25",
+    "FE 59",
+    "FE 21",
+    "INV 43"
+   ]
+  },
+  "conseq_danos": {
+   "n": 16,
+   "concordancia": 0.5,
+   "n_sorteados": 3,
+   "concordancia_sorteados": 1.0,
+   "divergencias": [
+    "INV 45",
+    "INV 4",
+    "FE 125",
+    "FE 53",
+    "INV 22",
+    "CL 25",
+    "INV 30",
+    "FE 21"
+   ]
+  },
+  "pedido_reparacao": {
+   "n": 50,
+   "concordancia": 0.98,
+   "n_sorteados": 34,
+   "concordancia_sorteados": 1.0,
+   "kappa": 0.96,
+   "divergencias": [
+    "FE 125"
+   ]
+  },
+  "pedido_moral": {
+   "n": 50,
+   "concordancia": 1.0,
+   "n_sorteados": 34,
+   "concordancia_sorteados": 1.0,
+   "kappa": 1.0,
+   "divergencias": []
+  }
+ }
+}

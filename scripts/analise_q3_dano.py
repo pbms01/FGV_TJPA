@@ -10,7 +10,8 @@ e imprime as tabelas. `-q` grava sem imprimir.
 
 Decisões que não saltam aos olhos:
 - A unidade é a denúncia sem duplicatas, com o peso do processo, e os percentuais são
-  ponderados dentro do estrato. O denominador da reparação é a sentença condenatória com
+  ponderados dentro do estrato. As quatro denúncias fora da tipologia (classe "fora" dos
+  eixos: INV 40, CL 12, CL 25, FE 123) ficam no CSV e fora do resumo, como na questão 1. O denominador da reparação é a sentença condenatória com
   texto lido; as seis lidas só pelo DJEN entram pela nota da coleta (CORRECAO), e as duas
   cujo dispositivo publicado não fala de reparação ficam como indeterminadas.
 - "Silente" é a condenação sem palavra sobre a reparação. Não se confunde com a negativa
@@ -63,12 +64,13 @@ CORRECAO = {
 # Leitura à mão das consequências do crime nas sentenças condenatórias em que o leitor por
 # termos as marcou como valoradas, ou em dúvida: (valoração, danos, nota).
 # valoração: negativa (pesou na pena-base), neutra, não examinada (a menção está fora da
-# dosimetria, em ementa citada ou no pedido do MP), fora (fato fora da tipologia).
+# dosimetria, em ementa citada ou no pedido do MP). Entradas marcadas "(segundo leitor)" vêm
+# da adjudicação de dados/conferencia/adjudicacao.csv.
 CONSEQ_MANUAL = {
     "INV 39": ("negativa", ["psicológico", "social"], "relatório psicológico; hostilidade e falta de acolhimento no trabalho depois da divulgação"),
     "INV 20": ("não examinada", [], "a menção a consequências patrimoniais e morais está na recusa da insignificância"),
-    "INV 30": ("negativa", ["econômico", "digital"], "perdeu projetos e clientes e contratou 15 pessoas para refazer o trabalho perdido"),
-    "INV 4": ("negativa", ["digital", "psicológico", "econômico"], "uso ilícito de dados e documentos pessoais, abalo psíquico, receio de prejuízo"),
+    "INV 30": ("negativa", ["econômico", "digital", "reputacional"], "perdeu projetos e clientes e contratou 15 pessoas para refazer o trabalho perdido; a perda de clientes é dano à reputação da empresa (segundo leitor)"),
+    "INV 4": ("negativa", ["digital", "psicológico"], "uso ilícito de dados e documentos pessoais, abalo psíquico e receio de prejuízo; a reparação é negada porque 'não houve prejuízo financeiro' (segundo leitor)"),
     "INV 5": ("negativa", ["econômico"], "prejuízo significativo"),
     "INV 8": ("não examinada", [], "prejuízo financeiro e de imagem só no pedido do MP, no relatório"),
     "INV 22": ("negativa", ["digital", "social"], "invasão de computadores da Polícia Civil com informações sigilosas usadas no combate ao crime"),
@@ -76,7 +78,7 @@ CONSEQ_MANUAL = {
     "CL 10": ("negativa", ["econômico"], "elevado prejuízo"),
     "CL 13": ("negativa", ["econômico", "social"], "prejuízo, encargos, empréstimos e reflexos pessoais e matrimoniais"),
     "CL 14": ("neutra", [], "não justificam a majoração"),
-    "CL 25": ("fora", [], "anabolizantes e saúde pública, fora da tipologia"),
+    "CL 25": ("negativa", ["social"], "anabolizantes: consequências à saúde pública na base dos demais réus; fato fora da tipologia (segundo leitor)"),
     "CL 37": ("negativa", ["econômico"], "R$ 27.185,00, acima do ordinário"),
     "CL 48": ("negativa", ["econômico"], "prejuízo experimentado pela vítima; a mesma sentença nega a reparação porque o banco ressarciu"),
     "CL 53": ("negativa", ["econômico"], "R$ 79.381,29 não recuperados"),
@@ -84,10 +86,10 @@ CONSEQ_MANUAL = {
     "FE 15": ("negativa", ["econômico", "psicológico"], "R$ 24 mil e sentimento de insegurança"),
     "FE 27": ("negativa", ["econômico"], "R$ 21.725,00 não recuperados"),
     "FE 44": ("negativa", ["econômico"], "R$ 19.980,00 na parcela creditada na conta do réu"),
-    "FE 53": ("negativa", ["econômico", "psicológico", "físico"], "R$ 25 mil e impacto emocional agravado pela condição de saúde"),
+    "FE 53": ("negativa", ["econômico", "psicológico"], "R$ 25 mil e impacto emocional agravado pela condição de saúde, sem dano físico nomeado (segundo leitor)"),
     "FE 56": ("negativa", ["econômico"], "elevado prejuízo"),
     "FE 58": ("negativa", ["econômico"], "prejuízo da vítima"),
-    "FE 59": ("não examinada", [], "só em ementa citada"),
+    "FE 59": ("neutra", [], "'aquelas ocorridas usualmente', na dosimetria (segundo leitor)"),
     "FE 67": ("negativa", ["econômico"], "grande prejuízo, veículo não restituído"),
     "FE 70": ("negativa", ["econômico"], "empréstimo de R$ 19,6 mil contraído em nome da vítima de 57 anos, aposentada"),
     "FE 71": ("negativa", ["econômico"], "prejuízo acima do esperado"),
@@ -96,13 +98,13 @@ CONSEQ_MANUAL = {
     "FE 100": ("negativa", ["econômico"], "prejuízo experimentado pela vítima"),
     "FE 117": ("negativa", ["econômico", "psicológico"], "vítima com deficiência; livro e projeto de vida transformados em dívidas; desgaste emocional, frustração e desilusão"),
     "FE 121": ("negativa", ["econômico"], "prejuízo financeiro significativo"),
-    "FE 125": ("negativa", ["econômico", "social"], "veículo em nome da vítima: multas, pontos na habilitação e ação judicial para desfazer"),
+    "FE 125": ("negativa", ["econômico"], "prejuízo acima de R$ 92 mil e veículo em nome da vítima, com multas, pontos na habilitação e ação judicial para desfazer (segundo leitor: econômico, não social)"),
     "FE 128": ("não examinada", [], "transcrição genérica do art. 59"),
     "INV 26": ("neutra", [], "todas previstas no tipo"),
     "INV 34": ("não examinada", [], "a palavra está no relato da ameaça"),
-    "INV 45": ("negativa", ["econômico", "social"], "medicamento muito procurado na pandemia e montante do prejuízo"),
+    "INV 45": ("negativa", ["econômico"], "montante do prejuízo; a procura do medicamento na pandemia é circunstância (segundo leitor)"),
     "CL 1": ("não examinada", [], "citação doutrinária"),
-    "CL 12": ("fora", [], "tráfico, fora da tipologia"),
+    "CL 12": ("neutra", [], "'motivos e consequências do crime são neutros'; tráfico, fora da tipologia (segundo leitor)"),
     "CL 41": ("não examinada", [], "consequências do falso testemunho"),
     "FE 3": ("não examinada", [], "rótulo da lista do art. 59, sem valoração"),
     "FE 42": ("neutra", [], "neutras"),
@@ -111,6 +113,9 @@ CONSEQ_MANUAL = {
     "FE 101": ("neutra", [], "pena-base no mínimo; lista do art. 59 sem valoração"),
     "FE 111": ("não examinada", [], "transcrição genérica do art. 59"),
     "FE 124": ("neutra", [], "nada a considerar"),
+    # achadas pelo segundo leitor, fora do que o leitor por termos marcou
+    "FE 21": ("negativa", ["econômico", "psicológico", "reputacional"], "pena-base +1/4: 'a vítima ficou muitíssimo abalada e temerosa' e dívidas 'que sujaram seu nome na praça'"),
+    "INV 43": ("neutra", [], "as circunstâncias apontadas pelo MP 'não excedem a gravidade ordinária do crime'"),
 }
 
 # A sentença limita a reparação ao que entrou na conta do réu (lida no trecho da fixação).
@@ -126,8 +131,10 @@ LIMITADA_CONTA = {
 }
 SOLIDARIA = {"CL 10", "CL 13", "CL 52", "FE 55"}  # CL 13: "reconhecida a responsabilidade solidária"
 
-# O prejuízo foi coberto por intermediário (banco, instituição de pagamento, empresa), lido no
-# texto da sentença condenatória: o dano mudou de titular antes da sentença.
+# O prejuízo foi coberto por intermediário (banco, instituição de pagamento, empresa) com recursos
+# próprios, lido no texto da sentença: o dano mudou de titular antes dela. A varredura foi das
+# condenatórias (CL 24, absolutória, veio do segundo leitor); a devolução do valor bloqueado na
+# conta recebedora não conta (CL 13, CL 58).
 INTERMEDIARIO_RESSARCIU = {
     "CL 15": "ressarcido pelo banco; reparação negada",
     "CL 18": "as instituições bancárias repararam os prejuízos; reparação negada",
@@ -139,6 +146,15 @@ INTERMEDIARIO_RESSARCIU = {
     "FE 54": "ressarcimento parcial pelo Itaú; reparação fixada pelo restante",
     "FE 65": "ressarcido pelo banco; consequências normais por isso; sentença silente",
     "FE 122": "ressarcida em ação contra o banco; reparação negada",
+    # segundo leitor
+    "FE 70": "a vítima 'propôs ação cível contra o Banco e foram restituidas as parcelas'; sentença silente",
+    "CL 24": "absolvição; os valores foram restituídos à vítima pela Caixa e pela Mastercard",
+}
+
+# Fundamentos da negativa corrigidos pela adjudicação do segundo leitor (adjudicacao.csv).
+FUNDAMENTOS_ADJUDICADOS = {
+    "CL 48": "vítima ressarcida|remete à via cível",   # "eventual dano moral deve ser buscado ... nas vias cíveis"
+    "CL 58": "reparação por outro instrumento",        # valor bloqueado devolvido pelo PagSeguro ao juízo
 }
 DANOS = ["econômico", "psicológico", "digital", "reputacional", "social", "físico"]
 
@@ -175,6 +191,7 @@ def base():
                  resultado=s["resultado"] if s else "sem sentença", data_sentenca=s["data_mov"] if s else "",
                  conferido_sentenca=s["conferido"] if s else "", tipo_acolhido=s["tipo_acolhido"] if s else "",
                  sistema=ex["sistema"], canal=ex["canal_eixo"], distancia=ex["distancia"], classe=ex["classe"],
+                 fora=ex["classe"] == "fora",
                  nivel=nivel, artificio=c["artificio"], contexto=c.get("contexto", ""),
                  idosa=d["vitima_idosa"] == "True" or d["a_171_4"] == "True", vitima_pj=d["vitima_pj"] == "True",
                  vd=d["contexto_vd"] == "True", valor_fato=float(d["valor_max"]) if d["valor_max"] else None)
@@ -203,6 +220,8 @@ def base():
         # alegações finais", FE 21; "acolho o pleito ministerial formulado na denúncia", FE 80)
         x["pedido_dito_na_sentenca"] = bool(st == "fixa" and re.search(r"\bpedi(u|do)\b|pleit|requer|requisi", txt_fix, re.I)) or \
             bool(st == "fixa" and re.search(r"conforme (pediu|requereu)|acolho o (pleito|pedido)", ts, re.I))
+        if caso in FUNDAMENTOS_ADJUDICADOS and st == "nega":
+            x["fundamentos"] = FUNDAMENTOS_ADJUDICADOS[caso]
         x["rep_limitada_conta"] = caso in LIMITADA_CONTA
         x["intermediario_ressarciu"] = INTERMEDIARIO_RESSARCIU.get(caso, "")
         if caso in CORRECAO:
@@ -236,7 +255,7 @@ def pond_media(L, f):
 def resumo(L):
     out = {}
     for e in ESTRATOS:
-        E = [x for x in L if x["estrato"] == e]
+        E = [x for x in L if x["estrato"] == e and not x["fora"]]
         cond = [x for x in E if x["condena"] and x["rep_status"] != "indeterminado"]
         fixa = [x for x in cond if x["rep_status"] == "fixa"]
         o = out[e] = {"denuncias": len(E), "condenacoes_lidas": len(cond)}

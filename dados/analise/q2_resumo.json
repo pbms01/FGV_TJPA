@@ -250,10 +250,10 @@
  },
  "objeto_contexto_acesso": {
   "remoto": {
-   "institucional": 8,
-   "relacional": 3,
-   "patrimonial": 11,
-   "violencia_domestica": 2
+   "patrimonial": 13,
+   "institucional": 6,
+   "violencia_domestica": 3,
+   "relacional": 2
   },
   "local": {
    "violencia_domestica": 4,
@@ -557,6 +557,18 @@
     "180": 1
    }
   },
+  "invasao_sistema_bancario": {
+   "n": 7,
+   "modal": "154-A",
+   "participação do modal": 28.6,
+   "tipos distintos": 4,
+   "distribuição": {
+    "154-A": 2,
+    "155 §4º-B": 2,
+    "171 §2º-A": 2,
+    "155 outro": 1
+   }
+  },
   "compra_fraudulenta_empresa": {
    "n": 7,
    "modal": "171 §2º-A",
@@ -586,28 +598,6 @@
     "154-A": 6
    }
   },
-  "invasao_sistema_bancario": {
-   "n": 6,
-   "modal": "155 §4º-B",
-   "participação do modal": 33.3,
-   "tipos distintos": 4,
-   "distribuição": {
-    "155 §4º-B": 2,
-    "171 §2º-A": 2,
-    "154-A": 1,
-    "155 outro": 1
-   }
-  },
-  "sequestro_conta": {
-   "n": 6,
-   "modal": "154-A",
-   "participação do modal": 83.3,
-   "tipos distintos": 2,
-   "distribuição": {
-    "154-A": 5,
-    "171 §2º-A": 1
-   }
-  },
   "extorsao_transferencia": {
    "n": 5,
    "modal": "158",
@@ -626,6 +616,16 @@
    "distribuição": {
     "154-A": 4,
     "171 outro": 1
+   }
+  },
+  "sequestro_conta": {
+   "n": 5,
+   "modal": "154-A",
+   "participação do modal": 80.0,
+   "tipos distintos": 2,
+   "distribuição": {
+    "154-A": 4,
+    "171 §2º-A": 1
    }
   },
   "falso_conhecido": {
@@ -736,6 +736,18 @@
     "147-A": 1
    }
   },
+  "invasao_sistema_bancario": {
+   "n": 7,
+   "modal": "155 outro",
+   "participação do modal": 28.6,
+   "tipos distintos": 4,
+   "distribuição": {
+    "155 outro": 2,
+    "155 §4º-B": 2,
+    "171 §2º-A": 2,
+    "154-A": 1
+   }
+  },
   "compra_fraudulenta_empresa": {
    "n": 7,
    "modal": "171 §2º-A",
@@ -744,17 +756,6 @@
    "distribuição": {
     "171 §2º-A": 4,
     "171 outro": 3
-   }
-  },
-  "invasao_sistema_bancario": {
-   "n": 6,
-   "modal": "155 outro",
-   "participação do modal": 33.3,
-   "tipos distintos": 3,
-   "distribuição": {
-    "155 outro": 2,
-    "155 §4º-B": 2,
-    "171 §2º-A": 2
    }
   },
   "extorsao_transferencia": {
@@ -766,17 +767,6 @@
     "158": 2,
     "171 §2º VII": 2,
     "155 outro": 1
-   }
-  },
-  "sequestro_conta": {
-   "n": 5,
-   "modal": "154-A",
-   "participação do modal": 60.0,
-   "tipos distintos": 3,
-   "distribuição": {
-    "154-A": 3,
-    "171 §2º-A": 1,
-    "171 outro": 1
    }
   },
   "maquininha": {
@@ -820,10 +810,22 @@
     "154-A": 1,
     "155 §4º-B": 1
    }
+  },
+  "sequestro_conta": {
+   "n": 4,
+   "modal": "154-A",
+   "participação do modal": 50.0,
+   "tipos distintos": 3,
+   "distribuição": {
+    "154-A": 2,
+    "171 §2º-A": 1,
+    "171 outro": 1
+   }
   }
  },
  "fronteira_furto_estelionato": {
   "INV 35": "invasao_sistema_bancario | 154-A > 155 outro",
+  "INV 2": "invasao_sistema_bancario | 154-A > 154-A",
   "INV 13": "roubo_celular_invasao | 154-A > 180",
   "INV 28": "roubo_celular_invasao | 154-A > 158",
   "CL 15": "invasao_sistema_bancario | 155 §4º-B > 155 §4º-B",

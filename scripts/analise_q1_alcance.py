@@ -114,7 +114,14 @@ NIVEL = {
     "FE 125": ("autor remoto", "ambos"),         # anúncio na OLX e entrega do carro
     "FE 127": ("autor remoto", "registro"),
     "FE 128": ("autor remoto", "ambos"),         # recebe o Pix e leva o carro
+    # misto pela adjudicação do segundo leitor (dados/conferencia/adjudicacao.csv)
+    "CL 40": ("autor remoto", "registro"),       # a denúncia lhe atribui a mensagem da falsa sobrinha; o Pix entrou na conta dele
 }
+
+# Substituição da pena corrigida pela adjudicação do segundo leitor; o leitor de regras grava
+# substituida_auto em sentencas_amostra.csv e o recálculo o sobrescreveria, por isso a
+# correção fica aqui. CL 53 e INV 5 não substituem (fechado; 67,2 meses); FE 82 substitui.
+SUBSTITUIDA = {"CL 53": "False", "INV 5": "False", "FE 82": "True"}
 NIVEIS = ["só conta", "elo logístico", "autor remoto", "autor presencial", "fora"]
 
 # Indícios de como o denunciado foi identificado, por busca de termos na narrativa e na
@@ -173,7 +180,7 @@ def base():
             n_denunciados=d["n_denunciados_cap"], ano_fato=d["ano_fato"],
             resultado=s["resultado"] if s else "", tipo_acolhido=s["tipo_acolhido"] if s else "",
             pena_meses=float(s["pena_meses"]) if s and s["pena_meses"] else None,
-            regime=s["regime"] if s else "", substituida=s["substituida_auto"] if s else "",
+            regime=s["regime"] if s else "", substituida=SUBSTITUIDA.get(caso, s["substituida_auto"]) if s else "",
             data_sentenca=s["data_mov"] if s else "", conferido_sentenca=s["conferido"] if s else "",
             lei=lei_15397(s) if s else "sem sentença",
             apelacao=apel.get(caso, {}).get("recorrente", ""),

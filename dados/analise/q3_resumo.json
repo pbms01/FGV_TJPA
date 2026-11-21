@@ -1,19 +1,19 @@
 {
  "INV": {
-  "denuncias": 34,
-  "condenacoes_lidas": 28,
+  "denuncias": 33,
+  "condenacoes_lidas": 27,
   "status": {
    "fixa": [
     4,
-    14.3
+    14.8
    ],
    "nega": [
     5,
-    17.9
+    18.5
    ],
    "silente": [
-    19,
-    67.9
+    18,
+    66.7
    ]
   },
   "fundamentos_negativa": {
@@ -26,12 +26,12 @@
   },
   "pedido_denuncia": {
    "false": [
-    16,
-    57.1
+    15,
+    55.6
    ],
    "true": [
     12,
-    42.9
+    44.4
    ]
   },
   "status_por_pedido": {
@@ -48,11 +48,11 @@
    "False": {
     "nega": [
      5,
-     31.2
+     33.3
     ],
     "silente": [
-     11,
-     68.8
+     10,
+     66.7
     ]
    }
   },
@@ -61,12 +61,12 @@
   "fixa_sem_pedido_algum": [],
   "pedido_denuncia_ou_alegacoes": {
    "false": [
-    16,
-    57.1
+    15,
+    55.6
    ],
    "true": [
     12,
-    42.9
+    44.4
    ]
   },
   "status_por_pedido_qualquer": {
@@ -83,11 +83,11 @@
    "False": {
     "nega": [
      5,
-     31.2
+     33.3
     ],
     "silente": [
-     11,
-     68.8
+     10,
+     66.7
     ]
    }
   },
@@ -149,12 +149,6 @@
   },
   "moral_negado": [],
   "fixa_por_canal": {
-   "": {
-    "false": [
-     1,
-     100.0
-    ]
-   },
    "contato físico": {
     "false": [
      5,
@@ -185,12 +179,6 @@
    }
   },
   "fixa_por_distancia": {
-   "": {
-    "false": [
-     1,
-     100.0
-    ]
-   },
    "próxima": {
     "false": [
      9,
@@ -215,12 +203,6 @@
    }
   },
   "fixa_por_sistema": {
-   "fora": {
-    "false": [
-     1,
-     100.0
-    ]
-   },
    "meio": {
     "true": [
      1,
@@ -246,15 +228,15 @@
    "executor": {
     "fixa": [
      2,
-     33.3
+     40.0
     ],
     "nega": [
      1,
-     16.7
+     20.0
     ],
     "silente": [
-     3,
-     50.0
+     2,
+     40.0
     ]
    },
    "invasor": {
@@ -320,15 +302,15 @@
    "False": {
     "fixa": [
      4,
-     14.8
+     15.4
     ],
     "nega": [
      5,
-     18.5
+     19.2
     ],
     "silente": [
-     18,
-     66.7
+     17,
+     65.4
     ]
    }
   },
@@ -349,15 +331,15 @@
    "False": {
     "fixa": [
      4,
-     20.0
+     21.1
     ],
     "nega": [
      2,
-     10.0
+     10.5
     ],
     "silente": [
-     14,
-     70.0
+     13,
+     68.4
     ]
    }
   },
@@ -465,13 +447,13 @@
   },
   "pedido_por_nivel": {
    "executor": {
-    "false": [
-     3,
-     50.0
-    ],
     "true": [
      3,
-     50.0
+     60.0
+    ],
+    "false": [
+     2,
+     40.0
     ]
    },
    "invasor": {
@@ -511,11 +493,11 @@
    "2022": {
     "nega": [
      1,
-     16.7
+     20.0
     ],
     "silente": [
-     5,
-     83.3
+     4,
+     80.0
     ]
    },
    "2023": {
@@ -569,41 +551,39 @@
   },
   "consequencias": {
    "não lida": [
-    16,
-    57.1
+    14,
+    51.9
    ],
    "negativa": [
     6,
-    21.4
+    22.2
+   ],
+   "neutra": [
+    4,
+    14.8
    ],
    "não examinada": [
     3,
-    10.7
-   ],
-   "neutra": [
-    3,
-    10.7
+    11.1
    ]
   },
   "danos_consequencias": {
-   "econômico": 4,
+   "econômico": 3,
    "psicológico": 2,
    "digital": 3,
-   "reputacional": 0,
-   "social": 3,
+   "reputacional": 1,
+   "social": 2,
    "físico": 0,
    "n": 6
   },
   "consequencias_alem_economico": [
    "INV 22",
-   "INV 45",
    "INV 4",
    "INV 30",
    "INV 39"
   ],
   "dano_extra_reconhecido": [
    "INV 22",
-   "INV 45",
    "INV 4",
    "INV 30",
    "INV 39",
@@ -619,37 +599,38 @@
   }
  },
  "CL": {
-  "denuncias": 50,
-  "condenacoes_lidas": 46,
+  "denuncias": 48,
+  "condenacoes_lidas": 44,
   "status": {
    "fixa": [
     24,
-    53.1
+    55.2
    ],
    "nega": [
     10,
-    22.2
+    23.0
    ],
    "silente": [
-    12,
-    24.7
+    10,
+    21.7
    ]
   },
   "fundamentos_negativa": {
    "contraditório e instrução": 1,
-   "remete à via cível": 2,
+   "remete à via cível": 3,
+   "reparação por outro instrumento": 1,
    "sem pedido": 4,
-   "vítima ressarcida": 7,
+   "vítima ressarcida": 6,
    "n": 10
   },
   "pedido_denuncia": {
    "true": [
     32,
-    72.3
+    75.1
    ],
    "false": [
-    14,
-    27.7
+    12,
+    24.9
    ]
   },
   "status_por_pedido": {
@@ -670,15 +651,15 @@
    "False": {
     "fixa": [
      4,
-     30.9
+     35.8
     ],
     "nega": [
      3,
-     21.8
+     25.3
     ],
     "silente": [
-     7,
-     47.3
+     5,
+     38.9
     ]
    }
   },
@@ -700,11 +681,11 @@
   "pedido_denuncia_ou_alegacoes": {
    "true": [
     33,
-    74.3
+    77.2
    ],
    "false": [
-    13,
-    25.7
+    11,
+    22.8
    ]
   },
   "status_por_pedido_qualquer": {
@@ -725,15 +706,15 @@
    "False": {
     "fixa": [
      3,
-     25.5
+     29.9
     ],
     "nega": [
      3,
-     23.5
+     27.6
     ],
     "silente": [
-     7,
-     51.0
+     5,
+     42.5
     ]
    }
   },
@@ -806,12 +787,6 @@
    "CL 13"
   ],
   "fixa_por_canal": {
-   "": {
-    "false": [
-     2,
-     100.0
-    ]
-   },
    "contato físico": {
     "true": [
      1,
@@ -860,12 +835,6 @@
    }
   },
   "fixa_por_distancia": {
-   "": {
-    "false": [
-     2,
-     100.0
-    ]
-   },
    "próxima": {
     "false": [
      6,
@@ -888,12 +857,6 @@
    }
   },
   "fixa_por_sistema": {
-   "fora": {
-    "false": [
-     2,
-     100.0
-    ]
-   },
    "meio": {
     "true": [
      22,
@@ -930,30 +893,31 @@
      54.1
     ]
    },
-   "fora": {
-    "silente": [
-     2,
+   "autor remoto": {
+    "fixa": [
+     1,
      100.0
     ]
    },
    "só conta": {
     "fixa": [
-     23,
-     58.8
+     22,
+     57.9
     ],
     "nega": [
      9,
-     22.9
+     23.4
     ],
     "silente": [
      7,
-     18.3
+     18.7
     ]
    }
   },
   "valor_por_nivel": {
    "autor presencial": "n=1, mediana 79381.29",
-   "só conta": "n=23, mediana 5343.76"
+   "autor remoto": "n=1, mediana 870.00",
+   "só conta": "n=22, mediana 6621.88"
   },
   "faixa_por_nivel": {
    "autor presencial": {
@@ -962,22 +926,28 @@
      100.0
     ]
    },
+   "autor remoto": {
+    "igual ao valor do fato": [
+     1,
+     100.0
+    ]
+   },
    "só conta": {
     "igual ao valor do fato": [
-     15,
-     66.0
+     14,
+     64.6
     ],
     "menos da metade": [
      3,
-     13.3
+     13.8
     ],
     "acima": [
      3,
-     12.8
+     13.3
     ],
     "abaixo": [
      2,
-     7.9
+     8.2
     ]
    }
   },
@@ -999,15 +969,15 @@
    "False": {
     "fixa": [
      13,
-     44.1
+     46.9
     ],
     "nega": [
      6,
-     20.5
+     21.8
     ],
     "silente": [
-     11,
-     35.4
+     9,
+     31.4
     ]
    }
   },
@@ -1019,35 +989,34 @@
    "True": {
     "fixa": [
      10,
-     57.3
+     59.6
     ],
     "nega": [
      4,
-     21.0
+     21.9
     ],
     "silente": [
-     4,
-     21.7
+     3,
+     18.5
     ]
    },
    "False": {
     "fixa": [
      14,
-     50.4
+     52.4
     ],
     "nega": [
      6,
-     22.9
+     23.8
     ],
     "silente": [
-     8,
-     26.7
+     7,
+     23.8
     ]
    }
   },
   "ressarcida_por_canal": {
    "internet": 2,
-   "correio": 1,
    "telefonia": 2,
    "presencial": 2
   },
@@ -1061,7 +1030,7 @@
    "CL 29": "nega"
   },
   "limitada_conta_n": "6 de 24",
-  "so_conta_fixa_igual_fato": "15 de 23",
+  "so_conta_fixa_igual_fato": "14 de 22",
   "so_conta_fixa_limitada": [
    "CL 57",
    "CL 45",
@@ -1077,8 +1046,9 @@
    "só conta": {
     "sem pedido": 4,
     "contraditório e instrução": 1,
-    "remete à via cível": 2,
-    "vítima ressarcida": 6
+    "remete à via cível": 3,
+    "vítima ressarcida": 5,
+    "reparação por outro instrumento": 1
    }
   },
   "status_por_canal": {
@@ -1196,20 +1166,20 @@
      45.9
     ]
    },
-   "fora": {
+   "autor remoto": {
     "false": [
-     2,
+     1,
      100.0
     ]
    },
    "só conta": {
     "true": [
      30,
-     78.3
+     80.1
     ],
     "false": [
-     9,
-     21.7
+     8,
+     19.9
     ]
    }
   },
@@ -1223,11 +1193,7 @@
    "2021": {
     "nega": [
      1,
-     50.0
-    ],
-    "silente": [
-     1,
-     50.0
+     100.0
     ]
    },
    "2024": {
@@ -1257,42 +1223,38 @@
    "2026": {
     "fixa": [
      19,
-     54.8
+     56.5
     ],
     "nega": [
      7,
-     21.3
+     21.9
     ],
     "silente": [
-     8,
-     23.9
+     7,
+     21.6
     ]
    }
   },
   "consequencias": {
    "não lida": [
     25,
-    55.7
+    57.9
    ],
    "neutra": [
     10,
-    22.7
+    23.6
    ],
    "negativa": [
     5,
-    11.1
-   ],
-   "fora": [
-    2,
-    3.8
+    11.5
    ],
    "sem texto": [
     2,
-    3.8
+    3.9
    ],
    "não examinada": [
     2,
-    3.0
+    3.1
    ]
   },
   "danos_consequencias": {
@@ -1319,20 +1281,20 @@
   }
  },
  "FE": {
-  "denuncias": 114,
-  "condenacoes_lidas": 101,
+  "denuncias": 113,
+  "condenacoes_lidas": 100,
   "status": {
    "fixa": [
-    52,
-    47.7
+    51,
+    47.2
    ],
    "nega": [
     19,
-    22.1
+    22.2
    ],
    "silente": [
     30,
-    30.3
+    30.5
    ]
   },
   "fundamentos_negativa": {
@@ -1349,18 +1311,18 @@
   "pedido_denuncia": {
    "true": [
     69,
-    64.1
+    64.7
    ],
    "false": [
-    32,
-    35.9
+    31,
+    35.3
    ]
   },
   "status_por_pedido": {
    "True": {
     "fixa": [
      46,
-     64.1
+     64.2
     ],
     "nega": [
      9,
@@ -1373,16 +1335,16 @@
    },
    "False": {
     "fixa": [
-     6,
-     18.3
+     5,
+     16.1
     ],
     "nega": [
      10,
-     36.7
+     37.7
     ],
     "silente": [
      16,
-     44.9
+     46.2
     ]
    }
   },
@@ -1392,30 +1354,28 @@
    "FE 63",
    "FE 113",
    "FE 21",
-   "FE 125",
    "FE 30"
   ],
   "fixa_sem_pedido_algum": [
    "FE 103",
    "FE 63",
-   "FE 125",
    "FE 30"
   ],
   "pedido_denuncia_ou_alegacoes": {
    "true": [
     70,
-    65.7
+    66.3
    ],
    "false": [
-    31,
-    34.3
+    30,
+    33.7
    ]
   },
   "status_por_pedido_qualquer": {
    "True": {
     "fixa": [
      46,
-     62.6
+     62.7
     ],
     "nega": [
      10,
@@ -1428,16 +1388,16 @@
    },
    "False": {
     "fixa": [
-     6,
-     19.2
+     5,
+     16.9
     ],
     "nega": [
      9,
-     33.8
+     34.7
     ],
     "silente": [
      16,
-     47.0
+     48.4
     ]
    }
   },
@@ -1457,24 +1417,24 @@
    "FE 31",
    "FE 102"
   ],
-  "reparacao_mediana": 3665.43,
-  "reparacao_n_com_valor": 50,
+  "reparacao_mediana": 4330.86,
+  "reparacao_n_com_valor": 49,
   "faixa_razao": {
    "igual ao valor do fato": [
     32,
-    66.7
+    67.9
    ],
    "menos da metade": [
     7,
-    14.8
+    15.0
    ],
    "acima": [
     4,
-    9.6
+    9.8
    ],
    "abaixo": [
-    7,
-    8.9
+    6,
+    7.3
    ]
   },
   "limitada_conta": [
@@ -1552,16 +1512,9 @@
    ]
   },
   "moral_negado": [
-   "FE 68",
    "FE 127"
   ],
   "fixa_por_canal": {
-   "": {
-    "true": [
-     1,
-     100.0
-    ]
-   },
    "internet": {
     "true": [
      41,
@@ -1594,12 +1547,6 @@
    }
   },
   "fixa_por_distancia": {
-   "": {
-    "true": [
-     1,
-     100.0
-    ]
-   },
    "próxima": {
     "false": [
      4,
@@ -1622,12 +1569,6 @@
    }
   },
   "fixa_por_sistema": {
-   "fora": {
-    "true": [
-     1,
-     100.0
-    ]
-   },
    "meio": {
     "false": [
      48,
@@ -1692,12 +1633,6 @@
      54.1
     ]
    },
-   "fora": {
-    "fixa": [
-     1,
-     100.0
-    ]
-   },
    "só conta": {
     "fixa": [
      32,
@@ -1717,7 +1652,6 @@
    "autor presencial": "n=2, mediana 2631.00",
    "autor remoto": "n=14, mediana 1790.00",
    "elo logístico": "n=2, mediana 13118.95",
-   "fora": "n=1, mediana 800.00",
    "só conta": "n=31, mediana 6900.00"
   },
   "faixa_por_nivel": {
@@ -1753,12 +1687,6 @@
     "abaixo": [
      1,
      42.9
-    ]
-   },
-   "fora": {
-    "abaixo": [
-     1,
-     100.0
     ]
    },
    "só conta": {
@@ -1797,22 +1725,22 @@
    },
    "False": {
     "fixa": [
-     43,
-     49.9
+     42,
+     49.3
     ],
     "nega": [
      15,
-     23.6
+     23.8
     ],
     "silente": [
      21,
-     26.5
+     26.8
     ]
    }
   },
   "valor_por_idosa": {
    "True": "n=9, mediana 7800.00",
-   "False": "n=41, mediana 2790.00"
+   "False": "n=40, mediana 2870.00"
   },
   "fixa_por_vitima_pj": {
    "True": {
@@ -1831,16 +1759,16 @@
    },
    "False": {
     "fixa": [
-     35,
-     47.4
+     34,
+     46.8
     ],
     "nega": [
      13,
-     19.7
+     20.0
     ],
     "silente": [
      21,
-     32.9
+     33.3
     ]
    }
   },
@@ -1850,9 +1778,10 @@
   "intermediario_ressarciu": {
    "FE 65": "silente",
    "FE 122": "nega",
+   "FE 70": "silente",
    "FE 54": "fixa"
   },
-  "limitada_conta_n": "2 de 52",
+  "limitada_conta_n": "2 de 51",
   "so_conta_fixa_igual_fato": "19 de 31",
   "so_conta_fixa_limitada": [
    "FE 44",
@@ -1934,12 +1863,12 @@
   "pedido_por_canal": {
    "internet": {
     "true": [
-     49,
-     67.1
+     50,
+     68.4
     ],
     "false": [
-     21,
-     32.9
+     20,
+     31.6
     ]
    },
    "presencial": {
@@ -1976,12 +1905,12 @@
    },
    "autor remoto": {
     "true": [
-     19,
-     51.4
+     20,
+     54.3
     ],
     "false": [
-     14,
-     48.6
+     13,
+     45.7
     ]
    },
    "elo logístico": {
@@ -1992,12 +1921,6 @@
     "true": [
      4,
      37.7
-    ]
-   },
-   "fora": {
-    "true": [
-     1,
-     100.0
     ]
    },
    "só conta": {
@@ -2058,16 +1981,16 @@
    },
    "2025": {
     "fixa": [
-     16,
-     51.4
+     15,
+     50.0
     ],
     "nega": [
      3,
-     13.5
+     13.9
     ],
     "silente": [
      12,
-     35.1
+     36.1
     ]
    },
    "2026": {
@@ -2087,20 +2010,20 @@
   },
   "consequencias": {
    "não lida": [
-    61,
-    62.1
+    59,
+    60.7
    ],
    "neutra": [
-    19,
-    19.0
+    20,
+    20.6
    ],
    "negativa": [
-    14,
-    11.1
+    15,
+    12.3
    ],
    "não examinada": [
-    5,
-    5.3
+    4,
+    3.9
    ],
    "sem texto": [
     2,
@@ -2108,25 +2031,24 @@
    ]
   },
   "danos_consequencias": {
-   "econômico": 14,
-   "psicológico": 3,
+   "econômico": 15,
+   "psicológico": 4,
    "digital": 0,
-   "reputacional": 0,
-   "social": 1,
-   "físico": 1,
-   "n": 14
+   "reputacional": 1,
+   "social": 0,
+   "físico": 0,
+   "n": 15
   },
   "consequencias_alem_economico": [
    "FE 53",
    "FE 117",
-   "FE 125",
+   "FE 21",
    "FE 15"
   ],
   "dano_extra_reconhecido": [
    "FE 53",
    "FE 117",
    "FE 21",
-   "FE 125",
    "FE 15"
   ],
   "conseq_negativa_e_reparacao": {
@@ -2140,6 +2062,7 @@
    "FE 75": "fixa",
    "FE 70": "silente",
    "FE 100": "fixa",
+   "FE 21": "fixa",
    "FE 56": "fixa",
    "FE 125": "fixa",
    "FE 27": "fixa",

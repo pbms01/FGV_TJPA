@@ -250,7 +250,10 @@ def le_reparacao(t):
     # "valor do prejuízo" sem R$ na cláusula
     sem_valor = [c for p, c in fix.items() if not RE_VALOR.search(c) and not RE_VALOR.search(t[inicio_frase(t, ini, p, 500):p])]
     nega_txt = " ".join(neg.values())
-    nega_moral = bool(re.search(r"danos? mora|morais", nega_txt, re.I))
+    # o dano moral em jurisprudência citada entre aspas não é recusa do juiz (FE 68: "a fixação do
+    # valor mínimo indenizatório por danos materiais ou morais", em acórdão transcrito); a aspa
+    # aberta sem fecho vale até o fim da cláusula, que pode cortar a citação
+    nega_moral = bool(re.search(r"danos? mora|morais", re.sub(r"[\"“][^\"”]{0,1500}([\"”]|$)", " ", nega_txt), re.I))
     fund = [k for k, r in FUNDAMENTOS.items() if re.search(r, nega_txt, re.I)]
     material = round(sum(v for v, tp, _ in vals if tp == "material"), 2)
     moral = round(sum(v for v, tp, _ in vals if tp == "moral"), 2)
@@ -282,7 +285,9 @@ RE_PEDIDO = re.compile(r"387[^0-9]{0,30}IV|\bIV,? do art(igo)?\.? 387|valor m[í
                        r"fixa[çc][ãa]o,? (em senten[çc]a,? )?de (valor|indeniza)|"
                        r"condenad[oa]s? (a ressarci|a reparar|a indenizar|à repara|ao ressarcimento|ao pagamento de indeniza)|"
                        r"\b(requeiro|requer|requer-se|postulo|pugno|pleiteio|pleiteia-se)\b[^.]{0,60}(o ressarcimento|a repara[çc][ãa]o|indeniza[çc][ãa]o)|"
-                       r"fixado (o )?valor[^.]{0,60}para (a )?repara", re.I)
+                       r"fixado (o )?valor[^.]{0,60}para (a )?repara|"
+                       # FE 125: "fixação do valor do prejuízo mínimo suportado pela vítima" (com "artigo 367, IV")
+                       r"fixa[çc][ãa]o do valor do preju[íi]zo m[íi]nimo", re.I)
 RE_PEDIDO_FORA = re.compile(r"suspens[ãa]o (condicional )?do processo|art(igo)?\.? 89|sursis|\bANPP\b|acordo de n[ãa]o persecu|28-A", re.I)
 
 

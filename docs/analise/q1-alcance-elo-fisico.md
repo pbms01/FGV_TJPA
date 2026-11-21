@@ -1,20 +1,20 @@
 # Questão 1: quem o sistema penal alcança na fraude eletrônica, e o que a Lei 15.397/2026 muda nisso
 
-Nota analítica de 21/11/2026, sobre a base da fase 1 (TJSP), branch `coleta-datajud`. Tabelas reproduzíveis por `python3 scripts/analise_q1_alcance.py`, que grava `dados/analise/q1_alcance.csv` (uma linha por denúncia) e `dados/analise/q1_resumo.json`. Linhas de pesquisa atendidas: 2.2 (gargalos logísticos), 1.4 (avaliação do tipo novo) e 1.1 (taxonomia), com reflexo no eixo da seletividade do controle.
+Nota analítica de 21/11/2026, sobre a base da fase 1 (TJSP), revista no mesmo dia depois da conferência por segundo leitor (`docs/analise/segundo-leitor.md`). Tabelas reproduzíveis por `python3 scripts/analise_q1_alcance.py`, que grava `dados/analise/q1_alcance.csv` (uma linha por denúncia) e `dados/analise/q1_resumo.json`. Linhas de pesquisa atendidas: 2.2 (gargalos logísticos), 1.4 (avaliação do tipo novo) e 1.1 (taxonomia), com reflexo no eixo da seletividade do controle.
 
-O critério de mediação técnica é o das linhas de pesquisa (versão 0.3): retira-se o sistema informático, em rede ou isolado, e identifica-se o canal pelo qual o agente chegou ao sistema ou à vítima; a internet é um canal entre outros. Os dois eixos estão codificados em `scripts/eixos_mediacao.py`, comum a esta questão e à questão 2 (`claude/analise-q2-teste-eliminacao.md`).
+O critério de mediação técnica é o das linhas de pesquisa (versão 0.4): retira-se o sistema informático, em rede ou isolado, e identifica-se o canal pelo qual o agente chegou ao sistema ou à vítima; a internet é um canal entre outros. Os dois eixos estão codificados em `scripts/eixos_mediacao.py`, comum a esta questão e à questão 2 (`claude/analise-q2-teste-eliminacao.md`).
 
 ## Resposta
 
-Nos processos de fraude eletrônica que chegam à sentença no TJSP, o sistema penal alcança a fraude nos pontos em que ela toca o mundo físico: a conta bancária aberta em nome de alguém, a linha telefônica habilitada com CPF, o cartão recolhido na porta da vítima, a mercadoria retirada na loja. O autor do ardil feito à distância só é alcançado quando deixa o próprio nome num desses registros ou quando aparece fisicamente, e em nenhuma das 161 denúncias de fraude da amostra o rastro do canal do ardil (o número de WhatsApp, o site, o perfil, o endereço IP) identificou o denunciado. Quando o contato com a vítima foi remoto, a denúncia alcançou só o titular da conta em todas as 40 denúncias do estrato CL e em 57,2% das 106 do estrato FE, e isso vale igualmente para o golpe só por telefone, sem internet: só o titular em todas as 7 denúncias CL e em 53,5% das 25 FE, contra 57,7% das 79 FE pela internet. O que decide quem é alcançado é a distância entre agente e vítima, e não a internet. A pena não distingue os papéis: a mediana no 171 §2º-A é de 48 meses para o titular e para o autor do ardil.
+Nos processos de fraude eletrônica que chegam à sentença no TJSP, o sistema penal alcança a fraude nos pontos em que ela toca o mundo físico: a conta bancária aberta em nome de alguém, a linha telefônica habilitada com CPF, o cartão recolhido na porta da vítima, a mercadoria retirada na loja. O autor do ardil feito à distância só é alcançado quando deixa o próprio nome num desses registros ou quando aparece fisicamente, e em nenhuma das 161 denúncias de fraude da amostra o rastro do canal do ardil (o número de WhatsApp, o site, o perfil, o endereço IP) identificou o denunciado. Quando o contato com a vítima foi remoto, a denúncia alcançou só o titular da conta em 39 das 40 denúncias do estrato CL (97,7%) e em 57,2% das 106 do estrato FE, e isso vale igualmente para o golpe só por telefone, sem internet: só o titular em todas as 7 denúncias CL e em 53,5% das 25 FE, contra 57,7% das 79 FE pela internet. O que decide quem é alcançado é a distância entre agente e vítima, e não a internet. A pena não distingue os papéis: a mediana no 171 §2º-A é de 48 meses para o titular e para o autor do ardil.
 
-A Lei 15.397/2026 não ampliou esse alcance. Nenhuma denúncia da amostra capitula o 171 §2º, VII, e toda aplicação do inciso foi retroativa, a fato anterior a 04/05/2026, sempre em favor de quem já estava no processo como titular da conta. O que a lei fez foi reprecificar o elo físico, de 4 a 8 anos para 1 a 5 anos, e reabrir para ele a justiça consensual que a pena mínima do §2º-A fechava. Esse efeito depende de o debate entrar no processo: nas sentenças do estrato CL, que já falam em conta laranja, o titular condenado no §2º-A caiu de 52,0% para 23,8% das condenações; nas do estrato FE, 14 das 16 sentenças posteriores à lei sobre titulares não mencionam o inciso, e 9 delas condenam no §2º-A. No segundo grau a disputa se desloca para a adesão do titular à fraude (art. 29 do CP), elemento subjetivo que a prova registral, sozinha, não decide.
+A Lei 15.397/2026 não ampliou esse alcance. Nenhuma denúncia da amostra capitula o 171 §2º, VII, e toda aplicação do inciso foi retroativa, a fato anterior a 04/05/2026, sempre em favor de quem já estava no processo como titular da conta. O que a lei fez foi reprecificar o elo físico, de 4 a 8 anos para 1 a 5 anos, e reabrir para ele a justiça consensual que a pena mínima do §2º-A fechava. Esse efeito depende de o debate entrar no processo: nas sentenças do estrato CL, que já falam em conta laranja, o titular condenado no §2º-A caiu de 52,0% para 24,7% das condenações; nas do estrato FE, 14 das 16 sentenças posteriores à lei sobre titulares não mencionam o inciso, e 9 delas condenam no §2º-A. No segundo grau a disputa se desloca para a adesão do titular à fraude (art. 29 do CP), elemento subjetivo que a prova registral, sozinha, não decide.
 
 ## Base e método
 
 A unidade é a denúncia sem duplicatas, com o peso amostral do processo, e os percentuais são ponderados dentro de cada estrato. CL e FE não se somam, porque os dois universos do cjpg se sobrepõem (uma sentença de fraude eletrônica pode falar em conta laranja). Ficam fora as três denúncias sem fraude patrimonial (CL 12, CL 25 e FE 123), restando 48 no CL e 113 na FE. O INV não entra nesta questão, porque o titular de conta é ali residual (2 de 34).
 
-A codificação de papel da base (titular, executor, misto) foi refinada numa variável de nível, que registra o nó mais alto da cadeia que a denúncia atinge, e numa variável de vetor, que registra como esse denunciado foi alcançado. O titular de conta ficou como "só conta", com vetor "registro", sem recodificação. Os 56 executores e mistos foram recodificados à mão pela nota de cada linha e, nos casos duvidosos (FE 6, 19, 22, 23, 31, 42, 61, 83, 107 e 108), pela narrativa; a tabela está no dicionário `NIVEL` do script, com o motivo de cada caso de fronteira.
+A codificação de papel da base (titular, executor, misto) foi refinada numa variável de nível, que registra o nó mais alto da cadeia que a denúncia atinge, e numa variável de vetor, que registra como esse denunciado foi alcançado. O titular de conta ficou como "só conta", com vetor "registro", sem recodificação. Os 56 executores e mistos foram recodificados à mão pela nota de cada linha e, nos casos duvidosos (FE 6, 19, 22, 23, 31, 42, 61, 83, 107 e 108), pela narrativa, e o CL 40, que a adjudicação do segundo leitor passou a misto, entrou depois, como 57º; a tabela está no dicionário `NIVEL` do script, com o motivo de cada caso de fronteira.
 
 | Nível | O que significa |
 | --- | --- |
@@ -35,20 +35,20 @@ O contato é remoto quando o canal descrito na codificação é WhatsApp, telefo
 
 | Nível alcançado | CL (48) | FE (113) |
 | --- | --- | --- |
-| só conta | 43 (91,1%) | 59 (53,1%) |
+| só conta | 42 (89,2%) | 59 (53,1%) |
 | elo logístico | 0 | 10 (7,9%) |
-| autor remoto | 0 | 36 (31,2%) |
+| autor remoto | 1 (1,9%) | 36 (31,2%) |
 | autor presencial | 5 (8,9%) | 8 (7,8%) |
 
-A distância separa os dois regimes com nitidez. Com contato presencial, a denúncia alcança o autor do ardil em 6 das 7 denúncias FE (88,5%) e em 5 das 8 CL (56,1%). Com contato remoto, alcança só a conta em todas as 40 denúncias CL e, nas 106 FE, distribui-se assim: só conta 57,2%; autor remoto identificado pelo registro 25,1% (27 denúncias); elo logístico 8,6%; autor remoto identificado pela presença física 7,6% (8); autor presencial 1,5%. Por artifício, na FE, o falso parente fica na conta em 75,3%, a falsa central em 50,3% (e chega ao motoboy ou falso policial que recolhe o cartão em mais 34,3%), a venda falsa divide-se entre conta (46,2%) e autor que recebeu na própria conta (51,6%), e a maquininha alcança o autor presencial em 79,8%.
+A distância separa os dois regimes com nitidez. Com contato presencial, a denúncia alcança o autor do ardil em 6 das 7 denúncias FE (88,5%) e em 5 das 8 CL (56,1%). Com contato remoto, alcança só a conta em 39 das 40 denúncias CL e, nas 106 FE, distribui-se assim: só conta 57,2%; autor remoto identificado pelo registro 25,1% (27 denúncias); elo logístico 8,6%; autor remoto identificado pela presença física 7,6% (8); autor presencial 1,5%. Por artifício, na FE, o falso parente fica na conta em 75,3%, a falsa central em 50,3% (e chega ao motoboy ou falso policial que recolhe o cartão em mais 34,3%), a venda falsa divide-se entre conta (46,2%) e autor que recebeu na própria conta (51,6%), e a maquininha alcança o autor presencial em 79,8%. A exceção do CL confirma a regra. O CL 40 imputa ao titular a própria mensagem da falsa sobrinha pelo WhatsApp, mas a prova que a denúncia invoca para a participação é a conta: ela estaria demonstrada "na medida em que teve sua conta bancária contemplada com o valor obtido fraudulentamente". O número de WhatsApp usado no golpe está na denúncia e não é ligado ao denunciado, que disse ter emprestado a conta a um vizinho já falecido. A atribuição do ardil, aqui, é inferida do registro, como nos 27 autores remotos da FE alcançados pelo registro.
 
 O desdobramento do contato remoto mostra que esse regime não é da internet.
 
 | Nível alcançado, contato à distância | CL internet (26) | CL telefonia (7) | FE internet (79) | FE telefonia (25) |
 | --- | --- | --- | --- | --- |
-| só conta | 100% | 100% | 57,7% | 53,5% |
+| só conta | 96,5% | 100% | 57,7% | 53,5% |
 | elo logístico | | | | 31,2% |
-| autor remoto | | | 41,3% | 11,9% |
+| autor remoto | 3,5% | | 41,3% | 11,9% |
 | autor presencial | | | 1,0% | 3,4% |
 
 O golpe por ligação ou SMS deixa o titular da conta sozinho no processo na mesma proporção que o golpe pela internet. A diferença está no que vem além da conta: pela internet, o autor remoto é alcançado sobretudo porque recebeu na própria conta (31,2% das 79 FE, vetor registro), e pela telefonia o que se alcança além da conta é o motoboy ou falso policial que recolhe o cartão (31,2% das 25 FE). Nos dois canais, quem fala com a vítima à distância só aparece quando toca um registro ou um lugar físico. Uma ressalva de medida: o código "telefone" da base inclui aplicativo de mensagens não nomeado, e a semelhança entre os canais pode estar em parte inflada por isso; os golpes por ligação de voz, que dispensam a internet (FE 5, FE 28 e FE 107, para telefone fixo, e CL 30), ficaram na conta (FE 5, CL 30) ou alcançaram o autor só pela conta em nome dele (FE 28) ou do recrutado (FE 107).
@@ -57,7 +57,7 @@ O vetor confirma o desenho. Na FE, 77,8% dos denunciados foram alcançados pelo 
 
 Daí decorre um achado sobre a própria autoria. Nas 28 denúncias FE que atribuem o ardil a quem foi identificado pelo registro, a autoria do engano é inferida da conta, da linha ou do CNPJ em nome do denunciado, e em 23 delas a busca de termos não encontra confissão, reconhecimento ou flagrante. O FE 22 é típico: a denúncia diz que a ré, "passando-se como representante" da financeira, enviou o boleto, e a prova narrada é que ela mantinha oito contas e era a beneficiária do código de barras. O FE 42 mostra a fragilidade dessa inferência: a denúncia narra que a ré "entrou em contato com vendedor" no Facebook e recebeu o Pix, recusa o ANPP pela pena mínima do §2º-A, e a sentença, depois da instrução, descreve a conduta como "a cessão de sua conta bancária para o recebimento e a imediata dissipação dos valores" e a reclassifica para o inciso VII por emendatio libelli. A mesma prova registral sustentou a autoria do ardil na denúncia e a mera cessão na sentença.
 
-A investigação, nos casos de só conta, para na primeira conta. A denúncia declara coautores desconhecidos em 71,4% dessas denúncias na FE e em 88,4% no CL, e narra que o dinheiro seguiu para outras contas (repasse, pulverização) em 17,0% na FE e 29,8% no CL, sem que os titulares seguintes sejam denunciados. O preço da conta, quando a narrativa o registra, vai de R$ 50 (FE 55) a R$ 500 (FE 115), com R$ 150 (CL 7, FE 101) e R$ 200 (CL 39) no meio, contra prejuízos que chegam a R$ 118 mil numa única vítima (CL 45). Em 11 denúncias a conta foi aberta com selfie, biometria ou validação facial, que serviram para identificar o titular depois do fato e não impediram a cessão.
+A investigação, nos casos de só conta, para na primeira conta. A denúncia declara coautores desconhecidos em 71,4% dessas denúncias na FE e em 90,3% no CL, e narra que o dinheiro seguiu para outras contas (repasse, pulverização) em 17,0% na FE e 30,5% no CL, sem que os titulares seguintes sejam denunciados. O preço da conta, quando a narrativa o registra, vai de R$ 50 (FE 55) a R$ 500 (FE 115), com R$ 150 (CL 7, FE 101) e R$ 200 (CL 39) no meio, contra prejuízos que chegam a R$ 118 mil numa única vítima (CL 45). Em 11 denúncias a conta foi aberta com selfie, biometria ou validação facial, que serviram para identificar o titular depois do fato e não impediram a cessão.
 
 ## Segunda etapa: o que a sentença faz com cada papel
 
@@ -67,7 +67,7 @@ A investigação, nos casos de só conta, para na primeira conta. A denúncia de
 | Condenação no 171 §2º-A | 88,2% | 80,2% | 100% | 44,9% |
 | Pena mediana no §2º-A, sem peso | 48 meses (41) | 48 meses (25) | 52 meses (10) | 44 meses (4) |
 
-No CL, o titular é condenado em 93,4% das denúncias (40 de 43), com pena mediana de 48 meses no §2º-A (14 condenações), 13,5 meses no 171 sem §2º-A e 12 meses no inciso VII. As 11 absolvições de titulares (3 no CL, 8 na FE, onde o nono não condenado é a extinção por prescrição do FE 46) apoiam-se no art. 386, VII, do CPP (insuficiência de prova) em 10 casos e no inciso V em um (FE 114), o que indica que a defesa do titular gira em torno do dolo, e não da autoria.
+No CL, o titular é condenado em 93,3% das denúncias (39 de 42), com pena mediana de 48 meses no §2º-A (14 condenações), 12,75 meses no 171 sem §2º-A e 12 meses no inciso VII. As 11 absolvições de titulares (3 no CL, 8 na FE, onde o nono não condenado é a extinção por prescrição do FE 46) apoiam-se no art. 386, VII, do CPP (insuficiência de prova) em 10 casos e no inciso V em um (FE 114), o que indica que a defesa do titular gira em torno do dolo, e não da autoria.
 
 A sentença, portanto, pune o elo físico como pune o autor. O registro, que na primeira etapa decide quem é alcançado, na segunda não diferencia a resposta, e a dosimetria acrescenta um efeito que merece atenção. Entre os 41 titulares condenados no §2º-A na FE, a pena mediana é de 64 meses quando a vítima é idosa (11 casos, 171 §4º) e de 48 meses quando não é (30); 19 dos 41 ficaram acima de 48 meses, e nenhum desses teve a pena substituída (art. 44, I, do CP), contra 18 de 22 substituídas até 48 meses. A majorante pela idade da vítima recai sobre quem cedeu a conta, embora a escolha da vítima seja do autor remoto, que não está no processo. No CL, 6 dos 14 titulares condenados no §2º-A ficaram acima de 48 meses, nenhum com substituição.
 
@@ -79,18 +79,18 @@ O texto conferido no Planalto cria, no §2º do art. 171, o inciso VII ("cede, g
 
 Na sentença de primeiro grau, o efeito depende do estrato, ou seja, de o tema da conta laranja já estar no processo.
 
-| Titulares (só conta), sentenças posteriores à lei | CL (29) | FE (16) |
+| Titulares (só conta), sentenças posteriores à lei | CL (28) | FE (16) |
 | --- | --- | --- |
 | Aplica o inciso VII | 8 | 0 |
 | Recusa | 8 | 2 (FE 72, FE 77) |
-| Não menciona | 9 | 14 |
+| Não menciona | 8 | 14 |
 | Outras (só dispositivo, reforço do dolo, absolvição) | 4 | 0 |
 
 | Capitulação acolhida nas condenações de titulares | antes da lei | depois da lei |
 | --- | --- | --- |
-| CL, 171 §2º-A | 52,0% (de 14) | 23,8% (de 26) |
-| CL, 171 §2º, VII | | 32,6% |
-| CL, 171 sem §2º-A | 26,8% | 27,8% |
+| CL, 171 §2º-A | 52,0% (de 14) | 24,7% (de 25) |
+| CL, 171 §2º, VII | | 33,8% |
+| CL, 171 sem §2º-A | 26,8% | 25,1% |
 | FE, 171 §2º-A | 89,6% (de 36) | 84,3% (de 13) |
 
 No CL, a lei deslocou para o VII a maior parte dos titulares que iriam para o §2º-A, e o 171 simples, que alguns juízos já aplicavam ao titular antes dela, ficou estável. Na FE, nada mudou: nove sentenças posteriores à lei condenam titulares no §2º-A sem mencionar o inciso (FE 14, 27, 36, 63, 75, 91, 96, 119 e 126). Nos dois casos mistos do CL em que o inciso foi aplicado (CL 11 e CL 29), ele alcançou o corréu que forneceu a conta, e no CL 29 a sentença diz que o réu "não figura como executor direto" e sim "como titular e disponibilizador da conta". O único fato da amostra posterior à lei (FE 110, de 14/05/2026) não envolve conta de passagem, de modo que toda aplicação do VII na base é retroativa, como lei mais benéfica.
@@ -121,7 +121,7 @@ Para a prevenção e a governança privada (linha 4.1), a biometria na abertura 
 
 ## Vieses e pendências desta análise
 
-As conclusões valem para processos com sentença de primeiro grau publicada no TJSP (sentenças de 2021 a 2026, quase metade de 2026), fora o segredo de justiça, e não para o universo das fraudes, cuja maior parte não chega a inquérito. A codificação de papel é assistida em 140 das 164 denúncias CL e FE e ainda não foi conferida pelo pesquisador, e a recodificação de nível e vetor dos 56 executores e mistos é também do assistente, lida nas notas e, nos casos de fronteira, nas narrativas. Os indícios de confissão, reconhecimento e flagrante vêm de busca de termos, não de leitura integral, e servem de triagem. A pena é a do primeiro réu condenado no dispositivo, o que mistura papéis nos casos mistos. As 85 sentenças FE e 20 CL com `conferido=auto` não tiveram segundo leitor.
+As conclusões valem para processos com sentença de primeiro grau publicada no TJSP (sentenças de 2021 a 2026, quase metade de 2026), fora o segredo de justiça, e não para o universo das fraudes, cuja maior parte não chega a inquérito. A codificação de papel é assistida em 140 das 164 denúncias CL e FE e não foi conferida pelo pesquisador; um segundo leitor cego, também modelo, recodificou 34 denúncias (24 sorteadas e 10 de fronteira), com concordância de 31 em 34 no papel (kappa 0,88), e a adjudicação passou o CL 40 de titular a misto. A recodificação de nível e vetor dos 57 executores e mistos é também do assistente, lida nas notas e, nos casos de fronteira, nas narrativas. Os indícios de confissão, reconhecimento e flagrante vêm de busca de termos, não de leitura integral, e servem de triagem. A pena é a do primeiro réu condenado no dispositivo, o que mistura papéis nos casos mistos. Das sentenças lidas só pelo leitor de regras (`conferido=auto`), 24 tiveram segundo leitor, com concordância total na pena e no tipo acolhido; as demais não.
 
 Ficam como passos desta questão: conferir a tabela `NIVEL` e a codificação assistida dos titulares; ler o fundamento das 11 absolvições e das 10 recusas do inciso contra a variável de vetor; codificar nos 56 acórdãos do cjsg os indicadores de adesão propostos acima; e repetir a medição quando houver sentenças sobre fatos posteriores a 04/05/2026, que são as únicas capazes de mostrar se o inciso VII alcança alguém que antes ficava de fora.
 

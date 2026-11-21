@@ -1,0 +1,522 @@
+{
+ "D01": {
+  "caso": "FE 97",
+  "numero": "1501428-29.2024.8.26.0542",
+  "bloco": "codificacao"
+ },
+ "D02": {
+  "caso": "INV 24",
+  "numero": "1500983-37.2023.8.26.0577",
+  "bloco": "codificacao"
+ },
+ "D03": {
+  "caso": "FE 89",
+  "numero": "1521691-56.2023.8.26.0562",
+  "bloco": "codificacao"
+ },
+ "D04": {
+  "caso": "FE 119",
+  "numero": "1500360-13.2025.8.26.0541",
+  "bloco": "codificacao"
+ },
+ "D05": {
+  "caso": "INV 32",
+  "numero": "1520714-33.2022.8.26.0228",
+  "bloco": "codificacao"
+ },
+ "D06": {
+  "caso": "CL 13",
+  "numero": "1507390-59.2023.8.26.0577",
+  "bloco": "codificacao"
+ },
+ "D07": {
+  "caso": "INV 2",
+  "numero": "1500431-37.2021.8.26.0482",
+  "bloco": "codificacao"
+ },
+ "D08": {
+  "caso": "FE 31",
+  "numero": "1500995-27.2025.8.26.0530",
+  "bloco": "codificacao"
+ },
+ "D09": {
+  "caso": "INV 41",
+  "numero": "1518633-05.2020.8.26.0577",
+  "bloco": "codificacao"
+ },
+ "D10": {
+  "caso": "CL 19",
+  "numero": "1516505-76.2023.8.26.0554",
+  "bloco": "codificacao"
+ },
+ "D11": {
+  "caso": "INV 40",
+  "numero": "1502791-38.2019.8.26.0506",
+  "bloco": "codificacao"
+ },
+ "D12": {
+  "caso": "INV 44",
+  "numero": "1500616-76.2025.8.26.0404",
+  "bloco": "codificacao"
+ },
+ "D13": {
+  "caso": "CL 43",
+  "numero": "1501240-78.2022.8.26.0292",
+  "bloco": "codificacao"
+ },
+ "D14": {
+  "caso": "INV 34",
+  "numero": "0020630-31.2016.8.26.0224",
+  "bloco": "codificacao"
+ },
+ "D15": {
+  "caso": "INV 27",
+  "numero": "1508231-98.2025.8.26.0378",
+  "bloco": "codificacao"
+ },
+ "D16": {
+  "caso": "FE 47",
+  "numero": "1500560-48.2021.8.26.0480",
+  "bloco": "codificacao"
+ },
+ "D17": {
+  "caso": "FE 121",
+  "numero": "1500179-30.2022.8.26.0084",
+  "bloco": "codificacao"
+ },
+ "D18": {
+  "caso": "INV 36",
+  "numero": "1007980-49.2022.8.26.0506",
+  "bloco": "codificacao"
+ },
+ "D19": {
+  "caso": "CL 25",
+  "numero": "0030316-06.2018.8.26.0506",
+  "bloco": "codificacao"
+ },
+ "D20": {
+  "caso": "CL 49",
+  "numero": "1531777-57.2021.8.26.0562",
+  "bloco": "codificacao"
+ },
+ "D21": {
+  "caso": "FE 23",
+  "numero": "1501914-51.2024.8.26.0077",
+  "bloco": "codificacao"
+ },
+ "D22": {
+  "caso": "INV 30",
+  "numero": "1539731-70.2023.8.26.0050",
+  "bloco": "codificacao"
+ },
+ "D23": {
+  "caso": "INV 6",
+  "numero": "1501939-55.2025.8.26.0004",
+  "bloco": "codificacao"
+ },
+ "D24": {
+  "caso": "INV 20",
+  "numero": "1502872-40.2024.8.26.0270",
+  "bloco": "codificacao"
+ },
+ "D25": {
+  "caso": "FE 71",
+  "numero": "1520839-21.2020.8.26.0050",
+  "bloco": "codificacao"
+ },
+ "D26": {
+  "caso": "CL 35",
+  "numero": "1506184-78.2019.8.26.0050",
+  "bloco": "codificacao"
+ },
+ "D27": {
+  "caso": "CL 48",
+  "numero": "1513521-84.2022.8.26.0577",
+  "bloco": "codificacao"
+ },
+ "D28": {
+  "caso": "INV 21",
+  "numero": "1531706-19.2023.8.26.0228",
+  "bloco": "codificacao"
+ },
+ "D29": {
+  "caso": "FE 54",
+  "numero": "1500552-80.2024.8.26.0152",
+  "bloco": "codificacao"
+ },
+ "D30": {
+  "caso": "CL 40",
+  "numero": "1526059-43.2021.8.26.0477",
+  "bloco": "codificacao"
+ },
+ "D31": {
+  "caso": "CL 4",
+  "numero": "1503312-29.2023.8.26.0510",
+  "bloco": "codificacao"
+ },
+ "D32": {
+  "caso": "FE 90",
+  "numero": "1519288-69.2021.8.26.0050",
+  "bloco": "codificacao"
+ },
+ "D33": {
+  "caso": "FE 67",
+  "numero": "1500215-17.2022.8.26.0070",
+  "bloco": "codificacao"
+ },
+ "D34": {
+  "caso": "FE 65",
+  "numero": "1501787-74.2021.8.26.0318",
+  "bloco": "codificacao"
+ },
+ "S01": {
+  "caso": "CL 21",
+  "numero": "1504642-82.2022.8.26.0482",
+  "bloco": "sentenca",
+  "auto": false,
+  "forcado": false
+ },
+ "S02": {
+  "caso": "FE 120",
+  "numero": "1501027-59.2022.8.26.0361",
+  "bloco": "sentenca",
+  "auto": true,
+  "forcado": false
+ },
+ "S03": {
+  "caso": "FE 110",
+  "numero": "1528705-22.2026.8.26.0454",
+  "bloco": "sentenca",
+  "auto": false,
+  "forcado": false
+ },
+ "S04": {
+  "caso": "INV 42",
+  "numero": "1502937-50.2023.8.26.0438",
+  "bloco": "sentenca",
+  "auto": true,
+  "forcado": false
+ },
+ "S05": {
+  "caso": "CL 13",
+  "numero": "1507390-59.2023.8.26.0577",
+  "bloco": "sentenca",
+  "auto": false,
+  "forcado": true
+ },
+ "S06": {
+  "caso": "INV 17",
+  "numero": "1500091-60.2022.8.26.0126",
+  "bloco": "sentenca",
+  "auto": true,
+  "forcado": false
+ },
+ "S07": {
+  "caso": "INV 45",
+  "numero": "1503355-93.2022.8.26.0576",
+  "bloco": "sentenca",
+  "auto": true,
+  "forcado": true
+ },
+ "S08": {
+  "caso": "INV 26",
+  "numero": "1500474-59.2023.8.26.0431",
+  "bloco": "sentenca",
+  "auto": false,
+  "forcado": false
+ },
+ "S09": {
+  "caso": "CL 54",
+  "numero": "1500322-68.2023.8.26.0218",
+  "bloco": "sentenca",
+  "auto": true,
+  "forcado": false
+ },
+ "S10": {
+  "caso": "INV 4",
+  "numero": "1501402-04.2023.8.26.0530",
+  "bloco": "sentenca",
+  "auto": false,
+  "forcado": true
+ },
+ "S11": {
+  "caso": "FE 68",
+  "numero": "1500202-43.2022.8.26.0288",
+  "bloco": "sentenca",
+  "auto": false,
+  "forcado": false
+ },
+ "S12": {
+  "caso": "INV 29",
+  "numero": "1502025-56.2021.8.26.0007",
+  "bloco": "sentenca",
+  "auto": false,
+  "forcado": false
+ },
+ "S13": {
+  "caso": "CL 53",
+  "numero": "0003764-28.2016.8.26.0650",
+  "bloco": "sentenca",
+  "auto": true,
+  "forcado": false
+ },
+ "S14": {
+  "caso": "FE 91",
+  "numero": "1503918-32.2022.8.26.0077",
+  "bloco": "sentenca",
+  "auto": true,
+  "forcado": false
+ },
+ "S15": {
+  "caso": "FE 125",
+  "numero": "1538470-70.2023.8.26.0050",
+  "bloco": "sentenca",
+  "auto": false,
+  "forcado": true
+ },
+ "S16": {
+  "caso": "FE 53",
+  "numero": "1502773-69.2020.8.26.0348",
+  "bloco": "sentenca",
+  "auto": false,
+  "forcado": true
+ },
+ "S17": {
+  "caso": "CL 48",
+  "numero": "1513521-84.2022.8.26.0577",
+  "bloco": "sentenca",
+  "auto": false,
+  "forcado": true
+ },
+ "S18": {
+  "caso": "INV 22",
+  "numero": "1503431-80.2021.8.26.0050",
+  "bloco": "sentenca",
+  "auto": true,
+  "forcado": true
+ },
+ "S19": {
+  "caso": "CL 47",
+  "numero": "1510917-19.2023.8.26.0577",
+  "bloco": "sentenca",
+  "auto": true,
+  "forcado": false
+ },
+ "S20": {
+  "caso": "INV 39",
+  "numero": "1502869-85.2024.8.26.0270",
+  "bloco": "sentenca",
+  "auto": false,
+  "forcado": true
+ },
+ "S21": {
+  "caso": "FE 92",
+  "numero": "1500093-97.2023.8.26.0157",
+  "bloco": "sentenca",
+  "auto": true,
+  "forcado": false
+ },
+ "S22": {
+  "caso": "INV 44",
+  "numero": "1500616-76.2025.8.26.0404",
+  "bloco": "sentenca",
+  "auto": false,
+  "forcado": true
+ },
+ "S23": {
+  "caso": "FE 13",
+  "numero": "1500356-53.2023.8.26.0441",
+  "bloco": "sentenca",
+  "auto": true,
+  "forcado": false
+ },
+ "S24": {
+  "caso": "CL 43",
+  "numero": "1501240-78.2022.8.26.0292",
+  "bloco": "sentenca",
+  "auto": false,
+  "forcado": false
+ },
+ "S25": {
+  "caso": "FE 70",
+  "numero": "1532813-84.2022.8.26.0050",
+  "bloco": "sentenca",
+  "auto": false,
+  "forcado": false
+ },
+ "S26": {
+  "caso": "FE 73",
+  "numero": "1519420-92.2022.8.26.0050",
+  "bloco": "sentenca",
+  "auto": true,
+  "forcado": false
+ },
+ "S27": {
+  "caso": "FE 88",
+  "numero": "1506006-89.2023.8.26.0309",
+  "bloco": "sentenca",
+  "auto": false,
+  "forcado": false
+ },
+ "S28": {
+  "caso": "FE 20",
+  "numero": "1502653-03.2023.8.26.0548",
+  "bloco": "sentenca",
+  "auto": false,
+  "forcado": false
+ },
+ "S29": {
+  "caso": "INV 13",
+  "numero": "1517140-36.2021.8.26.0228",
+  "bloco": "sentenca",
+  "auto": false,
+  "forcado": false
+ },
+ "S30": {
+  "caso": "FE 117",
+  "numero": "1500784-90.2022.8.26.0337",
+  "bloco": "sentenca",
+  "auto": false,
+  "forcado": true
+ },
+ "S31": {
+  "caso": "INV 34",
+  "numero": "0020630-31.2016.8.26.0224",
+  "bloco": "sentenca",
+  "auto": true,
+  "forcado": false
+ },
+ "S32": {
+  "caso": "CL 12",
+  "numero": "1511257-70.2026.8.26.0378",
+  "bloco": "sentenca",
+  "auto": true,
+  "forcado": false
+ },
+ "S33": {
+  "caso": "FE 103",
+  "numero": "1522747-30.2021.8.26.0228",
+  "bloco": "sentenca",
+  "auto": false,
+  "forcado": true
+ },
+ "S34": {
+  "caso": "CL 57",
+  "numero": "1598052-03.2019.8.26.0224",
+  "bloco": "sentenca",
+  "auto": false,
+  "forcado": false
+ },
+ "S35": {
+  "caso": "CL 25",
+  "numero": "0030316-06.2018.8.26.0506",
+  "bloco": "sentenca",
+  "auto": false,
+  "forcado": false
+ },
+ "S36": {
+  "caso": "FE 59",
+  "numero": "1504174-84.2023.8.26.0482",
+  "bloco": "sentenca",
+  "auto": true,
+  "forcado": false
+ },
+ "S37": {
+  "caso": "CL 40",
+  "numero": "1526059-43.2021.8.26.0477",
+  "bloco": "sentenca",
+  "auto": true,
+  "forcado": false
+ },
+ "S38": {
+  "caso": "INV 33",
+  "numero": "1512379-74.2022.8.26.0050",
+  "bloco": "sentenca",
+  "auto": true,
+  "forcado": false
+ },
+ "S39": {
+  "caso": "FE 82",
+  "numero": "1500539-26.2023.8.26.0311",
+  "bloco": "sentenca",
+  "auto": true,
+  "forcado": false
+ },
+ "S40": {
+  "caso": "INV 30",
+  "numero": "1539731-70.2023.8.26.0050",
+  "bloco": "sentenca",
+  "auto": false,
+  "forcado": true
+ },
+ "S41": {
+  "caso": "INV 11",
+  "numero": "1522652-63.2022.8.26.0228",
+  "bloco": "sentenca",
+  "auto": false,
+  "forcado": false
+ },
+ "S42": {
+  "caso": "INV 5",
+  "numero": "1502875-88.2023.8.26.0024",
+  "bloco": "sentenca",
+  "auto": true,
+  "forcado": false
+ },
+ "S43": {
+  "caso": "INV 41",
+  "numero": "1518633-05.2020.8.26.0577",
+  "bloco": "sentenca",
+  "auto": true,
+  "forcado": false
+ },
+ "S44": {
+  "caso": "FE 21",
+  "numero": "1508700-32.2023.8.26.0050",
+  "bloco": "sentenca",
+  "auto": true,
+  "forcado": true
+ },
+ "S45": {
+  "caso": "CL 16",
+  "numero": "1520144-96.2022.8.26.0050",
+  "bloco": "sentenca",
+  "auto": false,
+  "forcado": false
+ },
+ "S46": {
+  "caso": "FE 15",
+  "numero": "1500327-27.2025.8.26.0281",
+  "bloco": "sentenca",
+  "auto": false,
+  "forcado": true
+ },
+ "S47": {
+  "caso": "INV 43",
+  "numero": "1538849-79.2021.8.26.0050",
+  "bloco": "sentenca",
+  "auto": false,
+  "forcado": false
+ },
+ "S48": {
+  "caso": "CL 58",
+  "numero": "1501176-86.2022.8.26.0577",
+  "bloco": "sentenca",
+  "auto": true,
+  "forcado": false
+ },
+ "S49": {
+  "caso": "CL 24",
+  "numero": "1511886-34.2023.8.26.0577",
+  "bloco": "sentenca",
+  "auto": true,
+  "forcado": false
+ },
+ "S50": {
+  "caso": "CL 22",
+  "numero": "1502140-79.2022.8.26.0577",
+  "bloco": "sentenca",
+  "auto": true,
+  "forcado": false
+ }
+}

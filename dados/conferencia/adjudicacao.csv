@@ -1,0 +1,58 @@
+id,caso,bloco,campo,primeira,segunda,final,decisao,motivo
+D01,FE 97,codificacao,contexto,institucional,patrimonial,patrimonial,segunda,"o alvo são os cartões de benefício da empresa, isto é, o patrimônio dela; nada na denúncia toca o funcionamento de instituição pública"
+D02,INV 24,codificacao,artificio,roubo_celular_invasao,extorsao_transferencia,roubo_celular_invasao,primeira,"o roubo dos celulares sob arma precede e possibilita o saque; a extorsão é a forma do constrangimento, não um artifício próprio; caso de fronteira"
+D05,INV 32,codificacao,venda_falsa,0,1,1,segunda,"com a conta de WhatsApp tomada, os autores 'passaram a fazer anúncios nas redes sociais, promovendo vendas'"
+D05,INV 32,codificacao,investimento,0,1,1,segunda,a mesma narrativa oferece investimento aos contatos da conta tomada
+D07,INV 2,codificacao,artificio,sequestro_conta,invasao_sistema_bancario,invasao_sistema_bancario,segunda,a troca de chip é o meio; o que se invade e movimenta é a conta bancária da vítima
+D07,INV 2,codificacao,boleto,0,1,0,primeira,"o pagamento de boletos com o dinheiro desviado é destino do valor, não o ardil que o indicador marca"
+D09,INV 41,codificacao,contexto,relacional,violencia_domestica,violencia_domestica,segunda,a cota invoca a Lei 11.340 e o caso tramita na vara de violência doméstica
+D09,INV 41,codificacao,meio_contato,rede_social,sistema,sistema,segunda,a conduta é a invasão da conta Google; a rede social só serviu à divulgação posterior
+D11,INV 40,codificacao,contexto,violencia_domestica,outro,outro,segunda,calúnia contra professor a pretexto de invasão; não há relação íntima entre autora e vítima da calúnia
+D14,INV 34,codificacao,contexto,institucional,patrimonial,patrimonial,segunda,ataque de concorrente ao sistema e revenda da base de dados: o fim é econômico
+D15,INV 27,codificacao,meio_contato,rede_social,sistema,sistema,segunda,a conduta é manter o acesso às contas e trocar o e-mail de recuperação; não houve contato com a vítima pela rede social
+D16,FE 47,codificacao,meio_contato,rede_social,site,site,segunda,"o ardil é a página de venda; o Instagram só levou a ela, e o canal (internet) não muda"
+D18,INV 36,codificacao,artificio,insercao_dados_falsos,invasao_sistema_venda_dados,insercao_dados_falsos,primeira,a inserção de dados falsos nos consignados é o núcleo da fraude; a invasão do INSS e a venda dos dados são etapas que a codificação registra nos indicadores
+D18,INV 36,codificacao,falsa_central,0,1,1,segunda,uma atendente se passava por SAC de banco
+D19,CL 25,codificacao,papel_denunciado,misto,executor,misto,primeira,caso fora da tipologia (anabolizantes); o papel não entra em nenhuma análise
+D23,INV 6,codificacao,meio_contato,rede_social,sistema,sistema,segunda,a conduta é a invasão do Instagram; não houve contato com a vítima pela rede social
+D26,CL 35,codificacao,falsa_central,0,1,1,segunda,o golpista se apresenta como financeira e cobra depósitos de garantia
+D27,CL 48,codificacao,papel_denunciado,titular_conta,misto,titular_conta,primeira,"a execução é atribuída ao 'denunciado e sua comparsa' não identificada, como em FE 51 e FE 89; a atribuição conjunta com pessoa não identificada segue a fórmula da coautoria e não diz o que o denunciado fez além da conta; caso de fronteira"
+D30,CL 40,codificacao,papel_denunciado,titular_conta,misto,misto,segunda,"a denúncia atribui só ao denunciado o contato ('encaminhou mensagem para a vítima Rose Mary, via aplicativo WhatsApp, passando-se por sua sobrinha'), e o valor entrou na conta dele; é o único titular de conta com esse tipo de imputação na base"
+D32,FE 90,codificacao,meio_contato,site,whatsapp,site,primeira,o ardil é o leilão no site; o WhatsApp sustentou a conversa depois do anúncio
+S03,FE 110,sentenca,resultado,procedência parcial,condenação,procedência parcial,primeira,"divergência de vocabulário: a primeira leitura chama de procedência parcial a condenação em que o dispositivo afasta imputação, majorante ou corréu; nas duas leituras houve condenação"
+S05,CL 13,sentenca,resultado,procedência parcial,condenação,procedência parcial,primeira,"divergência de vocabulário: a primeira leitura chama de procedência parcial a condenação em que o dispositivo afasta imputação, majorante ou corréu; nas duas leituras houve condenação"
+S05,CL 13,sentenca,intermediario_ressarciu,não,sim,não,primeira,"a restituição parcial veio do bloqueio e da recuperação dos valores pelo banco, não de cobertura com recursos próprios; caso de fronteira, tratado como CL 58"
+S07,INV 45,sentenca,resultado,procedência parcial,condenação,procedência parcial,primeira,"divergência de vocabulário: a primeira leitura chama de procedência parcial a condenação em que o dispositivo afasta imputação, majorante ou corréu; nas duas leituras houve condenação"
+S07,INV 45,sentenca,conseq_danos,econômico|social,econômico,econômico,segunda,"a pena sobe pelo 'montante do prejuízo suportado pela vítima'; a procura do medicamento na pandemia é circunstância, não dano social nomeado"
+S08,INV 26,sentenca,tipo_acolhido,147-A,outro,147-A,primeira,a lista do livro de códigos não distingue o 147-A do 147; o segundo leitor usou 'outro'
+S08,INV 26,sentenca,conseq_valoracao,neutra,não examinada,neutra,primeira,'todas previstas no tipo' é exame com resultado neutro
+S10,INV 4,sentenca,conseq_danos,digital|psicológico|econômico,psicológico|digital,digital|psicológico,segunda,"o 'receio de prejuízos financeiros' é abalo, não prejuízo; a sentença nega a reparação porque 'não houve prejuízo financeiro'"
+S11,FE 68,sentenca,rep_moral_negado,sim,não,não,segunda,a negativa é da reparação inteira por falta de pedido; 'danos morais' só aparece em jurisprudência citada entre aspas
+S12,INV 29,sentenca,resultado,procedência parcial,condenação,procedência parcial,primeira,"divergência de vocabulário: a primeira leitura chama de procedência parcial a condenação em que o dispositivo afasta imputação, majorante ou corréu; nas duas leituras houve condenação"
+S13,CL 53,sentenca,substituida,sim,não,não,segunda,"três anos, quatro meses e um dia em regime fechado, sem substituição"
+S15,FE 125,sentenca,conseq_danos,econômico|social,econômico,econômico,segunda,"multas e pontos na habilitação são desdobramentos econômicos e administrativos do veículo em nome da vítima, não dano à vida social"
+S15,FE 125,sentenca,pedido_reparacao,não,sim,sim,segunda,"'Requeiro, ainda, fixação do valor do prejuízo mínimo suportado pela vítima, ou seja, pelo menos R$92.418,32, nos termos do artigo 367, IV, do CPP' (o 367 é erro de digitação)"
+S16,FE 53,sentenca,conseq_danos,econômico|psicológico|físico,econômico|psicológico,econômico|psicológico,segunda,a condição de saúde agrava o abalo emocional; a sentença não nomeia dano físico
+S17,CL 48,sentenca,lei_15397,recusa,menciona,recusa,primeira,a sentença afasta o pedido defensivo de forma simples e mantém a qualificadora sem discutir o inciso VII; caso de fronteira entre recusa e menção
+S17,CL 48,sentenca,rep_fundamentos,vítima ressarcida,vítima ressarcida|remete à via cível,vítima ressarcida|remete à via cível,segunda,"além do ressarcimento pelo banco, 'eventual dano moral deve ser buscado pela própria vítima, nas vias cíveis cabíveis'"
+S18,INV 22,sentenca,conseq_danos,digital|social,digital|social|físico,digital|social,primeira,"o risco à vida e à segurança de policiais é perigo, não dano físico ocorrido"
+S21,FE 92,sentenca,resultado,procedência parcial,condenação,procedência parcial,primeira,"divergência de vocabulário: a primeira leitura chama de procedência parcial a condenação em que o dispositivo afasta imputação, majorante ou corréu; nas duas leituras houve condenação"
+S24,CL 43,sentenca,resultado,procedência parcial,condenação,procedência parcial,primeira,"divergência de vocabulário: a primeira leitura chama de procedência parcial a condenação em que o dispositivo afasta imputação, majorante ou corréu; nas duas leituras houve condenação"
+S25,FE 70,sentenca,intermediario_ressarciu,não,sim,sim,segunda,"a sentença acolhe o relato de que a vítima 'propôs ação cível contra o Banco e foram restituidas as parcelas', como em FE 122"
+S28,FE 20,sentenca,regime,,aberto,aberto,segunda,pena de cinco meses e dez dias; o regime aberto está na sentença e faltava na primeira leitura
+S32,CL 12,sentenca,conseq_valoracao,fora,neutra,neutra,segunda,'motivos e consequências do crime são neutros'; o caso segue fora da tipologia
+S33,FE 103,sentenca,resultado,procedência parcial,condenação,procedência parcial,primeira,"divergência de vocabulário: a primeira leitura chama de procedência parcial a condenação em que o dispositivo afasta imputação, majorante ou corréu; nas duas leituras houve condenação"
+S35,CL 25,sentenca,resultado,procedência parcial,condenação,procedência parcial,primeira,"divergência de vocabulário: a primeira leitura chama de procedência parcial a condenação em que o dispositivo afasta imputação, majorante ou corréu; nas duas leituras houve condenação"
+S35,CL 25,sentenca,conseq_valoracao,fora,negativa,negativa,segunda,a base dos demais réus sobe pelas consequências à saúde pública; o caso segue fora da tipologia
+S35,CL 25,sentenca,conseq_danos,,social,social,segunda,"dano à saúde pública (societal, no tema social de Agrafiotis)"
+S36,FE 59,sentenca,conseq_valoracao,não examinada,neutra,neutra,segunda,"'As consequências do crime são aquelas ocorridas usualmente' está na dosimetria, não só em ementa"
+S39,FE 82,sentenca,substituida,não,sim,sim,segunda,a pena foi substituída por restritivas de direitos
+S40,INV 30,sentenca,conseq_danos,econômico|digital,econômico|digital|reputacional,econômico|digital|reputacional,segunda,"a perda de clientes por falha no serviço é dano à reputação da empresa vítima, além do econômico e do digital"
+S42,INV 5,sentenca,substituida,sim,não,não,segunda,"67,2 meses, acima do limite do art. 44 do CP"
+S44,FE 21,sentenca,conseq_valoracao,não examinada,negativa,negativa,segunda,a pena-base sobe um quarto porque 'a vítima ficou muitíssimo abalada e temerosa' e por dívidas que 'sujaram seu nome na praça'; o leitor por termos não achou a palavra 'consequências'
+S44,FE 21,sentenca,conseq_danos,,econômico|psicológico|reputacional,econômico|psicológico|reputacional,segunda,"dívidas, abalo e temor, e o nome sujo na praça"
+S47,INV 43,sentenca,conseq_valoracao,não examinada,neutra,neutra,segunda,o juiz responde ao pedido do MP que as circunstâncias 'não excedem a gravidade ordinária do crime'
+S48,CL 58,sentenca,resultado,procedência parcial,condenação,procedência parcial,primeira,"divergência de vocabulário: a primeira leitura chama de procedência parcial a condenação em que o dispositivo afasta imputação, majorante ou corréu; nas duas leituras houve condenação"
+S48,CL 58,sentenca,rep_fundamentos,vítima ressarcida,reparação por outro instrumento,reparação por outro instrumento,segunda,o valor creditado na conta da ré foi devolvido e o PagSeguro deve transferi-lo ao juízo para levantamento pela vítima; o banco não cobriu o prejuízo com recursos próprios
+S49,CL 24,sentenca,intermediario_ressarciu,não,sim,sim,segunda,sentença absolutória que acolhe o relato de que 'os valores foram restituídos à vítima' pela Caixa e pela Mastercard; o campo só entra nas análises das condenações
+S50,CL 22,sentenca,resultado,procedência parcial,condenação,procedência parcial,primeira,"divergência de vocabulário: a primeira leitura chama de procedência parcial a condenação em que o dispositivo afasta imputação, majorante ou corréu; nas duas leituras houve condenação"

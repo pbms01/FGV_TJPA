@@ -4,8 +4,12 @@
   "fraude": 48,
   "nivel": {
    "só conta": [
-    43,
-    91.1
+    42,
+    89.2
+   ],
+   "autor remoto": [
+    1,
+    1.9
    ],
    "autor presencial": [
     5,
@@ -15,8 +19,12 @@
   "nivel_por_contato": {
    "remoto": {
     "só conta": [
-     40,
-     100.0
+     39,
+     97.7
+    ],
+    "autor remoto": [
+     1,
+     2.3
     ]
    },
    "presencial ou outro": {
@@ -39,8 +47,12 @@
    },
    "internet": {
     "só conta": [
-     26,
-     100.0
+     25,
+     96.5
+    ],
+    "autor remoto": [
+     1,
+     3.5
     ]
    },
    "presencial": {
@@ -75,8 +87,12 @@
   "nivel_vetor_por_canal": {
    "internet": {
     "só conta | registro": [
-     26,
-     100.0
+     25,
+     96.5
+    ],
+    "autor remoto | registro": [
+     1,
+     3.5
     ]
    },
    "telefonia": {
@@ -88,15 +104,23 @@
   },
   "nivel_vetor_contato_remoto": {
    "só conta | registro": [
-    40,
-    100.0
+    39,
+    97.7
+   ],
+   "autor remoto | registro": [
+    1,
+    2.3
    ]
   },
   "nivel_por_artificio": {
    "falso_parente": {
     "só conta": [
-     10,
-     100.0
+     9,
+     90.5
+    ],
+    "autor remoto": [
+     1,
+     9.5
     ]
    },
    "falsa_central": {
@@ -128,7 +152,12 @@
     ]
    }
   },
-  "vetor_autor_remoto_e_logistico": {},
+  "vetor_autor_remoto_e_logistico": {
+   "autor remoto | registro": [
+    1,
+    100.0
+   ]
+  },
   "vetor_todos": {
    "registro": [
     44,
@@ -142,21 +171,21 @@
   "so_conta_coautores_desconhecidos": {
    "true": [
     38,
-    88.4
+    90.3
    ],
    "false": [
-    5,
-    11.6
+    4,
+    9.7
    ]
   },
   "so_conta_repasse_narrado": {
    "false": [
-    30,
-    70.2
+    29,
+    69.5
    ],
    "true": [
     13,
-    29.8
+    30.5
    ]
   },
   "indicios_por_nivel_vetor": {
@@ -178,6 +207,15 @@
     "repasse": 0,
     "n": 1
    },
+   "autor remoto | registro": {
+    "telematica": 0,
+    "linha_em_nome": 0,
+    "confissao": 0,
+    "reconhecimento": 0,
+    "flagrante": 0,
+    "repasse": 0,
+    "n": 1
+   },
    "só conta | registro": {
     "telematica": 3,
     "linha_em_nome": 2,
@@ -185,7 +223,7 @@
     "reconhecimento": 2,
     "flagrante": 1,
     "repasse": 13,
-    "n": 43
+    "n": 42
    }
   },
   "telematica_casou": [
@@ -199,12 +237,18 @@
   "quebra_sigilo_por_nivel": {
    "só conta": {
     "false": [
-     39,
-     90.8
+     38,
+     90.6
     ],
     "true": [
      4,
-     9.2
+     9.4
+    ]
+   },
+   "autor remoto": {
+    "false": [
+     1,
+     100.0
     ]
    },
    "autor presencial": {
@@ -221,27 +265,27 @@
   "artificio_so_conta": {
    "venda_falsa": [
     11,
-    25.9
+    26.4
    ],
    "falso_parente": [
-    10,
-    22.2
+    9,
+    20.5
    ],
    "falsa_central": [
     6,
-    14.5
+    14.8
    ],
    "boleto_falso": [
     4,
-    8.7
+    8.9
    ],
    "invasao_sistema_bancario": [
     3,
-    7.1
+    7.3
    ],
    "extorsao_transferencia": [
     2,
-    5.0
+    5.1
    ],
    "taxa_antecipada": [
     2,
@@ -249,15 +293,15 @@
    ],
    "maquininha": [
     1,
-    2.6
+    2.7
    ],
    "investimento_falso": [
     1,
-    2.6
+    2.7
    ],
    "falso_advogado": [
     1,
-    2.6
+    2.7
    ],
    "falso_conhecido": [
     1,
@@ -272,27 +316,33 @@
    "só conta": {
     "171 §2º-A": [
      20,
-     47.0
+     48.0
     ],
     "171 outro": [
-     13,
-     29.6
+     12,
+     28.0
     ],
     "155 §4º-B": [
      4,
-     9.8
+     10.0
     ],
     "158": [
      2,
-     5.0
+     5.1
     ],
     "155 outro": [
      2,
-     4.7
+     4.9
     ],
     "180": [
      2,
      4.0
+    ]
+   },
+   "autor remoto": {
+    "171 outro": [
+     1,
+     100.0
     ]
    },
    "autor presencial": {
@@ -317,12 +367,12 @@
   "anpp_so_conta": {
    "tratado na cota": {
     "true": [
-     29,
-     66.5
+     28,
+     65.8
     ],
     "false": [
      14,
-     33.5
+     34.2
     ]
    },
    "recusa pela pena, entre as tratadas, por capitulação": {
@@ -350,7 +400,7 @@
     },
     "171 outro": {
      "false": [
-      12,
+      11,
       100.0
      ]
     },
@@ -375,12 +425,18 @@
   "condena_por_nivel": {
    "só conta": {
     "true": [
-     40,
-     93.4
+     39,
+     93.3
     ],
     "false": [
      3,
-     6.6
+     6.7
+    ]
+   },
+   "autor remoto": {
+    "true": [
+     1,
+     100.0
     ]
    },
    "autor presencial": {
@@ -394,31 +450,37 @@
    "só conta": {
     "171 §2º-A": [
      14,
-     33.9
+     34.7
     ],
     "171 outro": [
-     11,
-     27.4
+     10,
+     25.7
     ],
     "171 §2º VII": [
      8,
-     20.9
+     21.4
     ],
     "155 §4º-B": [
      3,
-     7.6
+     7.8
     ],
     "155 outro": [
      2,
-     5.1
+     5.2
     ],
     "158": [
      1,
-     2.5
+     2.6
     ],
     "180": [
      1,
-     2.5
+     2.6
+    ]
+   },
+   "autor remoto": {
+    "171 outro": [
+     1,
+     100.0
     ]
    },
    "autor presencial": {
@@ -444,7 +506,7 @@
    "autor presencial | 171 §2º VII": "n=2, mediana 12.0 meses",
    "só conta | 155 outro": "n=2, mediana 30.65 meses",
    "só conta | 155 §4º-B": "n=3, mediana 54.0 meses",
-   "só conta | 171 outro": "n=11, mediana 13.5 meses",
+   "só conta | 171 outro": "n=10, mediana 12.75 meses",
    "só conta | 171 §2º VII": "n=8, mediana 12.0 meses",
    "só conta | 171 §2º-A": "n=14, mediana 48.0 meses"
   },
@@ -465,16 +527,22 @@
   "regime_por_nivel": {
    "só conta": {
     "aberto": [
-     27,
-     75.4
+     26,
+     74.8
     ],
     "semiaberto": [
      8,
-     20.3
+     20.8
     ],
     "fechado": [
      2,
-     4.3
+     4.4
+    ]
+   },
+   "autor remoto": {
+    "aberto": [
+     1,
+     100.0
     ]
    },
    "autor presencial": {
@@ -494,29 +562,35 @@
   },
   "lei_por_nivel": {
    "só conta": {
-    "sem menção": [
-     9,
-     31.3
-    ],
     "aplica": [
      8,
-     29.4
+     30.3
+    ],
+    "sem menção": [
+     8,
+     29.1
     ],
     "recusa": [
      8,
-     27.4
+     28.3
     ],
     "só dispositivo": [
      2,
-     6.0
+     6.1
     ],
     "reforço": [
      1,
-     3.6
+     3.7
     ],
     "absolve": [
      1,
-     2.4
+     2.5
+    ]
+   },
+   "autor remoto": {
+    "sem menção": [
+     1,
+     100.0
     ]
    },
    "autor presencial": {
@@ -551,27 +625,27 @@
   "so_conta_pos_lei_acolhido": {
    "171 §2º VII": [
     8,
-    32.6
+    33.8
    ],
    "171 outro": [
-    7,
-    27.8
+    6,
+    25.1
    ],
    "171 §2º-A": [
     7,
-    23.8
+    24.7
    ],
    "155 outro": [
     2,
-    7.9
+    8.2
    ],
    "155 §4º-B": [
     1,
-    4.0
+    4.1
    ],
    "180": [
     1,
-    4.0
+    4.1
    ]
   }
  },
@@ -1299,16 +1373,16 @@
    },
    "autor presencial": {
     "aberto": [
-     4,
-     59.7
+     5,
+     70.4
     ],
     "fechado": [
      1,
-     29.0
+     21.3
     ],
     "semiaberto": [
      1,
-     11.3
+     8.3
     ]
    }
   },

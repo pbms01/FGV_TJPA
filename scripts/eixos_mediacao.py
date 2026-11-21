@@ -1,6 +1,7 @@
 """Eixos da mediação técnica, comuns às análises da fase 1 (questões 1 e 2).
 
-Segue o critério do doc de linhas de pesquisa do Project (versão 0.3): o teste de
+Segue o critério do doc de linhas de pesquisa do Project (versão 0.4; a regra da mediação
+acessória, proposta nessa versão, ainda não está aplicada aqui): o teste de
 eliminação de Wall, reformulado em dois eixos. Retira-se o sistema informático, em rede ou
 isolado, e observa-se se a conduta desaparece, perde escala ou continua por outros meios;
 depois, identifica-se o canal pelo qual o agente chegou ao sistema (ou, na fraude, à
