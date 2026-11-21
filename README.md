@@ -1,6 +1,8 @@
 # FGV_TJPA
 
-Base processual para um exame cibercriminológico da fraude mediada por tecnologia, construída apenas com processos judiciais. A consulta pública de julgados do tribunal fornece os números de processo, e o Codex (PDPJ) lê as peças. O texto lido vai para o repositório.
+Base processual para um exame cibercriminológico da fraude mediada por tecnologia, construída apenas com processos judiciais. A consulta pública de julgados do tribunal fornece os números de processo (no TJPA, que não tem consulta de sentenças de 1º grau, a API pública do DJEN), e o Codex (PDPJ) lê as peças. O texto lido vai para o repositório.
+
+Em 21/11/2026 a porta de entrada da fase 2 (TJPA) foi testada: a lista de 299 números saiu do DJEN, com 225 de ação penal ou apelação criminal, e a rota do Codex foi ajustada ao TJPA, onde o inquérito e a ação penal têm o mesmo número. O roteiro está em `docs/RUNBOOK_TJPA.md`.
 
 Estado em 20/11/2026, à noite: a fase 1 (TJSP) tem a amostra de 200 denúncias fechada (INV 36 em censo, CL 50, FE 114), com o texto gravado, a extração por regras feita e validada por codificação manual, e a codificação de artifício, meio e papel do denunciado estendida às 200 denúncias (36 manuais e 164 assistidas, estas pendentes de conferência por amostra). O estado, as decisões e os próximos passos estão em `docs/HANDOFF.md`, que é o ponto de partida de qualquer sessão nova. Os números-alvo vieram da Consulta de Julgados de 1º Grau do e-SAJ (cjpg), por busca textual, porque o TJSP quase não usa os códigos TPU que nomeiam o tipo. O DataJud fica como denominador. O recorte TJPA será replanejado depois.
 
@@ -11,7 +13,12 @@ Estado em 20/11/2026, à noite: a fase 1 (TJSP) tem a amostra de 200 denúncias 
 | `docs/HANDOFF.md` | Estado da pesquisa, decisões, próximos passos e modo de operar o Codex; ler primeiro |
 | `docs/plano-captura.md` | Plano completo: recorte, achados da sondagem, escada de captura, amostragem, livro de códigos, regra de seleção das peças, dado pessoal, riscos |
 | `docs/linhas-de-pesquisa.md` | Arquitetura das linhas de pesquisa em criminologia informática que o livro de códigos serve |
-| `docs/RUNBOOK.md` | Roteiro da coleta do TJPA (fases, ritmo, IDs do documento do plano) |
+| `docs/RUNBOOK.md` | Roteiro da coleta noturna do TJPA pelo DataJud (19 e 20/11/2026), substituído na porta de entrada pelo `RUNBOOK_TJPA.md` |
+| `docs/RUNBOOK_TJPA.md` | Fase 2: números-alvo pela API do DJEN (semântica da busca, consultas, vieses), localização da denúncia no Codex do TJPA, custo e pendências |
+| `scripts/djen_alvos.py` | Números-alvo pela API pública do DJEN: cinco rótulos de consulta por frase, união por id, filtro de classe, indicadores e consolidação por número, sem nomes de pessoas (só biblioteca padrão; roda no computador do usuário) |
+| `scripts/djen_navegador.js` | Mesmo coletor para rodar numa aba do comunica.pje.jus.br (via da sondagem de 21/11/2026) |
+| `scripts/testes/djen_fixture.json` | Fixture sintética da resposta do DJEN para testar o coletor (`--teste`) |
+| `dados/djen/` | Lista de alvos do TJPA (`alvos_djen_tjpa.csv`, 299 números) e totais por frase, rótulo e classe, com a série de controle de cobertura (`totais_tjpa.json`) |
 | `docs/RUNBOOK_TJSP.md` | Fase 1: números-alvo pelo cjpg, localização da denúncia no Codex, gravação do texto lido, campos do corpus, achados do piloto |
 | `scripts/cjpg_alvos.py` | Números-alvo do TJSP pela Consulta de Julgados de 1º Grau: quatro consultas textuais, indicadores de precisão, consolidação por número (só biblioteca padrão) |
 | `scripts/cjpg_navegador.js` | Mesmo coletor para rodar numa aba do cjpg (via do piloto) |
@@ -67,9 +74,19 @@ python scripts/cjpg_alvos.py --teste scripts/testes/cjpg_fixture.html  # testa o
 
 O script guarda cada resultado em `dados/cjpg/bruto/<rótulo>.jsonl`, retoma pelas páginas feitas, espera 3 s entre requisições e para, sem contornar, se a resposta trouxer CAPTCHA ou erro repetido. O sorteio por DataJud (`scripts/sorteio_datajud_tjsp.py`) continua no repositório para o censo de comparação.
 
+## Como gerar a lista de alvos do TJPA
+
+```bash
+python scripts/djen_alvos.py --fim 2026-11-20         # cinco rótulos, em dados/djen/
+python scripts/djen_alvos.py --controle estelionato   # série de cobertura por ano
+python scripts/djen_alvos.py --teste                  # testa o coletor sem rede
+```
+
+Do workspace da sessão a API devolve 403; o script roda no computador do usuário, e o `scripts/djen_navegador.js` roda numa aba do comunica.pje.jus.br.
+
 ## Cuidados
 
 - A chave do DataJud nos scripts é a chave pública que o próprio CNJ publica para todos os usuários; pode ser substituída pela variável `DATAJUD_API_KEY`.
 - Decisão de 20/11/2026: o texto lido das peças entra no repositório, sem pseudonimização e sem o arquivo original. O repositório é privado.
 - Nenhum link de peça entra no repositório: a linha `Original:` do Codex traz token de acesso.
-- Publicações derivadas devem citar o TJSP (Consulta de Julgados de 1º Grau) como fonte dos números, e CNJ e DataJud quando o censo por código for usado (Portaria CNJ 160/2020, art. 4º, na redação da Portaria 374/2026).
+- Publicações derivadas devem citar o TJSP (Consulta de Julgados de 1º Grau) e o DJEN (CNJ) como fonte dos números, e CNJ e DataJud quando o censo por código for usado (Portaria CNJ 160/2020, art. 4º, na redação da Portaria 374/2026).
