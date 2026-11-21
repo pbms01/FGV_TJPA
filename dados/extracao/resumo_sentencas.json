@@ -1,0 +1,512 @@
+{
+ "vigencia_lei_15397": "2026-05-04",
+ "estratos": {
+  "INV": {
+   "denuncias": 34,
+   "sentencas_lidas": 34,
+   "cobertura": {
+    "texto pelo Codex": 27,
+    "matriz (lida à mão)": 6,
+    "dispositivo pelo DJEN": 1
+   },
+   "resultado": {
+    "procedência parcial": [
+     16,
+     47.1
+    ],
+    "condenação": [
+     13,
+     38.2
+    ],
+    "absolvição": [
+     5,
+     14.7
+    ]
+   },
+   "ao_menos_um_condenado": 85.3,
+   "tipo_acolhido": {
+    "154-A": [
+     18,
+     66.7
+    ],
+    "147": [
+     1,
+     3.7
+    ],
+    "171 §2º-A": [
+     1,
+     3.7
+    ],
+    "312": [
+     1,
+     3.7
+    ],
+    "180": [
+     1,
+     3.7
+    ],
+    "147-A": [
+     1,
+     3.7
+    ],
+    "158": [
+     1,
+     3.7
+    ],
+    "171 outro": [
+     1,
+     3.7
+    ],
+    "155 outro": [
+     1,
+     3.7
+    ],
+    "138": [
+     1,
+     3.7
+    ]
+   },
+   "mudanca_capitulacao": {
+    "mantém": [
+     19,
+     70.4
+    ],
+    "154-A → 147": [
+     1,
+     3.7
+    ],
+    "outro tipo → 312": [
+     1,
+     3.7
+    ],
+    "154-A → 180": [
+     1,
+     3.7
+    ],
+    "154-A → 147-A": [
+     1,
+     3.7
+    ],
+    "154-A → 158": [
+     1,
+     3.7
+    ],
+    "154-A → 171 outro": [
+     1,
+     3.7
+    ],
+    "154-A → 155 outro": [
+     1,
+     3.7
+    ],
+    "outro tipo → 138": [
+     1,
+     3.7
+    ]
+   },
+   "cruzamento": {
+    "154-A": {
+     "154-A": 18,
+     "147": 1,
+     "(não lido)": 1,
+     "180": 1,
+     "147-A": 1,
+     "158": 1,
+     "171 outro": 1,
+     "155 outro": 1
+    },
+    "171 §2º-A": {
+     "171 §2º-A": 1
+    },
+    "outro tipo": {
+     "312": 1,
+     "138": 1
+    },
+    "lavagem": {
+     "(não lido)": 1
+    }
+   },
+   "pena_mediana_meses": {
+    "154-A": [
+     18,
+     32.0
+    ],
+    "147": [
+     1,
+     12.0
+    ],
+    "171 §2º-A": [
+     1,
+     67.2
+    ],
+    "312": [
+     1,
+     24.0
+    ],
+    "180": [
+     1,
+     12.0
+    ],
+    "147-A": [
+     1,
+     13.1
+    ],
+    "158": [
+     1,
+     165.3
+    ],
+    "171 outro": [
+     1,
+     24.0
+    ],
+    "155 outro": [
+     1,
+     24.0
+    ],
+    "138": [
+     1,
+     8.0
+    ]
+   },
+   "regime": {
+    "aberto": [
+     15,
+     57.7
+    ],
+    "fechado": [
+     7,
+     26.9
+    ],
+    "semiaberto": [
+     4,
+     15.4
+    ]
+   },
+   "lei_15397": {
+    "sem menção": 2,
+    "anterior à lei": 31,
+    "só dispositivo": 1
+   },
+   "movimento_diverge": [
+    "INV 19: movimento Procedência, texto absolvição"
+   ],
+   "movimento_parcial_trocada": 9
+  },
+  "CL": {
+   "denuncias": 50,
+   "sentencas_lidas": 50,
+   "cobertura": {
+    "matriz (lida à mão)": 7,
+    "texto pelo Codex": 40,
+    "dispositivo pelo DJEN": 3
+   },
+   "resultado": {
+    "condenação": [
+     24,
+     47.6
+    ],
+    "procedência parcial": [
+     23,
+     46.6
+    ],
+    "absolvição": [
+     3,
+     5.8
+    ]
+   },
+   "ao_menos_um_condenado": 94.2,
+   "tipo_acolhido": {
+    "171 §2º-A": [
+     15,
+     31.5
+    ],
+    "171 outro": [
+     12,
+     25.9
+    ],
+    "171 §2º VII": [
+     10,
+     22.7
+    ],
+    "155 §4º-B": [
+     3,
+     6.7
+    ],
+    "155 outro": [
+     2,
+     4.4
+    ],
+    "158": [
+     2,
+     3.0
+    ],
+    "drogas": [
+     1,
+     2.2
+    ],
+    "180": [
+     1,
+     2.2
+    ],
+    "lavagem": [
+     1,
+     1.5
+    ]
+   },
+   "mudanca_capitulacao": {
+    "mantém": [
+     31,
+     65.8
+    ],
+    "para 171 §2º VII": [
+     10,
+     22.7
+    ],
+    "afasta o §2º-A": [
+     2,
+     4.7
+    ],
+    "acrescenta o §2º-A": [
+     2,
+     3.2
+    ],
+    "outro tipo → drogas": [
+     1,
+     2.2
+    ],
+    "180 → 171 outro": [
+     1,
+     1.5
+    ]
+   },
+   "cruzamento": {
+    "171 outro": {
+     "171 outro": 9,
+     "171 §2º-A": 2,
+     "171 §2º VII": 2
+    },
+    "155 §4º-B": {
+     "155 §4º-B": 3,
+     "171 §2º VII": 1
+    },
+    "158": {
+     "158": 2,
+     "171 §2º VII": 2
+    },
+    "171 §2º-A": {
+     "171 §2º-A": 13,
+     "171 §2º VII": 5,
+     "171 outro": 2
+    },
+    "155 outro": {
+     "155 outro": 2
+    },
+    "outro tipo": {
+     "drogas": 1
+    },
+    "lavagem": {
+     "lavagem": 1
+    },
+    "180": {
+     "171 outro": 1,
+     "180": 1
+    }
+   },
+   "pena_mediana_meses": {
+    "171 outro": [
+     12,
+     14.25
+    ],
+    "155 §4º-B": [
+     3,
+     54.0
+    ],
+    "171 §2º VII": [
+     10,
+     12.0
+    ],
+    "158": [
+     1,
+     64.0
+    ],
+    "171 §2º-A": [
+     15,
+     48.0
+    ],
+    "155 outro": [
+     2,
+     30.65
+    ],
+    "drogas": [
+     1,
+     70.0
+    ],
+    "lavagem": [
+     1,
+     205.3
+    ],
+    "180": [
+     1,
+     14.0
+    ]
+   },
+   "regime": {
+    "aberto": [
+     29,
+     69.8
+    ],
+    "semiaberto": [
+     9,
+     19.6
+    ],
+    "fechado": [
+     6,
+     10.6
+    ]
+   },
+   "lei_15397": {
+    "anterior à lei": 18,
+    "aplica": 10,
+    "sem menção": 10,
+    "recusa": 8,
+    "absolve": 1,
+    "reforço": 1,
+    "só dispositivo": 2
+   },
+   "movimento_diverge": [
+    "CL 31: movimento Procedência em Parte, texto absolvição"
+   ],
+   "movimento_parcial_trocada": 21
+  },
+  "FE": {
+   "denuncias": 114,
+   "sentencas_lidas": 113,
+   "cobertura": {
+    "texto pelo Codex": 95,
+    "matriz (lida à mão)": 16,
+    "sem sentença lida (sem_movimento)": 1,
+    "dispositivo pelo DJEN": 2
+   },
+   "resultado": {
+    "condenação": [
+     77,
+     67.6
+    ],
+    "procedência parcial": [
+     24,
+     19.7
+    ],
+    "absolvição": [
+     11,
+     12.1
+    ],
+    "extinção": [
+     1,
+     0.6
+    ]
+   },
+   "ao_menos_um_condenado": 87.3,
+   "tipo_acolhido": {
+    "171 §2º-A": [
+     81,
+     82.1
+    ],
+    "171 outro": [
+     17,
+     15.3
+    ],
+    "155 outro": [
+     2,
+     1.6
+    ],
+    "171 §2º VII": [
+     1,
+     1.0
+    ]
+   },
+   "mudanca_capitulacao": {
+    "mantém": [
+     85,
+     86.7
+    ],
+    "afasta o §2º-A": [
+     10,
+     6.7
+    ],
+    "acrescenta o §2º-A": [
+     4,
+     4.0
+    ],
+    "155 §4º-B → 171 §2º-A": [
+     1,
+     1.6
+    ],
+    "para 171 §2º VII": [
+     1,
+     1.0
+    ]
+   },
+   "cruzamento": {
+    "171 §2º-A": {
+     "171 §2º-A": 76,
+     "171 outro": 10,
+     "171 §2º VII": 1
+    },
+    "155 §4º-B": {
+     "171 §2º-A": 1
+    },
+    "171 outro": {
+     "171 outro": 7,
+     "171 §2º-A": 4
+    },
+    "155 outro": {
+     "155 outro": 2
+    }
+   },
+   "pena_mediana_meses": {
+    "171 §2º-A": [
+     81,
+     48.0
+    ],
+    "171 outro": [
+     17,
+     12.0
+    ],
+    "171 §2º VII": [
+     1,
+     12.0
+    ],
+    "155 outro": [
+     2,
+     16.65
+    ]
+   },
+   "regime": {
+    "aberto": [
+     55,
+     57.3
+    ],
+    "semiaberto": [
+     26,
+     27.6
+    ],
+    "fechado": [
+     13,
+     15.1
+    ]
+   },
+   "lei_15397": {
+    "anterior à lei": 74,
+    "sem menção": 36,
+    "recusa": 2,
+    "aplica": 1
+   },
+   "movimento_diverge": [
+    "FE 4: movimento Procedência em Parte, texto absolvição",
+    "FE 7: movimento Procedência, texto absolvição",
+    "FE 18: movimento Procedência em Parte, texto absolvição"
+   ],
+   "movimento_parcial_trocada": 19
+  }
+ }
+}

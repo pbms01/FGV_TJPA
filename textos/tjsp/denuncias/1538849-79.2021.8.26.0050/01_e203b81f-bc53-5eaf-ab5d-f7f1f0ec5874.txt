@@ -1,0 +1,388 @@
+[Texto nativo do PJe]
+
+MINISTÉRIO PÚBLICO
+DO ESTADO DE SÃO PAULO
+CYBERGAECO – INVESTIGAÇÕES
+
+DE CRIMES CIBERNÉTICOS
+
+Autos n. 1538849-79.2021.8.26.0050
+
+Meritíssima Juíza:
+
+1) Ofereço denúncia contra EDUARDO FELIX E SILVA GARCIA;
+
+2) Destaco que não é cabível o benefício da suspensão condicional do processo,
+
+tendo em vista que a pena mínima cominada ao delito supera o previsto no art.
+
+89, da Lei n. 9099/1995. Além disso, trata-se de infração penal grave, e nada
+
+indica a suficiência e a proporcionalidade da benesse, notadamente ante a
+
+comprovada reiteração delituosa do denunciado, notando-se inclusive as
+
+elevadas consequências dos crimes por ele praticados, que atingem à
+
+sociedade como um todo, e o desvalor das condutas, que atentam
+
+perigosamente contra a paz e a segurança públicas;
+
+3) Igualmente, não é cabível o Acordo de Não Persecução Penal, previsto no
+
+artigo 28-A do Código de Processo Penal e no artigo 18, da Resolução nº 181,
+
+do CNMP, posto que a celebração do acordo revela-se insuficiente e
+
+desproporcional, em razão da violação da proteção jurídica deficiente, tendo
+
+em vista a gravidade em concreto da conduta do denunciado, e as respectivas
+
+consequências, não atendendo à necessária reprovação e prevenção do crime,
+
+ao contrário estimularia que ele e demais criminosos continuassem a praticar
+
+crimes cada vez mais sofisticados, com enorme lucro.
+
+Outrossim, há nos autos elementos probatórios que indicam conduta criminal
+
+habitual, reiterada e profissional do denunciado que, conforme por ele mesmo
+
+confessado, se dedica de forma habitual à prática de diversos crimes de
+
+estelionato, sobretudo por meios virtuais. Outrossim, EDUARDO foi autuado
+
+em flagrante delito pelos crimes de receptação e uso de documento falso,
+
+havendo indicativos fortes e concretos de que não se trata de criminoso
+
+Autos n. 1538849-79.2021.8.26.0050 – DIPO 4 – Comarca da Capital
+
+Rua Riachuelo, 115 – 6º andar – Sé – São Paulo/SP
+E-mail: cybergaeco@mpsp.mp.br
+1
+MINISTÉRIO PÚBLICO
+DO ESTADO DE SÃO PAULO
+CYBERGAECO – INVESTIGAÇÕES
+
+DE CRIMES CIBERNÉTICOS
+
+ocasional, mas sim de indivíduo que tem no crime sua forma de vida e meio
+
+sustento, sendo certo que a celebração de Acordo de Não Persecução Penal
+
+não atende à necessária reprovação e prevenção do crime em espeque.
+
+4) Por fim, considerando que os elementos colhidos estão a indicar a prática de
+
+outros crimes, sobretudo de estelionato (art. 171, §2ºA, CP), pelo denunciado
+
+e possíveis comparsas, contra vítimas difusas, pleiteamos nesse ato, que seja
+
+autorizado o compartilhamento das provas, para que os indícios aqui
+
+amealhados possam subsidiar outras investigações derivadas da invasão aqui
+
+perseguida. Para exemplificar, juntamos alguns desses Boletins de Ocorrência.
+
+São Paulo, 18 de abril de 2022.
+
+RICHARD GANTUS ENCINAS
+
+Promotor de Justiça do CyberGaeco
+
+LISTER CALDAS BRAGA FILHO
+
+Promotor de Justiça do CyberGaeco
+
+CAROLINE DE CASTILHO GARCIA
+
+Analista Jurídico do CyberGaeco
+
+Autos n. 1538849-79.2021.8.26.0050 – DIPO 4 – Comarca da Capital
+
+Rua Riachuelo, 115 – 6º andar – Sé – São Paulo/SP
+E-mail: cybergaeco@mpsp.mp.br
+2
+MINISTÉRIO PÚBLICO
+DO ESTADO DE SÃO PAULO
+CYBERGAECO – INVESTIGAÇÕES
+
+DE CRIMES CIBERNÉTICOS
+
+EXCELENTÍSSIMA(O) SENHORA(O) DOUTORA(O) JUIZ(A) DE DIREITO DA
+
+VARA  CRIMINAL DA COMARCA DE SÃO PAULO.
+
+Autos n. 1538849-79.2021.8.26.0050
+
+DENÚNCIA
+
+O MINISTÉRIO PÚBLICO DO ESTADO DE SÃO PAULO,
+
+representado pelo(s) Promotor(es) de Justiça que esta subscreve(m), por meio de seu
+
+Núcleo de Investigação sobre Crimes Cibernéticos (NICC-CyberGaeco), do Grupo de
+
+Atuação Especial de Combate ao Crime Organizado – GAECO, com fundamento no
+
+artigo 129, I, da Constituição Federal, artigo 24, “caput”, do Código de Processo Penal,
+
+artigo 25, III, da Lei n. 8.625/1993, vem respeitosamente à presença de Vossa
+
+Excelência, oferecer denúncia, nos seguintes termos, contra:
+
+EDUARDO FELIX E SILVA GARCIA, portador do R.G. n. 52109494, CPF/MF n.
+
+472.702.008-40, com endereço declarado na Rua Luciano Bazor, 82, Apto. 42-C,
+
+Conjunto Residencial Jardim Bonifácio, São Paulo –SP.
+
+I – DA IMPUTAÇÃO JURÍDICA
+
+Consta dos inclusos autos de inquérito policial que, no dia 16 de
+
+novembro de 2021, por volta das 19:30, nesta cidade e Comarca de São Paulo,
+
+EDUARDO FELIX E SILVA GARCIA, supra qualificado, invadir dispositivo informático
+
+de uso alheio, conectado à rede de computadores, pertencente à vítima Carla Borges
+
+Honório, com o fim de obter, adulterar ou destruir dados ou informações sem
+
+Autos n. 1538849-79.2021.8.26.0050 – DIPO 4 – Comarca da Capital
+
+Rua Riachuelo, 115 – 6º andar – Sé – São Paulo/SP
+E-mail: cybergaeco@mpsp.mp.br
+3
+MINISTÉRIO PÚBLICO
+DO ESTADO DE SÃO PAULO
+CYBERGAECO – INVESTIGAÇÕES
+
+DE CRIMES CIBERNÉTICOS
+
+autorização expressa ou tácita do usuário do dispositivo ou de instalar
+
+vulnerabilidades para obter vantagem ilícita, resultando da invasão o controle remoto
+
+não autorizado do dispositivo invadido, resultado a obtenção de conteúdo de
+
+comunicações eletrônicas privadas.
+
+III – DOS FATOS APURADOS
+
+O denunciado mantinha junto a rede social Instagram, falsos perfis
+
+como se fossem de pousadas localizadas no Estado de Santa Catarina. A vítima, por
+
+sua vez, imaginando que se tratava de um perfil idôneo, entrou em contato para saber
+
+mais sobre as condições de reserva quando então  recebeu do denunciado ou seus
+
+comparsas ainda não identificados, um link malicioso e dissimulado  que, ao clicar,
+
+permitiu que o denunciado  e seus comparsas não identificados, assumissem o
+
+controle de sua conta junto ao Instagram (@carlaborges).
+
+O denunciado ou seus comparsas, ao assumirem o controle da
+
+conta da vítima, trataram logo de alterar o email e o telefone de recuperação de senha,
+
+justamente para impedir que a vítima pudesse reassumir o controle de sua conta.
+
+Na sequência, para poderem completar o ardil e posteriormente
+
+aplicarem golpes em pessoas que seguiam o perfil de CARLA, os criminosos criaram
+
+uma conta falsa junto ao aplicativo WhatsApp, com a fotografia da vítima, como se ela
+
+usasse o número de telefone 11-98670-7405.
+
+Autos n. 1538849-79.2021.8.26.0050 – DIPO 4 – Comarca da Capital
+
+Rua Riachuelo, 115 – 6º andar – Sé – São Paulo/SP
+E-mail: cybergaeco@mpsp.mp.br
+4
+MINISTÉRIO PÚBLICO
+DO ESTADO DE SÃO PAULO
+CYBERGAECO – INVESTIGAÇÕES
+
+DE CRIMES CIBERNÉTICOS
+es! VIVO E 14:27 48% 8.
+
+< O (11) 98670-72405 (1 Q&,
+
+Hoje
+
+8 As mensagens e as ligações são
+protegidas com a criptografia de
+ponta a ponta e ficam somente
+entre você e os participantes desta
+conversa. Nem mesmo o
+WhatsApp pode ler ou ouvi-las.
+Após assumir o controle da conta do Instagram, o denunciado e
+
+seus comparsas passaram a praticar inúmeros estelionatos com a referida conta,
+
+simulando ser a vítima e anunciando produtos e bens no perfil dela. Algumas pessoas
+
+que faziam parte do círculo de amizades na rede social infelizmente caíram no
+
+engodo, imaginando que estariam comprando bens de Carla, quando na verdade
+
+caíram em golpe, depositando dinheiro em uma conta bancária de outro comparsa.
+
+O denunciado e seus comparsas, com suas ações criminosas,
+
+além de tomar o controle da conta de Carla, fazendo-se passar por ela nas
+
+publicações utilizadas para a fraude, ainda obtiveram acesso ao conteúdo das
+
+comunicações eletrônicas privadas que CARLA mantinha pelo sistema Direct, do
+
+aplicativo Instagram.
+
+Autos n. 1538849-79.2021.8.26.0050 – DIPO 4 – Comarca da Capital
+
+Rua Riachuelo, 115 – 6º andar – Sé – São Paulo/SP
+E-mail: cybergaeco@mpsp.mp.br
+5
+MINISTÉRIO PÚBLICO
+DO ESTADO DE SÃO PAULO
+CYBERGAECO – INVESTIGAÇÕES
+
+DE CRIMES CIBERNÉTICOS
+
+O Ministério Público do Estado de São Paulo foi acionado,
+
+promovendo de imediato medidas cautelares para que o crime cessasse e também
+
+para que fosse possível constituição de provas para elucidação da autoria, conforme
+
+se depreende da medida cautelar 103059-28.2021.8.26.0050, apensada nesses
+
+autos.
+
+Somente após o deferimento da medida cautelar e seu
+
+cumprimento pelo aplicativo Instagram, foi possível à vítima recuperar o acesso a sua
+
+conta, cessando os anúncios fraudulentos que o denunciado e seus comparsas
+
+utilizaram para praticarem estelionatos.
+
+Os estelionatos estão sendo apurados nas respectivas Comarcas
+
+em que as vítimas residem, em consonância com o disposto no artigo 70, conforme
+
+se depreende do artigo 70, §4º, do CPP.
+
+Eis um exemplo desse ardil adotado pelo denunciado e seus
+
+comparsas, para ludibriar as vítimas, se passando por Carla Borges:
+
+Autos n. 1538849-79.2021.8.26.0050 – DIPO 4 – Comarca da Capital
+
+Rua Riachuelo, 115 – 6º andar – Sé – São Paulo/SP
+E-mail: cybergaeco@mpsp.mp.br
+6
+pinisTERIO PÚBLICO CYBERGAECO — INVESTIGAÇÕES
+| DO ESTADO DE SÃO PAULO DE CRIMES CIBERNEÉTICOS
+
+9
+
+EA A TR gs)
+IA
+vendendo
+iPhone 12 Pro Max
+MINISTÉRIO PÚBLICO
+DO ESTADO DE SÃO PAULO
+CYBERGAECO – INVESTIGAÇÕES
+
+DE CRIMES CIBERNÉTICOS
+
+A Polícia Civil foi acionada e a Delegacia Especializada em
+
+Invasão de Dispositivos do DEIC, interpretando os dados telemáticos utilizados pelos
+
+criminosos nos dias em que tomaram o controle da conta de Carla Borges, conseguiu
+
+estabelecer indícios suficientes de que EDUARDO FELIX E SILVA GARCIA era um
+
+dos autores da  invasão, obtendo ordem de busca e apreensão em sua residência,
+
+conforme se depreende da cautelar n. 1508430-42.2022.8.26.0050.
+
+A ordem judicial foi cumprida no dia 30 de março de 2022,
+
+oportunidade em que houve a apreensão dos aparelhos eletrônicos encontrados,
+
+constituição de outras provas, tendo o indiciado confessado a autoria delitiva,
+
+consoante se depreende do interrogatório juntado a fls. 194/195.
+
+III – DA CAPITULAÇÃO JURÍDICA
+
+Ante o exposto, DENUNCIAMOS a Vossa Excelência EDUARDO
+
+FELIX E SILVA GARCIA, supra qualificado, como incurso no artigo 154-A, §3º do
+
+Código Penal.
+
+Requer-se que, autuada e recebida esta, seja o denunciado citado,
+
+instaurando-se a competente ação penal e prosseguindo-se na forma do art. 394, §
+
+1º, I, do Código de Processo Penal, até final condenação.
+
+Por fim, requer-se que sejam a vítima e a testemunha abaixo
+
+arroladas.
+
+ROL:
+
+1. Carla Borges Honório (vítima - e-mail para intimação: carlahonorio@mpsp.mp.br) –
+
+Promotora de Justiça do Ministério Público do Estado de São Paulo – necessidade do
+
+disposto no art. 40, I, da Lei nº 8625/93;
+
+Autos n. 1538849-79.2021.8.26.0050 – DIPO 4 – Comarca da Capital
+
+Rua Riachuelo, 115 – 6º andar – Sé – São Paulo/SP
+E-mail: cybergaeco@mpsp.mp.br
+8
+MINISTÉRIO PÚBLICO
+DO ESTADO DE SÃO PAULO
+CYBERGAECO – INVESTIGAÇÕES
+
+DE CRIMES CIBERNÉTICOS
+
+2. Francisco Eduardo Madeira Martins - Policial Civil que participou da diligência de
+
+busca (fls. 198/202);
+
+3. Carlos Renato Lopes - Policial Civil que participou da diligência de busca (fls.
+
+192/202).
+
+São Paulo, 18 de abril de 2022.
+
+RICHARD GANTUS ENCINAS
+
+Promotor de Justiça do CyberGaeco
+
+LISTER CALDAS BRAGA FILHO
+
+Promotor de Justiça do CyberGaeco
+
+CAROLINE DE CASTILHO GARCIA
+
+Analista Jurídico do CyberGaeco
+
+Autos n. 1538849-79.2021.8.26.0050 – DIPO 4 – Comarca da Capital
+
+Rua Riachuelo, 115 – 6º andar – Sé – São Paulo/SP
+E-mail: cybergaeco@mpsp.mp.br
+9

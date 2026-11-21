@@ -1,0 +1,25 @@
+numero,estrato,ordem,contexto,meio_contato,artificio,papel_denunciado,whatsapp,pix_pagamento,boleto,falso_parente,falsa_central,venda_falsa,investimento,conta_do_denunciado,invasao,nota
+1501481-62.2024.8.26.0363,INV,38,violencia_domestica,presencial,controle_parceira,invasor,0,0,0,0,0,0,0,0,1,tentativa de acesso ao celular da ex-esposa; 154-A tentado
+1503077-84.2023.8.26.0050,INV,19,institucional,sistema,invasao_sistema_venda_dados,invasor,0,0,0,0,0,0,0,0,1,engenharia reversa do app do Santander; venda de dados de clientes
+1500474-59.2023.8.26.0431,INV,26,violencia_domestica,rede_social,controle_parceira,invasor,0,0,0,0,0,0,0,0,1,acesso ao Facebook da ex-namorada com postagens em nome dela; perseguição e descumprimento de protetiva
+1502937-50.2023.8.26.0438,INV,42,patrimonial,rede_social,sequestro_conta,misto,0,1,0,1,0,0,0,1,1,falsa prima no Messenger obtém código; conta do Facebook sequestrada e resgate pedido por Pix
+1502025-56.2021.8.26.0007,INV,29,violencia_domestica,rede_social,controle_parceira,invasor,0,0,0,0,0,0,0,0,1,acesso a Facebook e Instagram da ex-companheira
+1502875-88.2023.8.26.0024,INV,5,patrimonial,rede_social,venda_falsa,titular_conta,0,0,0,0,0,1,0,1,0,golpe do intermediário na venda de caminhão anunciado no Facebook
+1521208-63.2020.8.26.0228,INV,35,institucional,sistema,invasao_sistema_bancario,misto,0,0,0,0,0,0,0,1,1,invasão de sistema do Santander e transferências para a própria conta
+1500091-60.2022.8.26.0126,INV,17,patrimonial,rede_social,sequestro_conta,misto,0,0,0,0,0,1,0,1,1,Instagram sequestrado por link; venda falsa de móveis aos seguidores
+1500755-90.2021.8.26.0655,CL,14,patrimonial,whatsapp,falso_conhecido,titular_conta,1,1,0,0,0,0,0,1,0,WhatsApp clonado de uma conhecida pede empréstimo
+1500322-68.2023.8.26.0218,CL,54,patrimonial,whatsapp,venda_falsa,titular_conta,1,0,0,0,0,1,0,1,0,golpe do intermediário na venda de geladeira; denunciada emprestou a conta
+1507296-24.2021.8.26.0564,CL,37,patrimonial,site,venda_falsa,titular_conta,1,0,0,0,0,1,0,1,0,site de leilão falso
+1511676-79.2025.8.26.0393,CL,23,patrimonial,whatsapp,falso_advogado,titular_conta,1,0,0,0,0,0,0,1,0,falsa advogada pede valor para processo judicial; denunciado vendeu o CPF (corrigido: o WhatsApp tinha escapado na primeira leitura)
+1502140-79.2022.8.26.0577,CL,22,patrimonial,whatsapp,falso_parente,titular_conta,1,0,0,1,0,0,0,1,0,falsa filha; vítima idosa
+1500168-46.2022.8.26.0554,CL,8,patrimonial,boleto,boleto_falso,titular_conta,0,0,1,0,0,0,0,1,0,boleto falso de plano de saúde; vítima idosa
+1500775-25.2023.8.26.0554,CL,30,patrimonial,telefone,falso_parente,titular_conta,0,0,0,1,0,0,0,1,0,falso primo com acidente de trânsito; vítima idosa
+1507354-90.2022.8.26.0564,CL,26,patrimonial,rede_social,venda_falsa,titular_conta,0,1,0,0,0,1,0,1,0,veículo anunciado no Facebook; denunciada vendeu a conta
+1501928-43.2025.8.26.0548,FE,6,patrimonial,email,compra_fraudulenta_empresa,executor,0,0,0,0,0,0,0,0,0,ex-funcionário compra pneus em nome de cliente da vítima com e-mail falso; vítima PJ
+1503918-32.2022.8.26.0077,FE,91,patrimonial,rede_social,venda_falsa,titular_conta,0,1,0,0,0,1,0,1,0,motocicleta anunciada no Facebook
+1500125-90.2022.8.26.0334,FE,108,patrimonial,whatsapp,falsa_central,misto,1,0,1,0,1,0,0,1,0,falso atendimento da BV Financeira; um denunciado cedeu a conta e a outra era titular da linha
+1501872-88.2023.8.26.0577,FE,114,patrimonial,rede_social,investimento_falso,titular_conta,0,1,0,0,0,0,1,1,0,Instagram clonado de amiga indica falso investidor
+1513891-58.2023.8.26.0050,FE,56,patrimonial,site,venda_falsa,titular_conta,0,0,0,0,0,1,0,1,0,site de leilão falso; pagamento por TED
+1501398-89.2023.8.26.0554,FE,101,patrimonial,whatsapp,falso_parente,titular_conta,1,0,0,1,0,0,0,1,0,falsa filha; denunciado vendeu a conta; vítima idosa
+1501511-30.2022.8.26.0602,FE,83,patrimonial,whatsapp,investimento_falso,executor,1,0,0,0,0,0,1,0,0,empresa de aluguel de criptoativos
+1501223-10.2021.8.26.0411,FE,22,patrimonial,whatsapp,falsa_central,misto,1,0,1,0,1,0,0,1,0,falso boleto da BV Financeira; denunciada beneficiária com oito contas

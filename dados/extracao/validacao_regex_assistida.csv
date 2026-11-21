@@ -1,0 +1,9 @@
+rodada,indicador,coluna,vp,fp,fn,vn,erros
+a1,whatsapp,m_whatsapp,56,6,2,98,INV21+ INV43+ INV44+ CL39+ FE9- FE36+ FE87- FE102+
+a1,pix_pagamento,m_pix,52,11,0,99,INV2+ CL28+ CL36+ CL39+ CL43+ CL47+ FE20+ FE36+ FE50+ FE82+ FE110+
+a1,boleto,m_boleto,13,6,0,143,INV2+ INV22+ INV36+ CL43+ CL52+ FE25+
+a1,falso_parente,m_falso_parente,24,2,2,134,INV2+ CL34+ FE7- FE93-
+a1,falsa_central,m_falsa_central,14,2,15,131,INV2+ CL33- CL34- CL48- FE3- FE8+ FE51- FE52- FE54- FE61- FE72- FE84- FE92- FE115- FE124- FE126- FE127-
+a1,venda_falsa,m_venda_falsa,23,6,17,116,INV2+ INV13+ INV36+ INV43+ CL45- CL47- FE1- FE4- FE7+ FE15- FE16- FE23- FE24- FE27- FE30- FE47- FE55- FE68+ FE69- FE73- FE86- FE103- FE113-
+a1,conta_do_denunciado,m_conta_laranja,89,7,31,35,INV8+ INV13- CL1- CL10- CL19- CL25+ CL31- CL33- CL38- FE3- FE8- FE9- FE13- FE19- FE24- FE25- FE28- FE29+ FE30- FE41- FE52+ FE58- FE61- FE64- FE66- FE71- FE78- FE79+ FE81- FE82+ FE92- FE93- FE111- FE116- FE117- FE122+ FE127- FE128-
+a1,invasao,m_invasao_dispositivo,23,1,4,134,INV14+ CL10- CL41- FE88- FE97-

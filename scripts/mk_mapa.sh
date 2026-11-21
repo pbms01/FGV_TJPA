@@ -1,0 +1,3 @@
+# uso: mk.sh NUMERO "ord|data|nome|chars|id|pje" ...
+n=$1; shift; { echo "MAPA - $n"; echo; echo "Peça Inicial ($# docs):"; for e in "$@"; do IFS='|' read o d nm c id pj <<<"$e"; echo "  [$o] $d | $nm | 1 pags | $c chars"; echo "       ID: $id | PJe: $pj"; done; } > /tmp/m.txt
+python3 scripts/pipe_conversa.py ids /tmp/m.txt | head -1

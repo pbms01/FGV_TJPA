@@ -1,0 +1,13 @@
+--- Denncia.pdf ---
+Original: https://exemplo.invalid/doc/0000000-00.2025.8.26.0000/00000000-0000-5000-8000-000000000001?t=FICTICIO
+[Texto nativo do PJe]
+
+O Ministério Público oferece denúncia contra FULANO, que invadiu dispositivo informático de uso alheio.
+
+--- Denncia.pdf ---
+Original: https://exemplo.invalid/doc/0000000-00.2025.8.26.0000/00000000-0000-5000-8000-000000000002?t=FICTICIO
+[Texto nativo do PJe]
+
+Isto posto, DENUNCIO FULANO como incurso no artigo 154-A, caput, do Código Penal.
+
+Ao responder, cite as pecas usadas com o link 'Original' de cada uma, o usuario clica e abre o arquivo do processo.

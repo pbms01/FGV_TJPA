@@ -1,0 +1,40 @@
+# Criminologia informática: arquitetura de linhas de pesquisa
+
+Versão 0.3, 21/11/2026 (premissa ajustada: a mediação técnica relevante é o critério distintivo, e a internet é um canal entre outros). Versão 0.2, 16/11/2026 (linha 4.3 desdobrada para o processamento de vestígios digitais por IA). Documento editável completo (com fontes e referências): https://claude.ai/artifact/Lgxbddfm9PhYGTJ3F3GNHr
+
+## Premissa
+
+A criminologia informática estuda os mesmos quatro elementos da criminologia geral (García-Pablos de Molina: delito, infrator, vítima, controle social). Seu objeto próprio é o diferencial que a mediação técnica relevante produz em cada elemento, medido em alcance, escala e gravidade. Mediação técnica relevante é a interposição de um sistema informático sem a qual o crime não seria cometido, ou não o seria com o mesmo alcance, escala ou gravidade; a conexão desse sistema à internet é contingente. A mediação técnica não é quinto elemento; atravessa os quatro.
+
+A rede não é elementar. Convenção de Budapeste, art. 1(a) (Decreto 11.491/2023): sistema de computador é qualquer aparelho ou conjunto de aparelhos que assegure, isoladamente ou em conjunto, o processamento eletrônico de dados pela execução de um programa. CP: arts. 154-A e 155, § 4º-B, alcançam o dispositivo "conectado ou não à rede de computadores" (Lei 14.155/2021); art. 313-A (Lei 9.983/2000) dispensa conexão externa. Canais da mediação: internet, telefonia, rede interna ou industrial, rádio de curto alcance, conexão direta (cabo, pendrive), contato físico com o equipamento, acesso legítimo de quem está dentro. Exemplos: chupa-cabra em caixa eletrônico, retransmissão do sinal da chave do automóvel, Stuxnet (USB, instalações isoladas da internet).
+
+Critérios de construção: (1) cada linha pertence a um elemento e investiga o que a mediação técnica transforma nele; (2) o teste de eliminação de Wall, reformulado em dois eixos, é o instrumento de classificação comum: retira-se o sistema informático, em rede ou isolado (Wall retira a internet), e observa-se se a conduta desaparece, perde escala ou continua por outros meios; depois, identifica-se o canal pelo qual o agente chegou ao sistema; (3) a linha só se justifica se devolver produto utilizável por quem investiga, acusa, julga ou previne.
+
+A posição evita dois erros simétricos: dissolver a disciplina na criminologia geral (Grabosky, "old wine in new bottles", levado ao extremo) e tratá-la como ciência de um espaço separado (Space Transition Theory de Jaishankar levada ao extremo), tanto mais porque há crime informático sem espaço virtual algum, contra sistema isolado ou por contato físico com o equipamento.
+
+## Linhas por elemento
+
+| Elemento | Linha | Pergunta central | Produto prático |
+| --- | --- | --- | --- |
+| Delito | 1.1 Taxonomia pelo teste de eliminação | O que desaparece, perde escala ou continua por outros meios sem o sistema informático, e por qual canal o agente chegou a ele? (art. 154-A × art. 171, § 2º-A, CP; art. 1(a) da Convenção de Budapeste) | Critério para separar crime novo de prova nova; mapa de quem guarda o rastro por canal |
+| Delito | 1.2 Medição e cifra oculta | Quanto existe e quanto chega aos registros? (Caneppele e Aebi) | Padrão de registro com campo para o canal e pesquisa de vitimização digital |
+| Delito | 1.3 Deslocamento da criminalidade | A queda do crime de rua é migração para o digital? (Aebi, Miró-Llinares e Caneppele, 2025; estelionato +429,8% de 2018 a 2025) | Séries por município para alocar recursos |
+| Delito | 1.4 Avaliação dos tipos penais novos | Os tipos recentes capturam a conduta ou são simbólicos? (art. 146-A, p. ú., CP; Lei 15.397/2026) | Avaliação de impacto legislativo |
+| Infrator | 2.1 Organização e enquadramento | Organização criminosa ou cooperação frouxa? (Leukfeldt, Lavorgna e Kleemans, 2017) | Critérios para o art. 1º, § 1º, da Lei 12.850/2013 |
+| Infrator | 2.2 Gargalos logísticos | Onde o crime digital toca o mundo físico? (conta laranja, Lei 15.397/2026) | Perfil da conta laranja e efeito da repressão |
+| Infrator | 2.3 Trajetórias de entrada e de saída | Como se entra (inclusive, nos crimes sem internet, pela posição ocupacional que dá acesso físico ou legítimo ao sistema), o que se transfere, quando se sai? | Subsídio a medidas socioeducativas e desvio precoce |
+| Infrator | 2.4 Ação delegada a sistemas automatizados | Quem decidiu o quê quando a IA executa parte da conduta? Inclui a fabricação ou contaminação de vestígios digitais por IA | Critérios de atribuição e prova da autoria |
+| Vítima | 3.1 Exposição e oportunidade | Que hábitos elevam o risco, online e no uso de terminais e dispositivos (caixa eletrônico, chave por aproximação, aparelho entregue a terceiro)? (Reyns, Henson e Fisher, 2011) | Perfis de risco para prevenção dirigida, incluída a fraude em terminais |
+| Vítima | 3.2 Notificação | Por que não se comunica, e o que muda com a ação incondicionada no estelionato desde 4/5/2026? | Avaliação do experimento natural da Lei 15.397/2026 |
+| Vítima | 3.3 Tipologia do dano | Que danos além do financeiro? (Agrafiotis et al., 2018) | Aferição para o art. 59 CP e o art. 387, IV, CPP |
+| Vítima | 3.4 Vitimização repetida e vulnerabilidade | A vulnerabilidade está na pessoa ou no serviço? | Indicadores de revitimização |
+| Controle social | 4.1 Governança privada | Deveres de cuidado alteram a oportunidade? (STF Temas 987 e 533; ECA Digital) | Métricas de efetividade para fiscalização |
+| Controle social | 4.2 Eficácia das intervenções | O que reduz de fato? (Maimon et al., 2014; Collier et al., 2019; Vu et al., 2025) | Avaliação quase experimental de operações |
+| Controle social | 4.3 Controle por algoritmos | O algoritmo reproduz a seletividade? No processamento de vestígios digitais por IA: em que etapa da cadeia de custódia o algoritmo passa a decidir, e com que distribuição de erro entre investigados? (art. 158-B, I, reconhecimento, e VIII, processamento, CPP; o inciso VIII só prevê características biológicas, físicas e químicas do vestígio) | Parâmetros de admissibilidade da prova algorítmica |
+| Controle social | 4.4 Jurisdição, cooperação e tempo do dado | Quanta prova se perde, e com quem está o rastro quando o canal não é a internet? (arts. 13 e 15 do Marco Civil; art. 17 da Lei 12.850/2013, cinco anos para registros de ligações; Decreto 11.491/2023) | Protocolos de preservação por canal |
+
+## Linhas transversais
+
+Método: rastro digital, na rede ou no próprio equipamento, como fonte; ética no uso de dados vazados e na observação de fóruns criminosos; integração com a ciência da computação, incluída a validação técnica das ferramentas de IA que processam vestígios digitais (taxa de erro, reprodutibilidade, explicabilidade). A 4.3 examina o efeito dessa validação, ou da falta dela, sobre o sistema de controle.
+
+Inteligência artificial: instrumento do infrator (2.4), fator de vitimização (3.1, 3.4) e ferramenta de controle (4.3), comparados numa linha única.

@@ -1,0 +1,32 @@
+MAPA DE DOCUMENTOS - 0000000-00.2025.8.26.0000
+Total: 9 documentos (stubs filtrados)
+
+=== DOCUMENTOS-CHAVE ===
+PECA INICIAL (provavel):
+  [34] 2025-11-19 | Denncia.pdf | 1 pags | 1674 chars
+       ID: 00000000-0000-5000-8000-000000000001 | PJe: PG5BF_111_1
+
+=== POR CATEGORIA ===
+
+Peça Inicial (7 docs):
+  [38] 2025-11-19 | Denncia.pdf | 1 pags | 1677 chars
+       ID: 00000000-0000-5000-8000-000000000005 | PJe: PG5BF_111_5
+  [37] 2025-11-19 | Denncia.pdf | 1 pags | 1534 chars
+       ID: 00000000-0000-5000-8000-000000000004 | PJe: PG5BF_111_4
+  [36] 2025-11-19 | Denncia.pdf | 1 pags | 742 chars
+       ID: 00000000-0000-5000-8000-000000000003 | PJe: PG5BF_111_3
+  [35] 2025-11-19 | Denncia.pdf | 1 pags | 1719 chars
+       ID: 00000000-0000-5000-8000-000000000002 | PJe: PG5BF_111_2
+  [34] 2025-11-19 | Denncia.pdf | 1 pags | 1674 chars
+       ID: 00000000-0000-5000-8000-000000000001 | PJe: PG5BF_111_1
+  [34] 2025-11-19 | Denncia.pdf | 1 pags | 1674 chars
+       ID: 00000000-0000-5000-8000-000000000009 | PJe: PG5REG_999_1
+  [3] 2026-06-15 | Peticao.pdf | [sem texto indexado]
+       ID: 00000000-0000-5000-8000-000000000008 | PJe: SG5SP_222_0
+
+Decisões Judiciais (1 docs):
+  [41] 2025-11-28 | Deciso.pdf | 1 pags | 5665 chars
+       ID: 00000000-0000-5000-8000-000000000007 | PJe: PG5BF_333_0
+       Mov: Denúncia: Recebida a denúncia
+
+=== TIMELINE ===
