@@ -1,0 +1,1144 @@
+{
+ "INV": {
+  "denuncias": 33,
+  "plurais": 8,
+  "grupo": {
+   "1": [
+    25,
+    75.8
+   ],
+   "2": [
+    4,
+    12.1
+   ],
+   "3": [
+    2,
+    6.1
+   ],
+   "4 ou mais": [
+    2,
+    6.1
+   ]
+  },
+  "um_denunciado_com_desconhecidos": {
+   "false": [
+    19,
+    76.0
+   ],
+   "true": [
+    6,
+    24.0
+   ]
+  },
+  "enquadramento": {
+   "organização criminosa": [
+    3,
+    9.1
+   ],
+   "associação criminosa": [
+    3,
+    9.1
+   ],
+   "concurso de pessoas": [
+    9,
+    27.3
+   ],
+   "autoria singular": [
+    18,
+    54.5
+   ]
+  },
+  "tipo_estrutura": {
+   "autor isolado": [
+    18,
+    54.5
+   ],
+   "nó isolado de rede não identificada": [
+    7,
+    21.2
+   ],
+   "pluralidade sem divisão de papéis": [
+    2,
+    6.1
+   ],
+   "papéis complementares": [
+    2,
+    6.1
+   ],
+   "papéis complementares com coordenação": [
+    3,
+    9.1
+   ],
+   "indeterminada": [
+    1,
+    3.0
+   ]
+  },
+  "divisao_plurais": {
+   "complementar": [
+    5,
+    62.5
+   ],
+   "execução conjunta": [
+    2,
+    25.0
+   ],
+   "indeterminada": [
+    1,
+    12.5
+   ]
+  },
+  "coordenacao_plurais": {
+   "não narrada": [
+    5,
+    62.5
+   ],
+   "denunciado": [
+    3,
+    37.5
+   ]
+  },
+  "vinculo_plurais": {
+   "não narrado": [
+    4,
+    50.0
+   ],
+   "trabalho": [
+    1,
+    12.5
+   ],
+   "conjugal": [
+    1,
+    12.5
+   ],
+   "conjugal|parentesco": [
+    1,
+    12.5
+   ],
+   "parentesco": [
+    1,
+    12.5
+   ]
+  },
+  "reiteracao_plurais": {
+   "false": [
+    5,
+    62.5
+   ],
+   "true": [
+    3,
+    37.5
+   ]
+  },
+  "enquadramento_por_tipo": {
+   "autor isolado": {
+    "autoria singular": 18
+   },
+   "nó isolado de rede não identificada": {
+    "concurso de pessoas": 5,
+    "organização criminosa": 1,
+    "associação criminosa": 1
+   },
+   "pluralidade sem divisão de papéis": {
+    "concurso de pessoas": 2
+   },
+   "papéis complementares": {
+    "concurso de pessoas": 1,
+    "associação criminosa": 1
+   },
+   "papéis complementares com coordenação": {
+    "organização criminosa": 2,
+    "associação criminosa": 1
+   },
+   "indeterminada": {
+    "concurso de pessoas": 1
+   }
+  },
+  "tipo_por_enquadramento": {
+   "organização criminosa": {
+    "papéis complementares com coordenação": 2,
+    "nó isolado de rede não identificada": 1
+   },
+   "associação criminosa": {
+    "papéis complementares": 1,
+    "papéis complementares com coordenação": 1,
+    "nó isolado de rede não identificada": 1
+   },
+   "concurso de pessoas": {
+    "pluralidade sem divisão de papéis": 2,
+    "nó isolado de rede não identificada": 5,
+    "papéis complementares": 1,
+    "indeterminada": 1
+   },
+   "autoria singular": {
+    "autor isolado": 18
+   }
+  },
+  "org_assoc": {
+   "INV 2": "organização criminosa | 7 denunciado(s) | papéis complementares com coordenação | denunciado | sentença: condenação",
+   "INV 28": "associação criminosa | 3 denunciado(s) | papéis complementares | não narrada | sentença: absolvição",
+   "INV 36": "organização criminosa | 9 denunciado(s) | papéis complementares com coordenação | denunciado | sentença: indeterminado",
+   "INV 32": "associação criminosa | 3 denunciado(s) | papéis complementares com coordenação | denunciado | sentença: condenação",
+   "INV 11": "organização criminosa | 1 denunciado(s) | nó isolado de rede não identificada | terceiro | sentença: absolvição",
+   "INV 21": "associação criminosa | 1 denunciado(s) | nó isolado de rede não identificada | não narrada | sentença: condenação"
+  },
+  "formal_12850": {
+   "INV 2": "7 | organização criminosa | denunciado | SIM swap com operadores de telefonia; 'atribuições e hierarquia definidas'; namorada e esposa",
+   "INV 36": "9 | organização criminosa | denunciado | GAECO; empresária, marido e filho; digitadores cooptados; organização criminosa"
+  },
+  "coordenacao_detalhe": {
+   "INV 2": "denunciado | organização criminosa | SIM swap com operadores de telefonia; 'atribuições e hierarquia definidas'; namorada e esposa",
+   "INV 36": "denunciado | organização criminosa | GAECO; empresária, marido e filho; digitadores cooptados; organização criminosa",
+   "INV 32": "denunciado | associação criminosa | a prima orienta os repasses; 'já há alguns meses'"
+  },
+  "vinculo_detalhe": {
+   "INV 8": "trabalho | ex-prestadores de TI da vítima",
+   "INV 2": "conjugal | SIM swap com operadores de telefonia; 'atribuições e hierarquia definidas'; namorada e esposa",
+   "INV 36": "conjugal|parentesco | GAECO; empresária, marido e filho; digitadores cooptados; organização criminosa",
+   "INV 32": "parentesco | a prima orienta os repasses; 'já há alguns meses'"
+  },
+  "tipo_por_nivel": {
+   "executor": {
+    "autor isolado": [
+     3,
+     50.0
+    ],
+    "nó isolado de rede não identificada": [
+     1,
+     16.7
+    ],
+    "pluralidade sem divisão de papéis": [
+     2,
+     33.3
+    ]
+   },
+   "invasor": {
+    "autor isolado": [
+     14,
+     77.8
+    ],
+    "nó isolado de rede não identificada": [
+     4,
+     22.2
+    ]
+   },
+   "misto": {
+    "autor isolado": [
+     1,
+     14.3
+    ],
+    "nó isolado de rede não identificada": [
+     1,
+     14.3
+    ],
+    "papéis complementares": [
+     2,
+     28.6
+    ],
+    "papéis complementares com coordenação": [
+     2,
+     28.6
+    ],
+    "indeterminada": [
+     1,
+     14.3
+    ]
+   },
+   "titular_conta": {
+    "nó isolado de rede não identificada": [
+     1,
+     50.0
+    ],
+    "papéis complementares com coordenação": [
+     1,
+     50.0
+    ]
+   }
+  },
+  "tipo_por_sistema": {
+   "meio": {
+    "autor isolado": [
+     1,
+     50.0
+    ],
+    "nó isolado de rede não identificada": [
+     1,
+     50.0
+    ]
+   },
+   "objeto": {
+    "autor isolado": [
+     17,
+     54.8
+    ],
+    "nó isolado de rede não identificada": [
+     6,
+     19.4
+    ],
+    "pluralidade sem divisão de papéis": [
+     2,
+     6.5
+    ],
+    "papéis complementares": [
+     2,
+     6.5
+    ],
+    "papéis complementares com coordenação": [
+     3,
+     9.7
+    ],
+    "indeterminada": [
+     1,
+     3.2
+    ]
+   }
+  },
+  "tipo_por_distancia": {
+   "próxima": {
+    "autor isolado": [
+     7,
+     53.8
+    ],
+    "nó isolado de rede não identificada": [
+     3,
+     23.1
+    ],
+    "pluralidade sem divisão de papéis": [
+     1,
+     7.7
+    ],
+    "papéis complementares": [
+     2,
+     15.4
+    ]
+   },
+   "sem contato": {
+    "autor isolado": [
+     1,
+     100.0
+    ]
+   },
+   "à distância": {
+    "autor isolado": [
+     10,
+     52.6
+    ],
+    "nó isolado de rede não identificada": [
+     4,
+     21.1
+    ],
+    "pluralidade sem divisão de papéis": [
+     1,
+     5.3
+    ],
+    "papéis complementares com coordenação": [
+     3,
+     15.8
+    ],
+    "indeterminada": [
+     1,
+     5.3
+    ]
+   }
+  },
+  "grupo_por_distancia": {
+   "próxima": {
+    "1": [
+     10,
+     76.9
+    ],
+    "2": [
+     2,
+     15.4
+    ],
+    "3": [
+     1,
+     7.7
+    ]
+   },
+   "sem contato": {
+    "1": [
+     1,
+     100.0
+    ]
+   },
+   "à distância": {
+    "1": [
+     14,
+     73.7
+    ],
+    "2": [
+     2,
+     10.5
+    ],
+    "3": [
+     1,
+     5.3
+    ],
+    "4 ou mais": [
+     2,
+     10.5
+    ]
+   }
+  },
+  "pedido_conta": {},
+  "paga_conta": {
+   "INV 32": "20% dos valores"
+  }
+ },
+ "CL": {
+  "denuncias": 48,
+  "plurais": 23,
+  "grupo": {
+   "1": [
+    25,
+    52.6
+   ],
+   "2": [
+    14,
+    28.4
+   ],
+   "3": [
+    4,
+    8.9
+   ],
+   "4 ou mais": [
+    5,
+    10.1
+   ]
+  },
+  "um_denunciado_com_desconhecidos": {
+   "true": [
+    21,
+    84.0
+   ],
+   "false": [
+    4,
+    16.0
+   ]
+  },
+  "enquadramento": {
+   "associação criminosa": [
+    2,
+    4.1
+   ],
+   "concurso de pessoas": [
+    42,
+    87.5
+   ],
+   "autoria singular": [
+    4,
+    8.4
+   ]
+  },
+  "tipo_estrutura": {
+   "autor isolado": [
+    1,
+    1.9
+   ],
+   "nó isolado de rede não identificada": [
+    24,
+    50.7
+   ],
+   "pluralidade sem divisão de papéis": [
+    15,
+    31.7
+   ],
+   "papéis complementares": [
+    7,
+    13.5
+   ],
+   "papéis complementares com coordenação": [
+    1,
+    2.2
+   ]
+  },
+  "divisao_plurais": {
+   "contas": [
+    15,
+    67.0
+   ],
+   "complementar": [
+    8,
+    33.0
+   ]
+  },
+  "coordenacao_plurais": {
+   "não narrada": [
+    19,
+    80.7
+   ],
+   "terceiro": [
+    4,
+    19.3
+   ]
+  },
+  "vinculo_plurais": {
+   "não narrado": [
+    21,
+    91.4
+   ],
+   "parentesco": [
+    1,
+    4.6
+   ],
+   "conjugal": [
+    1,
+    4.1
+   ]
+  },
+  "reiteracao_plurais": {
+   "false": [
+    19,
+    82.2
+   ],
+   "true": [
+    4,
+    17.8
+   ]
+  },
+  "enquadramento_por_tipo": {
+   "autor isolado": {
+    "autoria singular": 1
+   },
+   "nó isolado de rede não identificada": {
+    "concurso de pessoas": 21,
+    "autoria singular": 3
+   },
+   "pluralidade sem divisão de papéis": {
+    "concurso de pessoas": 15
+   },
+   "papéis complementares": {
+    "concurso de pessoas": 6,
+    "associação criminosa": 1
+   },
+   "papéis complementares com coordenação": {
+    "associação criminosa": 1
+   }
+  },
+  "tipo_por_enquadramento": {
+   "associação criminosa": {
+    "papéis complementares com coordenação": 1,
+    "papéis complementares": 1
+   },
+   "concurso de pessoas": {
+    "papéis complementares": 6,
+    "nó isolado de rede não identificada": 21,
+    "pluralidade sem divisão de papéis": 15
+   },
+   "autoria singular": {
+    "nó isolado de rede não identificada": 3,
+    "autor isolado": 1
+   }
+  },
+  "org_assoc": {
+   "CL 15": "associação criminosa | 6 denunciado(s) | papéis complementares com coordenação | terceiro | sentença: condenação",
+   "CL 56": "associação criminosa | 7 denunciado(s) | papéis complementares | não narrada | sentença: condenação"
+  },
+  "formal_12850": {
+   "CL 15": "6 | associação criminosa | terceiro | 'Lobo', líder não denunciado; dois denunciados cooptam e administram, os demais fornecem contas e sacam; quinze vezes",
+   "CL 56": "7 | associação criminosa | não narrada | dois executam e os demais fornecem contas; associação; os mesmos do FE 105"
+  },
+  "coordenacao_detalhe": {
+   "CL 42": "terceiro | concurso de pessoas | quatro contas; linha habilitada com dados de terceiro; dois fatos",
+   "CL 15": "terceiro | associação criminosa | 'Lobo', líder não denunciado; dois denunciados cooptam e administram, os demais fornecem contas e sacam; quinze vezes",
+   "CL 10": "terceiro | concurso de pessoas | comparsas burlam a segurança do banco",
+   "CL 19": "terceiro | concurso de pessoas | pessoa não denunciada veicula o anúncio; os três cedem contas"
+  },
+  "vinculo_detalhe": {
+   "CL 53": "conjugal | auxiliar administrativa autoriza pagamentos ao companheiro e a terceira titular; 2015-2016, mais de 25 vezes",
+   "CL 33": "parentesco | conta da mãe, que repassa ao filho"
+  },
+  "tipo_por_nivel": {
+   "autor presencial": {
+    "papéis complementares": [
+     5,
+     100.0
+    ]
+   },
+   "autor remoto": {
+    "autor isolado": [
+     1,
+     100.0
+    ]
+   },
+   "só conta": {
+    "nó isolado de rede não identificada": [
+     24,
+     56.9
+    ],
+    "pluralidade sem divisão de papéis": [
+     15,
+     35.6
+    ],
+    "papéis complementares": [
+     2,
+     5.1
+    ],
+    "papéis complementares com coordenação": [
+     1,
+     2.4
+    ]
+   }
+  },
+  "tipo_por_sistema": {
+   "meio": {
+    "autor isolado": [
+     1,
+     2.1
+    ],
+    "nó isolado de rede não identificada": [
+     23,
+     53.2
+    ],
+    "pluralidade sem divisão de papéis": [
+     14,
+     32.4
+    ],
+    "papéis complementares": [
+     6,
+     12.4
+    ]
+   },
+   "objeto": {
+    "nó isolado de rede não identificada": [
+     1,
+     25.0
+    ],
+    "pluralidade sem divisão de papéis": [
+     1,
+     25.0
+    ],
+    "papéis complementares": [
+     1,
+     25.0
+    ],
+    "papéis complementares com coordenação": [
+     1,
+     25.0
+    ]
+   }
+  },
+  "tipo_por_distancia": {
+   "próxima": {
+    "nó isolado de rede não identificada": [
+     1,
+     13.3
+    ],
+    "pluralidade sem divisão de papéis": [
+     1,
+     12.0
+    ],
+    "papéis complementares": [
+     7,
+     74.7
+    ]
+   },
+   "à distância": {
+    "autor isolado": [
+     1,
+     2.3
+    ],
+    "nó isolado de rede não identificada": [
+     23,
+     58.9
+    ],
+    "pluralidade sem divisão de papéis": [
+     14,
+     36.1
+    ],
+    "papéis complementares com coordenação": [
+     1,
+     2.6
+    ]
+   }
+  },
+  "grupo_por_distancia": {
+   "próxima": {
+    "1": [
+     1,
+     13.3
+    ],
+    "2": [
+     4,
+     40.0
+    ],
+    "3": [
+     3,
+     36.0
+    ],
+    "4 ou mais": [
+     1,
+     10.7
+    ]
+   },
+   "à distância": {
+    "1": [
+     24,
+     61.3
+    ],
+    "2": [
+     10,
+     25.8
+    ],
+    "3": [
+     1,
+     2.9
+    ],
+    "4 ou mais": [
+     4,
+     10.0
+    ]
+   }
+  },
+  "pedido_conta": {
+   "CL 35": "pessoa nomeada | VID, em seu interrogatório, afirmou que emprestou sua conta bancária para um amigo de prenome “Lucio”. Recebeu os R$ 1.500,00 depo",
+   "CL 40": "amizade ou vizinhança | ao prestar esclarecimentos, relatou que emprestou a conta para um vizinho, mas que este já veio a falecer, não fornecendo maiores ",
+   "CL 7": "pessoa nomeada | o necessidades financeiras, de modo que emprestou sua conta bancária para RAFAEL. Após receber o dinheiro, sacou o valor e entrego"
+  },
+  "paga_conta": {}
+ },
+ "FE": {
+  "denuncias": 113,
+  "plurais": 34,
+  "grupo": {
+   "1": [
+    79,
+    73.1
+   ],
+   "2": [
+    28,
+    22.4
+   ],
+   "3": [
+    4,
+    2.7
+   ],
+   "4 ou mais": [
+    2,
+    1.8
+   ]
+  },
+  "um_denunciado_com_desconhecidos": {
+   "false": [
+    38,
+    51.8
+   ],
+   "true": [
+    41,
+    48.2
+   ]
+  },
+  "enquadramento": {
+   "associação criminosa": [
+    5,
+    4.6
+   ],
+   "concurso de pessoas": [
+    75,
+    62.3
+   ],
+   "autoria singular": [
+    33,
+    33.1
+   ]
+  },
+  "tipo_estrutura": {
+   "autor isolado": [
+    23,
+    22.9
+   ],
+   "nó isolado de rede não identificada": [
+    56,
+    50.2
+   ],
+   "pluralidade sem divisão de papéis": [
+    15,
+    13.5
+   ],
+   "papéis complementares": [
+    14,
+    8.9
+   ],
+   "papéis complementares com coordenação": [
+    5,
+    4.5
+   ]
+  },
+  "divisao_plurais": {
+   "complementar": [
+    19,
+    49.9
+   ],
+   "contas": [
+    11,
+    33.6
+   ],
+   "execução conjunta": [
+    4,
+    16.5
+   ]
+  },
+  "coordenacao_plurais": {
+   "não narrada": [
+    27,
+    76.7
+   ],
+   "denunciado": [
+    5,
+    16.6
+   ],
+   "terceiro": [
+    2,
+    6.7
+   ]
+  },
+  "vinculo_plurais": {
+   "não narrado": [
+    29,
+    86.0
+   ],
+   "parentesco": [
+    2,
+    5.2
+   ],
+   "trabalho": [
+    1,
+    5.2
+   ],
+   "conjugal": [
+    2,
+    3.7
+   ]
+  },
+  "reiteracao_plurais": {
+   "false": [
+    27,
+    75.7
+   ],
+   "true": [
+    7,
+    24.3
+   ]
+  },
+  "enquadramento_por_tipo": {
+   "autor isolado": {
+    "autoria singular": 22,
+    "concurso de pessoas": 1
+   },
+   "nó isolado de rede não identificada": {
+    "concurso de pessoas": 43,
+    "autoria singular": 11,
+    "associação criminosa": 2
+   },
+   "pluralidade sem divisão de papéis": {
+    "concurso de pessoas": 14,
+    "associação criminosa": 1
+   },
+   "papéis complementares": {
+    "concurso de pessoas": 14
+   },
+   "papéis complementares com coordenação": {
+    "concurso de pessoas": 3,
+    "associação criminosa": 2
+   }
+  },
+  "tipo_por_enquadramento": {
+   "associação criminosa": {
+    "nó isolado de rede não identificada": 2,
+    "papéis complementares com coordenação": 2,
+    "pluralidade sem divisão de papéis": 1
+   },
+   "concurso de pessoas": {
+    "pluralidade sem divisão de papéis": 14,
+    "nó isolado de rede não identificada": 43,
+    "papéis complementares com coordenação": 3,
+    "autor isolado": 1,
+    "papéis complementares": 14
+   },
+   "autoria singular": {
+    "autor isolado": 22,
+    "nó isolado de rede não identificada": 11
+   }
+  },
+  "org_assoc": {
+   "FE 52": "associação criminosa | 1 denunciado(s) | nó isolado de rede não identificada | não narrada | sentença: condenação",
+   "FE 54": "associação criminosa | 1 denunciado(s) | nó isolado de rede não identificada | não narrada | sentença: absolvição",
+   "FE 97": "associação criminosa | 2 denunciado(s) | papéis complementares com coordenação | denunciado | sentença: absolvição",
+   "FE 31": "associação criminosa | 8 denunciado(s) | pluralidade sem divisão de papéis | não narrada | sentença: condenação",
+   "FE 102": "associação criminosa | 3 denunciado(s) | papéis complementares com coordenação | denunciado | sentença: absolvição"
+  },
+  "formal_12850": {},
+  "coordenacao_detalhe": {
+   "FE 107": "denunciado | concurso de pessoas | um organiza e recruta, dois cedem contas",
+   "FE 24": "denunciado | concurso de pessoas | um entrega os cartões, o outro, 'consultor', capta contas para golpes",
+   "FE 55": "denunciado | concurso de pessoas | Carlos recruta, divide as tarefas e engana a vítima; Álvaro arregimenta a conta da prima Carmelia por R$ 50",
+   "FE 88": "terceiro | concurso de pessoas | repassam e retêm 10%",
+   "FE 45": "terceiro | concurso de pessoas | uma converte em bitcoin para 'Max' por 5%",
+   "FE 97": "denunciado | associação criminosa | a colega de trabalho pede, o outro retira os cartões; 'não foi a primeira vez'",
+   "FE 102": "denunciado | associação criminosa | João Lucas coordena as compras com dados de terceiros; a sobrinha e outro denunciado; 'estável e permanente'"
+  },
+  "vinculo_detalhe": {
+   "FE 1": "conjugal | a denunciada negocia, o companheiro é titular da conta",
+   "FE 91": "conjugal | empresta a conta ao companheiro preso",
+   "FE 55": "parentesco | Carlos recruta, divide as tarefas e engana a vítima; Álvaro arregimenta a conta da prima Carmelia por R$ 50",
+   "FE 97": "trabalho | a colega de trabalho pede, o outro retira os cartões; 'não foi a primeira vez'",
+   "FE 102": "parentesco | João Lucas coordena as compras com dados de terceiros; a sobrinha e outro denunciado; 'estável e permanente'"
+  },
+  "tipo_por_nivel": {
+   "autor presencial": {
+    "autor isolado": [
+     4,
+     64.2
+    ],
+    "nó isolado de rede não identificada": [
+     1,
+     8.9
+    ],
+    "pluralidade sem divisão de papéis": [
+     1,
+     10.7
+    ],
+    "papéis complementares": [
+     2,
+     16.2
+    ]
+   },
+   "autor remoto": {
+    "autor isolado": [
+     19,
+     57.3
+    ],
+    "nó isolado de rede não identificada": [
+     3,
+     7.6
+    ],
+    "pluralidade sem divisão de papéis": [
+     3,
+     9.7
+    ],
+    "papéis complementares": [
+     8,
+     18.6
+    ],
+    "papéis complementares com coordenação": [
+     3,
+     6.7
+    ]
+   },
+   "elo logístico": {
+    "nó isolado de rede não identificada": [
+     7,
+     57.5
+    ],
+    "pluralidade sem divisão de papéis": [
+     1,
+     18.0
+    ],
+    "papéis complementares": [
+     1,
+     7.0
+    ],
+    "papéis complementares com coordenação": [
+     1,
+     17.5
+    ]
+   },
+   "só conta": {
+    "nó isolado de rede não identificada": [
+     45,
+     80.3
+    ],
+    "pluralidade sem divisão de papéis": [
+     10,
+     15.5
+    ],
+    "papéis complementares": [
+     3,
+     2.5
+    ],
+    "papéis complementares com coordenação": [
+     1,
+     1.8
+    ]
+   }
+  },
+  "tipo_por_sistema": {
+   "meio": {
+    "autor isolado": [
+     23,
+     23.7
+    ],
+    "nó isolado de rede não identificada": [
+     55,
+     51.1
+    ],
+    "pluralidade sem divisão de papéis": [
+     14,
+     12.8
+    ],
+    "papéis complementares": [
+     14,
+     9.2
+    ],
+    "papéis complementares com coordenação": [
+     4,
+     3.2
+    ]
+   },
+   "objeto": {
+    "nó isolado de rede não identificada": [
+     1,
+     22.2
+    ],
+    "pluralidade sem divisão de papéis": [
+     1,
+     34.6
+    ],
+    "papéis complementares com coordenação": [
+     1,
+     43.2
+    ]
+   }
+  },
+  "tipo_por_distancia": {
+   "próxima": {
+    "autor isolado": [
+     3,
+     67.5
+    ],
+    "nó isolado de rede não identificada": [
+     1,
+     10.8
+    ],
+    "pluralidade sem divisão de papéis": [
+     1,
+     13.0
+    ],
+    "papéis complementares": [
+     1,
+     8.7
+    ]
+   },
+   "à distância": {
+    "autor isolado": [
+     20,
+     19.8
+    ],
+    "nó isolado de rede não identificada": [
+     55,
+     52.9
+    ],
+    "pluralidade sem divisão de papéis": [
+     14,
+     13.5
+    ],
+    "papéis complementares": [
+     13,
+     9.0
+    ],
+    "papéis complementares com coordenação": [
+     5,
+     4.8
+    ]
+   }
+  },
+  "grupo_por_distancia": {
+   "próxima": {
+    "1": [
+     4,
+     78.3
+    ],
+    "2": [
+     1,
+     13.0
+    ],
+    "3": [
+     1,
+     8.7
+    ]
+   },
+   "à distância": {
+    "1": [
+     75,
+     72.7
+    ],
+    "2": [
+     27,
+     23.1
+    ],
+    "3": [
+     3,
+     2.2
+    ],
+    "4 ou mais": [
+     2,
+     1.9
+    ]
+   }
+  },
+  "pedido_conta": {
+   "FE 73": "desconhecido | alsa. Interrogado, VINÍCIOS admitiu que emprestou sua conta bancária para um terceiro desconhecido, menor de idade, receber dinhei",
+   "FE 5": "amizade ou vizinhança |  Caires Feitosa (fls. 34), declarou que emprestou sua conta bancária para um conhecido, vulgo \"Dodô\", sendo que após receber a qua",
+   "FE 55": "parentesco |  pela Autoridade Policial, informou que emprestou a conta para seu primo Álvaro, pela quantia de R$ 50,00 (fls. 175). Apresentou d",
+   "FE 126": "pessoa nomeada |  Ouvido em sede policial, confirmou que emprestou sua conta da 99 PAY a pedido de RODRIGO, para fins de emissão de boleto no valor"
+  },
+  "paga_conta": {
+   "FE 24": "de 10 a 30% dos valores, como captador de contas",
+   "FE 35": "cerca de 10% do valor transferidos a outra conta própria",
+   "FE 55": "R$ 50 prometidos pelo primo à titular",
+   "FE 88": "retêm 10%",
+   "FE 45": "5% por operação"
+  }
+ },
+ "total": {
+  "denuncias": 194,
+  "plurais": 65,
+  "tres_ou_mais": 19,
+  "quatro_ou_mais": 9,
+  "enquadramento": {
+   "concurso de pessoas": 126,
+   "autoria singular": 55,
+   "organização criminosa": 3,
+   "associação criminosa": 10
+  },
+  "tipo": {
+   "papéis complementares": 23,
+   "autor isolado": 42,
+   "nó isolado de rede não identificada": 87,
+   "pluralidade sem divisão de papéis": 32,
+   "papéis complementares com coordenação": 9,
+   "indeterminada": 1
+  },
+  "sentenca_org": {
+   "condenação": 7,
+   "absolvição": 5,
+   "indeterminado": 1
+  },
+  "formal_12850": [
+   "INV 2",
+   "INV 36",
+   "CL 15",
+   "CL 56"
+  ],
+  "formal_12850_denunciada_org": [
+   "INV 2",
+   "INV 36"
+  ],
+  "formal_12850_denunciada_288": [
+   "CL 15",
+   "CL 56"
+  ],
+  "complementar_com_coordenacao": [
+   "INV 2",
+   "FE 107",
+   "INV 36",
+   "CL 15",
+   "INV 32",
+   "FE 24",
+   "FE 55",
+   "FE 97",
+   "FE 102"
+  ]
+ }
+}

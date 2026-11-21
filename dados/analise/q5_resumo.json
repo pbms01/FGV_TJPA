@@ -1,0 +1,565 @@
+{
+ "INV": {
+  "denuncias": 33,
+  "com_data": 33,
+  "tempo": {
+   "n": 33,
+   "mediana": 8.1,
+   "q1": 2.7,
+   "q3": 24.2,
+   "alem_6m": 20,
+   "alem_12m": 13,
+   "alem_24m": 8,
+   "alem_5a": 1
+  },
+  "faixa": {
+   "até 6 meses": [
+    13,
+    39.4
+   ],
+   "6 a 12 meses": [
+    7,
+    21.2
+   ],
+   "12 a 24 meses": [
+    5,
+    15.2
+   ],
+   "24 a 60 meses": [
+    7,
+    21.2
+   ],
+   "mais de 60 meses": [
+    1,
+    3.0
+   ]
+  },
+  "alem_6m": {
+   "true": [
+    20,
+    60.6
+   ],
+   "false": [
+    13,
+    39.4
+   ]
+  },
+  "alem_12m": {
+   "false": [
+    20,
+    60.6
+   ],
+   "true": [
+    13,
+    39.4
+   ]
+  },
+  "precisao": {
+   "dia": 22,
+   "até": 5,
+   "mês": 6
+  },
+  "fontes": {
+   "banco": [
+    7,
+    21.2
+   ],
+   "vitima": [
+    10,
+    30.3
+   ],
+   "operadora": [
+    3,
+    9.1
+   ],
+   "plataforma": [
+    2,
+    6.1
+   ],
+   "conexao": [
+    3,
+    9.1
+   ],
+   "dispositivo": [
+    5,
+    15.2
+   ],
+   "camera": [
+    0,
+    0.0
+   ]
+  }
+ },
+ "CL": {
+  "denuncias": 48,
+  "com_data": 47,
+  "tempo": {
+   "n": 47,
+   "mediana": 28.2,
+   "q1": 19.3,
+   "q3": 45.0,
+   "alem_6m": 43,
+   "alem_12m": 41,
+   "alem_24m": 28,
+   "alem_5a": 3
+  },
+  "faixa": {
+   "até 6 meses": [
+    4,
+    9.3
+   ],
+   "6 a 12 meses": [
+    2,
+    4.4
+   ],
+   "12 a 24 meses": [
+    13,
+    28.4
+   ],
+   "24 a 60 meses": [
+    25,
+    53.1
+   ],
+   "mais de 60 meses": [
+    3,
+    4.9
+   ]
+  },
+  "alem_6m": {
+   "true": [
+    43,
+    90.7
+   ],
+   "false": [
+    4,
+    9.3
+   ]
+  },
+  "alem_12m": {
+   "true": [
+    41,
+    86.3
+   ],
+   "false": [
+    6,
+    13.7
+   ]
+  },
+  "precisao": {
+   "dia": 45,
+   "mês": 1,
+   "até": 1
+  },
+  "fontes": {
+   "banco": [
+    22,
+    47.1
+   ],
+   "vitima": [
+    24,
+    48.8
+   ],
+   "operadora": [
+    2,
+    4.1
+   ],
+   "plataforma": [
+    0,
+    0.0
+   ],
+   "conexao": [
+    0,
+    0.0
+   ],
+   "dispositivo": [
+    1,
+    2.2
+   ],
+   "camera": [
+    0,
+    0.0
+   ]
+  }
+ },
+ "FE": {
+  "denuncias": 113,
+  "com_data": 113,
+  "tempo": {
+   "n": 113,
+   "mediana": 21.6,
+   "q1": 12.4,
+   "q3": 32.9,
+   "alem_6m": 99,
+   "alem_12m": 85,
+   "alem_24m": 49,
+   "alem_5a": 1
+  },
+  "faixa": {
+   "até 6 meses": [
+    14,
+    11.3
+   ],
+   "6 a 12 meses": [
+    14,
+    12.7
+   ],
+   "12 a 24 meses": [
+    36,
+    32.4
+   ],
+   "24 a 60 meses": [
+    48,
+    43.0
+   ],
+   "mais de 60 meses": [
+    1,
+    0.6
+   ]
+  },
+  "alem_6m": {
+   "true": [
+    99,
+    88.7
+   ],
+   "false": [
+    14,
+    11.3
+   ]
+  },
+  "alem_12m": {
+   "true": [
+    85,
+    76.0
+   ],
+   "false": [
+    28,
+    24.0
+   ]
+  },
+  "precisao": {
+   "dia": 107,
+   "até": 5,
+   "mês": 1
+  },
+  "fontes": {
+   "banco": [
+    29,
+    26.4
+   ],
+   "vitima": [
+    49,
+    42.3
+   ],
+   "operadora": [
+    9,
+    9.6
+   ],
+   "plataforma": [
+    0,
+    0.0
+   ],
+   "conexao": [
+    0,
+    0.0
+   ],
+   "dispositivo": [
+    5,
+    4.1
+   ],
+   "camera": [
+    1,
+    0.7
+   ]
+  }
+ },
+ "por_canal": {
+  "internet": {
+   "n": 106,
+   "mediana": 27.0,
+   "q1": 17.5,
+   "q3": 37.7,
+   "alem_6m": 97,
+   "alem_12m": 88,
+   "alem_24m": 58,
+   "alem_5a": 2
+  },
+  "telefonia": {
+   "n": 31,
+   "mediana": 20.4,
+   "q1": 10.2,
+   "q3": 30.8,
+   "alem_6m": 27,
+   "alem_12m": 22,
+   "alem_24m": 12,
+   "alem_5a": 0
+  },
+  "presencial": {
+   "n": 14,
+   "mediana": 16.5,
+   "q1": 5.9,
+   "q3": 29.4,
+   "alem_6m": 11,
+   "alem_12m": 9,
+   "alem_24m": 5,
+   "alem_5a": 2
+  },
+  "correio": {
+   "n": 3,
+   "mediana": 27.7,
+   "q1": 22.4,
+   "q3": 44.0,
+   "alem_6m": 3,
+   "alem_12m": 3,
+   "alem_24m": 2,
+   "alem_5a": 0
+  },
+  "sem contato": {
+   "n": 1,
+   "mediana": 27.8,
+   "q1": 27.8,
+   "q3": 27.8,
+   "alem_6m": 1,
+   "alem_12m": 1,
+   "alem_24m": 1,
+   "alem_5a": 0
+  },
+  "sistema-objeto": {
+   "n": 38,
+   "mediana": 8.6,
+   "q1": 2.8,
+   "q3": 21.4,
+   "alem_6m": 23,
+   "alem_12m": 16,
+   "alem_24m": 7,
+   "alem_5a": 1
+  }
+ },
+ "por_nivel": {
+  "só conta": {
+   "n": 100,
+   "mediana": 26.8,
+   "q1": 17.6,
+   "q3": 37.5,
+   "alem_6m": 94,
+   "alem_12m": 84,
+   "alem_24m": 54,
+   "alem_5a": 2
+  },
+  "elo logístico": {
+   "n": 10,
+   "mediana": 11.8,
+   "q1": 1.6,
+   "q3": 21.1,
+   "alem_6m": 7,
+   "alem_12m": 5,
+   "alem_24m": 1,
+   "alem_5a": 0
+  },
+  "autor remoto": {
+   "n": 37,
+   "mediana": 22.7,
+   "q1": 14.1,
+   "q3": 35.3,
+   "alem_6m": 31,
+   "alem_12m": 28,
+   "alem_24m": 16,
+   "alem_5a": 0
+  },
+  "autor presencial": {
+   "n": 13,
+   "mediana": 21.3,
+   "q1": 5.6,
+   "q3": 31.2,
+   "alem_6m": 10,
+   "alem_12m": 9,
+   "alem_24m": 6,
+   "alem_5a": 2
+  }
+ },
+ "preso_no_ato": {
+  "True": {
+   "n": 29,
+   "mediana": 7.3,
+   "q1": 0.7,
+   "q3": 21.2,
+   "alem_6m": 15,
+   "alem_12m": 11,
+   "alem_24m": 5,
+   "alem_5a": 0
+  },
+  "False": {
+   "n": 164,
+   "mediana": 23.4,
+   "q1": 16.0,
+   "q3": 34.9,
+   "alem_6m": 147,
+   "alem_12m": 128,
+   "alem_24m": 80,
+   "alem_5a": 5
+  }
+ },
+ "fontes_por_canal": {
+  "internet": {
+   "banco": 34,
+   "vitima": 50,
+   "operadora": 9,
+   "plataforma": 0,
+   "conexao": 0,
+   "dispositivo": 1,
+   "camera": 0,
+   "n": 106
+  },
+  "telefonia": {
+   "banco": 10,
+   "vitima": 13,
+   "operadora": 2,
+   "plataforma": 0,
+   "conexao": 0,
+   "dispositivo": 3,
+   "camera": 1,
+   "n": 32
+  },
+  "presencial": {
+   "banco": 2,
+   "vitima": 7,
+   "operadora": 0,
+   "plataforma": 0,
+   "conexao": 0,
+   "dispositivo": 2,
+   "camera": 0,
+   "n": 14
+  },
+  "correio": {
+   "banco": 3,
+   "vitima": 2,
+   "operadora": 0,
+   "plataforma": 0,
+   "conexao": 0,
+   "dispositivo": 0,
+   "camera": 0,
+   "n": 3
+  },
+  "sem contato": {
+   "banco": 0,
+   "vitima": 0,
+   "operadora": 0,
+   "plataforma": 0,
+   "conexao": 0,
+   "dispositivo": 0,
+   "camera": 0,
+   "n": 1
+  },
+  "sistema-objeto": {
+   "banco": 9,
+   "vitima": 11,
+   "operadora": 3,
+   "plataforma": 2,
+   "conexao": 3,
+   "dispositivo": 5,
+   "camera": 0,
+   "n": 38
+  }
+ },
+ "terceiro": {
+  "INV 2": "provedor de conexão, plataforma e operadora | identificou o denunciado | canal sistema-objeto | 32.9 meses | a Vivo vinculou o IP da criação de uma conta Google a uma linha usada com 12 IMEIs; Facebook e Google forneceram dados das contas do denunciado",
+  "FE 16": "operadora | sem resultado | canal internet | 29.5 meses | a Vivo informou que a linha pré-paga do golpe fora cancelada e desprogramada, sem dado de titular",
+  "INV 36": "operadora | corroborou | canal sistema-objeto | 19.8 meses | a funcionária usava linha cadastrada em nome de outra denunciada",
+  "FE 108": "operadora | identificou o denunciado | canal internet | 22.5 meses | a TIM informou que a linha pertencia à denunciada no período do fato",
+  "FE 14": "operadora | corroborou | canal internet | 37.0 meses | a linha da falsa leiloeira estava em nome de terceiro, com o endereço da empresa da denunciada",
+  "CL 22": "operadora | apontou terceiro não denunciado | canal internet | 23.1 meses | a Vivo informou que a linha pré-paga do golpe estava em nome de terceiro, arquivado por ser linha 'facilmente habilitada em nome de terceiros'",
+  "FE 61": "operadora | identificou o denunciado | canal telefonia | 20.4 meses | a linha TIM usada no contato foi habilitada por um dos denunciados",
+  "INV 11": "provedor de conexão | identificou o denunciado | canal sistema-objeto | 21.0 meses | as consultas indevidas saíram de modem da Vivo cadastrado em nome da mãe do denunciado, no endereço dele",
+  "FE 5": "operadora | apontou terceiro não denunciado | canal telefonia | 19.3 meses | a linha que recebeu os comprovantes estava em nome de terceiro não denunciado (relatório de investigação)",
+  "FE 66": "operadora | apontou terceiro não denunciado | canal internet | 21.1 meses | os titulares das linhas usadas, não indiciados, ficaram fora da denúncia por falta de indícios",
+  "CL 54": "operadora | apontou terceiro não denunciado | canal internet | 37.6 meses | a linha usada estava em nome de terceiro, arquivado porque negou a titularidade e não aparece nos extratos",
+  "FE 13": "operadora | identificou o denunciado | canal internet | 29.2 meses | a Claro informou que a linha do falso vendedor estava em nome do correntista denunciado",
+  "FE 55": "operadora | identificou o denunciado | canal internet | 24.7 meses | a Vivo identificou o denunciado como titular da linha usada no golpe",
+  "INV 42": "plataforma e operadora | identificou o denunciado | canal sistema-objeto | 23.8 meses | a Meta informou o celular cadastrado na conta invadida e a TIM, o titular da linha, denunciado",
+  "INV 30": "provedor de conexão | identificou o denunciado | canal sistema-objeto | 6.0 meses | o IP do acesso ao servidor, administrado pela Claro, tinha cadastro em nome da esposa do acusado",
+  "FE 25": "operadora | identificou o denunciado | canal internet | 28.3 meses | a linha que falou com a vítima estava em nome da denunciada; a da chave Pix, em nome de terceira, cujo inquérito foi arquivado"
+ },
+ "terceiro_efeito": {
+  "identificou o denunciado": 9,
+  "sem resultado": 1,
+  "corroborou": 2,
+  "apontou terceiro não denunciado": 4
+ },
+ "terceiro_por_canal": {
+  "sistema-objeto": 5,
+  "internet": 9,
+  "telefonia": 2
+ },
+ "pedido_cota": {
+  "INV 8": "telefônico (aguarda resultado) | 3.5 meses | conteúdo da quebra já autorizada",
+  "INV 13": "perícia em dispositivo (requer) | 0.2 meses | celular da vítima, para provar o fato",
+  "FE 103": "telefônico e telemático em aparelho apreendido (indica representação futura) | 4.7 meses | celular apreendido, para apurar a participação dos demais",
+  "INV 28": "perícia em objetos apreendidos (requer) | 0.9 meses | objetos apreendidos na casa de um denunciado",
+  "FE 14": "bancário (requer) | 37.0 meses | documentação da abertura da conta e fotografia do titular",
+  "FE 122": "bancário e telefônico ou telemático (apoia representação policial) | 23.4 meses | quebras e bloqueio pedidos pela polícia depois da prisão, para alcançar comparsas",
+  "INV 32": "bancário (apoia representação policial) | 0.4 meses | quebra bancária e fiscal das contas dos denunciados, via BACEN",
+  "FE 5": "bancário (requer) | 19.3 meses | quebra do sigilo bancário do denunciado, com cadastro e extratos",
+  "FE 113": "bancário (requer) | 19.0 meses | extrato da conta do indiciado",
+  "FE 74": "bancário (junta resultado) | 22.1 meses | resultado da quebra do sigilo bancário da denunciada",
+  "CL 56": "perícia em objetos apreendidos (aguarda resultado) | 27.7 meses | laudos do material apreendido",
+  "INV 21": "perícia em dispositivo (aguarda resultado) | 0.5 meses | laudos dos aparelhos eletrônicos apreendidos",
+  "FE 17": "telemático em aparelho apreendido (requer) | 0.8 meses | extração dos dados do celular apreendido, para apurar a associação",
+  "CL 7": "bancário (requer) | 0.4 meses | quebra das contas de destino, com cadastro, selfies e extratos, para rastrear o dinheiro"
+ },
+ "pedido_preservacao": [],
+ "so_conta": {
+  "n": 101,
+  "banco": 42,
+  "so_vitima": 21,
+  "nenhum": 38
+ },
+ "internet_meio": {
+  "n": 106,
+  "plataforma": 0,
+  "conexao": 0,
+  "operadora": 9,
+  "meio": {
+   "site": 19,
+   "whatsapp": 60,
+   "rede_social": 12,
+   "telefone": 10,
+   "email": 3,
+   "outro": 1,
+   "sistema": 1
+  },
+  "alem_6m": 97,
+  "alem_12m": 88,
+  "com_data": 106
+ },
+ "total": {
+  "denuncias": 194,
+  "com_data": 193,
+  "tempo": {
+   "n": 193,
+   "mediana": 21.9,
+   "q1": 10.1,
+   "q3": 33.7,
+   "alem_6m": 162,
+   "alem_12m": 139,
+   "alem_24m": 85,
+   "alem_5a": 5
+  },
+  "sem_data": [
+   "CL 49"
+  ],
+  "data_manual": [
+   "CL 1",
+   "INV 36",
+   "FE 86",
+   "INV 27"
+  ],
+  "precisao": {
+   "dia": 174,
+   "mês": 8,
+   "até": 11
+  },
+  "data_denuncia": {
+   "PJe": 98,
+   "assinatura": 96
+  }
+ }
+}

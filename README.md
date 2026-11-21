@@ -7,7 +7,7 @@ Repositório do projeto de pesquisa em criminologia informática: bases processu
 | `sentencas_tjsp_base100/` | Base de 130 casos do TJSP (furto mediante fraude eletrônica, fraude eletrônica e invasão de dispositivo), com íntegras das sentenças, `indice.csv`, `fichas.jsonl`, a planilha exportada (`planilha/`) e a coleta com seus scripts (`coleta/`) |
 | `documentacao_projeto/` | Nota metodológica da base, análise contrafactual dos casos, quadro da Convenção de Budapeste e quadro de visibilidade nas TPU, com índice dos documentos e das versões editáveis |
 | `roteiro_aula_magistrados/` | Roteiro de aula para magistrados e assessores sobre quinze casos da base, em Markdown e Word |
-| `docs/`, `scripts/`, `dados/`, `textos/`, `consultas/` | Base processual da fase 1 (TJSP): plano de captura, linhas de pesquisa, roteiros, amostra de 200 denúncias e suas sentenças, extração, codificação e análises das questões 1 a 3; mapa detalhado abaixo |
+| `docs/`, `scripts/`, `dados/`, `textos/`, `consultas/` | Base processual da fase 1 (TJSP): plano de captura, linhas de pesquisa, roteiros, amostra de 200 denúncias e suas sentenças, extração, codificação e análises das questões 1 a 7; mapa detalhado abaixo |
 
 Os textos das sentenças e das denúncias trazem os nomes de réus, vítimas e testemunhas como publicados ou como lidos nos autos; as fichas e a planilha da base de 130 casos os omitem. Não redistribuir os textos sem anonimização.
 
@@ -15,7 +15,7 @@ Os textos das sentenças e das denúncias trazem os nomes de réus, vítimas e t
 
 Base processual para um exame cibercriminológico da fraude mediada por tecnologia, construída apenas com processos judiciais. A consulta pública de julgados do tribunal fornece os números de processo, e o Codex (PDPJ) lê as peças. O texto lido vai para o repositório.
 
-Estado em 21/11/2026: a coleta da fase 1 (TJSP) está encerrada para fins de análise, com a amostra de 200 denúncias (INV 36 em censo, CL 50, FE 114) e as sentenças de 197 delas gravadas, extraídas por regras e codificadas (36 denúncias à mão e 164 de forma assistida, estas pendentes de conferência humana), e a análise criminológica tem as questões 1, 2 e 3 feitas e conferidas por segundo leitor cego numa amostra de 34 denúncias e 50 sentenças, com notas em `docs/analise/`. O estado, as decisões e os próximos passos estão em `docs/HANDOFF.md`, que é o ponto de partida de qualquer sessão nova. Os números-alvo vieram da Consulta de Julgados de 1º Grau do e-SAJ (cjpg), por busca textual, porque o TJSP quase não usa os códigos TPU que nomeiam o tipo. O DataJud fica como denominador. O recorte TJPA será replanejado depois.
+Estado em 21/11/2026: a coleta da fase 1 (TJSP) está encerrada para fins de análise, com a amostra de 200 denúncias (INV 36 em censo, CL 50, FE 114) e as sentenças de 197 delas gravadas, extraídas por regras e codificadas (36 denúncias à mão e 164 de forma assistida, estas pendentes de conferência humana), e a análise criminológica tem as questões 1 a 7 feitas, as três primeiras conferidas por segundo leitor cego numa amostra de 34 denúncias e 50 sentenças, com notas em `docs/analise/`. O estado, as decisões e os próximos passos estão em `docs/HANDOFF.md`, que é o ponto de partida de qualquer sessão nova. Os números-alvo vieram da Consulta de Julgados de 1º Grau do e-SAJ (cjpg), por busca textual, porque o TJSP quase não usa os códigos TPU que nomeiam o tipo. O DataJud fica como denominador. O recorte TJPA será replanejado depois.
 
 ## Estrutura
 
@@ -49,8 +49,16 @@ Estado em 21/11/2026: a coleta da fase 1 (TJSP) está encerrada para fins de an�
 | `scripts/analise_q2_eliminacao.py` | Questão 2: teste de eliminação reformulado (sistema e canal) cruzado com a capitulação da denúncia e o tipo acolhido; grava `dados/analise/q2_*` |
 | `scripts/reparacao_387.py` | Leitor por regras da reparação mínima do art. 387, IV, do CPP, das consequências do crime e do pedido de reparação na denúncia; `valida` compara com a leitura à mão da matriz |
 | `scripts/analise_q3_dano.py` | Questão 3: tipologia do dano e distribuição da reparação pelos eixos, pelo nível alcançado e pela vulnerabilidade da vítima; grava `dados/analise/q3_*` |
+| `scripts/organizacao.py` | Leitor da organização narrada nas denúncias: número de denunciados, enquadramento do concurso (Lei 12.850, 288, concurso, autoria singular), quem pediu a conta; estrutura do grupo e desfecho do 288 em dicionários; `valida` compara o número de denunciados com a matriz |
+| `scripts/analise_q4_organizacao.py` | Questão 4: estrutura narrada e enquadramento cruzados com os eixos, o nível da questão 1 e a sentença; grava `dados/analise/q4_*` |
+| `scripts/tempo_dado.py` | Leitor do tempo do dado: data do fato e da denúncia, fontes narradas por custodiante (banco, vítima, operadora, plataforma, conexão, aparelho, câmeras) e pedidos de dado na cota, com leitura manual dos custodiantes não bancários; `valida` confere a data do fato na matriz |
+| `scripts/analise_q5_tempo_dado.py` | Questão 5: intervalo do fato à denúncia por estrato, canal e nível, fontes por custodiante e pedidos da cota contra os prazos de guarda do Marco Civil, da Lei 12.850 e da Lei 9.613; grava `dados/analise/q5_*` |
+| `scripts/servico_banco.py` | Leitor da vulnerabilidade e do serviço: família do artifício, vítima idosa e pessoa jurídica, aumento pela idade, credencial, crédito em nome da vítima, várias operações, repasse imediato e reação do banco; `valida` imprime os trechos na matriz |
+| `scripts/analise_q6_servico.py` | Questão 6: vítima e pontos do serviço por família do artifício, cruzados com o ressarcimento pelo intermediário da questão 3; grava `dados/analise/q6_*` |
+| `scripts/titular_conta.py` | Leitor da versão do titular da conta (cessão, negativa, ausência), de a quem e por quanto, dos antecedentes e da menoridade relativa, na denúncia e na sentença; `valida` imprime as 101 leituras |
+| `scripts/analise_q7_titular.py` | Questão 7: versão, perfil e desfecho do titular de só conta, com o ANPP da cota; grava `dados/analise/q7_*` |
 | `scripts/segundo_leitor.py` | Concordância entre a primeira leitura (congelada em `dados/conferencia/primeira_leitura.csv`) e o segundo leitor cego, e conferência de que a adjudicação (`dados/conferencia/adjudicacao.csv`) está aplicada aos dados |
-| `docs/analise/` | Notas analíticas das questões 1, 2 e 3 e nota de método do segundo leitor, espelhadas no Project "Criminologia Informática" |
+| `docs/analise/` | Notas analíticas das questões 1 a 7 e nota de método do segundo leitor, espelhadas no Project "Criminologia Informática" |
 | `scripts/registra_apelacao.py` e `scripts/grava_acordao.py` | Andamento em segundo grau das sentenças que trataram da Lei 15.397/2026 (`dados/tjsp2/apelacoes_amostra.csv`) e gravação de acórdãos e razões de apelação lidos pelo Codex |
 | `scripts/classifica_acordaos.py` | Junta as buscas do cjsg sobre o 171 §2º, VII e grava `dados/tjsp2/acordaos_inciso_vii.csv` com a decisão lida em cada ementa |
 | `scripts/sorteio_complemento_fe.py` | Complemento do sorteio da FE (ordens 120 a 131) |

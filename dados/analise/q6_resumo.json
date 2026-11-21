@@ -1,0 +1,352 @@
+{
+ "INV": {
+  "denuncias": 11,
+  "familia": {
+   "imita oferta": [
+    1,
+    9.1
+   ],
+   "ataca a conta ou o aparelho": [
+    10,
+    90.9
+   ]
+  },
+  "idosa": [
+   1,
+   9.1
+  ],
+  "pj": [
+   0,
+   0.0
+  ]
+ },
+ "CL": {
+  "denuncias": 47,
+  "familia": {
+   "imita instituição": [
+    12,
+    25.5
+   ],
+   "imita oferta": [
+    13,
+    28.7
+   ],
+   "imita relação pessoal": [
+    11,
+    22.8
+   ],
+   "manipula o pagamento": [
+    3,
+    6.6
+   ],
+   "ataca a conta ou o aparelho": [
+    8,
+    16.4
+   ]
+  },
+  "idosa": [
+   19,
+   41.2
+  ],
+  "pj": [
+   2,
+   4.4
+  ]
+ },
+ "FE": {
+  "denuncias": 113,
+  "familia": {
+   "imita instituição": [
+    31,
+    25.4
+   ],
+   "imita oferta": [
+    42,
+    35.2
+   ],
+   "imita relação pessoal": [
+    24,
+    24.0
+   ],
+   "manipula o pagamento": [
+    11,
+    10.3
+   ],
+   "ataca a conta ou o aparelho": [
+    5,
+    5.2
+   ]
+  },
+  "idosa": [
+   23,
+   21.9
+  ],
+  "pj": [
+   9,
+   8.5
+  ]
+ },
+ "por_familia": {
+  "imita instituição": {
+   "n": 43,
+   "pj": 1,
+   "idosa": 14,
+   "idosa_pct_pessoa_fisica": 33.3,
+   "canal": {
+    "internet": 15,
+    "telefonia": 25,
+    "correio": 3
+   },
+   "artificio": {
+    "taxa_antecipada": 5,
+    "falsa_central": 30,
+    "boleto_falso": 4,
+    "falsa_taxa_plataforma": 2,
+    "falso_advogado": 2
+   },
+   "valor_mediano": 5084.99,
+   "credencial": 14,
+   "acesso_remoto": 0,
+   "credito_vitima": 4,
+   "varias_operacoes": 3,
+   "repasse_imediato": 6,
+   "reacao": {
+    "ressarcimento parcial": 1,
+    "manteve a cobrança": 1,
+    "ressarciu a vítima": 1
+   },
+   "ressarciu_sentenca": 6
+  },
+  "imita oferta": {
+   "n": 56,
+   "pj": 0,
+   "idosa": 5,
+   "idosa_pct_pessoa_fisica": 8.9,
+   "canal": {
+    "internet": 56
+   },
+   "artificio": {
+    "venda_falsa": 49,
+    "taxa_antecipada": 3,
+    "investimento_falso": 4
+   },
+   "valor_mediano": 10000.0,
+   "credencial": 1,
+   "acesso_remoto": 0,
+   "credito_vitima": 0,
+   "varias_operacoes": 8,
+   "repasse_imediato": 6,
+   "reacao": {
+    "recusou responsabilidade": 1,
+    "bloqueou a conta de destino": 2
+   },
+   "ressarciu_sentenca": 0
+  },
+  "imita relação pessoal": {
+   "n": 35,
+   "pj": 0,
+   "idosa": 16,
+   "idosa_pct_pessoa_fisica": 45.7,
+   "canal": {
+    "internet": 30,
+    "telefonia": 5
+   },
+   "artificio": {
+    "falso_conhecido": 4,
+    "falso_parente": 30,
+    "falso_relacionamento": 1
+   },
+   "valor_mediano": 3500.0,
+   "credencial": 1,
+   "acesso_remoto": 0,
+   "credito_vitima": 0,
+   "varias_operacoes": 3,
+   "repasse_imediato": 4,
+   "reacao": {},
+   "ressarciu_sentenca": 0
+  },
+  "manipula o pagamento": {
+   "n": 14,
+   "pj": 7,
+   "idosa": 4,
+   "idosa_pct_pessoa_fisica": 42.9,
+   "canal": {
+    "presencial": 9,
+    "telefonia": 1,
+    "internet": 4
+   },
+   "artificio": {
+    "compra_fraudulenta_empresa": 7,
+    "maquininha": 7
+   },
+   "valor_mediano": 7000.0,
+   "credencial": 10,
+   "acesso_remoto": 0,
+   "credito_vitima": 0,
+   "varias_operacoes": 0,
+   "repasse_imediato": 0,
+   "reacao": {
+    "estornou contra o lojista": 1
+   },
+   "ressarciu_sentenca": 2
+  },
+  "ataca a conta ou o aparelho": {
+   "n": 23,
+   "pj": 3,
+   "idosa": 4,
+   "idosa_pct_pessoa_fisica": 20.0,
+   "canal": {
+    "presencial": 4,
+    "sistema-objeto": 17,
+    "telefonia": 1,
+    "internet": 1
+   },
+   "artificio": {
+    "extorsao_transferencia": 5,
+    "invasao_sistema_bancario": 7,
+    "roubo_celular_invasao": 4,
+    "sequestro_conta": 5,
+    "insercao_dados_falsos": 2
+   },
+   "valor_mediano": 9600.0,
+   "credencial": 13,
+   "acesso_remoto": 1,
+   "credito_vitima": 4,
+   "varias_operacoes": 0,
+   "repasse_imediato": 6,
+   "reacao": {
+    "bloqueou a conta de destino": 1,
+    "manteve a cobrança": 1,
+    "ressarciu a vítima": 1,
+    "aviso sem reversão": 1
+   },
+   "ressarciu_sentenca": 4
+  }
+ },
+ "idosa": {
+  "pessoa_fisica": 160,
+  "idosas": 42,
+  "artificio_idosa": {
+   "falso_parente": 16,
+   "falsa_central": 10,
+   "venda_falsa": 4,
+   "boleto_falso": 3,
+   "maquininha": 3,
+   "insercao_dados_falsos": 2,
+   "invasao_sistema_bancario": 2,
+   "taxa_antecipada": 1,
+   "falso_advogado": 1
+  },
+  "canal_idosa": {
+   "telefonia": 14,
+   "internet": 21,
+   "sistema-objeto": 3,
+   "correio": 2,
+   "presencial": 2
+  },
+  "canal_nao": {
+   "presencial": 8,
+   "internet": 80,
+   "sistema-objeto": 11,
+   "telefonia": 18,
+   "correio": 1
+  },
+  "valor_mediano_idosa": 4706.37,
+  "valor_mediano_nao": 5256.87,
+  "aumento_idade": {
+   "171, §4º": 36,
+   "nenhum": 3,
+   "155, §4º-C, II": 2,
+   "agravante do art. 61, II, h": 1
+  },
+  "idosa_sem_aumento": [
+   "INV 36 (insercao_dados_falsos)",
+   "FE 3 (falsa_central)",
+   "CL 36 (falsa_central)"
+  ],
+  "nivel_idosa": {
+   "elo logístico": 5,
+   "autor remoto": 6,
+   "só conta": 29,
+   "misto": 1,
+   "autor presencial": 1
+  },
+  "pontos_idosa": {
+   "credencial": 10,
+   "acesso_remoto": 0,
+   "credito_vitima": 2,
+   "varias_operacoes": 2,
+   "repasse_imediato": 7
+  },
+  "pontos_nao": {
+   "credencial": 24,
+   "acesso_remoto": 1,
+   "credito_vitima": 5,
+   "varias_operacoes": 12,
+   "repasse_imediato": 14
+  }
+ },
+ "credito": {
+  "FE 58": "imita instituição | idosa False | falso funcionário do banco altera o valor do consignado pedido, contrata outro e abre conta em nome da vítima",
+  "INV 36": "ataca a conta ou o aparelho | idosa True | consignados montados por correspondentes bancários em nome de aposentados do INSS",
+  "CL 48": "imita instituição | idosa False | acesso à conta pela falsa central e empréstimo de R$ 8.630,04 em nome da vítima, transferido em seguida",
+  "FE 70": "imita instituição | idosa False | empréstimo contratado na conta da vítima pela falsa central e não cancelado pelo banco: 84 parcelas na aposentadoria",
+  "FE 88": "ataca a conta ou o aparelho | idosa True | comparsas acessam a conta do aposentado e contratam consignado de R$ 6.300, repassado aos denunciados",
+  "CL 41": "ataca a conta ou o aparelho | idosa False | com o celular roubado, empréstimo de R$ 26.000 pelo aplicativo do banco e Pix para as contas dos denunciados",
+  "FE 54": "imita instituição | idosa False | depois de entregar os cartões ao motoboy, transferências e empréstimos na conta da vítima",
+  "CL 18": "ataca a conta ou o aparelho | idosa False | sob ameaça, senha dos aplicativos e empréstimo de R$ 15.600, retirado rapidamente para terceiros"
+ },
+ "reacao": {
+  "INV 35": "bloqueou a conta de destino | ataca a conta ou o aparelho | o banco levantou a fraude e bloqueou a conta do denunciado",
+  "FE 47": "recusou responsabilidade | imita oferta | o Mercado Pago disse não responder porque a compra não foi feita no Mercado Livre",
+  "FE 16": "bloqueou a conta de destino | imita oferta | a instituição bloqueou e encerrou a conta da titular meses depois, por suspeita de golpe",
+  "CL 43": "bloqueou a conta de destino | imita oferta | o titular diz ter sofrido prejuízo com o bloqueio da conta",
+  "CL 48": "ressarcimento parcial | imita instituição | o mútuo foi cancelado, mas os valores transferidos não foram ressarcidos",
+  "FE 70": "manteve a cobrança | imita instituição | o banco não cancelou o empréstimo, descontado em 84 parcelas da aposentadoria",
+  "FE 88": "manteve a cobrança | ataca a conta ou o aparelho | apesar da impugnação, o banco não cancelou o empréstimo",
+  "CL 34": "ressarciu a vítima | imita instituição | a vítima buscou o banco e foi ressarcida",
+  "CL 41": "ressarciu a vítima | ataca a conta ou o aparelho | o PagSeguro ressarciu o mercado e assumiu o prejuízo",
+  "CL 28": "aviso sem reversão | ataca a conta ou o aparelho | a empresa avisou o banco logo, mas o dinheiro já fora repassado minutos depois a outras contas",
+  "FE 17": "estornou contra o lojista | manipula o pagamento | as compras foram contestadas pelos titulares dos cartões e os pagamentos ao lojista, frustrados"
+ },
+ "ressarciu_sentenca": {
+  "FE 65": "imita instituição | falsa_central | ressarcido pelo banco; consequências normais por isso; sentença silente",
+  "CL 15": "ataca a conta ou o aparelho | invasao_sistema_bancario | ressarcido pelo banco; reparação negada",
+  "FE 122": "imita instituição | falsa_central | ressarcida em ação contra o banco; reparação negada",
+  "CL 48": "imita instituição | falsa_central | ressarcida pelo banco; reparação negada e consequências valoradas pelo prejuízo",
+  "FE 70": "imita instituição | falsa_central | a vítima 'propôs ação cível contra o Banco e foram restituidas as parcelas'; sentença silente",
+  "CL 34": "imita instituição | falsa_central | reparada pelo Itaú; a instituição é estranha à relação processual",
+  "CL 24": "manipula o pagamento | maquininha | absolvição; os valores foram restituídos à vítima pela Caixa e pela Mastercard",
+  "CL 41": "ataca a conta ou o aparelho | roubo_celular_invasao | o titular ressarcido pelo Santander; a reparação foi fixada a favor do PagSeguro",
+  "FE 54": "imita instituição | falsa_central | ressarcimento parcial pelo Itaú; reparação fixada pelo restante",
+  "CL 18": "ataca a conta ou o aparelho | extorsao_transferencia | as instituições bancárias repararam os prejuízos; reparação negada",
+  "CL 28": "ataca a conta ou o aparelho | invasao_sistema_bancario | ressarcida por empresa de informática; regresso da instituição na via própria",
+  "CL 29": "manipula o pagamento | maquininha | ressarcida pelo banco, que não é parte; reparação negada"
+ },
+ "res_conj_6": {
+  "total": 171,
+  "apos": 29,
+  "so_conta": 101,
+  "so_conta_apos": 13
+ },
+ "total": {
+  "denuncias": 171,
+  "familia": {
+   "ataca a conta ou o aparelho": 23,
+   "imita instituição": 43,
+   "imita oferta": 56,
+   "imita relação pessoal": 35,
+   "manipula o pagamento": 14
+  },
+  "pontos": {
+   "credencial": 39,
+   "acesso_remoto": 1,
+   "credito_vitima": 8,
+   "varias_operacoes": 14,
+   "repasse_imediato": 22
+  },
+  "idosa": 43,
+  "pj": 11,
+  "fora_servico": 27
+ }
+}

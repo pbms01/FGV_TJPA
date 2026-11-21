@@ -1,0 +1,487 @@
+{
+ "CL": {
+  "n": 42,
+  "versao": {
+   "emprestou a alguém": 9,
+   "não localizado ou revel": 6,
+   "nega": 12,
+   "sem versão": 2,
+   "cedeu mediante pagamento": 10,
+   "perdeu o controle ou não reconhece a conta": 2,
+   "silêncio": 1
+  },
+  "grupo": {
+   "cessão admitida": 19,
+   "ausente": 7,
+   "nega ou não reconhece": 14,
+   "sem versão": 2
+  },
+  "antecedentes": {
+   "reincidente ou maus antecedentes": 5,
+   "primário": 22,
+   "não dito": 12,
+   "sem sentença": 3
+  },
+  "jovem": 6
+ },
+ "FE": {
+  "n": 59,
+  "versao": {
+   "nega": 18,
+   "emprestou a alguém": 19,
+   "não localizado ou revel": 5,
+   "cedeu mediante pagamento": 8,
+   "sem versão": 2,
+   "perdeu o controle ou não reconhece a conta": 6,
+   "aceitou proposta de trabalho, renda ou crédito": 1
+  },
+  "grupo": {
+   "nega ou não reconhece": 24,
+   "cessão admitida": 28,
+   "ausente": 5,
+   "sem versão": 2
+  },
+  "antecedentes": {
+   "primário": 21,
+   "não dito": 28,
+   "reincidente ou maus antecedentes": 8,
+   "sem sentença": 2
+  },
+  "jovem": 6
+ },
+ "versao": {
+  "cedeu mediante pagamento": {
+   "n": 18,
+   "fonte": {
+    "sentença": 10,
+    "manual": 4,
+    "denúncia": 4
+   }
+  },
+  "aceitou proposta de trabalho, renda ou crédito": {
+   "n": 1,
+   "fonte": {
+    "sentença": 1
+   }
+  },
+  "emprestou a alguém": {
+   "n": 28,
+   "fonte": {
+    "denúncia": 7,
+    "sentença": 18,
+    "manual": 3
+   }
+  },
+  "perdeu o controle ou não reconhece a conta": {
+   "n": 8,
+   "fonte": {
+    "denúncia": 3,
+    "sentença": 5
+   }
+  },
+  "nega": {
+   "n": 30,
+   "fonte": {
+    "sentença": 19,
+    "denúncia": 10,
+    "manual": 1
+   }
+  },
+  "silêncio": {
+   "n": 1,
+   "fonte": {
+    "sentença": 1
+   }
+  },
+  "não localizado ou revel": {
+   "n": 11,
+   "fonte": {
+    "manual": 3,
+    "denúncia": 4,
+    "sentença": 4
+   }
+  },
+  "sem versão": {
+   "n": 4,
+   "fonte": {
+    "denúncia": 4
+   }
+  }
+ },
+ "desfecho_por_grupo": {
+  "cessão admitida": {
+   "n": 47,
+   "com_sentenca": 47,
+   "condena": 45,
+   "pct": 95.7,
+   "acolhido": {
+    "171 outro": 8,
+    "171 §2º-A": 27,
+    "171 §2º VII": 6,
+    "155 §4º-B": 1,
+    "155 outro": 1,
+    "158": 1,
+    "180": 1
+   },
+   "absolve": 2
+  },
+  "nega ou não reconhece": {
+   "n": 38,
+   "com_sentenca": 37,
+   "condena": 30,
+   "pct": 81.1,
+   "acolhido": {
+    "171 outro": 6,
+    "171 §2º VII": 2,
+    "171 §2º-A": 19,
+    "155 outro": 1,
+    "155 §4º-B": 2
+   },
+   "absolve": 7
+  },
+  "ausente": {
+   "n": 12,
+   "com_sentenca": 12,
+   "condena": 9,
+   "pct": 75.0,
+   "acolhido": {
+    "171 outro": 2,
+    "171 §2º-A": 7
+   },
+   "absolve": 2
+  },
+  "sem versão": {
+   "n": 4,
+   "com_sentenca": 4,
+   "condena": 4,
+   "pct": 100.0,
+   "acolhido": {
+    "171 outro": 1,
+    "171 §2º-A": 3
+   },
+   "absolve": 0
+  }
+ },
+ "desfecho_por_versao": {
+  "cedeu mediante pagamento": {
+   "n": 18,
+   "com_sentenca": 18,
+   "condena": 18,
+   "pct": 100.0,
+   "acolhido": {
+    "171 §2º VII": 5,
+    "171 outro": 3,
+    "171 §2º-A": 9,
+    "158": 1
+   },
+   "absolve": 0
+  },
+  "aceitou proposta de trabalho, renda ou crédito": {
+   "n": 1,
+   "com_sentenca": 1,
+   "condena": 1,
+   "pct": 100.0,
+   "acolhido": {
+    "171 §2º-A": 1
+   },
+   "absolve": 0
+  },
+  "emprestou a alguém": {
+   "n": 28,
+   "com_sentenca": 28,
+   "condena": 26,
+   "pct": 92.9,
+   "acolhido": {
+    "171 outro": 5,
+    "171 §2º-A": 17,
+    "155 §4º-B": 1,
+    "155 outro": 1,
+    "171 §2º VII": 1,
+    "180": 1
+   },
+   "absolve": 2
+  },
+  "perdeu o controle ou não reconhece a conta": {
+   "n": 8,
+   "com_sentenca": 8,
+   "condena": 6,
+   "pct": 75.0,
+   "acolhido": {
+    "171 §2º VII": 1,
+    "171 §2º-A": 5
+   },
+   "absolve": 2
+  },
+  "nega": {
+   "n": 30,
+   "com_sentenca": 29,
+   "condena": 24,
+   "pct": 82.8,
+   "acolhido": {
+    "171 outro": 6,
+    "171 §2º VII": 1,
+    "171 §2º-A": 14,
+    "155 outro": 1,
+    "155 §4º-B": 2
+   },
+   "absolve": 5
+  },
+  "silêncio": {
+   "n": 1,
+   "com_sentenca": 1,
+   "condena": 1,
+   "pct": 100.0,
+   "acolhido": {
+    "171 §2º-A": 1
+   },
+   "absolve": 0
+  },
+  "não localizado ou revel": {
+   "n": 11,
+   "com_sentenca": 11,
+   "condena": 8,
+   "pct": 72.7,
+   "acolhido": {
+    "171 outro": 2,
+    "171 §2º-A": 6
+   },
+   "absolve": 2
+  },
+  "sem versão": {
+   "n": 4,
+   "com_sentenca": 4,
+   "condena": 4,
+   "pct": 100.0,
+   "acolhido": {
+    "171 outro": 1,
+    "171 §2º-A": 3
+   },
+   "absolve": 0
+  }
+ },
+ "desfecho_por_antecedentes": {
+  "primário": {
+   "n": 43,
+   "com_sentenca": 43,
+   "condena": 41,
+   "pct": 95.3,
+   "acolhido": {
+    "171 outro": 7,
+    "171 §2º VII": 5,
+    "171 §2º-A": 26,
+    "155 outro": 1,
+    "155 §4º-B": 2
+   },
+   "absolve": 2
+  },
+  "reincidente ou maus antecedentes": {
+   "n": 13,
+   "com_sentenca": 13,
+   "condena": 13,
+   "pct": 100.0,
+   "acolhido": {
+    "171 outro": 4,
+    "171 §2º-A": 6,
+    "155 outro": 1,
+    "171 §2º VII": 1,
+    "158": 1
+   },
+   "absolve": 0
+  },
+  "não dito": {
+   "n": 40,
+   "com_sentenca": 40,
+   "condena": 30,
+   "pct": 75.0,
+   "acolhido": {
+    "171 §2º-A": 21,
+    "171 outro": 5,
+    "155 §4º-B": 1,
+    "171 §2º VII": 2,
+    "180": 1
+   },
+   "absolve": 9
+  }
+ },
+ "a_quem": {
+  "amigo, vizinho ou colega": 5,
+  "desconhecido": 12,
+  "conhecido ou cliente": 8,
+  "não diz": 17,
+  "parente ou companheiro": 2,
+  "anúncio ou proposta": 1,
+  "credor": 2
+ },
+ "valor_cessao": {
+  "valores": [
+   50.0,
+   150.0,
+   150.0,
+   200.0,
+   200.0,
+   200.0,
+   300.0,
+   500.0,
+   500.0,
+   2000.0
+  ],
+  "mediana": 200.0,
+  "casos": {
+   "CL 45": "2.000,00",
+   "CL 8": "200",
+   "FE 80": "500,00",
+   "FE 99": "200,00",
+   "FE 101": "150,00",
+   "FE 100": "50,00",
+   "CL 13": "500",
+   "FE 72": "300,00",
+   "CL 39": "200,00",
+   "CL 7": "150,00"
+  }
+ },
+ "paga_conta_q4": {
+  "FE 24": "de 10 a 30% dos valores, como captador de contas",
+  "FE 35": "cerca de 10% do valor transferidos a outra conta própria",
+  "FE 88": "retêm 10%",
+  "FE 45": "5% por operação"
+ },
+ "cessao_detalhe": {
+  "CL 35": "emprestou a alguém | amigo, vizinho ou colega | - | procedência parcial | 171 outro | Na Delegacia de Polícia, DAVID, em seu interrogatório, afirmou que emprestou sua conta bancária para um amigo de prenome “Lucio”.",
+  "FE 53": "emprestou a alguém | desconhecido | - | condenação | 171 §2º-A | Daniel alegou ter emprestado sua conta bancária a um desconhecido e que havia autorizado a quebra de seu sigilo bancár",
+  "FE 57": "emprestou a alguém | conhecido ou cliente | - | condenação | 171 outro | Alegou que emprestou a conta a um conhecido de infância, chamado “Silva”, que faleceu durante a pandemia de ",
+  "CL 37": "emprestou a alguém | desconhecido | - | condenação | 171 outro | 149 que admitiu na fase investigativa ter “emprestado” sua conta bancária para utilização por terceira pessoa, afirmando tratar-se de sua sobrin",
+  "CL 45": "cedeu mediante pagamento | - | 2.000,00 | procedência parcial | 171 §2º VII | ntava, à época, com dezenove anos de idade, dizia-se em dificuldade financeira, e emprestou sua conta bancária pessoal, mediante remuneração de R$ 2.000,00, par",
+  "FE 60": "emprestou a alguém | - | - | condenação | 171 outro | Ouvida em Juízo, a acusada Karina negou a autoria delitiva, afirmando que emprestou sua conta para o réu Arnaldo e que está sendo processada no cível em razão d",
+  "FE 116": "emprestou a alguém | desconhecido | - | condenação | 171 §2º-A | Esclareceu que não tinha o hábito de emprestar sua conta bancária a terceiros, contudo, diante da alegação de necessidade financeira fei",
+  "CL 8": "cedeu mediante pagamento | conhecido ou cliente | 200 | condenação | 171 outro | em juízo, disse ter emprestado o nome a um conhecido, para abrir uma empresa, e recebido R$ 200; na polícia negara",
+  "FE 68": "emprestou a alguém | amigo, vizinho ou colega | - | condenação | 171 §2º-A | A ré, por seu turno, suscitou o álibi segundo o qual uma colega de trabalho, conhecida apenas por \"Fernanda\", teria solicitado o uso de sua conta bancária com o",
+  "FE 14": "emprestou a alguém | - | - | condenação | 171 §2º-A | Além disso, a versão de que teria cedido apenas uma “conta normal” que já possuía, e de que “nunca teve empresa”, é desmentida pelos docum",
+  "FE 80": "cedeu mediante pagamento | desconhecido | 500,00 | procedência parcial | 171 §2º-A | responsabilidade criminal destes não exclui a da ré, até porque, a própria admitiu ter emprestado sua conta a terceiros mediante a contraprestação da quantia de",
+  "CL 15": "emprestou a alguém | - | - | procedência parcial | 155 §4º-B | Posteriormente ele foi notificado e ouvido na delegacia e apontou que havia emprestado a conta a pedido de José Renan e Bruno, apresentou extratos e foi possíve",
+  "FE 51": "emprestou a alguém | - | - | condenação | 171 §2º-A | O acusado, na fase extrajudicial, disse apenas emprestou a conta para um tal Gustavo, sem mais detalhes.",
+  "FE 120": "emprestou a alguém | desconhecido | - | condenação | 171 §2º-A | Não há o que se falar em absolvição por falta de provas, uma vez que o réu confessou ter emprestado a conta bancária a terceiro para a prática delitiva, nem mes",
+  "FE 91": "emprestou a alguém | parente ou companheiro | - | condenação | 171 §2º-A | a ré admitiu ter fornecido os dados da conta ao então companheiro, preso, e sacado e repassado os valores",
+  "CL 21": "cedeu mediante pagamento | anúncio ou proposta | - | condenação | 171 §2º-A | para pagamento, induzindo-a em erro, inquestionável, por outro lado, à vista da versão que ofertou em Juízo (alegou ter vendido sua conta bancária a terceiros p",
+  "CL 31": "emprestou a alguém | conhecido ou cliente | - | absolvição |  | interrogado, o réu disse que emprestava o cartão a um cliente, que se comprometera a fazer os pagamentos",
+  "CL 10": "emprestou a alguém | amigo, vizinho ou colega | - | condenação | 155 outro |  8.000,00 ingressaram em sua própria conta bancária, atribuindo o fato a um amigo com quem trabalhava, o qual lhe teria solicitado a cessão da conta para que um",
+  "CL 26": "cedeu mediante pagamento | desconhecido | - | condenação | 171 outro | A denunciada confessou que “vendeu” sua conta bancária para um desconhecido (fls.121/122) Agindo da forma descrita, a denunci",
+  "FE 73": "emprestou a alguém | desconhecido | - | condenação | 171 §2º-A | Interrogado, VINÍCIOS admitiu que emprestou sua conta bancária para um terceiro desconhecido, menor de idade, receber dinheiro de ter",
+  "CL 32": "cedeu mediante pagamento | - | - | condenação | 171 outro | 132/134, a investigada admitiu ter emprestado sua conta para recebimento de valores mediante remuneração.",
+  "CL 16": "emprestou a alguém | - | - | procedência parcial | 171 §2º-A | Declarou que, ao longo do período de dois anos, era habitual emprestar sua conta bancária a RENAN.",
+  "FE 109": "emprestou a alguém | - | - | condenação | 171 §2º-A | ambas disseram que sim, então, ele pediu a conta das duas porque disse que o valor era alto.",
+  "FE 5": "emprestou a alguém | conhecido ou cliente | - | condenação | 171 §2º-A | 34), declarou que emprestou sua conta bancária para um conhecido, vulgo \"Dodô\", sendo que após receber a quantia em d",
+  "FE 99": "cedeu mediante pagamento | - | 200,00 | condenação | 171 §2º-A | Interrogada em juízo, SARAH EMANUELA DE JESUS JUSTINO afirmou que vendeu a sua conta bancária no começo do ano de 2023, pelo valor de R$ 200,00.",
+  "FE 35": "cedeu mediante pagamento | - | - | condenação | 171 §2º-A | Explicou que, antes de fazer qualquer procedimento de estratégia, ele já tira a porcentagem dele para ter seu lucro, que o dinheiro era depositado em sua conta ",
+  "FE 9": "emprestou a alguém | conhecido ou cliente | - | condenação | 171 §2º-A | Outrossim, inacolhível sua mendaz versão no sentido de que teria emprestado a conta a um “conhecido”, mesmo porque não soube declinar qualquer dado qualificativ",
+  "FE 101": "cedeu mediante pagamento | desconhecido | 150,00 | procedência parcial | 171 §2º-A | Formalmente inquirido, o denunciado afirmou ter “vendido” a sua conta bancária para pessoa identificada apenas como MURIAN, pelo valor de R$150,00 (f",
+  "FE 18": "emprestou a alguém | parente ou companheiro | - | absolvição |  | MARCIO LOTÉRICO alegou que emprestou seus dados pessoais a seu cunhado, mas ele negou qualquer envolvimento com os fatos em áud",
+  "FE 100": "cedeu mediante pagamento | - | 50,00 | condenação | 171 §2º-A | do ela própria confirmado, tanto em solo policial quanto em interrogatório judicial, que emprestou sua conta bancária – mediante recebimento de R$ 50,00, destaq",
+  "FE 59": "emprestou a alguém | - | - | condenação | 171 outro | Esclareceu que emprestou a Naiara somente essa conta da Caixa Econômica Federal, e que nunca foi presa.",
+  "FE 88": "emprestou a alguém | desconhecido | - | condenação | 171 §2º-A | Esclareceu, ainda, que emprestou sua conta para um terceiro, não sabendo para que fim ele a utilizou.",
+  "FE 115": "emprestou a alguém | - | - | condenação | 171 §2º-A | 120 o acusado confirmou que emprestou sua conta bancária, mas alegou que não sabia que ela seria utilizada como instrumento de ",
+  "CL 13": "cedeu mediante pagamento | conhecido ou cliente | 500 | procedência parcial | 171 §2º VII | um conhecido de infância pediu a conta emprestada e daria R$ 500",
+  "FE 21": "cedeu mediante pagamento | - | - | condenação | 171 §2º-A | Em solo policial e em juízo, a despeito da mudança de versão, Ricardo afirmou ter recebido comissão, por ter “emprestado” sua conta para o recebimento dos valor",
+  "CL 34": "emprestou a alguém | - | - | procedência parcial | 171 §2º VII | Marcos lhe disse que estava com suas contas bancárias bloqueadas, motivo pelo qual o interrogando lhe cedeu o controle da conta.",
+  "FE 56": "cedeu mediante pagamento | conhecido ou cliente | - | condenação | 171 §2º-A | admitiu ter fornecido a conta a um conhecido e recebido quantia em contrapartida",
+  "FE 37": "aceitou proposta de trabalho, renda ou crédito | credor | - | condenação | 171 §2º-A | ses de apuração, tendo dívidas e necessitando de empréstimo, procurou auxílio na rede mundial de computadores, vendo um anúncio de empréstimo, de sorte que entr",
+  "FE 72": "cedeu mediante pagamento | desconhecido | 300,00 | procedência parcial | 171 §2º-A | Em seu interrogatório judicial, o réu afirmou que teria vendido sua conta bancária a terceira pessoa pelo valor de R$ 300,00, buscando, com isso, afastar",
+  "CL 39": "cedeu mediante pagamento | desconhecido | 200,00 | condenação | 171 §2º VII | cusado, e pelo próprio interrogatório, no qual ele admitiu ter fornecido seus documentos e cedido a conta a um terceiro em troca de R$ 200,00, ciente de que ser",
+  "CL 44": "emprestou a alguém | amigo, vizinho ou colega | - | condenação | 171 §2º-A | na polícia negou usar a conta; em juízo, disse tê-la cedido a uma amiga que prometera trabalhar com aplicativo de transporte",
+  "FE 27": "emprestou a alguém | desconhecido | - | condenação | 171 §2º-A | Esclareceu que um dos indivíduos beneficiados pelas transferências chegou a declarar informalmente que havia cedido sua conta bancária para utilização por terce",
+  "FE 126": "emprestou a alguém | - | - | condenação | 171 §2º-A | Ouvido em sede policial, confirmou que emprestou sua conta da 99 PAY a pedido de RODRIGO, para fins de emissão de boleto no valor de R$ 2.",
+  "CL 18": "cedeu mediante pagamento | conhecido ou cliente | - | procedência parcial | 158 | Relatou que estava vendendo balas quando um rapaz conhecido perguntou se o interrogando queria vender sua conta bancária.",
+  "CL 36": "emprestou a alguém | credor | - | condenação | 180 | a um agiota, do qual não sabe dizer seu nome e nem telefone, ou seja, nenhum contato do mesmo, e para pagar sua dívida, emprestou sua conta bancária da Caixa Ec",
+  "CL 23": "cedeu mediante pagamento | amigo, vizinho ou colega | - | procedência parcial | 171 §2º VII | na polícia disse ter vendido o CPF; em juízo, que o emprestou a colega para abrir conta de jogo, com promessa de parte do lucro",
+  "CL 7": "cedeu mediante pagamento | - | 150,00 | procedência parcial | 171 §2º VII | Em seu interrogatório, CAIO afirmou que desconhece a prática do roubo e que vendeu duas contas bancárias, cada uma pelo valor de R$ 150,00, mas não tem informaç"
+ },
+ "anpp": {
+  "tratado": 68,
+  "pena": 46,
+  "confissao": 4,
+  "antecedentes": 36,
+  "ausencia": 6,
+  "cap": {
+   "180": 2,
+   "171 outro": 17,
+   "171 §2º-A": 74,
+   "155 §4º-B": 4,
+   "155 outro": 2,
+   "158": 2
+  }
+ },
+ "anpp_por_grupo": {
+  "cessão admitida": {
+   "n": 47,
+   "pena": 20
+  },
+  "nega ou não reconhece": {
+   "n": 38,
+   "pena": 21
+  },
+  "ausente": {
+   "n": 12,
+   "pena": 5
+  },
+  "sem versão": {
+   "n": 4,
+   "pena": 0
+  }
+ },
+ "jovem": [
+  "FE 46",
+  "FE 57",
+  "CL 45",
+  "CL 15",
+  "CL 58",
+  "FE 124",
+  "CL 22",
+  "CL 21",
+  "FE 24",
+  "FE 109",
+  "CL 47",
+  "FE 119"
+ ],
+ "antecedentes_condenados": {
+  "reincidente ou maus antecedentes": 13,
+  "primário": 41,
+  "não dito": 30,
+  "sem sentença": 4
+ },
+ "total": {
+  "n": 101,
+  "grupo": {
+   "cessão admitida": 47,
+   "ausente": 12,
+   "nega ou não reconhece": 38,
+   "sem versão": 4
+  },
+  "antecedentes": {
+   "reincidente ou maus antecedentes": 13,
+   "primário": 43,
+   "não dito": 40,
+   "sem sentença": 5
+  },
+  "condena": {
+   "n": 101,
+   "com_sentenca": 100,
+   "condena": 88,
+   "pct": 88.0,
+   "acolhido": {
+    "171 outro": 17,
+    "171 §2º-A": 56,
+    "171 §2º VII": 8,
+    "155 §4º-B": 3,
+    "155 outro": 2,
+    "158": 1,
+    "180": 1
+   },
+   "absolve": 11
+  },
+  "confissao": 22,
+  "fonte_versao": {
+   "denúncia": 32,
+   "manual": 11,
+   "sentença": 58
+  }
+ }
+}
