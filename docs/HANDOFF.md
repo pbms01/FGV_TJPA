@@ -1,4 +1,4 @@
-# Handoff: fase 1 TJSP coletada; análise criminológica com as questões 1, 2 e 3 feitas; fase 2 TJPA com porta de entrada testada (21/11/2026)
+# Handoff: fase 1 TJSP coletada; análise criminológica com as questões 1, 2 e 3 feitas; fase 2 TJPA coletada pelo Codex (21/11/2026)
 
 Repositório pbms01/FGV_TJPA, branch `coleta-datajud`, que ainda não foi mesclado no main. Este arquivo substitui o estado da conversa e deve ser lido antes de qualquer passo novo.
 
@@ -39,15 +39,17 @@ Vieses que toda conclusão precisa carregar: o cjpg lista só processos com sent
 
 A questão 1 foi escolhida por ser a única que a base acompanha em todas as etapas (papel na denúncia, pena na sentença e desclassificação em segundo grau); a questão 2, por fixar a taxonomia que as demais linhas usam; a questão 3, porque a reparação e as consequências do crime estavam nos textos das sentenças e só pediam extração.
 
-## Fase 2 (TJPA): porta de entrada testada em 21/11/2026
+## Fase 2 (TJPA): coleta pelo Codex encerrada em 21/11/2026
+
+Os 225 números de ação penal ou apelação do DJEN foram tratados na conversa, com `scripts/pipe_tjpa.py`. Ficaram 191 processos com denúncia (87 do grupo 1, com sentença conhecida, e 104 do grupo 2), 110 deles com sentença ou decisão terminativa (85 e 25), mais 5 só com a sentença; as perdas são 19 por sigilo, 8 fora do tema e 2 com a denúncia sem texto no Codex. O acervo está em `textos/tjpa/` (209 partes de denúncia e 121 de sentença, cerca de 5,25 milhões de caracteres), o status em `dados/codex_tjpa/status.csv` e o resumo em `python3 scripts/pipe_tjpa.py resumo`. Duas famílias de desmembramento repetem a mesma denúncia (sete processos de Patrick Auler Stefanes e seis da 10ª Vara, IPL 592) e contam uma vez como peça acusatória; a lista, as lições da coleta e a segunda passada estão nas seções finais do `docs/RUNBOOK_TJPA.md`. O próximo passo da fase 2 é a extração das denúncias e das sentenças do TJPA pelas mesmas regras do TJSP (`scripts/extrai_denuncias.py` e `scripts/resultado_sentenca.py`, apontados para `textos/tjpa/`), depois da segunda passada e da medida de cobertura do DJEN.
 
 O desenho da fase 1 se repete no TJPA com duas adaptações, descritas em `docs/RUNBOOK_TJPA.md`.
 
 - Números-alvo: o TJPA não tem consulta de sentenças de 1º grau (o Banco de Jurisprudência indexa só acórdãos e decisões monocráticas e não respondeu em 21/11). A porta de entrada é a API pública do DJEN, com busca por frase, tribunal e período e inteiro teor de cada ato. Coletores: `scripts/djen_navegador.js` (navegador, via da sondagem) e `scripts/djen_alvos.py` (computador do usuário; do workspace a API devolve 403).
 - Lista: `dados/djen/alvos_djen_tjpa.csv`, 299 números entre 01/01/2020 e 20/11/2026, dos quais 225 de ação penal ou apelação criminal, 99 com sentença conhecida e 74 inquéritos; totais em `dados/djen/totais_tjpa.json`. O universo cabe inteiro, e o desenho passa de amostra a censo.
 - Codex: no TJPA o inquérito e a ação penal têm o mesmo número, e a "Peça Inicial" é o ofício do delegado ou o inquérito. A denúncia é o documento do tipo "Denúncia" na `pdpj_list_documentos` ou, na falta dele, a petição do MP anterior ao "Recebida a denúncia", achada por leitura mínima. O `scripts/codex_denuncias.py` ainda segue a rota do TJSP.
-- Coleta em andamento (desde 21/11/2026, à noite): roteiro na seção "Operação na conversa" do `docs/RUNBOOK_TJPA.md`; andamento por `python3 scripts/pipe_tjpa.py resumo`, que lê `dados/codex_tjpa/status.csv`. Continuar com `python3 scripts/pipe_tjpa.py prox`.
-- Antes do censo: medir a cobertura do DJEN (processo em que só MP e Defensoria são intimados pelo sistema pode não ter publicação) e decidir entre os 99 com sentença e os 225.
+- Coleta: roteiro na seção "Operação na conversa" do `docs/RUNBOOK_TJPA.md`; `python3 scripts/pipe_tjpa.py prox` responde "FIM" desde que o grupo 2 fechou.
+- Antes de tratar a base como censo: medir a cobertura do DJEN (processo em que só MP e Defensoria são intimados pelo sistema pode não ter publicação). Os dois grupos foram coletados, e a escolha entre os 99 e os 225 deixou de ser necessária.
 
 ## Onde estamos
 
@@ -137,7 +139,7 @@ A validação das regex fora da amostra (rodada r2, 12 casos) deu concordância 
 4. Lei 15.397/2026 em segundo grau, continuação: ler o inteiro teor dos 18 acórdãos sem ementa ou com o tema só no inteiro teor (`acordaos_inciso_vii.csv`, decisões "ementa indisponível" e "ementa não trata"); acompanhar o CL 34 (pauta virtual de 03/12/2026, 10ª Câmara) e os apelos do MP no CL 7, CL 11, CL 13 e CL 45; repetir as duas buscas do cjsg mensalmente para ver se a irretroatividade da 5ª Câmara ganha outras câmaras; ler o motivo da troca do VII pelo 171 caput na 2ª Câmara (1502402-29.2022.8.26.0577).
 5. Portar as melhorias do pipe da conversa (`scripts/pipe_conversa.py`) para `scripts/codex_denuncias.py`: candidata de reserva antes do "Recebida a denúncia", filtro de denúncia nomeada, deduplicação por código PJe, guarda contra folha de inquérito e regras de OCR.
 6. Máscara de CPF, RG, telefone e endereço para a versão de circulação, quando o usuário decidir.
-7. Fase 2 (TJPA), pelas pendências do `docs/RUNBOOK_TJPA.md`: medir a cobertura do DJEN contra o DataJud ou o Codex; decidir entre o censo dos 99 com sentença conhecida e o dos 225; adaptar o `scripts/codex_denuncias.py` ao localizador de denúncia do TJPA e rodar.
+7. Fase 2 (TJPA), pelas pendências do `docs/RUNBOOK_TJPA.md`: segunda passada dos 5 `so_sentenca` e dos 2 `sem_texto`; medida da cobertura do DJEN contra o DataJud ou o Codex; extração das denúncias e sentenças do TJPA pelas regras do TJSP, contando cada família de desmembramento uma vez.
 
 ## Como operar o Codex (TecJustica) nesta pesquisa
 

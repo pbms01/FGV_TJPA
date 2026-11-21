@@ -126,12 +126,44 @@ Roteiro por processo, da raiz do repositório:
 
 Lições dos primeiros 20: o movimento "Improcedência" às vezes acompanha sentença condenatória (o resultado sai do texto); processo migrado traz a denúncia como "doc 0NN - denuncia.pdf" (Documento de Migração) logo depois dos volumes do inquérito; processo nascido de flagrante tem a denúncia mais adiante na lista; sentença lida pelo movimento tem tamanho desconhecido, e por isso o `sel` usa 0. Quando a denúncia não aparece, grava-se só a sentença (`so_sentenca`), cujo relatório transcreve a imputação, e o processo fica para uma segunda passada.
 
-Custo: de 3 a 4 chamadas por processo, perto de 350 para os 99 com sentença e de 800 para os 225, ou seja, de 4 a 9 horas a 90 chamadas por hora. O `scripts/codex_denuncias.py` ainda segue a rota do TJSP e precisa do localizador acima antes de rodar no TJPA.
+Custo medido: 610 chamadas registradas para os 225 processos, perto de 2,7 por processo, porque a visão geral deixa a lista, os movimentos e o mapa quase de graça e o sigilo se resolve com uma chamada. O limite horário do conector bloqueou uma vez (espera de 60 s), e a partir daí a coleta passou a dormir 40 s entre processos (30 s depois de um sigilo), sem novo bloqueio. O `scripts/codex_denuncias.py` ainda segue a rota do TJSP e precisa do localizador acima antes de rodar no TJPA.
+
+### Estado ao fim da coleta (21/11/2026)
+
+Os 225 números de ação penal ou apelação foram tratados. No grupo 1 (99 com sentença conhecida no DJEN), 87 ficaram com denúncia e, destes, 85 com sentença; 5 ficaram só com a sentença, 5 em sigilo e 2 fora do tema. No grupo 2 (126 restantes), 104 ficaram com denúncia e 25 com sentença ou decisão terminativa achada no Codex, que o DJEN não tinha classificado como sentença; 14 em sigilo, 6 fora do tema e 2 com a denúncia sem texto no Codex. O acervo tem 209 partes de denúncia e 121 de sentença, cerca de 5,25 milhões de caracteres, em `textos/tjpa/`, com o manifesto em `textos/tjpa/manifesto.csv`. Os 74 inquéritos sem ação penal ficaram fora, por decisão desta fase.
+
+Duas famílias de desmembramento repetem a mesma denúncia e precisam contar uma vez só como peça acusatória, embora cada processo tenha andamento e réus próprios:
+
+- Patrick Auler Stefanes, na Vara de Combate ao Crime Organizado de Belém (md5 do texto sem as três linhas de cabeçalho `1129e03326c83a6252b191f3377c8483`): 0802404-14.2025, 0802159-03.2025, 0802415-43.2025, 0802399-89.2025, 0802298-52.2025, 0802294-15.2025 e 0807765-75.2026.
+- 10ª Vara Criminal de Belém, IPL 592 (md5 `2a12908e23003ebc9f5792d0e67712cb`): 0817567-05.2023, 0820198-53.2022, 0817564-50.2023, 0817558-43.2023, 0817566-20.2023 e 0817569-72.2023.
+
+### Lições da coleta
+
+Onde a denúncia aparece, além do documento do tipo "Denúncia":
+
+- petição do MP juntada "sob sigilo", que a `pdpj_list_documentos` filtra como capa; o ID sai do movimento "Juntada de Petição de Sob sigilo" anterior ao recebimento, e o Codex às vezes devolve "Texto do documento indisponível" (o lote pode estourar o tempo no OCR), caso em que o processo fica `sem_texto` para a segunda passada;
+- documento com outro nome ou tipo: "Resposta" (0800137-24.2024.8.14.0104), "Estelionato.pdf" (0802805-05.2023.8.14.0006), "Petição Inicial" da ação penal ajuizada pelo CyberGAECO com PIC (0811121-78.2026.8.14.0401), "Denúncia.html" do tipo Petição, cópia juntada com a citação quando o original ficou sob sigilo (0823242-46.2023.8.14.0401);
+- denúncia em vários arquivos de uma página juntados no mesmo minuto; a ordem e o fim da peça saem do rodapé numerado, e o último arquivo pode ser outra manifestação do MP (0825320-42.2025.8.14.0401);
+- capa com a palavra espaçada letra a letra ("D E N Ú N C I A"), que a busca do cabeçalho precisa tolerar;
+- aditamento juntado como petição sob sigilo e recebido meses depois; grava-se como segunda parte da denúncia (0046698-39.2015.8.14.0401, recapitulação para o art. 171, caput, por fato anterior à Lei 14.155/2021).
+
+O que conta como sentença: além da sentença de mérito, grava-se como sentença a decisão que encerra a ação no juízo, com nota, que é a rejeição da denúncia (inclusive parcial, só quanto a um réu, como em 0817566-20.2023.8.14.0401), a extinção da punibilidade por decadência (0824029-12.2022 e a queixa por invasão em 0800337-36.2021.8.14.0007) e a declinação de competência para a Justiça Federal (0815026-28.2025.8.14.0401, "chupa-cabra" em agência da Caixa). Em autos importados de 2022 para números de 2025, a "Sentença.html" de 666 caracteres datada de 24/10/2023 não é decisão de mérito e não se lê. Em sentença com vários réus, vale o primeiro dispositivo depois do "Ante o exposto", e o réu suspenso pelo art. 366 do CPP entra na nota.
+
+Outras regras de operação:
+
+- A vara sai de `orgao_1g` do `alvos_djen_tjpa.csv`, porque o órgão do Codex é o juízo das garantias ou o JECrim; a classe do Codex é defasada (inquérito, flagrante ou comunicado de mandado de prisão em processos sentenciados) e não decide nada.
+- Família de desmembramento se confere com `sed 1,3d textos/tjpa/denuncias/<n>/01_*.txt | md5sum`, e a nota de cada membro cita os demais.
+- Quando o `pdpj_mapa_documentos` cabe na resposta e não vai a arquivo, o `mapa ultimo` lê o mapa anterior; nesse caso os IDs se tiram do próprio mapa.
+- Fato claramente fora do tema (termo circunstanciado de drogas, tráfico, receptação ou furto de moto, honra em conflito familiar) se marca pela visão geral ou por leitura mínima da inicial, sem gravar texto; nos demais, o tema se confere por busca de termos na denúncia gravada. A consulta INV do DJEN traz processos em que a publicação só cita a invasão de dispositivo.
+- Nota não infere fato: a origem do réu não se escreve pelo estado da OAB do advogado, e decisão não lida fica como "não lida".
+- A capitulação ainda escapa ao leitor quando o artigo vem a mais de 40 caracteres do verbo ("praticaram os crimes de furto qualificado, associação criminosa e lavagem de dinheiro, previsto nos arts. 155"), como em 0812438-48.2025.8.14.0401; a capitulação vai à nota.
 
 ## Pendências
 
-1. Medir a cobertura do DJEN contra o DataJud ou o Codex (viés acima).
-2. Decidir entre o censo dos 99 com sentença conhecida e o dos 225.
-3. Adaptar `scripts/codex_denuncias.py` (ou o `pipe_conversa.py`) ao localizador do TJPA e rodar.
-4. Inquéritos: aplicar a regra de seleção do `plano-captura.md` aos 74 inquéritos da lista, se a fase 2 os mantiver.
-5. Tentar de novo o Banco de Jurisprudência do TJPA para os acórdãos das 33 apelações.
+1. Segunda passada: denúncia dos cinco `so_sentenca` (0818456-51.2026, 0003478-80.2013, 0814581-95.2022, 0814230-71.2024 e 0801497-10.2023, cuja denúncia a11b8a13 volta sem conteúdo) e dos dois `sem_texto` (0800083-74.2023, doc 3f51107f-81f7-5734-ad33-cc0aa5fc9d13; 0811946-61.2022, doc e4d29280-c055-5ca1-baf3-2a65c39b4e87), por OCR ou pelo navegador; sentença de 0802544 e 0000410 pelo texto do DJEN.
+2. Peças vistas e não lidas: o acórdão de 0805552-38.2022 (08f78e51-37d7-5303-8b19-0e1a8ffc7f35), a decisão de 06/11/2026 em 0805897-96.2025, a guia de execução de Kerolayne em 0817569-72.2023 e as decisões interlocutórias marcadas "não lida" nas notas.
+3. Medir a cobertura do DJEN contra o DataJud ou o Codex (viés acima), agora com a vantagem de que o grupo 2 mostrou 25 sentenças que o DJEN não classificava como tal.
+4. Ampliar a janela da regex de capitulação no `cmd_grava` e regravar os casos com "capitulação não localizada".
+5. Portar o localizador do TJPA ao `scripts/codex_denuncias.py`, se a coleta for repetida fora da conversa.
+6. Inquéritos: aplicar a regra de seleção do `plano-captura.md` aos 74 inquéritos da lista, se a análise os pedir.
+7. Tentar de novo o Banco de Jurisprudência do TJPA para os acórdãos das 33 apelações.
