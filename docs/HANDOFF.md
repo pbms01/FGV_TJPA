@@ -1,4 +1,4 @@
-# Handoff: fase 1 TJSP, com amostra, extração, codificação de papel e sentenças da amostra (21/11/2026)
+# Handoff: fase 1 TJSP, com amostra, extração, codificação de papel, sentenças da amostra e segundo grau da Lei 15.397/2026 (21/11/2026)
 
 Repositório pbms01/FGV_TJPA, branch `coleta-datajud`, que ainda não foi mesclado no main. Este arquivo substitui o estado da conversa e deve ser lido antes de qualquer passo novo.
 
@@ -68,6 +68,12 @@ Sentenças da amostra (197 de 198 denúncias sem duplicatas, % ponderado dentro 
 - Pena mediana no 171 §2º-A: 48 meses no CL e na FE; no 171 §2º, VII, 12 meses; no 171 sem §2º-A, 12 a 14 meses.
 - O movimento do Codex contradiz o texto em cinco absolvições (INV 19, CL 31, FE 4, FE 7, FE 18).
 
+Segundo grau da Lei 15.397/2026 (`dados/tjsp2/LEIAME.md`):
+
+- Das 23 sentenças da amostra que trataram do inciso VII, duas apelações foram julgadas sem decidir sobre ele (CL 48, FE 77); o MP apelou de quatro aplicações (CL 7, CL 11, CL 13, CL 45), com teses de participação no §2º-A, de restrição do inciso ao estelionato e, no CL 45, de irretroatividade em dilema.
+- No cjsg, 56 acórdãos de 24/06 a 19/11/2026 decidem o inciso na ementa: ele prevalece em 25 (16 por retroatividade benigna) e é recusado em 31, quase sempre porque o titular aderiu à fraude e é partícipe pelo art. 29. A irretroatividade do FE 72 aparece em um acórdão da 5ª Câmara (1545200-63.2024.8.26.0050). A 16ª Câmara concentra as aplicações (13 das 25).
+- Seis processos da amostra já têm acórdão: FE 56, CL 6, CL 58, FE 101 e FE 96 foram desclassificados para o VII em segundo grau; o CL 47 teve a desclassificação recusada.
+
 Achados da codificação de 198 denúncias sem duplicatas (36 manuais e 162 assistidas), com peso dentro do estrato:
 
 - O valor do fato entrou em conta de denunciado em 48 das 50 denúncias CL (96,5%) e em 90 das 114 FE (78,8%). As duas CL restantes estão fora da tipologia (tráfico e anabolizantes). Em FE o papel se divide em titular 52,7%, misto 26,1% e executor sem conta 21,2%; os executores concentram-se em compras fraudulentas contra empresas e no golpe do motoboy.
@@ -80,7 +86,7 @@ A validação das regex fora da amostra (rodada r2, 12 casos) deu concordância 
 
 1. Conferência da codificação assistida pelo pesquisador, numa amostra estratificada (por exemplo, 8 casos por estrato com semente nova) somada aos casos de fronteira listados no `dados/extracao/LEIAME.md`. Correções entram por `python3 scripts/grava_codificacao.py`, que substitui a linha do mesmo número. A conferência decide também se as categorias novas (`relacional`, `extorsao_transferencia`, `taxa_antecipada`, `devassa_privacidade`, `falso_relacionamento`, `outro`) ficam ou são fundidas.
 2. Conferência das 113 sentenças com `conferido=auto` por segundo leitor, numa amostra estratificada, e decisão sobre o FE 16 (1505916-93.2021.8.26.0554, sentença de 14/11/2024 no cjpg sem movimento nem DJEN; tentar a lista de documentos do Codex ou o cjpg no navegador).
-3. Lei 15.397/2026 em segundo grau: as apelações das sentenças que aplicam ou recusam o 171 §2º, VII (lista na seção de sentenças do LEIAME), com o acórdão citado no CL 29 e no CL 34 (Apelação 1503076-37.2022.8.26.0664, não conferida), para ver qual das leituras de direito intertemporal o TJSP adota. Conversa com a análise contrafactual do Project.
+3. Lei 15.397/2026 em segundo grau, continuação: ler o inteiro teor dos 18 acórdãos sem ementa ou com o tema só no inteiro teor (`acordaos_inciso_vii.csv`, decisões "ementa indisponível" e "ementa não trata"); acompanhar o CL 34 (pauta virtual de 03/12/2026, 10ª Câmara) e os apelos do MP no CL 7, CL 11, CL 13 e CL 45; repetir as duas buscas do cjsg mensalmente para ver se a irretroatividade da 5ª Câmara ganha outras câmaras; ler o motivo da troca do VII pelo 171 caput na 2ª Câmara (1502402-29.2022.8.26.0577).
 4. Portar as melhorias do pipe da conversa (`scripts/pipe_conversa.py`) para `scripts/codex_denuncias.py`: candidata de reserva antes do "Recebida a denúncia", filtro de denúncia nomeada, deduplicação por código PJe, guarda contra folha de inquérito e regras de OCR.
 5. Máscara de CPF, RG, telefone e endereço para a versão de circulação, quando o usuário decidir.
 6. Fase 2 (TJPA), a replanejar. Convém testar se a consulta de julgados do TJPA permite a mesma busca textual.
@@ -100,6 +106,8 @@ A validação das regex fora da amostra (rodada r2, 12 casos) deu concordância 
 - Quando o texto nativo vem cortado, procure no mapa uma cópia posterior da mesma peça, sem texto indexado, e leia-a por OCR.
 - O `pipe_conversa.py` usa `/tmp/cur.json` como estado do processo corrente, que se perde ao trocar de sessão.
 - Limite por hora: a coleta das sentenças, em cerca de 100 processos por hora (duas chamadas cada), esbarrou no limite horário do conector, que respondeu com espera de 1109 s e aviso contra uso em lote. Retomada com intervalo mínimo de 40 s entre chamadas (cerca de 90 por hora), sem novo bloqueio. Não repetir a chamada recusada antes da espera indicada.
+- Segundo grau: o DJEN pelo Codex (`pdpj_buscar_comunicacoes` com o número e a janela desde a sentença, sem texto completo) mostra entrada, distribuição, pauta e "intimação de acórdão"; o acórdão aparece em `pdpj_list_movimentos` com `tipo_filter="Julgamento"` ("Julgado virtualmente", com documento) e é lido em lote. As razões do MP estão em `pdpj_list_documentos`, como páginas de "Petição" ou "Razões de Apelação" na data da interposição. Registro em `scripts/registra_apelacao.py` e texto em `scripts/grava_acordao.py`.
+- Jurisprudência de segundo grau (cjsg): pelo navegador embutido, em `esaj.tjsp.jus.br/cjsg/consultaCompleta.do`; a pesquisa livre aceita aspas e o operador E. As páginas seguintes vêm de `/cjsg/trocaDePagina.do?tipoDeDecisao=A&pagina=N&conversationId=` na mesma sessão, com pausa de 3 s; o retorno grande do `javascript_tool` vai para arquivo e é lido pelo shell sem passar pelo contexto. A ementa integral está em `#textAreaDados_<cdacordao>`.
 - Sentenças da amostra, com `scripts/pipe_sentencas.py`: `prox` dá o próximo caso da amostra; depois do `pdpj_list_movimentos` e do batch (ID repetido 15 vezes para a saída ir a arquivo), `lote <arquivo> "data|movimento|complemento"` grava e lê; `djen NUM "mov" campo=valor` registra o dispositivo lido no DJEN; `corrige NUM campo=valor` corrige à mão; `recalcula` relê tudo depois de mudar o leitor. Roteiro antigo da matriz: `next` dá o caso; `pdpj_list_movimentos(NUM, tipo_filter="cedência")` dá o movimento de procedência ou improcedência e o ID da sentença; `ids NUM ID[:chars]` imprime os IDs repetidos; o batch com eles grava em arquivo; `grava <arquivo>` guarda texto, manifesto e status e imprime só o dispositivo. Sem documento no movimento, `pdpj_list_documentos` acha a sentença pelo nome (CL 1, CL 11). O estado fica em `/tmp/sent_cur.json`; rodar `ids` antes de cada batch.
 
 ## Restrições permanentes
