@@ -177,7 +177,8 @@ def cmd_grava(arq, chamadas, extra=""):
             m = (re.findall(r"(?:incurs\w*|incorr\w*|viol\w+ (?:as )?disposi\w+|capitula\w*|pr[áa]tica d[oa]s? (?:crimes?|delitos?)|"
                             r"pela pr[áa]tica d[oa]s?)[^.;]{0,40}(?:art|\d{3})[^;]{0,150}", plano, re.I)
                  or re.findall(r"art\.?\s*\d{3}[^;]{0,120}(?:C[óo]digo Penal|CPB?\b)", plano, re.I))
-            cap = cap or (re.sub(r"\s+", " ", m[0])[:170] if m else "capitulação não localizada")
+            # a capitulação pode estar em qualquer parte da denúncia; fica a primeira encontrada
+            cap = cap or (re.sub(r"\s+", " ", m[0])[:170] if m else "")
         else:
             m = re.findall(r"(?:condeno|conden[áa]-l[oa]s?|absolvo|absolv[êe]-l[oa]s?|julg\w+\s+(?:parcialmente\s+)?"
                            r"(?:im)?procedente|extin\w+ a punibilidade)[^.]{0,140}", plano, re.I)
@@ -188,6 +189,8 @@ def cmd_grava(arq, chamadas, extra=""):
         notas.append("nenhuma das %d candidatas era denúncia" % len(cands))
     st = "ok" if n["den"] else ("so_sentenca" if n["sent"] else "sem_texto")
     status(num, st, n["den"], n["sent"], chamadas, "; ".join([x for x in [extra] + notas if x]))
+    if n["den"] and not cap:
+        cap = "capitulação não localizada"
     print("gravado", num, st, "| den", n["den"], "sent", n["sent"], "|", cap or "-", "|", disp or "-")
 
 

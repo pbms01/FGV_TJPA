@@ -1,0 +1,257 @@
+[Texto nativo do PJe]
+
+niPras
+
+MINISTÉRIO PÚBLICO
+DO ESTADO DO PARÁ
+Belém I - 5º PJ Criminal Comum
+
+Nº MP: 08.2024.00222710-0
+
+Nº Judiciário: 0815190-27.2024.8.14.0401
+
+Ação: Inquérito Policial
+
+O MINISTÉRIO PÚBLICO DO ESTADO DO PARÁ, representado pela
+
+Promotora de Justiça infra-assinada, no uso de suas atribuições legais e constitucionais, vem, com
+
+fulcro no art. 129, inciso I, da Constituição Federal e art. 41 do Código de Processo Penal,
+
+respeitosamente, oferecer a presente DENÚNCIA contra:
+
+ANTÔNIO HENRIQUE BELARMINO NERES, brasileiro, natural de Campinas/SP,
+
+09/09/2024 (19 anos), portador do CPF nº. 5.121.808-14, filho de Adriana
+
+Belarmino da Silva e Antônio Ferreira Neres, residente na Rua Nove, nº 4,
+
+Bairro Jardim Francisca, Campinas/SP, CEP 13067819, contato: (19) 98814-5822.
+
+I - DOS FATOS
+
+Descrevem as peças de informação constantes no Inquérito Policial nº
+
+00292/2024.100123-7, que o denunciado ANTÔNIO HENRIQUE BELARMINO NERES praticou o
+
+crime de estelionato na modalidade fraude eletrônica com o uso de servidores mantidos fora do
+
+território nacional contra a vítima VERA LÚCIA BATISTA FLECK.
+
+Conforme depoimento prestado pela vítima em sede de Delegacia, ao dia
+
+12.04.2024, por volta de 10h, esta recebeu um telefonema de pessoa que se autodeterminou
+
+gerente do Banco do Estado do Pará - BANPARÁ, a qual lhe informou que haviam sido realizadas
+
+diversas compras suspeitas utilizando-se de seu nome e dados bancários. Ludibriada pelo
+
+indivíduo, forneceu tais dados, bem como, conforme orientação concedida pelo mesmo, instalou
+
+um aplicativo denominado "AnyDesk Remote Desktop" em seu aparelho celular.
+
+Momentos após, recebeu nova ligação do banco, comunicando a existência de
+
+transferência suspeita. Diante disso, encaminhou-se à agência física da instituição, onde constatou
+
+que havia sido efetuado um empréstimo consignado no valor de R$ 13.000,00 (treze mil reais), o
+
+qual desconhecia, bem como uma transferência via TED da quantia de R$ 12.900,00 (doze mil e
+
+novecentos reais) ao acusado, Antônio Henrique Belarmino Neres.
+
+Por meio de investigações, com auxílio dos dados fornecidos pelo Banco do Estado
+
+Belém I - 5º PJ Criminal Comum Denúncia 0815190-27.2024.8.14.0401
+niPras
+
+MINISTÉRIO PÚBLICO
+DO ESTADO DO PARÁ
+Belém I - 5º PJ Criminal Comum
+
+do Pará, constatou-se que o empréstimo consignado foi efetuado por aparelho informático
+
+conectado ao endereço IP de número 191.96.5.121, às 10h15min do dia em questão, enquanto
+
+que a transferência via TED foi realizado pelo endereço IP 201.92.11.238, às 10h29min da mesma
+
+data. Isto posto, em consulta ao site "https://registro.br/", página da internet em que é possível
+
+identificar os proprietários de endereços IP localizados em território nacional, verificou-se que o
+
+endereço IP 191.96.5.121 pertencia a uma empresa localizada na cidade de Londres, Reino Unido,
+
+enquanto o endereço de número 201.92.11.238 era relativo à empresa VIVO.
+
+Desse modo, obteve-se a confirmação de que o imputado fez uso de serviço de
+
+VPN (Virtual Private Network) para mascarar seu tráfego de internet por intermédio de servidores
+
+internacionais. Todavia, por descuido, no momento de efetuar a transferência TED, deixou seu
+
+tráfego ser exposto.
+
+Ato contínuo, foi solicitado à empresa telefônica VIVO a concessão dos dados
+
+cadastrais dos aparelhos conectados ao IP descoberto, ocasião em que foi recebida a informação
+
+de que este havia sido acessado unicamente por terminal de Rosangela de Fátima Pinto, na cidade
+
+de Campinas, São Paulo. Em seguida, constatado que a transferência TED foi efetuada a uma conta
+
+da instituição bancária  PAGSEGURO em nome do denunciado, solicitou-se ao referido banco os
+
+dados cadastrais do criminoso. Assim, foi obtida a informação de que o número telefônico
+
+vinculado ao banco estaria registrado em nome de Laura Ester Belarmino da Silva, irmã do
+
+imputado.
+
+Dessarte, requeridos os dados referentes à conta Google do e-mail cadastrado no
+
+banco eletrônico, esta constava em nome de Henrique Belarmino. Em consulta ao SISBACEN, notou-
+
+se que o acusado possui diversas contas em instituições bancárias, especialmente em virtuais,
+
+sendo verificado, sobretudo, que o mesmo concluiu sua vinculação ao banco PAGSEGURO na
+
+mesma data em que foram realizadas as transações.
+
+Em face de seus dados indicarem diversos endereços residenciais em cidades
+
+distintas, restou prejudicada a localização do denunciado para interrogá-lo, motivo pelo qual
+
+procedeu-se com a sua qualificação indireta.
+
+Considerando estar presente a prova da materialidade e os indícios da autoria de
+
+crime, a Autoridade Policial o indiciou com espeque no art. 171, §2º-A e §2º-B, do Código Penal.
+
+II - DA MATERIALIDADE
+
+A materialidade está consubstanciada por meio do Extrato Bancário da vítima (ID
+
+Belém I - 5º PJ Criminal Comum Denúncia 0815190-27.2024.8.14.0401
+niPras
+
+MINISTÉRIO PÚBLICO
+DO ESTADO DO PARÁ
+Belém I - 5º PJ Criminal Comum
+
+121280697, pág. 10), dos Comprovantes de Transferência (ID 121280697, págs. 11 e 12), do
+
+Formulárido de Contestação de Transação Eletrónica firmado pela ofendida perante o Banco do
+
+Estado do Pará (ID 121280697, pág. 14), bem como pelo Termo de Autorização para Afastamento
+
+do Sigio Bancário realizado pela vítima (ID 121280697, pág. 13).
+
+III - DA AUTORIA
+
+Os indícios que se extraem das peças de informação constantes dos autos,
+
+consistentes em respostas concedidas pelo banco PagSeguro e pela empresa Google a ofícios
+
+expedidos pela autoridade policial (ID 121280697, págs. 34-35 e 39-40), são uníssonos no sentido
+
+de que o acusado foi o responsável por praticar o delito contra a ofendida, corroborando a
+
+autoridade policial por meio do relatório final. Isso revela a existência de elementos suficientes
+
+para o oferecimento desta inicial acusatória.
+
+IV - DA IMPUTAÇÃO PENAL
+
+Extrai-se dos autos de Inquérito Policial que ANTÔNIO HENRIQUE BELARMINO
+
+NERES praticou o crime previsto no art. 171, §2º-A e §2º-B, do Código Penal, qual seja,
+
+estelionato na modalidade fraude eletrônica, majorado pela utilização de servidor mantido
+
+fora do território nacional.
+
+Art. 171 - Obter, para si ou para outrem, vantagem ilícita, em prejuízo
+
+alheio, induzindo ou mantendo alguém em erro, mediante artifício,
+
+ardil, ou qualquer outro meio fraudulento:
+
+Pena - reclusão, de um a cinco anos, e multa.
+
+...
+
+Fraude eletrônica
+
+§ 2º-A. A pena é de reclusão, de 4 (quatro) a 8 (oito) anos, e multa,
+
+se a fraude é cometida com a utilização de informações fornecidas pela
+
+vítima ou por terceiro induzido a erro por meio de redes sociais, contatos
+
+telefônicos ou envio de correio eletrônico fraudulento, ou por qualquer
+
+outro meio fraudulento análogo.      (Incluído pela Lei nº 14.155, de 2021)
+
+§ 2º-B. A pena prevista no § 2º-A deste artigo, considerada a
+
+Belém I - 5º PJ Criminal Comum Denúncia 0815190-27.2024.8.14.0401
+niPras
+
+MINISTÉRIO PÚBLICO
+DO ESTADO DO PARÁ
+Belém I - 5º PJ Criminal Comum
+
+relevância do resultado gravoso, aumenta-se de 1/3 (um terço) a 2/3 (dois
+
+terços), se o crime é praticado mediante a utilização de servidor mantido
+
+fora do território nacional.     (Incluído pela Lei nº 14.155, de 2021)
+
+V - DOS REQUERIMENTOS
+
+Estando assim o acusado ANTÔNIO HENRIQUE BELARMINO NERES, incurso nas
+
+sanções punitivas do no art. 171, §2º-A e §2º-B, do Código Penal, requer, após o recebimento e
+
+autuação desta denúncia, seja o réu citado para defesa e, enfim, para se ver processar até final
+
+julgamento e condenação, nos termos dos arts. 394/405 e 498/502 do CPP, notificando-se a vítima
+
+e as testemunhas do rol abaixo para virem depor em Juízo, em dia e hora a serem designados, sob
+
+as cominações legais.
+
+Requer, outrossim, que ao final, em sentença, seja fixado valor mínimo
+
+indenizatório, considerando os prejuízos causados pelo denunciado, nos termos do Art. 387, IV do
+
+CPP. De tudo ciente o Ministério Público, na qualidade de Dominus Litis.
+
+Nestes termos.
+
+Pede deferimento.
+
+Belém, 23 de setembro de 2024.
+
+ANDREA ALICE BRANCHES NAPOLEÃO
+
+Promotora de Justiça
+
+Vítima:
+
+- VERA LÚCIA BATISTA FLECK, qualif. ao ID 121280697, pág. 07.
+
+Belém, <>.
+
+ANDREA ALICE BRANCHES NAPOLEÃO
+
+Belém I - 5º PJ Criminal Comum Denúncia 0815190-27.2024.8.14.0401
+niPras
+
+MINISTÉRIO PÚBLICO
+DO ESTADO DO PARÁ
+Belém I - 5º PJ Criminal Comum
+
+Promotora de Justiça
+
+Belém I - 5º PJ Criminal Comum Denúncia 0815190-27.2024.8.14.0401

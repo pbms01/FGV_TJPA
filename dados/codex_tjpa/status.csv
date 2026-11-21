@@ -35,3 +35,18 @@ numero,grupo,status,denuncia,sentenca,chamadas,quando,detalhe
 0811342-58.2021.8.14.0006,1,ok,1,1,4,2026-11-21T18:18:35+00:00,2g; flagrante; Ananindeua; denúncia juntada como José Fabrício dos Reis Pereira.pdf
 0824223-12.2022.8.14.0401,1,ok,1,1,2,2026-11-21T18:19:05+00:00,1g; classe IP defasada; Belém
 0800326-11.2023.8.14.0080,1,ok,1,1,2,2026-11-21T18:19:40+00:00,2g; ré do TO
+0800819-77.2025.8.14.0060,1,ok,1,1,2,2026-11-21T18:20:26+00:00,1g; APF; Tomé-Açu
+0817590-64.2023.8.14.0040,1,ok,1,2,3,2026-11-21T18:21:09+00:00,1g; classe IP defasada; Parauapebas; duas sentenças
+0804309-46.2023.8.14.0006,1,ok,1,1,2,2026-11-21T18:21:45+00:00,1g; classe IP defasada; Ananindeua; sentença duplicada (10fc47da igual)
+0014826-69.2016.8.14.0401,1,ok,1,1,3,2026-11-21T18:22:19+00:00,2g; dossiê com cópias sem texto; Belém
+0801588-86.2021.8.14.0008,1,fora_do_tema,0,0,3,2026-11-21T18:22:47+00:00,"posse de arma (art. 12 da Lei 10.826/03), DEAM Barcarena; DJEN casou FE_amp só numa publicação do 2g"
+0815190-27.2024.8.14.0401,1,ok,1,1,2,2026-11-21T18:23:21+00:00,2g; Belém; réu em SP
+0809824-96.2022.8.14.0006,1,ok,1,1,2,2026-11-21T18:23:56+00:00,2g; furto qualificado; Ananindeua
+0800962-06.2024.8.14.0059,1,sigilo,0,0,1,2026-11-21T18:24:13+00:00,visão geral recusada (sigilo ou segredo de justiça)
+0805412-04.2022.8.14.0401,1,ok,1,1,3,2026-11-21T18:24:46+00:00,2g; 444 docs; Belém; réus do CE; acórdãos de apelação e embargos
+0803104-11.2023.8.14.0061,1,ok,1,1,4,2026-11-21T18:25:29+00:00,2g; Tucuruí; IDs do teste de 21/11
+0812575-64.2024.8.14.0401,1,ok,1,1,3,2026-11-21T18:26:00+00:00,1g; classe IP defasada; Belém; trânsito em julgado
+0802544-82.2024.8.14.0401,1,ok,6,0,5,2026-11-21T18:27:42+00:00,"2g; 584 docs; denúncia em 6 partes; sentença sem conteúdo nas duas cópias (cbdbfb2e e 739ac9ed), buscar texto no DJEN; sem texto: sent 739ac9ed-b30a-5f40-b89f-6bd2dcbd6619"
+0801497-10.2023.8.14.0401,1,so_sentenca,0,1,4,2026-11-21T18:29:38+00:00,2g; denúncia em petição juntada sob sigilo e filtrada como stub na lista (a11b8a13); sem texto: cand a11b8a13-5d74-554e-8e34-1ff65c546b66; nenhuma das 1 candidatas era denúncia
+0801497-10.2023.8.14.0401,1,so_sentenca,0,1,4,2026-11-21T18:29:58+00:00,2g; denúncia em petição juntada sob sigilo e filtrada como stub na lista (a11b8a13); sem texto: cand a11b8a13-5d74-554e-8e34-1ff65c546b66; nenhuma das 1 candidatas era denúncia; a11b8a13 é Denúncia.pdf (juntada 2023-02-18) mas o Codex devolve sem conteúdo e a lista a filtra como stub
+0800533-86.2023.8.14.0087,1,ok,1,1,4,2026-11-21T18:30:29+00:00,2g; APF; Limoeiro do Ajuru; furto de celular e transferências
