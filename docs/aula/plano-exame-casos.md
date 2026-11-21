@@ -1,6 +1,6 @@
 # Plano de exame em aula das sete questões nos casos de origem
 
-Versão 0.1, 21/11/2026, confirmada pelo usuário na mesma data. Repositório pbms01/FGV_TJPA, branch main. Documento de planejamento: a execução começa na próxima sessão, pela ordem da última seção.
+Versão 0.2, 21/11/2026. A versão 0.1 foi confirmada pelo usuário na mesma data; a 0.2 inclui, por decisão dele, os acórdãos do CL 56 e do FE 105 entre as peças lidas e corrige a descrição do par 2 pelo que o segundo grau decidiu. Repositório pbms01/FGV_TJPA, branch main. A execução segue a ordem da última seção.
 
 ## Propósito e leitura adotada
 
@@ -25,7 +25,7 @@ Os critérios, nesta ordem:
 
 ### Que peça
 
-Em todos os casos, a denúncia com a cota e a sentença, por inteiro. Além delas, o acórdão no CL 48 e no FE 77, os dois já gravados, e as razões do MP no CL 13. Nos casos com recurso pendente ou com acórdão não gravado (CL 7, CL 13, FE 115, FE 35), o andamento em segundo grau é atualizado pelo DJEN na véspera da aula.
+Em todos os casos, a denúncia com a cota e a sentença, por inteiro. Além delas, o acórdão no CL 48, no FE 77, no CL 56 e no FE 105, os quatro já gravados, e as razões do MP no CL 13. Os acórdãos do par 2 entraram por decisão do usuário (21/11/2026), porque no CL 56 o segundo grau mudou o desfecho de dois réus. Nos casos com recurso pendente ou com acórdão não gravado (CL 7, CL 13, FE 115, FE 35), o andamento em segundo grau é atualizado pelo DJEN na véspera da aula.
 
 ### O que registrar e onde gravar
 
@@ -60,7 +60,7 @@ Como a seleção é intencional, essa leitura controla a qualidade do que será 
 | Ordem | Âncora | Contraste | O que o par mostra | Questões |
 | --- | --- | --- | --- | --- |
 | 1 | INV 39 | INV 14 | Invasão por contato físico, sem internet. No INV 39, a sessão de WhatsApp Web deixada aberta no computador do posto de saúde foi capturada e divulgada por uma colega de trabalho, com condenação no 154-A e reparação de dano moral. No INV 14, a devassa do celular da ex-companheira foi imputada como furto e terminou em absolvição por falta de ânimo de assenhoramento, com a lesão informacional fora da denúncia. | 2, 3 |
-| 2 | CL 56 | FE 105 | Maquininha com o visor adulterado contra vítimas idosas: engano face a face qualificado pelo §2º-A. Os mesmos três réus foram julgados em duas comarcas: em Carapicuíba, dois responderam só pela associação e um foi absolvido; em Arujá, os dois foram condenados no §2º-A. | 2, 4, 5, 6 |
+| 2 | CL 56 | FE 105 | Maquininha com o visor adulterado, em venda porta a porta, sem contato à distância: engano face a face qualificado pelo §2º-A. Três réus aparecem nos dois processos, por golpes com 25 dias de intervalo. Em Carapicuíba, entre sete denunciados, dois deles responderam só pela associação e o terceiro foi absolvido; no segundo grau, o absolvido foi condenado no 288, o executor que a vítima reconhecera na polícia foi absolvido do estelionato, e a titular da conta que recebeu o dinheiro ficou como a única condenada no §2º-A (6 anos e 4 meses, somado o 288), enquanto o réu que o acórdão põe em posição de liderança, não denunciado pelo estelionato, ficou com 1 ano em regime aberto. Em Arujá, os dois que em Carapicuíba responderam só pela associação foram condenados no §2º-A, com a pena do condutor reduzida a 4 anos no segundo grau, e o terceiro, citado por edital, teve o processo suspenso. | 2, 4, 5, 6 |
 | 3 | CL 42 | FE 35 | A conta de passagem típica do falso parente por WhatsApp. No CL 42, quatro titulares foram alcançados e nenhum autor, com 34 meses do fato à denúncia, condenação no 171 §4º e reparação fixada. No FE 35, o titular único admite ter cedido a conta mediante pagamento e é condenado no §2º-A. | 1, 3, 4, 5, 6, 7 |
 | 4 | FE 107 | FE 55 | A subida ao recrutador. No FE 107, o recrutador foi condenado e o titular absolvido, com o §2º-A afastado porque a ligação telefônica não bastaria. No FE 55, a titular que emprestou a conta por R$ 50 foi absolvida, e o negociador e o arregimentador foram condenados no §2º-A. | 1, 2, 4, 5, 6 |
 | 5 | FE 115 | FE 77 | O mesmo papel, o do titular que empresta a conta à falsa central. Antes da Lei 15.397/2026, foi condenado a 4 anos no §2º-A. Depois dela, a desclassificação para o inciso VII foi recusada por falta de prova do financiamento, e a apelação foi desprovida. | 1, 3, 6, 7 |
@@ -72,7 +72,7 @@ A questão 1 é examinada em seis pares, a 2 em quatro, a 3 em cinco, a 4 em qua
 
 Há pontos que só a leitura integral decide e que podem levar à troca de um caso:
 
-- no CL 56 e no FE 105, se houve contato à distância antes da maquininha, o que tiraria o par do engano face a face da questão 2;
+- no CL 56 e no FE 105, se houve contato à distância antes da maquininha, o que tiraria o par do engano face a face da questão 2 (decidido na leitura de 21/11/2026: não houve; nos dois casos a abordagem é a de vendedores que passam de carro pela rua, e o par fica);
 - no INV 14, se os fatos narrados continham o que o 154-A exigiria;
 - no CL 42, por que um golpe por WhatsApp de 2022 foi denunciado e julgado sem o §2º-A;
 - no FE 54, o papel do denunciado, que a codificação dá como elo logístico e a sentença como titular da conta destinatária condenado como coautor;
