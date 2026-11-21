@@ -78,6 +78,16 @@ Há pontos que só a leitura integral decide e que podem levar à troca de um ca
 - no FE 54, o papel do denunciado, que a codificação dá como elo logístico e a sentença como titular da conta destinatária condenado como coautor;
 - no INV 39, o número de denunciados, que a extração conta como dois porque conta as vítimas.
 
+## Par do TJPA (acréscimo de 21/11/2026)
+
+Depois da consolidação da fase 2, o usuário pediu um par do TJPA no mesmo formato, confirmado na mesma data. Ele fica fora da ordem dos oito pares e foi preparado antes do par 3, com o qual conversa: o FE 35 é, no TJSP, o titular único que admite a cessão e é condenado no §2º-A.
+
+| Ordem | Âncora | Contraste | O que o par mostra | Questões |
+| --- | --- | --- | --- | --- |
+| TJPA 1 | PA-FE 74 | PA-FE 46 | O golpe do falso parente por WhatsApp, em Belém, com uma titular de conta digital denunciada sozinha e identificada pelo cadastro do banco e pela selfie de abertura. No PA-FE 74, a titular nega e atribui o uso da conta à perda do celular, sem extrato nem registro de acesso nos autos, e é absolvida pelo art. 386, VII, do CPP. No PA-FE 46, a titular admite ter vendido a conta por R$ 300,00, o banco informa o último login no dia do fato, e ela é condenada no §2º-A e no §4º com a participação de menor importância. | 1, 3, 5, 6, 7 |
+
+O par mostra, no caso, o achado da fase 2: a absolvição integral FE é de 29,7% no TJPA (23 das 27 em Belém) e de 12,1% no TJSP, e o que decide a absolvição do titular é a prova da adesão, que a titularidade não dá. Fichas em `docs/aula/fichas/PA_FE_74.md` e `PA_FE_46.md`, exercícios em `docs/aula/exercicios/tjpa01-*.html`, slides em `docs/aula/slides/tjpa01.md` e índice em `dados/aula/casos_aula_tjpa.csv`.
+
 ## A ficha
 
 Identificação: código do caso, par e papel no par, estrato, comarca, datas do fato, da denúncia, da sentença e do acórdão, e peças lidas. A ficha não traz nomes; as partes são designadas pela função (o titular, a vítima idosa, o recrutador).
