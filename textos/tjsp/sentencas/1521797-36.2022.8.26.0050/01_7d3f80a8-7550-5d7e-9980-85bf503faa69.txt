@@ -1,0 +1,177 @@
+[Texto nativo do PJe]
+
+TRIBUNAL DE JUSTIÇA DO ESTADO DE SÃO PAULO
+COMARCA DE SÃO PAULO
+Foro Central Criminal Barra Funda
+21ª Vara Criminal
+Av. Abrahão Ribeiro, 313, São Paulo-SP - cep 01133-020
+Horário de Atendimento ao Público: das 13h00min às17h00min
+
+1521797-36.2022.8.26.0050 - lauda
+SENTENÇA
+
+Processo Digital nº:
+1521797-36.2022.8.26.0050
+Classe – Assunto:
+Ação Penal - Procedimento Ordinário - Estelionato
+Documento de Origem:
+Inquérito Policial, Inquérito Policial, Portaria - 2174846/2022 - 78º D.P. JARDINS, 19341404 - 78º D.P. JARDINS, 2174846 - 78º D.P. JARDINS
+Autor:
+Justiça Pública
+Réu e Averiguado:
+IRIS SOUZA DA SILVA e outro
+
+Prioridade Idoso
+Tramitação prioritária
+
+Juiz(a) de Direito: Dr(a). GUSTAVO COMIN OTAVIANO
+
+Vistos.
+
+IRIS SOUZA DA SILVA, devidamente qualificada nos autos, foi processada como incursa nas penas do artigo 171, § 2º-A, c.c. o artigo 29, caput, ambos do Código Penal, porque, no dia 24 de junho de 2022, por volta das 15h00, nesta cidade e comarca, teria obtido, para si ou para outrem, vantagem ilícita no valor de 65.000,00 reais, em prejuízo da vítima Maria Tereza do Amaral, induzindo-a e mantendo-a em erro, mediante fraude eletrônica consistente no uso de contato telefônico e informações bancárias para simular a atuação de uma central de atendimento do Banco do Brasil.
+
+A persecução penal teve início o Inquérito Policial nº 2174846-04.2022.010342 e a Portaria de Instauração do Procedimento Investigatório (fls. 1/2).
+
+Na sequência, foram acostados o Boletim de Ocorrência nº CT6239/2022 e seus adendos (fls. 4/7), o Comprovante de Registro de Demanda formalizado no Banco Central do Brasil (fl. 8), o Comprovante Bancário de Transferência (TED) anterior (fl. 9), bem como capturas de tela (prints) das mensagens de WhatsApp e do histórico de chamadas com a linha fraudulenta (fls. 10/11).
+
+Aportaram aos autos os Relatórios de Sistema da Polícia Civil (fls. 12/15), o print do histórico de ligações da central de atendimento clonada pelos criminosos (fl. 16), as telas do aplicativo do Banco do Brasil (fls. 17/19) e o Extrato de Movimentação Financeira evidenciando o débito fraudulento da TED de 65.000,00 reais (fl. 20).
+
+Juntaram-se extratos financeiros complementares (fls. 22/23), a tela de confirmação de reclamação no Procon-SP (fl. 24 e fls. 31/35) e a confirmação de registro no Banco Central (fl. 25).
+
+Colheu-se o Termo de Declarações e Representação Criminal da vítima (fl. 35), além de Termos de Depoimentos Complementares (fls. 36/40).
+
+O Banco Bradesco encaminhou ofício com os dados da agência recebedora em Fortaleza-CE (fl. 43).
+
+Apresentado o minucioso Relatório de Investigação subscrito pelo Setor de Inteligência (fls. 45/57), sobreveio o Despacho de Indiciamento Formal da ré (fl. 67) e a expedição de Carta Precatória à Polícia Civil do Ceará (fls. 68/69).
+
+A investigada Iris foi interrogada em sede policial (fls. 101/102), sendo elaborado o Relatório Final do Inquérito Policial (fls. 104/105).
+
+Houve decisão determinando a quebra de sigilo bancário e expedição de ofício requisitando informações (fls. 114/116). Em resposta, o Banco Bradesco forneceu a ficha cadastral da conta de titularidade da ré e os extratos bancários, nos quais se observou que, após o recebimento da quantia ilícita, foram efetuados saques e transferências, inclusive para outra conta da própria acusada (fls. 116/121).
+
+Determinou-se a solicitação de dados de login referentes ao acesso à conta da vítima (fl. 122).
+
+O Banco do Brasil respondeu informando que não houve acesso em ambiente interno de agência, mas sim acesso à conta da vítima através de um aplicativo de celular identificado como "IphonedeGarotos", posteriormente bloqueado (fl. 133).
+
+O Ministério Público ofereceu a denúncia (fls. 137/141), nos seguintes termos: “Consta do incluso inquérito policial que, no dia 24 de junho de 2022, nesta cidade e Comarca da Capital, IRIS SOUZA DA SILVA, qualificada a fls. 101, concorreu de qualquer forma para obtenção, para si e em favor de terceiro não identificado nos autos, de vantagem ilícita no valor de R$ 65.000,00 (sessenta e cinco mil reais), em prejuízo de Maria Tereza do Amaral, que foi induzida em erro, mediante ardil e meio fraudulento. Segundo apurado, na data dos fatos, indivíduo não identificado e autor da fraude, entrou em contato com a vítima, através de ligação telefônica, identificou-se como sendo funcionário do Banco do Brasil e alegou que precisava realizar a confirmação de algumas transações efetuadas em sua conta bancária. O interlocutor mencionou algumas operações de sua conta, incluindo o recebimento de uma quantia em dinheiro e um pagamento efetuado à sua diarista, o que levou a vítima a crer que ele tinha acesso às suas movimentações bancárias e que a ligação era proveniente da instituição financeira. Na sequência, o autor da fraude disse que uma das transferências não reconhecidas pela vítima poderia ser revertida, caso ela seguisse as instruções por ele passadas. Assim, simulando estar resolvendo seu problema, o interlocutor repassou-lhe a conta nº 65643-7, do Banco Bradesco, agência 237, CPF nº 627.600.693-97, de titularidade de IRIS, e orientou-a a realizar uma transferência no valor de R$ 65.000,00 (sessenta e cinco mil reis), para esta conta. Acreditando na veracidade das informações, a vítima procedeu conforme as orientações recebidas, transferindo, através de seu aplicativo do Banco, a referida importância para a conta da denunciada. Após a operação, o autor da fraude ainda lhe disse para deletar seu aplicativo e baixá-lo em seu celular apenas no dia seguinte, bem como informou que ela receberia uma mensagem da instituição, acerca do atendimento prestado, o que ocorreu. Em seguida, ao consultar sua conta, a ofendida concluiu que havia caído em um golpe. É certo, portanto, que IRIS forneceu os dados de sua conta corrente a indivíduo não identificado e autor da fraude e aceitou receber a vantagem ilícita em sua conta bancária, concorrendo, assim, com consciência e vontade, para a prática do crime de estelionato. Indagada formalmente acerca dos fatos, IRIS negou ter ciência dos valores recebidos, disse que perdeu o cartão de sua conta e seus documentos pessoais na época dos fatos, porém não registrou boletim de ocorrência e afirmou não ter emprestado sua conta para qualquer pessoa, bem como que a utilização de caixas eletrônicos, são exigidas suas informações biométricas (fls. 101). A despeito da negativa da denunciada, o extrato bancário de fls. 119 comprova que IRIS não apenas recebeu em sua conta os valores ilicitamente obtidos da vítima, como também efetuou três saques após o recebimento, dois deles de R$ 1.250,00 (mil, duzentos e cinquenta reais) e outro de R$ 500,00 (quinhentos reais) cada, como também transferiu o restante para outras contas bancárias, também de sua titularidade.”.
+
+A denúncia foi recebida por decisão proferida em 13 de fevereiro de 2025 (fls. 144/145).
+
+A Defensoria Pública do Estado do Ceará apresentou resposta a acuação e indicação de endereço atualizado da ré para citação e intimação (fls. 180/185).
+
+Afastadas as hipóteses de absolvição sumária, o recebimento da denúncia foi mantido e designou-se audiência de instrução, debates e julgamento (fls. 187/199).
+
+Foram encartadas a Folha de Antecedentes Criminais (fl. 200) e a Certidão de Distribuição Criminal da acusada (fl. 207).
+
+A ré foi devidamente citada e intimada (fl. 223).
+
+Durante a instrução, tomou-se o depoimento da vítima. Ao final, a ré foi interrogada.
+
+Ultrapassada a fase de diligências, manifestaram-se as partes em alegações finais orais.
+
+O Ministério Público pugnou pela condenação nos exatos termos da exordial. A Defesa, por seu turno, pleiteou a absolvição por insuficiência probatória, argumentando o desconhecimento da fraude por parte da acusada.
+
+É o relatório do essencial. Fundamento e DECIDO.
+
+Trata-se de ação penal pública incondicionada em que se busca apurar a responsabilidade criminal da acusada pelo delito de estelionato mediante fraude eletrônica descrito na denúncia.
+
+Ausentes questões preliminares, presentes as condições da ação e os pressupostos processuais, passo desde logo ao exame do mérito.
+
+A materialidade do crime restou sobejamente comprovada pela Portaria (fls. 1/2), pelos Boletins de Ocorrência (fls. 4/7), pelos comprovantes de transferência bancária/TED da quantia de 65.000,00 reais (fl. 20 e fls. 22/23), pela resposta à quebra de sigilo bancário contendo os extratos da conta da ré (fls. 119/120), pela constatação de acesso invasivo via aplicativo (fl. 133), bem como pela prova oral colhida sob o crivo do contraditório.
+
+No tocante à autoria, ao término da instrução, não há dúvida de que a acusada está diretamente envolvida nos fatos descritos na denúncia, concorrendo ativamente para o exaurimento do golpe. A dinâmica restou plenamente esclarecida.
+
+Na fase extrajudicial:
+
+A vítima Maria Tereza do Amaral (fls. 36/40) declarou que, por volta das 15h00 do dia dos fatos, recebeu uma ligação telefônica de um número da central de atendimento do banco (SAC 4004-0001), na qual um indivíduo que se identificou como "Tiago" dizia ser do Banco do Brasil. Para ganhar sua confiança, o rapaz confirmou diversas transações bancárias recentes e de cunho sigiloso (como transferências para a "CAOA" e recebimentos), levando-a a crer que ele realmente tinha acesso direto à sua conta. Em seguida, sob o pretexto de desfazer uma suposta transferência fraudulenta de 65.000,00 reais, o indivíduo a induziu a acessar o aplicativo e a preencher dados para uma nova "TED" em favor da conta do Banco Bradesco de titularidade de Iris Souza da Silva (agência 237, conta 65643-7). A vítima pontuou que o criminoso a tranquilizou dizendo que a operação reverteria o valor, e ainda a orientou a deletar o aplicativo do banco do seu celular, enviando-lhe logo após um protocolo de atendimento. No dia seguinte, ao reinstalar o aplicativo, percebeu que o valor de 65.000,00 reais havia sido subtraído de sua conta. Além disso, por meio do termo de declarações de fl. 36, ratificou os termos do RDO nº CT6239-1/2022 e representou pela continuidade das investigações.
+
+Em juízo, a vítima Maria Tereza relatou que havia aumentado o valor de transferência entre contas de sua conta bancária porque iria adquirir um veículo. Não estava bem de saúde em uma sexta-feira, quando tocou seu telefone, e uma pessoa (de voz masculina) dizendo-se de seu banco informando que teria ocorrido uma transação de R$ 65.000,00 sem seu conhecimento. Ficou apavorada, estava sozinha e não desconfiou que se tratasse de um golpista, pois era uma pessoa educada. Após informar sobre a transferência, a pessoa que entrou em contato disse que teria como reverter a transação. Para tanto, orientou-a a entrar na opção “transferir”, indicou os dados do Banco Bradesco e o valor de transferência e disse que o montante voltaria para sua conta. Não se recorda se colocou a senha, mas provavelmente deve ter colocado. Anunciaram que se tratava de um sistema do banco para evitar transferências fraudulentas. Após isso, orientou-a a fechar o aplicativo e somente abrir no dia seguinte, sob a justificativa de que a operação ocorreria nesse ínterim. Ante as explicações dadas e a gentileza da pessoa no telefone, não teve qualquer desconfiança de que se tratava de um golpe. No dia seguinte, ao entrar no aplicativo de seu banco, verificou que aquele montante de R$ 65.000,00 não estava mais em sua conta. Acrescentou que a pessoa que ligou para ela informou transações feitas um ou dois dias antes em sua conta, o que reforçou sua confiança na ligação realizada. Afirmou que ajuizou ação civil que foi julgada improcedente tanto em primeira quanto em segunda instância, mas logrou êxito no STJ. Disse, ainda, que o número que apareceu no seu celular era o mesmo número do banco, que está em seu cartão.
+
+A ré Iris Souza da Silva, ao ser interrogada em sede policial por meio de carta precatória (fls. 101/102), declarou que foi titular da conta bancária no Bradesco apontada, mas que a utilizava apenas para receber salário, tendo sido bloqueada em setembro de 2022 por uso irregular. Negou ter conhecimento da TED no valor de 65.000,00 reais e afirmou jamais ter sacado, gasto ou utilizado tal quantia. Alegou não conhecer a vítima Maria Tereza ou a pessoa de "Tiago". Justificou que, em data que não se recorda do ano de 2022, perdeu seu cartão bancário junto com seus documentos (CPF e RG) e as senhas, mas não registrou boletim de ocorrência. Sustentou que nunca emprestou a conta e que, após perder o cartão, chegou a acessar o aplicativo e visualizar a informação de um "segundo titular", o que achou estranho, mas depois não conseguiu mais acesso. Por fim, aduziu que para o uso do caixa eletrônico eram necessárias suas informações biométricas.
+
+Diante do conjunto probatório amealhado, a condenação é medida de rigor.
+
+A fraude restou comprovada ante as evidências documentais inquestionáveis colhidas ao longo da persecução penal, tudo devidamente ratificado sob o crivo do contraditório.
+
+Os extratos bancários obtidos mediante quebra de sigilo (fls. 119/120) comprovam de forma cristalina que a conta bancária de titularidade da ré IRIS SOUZA DA SILVA foi o destino final e direto da transferência (TED) no valor de 65.000,00 reais subtraídos da vítima mediante o ardil da falsa central de atendimento.
+
+Em delitos de estelionato cometidos por meio de fraude eletrônica, o dolo e a coautoria extraem-se, invariavelmente, da análise do fluxo financeiro e das circunstâncias fáticas da infração.
+
+É cediço que o sucesso dessas empreitadas criminosas depende intrinsecamente da figura do "conteiro" – indivíduo que fornece seus dados bancários para o recebimento e imediata pulverização do proveito do crime, dificultando o rastreio pelas autoridades.
+
+Ao atuar dessa forma, o titular da conta adere de forma consciente e voluntária à conduta dos demais estelionatários, configurando o liame subjetivo e a coautoria previstos no artigo 29 do Código Penal. Nesse cenário, a disponibilização de conta bancária pessoal para o recebimento de expressiva vantagem ilícita atrai para a acusada a inversão do ônus da prova. Incumbe à titular da conta o dever de apresentar justificativa idônea, plausível e documentalmente comprovada para o aporte dos valores, nos exatos termos do artigo 156 do Código de Processo Penal — ônus do qual a Defesa não se desincumbiu.
+
+A versão exculpatória apresentada pela ré em sede policial – alegando ter perdido seu cartão bancário junto com senhas e documentos (RG e CPF) no ano de 2022, desconhecendo a transação – encontra-se totalmente isolada e destituída de qualquer verossimilhança. Causa extrema estranheza e afasta qualquer presunção de boa-fé o fato de a acusada não ter registrado Boletim de Ocorrência noticiando a suposta perda de todos os seus documentos e cartões, tampouco ter contatado a instituição financeira para realizar o bloqueio tempestivo da conta.
+
+Ademais, a prova documental fulmina a tese defensiva: os extratos de fls. 119/120 evidenciam que, logo após o aporte do capital ilícito de 65.000,00 reais, houve rápida e expressiva movimentação da quantia, com saques e transferências, inclusive para outra conta de titularidade da própria acusada. Tais atos demonstram o seu total controle e domínio sobre o proveito do crime, desmentindo a frágil alegação de que, após perder o cartão, não teve mais acesso à conta bancária.
+
+Assim, diante das evidências substanciais expostas nos autos, restou inequívoca a prática delitiva de estelionato por parte da ré.
+
+Os relatos da vítima, nas duas fases da persecução penal, e a documentação colacionada revelaram claramente a trama ardilosa da qual a ré participou. Por meio de narrativas enganosas, os agentes criminosos conceberam uma série de artifícios com o propósito de enganar a vítima, induzindo-a e mantendo-a em erro para que pensasse estar tratando com instituição financeira legítima e que iria reverter uma operação fraudulenta.
+
+Soma-se ao exposto que o depoimento da ofendida, em conjunto com as demais provas produzidas nos autos, deve ser considerado como prova apta à condenação. Em relação ao seu valor probatório: "Em sede de crimes patrimoniais, os quais são praticados na clandestinidade, a palavra da vítima merece maior credibilidade que a versão sistematicamente negativa dos acusados, visto que não se concebe que alguém possa, gratuitamente, incriminar um desconhecido." (revisão nº 224.054/3 Relator Orlando Bastos, RJDTACRIM 18/194). Convém destacar que a vítima não conhecia a ré previamente e a defesa não demonstrou qualquer motivo escuso que pudesse ter para pretender acusar a ré falsamente.
+
+Nessa mesma linha, já se posicionou o Superior Tribunal de Justiça:
+
+“PROCESSUAL PENAL. AGRAVO REGIMENTAL NO AGRAVO EM RECURSO ESPECIAL.  ROUBO CIRCUNSTANCIADO. ABSOLVIÇÃO. REEXAME DE MATÉRIA FÁTICA E  PROBATÓRIA. IMPOSSIBILIDADE. SÚMULA 7/STJ. AGRAVO NÃO PROVIDO.
+1. O Tribunal de origem, soberano na análise dos fatos e das provas, ao desclassificar a conduta dos acusados pela prática do crime tipificado no art. 157, § 2º, II, para a do 155, § 4º, IV, ambos do  Código Penal, reconheceu estarem sobejamente comprovadas nos autos a materialidade e a autoria do delito.
+2. Cumpre ressaltar que, nos crimes contra o patrimônio, geralmente praticados na clandestinidade, tal como ocorrido nesta hipótese, a palavra da vítima assume especial relevância, notadamente quando narra com riqueza de detalhes como ocorreu o delito, tudo de forma bastante coerente, coesa e sem contradições, máxime quando corroborado pelos demais elementos probatórios, quais sejam o reconhecimento feito pela vítima na Delegacia e os depoimentos das testemunhas colhidos em Juízo.
+3. Nesse contexto, a alteração do julgado, no sentido de absolver qualquer um dos réus implicaria o reexame do material fático-probatório dos autos, não sendo o caso de mera revaloração da prova, tal como alegam os agravantes. Assim, imperiosa a aplicação do óbice da Súmula 7/STJ.
+4. Agravo regimental a que se nega provimento.” (AgRg no AREsp n. 865.331/MG, relator Ministro Ribeiro Dantas, Quinta Turma, julgado em 9/3/2017, DJe de 17/3/2017.)
+
+Por todo o exposto, ficou bem demonstrado o dolo de estelionato na conduta da acusada, que participou ativamente do golpe, prestando o inestimável auxílio material ao fornecer os dados de sua conta bancária pessoal para o recebimento dos valores e dar destinação a eles, no intuito de enganar a vítima e mantê-la em erro para a obtenção de vantagem ilícita.
+
+É importante ressaltar que denúncia imputa à ré a prática da forma qualificada do crime de estelionato, prevista no art. 171, §2º-A, do Código Penal:
+
+“§ 2º-A. A pena é de reclusão, de 4 (quatro) a 8 (oito) anos, e multa, se a fraude é cometida com a utilização de informações fornecidas pela vítima ou por terceiro induzido a erro por meio de redes sociais, contatos telefônicos ou envio de correio eletrônico fraudulento, ou por qualquer outro meio fraudulento análogo.”
+
+Veja-se que este é exatamente o caso dos autos. Inicialmente, a vítima Maria Tereza foi enganada por meio de uma engenhosa ligação telefônica oriunda de um número que simulava o telefone oficial do Serviço de Atendimento ao Cliente de seu banco (SAC 4004-0001).
+
+Em um segundo momento, ainda sob o engodo telefônico, a ofendida foi induzida a realizar a transferência bancária fraudulenta, recebendo inclusive mensagens contendo falsos protocolos do banco (contato telefônico/mensagem de texto).
+
+Assim, não restam dúvidas de que o tipo qualificado restou devidamente preenchido e que, portanto, suas sanções deverão ser aplicadas à hipótese em comento.
+
+Em situações análogas, a jurisprudência desta Corte assim já se pronunciou:
+
+“APELAÇÃO CRIMINAL. ESTELIONATO. ARTIGO 171, CAPUT, DO CÓDIGO PENAL. FRAUDE EM EMPRÉSTIMO. UTILIZAÇÃO DE CONTA BANCÁRIA PARA RECEBIMENTO DE VALORES ILÍCITOS. MATERIALIDADE E AUTORIA COMPROVADAS. DOLO CONFIGURADO. DOSIMETRIA DA PENA. REDUÇÃO DA FRAÇÃO DE EXASPERAÇÃO DA PENA-BASE. PROVIMENTO PARCIAL. I. CASO EM EXAME Recurso de apelação interposto contra sentença que julgou procedente a ação penal para condenar a ré pela prática do crime de estelionato, impondo-lhe pena de 1 ano e 6 meses de reclusão, em regime inicial aberto, além de 15 dias-multa, substituída a pena privativa de liberdade por restritivas de direitos, com fixação de valor mínimo indenizatório, sendo deferido o direito de recorrer em liberdade. II. QUESTÃO EM DISCUSSÃO Há duas questões em discussão: (i) definir se há insuficiência probatória e ausência de dolo aptas a ensejar a absolvição da apelante; (ii) estabelecer se a fração de aumento da pena-base, na primeira fase da dosimetria, observa os princípios da proporcionalidade e da razoabilidade. III. RAZÕES DE DECIDIR A materialidade delitiva é comprovada por boletins de ocorrência, comprovantes de transferências bancárias, relatórios policiais e demais documentos acostados aos autos, corroborados pela prova oral produzida sob o crivo do contraditório. A autoria delitiva resta demonstrada pela utilização da conta bancária da apelante para o recebimento de valores obtidos mediante fraude, sem comprovação de desconhecimento da origem ilícita dos depósitos. O conjunto probatório evidencia a adesão consciente da apelante ao esquema fraudulento de falsos empréstimos, caracterizado por indução da vítima em erro mediante ardil e simulação de contratação financeira. A palavra da vítima apresenta-se firme, coerente e amparada por elementos objetivos de prova, inexistindo indícios de falsa imputação. A condenação é mantida, pois não demonstrada a alegada ausência de dolo ou participação da ré nos fatos. Na dosimetria da pena, embora justificadas as circunstâncias judiciais desfavoráveis, a fração de aumento da pena-base em 1/2 mostra-se excessiva, diante da ausência de fundamentação concreta que autorize patamar superior. Em observância aos princípios da proporcionalidade e da razoabilidade, impõe-se a redução da fração de exasperação para 1/4, resultando em pena-base redimensionada. IV. DISPOSITIVO E TESE Recurso parcialmente provido. Tese de julgamento: A utilização consciente de conta bancária para o recebimento de valores oriundos de fraude caracteriza a participação dolosa no crime de estelionato. A palavra da vítima, quando coerente e corroborada por provas documentais, é apta a fundamentar decreto condenatório. A exasperação da pena-base deve observar critérios de proporcionalidade, adotando-se fração moderada na ausência de fundamentação concreta para aumento superior. Dispositivos relevantes citados: Código Penal, art. 171, caput; Código Penal, art. 59; Código de Processo Penal, art. 599. Jurisprudência relevante citada: STJ, AgRg no HC nº 870.190/SP, Rel. Min. Ribeiro Dantas, Quinta Turma, j. 15.04.2024; STJ, AgRg no AREsp nº 1.895.576/MG, Rel. Min. Laurita Vaz, Sexta Turma, j. 27.09.2022.” (TJSP; Apelação Criminal 1501790-81.2022.8.26.0451; Relator (a): Isaura Cristina Barreira; Órgão Julgador: 7ª Câmara de Direito Criminal; Foro de Piracicaba - 3ª Vara Criminal; Data do Julgamento: 23/02/2026; Data de Registro: 23/02/2026) (Destaquei)
+
+“DIREITO PENAL. APELAÇÃO. ESTELIONATO. RECURSO DESPROVIDO. I. Caso em Exame Os réus foram denunciados e processados por obterem vantagem ilícita de R$ 888,78, em prejuízo de M. D. G., mediante fraude eletrônica, simulando contrato de empréstimo financeiro. A denúncia foi recebida em 08 de novembro de 2023. A sentença condenou os réus à pena de 01 ano de reclusão, substituída por prestação de serviços à comunidade. II. Questão em Discussão  2. A questão em discussão consiste em: (i) aplicação equivocada do artigo 171, §2º-A do CP, pois a Lei 14.155/2021 não estava vigente à época dos fatos; (ii) alegação de decadência por ausência de representação da vítima; (iii) inexistência de provas e fragilidade das evidências; (iv) dosimetria da pena considerando antecedentes e condições pessoais dos réus; (v) concessão de perdão judicial. III. Razões de Decidir  3. A sentença de primeiro grau aplicou corretamente o artigo 171, caput do CP, por constituir emendatio libelli, prevista no artigo 383 do CPP. A representação da vítima foi considerada suficiente para atender ao disposto no artigo 171, §5º do CP. 4. A materialidade e autoria do delito foram comprovadas por documentos, que demonstram que os réus foram destinatários dos valores, justificando a condenação. A dosimetria da pena foi corretamente avaliada, considerando a primariedade dos réus. IV. Dispositivo e Tese  5. Recurso desprovido. Mantença da sentença recorrida pelos próprios fundamentos.  Tese de julgamento: 1. A aplicação do artigo 171, caput, do CP foi correta, considerando a data dos fatos. 2. A representação da vítima atende ao disposto legal, não havendo nulidade. Legislação Citada: . Código Penal, art. 171, caput; art. 171, §5º; art. 593. . Código de Processo Penal, art. 383; art. 384; . Regimento Interno do TJSP: art. 252. . Lei 14.155/2021. Jurisprudência Citada: . STJ, AgRg no AREsp 1237162/DF, Rel. Min. Nefi Cordeiro, DJe 16/03/2020. . STJ, AgRg no HC 620.954/PB, Rel. Min. Felix Fischer, DJe 15/12/2020. . STJ, AgRg no HC 507.006/SP, Rel. Min. Ribeiro Dantas, DJe 03/09/2020. . TJSP, Apelação Criminal 0021192-82.2015.8.26.0577, Rel. Xisto Albarelli Rangel Neto, j. 30/04/2021. TJSP, Apelação Criminal 0027940-96.2016.8.26.0577, Rel. Moreira da Silva, j. 22/06/2021.” (TJSP; Apelação Criminal 1500079-45.2022.8.26.0288; Relator (a): Rodrigues Torres; Órgão Julgador: 13ª Câmara de Direito Criminal; Foro de Ituverava - 1ª Vara; Data do Julgamento: 08/07/2025; Data de Registro: 08/07/2025)
+
+Confirmo, ademais, que se tratou de delito consumado. A posse do dinheiro da vítima foi transferida para a acusada, passando para a esfera de livre disponibilidade da agente. O estelionato realmente se consumou. Nesse sentido: “Como se sabe o crime de estelionato é de natureza material, consumando-se no momento em que bens ou valores entram na esfera de disponibilidade do autor do delito” (AgRg no HC 693.045/CE, Rel. Ministro REYNALDO SOARES DA FONSECA, QUINTA TURMA, julgado em 05/10/2021, DJe 08/10/2021).
+
+Inviável a desclassificação da conduta para a figura típica prevista no art. 171, §2º, inciso VII, do Código Penal, advinda da Lei nº 15.397/2026. Não se está diante – no caso dos autos – de novatio legis in mellius, visto que a conduta de tal hipótese exige a cessão da conta bancária para o trânsito de “recursos destinados ao financiamento de atividade criminosa ou que dela sejam fruto”, o que não foi demonstrado nos autos.
+
+Conforme largamente fundamentado acima, as condutas praticadas pela acusada amoldam-se precisamente ao tipo penal previsto no art. 171, §2º-A, do Código Penal. Logo, farto o conjunto probatório, impõe-se a condenação da ré nos moldes da denúncia.
+
+Passo à dosagem das penas que serão impostas à acusada, observando o disposto no art. 68 do Código Penal.
+
+Ao delito descrito pelo artigo 171, § 2º-A, do Código Penal são cumulativamente cominadas as penas de reclusão de 4 (quatro) a 8 (oito) anos, e multa.
+
+Na primeira fase, atenta aos critérios do artigo 59 do Código Penal, e analisando a Folha de Antecedentes (fl. 200) e a Certidão de Distribuição Criminal da acusada (fl. 207), constato que a ré é tecnicamente primária e não ostenta maus-antecedentes. O expressivo prejuízo sofrido (65.000,00 reais) é inerente ao tipo penal no caso em tela, não justificando, por si só, na ausência de outros fatores, a exacerbação. Assim, fixo a pena-base no mínimo legal, resultando em 04 (quatro) anos de reclusão e 10 (dez) dias-multa.
+
+Na segunda fase, inexistem atenuantes ou agravantes a serem consideradas. A pena intermediária resulta inalterada em 04 (quatro) anos de reclusão e 10 (dez) dias-multa.
+
+Na terceira fase, ausentes causas de aumento ou de diminuição devidamente delineadas na denúncia, torno a pena definitiva em 04 (quatro) anos de reclusão e pagamento de 10 (dez) dias-multa.
+
+DISPOSIÇÕES FINAIS
+
+O valor unitário dos dias-multa será fixado no mínimo legal, atualizado, ante a ausência de elementos acerca de abastada condição econômica da ré.
+
+O regime inicial para cumprimento da pena privativa de liberdade será o ABERTO, nos termos do artigo 33, § 2º, alínea "c", e § 3º, do Código Penal, tratando-se de ré primária, possuidora de bons antecedentes e com reprimenda não superior a quatro anos.
+
+Preenchidos os requisitos previstos no artigo 44, incisos I, II e III, e § 2º, do Código Penal, SUBSTITUO a pena privativa de liberdade por duas penas restritivas de direitos, consistentes em prestação de serviços à comunidade ou a entidades públicas, pelo mesmo prazo da pena privativa de liberdade, e prestação pecuniária no valor de 01 (um) salário-mínimo, com destinação a ser fixada pelo Juízo da Execução.
+
+Diante do exposto, JULGO PROCEDENTE a pretensão punitiva deduzida na denúncia para CONDENAR a ré IRIS SOUZA DA SILVA, qualificada nos autos, como incursa nas sanções do artigo 171, § 2º-A, c.c. o artigo 29, caput, ambos do Código Penal, à pena de 04 (quatro) anos de reclusão, em regime inicial ABERTO, e ao pagamento de 10 (dez) dias-multa, no valor unitário mínimo, restando a reprimenda corporal substituída por duas penas restritivas de direitos (prestação de serviços e prestação pecuniária).
+
+Concedo à acusada o direito de recorrer em liberdade, uma vez que respondeu ao processo solta e não se fazem presentes, neste momento, os requisitos autorizadores da prisão preventiva previstos no artigo 312 do Código de Processo Penal, mormente diante do regime fixado e da substituição da pena operada.
+
+Condeno a acusada ao pagamento das custas processuais, ressalvada eventual gratuidade já deferida (art. 804, CPP).
+
+Sobrevindo o trânsito em julgado: (a) lance-se o nome no rol de culpados; (b) elaborem-se os cálculos de multa e expeça-se certidão de sentença para os devidos fins; (c) oficie-se ao TRE para fins de suspensão dos direitos políticos; (d) oficie-se ao IIRGD; (e) expeçam-se os ofícios e guias de execução competentes.
+
+Oportunamente, arquivem-se.
+
+Publique-se. Registre-se. Intimem-se. Cumpra-se.
+
+São Paulo, 27 de maio de 2026.
+
+DOCUMENTO ASSINADO DIGITALMENTE NOS TERMOS DA LEI 11.419/2006, CONFORME IMPRESSÃO À MARGEM DIREITA

@@ -70,6 +70,8 @@ A unidade principal é a denúncia, sem as duplicatas, com o peso amostral do pr
 
 - Codificar à mão uma segunda subamostra independente se os indicadores forem usados como variável de resultado. Os 12 casos da rodada 2 não bastam para estimar precisão por estrato.
 - A codificação de artifício e papel cobre agora as 200 denúncias: 36 manuais (`codificacao_manual_r*.csv`) e 164 assistidas (`codificacao_assistida.csv`, seção própria abaixo). A assistida ainda precisa de conferência humana por amostra antes de servir como variável de resultado.
+- `tentativa` exige "14, II" ou "tentad" e perde a capitulação "c.c. o art. 14" sem inciso, como no FE 39. Corrigir com cuidado, porque o art. 14 da Lei 10.826/2003 (porte de arma) também aparece em denúncias.
+- `n_denunciados_cap` conta nomes na capitulação e às vezes inclui a vítima ou um corréu desmembrado (INV 39 e FE 50 têm 2 na extração e 1 réu na sentença).
 
 ## Validação dos indicadores por codificação manual
 
@@ -149,3 +151,20 @@ O achado das rodadas manuais se confirma no corpus. Em CL o valor do fato entrou
 - INV 3 e 32 (mesma denúncia): `titular_conta`, porque a imputação de invasão aos três se apoia nas contas e nos repasses; `misto` seria a leitura alternativa.
 - INV 36 e CL 25: denúncias do GAECO muito longas, lidas por trechos.
 - FE 23 (dinâmica confusa e canal não descrito), FE 31 (triangulação no Mercado Livre sem conta dos denunciados), FE 67 (locação sem devolução, sem meio eletrônico, em `compra_fraudulenta_empresa`) e FE 97 (sistema da VR Benefícios em `invasao_sistema_bancario`).
+
+## Sentenças dos 29 casos da matriz
+
+Coletadas pelo Codex em 21/11/2026 com `scripts/pipe_sentencas.py`, na ordem de `dados/extracao/matriz_casos.csv`. Por caso, `pdpj_list_movimentos` com `tipo_filter="cedência"` devolve o movimento de procedência ou improcedência e o documento da sentença. A data do movimento coincidiu com a de disponibilização no cjpg em todos os casos. Em `data_sentenca` vai a data de assinatura, que no FE 39 e no FE 96 precede o movimento em três dias. O CL 1 não tem documento ligado ao movimento e foi lido pelas cinco páginas da cópia de execução, com OCR ruidoso.
+
+Saídas: texto em `textos/tjsp/sentencas/<numero>/NN_<id>.txt` (sem a linha `Original:`), manifesto em `textos/tjsp/manifesto_sentencas.csv`, status em `dados/codex/status_sentencas.csv` e resultado em `sentencas_matriz.csv`. Este último tem uma linha por sentença, com `caso`, `numero`, `data_sentenca`, `resultado`, `capitulacao_sentenca`, `coincide_denuncia` (sim, parcial ou não), `pena` e `observacao`. São 30 linhas: os 29 casos e a sentença do corréu do CL 11, proferida em 15/10/2025 no processo de origem 1539767-78.2024.8.26.0050 e guardada na pasta do CL 11.
+
+O resultado foi lido no dispositivo e conferido na fundamentação quando havia desclassificação, absolvição parcial ou pena fora do esperado. Não houve conferência por segundo leitor.
+
+Resultados: 28 casos com condenação de ao menos um réu e uma absolvição integral (INV 14). A sentença diverge da capitulação da denúncia em quatro casos: FE 107 afasta o §2º-A, FE 84 requalifica o 155 §4º-B em 171 §2º-A por emendatio libelli, e CL 11 e CL 7 desclassificam a extorsão para o 171 §2º, VII (Lei 15.397/2026, de 30/04/2026, publicada em 04/05/2026), como lei mais benéfica. O FE 77, de 27/05/2026, recusou a mesma desclassificação por falta de prova de que os recursos financiassem atividade criminosa ou dela proviessem.
+
+Conferência dos indicadores do cjpg (`amostra_tjsp.csv`) contra a leitura:
+
+- `condena` procura "condeno" ou "julgo procedente" nos últimos 4 mil caracteres do teor e acertou 21 das 28 condenações, sem falso positivo. Perdeu quatro porque o teor do cjpg para perto de 50 mil caracteres e corta o dispositivo (FE 79, CL 18, CL 7 e INV 39; na amostra, 16 teores ficam entre 49 mil e 49,93 mil). Perdeu outras três (FE 55, FE 122, FE 54) por redação como "julgo parcialmente procedente".
+- `absolve` procura "absolvo" ou "julgo improcedente" e marcou 1 dos 8 casos com absolvição de réu ou imputação. Perde "ABSOLVER o réu", "rejeito o pedido" e a absolvição dentro de procedência parcial.
+- Para a amostra inteira, os dois indicadores não servem como resultado. O resultado deve vir da leitura do dispositivo, ou de regex nova validada contra estas 30 linhas.
+

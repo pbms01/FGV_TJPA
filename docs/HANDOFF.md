@@ -1,4 +1,4 @@
-# Handoff: fase 1 TJSP, amostra, extração e codificação de papel fechadas (20/11/2026, noite)
+# Handoff: fase 1 TJSP, com amostra, extração, codificação de papel e sentenças da matriz (21/11/2026)
 
 Repositório pbms01/FGV_TJPA, branch `coleta-datajud`, que ainda não foi mesclado no main. Este arquivo substitui o estado da conversa e deve ser lido antes de qualquer passo novo.
 
@@ -23,6 +23,8 @@ Arquivos de dados:
 
 Codificação de artifício, meio e papel: cobre as 200 denúncias, com 36 manuais (`dados/extracao/codificacao_manual_r1.csv` e `_r2.csv`) e 164 assistidas (`dados/extracao/codificacao_assistida.csv`). A assistida foi feita pelo assistente, por leitura caso a caso com `scripts/lote_codificacao.py` e gravação por `scripts/grava_codificacao.py`, e ainda não foi conferida pelo pesquisador. Regras, categorias novas e casos de fronteira estão na seção própria do `dados/extracao/LEIAME.md`.
 
+Sentenças: as 29 da matriz de seleção foram lidas, com mais a do corréu do CL 11 (`scripts/pipe_sentencas.py`). Texto em `textos/tjsp/sentencas/<numero>/`, manifesto em `textos/tjsp/manifesto_sentencas.csv`, status em `dados/codex/status_sentencas.csv` e resultado, capitulação acolhida e pena em `dados/extracao/sentencas_matriz.csv` (30 linhas). As outras 171 denúncias da amostra ainda não têm sentença lida. A seção final do `dados/extracao/LEIAME.md` descreve a coleta.
+
 Extração: `python scripts/extrai_denuncias.py` gera `dados/extracao/denuncias_tjsp.csv` (200 linhas, cerca de 72 colunas) e `dados/extracao/segmentos/<numero>.json` (cota, narrativa, capitulação). As regras, a validação e as decisões estão em `dados/extracao/LEIAME.md`, a leitura obrigatória antes de mexer na extração.
 
 ## Decisões tomadas
@@ -46,6 +48,14 @@ Distribuição pela capitulação, sem duplicatas e com peso dentro do estrato:
 
 Nenhuma denúncia capitula o 171 §2º, VII.
 
+Sentenças da matriz (29 casos, sem peso, porque a matriz é escolha e não amostra):
+
+- Há condenação de ao menos um réu em 28; a absolvição integral é o INV 14, em que a devassa do celular da ex-companheira foi denunciada como furto e caiu por falta de ânimo de assenhoramento.
+- A sentença muda a capitulação da denúncia em quatro: FE 107 afasta o §2º-A, FE 84 passa do 155 §4º-B ao 171 §2º-A por emendatio libelli, CL 11 e CL 7 desclassificam a extorsão para o 171 §2º, VII (Lei 15.397/2026) como lei mais benéfica.
+- O FE 77 (27/05/2026) recusou essa desclassificação, por falta de prova de que os recursos financiassem atividade criminosa ou dela proviessem. São duas leituras do novo inciso em juízos de primeiro grau.
+- O titular da conta de passagem vai da absolvição (FE 55, FE 107) a 5a4m em semiaberto (CL 18, oito dias antes da lei), com 4 anos no §2º-A como resposta mais comum. No mesmo fato do CL 11, o executor recebeu 11a4m em fechado e o cedente da conta 1 ano em aberto.
+- Os indicadores `condena` e `absolve` do cjpg acertaram 21 de 28 condenações e 1 de 8 absolvições. O teor do cjpg para perto de 50 mil caracteres e perde o dispositivo das sentenças longas, de modo que não servem como resultado.
+
 Achados da codificação de 198 denúncias sem duplicatas (36 manuais e 162 assistidas), com peso dentro do estrato:
 
 - O valor do fato entrou em conta de denunciado em 48 das 50 denúncias CL (96,5%) e em 90 das 114 FE (78,8%). As duas CL restantes estão fora da tipologia (tráfico e anabolizantes). Em FE o papel se divide em titular 52,7%, misto 26,1% e executor sem conta 21,2%; os executores concentram-se em compras fraudulentas contra empresas e no golpe do motoboy.
@@ -57,10 +67,11 @@ A validação das regex fora da amostra (rodada r2, 12 casos) deu concordância 
 ## Próximos passos, em ordem
 
 1. Conferência da codificação assistida pelo pesquisador, numa amostra estratificada (por exemplo, 8 casos por estrato com semente nova) somada aos casos de fronteira listados no `dados/extracao/LEIAME.md`. Correções entram por `python3 scripts/grava_codificacao.py`, que substitui a linha do mesmo número. A conferência decide também se as categorias novas (`relacional`, `extorsao_transferencia`, `taxa_antecipada`, `devassa_privacidade`, `falso_relacionamento`, `outro`) ficam ou são fundidas.
-2. Capitulação acolhida na sentença e resultado (condenação ou absolvição), campos previstos no produto e ainda não coletados. A `amostra_tjsp.csv` já traz `condena` e `absolve`, indicadores sem conferência calculados sobre o teor da sentença no cjpg, e `cd_doc_cjpg`, mas o teor não foi guardado no repo. Há dois caminhos: reler a sentença pelo cjpg, no navegador, pelo `cd_doc_cjpg`, ou pelo Codex, uma chamada de batch por processo com a sentença no mapa.
-3. Portar as melhorias do pipe da conversa (`scripts/pipe_conversa.py`) para `scripts/codex_denuncias.py`: candidata de reserva antes do "Recebida a denúncia", filtro de denúncia nomeada, deduplicação por código PJe, guarda contra folha de inquérito e regras de OCR.
-4. Máscara de CPF, RG, telefone e endereço para a versão de circulação, quando o usuário decidir.
-5. Fase 2 (TJPA), a replanejar. Convém testar se a consulta de julgados do TJPA permite a mesma busca textual.
+2. Sentenças das outras 171 denúncias da amostra, pelo mesmo roteiro do `scripts/pipe_sentencas.py` (seção do Codex abaixo). Para isso, o `next` precisa ler a lista de `amostra_tjsp.csv` e pular os 29 já lidos, e convém escrever uma regex de resultado sobre o dispositivo, validada contra as 30 linhas de `sentencas_matriz.csv`, para não depender de `condena` e `absolve` do cjpg.
+3. Variável da Lei 15.397/2026 nas sentenças: data do fato e da sentença em relação a 04/05/2026, aplicação ou recusa do 171 §2º, VII e fundamento. A matriz já tem os pares (CL 11, CL 7 e FE 77 depois da lei; CL 18 e FE 115 antes), que conversam com a análise contrafactual do Project.
+4. Portar as melhorias do pipe da conversa (`scripts/pipe_conversa.py`) para `scripts/codex_denuncias.py`: candidata de reserva antes do "Recebida a denúncia", filtro de denúncia nomeada, deduplicação por código PJe, guarda contra folha de inquérito e regras de OCR.
+5. Máscara de CPF, RG, telefone e endereço para a versão de circulação, quando o usuário decidir.
+6. Fase 2 (TJPA), a replanejar. Convém testar se a consulta de julgados do TJPA permite a mesma busca textual.
 
 ## Como operar o Codex (TecJustica) nesta pesquisa
 
@@ -76,6 +87,7 @@ A validação das regex fora da amostra (rodada r2, 12 casos) deu concordância 
 - Sem denúncia nomeada, use a petição ou manifestação do MP imediatamente anterior ao movimento "Recebida a denúncia". A denúncia às vezes está em "Outros".
 - Quando o texto nativo vem cortado, procure no mapa uma cópia posterior da mesma peça, sem texto indexado, e leia-a por OCR.
 - O `pipe_conversa.py` usa `/tmp/cur.json` como estado do processo corrente, que se perde ao trocar de sessão.
+- Sentenças, com `scripts/pipe_sentencas.py`: `next` dá o caso; `pdpj_list_movimentos(NUM, tipo_filter="cedência")` dá o movimento de procedência ou improcedência e o ID da sentença; `ids NUM ID[:chars]` imprime os IDs repetidos; o batch com eles grava em arquivo; `grava <arquivo>` guarda texto, manifesto e status e imprime só o dispositivo. Sem documento no movimento, `pdpj_list_documentos` acha a sentença pelo nome (CL 1, CL 11). O estado fica em `/tmp/sent_cur.json`; rodar `ids` antes de cada batch.
 
 ## Restrições permanentes
 
@@ -91,4 +103,4 @@ A validação das regex fora da amostra (rodada r2, 12 casos) deu concordância 
 - `docs/RUNBOOK_TJSP.md`: roteiro do cjpg e do Codex.
 - `docs/plano-captura.md`: plano completo.
 - `dados/extracao/LEIAME.md`: extração.
-- No Project "Criminologia Informática" do claude.ai, o doc `claude/plano-captura-base-tjpa.md` espelha o estado da coleta, e o `claude/matriz-selecao-casos.md` resume a matriz de 29 casos para exame criminológico (documento editável em https://claude.ai/artifact/4rUKtiqaqKiia9LUKqGm3Y), que convém usar para ordenar a coleta das sentenças do passo 2.
+- No Project "Criminologia Informática" do claude.ai, o doc `claude/plano-captura-base-tjpa.md` espelha o estado da coleta, e o `claude/matriz-selecao-casos.md` resume a matriz de 29 casos para exame criminológico (documento editável em https://claude.ai/artifact/4rUKtiqaqKiia9LUKqGm3Y), agora com a seção de sentenças.
