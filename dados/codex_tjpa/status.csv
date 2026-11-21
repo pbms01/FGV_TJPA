@@ -50,3 +50,19 @@ numero,grupo,status,denuncia,sentenca,chamadas,quando,detalhe
 0801497-10.2023.8.14.0401,1,so_sentenca,0,1,4,2026-11-21T18:29:38+00:00,2g; denúncia em petição juntada sob sigilo e filtrada como stub na lista (a11b8a13); sem texto: cand a11b8a13-5d74-554e-8e34-1ff65c546b66; nenhuma das 1 candidatas era denúncia
 0801497-10.2023.8.14.0401,1,so_sentenca,0,1,4,2026-11-21T18:29:58+00:00,2g; denúncia em petição juntada sob sigilo e filtrada como stub na lista (a11b8a13); sem texto: cand a11b8a13-5d74-554e-8e34-1ff65c546b66; nenhuma das 1 candidatas era denúncia; a11b8a13 é Denúncia.pdf (juntada 2023-02-18) mas o Codex devolve sem conteúdo e a lista a filtra como stub
 0800533-86.2023.8.14.0087,1,ok,1,1,4,2026-11-21T18:30:29+00:00,2g; APF; Limoeiro do Ajuru; furto de celular e transferências
+0800267-58.2024.8.14.0057,1,ok,1,1,5,2026-11-21T18:31:21+00:00,1g; desmembrado do 0800643-78.2023.8.14.0057; APF; Santa Izabel
+0800267-58.2024.8.14.0057,1,ok,1,1,5,2026-11-21T18:31:46+00:00,1g; desmembrado do 0800643-78.2023.8.14.0057; APF; Vara Única de Santa Maria do Pará
+0803456-37.2021.8.14.0061,1,ok,1,1,3,2026-11-21T18:32:31+00:00,1g; classe IP defasada; Vara Criminal de Tucuruí
+0819887-96.2021.8.14.0401,1,ok,1,1,3,2026-11-21T18:33:04+00:00,2g; 351 docs; Belém; apelação não provida
+0804511-02.2023.8.14.0401,1,ok,1,1,3,2026-11-21T18:33:45+00:00,1g; classe IP defasada; DCCIBER; réu de MT
+0802658-21.2024.8.14.0013,1,ok,1,1,4,2026-11-21T18:34:50+00:00,2g; duas cópias de sentença (movimento sem texto indexado e republicação de 2026-06-09); sem texto: sent 386faee9-f6dc-5bbc-98d1-d755e5965d54
+0805386-22.2022.8.14.0040,1,sigilo,0,0,1,2026-11-21T18:35:07+00:00,visão geral recusada (sigilo ou segredo de justiça)
+0021621-23.2018.8.14.0401,1,ok,1,1,3,2026-11-21T18:35:37+00:00,2g; migrado Libra; 2018; DPRCT; furto
+0005766-67.2019.8.14.0401,1,ok,3,3,3,2026-11-21T18:36:17+00:00,2g; 663 docs; migrado; denúncia em 3 partes; três decisões tipo sentença (2024-08-23 principal; 2025-03-25 e 2025-04-07)
+0813074-82.2023.8.14.0401,1,so_sentenca,0,2,4,2026-11-21T18:36:58+00:00,1g; classe IP defasada; declínio do TJSC; sentença absolutória em audiência (termo e Sentença.html); nenhuma das 1 candidatas era denúncia
+0813074-82.2023.8.14.0401,1,ok,1,2,4,2026-11-21T18:37:31+00:00,1g; classe IP defasada; declínio do TJSC; denúncia em Petição.pdf; sentença absolutória em audiência (termo e Sentença.html); denúncia juntada como Petição.pdf
+0801803-28.2022.8.14.0008,1,ok,1,1,3,2026-11-21T18:37:54+00:00,1g; classe IP defasada; DEAM; ameaça e art. 154-A; trânsito em julgado
+0810363-70.2024.8.14.0401,1,ok,1,1,3,2026-11-21T18:38:32+00:00,2g; associação criminosa e corrupção de menores; DJEN casou CL numa publicação do 2g
+0810363-70.2024.8.14.0401,1,ok,1,1,3,2026-11-21T18:38:40+00:00,2g; associação criminosa e corrupção de menores; DJEN casou CL numa publicação do 2g; tema: réu cedeu a conta para receber pix de vítimas de roubo (conta laranja)
+0010324-06.2019.8.14.0006,1,ok,1,1,3,2026-11-21T18:39:13+00:00,1g; classe IP defasada; migrado; 2019; trânsito em julgado
+0012873-31.2020.8.14.0401,1,ok,1,1,4,2026-11-21T18:39:51+00:00,1g; classe IP defasada; migrado; DCCIBER; réu de MT

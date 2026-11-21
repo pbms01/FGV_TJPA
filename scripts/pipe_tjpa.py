@@ -129,17 +129,25 @@ def cmd_sel(num, specs):
     json.dump({"numero": num, "pecas": pecas}, open(CUR, "w"))
     # acima de ~100 mil caracteres o resultado vai a arquivo sem prévia; de ~50 a 100 mil, a arquivo com prévia
     # de 2 KB; abaixo, entra inteiro no contexto. Tamanho desconhecido (sentença vinda do movimento): 30 IDs.
-    if any(not p["chars"] for p in pecas):
+    # Desconhecida conta como 15 mil; as conhecidas sozinhas precisam passar de 60 mil, porque a sentença
+    # desconhecida pode vir vazia ("sem conteudo") e o lote não pode cair inteiro no contexto.
+    conhecido = sum(p["chars"] for p in pecas)
+    desconhecidas = sum(1 for p in pecas if not p["chars"])
+    if not conhecido:
         tot, rep = 0, max(1, 30 // len(pecas))
     else:
-        tot = sum(p["chars"] for p in pecas)
-        rep = max(1, min(50 // len(pecas), -(-115000 // max(tot, 1))))
+        tot = conhecido + 15000 * desconhecidas
+        rep = -(-115000 // tot)
+        if desconhecidas:
+            rep = max(rep, -(-60000 // conhecido))
+        rep = max(1, min(50 // len(pecas), rep))
     print(num, len(pecas), "peças", tot, "chars, rep", rep, file=sys.stderr)
     print(json.dumps([p["id"] for p in pecas] * rep))
 
 
 def e_denuncia(texto):
-    cab = texto[:4000]
+    # junta palavras escritas com letras espaçadas ("D E N Ú N C I A"), comuns no cabeçalho do MPPA
+    cab = re.sub(r"\b(?:\w ){3,}\w\b", lambda m: m.group(0).replace(" ", ""), texto[:4000])
     return bool(RE_DEN.search(cab)) and not RE_NAO_DEN.search(cab[:700])
 
 
@@ -180,7 +188,7 @@ def cmd_grava(arq, chamadas, extra=""):
             # a capitulação pode estar em qualquer parte da denúncia; fica a primeira encontrada
             cap = cap or (re.sub(r"\s+", " ", m[0])[:170] if m else "")
         else:
-            m = re.findall(r"(?:condeno|conden[áa]-l[oa]s?|absolvo|absolv[êe]-l[oa]s?|julg\w+\s+(?:parcialmente\s+)?"
+            m = re.findall(r"(?:condeno|condenar|conden[áa]-l[oa]s?|absolvo|absolv[êe]-l[oa]s?|julg\w+\s+(?:parcialmente\s+)?"
                            r"(?:im)?procedente|extin\w+ a punibilidade)[^.]{0,140}", plano, re.I)
             # o último "condeno" costuma ser o das custas; ele só vale se não houver outro
             m = [x for x in m if not re.search(r"custas|honor", x, re.I)] or m
