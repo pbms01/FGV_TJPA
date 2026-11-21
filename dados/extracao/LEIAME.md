@@ -265,7 +265,7 @@ Gerado por `python3 scripts/extrai_denuncias.py tjpa`, `python3 scripts/sentenca
 - `segmentos_tjpa/<numero>.json`: cota, narrativa, capitulação e a âncora usada.
 - `sentencas_tjpa.csv`: uma linha por processo com sentença ou decisão terminativa gravada (115: 110 dos processos com denúncia e 5 `so_sentenca`), com as colunas de `sentencas_amostra.csv` e mais `caso` no formato `PA-FE 12` (estrato e ordem na fila, com o prefixo para não confundir com os casos do TJSP), `status_coleta`, `duplicata_de`, `operacao`, `data_sentenca_djen`, `data_doc` e `nome_doc` (do manifesto), `terminativa`, `suspenso_366` e `pena_fonte`.
 - `resumo_tjpa.json`: as tabelas da consolidação, para o TJPA e, com as mesmas regras, para o TJSP.
-- `validacao_tjpa.csv`: o registro da leitura à mão (104 linhas, por rodada).
+- `validacao_tjpa.csv`: o registro da leitura à mão (105 linhas, por rodada).
 
 ### Camada `mppa` das denúncias
 
