@@ -1,0 +1,75 @@
+[Texto nativo do PJe]
+
+6ª Vara Criminal da Capital
+
+S E N T E N Ç A
+
+PROCESSO n. 0000352-20.2021.8.14.0401
+
+AUTOR: MINISTÉRIO PÚBLICO DO ESTADO DO PARÁ
+
+RÉU: DIEGO FARIAS PADILHA, FELIPE MOREIRA DA CONCEIÇÃO, SAULO FREITAS DA CONCEIÇÃO e MARIO BRUNO OLIVEIRA ARAÚJO
+
+DELITO APURADO: Art. 155, § 4º, inciso II, e art. 288, ambos do Código Penal
+
+1. RELATÓRIO
+
+Trata-se de Ação Penal Pública movida pelo Ministério Público do Estado do Pará em desfavor de DIEGO FARIAS PADILHA, FELIPE MOREIRA DA CONCEIÇÃO, SAULO FREITAS DA CONCEIÇÃO e MARIO BRUNO OLIVEIRA ARAÚJO, já devidamente qualificados nos autos, imputando-lhes a prática do delito de furto qualificado pela fraude, tipificado no artigo 155, § 4º, inciso II, do Código Penal, e associação criminosa, previsto no artigo 288 do mesmo diploma legal.
+
+A peça acusatória narra que os réus, em tese, associaram-se a outros indivíduos, ainda não totalmente identificados, com o propósito de cometer crimes cibernéticos contra a instituição financeira ITAÚ UNIBANCO S/A e seus clientes. O modus operandi detalhado na denúncia descreve a obtenção ilícita de dados bancários por meio de páginas falsas (phishing) e arquivos maliciosos (trojans), visando o acesso indevido às contas correntes dos clientes para a realização de transferências e pagamentos fraudulentos. Especificamente quanto ao denunciado DIEGO FARIAS PADILHA, a peça vestibular aponta que, em 24 de dezembro de 2014, teria recebido em sua conta bancária, no Banco Bradesco, a quantia de R$ 145.000,00 (cento e quarenta e cinco mil reais), proveniente de transferências fraudulentas originadas da conta da empresa VOLGA CONSTRUTORA LTDA EPP, vítima dos delitos. Subsequentemente, o réu teria realizado saques parciais dos valores, num total de R$ 84.000,00 (oitenta e quatro mil reais) e R$ 70.000,00 (setenta mil reais), sendo que este último valor teria sido repassado a um corréu, MARIO BRUNO OLIVEIRA ARAÚJO. O Ministério Público aduz que tais condutas configurariam os crimes de furto qualificado pela fraude e associação criminosa, em concurso material.
+
+A denúncia foi recebida em 01 de agosto de 2022 (ID 72982394).
+
+DIEGO foi citado em 21 de setembro de 2021 (ID 77898112) e em resposta à acusação, apresentada por advogado particular, negou a prática dos delitos, alegando ter sido vítima de um golpe ao tentar realizar uma transação comercial de venda de bebidas, na qual o suposto comprador, identificado como "Simão", teria realizado depósitos em sua conta e, posteriormente, exigido a devolução do dinheiro. Informou também que buscou auxílio na delegacia e em seu banco, sendo que sua conta foi bloqueada, sem que lhe fossem fornecidas informações claras sobre a natureza da investigação. Aduziu, ainda, a ausência de provas materiais e de vínculo direto com os demais denunciados ou com a alegada organização criminosa, pleiteando sua absolvição sumária ou, subsidiariamente, a aplicação da pena no mínimo legal.
+
+Em relação aos demais corréus, a instrução processual demonstrou a seguinte situação processual: 1) FELIPE MOREIRA DA CONCEIÇÃO não foi pessoalmente citado, mas apresentou resposta à acusação por advogado não habilitado nos autos (ID 84541425). Dada a ausência de certeza quanto ao seu conhecimento sobre os termos da acusação, acabou sendo citado por edital; 2) SAULO FREITAS DA CONCEIÇÃO teve sua punibilidade declarada extinta em razão de óbito, conforme comprovado nos autos (ID 95295374); e 3) MARIO BRUNO OLIVEIRA ARAÚJO foi citado por edital, não compareceu aos autos nem constituiu advogado, tendo o processo e o prazo prescricional suspensos em relação a ele, nos termos do art. 366 do CPP (ID 94651128).
+
+Em audiência de instrução e julgamento, realizada em 25 de junho de 2024, foram ouvidas as testemunhas de acusação e interrogado o réu DIEGO FARIAS PADILHA (ID 118584518).
+
+Não houve requerimento de diligências na fase do art. 402 do CPP.
+
+O Ministério Público, em sua manifestação, pugnou pela condenação de DIEGO FARIAS PADILHA e FELIPE MOREIRA DA CONCEIÇÃO nos termos da denúncia, pelas práticas do crime de furto qualificado pela fraude e de associação criminosa. A assistência de acusação, representada pelo Banco Itaú Unibanco S/A, ratificou os argumentos ministeriais e requereu igualmente a condenação dos réus.
+
+A Defesa de Diego Farias Padilha, por sua vez, postulou a absolvição.
+
+2. FUNDAMENTAÇÃO
+
+A imputação penal feita a DIEGO FARIAS PADILHA, no que tange ao furto qualificado mediante fraude (Art. 155, § 4º, II, do CP) e associação criminosa (Art. 288 do CP), exige a comprovação inequívoca de sua participação consciente e voluntária nos fatos descritos, bem como do elemento subjetivo específico de cada tipo penal. Ocorre que, apesar dos extensos esforços investigativos e da minuciosa análise das transações financeiras, o conjunto probatório amealhado aos autos não logrou êxito em demonstrar, de forma cabal e para além de qualquer dúvida razoável, a efetiva e consciente participação do acusado DIEGO FARIAS PADILHA nos crimes que lhe foram atribuídos.
+
+As testemunhas de acusação forneceram informações valiosas sobre o complexo esquema de fraudes eletrônicas e a engenharia social empregada pelos criminosos para subtrair valores de diversas vítimas, inclusive da Volga Construtora Ltda. EPP. Detalharam o modus operandi e os prejuízos suportados. No entanto, em nenhum momento de seus depoimentos, tanto em sede policial quanto em juízo, conseguiram estabelecer um vínculo direto e claro entre o acusado DIEGO FARIAS PADILHA e a concepção, organização ou execução do esquema fraudulento. Apenas o identificaram como um dos muitos beneficiários das transferências ilícitas, sem apontar qualquer prova de seu animus associandi para a prática reiterada de crimes ou de seu dolo na participação da fraude.
+
+A Defesa apresentou uma versão coerente e plausível para o recebimento dos valores em sua conta, sustentando que se tratava de um pagamento adiantado por uma venda de grande volume de bebidas. O fato de ter registrado um boletim de ocorrência (ID 78834677 - Pág. 3) em 19 de janeiro de 2015, logo após os eventos de 24 de dezembro de 2014, narrando os mesmos fatos apresentados em sua defesa, é um elemento crucial. Essa narrativa contemporânea aos fatos, feita à autoridade policial sem qualquer previsão de imputação criminal contra ele naquele momento, confere substancial credibilidade à sua versão. Não se trata de uma tese construída a posteriori para justificar o recebimento do dinheiro, mas de um registro formal e temporalmente próximo aos acontecimentos, no qual o acusado se apresenta como vítima de um golpe.
+
+Além disso, a prova documental anexada pela defesa, notadamente os extratos bancários (ID 85504566 a ID 85504584) e as notas fiscais de compra de bebidas (ID 85504586), demonstram uma intensa e regular movimentação financeira em sua conta, condizente com a atividade empresarial que o réu alegou exercer. Essa intensa atividade comercial afasta a presunção de que a conta bancária teria sido utilizada exclusivamente como "laranja" ou para fins de ocultação de valores ilícitos, integrando um esquema criminoso. Ao contrário, a movimentação é compatível com o exercício regular de sua profissão.
+
+A dúvida sobre a participação de DIEGO FARIAS PADILHA no evento delitivo é séria e razoável. A prova da autoria, em um processo penal, deve ser robusta, indene de dúvidas e apta a demonstrar, com a certeza necessária, a culpabilidade do acusado. Meros indícios ou suposições, por mais fortes que possam parecer em um primeiro momento, não são suficientes para fundamentar um decreto condenatório. O princípio do in dubio pro reo impõe que, diante da incerteza e da insuficiência probatória, a balança da justiça penda em favor do réu. A tese defensiva, amparada por prova documental coeva aos fatos e por elementos que demonstram a atividade lícita do acusado, somada à ausência de provas diretas de seu envolvimento consciente no esquema fraudulento, é suficiente para gerar essa dúvida.
+
+Para que houvesse condenação pelo crime de furto qualificado mediante fraude, seria necessário provar que Diego Farias Padilha agiu com dolo de subtrair os valores, induzindo a vítima em erro ou burlando sua vigilância por meio da fraude, ou que ele tinha ciência da origem ilícita dos valores no momento do recebimento e agiu para ocultá-los. Para a associação criminosa, seria indispensável a demonstração do vínculo associativo estável e permanente para a prática de crimes. Nenhuma dessas elementares foi comprovada de maneira satisfatória em relação a Diego Farias Padilha.
+
+Portanto, diante do quadro probatório delineado, não se verifica a prova suficiente para a condenação do acusado DIEGO FARIAS PADILHA. A presunção de inocência, elevada à categoria de direito fundamental, somente pode ser afastada por prova cabal e irrefutável da autoria e materialidade delitiva, o que não ocorreu no presente caso. A subsistência de dúvidas razoáveis acerca da participação do acusado no evento delitivo impõe a sua absolvição, em homenagem ao princípio do in dubio pro reo.
+
+3. DISPOSITIVO
+
+DIANTE DO EXPOSTO, e por tudo o mais que dos autos consta, julgo improcedente a pretensão punitiva estatal e, com fulcro no artigo 386, inciso VII, do Código de Processo Penal, ABSOLVO o acusado DIEGO FARIAS PADILHA das imputações que lhe foram feitas, por não existir prova suficiente para a sua condenação.
+
+Publique-se. Registre-se. Intimem-se.
+
+Após o trânsito em julgado, arquivem-se os autos com as cautelas de praxe.
+
+DA SITUAÇÃO PROCESSUAL DOS RÉUS FELIPE MOREIRA DA CONCEIÇÃO E MARIO BRUNO OLIVEIRA ARAÚJO
+
+Em relação ao réu FELIPE MOREIRA DA CONCEIÇÃO, considerando que foi citado por edital, não compareceu aos autos e nem constituiu defensor, determino a suspensão do processo e do curso do prazo prescricional, nos termos do artigo 366 do Código de Processo Penal.
+
+Quanto ao réu MARIO BRUNO OLIVEIRA ARAÚJO, mantenho a decisão de ID 94651128, que já determinou a suspensão do processo e do curso do prazo prescricional em relação a ele, na forma do artigo 366 do Código de Processo Penal.
+
+Para ambos os réus, considerando a pena máxima cominada ao delito de furto qualificado (art. 155, § 4º, II, do CP), que é de 8 (oito) anos de reclusão, o prazo prescricional é de 12 (doze) anos, conforme artigo 109, inciso III, do Código Penal. Em observância à jurisprudência consolidada dos Tribunais Superiores, que limita o período de suspensão da prescrição ao máximo da pena cominada ao delito, o prazo total para a ocorrência da prescrição, a partir da data do recebimento da denúncia (01 de agosto de 2022), será de 24 (vinte e quatro) anos. Assim, a data provável para a prescrição da pretensão punitiva, caso não sejam localizados ou o processo não retome seu curso, será em 01 de agosto de 2046.
+
+Determino, ainda, a remessa dos autos ao Ministério Público para a realização de diligências periódicas, a cada período de 1 (um) ano, com o objetivo de localizar os réus e possibilitar o prosseguimento do feito.
+
+Belém, datado e assinado eletronicamente.
+
+ANDREA FERREIRA BISPO
+
+Juíza de Direito
+
+Titular da 6ª Vara Criminal da Capital
