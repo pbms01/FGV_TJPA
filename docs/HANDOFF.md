@@ -4,7 +4,7 @@ Repositório pbms01/FGV_TJPA (o GitHub avisa que o endereço novo é https://git
 
 ## Para a próxima sessão: extração da fase 2 (TJPA)
 
-A coleta do TJPA terminou (seção "Fase 2" abaixo e seções finais do `docs/RUNBOOK_TJPA.md`). O passo agora é extrair das 196 peças acusatórias e das 110 sentenças do TJPA os mesmos campos da fase 1, com as mesmas regras, para que os dois tribunais se comparem campo a campo.
+A coleta do TJPA terminou (seção "Fase 2" abaixo e seções finais do `docs/RUNBOOK_TJPA.md`). O passo agora é extrair das 191 denúncias e das 115 sentenças do TJPA (110 dos processos com denúncia e 5 dos que só têm a sentença) os mesmos campos da fase 1, com as mesmas regras, para que os dois tribunais se comparem campo a campo.
 
 Universo: os processos com `status` igual a `ok` (191) ou `so_sentenca` (5) na última linha de cada número em `dados/codex_tjpa/status.csv` (colunas `numero, grupo, status, denuncia, sentenca, chamadas, quando, detalhe`). Metadados por número em `dados/djen/alvos_djen_tjpa.csv`: `consultas` (rótulos FE, FE_amp, INV, CL e EE, este para "estelionato eletrônico"), `orgao_1g` (a vara; o órgão do Codex é o juízo das garantias e não serve), indicadores `m_*` e datas. É censo, sem peso. A coluna `detalhe` traz a nota de cada processo e é a primeira fonte de correção manual.
 
