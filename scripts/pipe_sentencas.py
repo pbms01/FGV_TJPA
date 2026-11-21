@@ -184,7 +184,8 @@ elif cmd == "lote":
             print("DISPOSITIVO:", rs.dispositivo(t, 1100))
             if o["menciona_lei_15397"]:
                 tt = re.sub(r"\s+", " ", t)
-                ms = list(re.finditer(r"desclassific|emendatio|15\.?397", tt, re.I))
+                ms = list(re.finditer(r"desclassific|emendatio", tt, re.I)) + list(rs.RE_LEI_NOVA.finditer(tt))
+                ms.sort(key=lambda m: m.start())
                 print("TRECHO:", tt[max(0, ms[-1].start() - 300): ms[-1].start() + 300])
     else:
         print(f"{r['caso']} {num}: sem texto")

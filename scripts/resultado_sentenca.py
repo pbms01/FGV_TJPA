@@ -31,8 +31,10 @@ RE_ABS = re.compile(r"\babsolv(o|er|endo|e-se|[eê]-l[oa]s?)\b|julgo (totalmente
 RE_EXT = re.compile(r"extint[ao] a punibilidade|extin[çc][ãa]o da punibilidade|declaro extint", re.I)
 RE_PARCIAL = re.compile(r"parcialmente procedente|procedente em parte|julgo parcialmente", re.I)
 RE_DESCL = re.compile(r"desclassific|emendatio libelli|nova defini[çc][ãa]o jur[íi]dica|\bart(igo)?\.?\s*383\b", re.I)
-RE_LEI_NOVA = re.compile(r"15\.?397", re.I)
-RE_REGIME = re.compile(r"regime\s+(?:inicial(?:mente)?\s+)?(?:de\s+cumprimento(?:\s+de\s+pena)?\s+)?(?:o\s+)?(fechado|semi-?aberto|aberto)", re.I)
+# Lei 15.397/2026 pelo número (sem pegar números de processo como 1539731) ou pelo novo inciso,
+# citado como "§ 2º, VII" ou "§ 2º-A, VII" do 171 sem o número da lei (CL 43, CL 48, CL 49).
+RE_LEI_NOVA = re.compile(r"(?<![\d.])15\.?397(?!\d)|§\s*2º(?:-A)?,?\s*(?:inciso\s*)?VII\b|inciso VII\)?,?\s*se amolda", re.I)
+RE_REGIME = re.compile(r"regime\s+(?:prisional\s+)?(?:inicial(?:mente)?\s+)?(?:de\s+cumprimento(?:\s+de\s+pena)?\s+)?(?:o\s+)?(fechado|semi-?aberto|aberto)", re.I)
 RE_SUBST = re.compile(r"substitu\w*[^.]{0,160}(restritiv|presta[çc][ãa]o)|substitu[íi]da (na forma|conforme|nos termos)", re.I)
 EXTENSO = {"um": 1, "uma": 1, "dois": 2, "duas": 2, "tres": 3, "três": 3, "quatro": 4, "cinco": 5, "seis": 6,
            "sete": 7, "oito": 8, "nove": 9, "dez": 10, "onze": 11, "doze": 12, "treze": 13, "quatorze": 14,
@@ -50,6 +52,10 @@ def dispositivo(t, n=4000):
     ini = ms[-1].start()
     primeiros = [m for m in ms if m.start() > ini - 6000]
     ini = primeiros[0].start() if primeiros else ini
+    # "Ante o exposto, CONDENO X ... ABSOLVO Y": o condeno não é marco, então recua até o
+    # fecho genérico se ele estiver logo antes do primeiro marco (FE 102)
+    fechos = [m for m in RE_FECHO.finditer(t, max(0, ini - 1500), ini)]
+    ini = fechos[-1].start() if fechos else ini
     return t[ini:ini + n]
 
 
@@ -109,7 +115,7 @@ def pena(trecho):
     W = r"(\d{1,2}|um|uma|dois|duas|tr[eê]s|quatro|cinco|seis|sete|oito|nove|dez|onze|doze)"
     m = re.search(r"\bpenas?\s+(?:privativas?\s+de\s+liberdade\s+|corporal\s+)?(?:total\s+)?(?:de\s+|em\s+)"
                   r"(?:(?:reclus[ãa]o|deten[çc][ãa]o)\s*,?\s*(?:de\s+|pelo prazo de\s+)?)?"
-                  r"(" + W + r"[^.;]{0,140}(?:anos?|m[eê]s(?:es)?|dias?(?![-\w]))(?:[^.;]{0,60}?(?:reclus[ãa]o|deten[çc][ãa]o))?)",
+                  r"(" + W + r"[^.;]{0,140}(?:anos?|m[eê]s(?:es)?|dias?(?![-\w]|\s+(?:de\s+)?multa))(?:[^.;]{0,60}?(?:reclus[ãa]o|deten[çc][ãa]o))?)",
                   trecho, re.I)
     if not m:
         return pena_antiga(trecho)
@@ -118,7 +124,7 @@ def pena(trecho):
     base = txt[:corte.end()] if corte else txt
     a = re.search(W + r"\s*(\([^)]*\)\s*)?anos?", base, re.I)
     me = re.search(W + r"\s*(\([^)]*\)\s*)?m[eê]s(es)?", base, re.I)
-    di = re.search(W + r"\s*(\([^)]*\)\s*)?dias?(?![-\w])", base, re.I)
+    di = re.search(W + r"\s*(\([^)]*\)\s*)?dias?(?![-\w]|\s+(?:de\s+)?multa)", base, re.I)
     meses = (num(a.group(1)) * 12 if a else 0) + (num(me.group(1)) if me else 0) + (round(num(di.group(1)) / 30, 1) if di else 0)
     return (meses or ""), re.sub(r"\s+", " ", base)[:120]
 

@@ -1,0 +1,69 @@
+[Texto nativo do PJe]
+
+TRIBUNAL DE JUSTIÇA DO ESTADO DE SÃO PAULO
+COMARCA de Santos
+Foro de Santos
+3ª Vara Criminal
+Praça Patriarca José Bonifácio, S/Nº, Salas 407/411, 4º andar, Fórum Central - Centro
+CEP: 11013-910 - Santos - SP
+Telefone: (13) 3346-5856 - E-mail: upj1a5crsantos@tjsp.jus.br
+
+1544637-69.2023.8.26.0223 - lauda
+SENTENÇA
+
+Processo nº:
+1544637-69.2023.8.26.0223 - Controle nº 2024/000048
+Classe - Assunto
+Ação Penal - Procedimento Ordinário - Estelionato
+Autor:
+Justiça Pública
+Réu:
+AGNALDO SANTOS PEREIRA JUNIOR
+
+Juíza de Direito: Dra. Carla Milhomens Lopes de Figueiredo Gonçalves De Bonis
+
+Vistos.
+AGNALDO SANTOS PEREIRA JUNIOR foi denunciado como incurso no art. 171, § 2º-A, do Código Penal, porque no dia 26 de novembro de 2023, no período da tarde, na Praça Patriarca José Bonifácio, nº 0, Centro, nesta Cidade e Comarca, obteve para si vantagem ilícita no importe de R$2.000,00 (dois mil reais), por transferência PIX, em prejuízo de Renata Oliveira de Santana, induzindo-a e mantendo-a em erro mediante artifício e meio fraudulento, por meio de redes sociais (Facebook e WhatsApp), ao vender dois ingressos falsificados para o show da cantora Taylor Swift, que ocorreria na data supramencionada, no Allianz Parque, em São Paulo/SP.
+Ingressos nas fls. 8-9, comprovantes de transferência pix nas fls. 10-11, fotografias de tela contendo conversas no aplicativo WhatsApp nas fls. 12-15, fotografias de tela do perfil do vendedor no aplicativo Instagram nas fls. 16-18, registros de chamadas efetuadas pela vítima no aplicativo WhatsApp na fl. 18, fotografia de tela contendo imagem do rosto do vendedor na fl. 19, fotografia de AGNALDO na fl. 112.
+A denúncia foi recebida em 1º de dezembro de 2025 (fl. 200), ao que se seguiu regular citação (fl. 230) e apresentação de resposta à acusação (fl. 241).
+Durante a instrução, foi colhido o depoimento da vítima (termo). Encerrada, o Ministério Público apresentou alegações finais orais e a defesa, memorial escrito (fls. 275-278).
+É o relatório.
+Fundamento e decido.
+Em primeiro lugar, observo que o requisito processual da representação foi satisfatoriamente preenchido pela manifestação de vontade da vítima, conforme se vê do termo de declarações juntado na fl. 98.
+À autoridade policial, Renata Oliveira de Santana narrou que  visando adquirir ingressos ao show da cantora Taylor Swift, para levar sua filha, uma vez que estavam esgotados nas bilheterias e no site oficial, procurou por pessoas que tivessem desistido de ir e desejassem vender os seus. Em um grupo na rede social Facebook, encontrou um homem – posteriormente identificado como sendo o ora acusado – que anunciava ingressos. Ao observar seu perfil no Instagram, viu que havia muitos seguidores e fotografias dele em eventos, o que lhe conferiu certa credibilidade, fazendo supor que trabalhasse no ramo. A fim de confirmar que a pessoa com quem tratava era a mesma das fotos, solicitou que fizessem uma chamada de vídeo, o que foi atendido. Na ocasião, fez uma captura de tela da chamada, a qual foi apresentada na delegacia. O acusado cobrou o valor de R$2.000,00 (dois mil reais) pelos dois ingressos e informou a chave pix para pagamento, afirmando que era de sua empresa. Após efetuar as transferências e enviar-lhe os comprovantes, recebeu um arquivo contendo os dois ingressos supostamente válidos, os quais tinham formato digital. Ao tentar acessar o local do evento, todavia, descobriu que os ingressos que comprara eram falsificados, constando uma adulteração no código sob o QR Code (fls. 6, 164).
+Durante a instrução, corroborou o depoimento anterior, esclarecendo ter acreditado que o agente trabalhava com eventos, a quem pagou R$2.000,00, sem dele receber ingressos verdadeiros. Para ir ao show com a filha, terminou pagando R$8.000,00 na data do evento. Não teve contato pessoal com ele (termo).
+Agnaldo Santos Pereira Junior não foi ouvido na fase policial (fl. 52). Em razão da revelia, também não foi ouvido em Juízo (termo).
+O estelionato, crime tipificado no art. 171 do Código Penal, tem como elementares a obtenção de vantagem ilícita em prejuízo alheio, mediante algum meio fraudulento. Ainda, no caso do estelionato praticado mediante fraude eletrônica, previsto no § 2º-A do dispositivo legal em comento, “a fraude é cometida com a utilização de informações fornecidas pela vítima ou por terceiro induzido a erro por meio de redes sociais, contatos telefônicos ou envio de correio eletrônico fraudulento, ou por qualquer outro meio fraudulento análogo”. E, na hipótese dos autos, foram comprovadas todas as elementares.
+Ficou claro que o acusado obteve para si vantagem indevida, consistente no recebimento da quantia total de R$2.000,00 (dois mil reais), mediante artifício e meio fraudulento, ao anunciar e vender ingressos falsificados para show internacional, por meio da rede social Facebook, concluindo as tratativas por meio do aplicativo WhatsApp, simulando, assim, situação inexistente, com a qual a induziu e manteve a vítima em erro.
+Não há dúvida quanto à autoria, em razão da captura de tela da chamada de vídeo realizada para negociação da venda fraudulenta.
+Por conseguinte, não prospera o pleito defensivo de desclassificação para o delito de estelionato simples, pois a qualificadora do §2º-A do art. 171 do Código Penal incide plenamente quando o ardil e o induzimento a erro se desenvolvem mediante a exploração do ambiente virtual e de redes sociais para a obtenção dos dados e da confiança da vítima, culminando no repasse financeiro eletrônico. No presente caso, a conduta se amolda com exatidão à hipótese legal, visto que o réu se valeu de anúncio na rede social Facebook, de contato telemático via WhatsApp e chamada de vídeo, induzindo a ofendida em erro em contexto estritamente virtual.
+Nesse sentido, decidiu o Egrégio Tribunal de Justiça de São Paulo em caso análogo:
+Direito Penal. Apelação. Estelionato qualificado. Fraude eletrônica. Recurso provido.
+I. Caso em Exame
+Apelação interposta pelo Ministério Público contra sentença que desclassificou a imputação de estelionato qualificado para estelionato simples, condenando Adenilson Murilo da Silva à pena de 1 ano e 4 meses de reclusão, em regime semiaberto.
+II. Questão em Discussão
+2. A questão em discussão consiste em saber se a conduta do réu configura estelionato qualificado por fraude eletrônica, conforme o artigo 171, § 2ºA, do Código Penal.
+III. Razões de Decidir
+3. A fraude envolveu a utilização de informações fornecidas pela vítima em ambiente virtual, configurando estelionato qualificado. O anúncio do leilão falso foi disponibilizado em rede social, e as tratativas com a vítima ocorreram de forma virtual, incluindo a apresentação de falsa "Nota de Venda".
+4. A desclassificação operada na origem não encontra respaldo no arcabouço probatório.
+IV. Dispositivo e Tese
+5. Recurso provido. Réu condenado por estelionato qualificado, com pena reajustada para 4 anos e 8 meses de reclusão, mais 11 dias-multa. Tese de julgamento: 1. A utilização de informações fornecidas pela vítima em ambiente virtual configura estelionato qualificado por fraude eletrônica. 2. A desclassificação para estelionato simples foi indevida.
+(Apelação Criminal n.º 1500237-68.2024.8.26.0470, Rel. Marcelo Gordo, j. 14/11/2025 – grifo acrescido).
+
+Tratando-se de prejuízo de consideravelmente alto, não incide o privilégio disposto no § 1º, do art. 171, do Código Penal.
+Por todos os elementos de convicção coletados, resultando em um conjunto probatório robusto e insofismável, a condenação é medida de rigor.
+Passa-se ao cálculo das penas.
+Segundo os critérios norteadores do artigo 59 do Código Penal, as penas devem partir do mínimo legal abstratamente cominado ao delito de estelionato mediante fraude eletrônica, em 4 anos de reclusão e 10 dias-multa, uma vez que nada extraordinário recomenda maior censurabilidade.
+Ausentes circunstâncias agravantes ou atenuantes.
+Ante o exposto, julgo PROCEDENTE a pretensão punitiva estatal, condenando AGNALDO SANTOS PEREIRA JUNIOR às penas de 4 anos de reclusão e 10 dias-multa, por infração ao art. 171, § 2º-A, do Código Penal.
+Fixo o dia-multa no menor valor unitário, ante a ausência de provas quanto à condição econômica do acusado.
+De acordo com o estatuído pelo art. 44 e seguintes do Código Penal, tendo em vista a ausência de reincidência e o quantum de pena aplicada, fixo o regime aberto para início de cumprimento de pena, substituindo a pena privativa de liberdade aplicada por prestação pecuniária à vítima, no valor correspondente a dois salários-mínimos, além de prestação de serviços à comunidade ou entidades públicas pelo prazo da pena substituída.
+Considerando a pena substituída e que respondeu solto ao processo, poderá apelar em liberdade.
+Anote-se a condenação definitiva no sistema informatizado oficial, comunicando-se ao IIRGD, nos termos do Provimento nº 33/2012 da Corregedoria Geral de Justiça.
+Nos termos do art. 387, IV, do Código de Processo Penal, fixo o valor mínimo de R$2.000,00 (dois mil reais) para a reparação do dano causado pela infração penal.
+Concedo os benefícios da gratuidade processual (fl. 241) e deixo de condená-lo ao pagamento da taxa judiciária.
+Comunique-se à vítima, nos termos do art. 201, § 2º, do Código de Processo Penal.
+P.I.C.
+Santos, 29 de setembro de 2026.
+
+DOCUMENTO ASSINADO DIGITALMENTE NOS TERMOS DA LEI 11.419/2006, CONFORME IMPRESSÃO À MARGEM DIREITA
