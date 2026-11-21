@@ -1,0 +1,56 @@
+[Texto nativo do PJe]
+
+TRIBUNAL DE JUSTIÇA DO ESTADO DE SÃO PAULO
+COMARCA DE SÃO PAULO
+Foro Central Criminal Barra Funda
+10ª Vara Criminal
+Avenida Abrão Ribeiro 313, São Paulo-SP - cep 01133-020
+Horário de Atendimento ao Público: das 13h00min às17h00min
+
+1538849-79.2021.8.26.0050 - lauda
+SENTENÇA
+
+Processo Digital nº:
+1538849-79.2021.8.26.0050
+Classe – Assunto:
+Ação Penal - Procedimento Ordinário - Invasão de Dispositivo Informático
+Autor:
+Justiça Pública
+
+Juiz(a) de Direito: Dr(a). Bruno Paiva Garcia
+VISTOS.
+O MINISTÉRIO PÚBLICO DO ESTADO DE SÃO PAULO denunciou EDUARDO FÉLIX E SILVA GARCIA, qualificado nos autos, como incurso nas penas do artigo 154-A, § 3º, do Código Penal, por fatos ocorridos em 16/11/2021.
+A inicial acusatória contém a exposição do seguinte fato criminoso:
+Consta dos inclusos autos de inquérito policial que, no dia 16 de novembro de 2021, por volta das 19:30, nesta cidade e Comarca de São Paulo, EDUARDO FELIX E SILVA GARCIA, supra qualificado, invadir dispositivo informático de uso alheio, conectado à rede de computadores, pertencente à vítima Carla Borges Honório, com o fim de obter, adulterar ou destruir dados ou informações sem autorização expressa ou tácita do usuário do dispositivo ou de instalar vulnerabilidades para obter vantagem ilícita, resultando da invasão o controle remoto não autorizado do dispositivo invadido, resultado a obtenção de conteúdo de comunicações eletrônicas privadas. (...) O denunciado mantinha junto a rede social Instagram, falsos perfis como se fossem de pousadas localizadas no Estado de Santa Catarina. A vítima, por sua vez, imaginando que se tratava de um perfil idôneo, entrou em contato para saber mais sobre as condições de reserva quando então recebeu do denunciado ou seus comparsas ainda não identificados, um link malicioso e dissimulado que, ao clicar, permitiu que o denunciado e seus comparsas não identificados, assumissem o controle de sua conta junto ao Instagram (@carlaborges). O denunciado ou seus comparsas, ao assumirem o controle da conta da vítima, trataram logo de alterar o email e o telefone de recuperação de senha, justamente para impedir que a vítima pudesse reassumir o co ntrole de sua conta. Na sequência, para poderem completar o ardil e posteriormente aplicarem golpes em pessoas que seguiam o perfil de CARLA, os criminosos criaram uma conta falsa junto ao aplicativo WhatsApp, com a fotografia da vítima, como se ela usasse o número de telefone 11-98670-7405. (...). Após assumir o controle da conta do Instagram, o denunciado e seus comparsas passaram a praticar inúmeros estelionatos com a referida conta, simulando ser a vítima e anunciando produtos e bens no perfil dela. Algumas pessoas que faziam parte do círculo de amizades na rede social infelizmente caíram no engodo, imaginando que estariam comprando bens de Carla, quando na verdade caíram em golpe, depositando dinheiro em uma conta bancária de outro comparsa. O denunciado e seus comparsas, com suas ações criminosas, além de tomar o controle da conta de Carla, fazendo-se passar por ela nas publicações utilizadas para a fraude, ainda obtiveram acesso ao conteúdo das comunicações eletrônicas privadas que CARLA mantinha pelo sistema Direct, do aplicativo Instagram. O Ministério Público do Estado de São Paulo foi acionado, promovendo de imediato medidas cautelares para que o crime cessasse e também para que fosse possível constituição de provas para elucidação da autoria, conforme se depreende da medida cautelar 103059-28.2021.8.26.0050, apensada nesses autos. Somente após o deferimento da medida cautelar e seu cumprimento pelo aplicativo Instagram, foi possível à vítima recuperar o acesso a sua conta, cessando os anúncios fraudulentos que o denunciado e seus comparsas utilizaram para praticarem estelionatos. Os estelionatos estão sendo apurados nas respectivas Comarcas em que as vítimas residem, em consonância com o disposto no artigo 70, conforme se depreende do artigo 70, §4º, do CPP. Eis um exemplo desse ardil adotado pelo denunciado e seus comparsas, para ludibriar as vítimas, se passando por Carla Borges: (...). A Polícia Civil foi acionada e a Delegacia Especializada em Invasão de Dispositivos do DEIC, interpretando os dados telemáticos utilizados pelos criminosos nos dias em que tomaram o controle da conta de Carla Borges, conseguiu estabelecer indícios suficientes de que EDUARDO FELIX E SILVA GARCIA era um dos autores da invasão, obtendo ordem de busca e apr eensão em sua residência, conforme se depreende da cautelar n. 1508430-42.2022.8.26.0050. A ordem judicial foi cumprida no dia 30 de março de 2022, oportunidade em que houve a apreensão dos aparelhos eletrônicos encontrados, constituição de outras provas, tendo o indiciado confessado a autoria delitiva, consoante se depreende do interrogatório juntado a fls. 194/195."
+A denúncia foi recebida em 27/04/2022 (fl. 257). O acusado foi regularmente citado e apresentou resposta à acusação (fls. 268 e 261/265).
+A defesa requereu a oferta de acordo de não persecução penal e, diante da recusa, os autos foram remetidos à Procuradoria-Geral de Justiça, que ratificou a recusa (fls. 271/277).
+Seguiu-se a instrução probatória com as declarações da vítima, inquirição de testemunhas e, por fim, interrogatório do acusado (fls. 304/305).
+Em alegações finais, o Ministério Público requereu a condenação do acusado, nos termos da denúncia, com a fixação da pena-base acima do mínimo legal, em razão das circunstâncias e consequências do crime, além de reconhecimento de circunstâncias agravantes (art. 61, II, a, b e c), e fixação de regime inicial semiaberto para o cumprimento da pena.
+A defesa arguiu nulidade em decorrência de cerceamento do direito de defesa e, em relação ao mérito, requereu a aplicação da pena no mínimo legal, com a imposição de regime aberto para o cumprimento da pena e substituição da pena privativa de liberdade por restritiva de direitos.
+É O RELATÓRIO. FUNDAMENTO E DECIDO.
+Inicialmente, não se verifica hipótese de cerceamento de defesa.
+O defensor formulou tantas perguntas à vítima e testemunhas quanto entendeu necessárias e apenas algumas foram indeferidas, porque repetidas ou não tinham relação com a causa.
+Tudo foi motivado e esclarecido em audiência e o defensor não apontou concretamente, em nenhum momento, a necessidade e a pertinência dessas perguntas – limitou-se a arguir genericamente o cerceamento de defesa sem esclarecer a qual pergunta exatamente se refere, o que dificulta até mesmo a  compreensão da controvérsia.
+DITO ISSO, a pretensão acusatória é integralmente procedente.
+Encerrada a instrução, existe prova suficiente da prática do crime de violação de dispositivo informático, na forma narrada na denúncia.
+A vítima prestou declarações na fase policial e em juízo e, nas duas oportunidades, confirmou que teve a conta do INSTAGRAM violada, quando buscava informações de pousadas em Santa Catarina e acessou um link malicioso encaminhado a partir de um falso usuário.
+Relatou, ainda, que esse criminoso assumiu o controle de sua conta no INSTAGRAM e passou a anunciar produtos por valores abaixo do preço de mercado, passando-se por ela e se aproveitando de sua rede de contatos.
+Nos autos da medida cautelar para bloqueio da conta (autos n. 1030359-28.2021.8.26.0050 – em anexo), o Ministério Público apresentou os prints de alguns desses anúncios:
+
+Os policiais civis inquiridos em audiência descreveram com segurança todas as diligências adotadas em sede policial, inclusive o cumprimento do mandado de segurança na residência do acusado, que permitiram esclarecer com segurança a autoria delitiva, como consta da denúncia.
+Por fim, o próprio acusado, depois de alguma tergiversação e confusão em seu interrogatório, acabou por confessar a prática delitiva, ainda que tenha buscado diminuir sua responsabilidade, de sorte que a ação penal é integralmente procedente.
+PASSO, PORTANTO, À FIXAÇÃO DA PENA.
+Não há necessidade de majoração da pena-base.
+Aponto, a esse propósito, que as circunstâncias indicadas pelo Ministério Público não excedem a gravidade ordinária do crime de invasão de dispositivo informático e não permitem majoração da pena-base.
+As circunstâncias agravantes indicadas pela acusação, ainda que presentes, devem ser integralmente compensadas com atenuante da confissão, que é preponderante.
+Não há causas gerais de aumento ou diminuição, de forma que torno definitiva a pena de 02 anos de reclusão.
+A pena privativa de liberdade será cumprida inicialmente em regime aberto, nada justificando a imposição de regime mais severo.
+Fixo a pena de multa, observando os mesmos critérios acima expostos, em 10 dias-multa, no mínimo legal.
+Não há impedimento à substituição da pena privativa de liberdade por restritiva de direitos.
+ASSIM SENDO, JULGO PROCEDENTE a denúncia para o fim de CONDENAR E.F.E.S.G., qualificada nos autos, ao cumprimento de 02 ano de reclusão, em regime inicial aberto, além do pagamento de 10 dias-multa, no mínimo legal, por infração ao disposto no artigo 154-A, § 3º, do Código Penal, sendo substituída a pena privativa de liberdade por duas penas restritivas de direitos, consistentes – cada uma – em prestação de serviços à comunidade, por prazo idêntico à privação de liberdade.
+Autorizo a devolução dos aparelhos telefônicos apreendidos, posto que não se trata de objetos cujo fabrico, alienação, uso, porte ou detenção constitua fato ilícito (CP, 92, II, a, parte final) e não há prova que adquiridos com recursos auferidos com o crime apurado nestes autos ((CP, 92, II, b).
+O acusado poderá recorrer em liberdade.
+Publique-se. Intime-se.
+São Paulo, 23 de novembro de 2022.
+
+BRUNO PAIVA GARCIA – Juiz de Direito.

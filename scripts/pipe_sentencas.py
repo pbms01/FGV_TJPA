@@ -170,6 +170,8 @@ elif cmd == "lote":
                  data_mov=mov.split("|")[0], procedencia=c.procedencia(corpo), chars=len(corpo),
                  sha256=hashlib.sha256(corpo.encode()).hexdigest(), lido_em=agora()))
         todo.append(corpo)
+        if len(corpo) >= 99000:  # o Codex corta cada peça perto de 100 mil caracteres
+            print(f"CORTADO: {uid} com {len(corpo)} chars; buscar o dispositivo no DJEN")
     linha = dict(numero=num, caso=r["caso"], status="ok" if todo else "sem_texto", docs=len(todo), quando=agora(),
                  detalhe=mov)
     c.anexar(STATUS, list(linha), linha)
@@ -195,6 +197,19 @@ elif cmd == "sem":
     c.anexar(STATUS, list(linha), linha)
     print("status", r["caso"], num, sys.argv[3])
     print(prox_txt())
+elif cmd == "djen":
+    # sentença sem texto no Codex (ou cortada): dispositivo lido no DJEN e registrado à mão
+    num, mov, pares = sys.argv[2], sys.argv[3], dict(a.split("=", 1) for a in sys.argv[4:])
+    r = next(x for x in amostra() if x["numero"] == num)
+    vazio = {k: "" for k in CAMPOS_AUTO}
+    vazio["resultado_auto"] = vazio["tipo_acolhido_auto"] = vazio["pena_meses_auto"] = vazio["regime_auto"] = ""
+    lin = linha_saida(r, 0, 0, vazio, mov, conferido="lido")
+    lin.update(pares)
+    c.anexar(SAIDA, CAMPOS_SAIDA, lin)
+    linha = dict(numero=num, caso=r["caso"], status="ok_djen", docs=0, quando=agora(), detalhe=mov)
+    c.anexar(STATUS, list(linha), linha)
+    print("registrado pelo DJEN", r["caso"], pares.get("resultado"), pares.get("tipo_acolhido"))
+    print(prox_txt())
 elif cmd == "corrige":
     num, pares = sys.argv[2], dict(a.split("=", 1) for a in sys.argv[3:])
     lin = list(csv.DictReader(open(SAIDA, encoding="utf-8")))
@@ -214,6 +229,8 @@ elif cmd == "recalcula":
     lin = list(csv.DictReader(open(SAIDA, encoding="utf-8")))
     for x in lin:
         caso = x["caso"]
+        if x["documentos"] == "0":
+            continue
         o = rs.le(rs.texto_do_caso(x["numero"], caso))
         x.update({k: o.get(k, "") for k in CAMPOS_AUTO})
         if x["conferido"] == "auto":

@@ -1,0 +1,57 @@
+[Texto nativo do PJe]
+
+TRIBUNAL DE JUSTIÇA DO ESTADO DE SÃO PAULO
+COMARCA de Penápolis
+Foro de Penápolis
+2ª Vara
+Praça Dr. Carlos Sampaio Filho, 190, Penápolis-SP - cep 16300-000
+Horário de Atendimento ao Público: das 13h00min às17h00min
+
+1502937-50.2023.8.26.0438 - lauda
+SENTENÇA
+
+Processo Digital nº:
+1502937-50.2023.8.26.0438
+Classe – Assunto:
+Ação Penal - Procedimento Ordinário - Violação do segredo profissional
+Documento de Origem:
+Inquérito Policial, Inquérito Policial, Portaria - 2323484/2023 - DEL.POL.BRAÚNA, 28381831 - DEL.POL.BRAÚNA, 2323484 - DEL.POL.BRAÚNA
+Autor:
+Justiça Pública
+Réu:
+FRANCISCO GOMES DE ARAUJO OLIVEIRA e outro
+
+Juiz(a) de Direito: Dr(a). Lívia Martins Trindade Prado
+
+Vistos.
+Trata-se de Ação Penal Pública proposta pelo MINISTÉRIO PÚBLICO DO ESTADO DE SÃO PAULO em desfavor de FRANCISCO GOMES DE ARAÚJO como incursos no artigo 154-A do Código Penal.
+A denúncia narra os seguintes fatos delituosos (fls. 140/143):
+Consta no incluso inquérito policial que, no dia 16 de janeiro de 2023, em horário incerto, mas no período vespertino, na residência situada na Rua José Arriero Prieto, 890, Pedro Catarino na cidade de Braúna, comarca de Penápolis-SP, THAUANE OLIVEIRA GONÇALVES e FRANCISCO GOMES DE ARAÚJO, qualificados às fls. 31/32, agindo com identidade de desígnios e propósitos, invadiram dispositivo informático de uso alheio, conectado à rede de computadores, com o fim de obter e adulterar dados e informações, sem autorização expressa ou tácita do usuário do dispositivo, Izeiza Molina da Silva, para obter vantagem ilícita.
+
+Recebida a denúncia em 13 de janeiro de 2025 (fl. 149/150). Os acusados compareceram espontaneamente nos autos (fls. 157 e 165) e o réu Francisco apresentou defesa escrita às fls. 172/175.
+Foi concedida a suspensão condicional do processo, em relação à acusada Thauane (fls. 179/181).
+Durante a instrução, foi ouvida a vítima e o réu Francisco interrogado ao final, conforme termo de fls. 236/237.
+Em alegações finais orais, o Ministério Público, pugnou pela absolvição do réu, ante a ausência de prova de sua autoria, nos termos do artigo 386, V, do Código de Processo Penal.
+Do mesmo modo, a defesa, em alegações finais orais, ratificou as alegações do Ministério Público e pugnou pela absolvição do réu.
+É O RELATÓRIO.
+PASSO A FUNDAMENTAR E DECIDIR.
+Trata-se de ação penal pública que tem por finalidade apurar a responsabilidade do denunciado Francisco pela prática de conduta que, em tese, estaria a caracterizar o delito de invasão de dispositivo informático (artigo 154-A do Código Penal).
+A materialidade delitiva resultou comprovada pelo boletim de ocorrência de fls. 03/04, pelos prints de fls. 07/09 e ofícios de fls. 10/16.
+Por outro lado, não resultou comprovada a autoria delitiva.
+Vejamos:
+A vítima Izeiza Molina da Silva, ouvida em juízo, afirmou que, no dia dos fatos, estava indo para Birigui, onde sua mãe estava internada e através do Messenger a pessoa entrou em contato se passando por uma prima e na conversa “vai e vem”, estava normal. Ela falou que estava fazendo um sorteio, porque vendia lingerie. E de fato, a prima vendia mesmo. Por isso, não desconfiou. Ela perguntou se gostaria de participar do sorteio, respondeu que sim. Ela falou que enviaria um link, que esse link seria o número do sorteio, que era só confirmar o número de celular, se realmente estava com o mesmo contato. Na correria, devido ao fato de estar indo para o hospital porque a mãe estava internada e tudo mais. Passou sem desconfiar de nada, simplesmente passou. Por algum tempo, essa pessoa se passando ainda, começou a conversar e tal e falando da sua mãe. A pessoa falou que precisava pedir um favor, ela precisava fazer, salvo engano, uma compra e que para poder liberar essa compra, precisava dar um sinal e no momento ela estava sem esse sinal. Então pediu se a depoente poderia dar o sinal. Até então, estava com a conta, tudo normal. Entrando e saindo normal. Foram feitas essas transações. Continuou conversando por um tempo e ela sempre insistindo para que passasse esse dinheiro para ela. Mas, no momento não tinha. Pelo fato de ela insistir para que arrumasse o dinheiro, começou a desconfiar. No entanto, devido ao fato de estar entrando no hospital, não teve mais acesso a conta de momento e não mexeu mais no celular, porque sua mãe estava internada. Quando foi mais a noite, na volta, quando tentou entrar na conta, já não conseguia, foi onde começou a aparecer os golpes, algumas pessoas caíram nesse golpe, foram vendidas algumas coisas, por terem pego a sua conta. Como não estava conseguindo ter acesso a sua conta, no dia seguinte, foi até a Delegacia e fez o boletim de ocorrência, porque algumas pessoas foram vítimas mais do que ela, porque as pessoas compraram algumas coisas, na confiança de que estava comprando dela e na verdade não era ela que estava vendendo. A pessoa que entrou em contato não mandou áudio, foi só mensagem, porque se tivesse mandado áudio saberia que não era sua prima. A pessoa se passou por sua prima, não sabe se era do sexo feminino ou masculino.
+O réu Francisco Gomes de Araújo Oliveira, ouvido em juízo, negou os termos da denúncia. Não tinha ciência do que tinha acontecido. Soube realmente o que tinha acontecido quando chegou a intimação para Thauane, ela é sua enteada. Porque, na verdade, esse chip que foi utilizado estava cadastrado em seu nome (Francisco). Quando chegou a intimação, Thauane “abriu o jogo”, foi quando teve ciência do que estava acontecendo.
+Diante do contexto probatório acima descrito, a absolvição é medida que se impõe, pois não resultou demonstrada, mediante prova inequívoca, a responsabilidade do réu.
+No caso, a única ligação do réu com os fatos é que o número de telefone utilizado para a tomada da rede social estava cadastrado em seu nome, no entanto, quando a polícia ligou quem atendeu foi Thauane, sua enteada (fls. 31/32).
+Assim, tal dado, por si só, não é suficiente para afirmar que o réu tenha sido responsável pela invasão ou tenha agido em conluio com Thauane.
+A invasão ocorreu por troca de mensagens, não sabendo a vítima identificar se quem estava se passando por sua prima era homem ou mulher. O réu nega veemente os fatos.
+Inexiste, portanto, qualquer elemento robusto que aponte a participação efetiva do acusado nos fatos, não sendo possível presumir sua autoria com base unicamente na titularidade da linha telefônica.
+Assim, entendo que não há elementos seguros de prova para se inferir a autoria do delito, beneficia o acusado, aqui, com o inarredável princípio “in dubio pro reo”, impondo-se a sua absolvição.
+Ante o exposto, com fundamento no art. 386, inciso V, do Código de Processo Penal, ABSOLVO o réu FRANCISCO GOMES DE ARAÚJO da imputação prevista no artigo 154-A do Código Penal.
+Custas na forma da lei.
+Após o trânsito em julgado, arquivem-se os autos com as cautelas de praxe.
+Publique-se. Registre-se. Intimem-se.
+
+Penápolis, 10 de julho de 2025.
+
+DOCUMENTO ASSINADO DIGITALMENTE NOS TERMOS DA LEI 11.419/2006, CONFORME IMPRESSÃO À MARGEM DIREITA

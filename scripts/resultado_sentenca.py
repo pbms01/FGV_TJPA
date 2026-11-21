@@ -26,7 +26,7 @@ RE_FECHO = re.compile(r"(ante o exposto|diante do exposto|posto isso|isto posto|
                       r"diante disso|ante o acima exposto|em raz[aã]o do exposto)", re.I)
 RE_COND = re.compile(r"\bcondeno\b|\bcondenar\b|\bcondena-se\b|julgo (parcialmente |integralmente )?procedente|"
                      r"procedente em parte|parcialmente procedente", re.I)
-RE_ABS = re.compile(r"\babsolv(o|er|endo|e-se|ido|ida|idos|idas)\b|julgo (totalmente )?improcedente|rejeito o pedido (formulado |contido |deduzido )?(na |pela )?(den[úu]ncia|condenat|acusat|da acusa|inicial|ministerial)|"
+RE_ABS = re.compile(r"\babsolv(o|er|endo|e-se|ido|ida|idos|idas|[eê]-l[oa]s?)\b|julgo (totalmente )?improcedente|rejeito o pedido (formulado |contido |deduzido )?(na |pela )?(den[úu]ncia|condenat|acusat|da acusa|inicial|ministerial)|"
                     r"improcedente a (pretens|a[çc][ãa]o|den[úu]ncia)", re.I)
 RE_EXT = re.compile(r"extint[ao] a punibilidade|extin[çc][ãa]o da punibilidade|declaro extint", re.I)
 RE_PARCIAL = re.compile(r"parcialmente procedente|procedente em parte|julgo parcialmente", re.I)

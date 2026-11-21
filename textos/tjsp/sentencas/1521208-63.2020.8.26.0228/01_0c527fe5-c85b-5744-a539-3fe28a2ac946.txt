@@ -1,0 +1,141 @@
+[Texto nativo do PJe]
+
+TRIBUNAL DE JUSTIÇA DO ESTADO DE SÃO PAULO
+COMARCA DE SÃO PAULO
+Foro Central Criminal Barra Funda
+1ª Vara Criminal
+Av. Abraão Ribeiro, 313, São Paulo-SP - cep 01133-020
+Horário de Atendimento ao Público: das 12h30min às19h00min
+
+1521208-63.2020.8.26.0228 - lauda
+SENTENÇA
+
+Processo Digital nº:
+1521208-63.2020.8.26.0228
+Classe – Assunto:
+Ação Penal - Procedimento Ordinário - Furto Qualificado (COVID-19)
+Documento de Origem:
+Comunicação de Prisão em Flagrante, Comunicação de Prisão em Flagrante, Boletim de Ocorrência, Comunicação de Prisão em Flagrante - 2250750/2020 - DEIC - 4ª DELEGACIA DA DIVECAR, 14039335 - DEIC - 4ª DELEGACIA DA DIVECAR, 297/20/904 - DEIC - 4ª DELEGACIA DA DIVECAR, 2250750 - DEIC - 4ª DELEGACIA DA DIVECAR
+Autor:
+Justiça Pública
+Réu e Indiciado:
+LUCCAS HIKARI AOKI e outros
+
+Tramitação prioritária
+
+Vistos.
+
+LUCCAS HIRAKI AOKI, qualificado nos autos, foi denunciado e viu-se processado como incurso nos artigos 154-A e §2º, e artigo 155, § 4º, incisos II e IV, c.c. artigo 61, inciso II, alínea j, na forma do artigo 69, ambos do Código Penal, porque, no dia 05 de outubro de 2020, por volta das 15h, nesta Comarca da Capital/São Paulo, durante estado de calamidade pública, agindo em concurso e com identidade de propósitos, juntamente com outros indivíduos ainda não identificados, invadiu dispositivo informático do Banco Santander do Brasil S/A., conectado ou não à rede de computadores, mediante violação indevida de mecanismo de segurança e com o fim de obter, adulterar dados ou informações sem autorização expressa ou tácita do titular do dispositivo ou instalar vulnerabilidade para obter vantagem ilícita.
+
+Consta, ainda, que no dia 05 de outubro de 2020, na Avenida Padre Arlindo Vieira, nº 1218, Sacomã, nesta cidade e comarca da Capital/São Paulo, durante estado de calamidade pública, logo após o crime acima referido, nesta cidade e comarca, o réu, agindo em concurso e com identidade de propósitos, juntamente com outros indivíduos ainda não identificados, subtraiu para si, mediante fraude consistente na invasão virtual de dispositivo informático, cerca de R$ 48.980,00, de propriedade do Banco Santander Brasil S/A., representado por Thiago Lima Alves.
+
+Segundo a denúncia, o réu, de comum acordo com pessoas ainda não identificadas, decidiu subtrair valores do Banco Santander Brasil S/A.
+
+No dia 05 de outubro de 2020, o réu e seus comparsas, fazendo uso de dispositivos/programas maliciosos (conhecidos por mikrotik e keylogger), invadiram o sistema bancário da instituição financeira supracitada, logrando hackear os dados de uma conta bancária transitória da vítima, voltada para empréstimos, crédito e demais serviços similares para, na sequência, transferir, sem autorização e de modo fraudulento, cerca de R$ 49.000,00 para a conta do réu Luccas Hikari Aoki, também do banco Santander.
+
+Ato contínuo, o réu dirigiu-se até um dos terminais de autoatendimento do Banco Santander, situado na Avenida Jabaquara, nº 1219, e efetuou uma série de transações bancárias (dois saques num total de R$ 3.000,00), saques em moeda nacional e estrangeira (dólares), equivalentes a R$ 12.870,00, compras (no valor de R$ 1.500,00), pagamentos de títulos (R$ 2.500,00), recarga de celular (R$ 60,00) e uma transferência bancária favorecendo Kelly Reis de Sá, no valor de R$ 29.050,00, subtraindo para si, num curto espaço de tempo, cerca de R$ 48.980,00.
+
+Após a descoberta da fraude pelo banco, a instituição financeira promoveu o bloqueio da conta do réu em 06 de outubro de 2020.
+
+Policiais foram acionados e, no dia 08 de outubro de 2020, o réu foi detido quando deixava a agência do banco Santander, situada na Avenida Padre Arlindo Vieira, nº 1218, Sacomã, ao tentar dar continuidade às fraudes, tentando reverter o bloqueio de sua conta corrente, ocasião em que, ao ser indagado por policiais, confirmou a versão apresentada pelo representante, no sentido de que usufruiu dos valores transferidos para a sua conta, produto da fraude bancária.
+
+O réu foi preso em flagrante delito e teve sua prisão convertida em preventiva (fls. 206/211).
+
+A denúncia foi recebida em 21 de outubro de 2020 (fls. 295/296), oportunidade em que foi determinada a citação do réu e concedida a liberdade provisória ao acusado.
+
+Citado (fls. 351), o acusado apresentou resposta à acusação (fls. 357/364), que não teve o condão de ensejar a sua absolvição sumária, nem tampouco a rejeição da denúncia (fls. 93).
+
+Durante a instrução criminal, além do representante da vítima, foram ouvidas duas testemunhas comuns e duas testemunhas de defesa. Ao final, o réu foi interrogado.
+
+Em alegações finais, o representante do Ministério Público, entendendo que a materialidade e autoria do delito restaram efetivamente comprovadas em relação ao crime de furto qualificado, requereu a condenação do réu por tal delito e a absolvição pela invasão de dispositivo informático. Ademais, almejou a fixação de regime inicial semiaberto para cumprimento da pena.
+
+A Defesa, por seu turno, pugnou pela nulidade do processo, por ausência de fato típico, absolvição do acusado pela prática de furto, ante a fragilidade probatória, desclassificação para crime de estelionato. Subsidiariamente, pleiteou a fixação da pena no mínimo legal, com as atenuantes da menoridade relativa e da confissão, pela fixação de regime inicial aberto e concessão de sursis (fls. 524/530).
+
+É o relatório.
+Fundamento e Decido.
+
+Trata-se de ação penal que se destina a apurar a responsabilidade do réu pela prática de condutas que, em tese, estariam a configurar os delitos de invasão de dispositivo informático e furto qualificado mediante fraude e pelo concurso de agentes.
+
+Com efeito, ao término da instrução criminal e após um atento exame das provas existentes nos autos, não há como se deixar de reconhecer que a materialidade e a autoria dos fatos narrados na denúncia estão parcialmente comprovadas, devendo tão somente o réu Luccas ser condenado pelo furto qualificado pelo emprego de fraude e pelo concurso de agentes, não sendo o caso de desclassificação para crime de estelionato, ante a ausência de imputação e configuração típicas de tal figura delitiva.
+
+A materialidade do delito de furto veio confirmada pelos: auto de prisão em flagrante (fls. 01/02); boletim de ocorrência (fls. 15/23); auto de exibição e apreensão (fls. 24/25) e laudo do Instituto de criminalística (fls. 321/323).
+
+Ademais, a autoria do delito de furto qualificado é incontroversa.
+
+O representante da vítima Thiago Lima Alves, representante do Banco Santander, afirmou nunca ter visto o réu. Esclareceu que, em outubro de 2020, houve uma invasão à rede do Banco Santander, em diversas regiões do Brasil, pois a fraude foi expressiva. Muitas contas receberam os chamados “créditos em confiança” do Banco Santander, dentre as quais a do réu Luccas. Trata-se de um crédito concedido pelo Banco após o cliente alegar que teve valores de sua conta subtraídos. Os “hackers” invadiram a rede por um dispositivo “MikroTik, localizado em uma agência bancária da Zona Norte, e nessa invasão conseguiram realizar diversos créditos em confiança, em valor alto. O réu Luccas teria recebido R$ 49.000,00 (quarenta e nove mil reais) em sua conta. Foram feitos saques em real, cerca de R$ 3.000,00 (três mil reais), e em dólar, convertidos para real em cerca de R$ 13.000,00 (treze mil reais), além de uma transferência de R$ 29.050,00 (vinte e nove mil e cinquenta reais) para Kelly Reis de Sá. Ainda, restou montante de R$ 2.500,00 (dois mil e quinhentos reais) em conta. Posteriormente, a conta foi bloqueada, por indícios de fraude, tendo Luccas ido até a agência para tentar desbloqueá-la e sacar o restante do valor que havia na conta, mas apenas conseguiu sacar parte de um salário que havia recebido, sem ligação com a fraude. No instante em que deixava a agência, foi detido. Quando foi intimado para comparecer na Delegacia e prestar depoimento, o depoente soube que Luccas disse ter sido convidado por alguém para emprestar a conta para depósito, pois receberia cerca de 10% do valor total da transação. O depoente acredita que que o réu tenha mencionado o nome de tal pessoa, mas não se recorda se o réu mencionou se sabia que a quantia era de origem ilícita. Várias Delegacias realizaram prisões de pessoas envolvidas na fraude, mas não puderam identificar o responsável pelo dispositivo apreendido, que invadia a rede do banco e a roteava, para realizar as transferências para diversas contas. O dispositivo tratava-se de uma máquina furtada há algum tempo do Banco Santander, como um roteador, que roteava o sinal de 4G e simulava o acesso de um gerente, através de uma conta transitória do Santander, transferindo os recursos para outras contas bancárias. Foram utilizadas credenciais válidas de gerentes. Em um primeiro momento, o banco acreditou que gerentes tivessem participado da fraude, porém, posteriormente, encontraram dispositivos nas mesas dos gerentes que capturavam tudo o que digitavam no teclado. A máquina espelho foi furtada de uma Agência no bairro do Limão, mas a senha utilizada foi de São Caetano e a rede utilizada foi a do Bom Retiro. A fraude foi estimada em R$ 3.000.000,00 (três milhões de reais), mas boa parte foi recuperada, e ocorreu nos Estados do Espirito Santo, Rio Grande do Sul e São Paulo. Apurou-se que o réu esteve envolvido apenas na subtração dos valores de conta bancária. Nenhum elemento indicou a participação do réu na invasão da rede. Não conhecia o acusado anteriormente. O depoente não sabe há quanto tempo o réu já era cliente do Banco, à época dos fatos.
+
+O policial civil Paulo Wilson Aprile narrou que, no dia dos fatos, estava no DEIC, quando foi acionado para comparecer numa agência bancária do Santander, na medida em que uma pessoa lá estaria tentando realizar movimentação numa conta bloqueada, por indícios de fraude bancária. Não lembra exatamente no que consistiu aludida fraude antecedente. Lá chegando, o réu foi abordado por seu colega Silas na saída da agência, oportunidade em que admitiu ter emprestado a conta para terceira pessoa, lá depositar determinada quantia. Não lembra em detalhes da versão  ofertada pelo réu. Recorda-se que ele mencionou que estava na companhia de duas pessoas, Ranon e Marcos, as quais, todavia, não estavam nas imediações da agência bancária, mas foram conduzidas à delegacia de polícia, para melhor explicar o ocorrido, após terem sido encontradas em suas respectivas casas. Lembra que o prejuízo suportado pelo Banco Santander foi de aproximadamente seis milhões de reais, cujo montante fora transferido para contas bancárias de diversos correntistas, em estados distintos da Federação. O réu teria recebido cerca de R$ 40.000,00, tendo destinado boa parte para uma tal de Kelly. Não conhecia o réu de data anterior. Esclareceu que, em casos similares, pessoas são aliciadas em redes sociais, para emprestar suas contas bancárias. Estas aceitam fornecer seus dados bancários, para ganhar um "dinheiro fácil". Não lembra do réu estar envolvido na invasão da rede de informática do Banco Santander, mediante violação indevida de mecanismo de segurança. Não lembra da versão ofertada por Ranon e Marcos e de qual teria sido a participação deles na subtração de valores.
+
+Em juízo, Ranom Vitor de Carvalho disse ter solicitado a conta corrente de LUCCAS, a pedido de Jonathan, que disse que teria valores a receber, porque, na época, eram próximos. Negou que tenha auferido vantagens patrimoniais por conta do ocorrido.
+
+Em sede policial, o réu declarou que trabalha estoquista das lojas Magazine Luiza e que, na data de 05 de outubro de 2020, por volta das 12h30min, em seu horário de almoço, recebeu uma mensagem no Whatsapp de seu amigo Ranon, que lhe indagou se tinha conta no Banco Santander, ao que respondeu afirmativamente. Em seguida, Ranon pediu sua conta emprestada alegando que precisava depositar a quantia de R$ 800,00. Tendo em vista que Ranon é seu amigo, emprestou a sua conta bancária para o depósito indicado. Por volta das 18h00, ficou assustado ao verificar através do aplicativo do banco que havia sido depositada em sua conta a quantia de R$ 49.000,00. O Saldo de sua conta corrente, antes de efetuado este depósito, era de apenas R4 1,32. Na sequência, foi contatado por Ranon via Whatsapp, que disse que estava a caminho da casa do depoente, sendo que, após dois minutos, já estava na porta de sua casa, acompanhado de outro rapaz, chamado Jonathan, vulgo “Jhow”. Nesta oportunidade, indagou Ranon acerca da grande quantia depositada em sua conta, quando então foi informado que não precisava se preocupar, uma vez que nada de errado havia naquela transferência. Na mesma data, dirigiram-se até uma agência bancária situada na Praça da Árvore e, com ajuda deles, efetuou quatro saques: o primeiro deles no valor de U$ 1.000,00 (mil dólares); o segundo no valor de U$ 1.100,00 (mil e cem dólares); e outros dois saques no valor de R$ 1.500,00 (mil e quinhentos reais). NA sequência, Jonathan fez uma transferência no valor de R$ 50,00 para a conta corrente de Kely Reis de Sá, identificação 220632 e mais outra transferência no valor de R$ 29.000,00 para esta mesma pessoa. Não bastasse, efetuaram o pagamento de maquininha do “pag seguro” no valor de R$ 1.500,00 (mil e quinhentos reais), identificação 342069 e de um boleto no valor de R$ 2.500,00 (dois mil e quinhentos reais). Na data de 08 de outubro de 2020, dirigiu-se até sua agência por volta das 1h30min, junto de seu amigo Marcos, para sacar a quantia de R$ 704.00 referente ao seu salário, sendo que quando saíram do banco acabaram sendo abordados por policiais civis que, em revista, encontraram apenas a quantia mencionada, fruto de seu trabalho. Após sair do banco, não mais viu Marcos. Somente depois soube que ele também havia sido abordado na companhia de Ranon. Após tomar conhecimento de que o dinheiro depositado em sua conta era de origem ilícita, levou os policiais até a casa de Ranon. Não recebeu nenhum valor por ter emprestado a conta corrente para Ranon, apenas assim procedeu pois ele é seu amigo e mora perto de sua casa. Nunca havia emprestado sua conta para alguém. Por fim, negou envolvimento com o crime e alegou desconhecer que Ranon ou “Jhow” eram envolvidos com coisas erradas (fls. 09/10).
+
+Em Juízo, o réu Luccas Hiraki Aoki negou os fatos que lhe são imputados, dizendo ter apenas emprestado sua conta corrente, a pedido de Ranom, prestando um favor a Jonathan.
+
+Quanto ao crime de invasão de dispositivo informático, a versão apresentada pelo réu Luccas, no sentido de que não participou de tal delito, deve prevalecer, considerando que não foi demonstrado, no curso da instrução, que ele tivesse ciência da invasão ao sistema da instituição financeira ou que dela tivesse efetivamente participado.
+
+Ademais, inexistem provas da invasão do dispositivo informático em questão, nem tampouco a comprovação que demonstrasse a “violação indevida de mecanismo de segurança”, que certamente poderia ter sido apontada por meio de dados cadastrais das contas efetivamente violadas e extratos bancários que demonstrassem a cadeia de transferências efetuadas, que propiciou a subtração dos valores da instituição financeira. Odispositivo que, em tese, teria sido instalado na rede interna da instituição financeira certamente deveria ter sido submetido à perícia.
+
+Assim, ainda que os indícios sejam significativos, as provas produzidas no curso da instrução não são suficientes a ensejar um decreto condenatório, uma vez que não demonstrada a participação do réu Luccas na ocasião da instalação do roteador tipo “mikrotik”, para acesso à rede interna da instituição, nem tampouco na instalação de "keyloggers" para capturar senhas de funcionários da instituição financeira, como alegado.
+
+Não bastasse, nada de concreto foi trazido aos autos que indicasse a participação dele na efetivação e compartimento das transferências bancárias promovidas.
+
+Logo, considerando tal cenário, conclui-se que as provas produzidas são insuficientes para demonstrar a participação do acusado na invasão de dispositivo informático em questão.
+
+Bem por isso, a absolvição do acusado impõe-se como medida mais sensata, em face do princípio in dubio pro reo.
+
+Saliente-se que o próprio representante do banco afirmou que as tentativas de saques provenientes dessa fraude continuaram inclusive após a prisão do réu.
+
+Desta feita, não sendo esclarecido o liame entre a fraude perpetrada para se efetivar as transferências bancárias e a conduta do réu de sacar o dinheiro por si só, não se pode contemplar o crime de furto qualificado, eis que a conduta do réu Rafael foi de receber e transportar o dinheiro proveniente de ação criminosa.
+
+Por outro lado, está evidente, por meio das provas existentes nos autos, a materialidade e a participação delitiva do réu quanto ao crime de furto qualificado pela fraude e pelo concurso de pessoas, uma vez que disponibilizava sua própria conta e efetuava saques com o produto da subtração.
+
+Nesse sentido têm-se:  auto de prisão em flagrante (fls. 01/02); boletim de ocorrência (fls. 15/23); auto de exibição e apreensão (fls. 24/25) e laudo do Instituto de Criminalística (fls. 321/323), os quais comprovam a materialidade do delito, e, ainda, as declarações da vítima e os depoimentos das testemunhas policiais, que demonstram a autoria do delito.
+
+Não há como se convencer de que o réu desconhecia a origem espúria do dinheiro, seja pela vultuosidade da transferência efetuada para sua conta, seja porque não explicou, de modo convincente, a origem desse dinheiro.
+
+Ainda, o réu foi detido pelos policiais logo após tentar efetuar o desbloqueio de sua conta corrente, certamente cônscio de que haveria a necessidade de efetuar outros saques e pagamentos, a beneficiar terceiros.
+
+Neste ponto, evidente o conluio do réu, que agiu em concurso com outras pessoas, para subtração de valores da vítima, mediante fraude.
+
+Salienta-se que o crime de furto consumou-se, porquanto parte dos valores subtraídos da instituição financeira foram repassados a terceiros, como já ressaltado por seu representante, ao ser inquirido.
+
+Ainda, certa a presença da qualificadora do concurso de agentes, em razão da narrativa do representante da vítima, dos policiais e do próprio réu, quem mencionou a existência de comparsas.
+
+De outra banda, a utilização de fraude restou demonstrada, considerando que, para a consecução do furto, os saques, pagamentos e transferências haveriam de ser feitos sem que a instituição percebesse, de imediato, a subtração.
+
+Portanto, verifica-se que a prova testemunhal (depoimentos das testemunhas e declarações do representante da vítima) é hígida o bastante, já que uníssona, desde a fase policial, para a demonstração da qualificadora consistente na fraude para a prática do delito.
+
+Desse modo, não restam dúvidas de que no período e no local narrados na denúncia, o acusado, agindo em concurso, previamente ajustado e unidade de desígnios com indivíduos não identificados, subtraiu, para si, os bens descritos na denúncia.
+
+Assim, a conduta do réu encontra tipicidade na exata correspondência com o delito definido no artigo 155, §4º, incisos II e IV, do Código Penal.
+
+Inexistem causas que afastem a ilicitude da conduta, excluam a culpabilidade do réu ou extingam a sua punibilidade, razão pela qual reconheço a ocorrência do delito de furto qualificado e passo a aplicar a pena.
+
+O réu é primário e não há circunstâncias judiciais desfavoráveis, razão pela qual a pena-base é estabelecida em 2 anos de reclusão e 10 dias multa.
+
+Na segunda fase, há a atenuante da menoridade relativa, contudo, não é possível estabelecer a pena intermediária abaixo do mínimo legal, na esteira da jurisprudência consolidada pelo Col. STJ.
+
+À míngua de causas de aumento ou de diminuição de pena, a pena final fica estabelecida em 2 anos de reclusão e 10 dias multa, estes no piso legal.
+
+Atento às diretrizes do art. 33 do Código Penal, a quantidade de pena, primariedade do réu e natureza do delito, fixo como adequado a este o regime inicial de cumprimento da pena privativa de liberdade o aberto.
+
+Cabível a substituição da pena corporal pela restritiva de direitos nos moldes do art. 44 do CP, pois presentes os requisitos legais, além de entender ser suficiente e eficaz à reprovação da conduta do agente, primário, e para sua ressocialização, fixando a prestação de serviços à comunidade pelo mesmo prazo da pena corporal, mais o pagamento de 10 dias-multa, até porque o crime não foi praticado com violência nem grave ameaça á pessoa.
+
+Faculto eventual recurso em liberdade.
+
+Deixo de fixar valor mínimo de reparação do dano por ausência de pedido e apuração do quantum, podendo ser pleiteado junto ao juízo civel.
+
+Ante o exposto, JULGO PARCIALMENTE PROCEDENTE o pedido da ação penal para CONDENAR o réu LUCCAS HIRAKI AOKI, qualificado às fls. 09/10, ao cumprimento da pena de 2 (dois) anos de reclusão, em regime inicial aberto, substituída por restritivas de direitos, nos moldes supra, além do pagamento de 10 (dez) dias-multa, no valor mínimo legal, por infração ao artigo 155, §4º, incisos II e IV, do Código Penal, ABSOLVENDO-O da imputação relativa ao artigo 155-A e parágrafo 2º, do Código Penal, com fulcro no artigo 386, VII, do CPP.
+
+O réu, se insatisfeito com a decisão, poderá recorrer em liberdade, pois está respondendo ao processo solto e por inexistirem quaisquer dos requisitos autorizadores da prisão cautelar.
+
+Transitada esta em julgado, lancem o nome do sentenciado no rol dos culpados e oficie-se para a suspensão dos direitos políticos, nos termos do inciso III do art. 15 da Constituição Federal.
+
+Custas na forma da lei, consignando-se que, nesta oportunidade, concedo ao réu os benefícios da justiça gratuita.
+
+P. I. C.
+
+São Paulo, 22 de setembro de 2022.
+
+DOCUMENTO ASSINADO DIGITALMENTE NOS TERMOS DA LEI 11.419/2006, CONFORME IMPRESSÃO À MARGEM DIREITA

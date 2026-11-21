@@ -72,3 +72,33 @@ numero,caso,status,docs,quando,detalhe
 1500322-68.2023.8.26.0218,CL 54,ok,1,2026-11-21T00:57:50+00:00,2026-10-15|Procedência|Condenação à Pena Privativa de Liberdade Substituída por Restritiva de Direito
 1598052-03.2019.8.26.0224,CL 57,ok,1,2026-11-21T00:58:05+00:00,2026-10-22|Procedência|Condenação à Pena Privativa de Liberdade Substituída por Restritiva de Direito
 1501176-86.2022.8.26.0577,CL 58,ok,1,2026-11-21T00:58:20+00:00,2025-06-11|Procedência|Condenação à Pena Privativa de Liberdade Substituída por Restritiva de Direito
+1503254-95.2021.8.26.0348,INV 1,ok,1,2026-11-21T00:58:48+00:00,2022-05-06|Procedência|Julgada Procedente a Ação
+1500431-37.2021.8.26.0482,INV 2,ok,1,2026-11-21T00:59:12+00:00,2025-09-26|Procedência em Parte|Sentença Condenatória/Absolutória Proferida
+0001915-31.2023.8.26.0050,INV 3,ok,1,2026-11-21T01:00:19+00:00,"2024-11-06|Procedência|Condenação à Pena Privativa de Liberdade Substituída por Restritiva de Direito (há outra sentença, procedência em parte, de 2022-11-22, sem documento ligado)"
+1501402-04.2023.8.26.0530,INV 4,ok,2,2026-11-21T01:00:38+00:00,2023-10-27|Procedência|Condenação à Pena Privativa de Liberdade e Multa SEM Decretação da Prisão (2 documentos)
+1502875-88.2023.8.26.0024,INV 5,ok,1,2026-11-21T01:00:53+00:00,2025-09-08|Procedência|Condenação à Pena Privativa de Liberdade e Multa SEM Decretação da Prisão
+1501939-55.2025.8.26.0004,INV 6,ok_djen,0,2026-11-21T01:01:32+00:00,"2026-05-11|Procedência em Parte|Julgada Procedente em Parte a Ação; texto sem conteúdo no Codex, dispositivo do DJEN de 12/05/2026"
+0000455-37.2024.8.26.0482,INV 7,ok,1,2026-11-21T01:01:48+00:00,2024-05-27|Procedência em Parte|Sentença Condenatória/Absolutória Proferida
+1523443-37.2019.8.26.0228,INV 8,ok,1,2026-11-21T01:02:05+00:00,2025-03-17|Procedência|Condenação à Pena Privativa de Liberdade e Multa SEM Decretação da Prisão
+1501258-20.2023.8.26.0210,INV 10,ok,1,2026-11-21T01:02:41+00:00,2025-08-08|Procedência em Parte|Julgada Procedente em Parte a Ação
+1517140-36.2021.8.26.0228,INV 13,ok,1,2026-11-21T01:02:58+00:00,2021-10-05|Procedência|Condenação à Pena Restritiva de Direitos - Prestação de Serviços à Comunidade
+1500091-60.2022.8.26.0126,INV 17,ok,5,2026-11-21T01:03:19+00:00,2024-12-03|Procedência em Parte|Sentença Condenatória/Absolutória Proferida (6 documentos)
+1503077-84.2023.8.26.0050,INV 19,ok,1,2026-11-21T01:03:36+00:00,2025-12-17|Procedência|Condenação à Pena Privativa de Liberdade e Multa SEM Decretação da Prisão
+1503431-80.2021.8.26.0050,INV 22,ok,1,2026-11-21T01:03:57+00:00,2024-07-03|Procedência|Condenação à Pena Privativa de Liberdade e Multa SEM Decretação da Prisão
+1500983-37.2023.8.26.0577,INV 24,ok,3,2026-11-21T01:04:14+00:00,2024-02-02|Procedência|Condenação à Pena Privativa de Liberdade e Multa COM Decretação da Prisão (3 documentos)
+1500474-59.2023.8.26.0431,INV 26,ok,1,2026-11-21T01:04:31+00:00,2024-02-18|Procedência em Parte|Julgada Procedente em Parte a Ação
+1508231-98.2025.8.26.0378,INV 27,ok,1,2026-11-21T01:04:51+00:00,2026-03-31|Procedência|Condenação à Pena Privativa de Liberdade Substituída por Restritiva de Direito
+1533131-04.2021.8.26.0050,INV 28,ok,1,2026-11-21T01:05:09+00:00,2022-02-04|Procedência|Condenação à Pena Privativa de Liberdade e Multa COM Decretação da Prisão
+1502025-56.2021.8.26.0007,INV 29,ok,1,2026-11-21T01:05:26+00:00,2024-05-23|Procedência|Condenação à Pena Privativa de Liberdade com Suspensão Condicional da Pena - SURSIS
+1520714-33.2022.8.26.0228,INV 32,ok,1,2026-11-21T01:05:41+00:00,2022-11-22|Procedência em Parte|Sentença Condenatória/Absolutória Proferida
+1512379-74.2022.8.26.0050,INV 33,ok,1,2026-11-21T01:06:33+00:00,2024-06-14||sentença localizada pela lista de documentos; sem movimento de procedência no Codex
+0020630-31.2016.8.26.0224,INV 34,ok,1,2026-11-21T01:06:56+00:00,"2025-06-18|Improcedência|Sentença de Absolvição - Não existir prova suficiente para condenação (Art. 386, VII, CPP)"
+1521208-63.2020.8.26.0228,INV 35,ok,1,2026-11-21T01:07:12+00:00,2022-09-22|Procedência|Condenação à Pena Privativa de Liberdade Substituída por Restritiva de Direito
+1007980-49.2022.8.26.0506,INV 36,ok,1,2026-11-21T01:07:31+00:00,2023-04-28|Procedência em Parte|Sentença Condenatória/Absolutória Proferida
+1501481-62.2024.8.26.0363,INV 38,ok,1,2026-11-21T01:07:57+00:00,2025-12-02|Procedência em Parte|Julgada Procedente em Parte a Ação
+1502791-38.2019.8.26.0506,INV 40,ok,1,2026-11-21T01:08:15+00:00,2022-04-01|Procedência|Condenação à Pena Privativa de Liberdade Substituída por Restritiva de Direito
+1518633-05.2020.8.26.0577,INV 41,ok,3,2026-11-21T01:08:33+00:00,2024-02-08|Procedência|Julgada Procedente a Ação (3 documentos)
+1502937-50.2023.8.26.0438,INV 42,ok,1,2026-11-21T01:08:48+00:00,"2025-07-14|Improcedência|Sentença de Absolvição - Não Existir Prova de ter o Réu Concorrido para a Infração Penal (Art. 386, V, CPP)"
+1538849-79.2021.8.26.0050,INV 43,ok,1,2026-11-21T01:09:05+00:00,2022-11-23|Procedência|Condenação à Pena Restritiva de Direitos - Prestação Pecuniária
+1500616-76.2025.8.26.0404,INV 44,ok,1,2026-11-21T01:09:21+00:00,2026-05-05|Procedência|Condenação à Pena Privativa de Liberdade e Multa SEM Decretação da Prisão
+1503355-93.2022.8.26.0576,INV 45,ok,1,2026-11-21T01:09:38+00:00,2025-04-11|Procedência|Condenação à Pena Privativa de Liberdade e Multa SEM Decretação da Prisão
