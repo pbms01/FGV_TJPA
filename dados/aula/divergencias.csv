@@ -1,0 +1,4 @@
+caso,arquivo,campo,codificado,lido,trecho,decisao,aplicado
+INV 39,dados/analise/q3_dano.csv,pedido_relatorio,False,True,requereu a procedência da denúncia [...] assim como a reparação mínima que consta da denúncia,"a regra do relatório (pedido_alegacoes em reparacao_387.py) não reconhece ""reparação mínima que consta da denúncia""; sem efeito nos números, porque pedido_denuncia já é True; anotar para a próxima revisão do leitor",não
+INV 39,dados/analise/q3_dano.csv,pedido_dito_na_sentenca,False,True,Considerando que o requerimento a reparação do dano foi expresso na denúncia,a menção ao pedido está antes do recorte da cláusula de fixação; sem efeito nos números; anotar para a próxima revisão do leitor,não
+INV 39,dados/extracao/denuncias_tjsp.csv,n_denunciados_cap,2,1,uma denunciada e duas vítimas,"a regex conta as vítimas; já anotado na matriz; sem efeito, porque o INV não entra na questão 1 (única que usa o campo) e a questão 4 usa organizacao.py, que lê 1",não

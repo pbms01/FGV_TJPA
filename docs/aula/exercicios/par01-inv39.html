@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sessão aberta no posto de saúde</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Layout: coluna única de leitura; o caso em cima, as três questões em cartões,
+   a síntese ao fim. Cor de destaque só nos controles e no gabarito. */
+:root {
+  --bg: #f3f5f7;
+  --surface: #ffffff;
+  --ink: #18212b;
+  --muted: #5a6573;
+  --line: #d9dee4;
+  --accent: #1d4f73;
+  --accent-soft: #e6eef4;
+  --ok: #2f6b4f;
+  --ok-soft: #e7f1ec;
+  --del: #8a2f2f;
+  --font-display: "Literata", Georgia, "Times New Roman", serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #12171d;
+    --surface: #1a2129;
+    --ink: #e4e9ee;
+    --muted: #9aa6b3;
+    --line: #2c3641;
+    --accent: #7fb3d9;
+    --accent-soft: #1e2e3b;
+    --ok: #7cc4a0;
+    --ok-soft: #18302a;
+    --del: #e08a8a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #12171d;
+  --surface: #1a2129;
+  --ink: #e4e9ee;
+  --muted: #9aa6b3;
+  --line: #2c3641;
+  --accent: #7fb3d9;
+  --accent-soft: #1e2e3b;
+  --ok: #7cc4a0;
+  --ok-soft: #18302a;
+  --del: #e08a8a;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+/* o atributo hidden prevalece sobre qualquer display definido por classe */
+[hidden] { display: none !important; }
+html, body { margin: 0; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+}
+.wrap {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 32px 20px 64px;
+  display: grid;
+  gap: 28px;
+}
+header { display: grid; gap: 10px; }
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+h1, h2, h3 { font-family: var(--font-display); font-weight: 600; text-wrap: balance; margin: 0; line-height: 1.25; }
+h1 { font-size: 30px; }
+h2 { font-size: 21px; }
+h3 { font-size: 18px; }
+p { margin: 0; max-width: 65ch; }
+.lead { color: var(--muted); }
+
+.status {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 12px;
+}
+.chip {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--muted);
+}
+.chip.done { border-color: var(--ok); color: var(--ok); background: var(--ok-soft); }
+
+section.caso {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 22px;
+  display: grid;
+  gap: 14px;
+}
+dl { margin: 0; display: grid; gap: 10px; }
+dl div { display: grid; grid-template-columns: 120px 1fr; gap: 12px; }
+dt { font-weight: 600; color: var(--muted); font-size: 14.5px; padding-top: 1px; }
+dd { margin: 0; max-width: 60ch; }
+@media (max-width: 520px) { dl div { grid-template-columns: 1fr; gap: 2px; } }
+
+.questoes { display: grid; gap: 20px; }
+article.q {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--line);
+  border-radius: 10px;
+  padding: 22px;
+  display: grid;
+  gap: 14px;
+}
+article.q.answered { border-left-color: var(--ok); }
+.qhead { display: flex; gap: 12px; align-items: baseline; }
+.qnum {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--accent);
+  flex: none;
+}
+label.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+textarea {
+  width: 100%;
+  min-height: 130px;
+  resize: vertical;
+  padding: 12px 14px;
+  font: inherit;
+  color: var(--ink);
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+textarea:focus-visible, button:focus-visible, input:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+textarea[readonly] { opacity: 0.85; }
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; justify-content: space-between; }
+.count { font-family: var(--font-mono); font-size: 12.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+button {
+  font: inherit;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 9px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: var(--surface);
+  cursor: pointer;
+}
+button:disabled { opacity: 0.45; cursor: not-allowed; }
+button.ghost { background: transparent; color: var(--accent); }
+
+.gabarito {
+  display: grid;
+  gap: 12px;
+  background: var(--ok-soft);
+  border: 1px solid var(--ok);
+  border-radius: 8px;
+  padding: 18px;
+}
+.gabarito[hidden] { display: none; }
+.gabarito h3 { color: var(--ok); font-size: 16px; font-family: var(--font-body); }
+.lei {
+  font-family: var(--font-display);
+  font-size: 15px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 12px 14px;
+}
+.lei del { color: var(--del); text-decoration-thickness: 2px; }
+.lei ins { text-decoration: none; border-bottom: 2px solid var(--ok); }
+.lei small { display: block; margin-top: 6px; font-family: var(--font-body); font-size: 13px; color: var(--muted); }
+.base { font-size: 14.5px; color: var(--muted); }
+fieldset { border: 0; margin: 0; padding: 0; display: grid; gap: 6px; }
+legend { font-weight: 600; font-size: 14.5px; margin-bottom: 6px; }
+.ponto { display: flex; gap: 10px; align-items: flex-start; }
+.ponto input { margin-top: 5px; width: 16px; height: 16px; accent-color: var(--ok); flex: none; }
+.placar { font-family: var(--font-mono); font-size: 13px; color: var(--ok); font-variant-numeric: tabular-nums; }
+
+section.sintese {
+  border: 1px dashed var(--line);
+  border-radius: 10px;
+  padding: 22px;
+  display: grid;
+  gap: 12px;
+}
+section.sintese.open { border-style: solid; border-color: var(--accent); background: var(--accent-soft); }
+section.sintese ul { margin: 0; padding-left: 20px; display: grid; gap: 8px; max-width: 65ch; }
+footer { font-size: 13.5px; color: var(--muted); display: grid; gap: 10px; }
+@media (prefers-reduced-motion: no-preference) {
+  .gabarito:not([hidden]) { animation: abre 220ms ease-out; }
+  @keyframes abre { from { opacity: 0.4; transform: translateY(-3px); } to { opacity: 1; transform: none; } }
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <div class="eyebrow">Cibercriminologia para magistrados · Par 1 · Caso âncora</div>
+    <h1>Sessão aberta no posto de saúde</h1>
+    <p class="lead">Leia o caso e responda às três questões. O gabarito de cada uma aparece quando você envia a sua resposta. Depois, marque os pontos que a sua resposta cobriu.</p>
+    <div class="status">
+      <span class="chip" id="progresso" aria-live="polite">0 de 3 respondidas</span>
+      <button type="button" class="ghost" id="recomecar">Recomeçar</button>
+    </div>
+  </header>
+
+  <section class="caso" aria-labelledby="t-caso">
+    <h2 id="t-caso">O caso</h2>
+    <p>Uma servidora de um posto de saúde municipal usou o computador da recepção para imprimir um documento médico e, ao sair, deixou aberta no navegador a sessão do WhatsApp Web. Uma colega de trabalho leu as conversas dela com outra servidora e fez capturas de tela, inclusive de conversas sobre o estado de saúde da vítima, que tratava uma doença grave. Guardou as capturas numa pasta do computador da unidade e as mostrou a outros colegas. O computador não tinha senha.</p>
+    <dl>
+      <div><dt>Datas</dt><dd>Fato em janeiro de 2024; denúncia em fevereiro de 2026; sentença em julho de 2026 (TJSP).</dd></div>
+      <div><dt>Denúncia</dt><dd>Art. 154-A, §3º e §4º, do Código Penal: invasão com obtenção de conteúdo de comunicações eletrônicas privadas e divulgação a terceiros. A vítima representou no prazo. O MP recusou o ANPP pela gravidade concreta e pediu dano moral de R$ 5.000,00.</dd></div>
+      <div><dt>Prova</dt><dd>Boletim de ocorrência, relatório psicológico, relatório médico, capturas de tela juntadas aos autos, confissão na polícia e os depoimentos de duas vítimas e cinco testemunhas. Em juízo, a ré negou ter capturado ou divulgado as conversas e atribuiu a leitura às colegas.</dd></div>
+      <div><dt>Sentença</dt><dd>Condenação no art. 154-A, §3º e §4º. Pena-base aumentada pelas consequências do crime (relatório psicológico); pena final de 2 anos e 8 meses e 14 dias-multa; reparação de R$ 2.000,00 por dano moral à primeira vítima.</dd></div>
+    </dl>
+  </section>
+
+  <div class="questoes">
+
+    <article class="q" id="q1" aria-labelledby="t-q1">
+      <div class="qhead"><span class="qnum">1 de 3</span><h3 id="t-q1">A vítima deixou a sessão aberta num computador sem senha. A colega que leu e capturou as conversas cometeu invasão de dispositivo informático?</h3></div>
+      <label class="sr" for="r1">Sua resposta à questão 1</label>
+      <textarea id="r1" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c1">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b1" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g1" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>Sim, na redação vigente do art. 154-A. A Lei 14.155/2021 suprimiu do caput a violação de mecanismo de segurança, que a Lei 12.737/2012 exigia. O tipo atual pede que o dispositivo seja de uso alheio e que o agente atue sem autorização expressa ou tácita do usuário, com o fim de obter, adulterar ou destruir dados. Ter permissão para usar o computador da repartição não é ter permissão para entrar na conta de outra pessoa. A falta de senha e o descuido da vítima podem pesar na culpabilidade, como pediu a defesa, mas não afastam o tipo.</p>
+        <div class="lei">
+          Invadir dispositivo informático <ins>de uso</ins> alheio, conectado ou não à rede de computadores, <del>mediante violação indevida de mecanismo de segurança e</del> com o fim de obter, adulterar ou destruir dados ou informações sem autorização expressa ou tácita do <del>titular</del> <ins>usuário</ins> do dispositivo […]
+          <small>Caput do art. 154-A do CP: em vermelho e riscado, o que constava da redação da Lei 12.737/2012 e saiu; sublinhado em verde, o que a Lei 14.155/2021 acrescentou.</small>
+        </div>
+        <p class="base">Na base de pesquisa (sentenças do TJSP em ações penais por invasão de dispositivo): entre as sentenças com fato posterior a 2021 que trataram da elementar, três ainda a exigiram e absolveram do 154-A por falta dela.</p>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" id="p1a" data-q="1"> Identificou que a redação aplicável é a da Lei 14.155/2021.</label>
+          <label class="ponto"><input type="checkbox" id="p1b" data-q="1"> Notou que a violação de mecanismo de segurança deixou de ser elementar do tipo.</label>
+          <label class="ponto"><input type="checkbox" id="p1c" data-q="1"> Distinguiu a autorização para usar o computador da autorização para entrar na conta.</label>
+          <label class="ponto"><input type="checkbox" id="p1d" data-q="1"> Situou a falta de senha na culpabilidade, e não na tipicidade.</label>
+        </fieldset>
+        <span class="placar" id="s1">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+
+    <article class="q" id="q2" aria-labelledby="t-q2">
+      <div class="qhead"><span class="qnum">2 de 3</span><h3 id="t-q2">Qual foi a prova decisiva para a condenação, e o que faltou?</h3></div>
+      <label class="sr" for="r2">Sua resposta à questão 2</label>
+      <textarea id="r2" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c2">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b2" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g2" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>Decidiram as capturas de tela confirmadas em juízo, os depoimentos coerentes das colegas que viram a ré chamar outras pessoas para ler as conversas e a confissão, embora qualificada. Faltou a perícia do computador. A defesa explorou essa falta pela quebra da cadeia de custódia e atribuiu as capturas às colegas; a sentença afastou a nulidade porque não houve prejuízo demonstrado e as imagens foram confirmadas no contraditório.</p>
+        <p>Numa invasão por contato físico, a prova está no próprio dispositivo e nos registros do sistema, e não num provedor. Preservá-los no início é o que resolve a autoria quando a prova oral se divide.</p>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" id="p2a" data-q="2"> Apontou as capturas confirmadas em juízo e a prova oral.</label>
+          <label class="ponto"><input type="checkbox" id="p2b" data-q="2"> Apontou a ausência de perícia do computador.</label>
+          <label class="ponto"><input type="checkbox" id="p2c" data-q="2"> Relacionou essa ausência à disputa sobre quem fez as capturas.</label>
+          <label class="ponto"><input type="checkbox" id="p2d" data-q="2"> Indicou que a prova útil está no dispositivo e nos registros do sistema, e não em provedor.</label>
+        </fieldset>
+        <span class="placar" id="s2">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+
+    <article class="q" id="q3" aria-labelledby="t-q3">
+      <div class="qhead"><span class="qnum">3 de 3</span><h3 id="t-q3">A sentença fixou o regime semiaberto, substituiu a pena por prestação pecuniária e limitação de fim de semana e, no mesmo dispositivo, mandou expedir mandado de prisão depois do trânsito em julgado. O dispositivo é coerente?</h3></div>
+      <label class="sr" for="r3">Sua resposta à questão 3</label>
+      <textarea id="r3" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c3">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b3" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g3" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>Não inteiramente. Com a substituição, a execução passa a ser a das penas restritivas de direitos, e o regime fixado só importa se houver conversão por descumprimento. O mandado de prisão no trânsito pressupõe uma conversão que não ocorreu e contradiz a substituição deferida no mesmo ato.</p>
+        <p>Há ainda uma tensão a discutir: a mesma circunstância negativa, as consequências do crime, justificou o regime mais gravoso e não impediu a substituição.</p>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" id="p3a" data-q="3"> Percebeu que a substituição desloca a execução para as penas restritivas.</label>
+          <label class="ponto"><input type="checkbox" id="p3b" data-q="3"> Situou o regime como relevante só em caso de conversão.</label>
+          <label class="ponto"><input type="checkbox" id="p3c" data-q="3"> Identificou a contradição do mandado de prisão no trânsito.</label>
+          <label class="ponto"><input type="checkbox" id="p3d" data-q="3"> Discutiu o peso da mesma circunstância negativa no regime e na substituição.</label>
+        </fieldset>
+        <span class="placar" id="s3">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+
+  </div>
+
+  <section class="sintese" id="sintese" aria-labelledby="t-sintese" aria-live="polite">
+    <h2 id="t-sintese">O que o caso acrescenta à decisão</h2>
+    <p id="sintese-espera">A síntese aparece quando as três questões estiverem respondidas.</p>
+    <ul id="sintese-lista" hidden>
+      <li>Na tipicidade, a primeira pergunta é se o sistema é o objeto da conduta. Se é, o tipo é o 154-A, com ou sem internet e, desde 2021, sem exigir que se rompa senha ou outra barreira.</li>
+      <li>Na prova, a invasão por contato físico pede a preservação do dispositivo e dos registros do sistema logo no início da investigação.</li>
+      <li>No dano, o prejuízo psicológico e social só entra no processo se for pedido com descrição e prova. Aqui ele entrou pela pena e pela reparação: é uma das 3 fixações de dano moral entre as 171 condenações da base.</li>
+      <li>Na base, 13 das 33 invasões com o sistema como objeto persistem sem a internet, por contato físico ou rede interna.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Caso de uma ação penal do TJSP, com denúncia e sentença lidas por inteiro e anonimizadas. Os números vêm da base de pesquisa de 198 denúncias e suas sentenças.</p>
+    <p>As respostas ficam só nesta página e se perdem ao recarregá-la.</p>
+  </footer>
+</main>
+
+<script>
+(function () {
+  var MIN = 40;
+  var respondidas = { 1: false, 2: false, 3: false };
+
+  function el(id) { return document.getElementById(id); }
+
+  function atualizaProgresso() {
+    var n = Object.keys(respondidas).filter(function (k) { return respondidas[k]; }).length;
+    var chip = el("progresso");
+    chip.textContent = n + " de 3 respondidas";
+    chip.classList.toggle("done", n === 3);
+    var aberta = n === 3;
+    el("sintese").classList.toggle("open", aberta);
+    el("sintese-lista").hidden = !aberta;
+    el("sintese-espera").hidden = aberta;
+  }
+
+  function atualizaPlacar(q) {
+    var caixas = document.querySelectorAll('input[data-q="' + q + '"]');
+    var marcados = Array.prototype.filter.call(caixas, function (c) { return c.checked; }).length;
+    el("s" + q).textContent = marcados + " de " + caixas.length + " pontos marcados";
+  }
+
+  [1, 2, 3].forEach(function (q) {
+    var campo = el("r" + q), botao = el("b" + q), conta = el("c" + q);
+    campo.addEventListener("input", function () {
+      var n = campo.value.trim().length;
+      conta.textContent = n + (n === 1 ? " caractere" : " caracteres") + " · mínimo de " + MIN;
+      botao.disabled = n < MIN;
+    });
+    botao.addEventListener("click", function () {
+      if (campo.value.trim().length < MIN) return;
+      campo.readOnly = true;
+      botao.disabled = true;
+      botao.textContent = "Resposta enviada";
+      el("g" + q).hidden = false;
+      el("q" + q).classList.add("answered");
+      respondidas[q] = true;
+      atualizaProgresso();
+    });
+    document.querySelectorAll('input[data-q="' + q + '"]').forEach(function (c) {
+      c.addEventListener("change", function () { atualizaPlacar(q); });
+    });
+  });
+
+  el("recomecar").addEventListener("click", function () {
+    [1, 2, 3].forEach(function (q) {
+      var campo = el("r" + q), botao = el("b" + q);
+      campo.value = "";
+      campo.readOnly = false;
+      botao.disabled = true;
+      botao.textContent = "Responder e ver o gabarito";
+      el("c" + q).textContent = "0 caracteres · mínimo de " + MIN;
+      el("g" + q).hidden = true;
+      el("q" + q).classList.remove("answered");
+      document.querySelectorAll('input[data-q="' + q + '"]').forEach(function (c) { c.checked = false; });
+      atualizaPlacar(q);
+      respondidas[q] = false;
+    });
+    atualizaProgresso();
+    el("r1").focus();
+  });
+})();
+</script>
+</body>
+</html>

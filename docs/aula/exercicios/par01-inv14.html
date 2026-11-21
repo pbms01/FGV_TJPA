@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Celular levado de madrugada</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Layout: o mesmo do exercício do caso âncora (coluna única; o caso em cima, as
+   questões em cartões, a síntese do par ao fim), para que os dois se leiam juntos. */
+:root {
+  --bg: #f3f5f7;
+  --surface: #ffffff;
+  --ink: #18212b;
+  --muted: #5a6573;
+  --line: #d9dee4;
+  --accent: #1d4f73;
+  --accent-soft: #e6eef4;
+  --ok: #2f6b4f;
+  --ok-soft: #e7f1ec;
+  --del: #8a2f2f;
+  --font-display: "Literata", Georgia, "Times New Roman", serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #12171d;
+    --surface: #1a2129;
+    --ink: #e4e9ee;
+    --muted: #9aa6b3;
+    --line: #2c3641;
+    --accent: #7fb3d9;
+    --accent-soft: #1e2e3b;
+    --ok: #7cc4a0;
+    --ok-soft: #18302a;
+    --del: #e08a8a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #12171d;
+  --surface: #1a2129;
+  --ink: #e4e9ee;
+  --muted: #9aa6b3;
+  --line: #2c3641;
+  --accent: #7fb3d9;
+  --accent-soft: #1e2e3b;
+  --ok: #7cc4a0;
+  --ok-soft: #18302a;
+  --del: #e08a8a;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+/* o atributo hidden prevalece sobre qualquer display definido por classe */
+[hidden] { display: none !important; }
+html, body { margin: 0; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+}
+a { color: var(--accent); }
+.wrap {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 32px 20px 64px;
+  display: grid;
+  gap: 28px;
+}
+header { display: grid; gap: 10px; }
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+h1, h2, h3 { font-family: var(--font-display); font-weight: 600; text-wrap: balance; margin: 0; line-height: 1.25; }
+h1 { font-size: 30px; }
+h2 { font-size: 21px; }
+h3 { font-size: 18px; }
+p { margin: 0; max-width: 65ch; }
+.lead { color: var(--muted); }
+
+.status { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+.chip {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--muted);
+}
+.chip.done { border-color: var(--ok); color: var(--ok); background: var(--ok-soft); }
+
+section.caso {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 22px;
+  display: grid;
+  gap: 14px;
+}
+dl { margin: 0; display: grid; gap: 10px; }
+dl div { display: grid; grid-template-columns: 120px 1fr; gap: 12px; }
+dt { font-weight: 600; color: var(--muted); font-size: 14.5px; padding-top: 1px; }
+dd { margin: 0; max-width: 60ch; }
+@media (max-width: 520px) { dl div { grid-template-columns: 1fr; gap: 2px; } }
+
+.questoes { display: grid; gap: 20px; }
+article.q {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--line);
+  border-radius: 10px;
+  padding: 22px;
+  display: grid;
+  gap: 14px;
+}
+article.q.answered { border-left-color: var(--ok); }
+.qhead { display: flex; gap: 12px; align-items: baseline; }
+.qnum { font-family: var(--font-mono); font-size: 13px; color: var(--accent); flex: none; }
+label.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+textarea {
+  width: 100%;
+  min-height: 130px;
+  resize: vertical;
+  padding: 12px 14px;
+  font: inherit;
+  color: var(--ink);
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+textarea:focus-visible, button:focus-visible, input:focus-visible, a:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+textarea[readonly] { opacity: 0.85; }
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; justify-content: space-between; }
+.count { font-family: var(--font-mono); font-size: 12.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+button {
+  font: inherit;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 9px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: var(--surface);
+  cursor: pointer;
+}
+button:disabled { opacity: 0.45; cursor: not-allowed; }
+button.ghost { background: transparent; color: var(--accent); }
+
+.gabarito {
+  display: grid;
+  gap: 12px;
+  background: var(--ok-soft);
+  border: 1px solid var(--ok);
+  border-radius: 8px;
+  padding: 18px;
+}
+.gabarito h3 { color: var(--ok); font-size: 16px; font-family: var(--font-body); }
+.lei {
+  font-family: var(--font-display);
+  font-size: 15px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 12px 14px;
+  display: grid;
+  gap: 8px;
+}
+.lei del { color: var(--del); text-decoration-thickness: 2px; }
+.lei ins { text-decoration: none; border-bottom: 2px solid var(--ok); }
+.lei b { font-family: var(--font-body); font-weight: 600; font-size: 13.5px; }
+.lei small { display: block; font-family: var(--font-body); font-size: 13px; color: var(--muted); }
+.base { font-size: 14.5px; color: var(--muted); }
+fieldset { border: 0; margin: 0; padding: 0; display: grid; gap: 6px; }
+legend { font-weight: 600; font-size: 14.5px; margin-bottom: 6px; }
+.ponto { display: flex; gap: 10px; align-items: flex-start; }
+.ponto input { margin-top: 5px; width: 16px; height: 16px; accent-color: var(--ok); flex: none; }
+.placar { font-family: var(--font-mono); font-size: 13px; color: var(--ok); font-variant-numeric: tabular-nums; }
+
+section.sintese {
+  border: 1px dashed var(--line);
+  border-radius: 10px;
+  padding: 22px;
+  display: grid;
+  gap: 12px;
+}
+section.sintese.open { border-style: solid; border-color: var(--accent); background: var(--accent-soft); }
+section.sintese ul { margin: 0; padding-left: 20px; display: grid; gap: 8px; max-width: 65ch; }
+footer { font-size: 13.5px; color: var(--muted); display: grid; gap: 10px; }
+@media (prefers-reduced-motion: no-preference) {
+  .gabarito:not([hidden]) { animation: abre 220ms ease-out; }
+  @keyframes abre { from { opacity: 0.4; transform: translateY(-3px); } to { opacity: 1; transform: none; } }
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <div class="eyebrow">Cibercriminologia para magistrados · Par 1 · Caso de contraste</div>
+    <h1>Celular levado de madrugada</h1>
+    <p class="lead">Este caso faz par com o da <a href="https://claude.ai/artifact/6jErHmsZNfw8ahFBB995mN">sessão aberta no posto de saúde</a>. Leia o caso e responda às quatro questões. O gabarito de cada uma aparece quando você envia a sua resposta. Depois, marque os pontos que a sua resposta cobriu.</p>
+    <div class="status">
+      <span class="chip" id="progresso" aria-live="polite">0 de 4 respondidas</span>
+      <button type="button" class="ghost" id="recomecar">Recomeçar</button>
+    </div>
+  </header>
+
+  <section class="caso" aria-labelledby="t-caso">
+    <h2 id="t-caso">O caso</h2>
+    <p>Depois do fim de um relacionamento de cerca de um ano, o ex-companheiro, que não aceitava a separação e vigiava a vítima na volta do trabalho, entrou de madrugada na casa dela e levou o celular. No dia seguinte, o aparelho voltou à vítima pela mãe dele.</p>
+    <dl>
+      <div><dt>Datas</dt><dd>Fato em dezembro de 2023; denúncia em julho de 2024; sentença em novembro de 2024 (TJSP).</dd></div>
+      <div><dt>Denúncia</dt><dd>Furto de um celular avaliado em R$ 6.000,00, com o aumento do repouso noturno (art. 155, §1º, do CP), no contexto da Lei 11.340/2006. Sobre o acesso ao conteúdo, a denúncia diz apenas que o denunciado levou o aparelho "certamente com o objetivo de vasculhar a privacidade dela, visualizando as mensagens porventura armazenadas no aplicativo". A vítima representou. O MP pediu dano moral e não ofereceu ANPP, vedado pelo contexto de violência doméstica.</dd></div>
+      <div><dt>Instrução</dt><dd>A vítima relata a entrada de madrugada, a luta pelo aparelho, as capturas de conversas do celular que ele mandou para a mãe dela e a mudança de casa por medo, apesar das medidas protetivas. O réu admite ter pegado o celular para ver se ela se relacionava com outra pessoa.</dd></div>
+      <div><dt>Sentença</dt><dd>Absolvição do furto, por falta de ânimo de assenhoramento. Examinando de ofício o art. 154-A, a sentença também o afasta: para ela, invadir pressupõe "a utilização de método que viole barreiras de segurança implementadas no dispositivo eletrônico, como senha, biometria", e nem a denúncia nem a prova trataram de barreira. O pedido de dano moral não é examinado.</dd></div>
+    </dl>
+  </section>
+
+  <div class="questoes">
+
+    <article class="q" id="q1" aria-labelledby="t-q1">
+      <div class="qhead"><span class="qnum">1 de 4</span><h3 id="t-q1">A sentença afastou o 154-A por falta de senha ou biometria. Que redação do tipo estava em vigor na data do fato?</h3></div>
+      <label class="sr" for="r1">Sua resposta à questão 1</label>
+      <textarea id="r1" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c1">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b1" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g1" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>A da Lei 14.155, de 27 de maio de 2021, em vigor desde a publicação, que não tem a elementar da violação de mecanismo de segurança. A sentença aplicou a redação de 2012, da Lei 12.737, que exigia invadir "mediante violação indevida de mecanismo de segurança". O fato é de dezembro de 2023, mais de dois anos depois da mudança.</p>
+        <div class="lei">
+          <span>Invadir dispositivo informático <ins>de uso</ins> alheio, conectado ou não à rede de computadores, <del>mediante violação indevida de mecanismo de segurança e</del> com o fim de obter, adulterar ou destruir dados ou informações sem autorização expressa ou tácita do <del>titular</del> <ins>usuário</ins> do dispositivo […]</span>
+          <small>Caput do art. 154-A do CP: em vermelho e riscado, o que constava da redação da Lei 12.737/2012 e saiu; sublinhado em verde, o que a Lei 14.155/2021 acrescentou.</small>
+        </div>
+        <p class="base">Na base de pesquisa (sentenças do TJSP em ações penais por invasão de dispositivo), este é um de três casos com fato posterior a 2021 em que a sentença exigiu a elementar suprimida e, por falta dela, afastou o 154-A.</p>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" id="p1a" data-q="1"> Identificou a Lei 14.155/2021 como a redação vigente na data do fato.</label>
+          <label class="ponto"><input type="checkbox" id="p1b" data-q="1"> Notou que a violação de mecanismo de segurança deixou de ser elementar do tipo.</label>
+          <label class="ponto"><input type="checkbox" id="p1c" data-q="1"> Reconheceu que a sentença aplicou a redação de 2012.</label>
+        </fieldset>
+        <span class="placar" id="s1">0 de 3 pontos marcados</span>
+      </div>
+    </article>
+
+    <article class="q" id="q2" aria-labelledby="t-q2">
+      <div class="qhead"><span class="qnum">2 de 4</span><h3 id="t-q2">Lendo o tipo vigente, a sentença poderia condenar pelo 154-A com aquela denúncia?</h3></div>
+      <label class="sr" for="r2">Sua resposta à questão 2</label>
+      <textarea id="r2" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c2">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b2" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g2" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>Não. A denúncia narrava o acesso só como intenção provável ("certamente", "porventura"). O acesso e a transmissão das capturas apareceram na instrução, e a nova definição jurídica dependeria de aditamento pelo MP (art. 384 do CPP), e não só de emendatio libelli (art. 383), que permite dar outra definição ao fato descrito, mas não acrescentar fato.</p>
+        <div class="lei">
+          <span><b>Art. 383 do CPP.</b> O juiz, sem modificar a descrição do fato contida na denúncia ou queixa, poderá atribuir-lhe definição jurídica diversa, ainda que, em conseqüência, tenha de aplicar pena mais grave.</span>
+          <span><b>Art. 384 do CPP.</b> Encerrada a instrução probatória, se entender cabível nova definição jurídica do fato, em conseqüência de prova existente nos autos de elemento ou circunstância da infração penal não contida na acusação, o Ministério Público deverá aditar a denúncia ou queixa […]</span>
+        </div>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" id="p2a" data-q="2"> Observou que a denúncia narra o acesso só como intenção provável.</label>
+          <label class="ponto"><input type="checkbox" id="p2b" data-q="2"> Situou o acesso e a transmissão das capturas na instrução.</label>
+          <label class="ponto"><input type="checkbox" id="p2c" data-q="2"> Distinguiu a emendatio (art. 383) da nova definição por elemento não contido na acusação (art. 384).</label>
+          <label class="ponto"><input type="checkbox" id="p2d" data-q="2"> Concluiu que a condenação pelo 154-A dependeria de aditamento do MP.</label>
+        </fieldset>
+        <span class="placar" id="s2">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+
+    <article class="q" id="q3" aria-labelledby="t-q3">
+      <div class="qhead"><span class="qnum">3 de 4</span><h3 id="t-q3">O que o caso pede à acusação?</h3></div>
+      <label class="sr" for="r3">Sua resposta à questão 3</label>
+      <textarea id="r3" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c3">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b3" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g3" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>Narrar o acesso, a obtenção e a transmissão dos dados, com a prova (as capturas, o depoimento) e a representação, porque nos crimes do art. 154-A só se procede mediante representação (art. 154-B do CP). Capitular o 154-A, com o §3º e o §4º quando couberem, no contexto da Lei 11.340/2006. E pedir o dano moral descrevendo o dano da devassa.</p>
+        <p>Para discutir: a violência psicológica contra a mulher (art. 147-B do CP, incluído pela Lei 14.188/2021) tem de ser considerada nesses casos, e o próprio tipo ressalva a hipótese em que a conduta constitui crime mais grave.</p>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" id="p3a" data-q="3"> Pediu que a denúncia narre o acesso, a obtenção e a transmissão dos dados como fatos.</label>
+          <label class="ponto"><input type="checkbox" id="p3b" data-q="3"> Indicou a prova a juntar e a representação.</label>
+          <label class="ponto"><input type="checkbox" id="p3c" data-q="3"> Capitulou o 154-A, com o §3º e o §4º quando couberem, no contexto da Lei 11.340/2006.</label>
+          <label class="ponto"><input type="checkbox" id="p3d" data-q="3"> Pediu o dano moral descrevendo o dano da devassa.</label>
+        </fieldset>
+        <span class="placar" id="s3">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+
+    <article class="q" id="q4" aria-labelledby="t-q4">
+      <div class="qhead"><span class="qnum">4 de 4</span><h3 id="t-q4">Compare este caso com o da sessão aberta no posto de saúde.</h3></div>
+      <label class="sr" for="r4">Sua resposta à questão 4</label>
+      <textarea id="r4" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c4">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b4" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g4" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>O mesmo tribunal, em 2024 e em 2026, deu respostas opostas à mesma pergunta. A diferença não está na conduta, que nos dois casos é ler conteúdo alheio aproveitando o acesso físico ao aparelho, mas na redação do tipo que cada decisão aplicou e no que a denúncia narrou. No posto de saúde, a denúncia narrou o acesso, a obtenção e a divulgação como fatos, e a sentença aplicou a redação de 2021; aqui, a denúncia tratou o acesso como hipótese, e a sentença aplicou a de 2012.</p>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" id="p4a" data-q="4"> Identificou que a conduta é a mesma em essência: ler conteúdo alheio aproveitando o acesso físico ao aparelho.</label>
+          <label class="ponto"><input type="checkbox" id="p4b" data-q="4"> Apontou a redação do tipo que cada decisão aplicou.</label>
+          <label class="ponto"><input type="checkbox" id="p4c" data-q="4"> Apontou a diferença no que cada denúncia narrou.</label>
+          <label class="ponto"><input type="checkbox" id="p4d" data-q="4"> Notou que são decisões do mesmo tribunal, com dois anos de distância.</label>
+        </fieldset>
+        <span class="placar" id="s4">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+
+  </div>
+
+  <section class="sintese" id="sintese" aria-labelledby="t-sintese" aria-live="polite">
+    <h2 id="t-sintese">O que o par acrescenta à decisão</h2>
+    <p id="sintese-espera">A síntese aparece quando as quatro questões estiverem respondidas.</p>
+    <ul id="sintese-lista" hidden>
+      <li>A pergunta sobre o sistema vem antes da pergunta sobre a coisa. Se o que o agente queria era o conteúdo do aparelho, o tipo a examinar é o 154-A.</li>
+      <li>Desde a Lei 14.155/2021, o 154-A não exige que se rompa senha ou outra barreira. Exigir a elementar suprimida leva à absolvição, como em três sentenças da base.</li>
+      <li>A sentença só pode dar outra definição ao fato narrado (art. 383 do CPP). O fato que surge na instrução pede aditamento (art. 384). Neste caso, o ponto de correção estava na denúncia.</li>
+      <li>No controle da parceira pelo celular, o dano da devassa só chega à reparação se a denúncia descrever o crime do dado. Na base, o controle da parceira é o artifício mais frequente das invasões (26,5%), e 7 das 34 denúncias de invasão têm contexto de violência doméstica.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Caso de uma ação penal do TJSP, com denúncia, aditamento e sentença lidos por inteiro e anonimizados. Os números vêm da base de pesquisa de 198 denúncias e suas sentenças.</p>
+    <p>As respostas ficam só nesta página e se perdem ao recarregá-la.</p>
+  </footer>
+</main>
+
+<script>
+(function () {
+  var MIN = 40;
+  var QS = [1, 2, 3, 4];
+  var respondidas = {};
+  QS.forEach(function (q) { respondidas[q] = false; });
+
+  function el(id) { return document.getElementById(id); }
+
+  function atualizaProgresso() {
+    var n = QS.filter(function (q) { return respondidas[q]; }).length;
+    var chip = el("progresso");
+    chip.textContent = n + " de " + QS.length + " respondidas";
+    chip.classList.toggle("done", n === QS.length);
+    var aberta = n === QS.length;
+    el("sintese").classList.toggle("open", aberta);
+    el("sintese-lista").hidden = !aberta;
+    el("sintese-espera").hidden = aberta;
+  }
+
+  function atualizaPlacar(q) {
+    var caixas = document.querySelectorAll('input[data-q="' + q + '"]');
+    var marcados = Array.prototype.filter.call(caixas, function (c) { return c.checked; }).length;
+    el("s" + q).textContent = marcados + " de " + caixas.length + " pontos marcados";
+  }
+
+  QS.forEach(function (q) {
+    var campo = el("r" + q), botao = el("b" + q), conta = el("c" + q);
+    campo.addEventListener("input", function () {
+      var n = campo.value.trim().length;
+      conta.textContent = n + (n === 1 ? " caractere" : " caracteres") + " · mínimo de " + MIN;
+      botao.disabled = n < MIN;
+    });
+    botao.addEventListener("click", function () {
+      if (campo.value.trim().length < MIN) return;
+      campo.readOnly = true;
+      botao.disabled = true;
+      botao.textContent = "Resposta enviada";
+      el("g" + q).hidden = false;
+      el("q" + q).classList.add("answered");
+      respondidas[q] = true;
+      atualizaProgresso();
+    });
+    document.querySelectorAll('input[data-q="' + q + '"]').forEach(function (c) {
+      c.addEventListener("change", function () { atualizaPlacar(q); });
+    });
+  });
+
+  el("recomecar").addEventListener("click", function () {
+    QS.forEach(function (q) {
+      var campo = el("r" + q), botao = el("b" + q);
+      campo.value = "";
+      campo.readOnly = false;
+      botao.disabled = true;
+      botao.textContent = "Responder e ver o gabarito";
+      el("c" + q).textContent = "0 caracteres · mínimo de " + MIN;
+      el("g" + q).hidden = true;
+      el("q" + q).classList.remove("answered");
+      document.querySelectorAll('input[data-q="' + q + '"]').forEach(function (c) { c.checked = false; });
+      atualizaPlacar(q);
+      respondidas[q] = false;
+    });
+    atualizaProgresso();
+    el("r1").focus();
+  });
+})();
+</script>
+</body>
+</html>

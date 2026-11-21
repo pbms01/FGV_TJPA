@@ -60,7 +60,9 @@ Estado em 21/11/2026: a coleta da fase 1 (TJSP) está encerrada para fins de an�
 | `scripts/fenomenos_ponderados.py` | Os 18 fenômenos de maior valor prático das questões 1 a 7, com percentual simples e ponderado e os casos de origem; grava `dados/analise/fenomenos.csv` e `fenomenos_casos.csv` |
 | `scripts/segundo_leitor.py` | Concordância entre a primeira leitura (congelada em `dados/conferencia/primeira_leitura.csv`) e o segundo leitor cego, e conferência de que a adjudicação (`dados/conferencia/adjudicacao.csv`) está aplicada aos dados |
 | `docs/analise/` | Notas analíticas das questões 1 a 7 e nota de método do segundo leitor, espelhadas no Project "Criminologia Informática" |
-| `docs/aula/` | Plano de exame em aula das sete questões em oito pares de casos; as fichas dos casos entram em `docs/aula/fichas/` |
+| `docs/aula/` | Plano de exame em aula das sete questões em oito pares de casos, fichas dos casos (`fichas/`) e fontes dos exercícios com gabarito publicados como artefatos (`exercicios/`) |
+| `scripts/casos_aula.py` | Índice dos 16 casos da aula (`dados/aula/casos_aula.csv`), esqueleto de cada ficha com os valores já codificados e links do GitHub das peças |
+| `dados/aula/` | Índice dos casos da aula, divergências da leitura integral contra a codificação e triagem das sentenças do INV quanto à elementar de segurança do 154-A |
 | `scripts/registra_apelacao.py` e `scripts/grava_acordao.py` | Andamento em segundo grau das sentenças que trataram da Lei 15.397/2026 (`dados/tjsp2/apelacoes_amostra.csv`) e gravação de acórdãos e razões de apelação lidos pelo Codex |
 | `scripts/classifica_acordaos.py` | Junta as buscas do cjsg sobre o 171 §2º, VII e grava `dados/tjsp2/acordaos_inciso_vii.csv` com a decisão lida em cada ementa |
 | `scripts/sorteio_complemento_fe.py` | Complemento do sorteio da FE (ordens 120 a 131) |
@@ -96,6 +98,6 @@ O script guarda cada resultado em `dados/cjpg/bruto/<rótulo>.jsonl`, retoma pel
 ## Cuidados
 
 - A chave do DataJud nos scripts é a chave pública que o próprio CNJ publica para todos os usuários; pode ser substituída pela variável `DATAJUD_API_KEY`.
-- Decisão de 20/11/2026: o texto lido das peças entra no repositório, sem pseudonimização e sem o arquivo original. O repositório é privado.
+- Decisão de 20/11/2026: o texto lido das peças entra no repositório, sem pseudonimização e sem o arquivo original. O repositório passou a público em 21/11/2026.
 - Nenhum link de peça entra no repositório: a linha `Original:` do Codex traz token de acesso.
 - Publicações derivadas devem citar o TJSP (Consulta de Julgados de 1º Grau) como fonte dos números, e CNJ e DataJud quando o censo por código for usado (Portaria CNJ 160/2020, art. 4º, na redação da Portaria 374/2026).

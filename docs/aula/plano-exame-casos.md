@@ -121,11 +121,11 @@ Para uma sessão de três horas, a distribuição proposta é esta:
 - cinco pares expositivos, de 15 minutos cada;
 - fecho de 18 minutos, com o quadro por momento de decisão.
 
-O aplicativo recebe só a ficha anonimizada, e nunca o texto integral, porque a chamada sai pela API. Se a aula for dividida em duas sessões, como no roteiro de 15 casos, a primeira fica com os pares 1 a 4 e a segunda com os pares 5 a 8.
+O aplicativo recebe a ficha, e não o texto integral. Se a aula for dividida em duas sessões, como no roteiro de 15 casos, a primeira fica com os pares 1 a 4 e a segunda com os pares 5 a 8.
 
 ## Cautelas
 
-- Anonimização. Nenhuma ficha leva nome, CPF, RG, telefone, endereço, número de conta ou placa. O número do processo fica só em `casos_aula.csv`. A comarca permanece, porque é parte do que o par 2 mostra. Os textos em `textos/tjsp/` continuam sem máscara, como foi decidido para a pesquisa.
+- Versão de aula. As notas internas de trabalho ficam de fora: segundo leitor, conferência, divergências, "não conferido nesta sessão" e caminhos de arquivo do repositório. Os links das peças no GitHub e o número do processo podem ir aos slides, porque o repositório é público desde 21/11/2026. Por decisão do usuário, não se avalia a exposição de dados pessoais: as fontes são públicas, o público-alvo são magistrados e o propósito é acadêmico.
 - Cada número levado à aula vem com o peso e com o viés da base: são casos que chegaram à sentença, só do TJSP, com sentenças de 2021 a 2026.
 - O estado em segundo grau muda: CL 7 e CL 13 têm apelação do MP pendente.
 

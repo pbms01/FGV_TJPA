@@ -1,0 +1,19 @@
+caso,data_fato,data_sentenca,regime_legal,posicao,efeito_no_154A,trecho
+INV 1,2021-09-27,2022-05-06,Lei 14.155/2021,dispensa,não depende da elementar,"de acordo com a atual redação, não é mais necessária a violação indevida de mecanismo de segurança"
+INV 10,2022-03-15,2025-08-08,Lei 14.155/2021,dispensa,não depende da elementar,não mais pressupõe que haja violação indevida de mecanismo de segurança
+INV 20,2024-04-26,2025-10-20,Lei 14.155/2021,dispensa,condena,ainda que a proteção física ou lógica seja mínima ou inexistente
+INV 39,2024-01-24,2026-07-01,Lei 14.155/2021,dispensa,condena,"o agente deve simplesmente invadir dispositivo informático alheio, conectado ou não à internet (a cota afasta a elementar expressamente)"
+INV 27,2025-03-15,2026-03-31,Lei 14.155/2021,dispensa implícita,condena,condena o acesso feito com as credenciais que a vítima entregara durante o relacionamento; a tese defensiva da elementar é transcrita e não acolhida
+INV 13,2021-07-14,2021-10-05,Lei 14.155/2021,exige a elementar suprimida,absolve do 154-A,"não restou estabelecida por prova técnica a existência no aparelho de mecanismo de segurança, nem sua violação"
+INV 14,2023-12-26,2024-11-22,Lei 14.155/2021,exige a elementar suprimida,afasta o 154-A,"a utilização de método que viole barreiras de segurança implementadas no dispositivo eletrônico, como senha, biometria"
+INV 26,2023-05-23,2024-02-18,Lei 14.155/2021,exige a elementar suprimida,absolve do 154-A,O elemento normativo do tipo é violação indevida de mecanismo de segurança
+INV 38,2024-09-07,2025-12-02,Lei 14.155/2021,transcreve a redação revogada,condena por tentativa,a senha do aparelho impediu o acesso; o resultado não depende da elementar
+INV 44,2025-09-13,2026-05-05,Lei 14.155/2021,barreira presente e rompida,condena,transposição ilícita da barreira de segurança voltada à preservação da intimidade
+INV 33,2022-04-11,2024-06-14,Lei 14.155/2021,denúncia com a redação revogada,absolve por outra razão,"a denúncia narra a invasão ""mediante violação indevida de mecanismo de segurança"""
+INV 2,2021-01-20,2025-09-26,Lei 12.737/2012,fato anterior à Lei 14.155,aplica a redação do tempo do fato,a sentença transcreve a redação vigente ao tempo do fato
+INV 8,2019-08-15,2025-03-17,Lei 12.737/2012,fato anterior à Lei 14.155,aplica a redação do tempo do fato,
+INV 11,2021-01-15,2024-09-03,Lei 12.737/2012,fato anterior à Lei 14.155,aplica a redação do tempo do fato,
+INV 22,2021-01-18,2024-07-03,Lei 12.737/2012,fato anterior à Lei 14.155,aplica a redação do tempo do fato,
+INV 29,2021-05-08,2024-05-23,Lei 12.737/2012,fato anterior à Lei 14.155,aplica a redação do tempo do fato,
+INV 34,2016-02-25,2025-06-18,Lei 12.737/2012,fato anterior à Lei 14.155,aplica a redação do tempo do fato,
+INV 35,2020-10-05,2022-09-22,Lei 12.737/2012,fato anterior à Lei 14.155,aplica a redação do tempo do fato,
