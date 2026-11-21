@@ -102,3 +102,28 @@ numero,caso,status,docs,quando,detalhe
 1538849-79.2021.8.26.0050,INV 43,ok,1,2026-11-21T01:09:05+00:00,2022-11-23|Procedência|Condenação à Pena Restritiva de Direitos - Prestação Pecuniária
 1500616-76.2025.8.26.0404,INV 44,ok,1,2026-11-21T01:09:21+00:00,2026-05-05|Procedência|Condenação à Pena Privativa de Liberdade e Multa SEM Decretação da Prisão
 1503355-93.2022.8.26.0576,INV 45,ok,1,2026-11-21T01:09:38+00:00,2025-04-11|Procedência|Condenação à Pena Privativa de Liberdade e Multa SEM Decretação da Prisão
+1500421-27.2022.8.26.0136,FE 1,ok,1,2026-11-21T01:10:09+00:00,2026-09-12|Procedência|Condenação à Pena Privativa de Liberdade Substituída por Restritiva de Direito
+1500798-97.2022.8.26.0491,FE 2,ok,1,2026-11-21T01:10:35+00:00,2025-08-16|Procedência|Condenação à Pena Privativa de Liberdade Substituída por Restritiva de Direito
+1500056-91.2023.8.26.0538,FE 3,ok,1,2026-11-21T01:10:50+00:00,2025-04-23|Procedência|Condenação à Pena Privativa de Liberdade SEM Decretação da prisão
+1507452-36.2022.8.26.0577,FE 4,ok,1,2026-11-21T01:11:06+00:00,2026-10-05|Procedência em Parte|Sentença Condenatória/Absolutória Proferida
+1500142-17.2023.8.26.0456,FE 5,ok,1,2026-11-21T01:11:31+00:00,2026-02-25|Procedência|Condenação à Pena Privativa de Liberdade e Multa SEM Decretação da Prisão
+1501928-43.2025.8.26.0548,FE 6,ok,1,2026-11-21T01:11:47+00:00,2026-05-25|Procedência|Condenação à Pena Privativa de Liberdade SEM Decretação da prisão
+1500669-42.2023.8.26.0270,FE 7,ok,1,2026-11-21T01:12:04+00:00,2026-03-17|Procedência|Julgada Procedente a Ação
+1500721-68.2022.8.26.0627,FE 8,ok_djen,0,2026-11-21T01:12:34+00:00,"2025-08-28|Procedência|Condenação à Pena Restritiva de Direitos - Prestação de Serviços à Comunidade; texto sem conteúdo no Codex, dispositivo do DJEN de 29/08/2025"
+1501214-36.2023.8.26.0554,FE 9,ok,3,2026-11-21T01:12:50+00:00,2024-05-07|Procedência|Julgada Procedente a Ação (3 documentos)
+1501380-95.2025.8.26.0393,FE 10,ok,1,2026-11-21T01:13:05+00:00,2026-02-24|Procedência em Parte|Sentença Condenatória/Absolutória Proferida
+1500356-53.2023.8.26.0441,FE 13,ok,1,2026-11-21T01:13:20+00:00,2025-09-22|Procedência em Parte|Sentença Condenatória/Absolutória Proferida
+1500390-66.2022.8.26.0084,FE 14,ok,1,2026-11-21T01:13:36+00:00,2026-11-04|Procedência|Condenação à Pena Privativa de Liberdade e Multa SEM Decretação da Prisão
+1500327-27.2025.8.26.0281,FE 15,ok,1,2026-11-21T01:13:52+00:00,2026-09-15|Procedência|Condenação à Pena Privativa de Liberdade e Multa SEM Decretação da Prisão
+1505916-93.2021.8.26.0554,FE 16,sem_movimento,0,2026-11-21T01:14:10+00:00,cjpg 14/11/2024; sem movimento de procedência ou extinção no Codex (1358 movimentos) e sem DJEN na semana; procurar pela lista de documentos
+1503026-07.2025.8.26.0599,FE 17,ok,1,2026-11-21T01:14:27+00:00,2026-04-16|Procedência|Condenação à Pena Privativa de Liberdade SEM Decretação da prisão
+1501404-96.2023.8.26.0554,FE 18,ok,1,2026-11-21T01:15:41+00:00,2026-08-18|Procedência em Parte|Sentença Condenatória/Absolutória Proferida
+1590365-67.2022.8.26.0224,FE 19,ok,1,2026-11-21T01:15:58+00:00,2026-08-26|Procedência|Condenação à Pena Privativa de Liberdade Substituída por Restritiva de Direito
+1502653-03.2023.8.26.0548,FE 20,ok,1,2026-11-21T01:16:14+00:00,2026-11-04|Procedência em Parte|Sentença Condenatória/Absolutória Proferida
+1508700-32.2023.8.26.0050,FE 21,ok,1,2026-11-21T01:16:35+00:00,2025-06-15|Procedência|Condenação à Pena Privativa de Liberdade e Multa SEM Decretação da Prisão
+1501223-10.2021.8.26.0411,FE 22,ok,1,2026-11-21T01:16:50+00:00,2023-09-25|Procedência|Condenação à Pena Privativa de Liberdade Substituída por Restritiva de Direito
+1501914-51.2024.8.26.0077,FE 23,ok,1,2026-11-21T01:17:06+00:00,"2026-10-05|Improcedência|Sentença de Absolvição - Não Constituir o Fato Infração Penal (Art. 386, III, CPP)"
+1507404-12.2024.8.26.0576,FE 25,ok,1,2026-11-21T01:17:22+00:00,2026-10-06|Procedência|Condenação à Pena Privativa de Liberdade e Multa SEM Decretação da Prisão
+1537439-49.2022.8.26.0050,FE 26,ok,1,2026-11-21T01:17:37+00:00,"2024-11-18|Improcedência|Sentença de Absolvição - Não existir prova suficiente para condenação (Art. 386, VII, CPP)"
+1507790-61.2024.8.26.0602,FE 27,ok,1,2026-11-21T01:17:55+00:00,2026-08-25|Procedência|Condenação à Pena Privativa de Liberdade e Multa COM Decretação da Prisão
+1500103-41.2023.8.26.0449,FE 28,ok,1,2026-11-21T01:20:43+00:00,"2024-09-11|Procedência|Condenação à Pena Privativa de Liberdade e Multa SEM Decretação da Prisão (6 documentos; 1 com texto da sentença, 4 sem conteúdo, 1 certidão de outro processo descartada)"

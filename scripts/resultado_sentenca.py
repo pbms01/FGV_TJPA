@@ -24,9 +24,9 @@ RE_MARCO = re.compile(r"julgo[^.]{0,60}procedente|julgo[^.]{0,30}improcedente|\b
                       r"rejeito o pedido (formulado |contido |deduzido )?(na |pela )?(den[úu]ncia|condenat|acusat|da acusa|inicial|ministerial)|\bcondeno\b", re.I)
 RE_FECHO = re.compile(r"(ante o exposto|diante do exposto|posto isso|isto posto|pelo exposto|em face do exposto|"
                       r"diante disso|ante o acima exposto|em raz[aã]o do exposto)", re.I)
-RE_COND = re.compile(r"\bcondeno\b|\bcondenar\b|\bcondena-se\b|julgo (parcialmente |integralmente )?procedente|"
+RE_COND = re.compile(r"\bcondeno\b|(?<!deixo de )(?<!deixa de )(?<!deixo de se )\bcondenar\b|\bcondena-se\b|julgo (parcialmente |integralmente )?procedente|"
                      r"procedente em parte|parcialmente procedente", re.I)
-RE_ABS = re.compile(r"\babsolv(o|er|endo|e-se|ido|ida|idos|idas|[eê]-l[oa]s?)\b|julgo (totalmente )?improcedente|rejeito o pedido (formulado |contido |deduzido )?(na |pela )?(den[úu]ncia|condenat|acusat|da acusa|inicial|ministerial)|"
+RE_ABS = re.compile(r"\babsolv(o|er|endo|e-se|[eê]-l[oa]s?)\b|julgo (totalmente )?improcedente|rejeito o pedido (formulado |contido |deduzido )?(na |pela )?(den[úu]ncia|condenat|acusat|da acusa|inicial|ministerial)|"
                     r"improcedente a (pretens|a[çc][ãa]o|den[úu]ncia)", re.I)
 RE_EXT = re.compile(r"extint[ao] a punibilidade|extin[çc][ãa]o da punibilidade|declaro extint", re.I)
 RE_PARCIAL = re.compile(r"parcialmente procedente|procedente em parte|julgo parcialmente", re.I)
@@ -81,7 +81,7 @@ def num(s):
     return EXTENSO.get(s.split()[0], 0) if s else 0
 
 
-def pena(trecho):
+def pena_antiga(trecho):
     """Primeira pena privativa no trecho de condenação, em meses (aproximação), e o texto."""
     m = re.search(r"pena[^.]{0,60}?(de\s+)?((\d{1,2}|um|uma|dois|duas|tr[eê]s|quatro|cinco|seis|sete|oito|nove|dez|onze|doze)"
                   r"[^.]{0,160}?)(de\s+)?(reclus[ãa]o|deten[çc][ãa]o)", trecho, re.I)
@@ -103,6 +103,25 @@ def pena(trecho):
     return (meses or ""), re.sub(r"\s+", " ", txt + " " + m5)[:120]
 
 
+
+def pena(trecho):
+    """Primeira pena privativa no trecho de condenação, em meses (aproximação), e o texto."""
+    W = r"(\d{1,2}|um|uma|dois|duas|tr[eê]s|quatro|cinco|seis|sete|oito|nove|dez|onze|doze)"
+    m = re.search(r"\bpenas?\s+(?:privativas?\s+de\s+liberdade\s+|corporal\s+)?(?:total\s+)?(?:de\s+|em\s+)"
+                  r"(?:(?:reclus[ãa]o|deten[çc][ãa]o)\s*,?\s*(?:de\s+|pelo prazo de\s+)?)?"
+                  r"(" + W + r"[^.;]{0,140}(?:anos?|m[eê]s(?:es)?|dias?(?![-\w]))(?:[^.;]{0,60}?(?:reclus[ãa]o|deten[çc][ãa]o))?)",
+                  trecho, re.I)
+    if not m:
+        return pena_antiga(trecho)
+    txt = m.group(1)
+    corte = re.search(r"reclus[ãa]o|deten[çc][ãa]o", txt, re.I)
+    base = txt[:corte.end()] if corte else txt
+    a = re.search(W + r"\s*(\([^)]*\)\s*)?anos?", base, re.I)
+    me = re.search(W + r"\s*(\([^)]*\)\s*)?m[eê]s(es)?", base, re.I)
+    di = re.search(W + r"\s*(\([^)]*\)\s*)?dias?(?![-\w])", base, re.I)
+    meses = (num(a.group(1)) * 12 if a else 0) + (num(me.group(1)) if me else 0) + (round(num(di.group(1)) / 30, 1) if di else 0)
+    return (meses or ""), re.sub(r"\s+", " ", base)[:120]
+
 def le(t):
     d = dispositivo(t)
     cond, abs_, ext = bool(RE_COND.search(d)), bool(RE_ABS.search(d)), bool(RE_EXT.search(d))
@@ -117,6 +136,8 @@ def le(t):
     else:
         res = "indeterminado"
     tc = trechos_condenacao(d) if cond else ""
+    # "§2ºA", "§ 2º A" e "parágrafo 2º-A" sem hífen: normaliza antes das regex da denúncia
+    tc = re.sub(r"(§|par[áa]grafo)\s*2\s*[ºo°ª]?\s*-?\s*A\b", "§ 2º-A", tc)
     f = artigos(tc) if tc else {}
     if tc:
         f["157"] = bool(re.search(r"\b157\b", tc))
