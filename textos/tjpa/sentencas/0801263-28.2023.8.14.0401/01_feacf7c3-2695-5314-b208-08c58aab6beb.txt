@@ -1,0 +1,78 @@
+[Texto nativo do PJe]
+
+Proc. N.º 0801263-28.2023.8.14.0401
+
+Réus: MÁRCIO CAMPOS DA CRUZ e KATIA SIMONE CARDOSO RODRIGUES
+
+Vítima: ELZA COSTA ANDRADE DA SILVA
+
+Capitulação provisória: art. 155, § 4º-B do Código Penal
+
+SENTENÇA N.º 142/2026 (C/M):
+
+I – RELATÓRIO:
+
+Trata-se de ação penal instaurada pelo Ministério Público do Estado do Pará em face de MÁRCIO CAMPOS DA CRUZ e KATIA SIMONE CARDOSO RODRIGUES, denunciados como incursos nas sanções do art. 155, §4º-B do Código Penal (ID 148357904).
+
+Consta da denúncia que, no dia 29/05/2018, os denunciados, mediante fraude eletrônica, subtraíram valores da conta bancária de titularidade da vítima ELZA COSTA ANDRADE DA SILVA, os quais foram transferidos para contas vinculadas aos acusados, conforme documentos bancários juntados aos autos (ID 91754106).
+
+A denúncia foi recebida em 23/07/2025 (ID 149024283).
+
+O réu MÁRCIO CAMPOS DA CRUZ não foi localizado para citação pessoal, tendo sido citado por edital (ID 161308716), não comparecendo aos autos nem constituindo defensor, razão pela qual foi determinada a suspensão do processo e do prazo prescricional, nos termos do art. 366 do Código de Processo Penal (ID 165271390).
+
+A ré KATIA SIMONE CARDOSO RODRIGUES foi regularmente citada, apresentando resposta à acusação (ID 156307907).
+
+Designada audiência de instrução e julgamento, esta foi realizada em 18/03/2026 (ID 171462202), ocasião em que foram ouvidas a vítima, testemunhas e interrogada a acusada.
+
+Encerrada a instrução, as partes apresentaram alegações finais por memoriais, tendo o Ministério Público requerido a absolvição por insuficiência de provas (ID 171684216), no que foi acompanhado pela defesa (ID 173657092).
+
+Vieram os autos conclusos.
+
+É o relatório. DECIDO.
+
+II – FUNDAMENTAÇÃO:
+
+Inicialmente, registre-se que o presente feito foi regularmente instruído apenas em relação à ré KATIA SIMONE CARDOSO RODRIGUES, uma vez que, quanto ao corréu MÁRCIO CAMPOS DA CRUZ, foi determinada a suspensão do processo e do prazo prescricional, nos termos do art. 366 do Código de Processo Penal.
+
+2.1. Materialidade Delitiva:
+
+A materialidade delitiva encontra-se devidamente comprovada pelo conjunto probatório constante dos autos, notadamente pelos documentos bancários acostados ao ID 91754106 (pág. 10), que demonstram a realização de transferências indevidas da conta da vítima, bem como pelo boletim de ocorrência e pelas declarações prestadas na fase inquisitorial, corroboradas pela prova oral produzida em juízo (ID 171462207), na qual a vítima confirmou a ocorrência dos fatos narrados na denúncia.
+
+2.2. Autoria Delitiva:
+
+No tocante à prova oral produzida em juízo (ID 171462207), a vítima ELZA COSTA ANDRADE DA SILVA relatou que tomou conhecimento da realização de transferências indevidas em sua conta bancária, esclarecendo que os nomes dos beneficiários lhe foram informados pela instituição financeira, não possuindo qualquer contato com a acusada. Afirmou, ainda, que não conhece KATIA SIMONE CARDOSO RODRIGUES, não sendo capaz de indicá-la como autora do fato.
+
+O informante ALUÍZIO ALVES DA SILVA, esposo da vítima, ao ser ouvido em juízo (ID 171462207), confirmou a ocorrência das transferências indevidas na conta bancária, relatando o prejuízo suportado pelo casal, contudo, igualmente não soube indicar a autoria dos fatos, limitando-se a corroborar as circunstâncias narradas pela vítima.
+
+As testemunhas ouvidas em juízo não trouxeram elementos aptos a vincular a ré à prática delitiva, limitando-se a relatar circunstâncias alheias à autoria, especialmente aspectos relacionados à sua conduta social.
+
+Em interrogatório judicial (ID 171462207), a acusada KATIA SIMONE CARDOSO RODRIGUES negou a prática delitiva, afirmando que não realizou as transferências descritas na denúncia, não autorizou terceiros a utilizarem sua conta para tal finalidade e desconhece a origem dos valores, versão que não restou infirmada por outros elementos probatórios constantes dos autos.
+
+Verifica-se que, conforme documentos bancários (ID 91754106), foram realizadas transferências indevidas da conta da vítima, no dia 29/05/2018, sendo a quantia de R$ 2.000,00 creditada na conta de titularidade de KATIA SIMONE CARDOSO RODRIGUES (agência 70 – Igarapé-Miri, conta nº 490452-4) e o valor de R$ 2.200,00 destinado à conta de MÁRCIO CAMPOS DA CRUZ (agência 52 – Marituba, conta nº 513744-6).
+
+Consta, ainda, a existência de registros de logs das operações (nº 214916 e 215855), vinculados às referidas transferências.
+
+Todavia, tais elementos probatórios limitam-se a demonstrar a ocorrência das operações e o destino dos numerários, não havendo nos autos identificação de quem efetivamente realizou as transações, tampouco prova de que a acusada tenha participado da fraude ou tido ciência da origem ilícita dos valores.
+
+Observa-se, ademais, que a própria denúncia não descreve de forma concreta a dinâmica da fraude, limitando-se a imputar à acusada a prática delitiva em razão da titularidade da conta de destino.
+
+Ressalte-se, ainda, que não há nos autos qualquer elemento que demonstre a existência de vínculo entre os acusados ou atuação conjunta na prática delitiva.
+
+Dessa forma, verifica-se a existência de relevante lacuna probatória quanto à efetiva participação da acusada na prática criminosa, não sendo possível afirmar, com a segurança exigida no processo penal, que tenha concorrido para o resultado delituoso.
+
+Registre-se, por fim, que a instituição financeira procedeu ao ressarcimento dos valores à vítima, inexistindo prejuízo patrimonial direto remanescente, sendo certo que eventual recomposição patrimonial em favor do banco — que figura, quando muito, como terceiro interessado — deverá ser buscada em via própria.
+
+Assim, diante da insuficiência de provas quanto à autoria, impõe-se a absolvição, nos termos do art. 386, inciso VII, do Código de Processo Penal.
+
+III – DISPOSITIVO:
+
+Ante o exposto, JULGO IMPROCEDENTE a pretensão punitiva estatal para ABSOLVER KATIA SIMONE CARDOSO RODRIGUES, com fundamento no art. 386, inciso VII, do Código de Processo Penal.
+
+Deixo de fixar valor mínimo para reparação dos danos, por inexistir prejuízo direto da vítima a ser ressarcido nesta esfera.
+
+Após o trânsito em julgado:  arquivem-se os autos, observadas as cautelas legais.
+
+Intimem-se todos.
+
+SANDRA MARIA FERREIRA CASTELO BRANCO
+Juíza de Direito da 10ª Vara Criminal de Belém

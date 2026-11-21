@@ -92,3 +92,17 @@ numero,grupo,status,denuncia,sentenca,chamadas,quando,detalhe
 0814661-08.2024.8.14.0401,1,ok,1,1,3,2026-11-21T18:54:30+00:00,2g; roubo majorado; DJEN casou FE na sentença
 0818547-41.2021.8.14.0006,1,ok,1,1,3,2026-11-21T18:55:04+00:00,2g; 583 docs; APF; apelação provida em parte (acórdão de 2026-10-23)
 0800169-85.2024.8.14.0053,1,ok,1,1,3,2026-11-21T18:55:38+00:00,1g; APF; delegacia de São Félix do Xingu; roubo majorado; sentença repetida em 2026-07-21
+0824074-16.2022.8.14.0401,1,sigilo,0,0,1,2026-11-21T18:56:04+00:00,visão geral recusada (sigilo ou segredo de justiça)
+0802801-36.2021.8.14.0006,1,ok,1,1,3,2026-11-21T18:56:34+00:00,2g; 547 docs; DIOE; apropriação indébita; cinco réus; apelação não provida (2026-08-19)
+0800121-52.2024.8.14.0401,1,ok,1,1,3,2026-11-21T18:57:09+00:00,2g; DCCIBER; ré de MT; apelação provida (acórdão de 2026-11-10)
+0800263-98.2021.8.14.0033,1,ok,1,1,3,2026-11-21T18:57:43+00:00,1g; denúncia como Petição.pdf na distribuição; apelação interposta
+0000323-67.2021.8.14.0401,1,ok,2,1,3,2026-11-21T18:58:22+00:00,2g; 597 docs; Operação Trojan (doc 014 do GAECO) com aditamento de 2022-04-01 como parte 2; Itaú assistente de acusação; apelação não provida (2026-11-05)
+0007684-09.2019.8.14.0401,1,ok,1,1,3,2026-11-21T19:00:05+00:00,1g; 4ª Vara Criminal de Belém; classe IP defasada; Corregedoria da PC entre as partes; réu do MT; sentença de improcedência
+0802578-85.2023.8.14.0015,1,ok,1,1,3,2026-11-21T19:00:33+00:00,1g; 1ª Vara Criminal de Castanhal; classe IP defasada; estelionato e falsificação de documento público
+0009738-16.2017.8.14.0013,1,ok,1,1,3,2026-11-21T19:01:10+00:00,1g; Vara Criminal de Capanema; migrado (doc 02 denuncia); injúria por divulgação de fotos íntimas em grupo de WhatsApp; sentença de improcedência
+0815181-65.2024.8.14.0401,1,ok,1,1,3,2026-11-21T19:01:33+00:00,2g (apelação); 1ª Vara Criminal de Belém; estelionato majorado; ré do MT ouvida por precatória em Cuiabá
+0802613-17.2024.8.14.0401,1,ok,1,1,3,2026-11-21T19:02:01+00:00,1g; 5ª Vara Criminal de Belém; classe IP defasada; estelionato majorado; sentença de improcedência
+0802613-17.2024.8.14.0401,1,ok,1,1,3,2026-11-21T19:02:29+00:00,1g; 5ª Vara Criminal de Belém; classe IP defasada; estelionato majorado; sentença de improcedência
+0801263-28.2023.8.14.0401,1,ok,1,1,4,2026-11-21T19:03:01+00:00,1g; 10ª Vara Criminal de Belém; classe IP defasada; furto qualificado; Corregedoria da PC entre as partes; sentença de improcedência
+0800205-87.2023.8.14.0401,1,ok,1,1,3,2026-11-21T19:04:55+00:00,1g; 7ª Vara Criminal de Belém; classe IP defasada; DCCIBER entre as partes; ré do MT ouvida por precatória em Cuiabá
+0811772-81.2024.8.14.0401,1,ok,4,1,3,2026-11-21T19:06:07+00:00,"2g (apelação); Vara de Combate ao Crime Organizado de Belém (lida na sentença, csv sem órgão 1g); 2914 docs, via mapa; migrado (DOC 13 DENUNCIA em 4 partes); ORCRIM com alteração do banco de dados do sistema RMS (TOTVS) do Grupo Líder para apagar títulos"

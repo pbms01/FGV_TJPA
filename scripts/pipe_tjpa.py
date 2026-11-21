@@ -182,9 +182,10 @@ def cmd_grava(arq, chamadas, extra=""):
             sha256=hashlib.sha256(corpo.encode()).hexdigest(), lido_em=c.agora()))
         plano = corpo.replace("\n", " ")
         if papel == "den":
+            # "praticou o crime descrito no Artigo 171" e "cometeu o delito" também valem como capitulação
             m = (re.findall(r"(?:incurs\w*|incorr\w*|viol\w+ (?:as )?disposi\w+|capitula\w*|pr[áa]tica d[oa]s? (?:crimes?|delitos?)|"
-                            r"pela pr[áa]tica d[oa]s?)[^.;]{0,40}(?:art|\d{3})[^;]{0,150}", plano, re.I)
-                 or re.findall(r"art\.?\s*\d{3}[^;]{0,120}(?:C[óo]digo Penal|CPB?\b)", plano, re.I))
+                            r"pela pr[áa]tica d[oa]s?|(?:pratic|comet)\w+ [oa]s? (?:crimes?|delitos?))[^.;]{0,40}(?:art|\d{3})[^;]{0,150}", plano, re.I)
+                 or re.findall(r"art(?:igo|\.)?\s*\d{3}[^;]{0,120}(?:C[óo]digo Penal|CPB?\b)", plano, re.I))
             # a capitulação pode estar em qualquer parte da denúncia; fica a primeira encontrada
             cap = cap or (re.sub(r"\s+", " ", m[0])[:170] if m else "")
         else:

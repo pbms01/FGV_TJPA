@@ -1,0 +1,273 @@
+[Texto nativo do PJe]
+
+6ª Vara Criminal da Capital
+
+S E N T E N Ç A
+
+Processo nº 0800121-52.2024.8.14.0401
+
+Autor: Ministério Público do Estado do Pará
+
+Ré: Vitoria Gabrielly da Silva Teixeira
+
+1. RELATÓRIO
+
+Vistos.
+
+O MINISTÉRIO PÚBLICO DO ESTADO DO PARÁ ofereceu denúncia contra VITORIA GABRIELLY DA SILVA TEIXEIRA, qualificada nos autos, imputando-lhe a prática do delito de estelionato eletrônico, conduta tipificada no art. 171, § 2º-A, do Código Penal Brasileiro.
+
+Segundo a peça de acusação de ID 119255221, no dia 03 de novembro de 2022, a vítima Simeão Antonio Rodrigues Nova da Costa avistou um anúncio falso de venda de veículo na plataforma virtual OLX. Ao manifestar interesse, passou a negociar com um indivíduo que utilizava o nome de Ivon José de Lucena. O suposto vendedor induziu o ofendido em erro, argumentando que o automóvel estava registrado em nome de sua irmã, Elizabete de Melo Pontes, e que as vistorias físicas poderiam ocorrer no estabelecimento comercial Personal Car Silva, em Belém.
+
+No referido local, Simeão foi recepcionado por Paulo Lima, que confirmou as tratativas. Sob o pretexto de agilizar os trâmites cartorários, e acreditando na regularidade da venda, a vítima solicitou que sua genitora, Fransuely Moraes Rodrigues, realizasse uma transferência financeira. Diante disso, Fransuely efetuou um pagamento via PIX no expressivo valor de R$ 80.000,00 (oitenta mil reais) para a conta corrente de titularidade exclusiva de Vitoria Gabrielly da Silva Teixeira, conforme comprovante de ID 106600435 - Pág. 12. Consumada a transação, os agentes desapareceram e as vítimas constataram que haviam sido inseridas em um golpe eletrônico planejado.
+
+A denúncia foi devidamente recebida por este Juízo no dia 04 de julho de 2024, conforme decisão documentada no ID 119264003.
+
+A acusada foi citada pelo Oficial de Justiça no dia 02 de agosto de 2024, oportunidade na qual atestou ciência inequívoca dos termos da acusação e informou possuir patrono constituído, tudo certificado nos autos sob o ID 122413406 - Pág. 16.
+
+A Defesa apresentou Resposta à Acusação por meio de advogada habilitada sob o ID 123257889, acompanhada do instrumento de procuração de ID 123257891.
+
+A instrução criminal realizou-se em três datas distintas em razão da necessidade de localização de testemunhas ausentes. Na primeira audiência, registrada sob o ID 139797041, foi colhido por videoconferência o depoimento da testemunha Ivon José de Lucena. Na audiência de continuação, documentada na ata de ID 153485017, foram ouvidas as vítimas Fransuely Moraes Rodrigues e Simeão Antônio Rodrigues Nova da Costa. Por fim, na ata de ID 167992260, procedeu-se à oitiva presencial e virtual das testemunhas Elizabete de Melo Pontes e Maria Auxiliadora Pereira de Miranda, bem como ao interrogatório judicial da ré Vitoria Gabrielly da Silva Teixeira.
+
+Na fase do art. 402 do Código de Processo Penal, as partes declararam não possuir interesse na realização de diligências complementares.
+
+O Ministério Público apresentou suas alegações finais por meio de memoriais escritos no ID 171033103, pugnando pela condenação integral da ré nos termos da denúncia e pelo arbitramento de valor mínimo indenizatório para a reparação dos prejuízos causados.
+
+A Defesa, por sua vez, apresentou alegações finais sob a forma de memoriais escritos de ID 173002740. Em suas razões, sustentou a tese de ausência de dolo e de envolvimento da ré, sob a alegação de que esta apenas emprestou sua conta bancária a um ex-namorado de nome Felipe. Argumentou a ocorrência de erro de tipo essencial para afastar a tipicidade subjetiva, postulando a absolvição com base no art. 386 do Código de Processo Penal. Subsidiariamente, requereu a aplicação da pena no mínimo legal com a incidência da atenuante da menoridade relativa.
+
+2. FUNDAMENTAÇÃO
+
+2.1. DA MATERIALIDADE E DA DINÂMICA DO FATO
+
+Antes de adentrar no exame do mérito, cumpre examinar a higidez da relação processual. O feito tramitou sob a estrita observância das garantias constitucionais do devido processo legal, do contraditório e da ampla defesa. A citação eletrônica da acusada efetuada via aplicativo de mensagens WhatsApp (ID 122413406 - pág. 16) revelou-se perfeitamente válida e eficaz, cumprindo os ditames da Resolução nº 354/2020 do Conselho Nacional de Justiça, mormente diante da expressa confirmação de identidade por imagem de documento oficial e posterior habilitação de advogada que apresentou defesa técnica.
+
+No mérito, a acusação imputa à ré a prática do crime de estelionato cometido em sua modalidade qualificada pela fraude eletrônica. A conduta encontra previsão expressa no Estatuto Repressivo Nacional:
+
+Art. 171 - Obter, para si ou para outrem, vantagem ilícita, em prejuízo alheio, induzindo ou mantendo alguém em erro, mediante artifício, ardil, ou qualquer outro meio fraudulento:
+
+§ 2º-A. A pena é de reclusão, de 4 (quatro) a 8 (oito) anos, e multa, se a fraude é cometida com a utilização de informações fornecidas pela vítima ou por terceiro induzido a erro por meio de redes sociais, contatos telefônicos ou envio de correio eletrônico fraudulento, ou por qualquer outro meio fraudulento análogo. (Incluído pela Lei nº 14.155, de 2021)
+
+A materialidade do crime em apreço está amplamente consubstanciada nos autos por elementos de convicção materiais e documentais, que compreendem o Boletim de Ocorrência Policial nº 00610/2022.100769-0 (ID 106600434 - Pág. 6), o comprovante de pagamento e transferência financeira via PIX no valor de R$ 80.000,00 (oitenta mil reais) emitido pela instituição pagadora (ID 106600435 - Pág. 12), os dados cadastrais remetidos pelo Banco Inter S.A. que confirmam a titularidade exclusiva da ré sobre a conta beneficiária (ID 106604841 - Pág. 4), e as conclusões técnicas do Laudo de Perícia Prosopográfica nº 349/2023 (ID 106604845 - Págs. 1-10).
+
+A análise das provas documentais revela a clássica dinâmica de estelionato eletrônico triangular, popularmente denominado como golpe do falso anúncio. Através deste artifício fraudulento, os agentes copiaram o anúncio de venda de veículo de Elizabete de Melo Pontes e publicaram anúncio fraudulento paralelo na internet. valendo-se de contatos telefônicos e redes sociais, o falso intermediário Ivon José de Lucena atraiu o comprador Simeão Antonio Rodrigues Nova da Costa, repassando-lhe informações precisas obtidas no anúncio real e fazendo crer que a operação gozava de plena idoneidade.
+
+A vítima, induzida em erro e acreditando que efetuava pagamento regular pelo veículo vistoriado, procedeu, por meio de sua genitora Fransuely, ao envio da expressiva soma financeira diretamente para a conta da acusada, consumando a lesão patrimonial qualificada por recursos tecnológicos.
+
+2.2. DA PROVA ORAL E DA AUTORIA DELITIVA
+
+A autoria do delito e a responsabilidade penal da acusada emergem seguras a partir do confronto entre os documentos bancários e as oitivas judiciais produzidas com observância do contraditório.
+
+Em depoimento judicial, a vítima Simeão Antonio Rodrigues Nova da Costa relatou que se interessou por um anúncio de veículo na OLX e passou a tratar das condições por WhatsApp com um sujeito que se denominava Ivon. O interlocutor explicou que o veículo estava em nome de sua irmã Elizabete, mas em posse de seu sobrinho Paulo. Conduzido por esse ardil, Simeão dirigiu-se à estética automotiva Personal Car Silva para ver o automóvel, oportunidade em que Paulo confirmou os dados narrados por Ivon. Diante de tal cenário de aparente legalidade, o ofendido concordou em ultimar a transferência, deslocando-se ao cartório acompanhado de Elizabete e de seu outro filho, João. Após as partes iniciarem a assinatura da documentação, Simeão solicitou que sua genitora procedesse ao pagamento de R$ 80.000,00 para a conta do Banco Inter indicada por Ivon. Consumada a transferência, os presentes no cartório evadiram-se sem entregar o bem, alegando que o dinheiro não caíra na conta da real proprietária.
+
+A ofendida Fransuely Moraes Rodrigues, ouvida sob o crivo do contraditório judicial, corroborou integralmente a lesão financeira sofrida. Afirmou que realizou a transferência do valor de R$ 80.000,00 (oitenta mil reais) a pedido de seu filho Simeão para a conta bancária do Banco Inter indicada pelos vendedores.
+
+A testemunha Ivon José de Lucena, advogado residente no Estado de Rondônia, asseverou em juízo que jamais esteve no Estado do Pará e que desconhece por completo as vítimas e a acusada. Confirmou que soube do evento apenas após ser intimado pelo Oficial de Justiça e que seus dados foram indevidamente usurpados por terceiros para dar roupagem de seriedade ao estelionato perpetrado eletronicamente.
+
+A testemunha Elizabete de Melo Pontes relatou que pretendia vender seu veículo e que o anunciara legitimamente na OLX pelo valor de R$ 125.000,00. Esclareceu que seu filho Paulo levara o carro a um estabelecimento comercial e que recebera ligações de um suposto comprador. No cartório, contudo, a venda não se concretizou porquanto a transferência financeira não foi direcionada para a conta de seu filho.
+
+A testemunha Maria Auxiliadora Pereira de Miranda confirmou que iniciara o processo de abertura de conta digital no Mercado Pago, mas teve o seu telefone celular furtado ou extraviado antes de concluir o procedimento, asseverando que suas fotos e documentos estavam armazenados no aparelho e que não participou de qualquer movimentação ilícita subsequente.
+
+A jurisprudência penal pátria confere especial relevo às declarações prestadas pelas vítimas de crimes contra o patrimônio, sobretudo quando sopesadas em conjunto com as provas periciais e documentais, conforme entendimento que segue:
+
+DIREITO PENAL E PROCESSUAL PENAL. APELAÇÃO CRIMINAL. ESTELIONATO QUALIFICADO POR FRAUDE ELETRÔNICA. NULIDADE POR AUSÊNCIA DE INTIMAÇÃO PESSOAL. REVELIA. AUTORIA E MATERIALIDADE COMPROVADAS. PENA PECUNIÁRIA. MANUTENÇÃO. RECURSOS IMPROVIDOS.
+
+I. CASO EM EXAME
+
+1. Apelação criminal interposta por Ana Paula Borges Carvalho e Laryssa Maranhão Moreira contra sentença da Vara Única da Comarca de Bonito/PA que as condenou, em coautoria, pelo crime de estelionato majorado pela fraude eletrônica (art. 171, §2º-A, do Código Penal), fixando pena de 4 anos de reclusão e 10 dias-multa. Laryssa suscita nulidade por ausência de intimação pessoal para audiência e pleiteia absolvição por insuficiência de provas; Ana Paula busca absolvição por ausência de provas ou, subsidiariamente, redução da prestação pecuniária.
+
+II. QUESTÃO EM DISCUSSÃO
+
+1. Há três questões em discussão:
+
+(i) definir se há nulidade processual pela ausência de intimação pessoal da ré Laryssa para a audiência de instrução;
+
+(ii) estabelecer se o conjunto probatório comprova a autoria e materialidade do crime de estelionato qualificado por fraude eletrônica;
+
+(iii) determinar se é cabível a redução da prestação pecuniária imposta à ré Ana Paula.
+
+III. RAZÕES DE DECIDIR
+
+1. A ausência de intimação pessoal da ré Laryssa não configura nulidade quando o acusado, regularmente citado, torna-se incontactável por mudar de endereço sem comunicar ao juízo, aplicando-se o art. 367 do CPP e afastando-se alegação de prejuízo.
+
+2. A materialidade do estelionato qualificado se confirma por comprovantes de transferência bancária realizados pela vítima em favor das contas das rés, totalizando R$ 2.128,00.
+
+3. A autoria delitiva se comprova por depoimento firme da vítima, aliado aos laudos prosopográfico e papiloscópico, que identificam as rés como titulares das contas destinatárias dos valores.
+
+4. A alegação de Ana Paula de mero "empréstimo de conta" não se sustenta diante da ausência de prova mínima que a corrobore, mantendo-se caracterizada a coautoria.
+
+5. A prestação pecuniária fixada em quatro salários mínimos observa a proporcionalidade em relação ao dano causado e não é afastada por suposta hipossuficiência não comprovada.
+
+IV. DISPOSITIVO E TESE
+
+1.
+Recursos improvidos.
+
+Tese de julgamento:
+
+1. O réu regularmente citado que muda de  endereço sem comunicação ao juízo não pode alegar nulidade por ausência de intimação pessoal para audiência, legitimando-se a decretação de revelia com base no art. 367 do CPP.
+
+2. A conjugação de prova testemunhal firme, comprovantes de transferência bancária e laudos periciais é suficiente para comprovar autoria e materialidade em crime de estelionato qualificado por fraude eletrônica.
+
+3. A prestação pecuniária proporcional ao dano e não infirmada por prova de hipossuficiência deve ser mantida.
+
+Dispositivos relevantes citados: CPP, art. 367; CP, art. 171, §2º-A.
+
+ACÓRDÃO
+
+Vistos, relatados e discutidos estes autos, acordam os Desembargadores da 2ª Turma de Direito Penal, por unanimidade, em conhecer o recurso e lhe negar provimento, na conformidade do voto do relator.
+
+Desembargador RÔMULO JOSÉ FERREIRA NUNES
+
+Relator
+
+(TJPA - APELAÇÃO CRIMINAL - Nº 0800326-11.2023.8.14.0080 - Relator(a): ROMULO JOSE FERREIRA NUNES - 2ª Turma de Direito Penal - Julgado em 2025-12-16)
+
+A acusada Vitoria Gabrielly da Silva Teixeira, ao ser interrogada perante este Juízo, negou qualquer participação no estelionato. Alegou que a conta bancária em que fora depositado o numerário de R$ 80.000,00 era de sua titularidade, contudo alegou que a emprestara a um ex-namorado de prenome Felipe para que ele pudesse movimentar valores de uma barbearia. Afirmou que, após o término do relacionamento, solicitou a devolução da conta, acreditando que o aplicativo fora desinstalado, aduzindo desconhecer as transações ilícitas operadas.
+
+Ocorre que a tese defensiva restou inteiramente isolada nos autos. A ré não acostou qualquer comprovação documental, capturas de telas de conversas, dados qualificadores mínimos, testemunhas ou qualquer elemento capaz de demonstrar a efetiva existência de Felipe, a natureza do empréstimo de sua conta ou eventual fraude no acesso ao seu aplicativo bancário, descumprindo o ônus de provar as alegações de sua defesa técnica, nos moldes do art. 156 do Código de Processo Penal.
+
+2.3.DA RESPONSABILIDADE PENAL DO AGENTE ATUANTE COMO 'MULA BANCÁRIA'
+
+A conduta da ré Vitória Gabrielly de disponibilizar ativamente seus dados pessoais e de realizar a abertura de conta corrente, cedendo sua utilização com fornecimento de senha para que terceiros transacionem expressivos valores financeiros sem controle, subsume-se perfeitamente ao crime de estelionato eletrônico na condição de coautora.
+
+No contexto da criminalidade informática contemporânea, a atuação dos agentes denominados como "mulas bancárias" ou "cedentes de contas" reveste-se de relevância causal fundamental para o sucesso das fraudes cibernéticas. O repasse voluntário de conta bancária e credenciais de acesso constitui elo indispensável à consecução da infração penal, haja vista que é justamente através dessas contas que os golpistas garantem a ocultação da identidade, o escoamento dos valores e o exaurimento da vantagem econômica ilícita pretendida. Ao fornecer os meios necessários para o recebimento do produto da fraude, o agente integra voluntariamente a cadeia de execução, aderindo objetiva e subjetivamente ao plano delituoso.
+
+A tese defensiva de erro de tipo essencial (art. 20 do Código Penal) ou de ausência de dolo não merece acolhimento. O dolo do estelionato qualificado pela fraude eletrônica, na modalidade de coautoria por cessão de conta, resta plenamente evidenciado pelo consentimento da ré na utilização de seu nome para a abertura de múltiplos canais bancários digitais direcionados ao trânsito de numerários ilícitos. A alegação de desconhecimento da origem dos depósitos ou de culpa exclusiva de terceiro não ilide a tipicidade subjetiva, configurando, no mínimo, a assunção consciente do risco de produzir o resultado lesivo mediante evidente cegueira deliberada em relação às operações financeiras efetuadas em seu nome de forma sistemática.
+
+Ademais, o Laudo de Perícia Prosopográfica nº 349/2023 (ID . 106604844 - Pág. 10) afastou peremptoriamente qualquer hipótese de abertura fraudulenta de conta por terceiros mediante falsidade ideológica ou clonagem de dados de Vitória Gabrielly. O laudo pericial concluiu, com grau máximo de certeza (Grau +4), que a fotografia coletada pela instituição financeira Banco Inter S.A. para a abertura da conta recebedora do PIX correspondia de maneira extremamente forte ao prontuário de identificação civil da própria ré, restando indene de dúvidas que foi ela quem realizou a abertura pessoal da conta beneficiária da fraude.
+
+Nesse diapasão, o Tribunal de Justiça do Estado do Pará possui entendimento consolidado no sentido de que a titularidade da conta aliada à ausência de provas idôneas que amparem a alegação de uso indevido por terceiros enseja a condenação do agente pelo crime de estelionato eletrônico:
+
+DIREITO PENAL E PROCESSUAL PENAL. APELAÇÃO CRIMINAL. ESTELIONATO QUALIFICADO POR FRAUDE ELETRÔNICA. NULIDADE POR AUSÊNCIA DE INTIMAÇÃO PESSOAL. REVELIA. AUTORIA E MATERIALIDADE COMPROVADAS. PENA PECUNIÁRIA. MANUTENÇÃO. RECURSOS IMPROVIDOS.
+
+I. CASO EM EXAME
+
+1. Apelação criminal interposta por Ana Paula Borges Carvalho e Laryssa Maranhão Moreira contra sentença da Vara Única da Comarca de Bonito/PA que as condenou, em coautoria, pelo crime de estelionato majorado pela fraude eletrônica (art. 171, §2º-A, do Código Penal), fixando pena de 4 anos de reclusão e 10 dias-multa. Laryssa suscita nulidade por ausência de intimação pessoal para audiência e pleiteia absolvição por insuficiência de provas; Ana Paula busca absolvição por ausência de provas ou, subsidiariamente, redução da prestação pecuniária.
+
+II. QUESTÃO EM DISCUSSÃO
+
+1. Há três questões em discussão:
+
+(i) definir se há nulidade processual pela ausência de intimação pessoal da ré Laryssa para a audiência de instrução;
+
+(ii) estabelecer se o conjunto probatório comprova a autoria e materialidade do crime de estelionato qualificado por fraude eletrônica;
+
+(iii) determinar se é cabível a redução da prestação pecuniária imposta à ré Ana Paula.
+
+III. RAZÕES DE DECIDIR
+
+1. A ausência de intimação pessoal da ré Laryssa não configura nulidade quando o acusado, regularmente citado, torna-se incontactável por mudar de endereço sem comunicar ao juízo, aplicando-se o art. 367 do CPP e afastando-se alegação de prejuízo.
+
+2. A materialidade do estelionato qualificado se confirma por comprovantes de transferência bancária realizados pela vítima em favor das contas das rés, totalizando R$ 2.128,00.
+
+3. A autoria delitiva se comprova por depoimento firme da vítima, aliado aos laudos prosopográfico e papiloscópico, que identificam as rés como titulares das contas destinatárias dos valores.
+
+4. A alegação de Ana Paula de mero "empréstimo de conta" não se sustenta diante da ausência de prova mínima que a corrobore, mantendo-se caracterizada a coautoria.
+
+5. A prestação pecuniária fixada em quatro salários mínimos observa a proporcionalidade em relação ao dano causado e não é afastada por suposta hipossuficiência não comprovada.
+
+IV. DISPOSITIVO E TESE
+
+2.
+Recursos improvidos.
+
+Tese de julgamento:
+
+1. O réu regularmente citado que muda de  endereço sem comunicação ao juízo não pode alegar nulidade por ausência de intimação pessoal para audiência, legitimando-se a decretação de revelia com base no art. 367 do CPP.
+
+2. A conjugação de prova testemunhal firme, comprovantes de transferência bancária e laudos periciais é suficiente para comprovar autoria e materialidade em crime de estelionato qualificado por fraude eletrônica.
+
+3. A prestação pecuniária proporcional ao dano e não infirmada por prova de hipossuficiência deve ser mantida.
+
+Dispositivos relevantes citados: CPP, art. 367; CP, art. 171, §2º-A.
+
+ACÓRDÃO
+
+Vistos, relatados e discutidos estes autos, acordam os Desembargadores da 2ª Turma de Direito Penal, por unanimidade, em conhecer o recurso e lhe negar provimento, na conformidade do voto do relator.
+
+Desembargador RÔMULO JOSÉ FERREIRA NUNES
+
+Relator
+
+(TJPA - APELAÇÃO CRIMINAL - Nº 0800326-11.2023.8.14.0080 - Relator(a): ROMULO JOSE FERREIRA NUNES - 2ª Turma de Direito Penal - Julgado em 2025-12-16)
+
+Dessa forma, restando sobejamente demonstradas a materialidade, a autoria e a adequação típica da conduta, e inexistindo causas de exclusão de ilicitude ou de culpabilidade que socorram a acusada, impõe-se a rejeição dos pleitos absolutórios e o acolhimento do pleito condenatório formulado pelo Ministério Público.
+
+2.4. DOSIMETRIA DA PENA
+
+Atendendo às diretrizes de individualização da pena estabelecidas no art. 68 do Código Penal, passo a fixar a sanção aplicável à ré Vitoria Gabrielly da Silva Teixeira.
+
+Na primeira fase, cumpre analisar as circunstâncias judiciais previstas no art. 59 do Código Penal:
+
+a) Culpabilidade: o grau de reprovabilidade da conduta revela-se normal ao tipo penal infringido, inexistindo elementos que justifiquem acréscimo especial de pena;
+
+b) Antecedentes: a acusada não ostenta condenações criminais anteriores com trânsito em julgado, conforme certidão de antecedentes penais de ID 168323451, devendo tal vetorial ser considerada neutra;
+
+c) Conduta social: inexistem nos autos dados desfavoráveis que indiquem desvio comportamental perante o meio social, familiar ou de trabalho em que vive;
+
+d) Personalidade: não foram produzidos laudos ou elementos técnicos suficientes para aferir a estrutura psíquica ou o perfil de personalidade da agente;
+
+e) Motivos: residem no desejo de obtenção de ganho fácil em detrimento do patrimônio alheio, elemento que já se encontra valorado como próprio do tipo penal de estelionato;
+
+f) Circunstâncias: a fraude perpetrada por meios eletrônicos mediante a utilização de contatos de redes sociais e canais de telecomunicação configura a própria qualificadora disposta no art. 171, § 2º-A, do Código Penal, de modo que eventual aumento nessa fase implicaria inadmissível dupla punição pelo mesmo fato;
+
+g) Consequências: o prejuízo financeiro causado às vítimas Fransuely e Simeão atingiu a soma de R$ 80.000,00 (oitenta mil reais), o qual, embora expressivo, insere-se na dinâmica dos delitos patrimoniais desta natureza, não ultrapassando os limites normais da figura qualificada;
+
+h) Comportamento da vítima: as vítimas em nada contribuíram ou facilitaram a consumação da fraude em apreço, agindo imbuídas de boa-fé em decorrência da aparência de regularidade gerada pela encenação delituosa, mantendo-se a vetorial neutra.
+
+Considerando a neutralidade de todas as circunstâncias judiciais analisadas, fixo a pena-base no mínimo legal estabelecido para o preceito sancionador do art. 171, § 2º-A, do Código Penal, qual seja, em 04 (quatro) anos de reclusão e 10 (dez) dias-multa.
+
+Na segunda fase, constata-se a presença da atenuante da menoridade relativa, haja vista que a sentenciada contava com 19 (dezenove) anos de idade na data do fato delituoso ocorrido em 03 de novembro de 2022 (nascida em 30 de abril de 2003, cf. ID 113985629 - pág. 5), nos termos do art. 65, inciso I, do Código Penal. inexistem circunstâncias agravantes.
+
+No entanto, conquanto caracterizada a referida atenuante genérica, a pena provisória não pode sofrer redução para patamar aquém do limite mínimo cominado em abstrato pelo legislador. O Superior Tribunal de Justiça sumulou o entendimento de que circunstâncias atenuantes não autorizam a fixação da reprimenda abaixo do patamar mínimo na segunda etapa da dosimetria:
+
+SÚMULA STJ nº 231: A incidência da circunstância atenuante não pode conduzir à redução da pena abaixo do mínimo legal. (TERCEIRA SEÇÃO, julgado em 22/09/1999, DJ 15/10/1999, p. 76)
+
+Desse modo, em observância ao entendimento vinculante consolidado na jurisprudência pátria, mantenho a pena intermediária fixada no mínimo de 04 (quatro) anos de reclusão e 10 (dez) dias-multa.
+
+Na terceira fase, inexistem causas de diminuição ou de aumento de pena a incidir sobre a hipótese vertente. Assim, fixo a pena definitiva da ré em 04 (quatro) anos de reclusão e 10 (dez) dias-multa.
+
+Fixo o valor de cada dia-multa no patamar de 1/30 (um trigésimo) do salário-mínimo mensal vigente à época dos fatos, devidamente corrigido nos termos legais, diante da ausência de elementos que comprovem situação financeira excepcional da acusada.
+
+Com fulcro no art. 33, § 2º, alínea "c", do Código Penal, estabeleço o regime inicial aberto para o cumprimento da pena privativa de liberdade, considerando que a sentenciada é primária, que todas as circunstâncias judiciais foram valoradas de modo favorável ou neutro e que o montante da pena imposta não ultrapassa o limite de 04 (quatro) anos de reclusão.
+
+Atendidos os requisitos objetivos e subjetivos traçados pelo art. 44 do Código Penal, verifico que a pena privativa de liberdade aplicada não é superior a 04 (quatro) anos, o crime não foi cometido mediante violência física ou grave ameaça à pessoa e a acusada é primária com circunstâncias judiciais inteiramente favoráveis.
+
+Desta forma, realizo a substituição da pena privativa de liberdade por duas penas restritivas de direitos, consistentes em:
+
+a) Prestação pecuniária (art. 45, § 1º, do Código Penal) a ser adimplida em favor das vítimas Fransuely Moraes Rodrigues e Simeão Antonio Rodrigues Nova da Costa, arbitrada no valor correspondente a 10 (dez) salários-mínimos vigentes na data do efetivo pagamento, como forma de mitigar os prejuízos patrimoniais suportados pelas partes lesadas;
+
+b) Prestação de serviços à comunidade ou a entidades públicas (art. 46 do Código Penal), a ser cumprida à razão de uma hora de tarefa por dia de condenação, em instituição a ser especificada pelo Juízo das Execuções Penais, sem prejuízo de suas atividades laborais regulares.
+
+3. DISPOSITIVO
+
+Ante o exposto, julgo procedente a pretensão punitiva deduzida na inicial acusatória para condenar a ré Vitoria Gabrielly da Silva Teixeira como incursa nas sanções do art. 171, § 2º-A, do Código Penal Brasileiro.
+
+Aplico-lhe a pena definitiva de 04 (quatro) anos de reclusão, em regime inicial aberto, substituída por duas penas restritivas de direitos consistentes em prestação pecuniária e prestação de serviços à comunidade, além da pena de 10 (dez) dias-multa, fixados no valor unitário de 1/30 do salário-mínimo vigente à época dos fatos.
+
+Em cumprimento ao disposto no art. 387, inciso IV, do Código de Processo Penal, com redação dada pela Lei nº 11.719/2008, verifico que o Ministério Público e as vítimas formularam pedido expresso de reparação cível e que os danos materiais sofridos decorrentes do estelionato eletrônico restaram sobejamente quantificados e comprovados pelo comprovante de transação bancária (ID 106600435 - Pág. 12).
+
+Desta forma, condeno a ré ao pagamento do valor mínimo indenitário de 30 (trinta) salários-mínimos vigentes à época do fato em benefício da vítima Fransuely Moraes Rodrigues, como forma de indenização parcial pelos prejuízos patrimoniais sofridos em virtude da infração penal perpetrada. O montante fixado deverá ser corrigido monetariamente pelo Índice Nacional de Preços ao Consumidor (INPC) a partir da data do evento danoso em 08 de novembro de 2022, acrescido de juros de mora de 1% (um por cento) ao mês a contar da citação.
+
+Concedo à condenada o direito de recorrer em liberdade. A acusada respondeu ao processo sem constrição cautelar, não restando preenchidos os requisitos autorizadores da custódia preventiva descritos no art. 312 do Código de Processo Penal, mormente diante da fixação do regime inicial aberto e da substituição da reprimenda corporal por sanções restritivas de direitos.
+
+Condeno a ré ao pagamento das custas processuais, nos termos do art. 804 do Código de Processo Penal, cuja exigibilidade deverá ser apreciada perante o Juízo da Execução em caso de eventual pedido de gratuidade de justiça.
+
+Após o trânsito em julgado desta decisão, adotem-se as seguintes providências:
+
+a) Expeça-se a guia de execução definitiva da pena em nome da ré, encaminhando-a ao Juízo das Execuções Penais competente para o acompanhamento do cumprimento das penas restritivas de direitos impostas;
+
+b) Oficie-se ao Tribunal Regional Eleitoral do Pará e do Mato Grosso para os fins do art. 15, inciso III, da Constituição Federal, comunicando a suspensão dos direitos políticos da condenada enquanto perdurarem os efeitos da condenação criminal;
+
+c) Remetam-se as informações necessárias ao Instituto de Identificação Criminal da Polícia Civil para as devidas anotações no prontuário de antecedentes da sentenciada;
+
+d) Proceda-se à baixa definitiva do processo no sistema de tramitação processual PJe do Tribunal de Justiça do Estado do Pará.
+
+Publique-se. Registre-se. Intimem-se as vítimas, a ré, sua defensora constituída e o representante do Ministério Público.
+
+Belém (PA), datado e assinado eletronicamente.
+
+ANDREA FERREIRA BISPO
+
+Juíza de Direito
+
+Titular da 6ª Vara Criminal de Belém
