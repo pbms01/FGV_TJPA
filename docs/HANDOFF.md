@@ -1,4 +1,4 @@
-# Handoff: fase 1 TJSP coletada; análise criminológica com as questões 1 a 7 feitas, as três primeiras conferidas por segundo leitor, e a próxima sessão dedicada a planejar o exame das sete questões nos casos de origem (21/11/2026)
+# Handoff: fase 1 TJSP coletada; análise criminológica com as questões 1 a 7 feitas, as três primeiras conferidas por segundo leitor, e o plano de exame em aula das sete questões confirmado, a executar na próxima sessão (21/11/2026)
 
 Repositório pbms01/FGV_TJPA. O branch `coleta-datajud` foi mesclado no main em 21/11/2026, depois da questão 3, junto com a base de 130 casos que estava só no main. Este arquivo substitui o estado da conversa e deve ser lido antes de qualquer passo novo.
 
@@ -22,21 +22,16 @@ Análise feita nesta fase, com os dois eixos codificados em `scripts/eixos_media
 - Pendências das questões 5 a 7, que não tiveram segundo leitor: os dicionários `TERCEIRO`, `PEDIDO_COTA` e `DATA_MANUAL` (questão 5), `CREDITO`, `REACAO`, `AUMENTO_MANUAL` e `PJ` (questão 6) e `VERSAO_MANUAL` com as 101 leituras de versão (questão 7); os pontos do serviço da questão 6 são triagem por termos.
 - Para reproduzir: `python3 scripts/analise_q1_alcance.py`, `python3 scripts/analise_q2_eliminacao.py`, `python3 scripts/analise_q3_dano.py`, `python3 scripts/analise_q4_organizacao.py`, `python3 scripts/segundo_leitor.py` (que depende do `q3_dano.csv` e diz se a adjudicação está aplicada), `python3 scripts/analise_q5_tempo_dado.py`, `python3 scripts/analise_q6_servico.py` (depende do `q3_dano.csv` e do `q5_tempo_dado.csv`) e `python3 scripts/analise_q7_titular.py` (depende do `q1_alcance.csv`, do `q4_organizacao.csv` e do `q5_tempo_dado.csv`), nessa ordem, da raiz do repo, e por último `python3 scripts/fenomenos_ponderados.py`, que depende de todas; `-q` grava sem imprimir.
 
-Ponto de partida da próxima sessão: planejar o exame das questões nos processos que as sustentam. Nas palavras do usuário (21/11/2026): "voltarmos para planejarmos como vamos examinar as 7 perguntas mais relevantes em relação aos seus casos de origem". A leitura mais provável é a das questões 1 a 7 já respondidas, que foram as priorizadas das linhas de pesquisa; confirmar com o usuário no início, porque a lista de 15 fenômenos e a seleção dos itens de maior valor prático também circularam na conversa. A sessão é de planejamento, e não de execução. O material de partida é este:
+Ponto de partida da próxima sessão: executar o plano de exame em aula, confirmado pelo usuário em 21/11/2026 (`docs/aula/plano-exame-casos.md`, no Project como `claude/plano-exame-casos-aula.md`). O propósito, nas palavras do usuário, é "examinar em aula cada caso a partir da conduta registrada, como o sistema de justiça processou e como a resposta criminológica a cada pergunta acresce de modo prático ao dia a dia do magistrado". As sete perguntas são as questões 1 a 7, e os 18 fenômenos de `fenomenos.csv` dão o número da base em que cada caso se insere. O plano fixou:
 
-- `dados/analise/fenomenos_casos.csv`, que liga cada achado aos casos da base e do numerador;
-- os `q*_*.csv` de cada questão, todos com `caso` e `numero`;
-- a matriz de 29 casos (`dados/extracao/matriz_casos.csv`), que já foi lida à mão;
-- os textos integrais em `textos/tjsp/`.
+- oito pares de âncora e contraste, 16 casos, 14 da matriz e dois de fora (CL 48 e CL 13): INV 39 e INV 14; CL 56 e FE 105; CL 42 e FE 35; FE 107 e FE 55; FE 115 e FE 77; CL 7 e CL 18; FE 122 e FE 54; CL 48 e CL 13;
+- leitura integral da denúncia com a cota e da sentença em todos, do acórdão no CL 48 e no FE 77 e das razões do MP no CL 13, com o segundo grau de CL 7, CL 13, FE 115 e FE 35 atualizado pelo DJEN na véspera da aula;
+- uma ficha anonimizada por caso, em cinco blocos (conduta registrada; processamento; leitura pelas questões, com o acréscimo ao magistrado por momento de decisão; perguntas para a turma; conferência), gravada em `docs/aula/fichas/<caso>.md`, com o índice em `dados/aula/casos_aula.csv` e as divergências da leitura contra a codificação em `dados/aula/divergencias.csv`;
+- a leitura integral como conferência de todos os campos que a ficha usa nos 16 casos, que têm codificação assistida e, salvo INV 39, FE 54, CL 48 e CL 13, nenhum segundo leitor; ela controla o que vai à aula e não estima o erro da base.
 
-O plano precisa decidir, por questão:
+A execução segue a ordem do plano: (1) conferência humana, pelo pesquisador, das cinco adjudicações do CL 48 (papel do denunciado, Lei 15.397, fundamentos da reparação) e do CL 13 (resultado, ressarcimento pelo intermediário); (2) `scripts/casos_aula.py`, ainda por escrever, que grava o índice e os esqueletos das fichas com os valores já codificados; (3) leitura por par, âncora e contraste juntos, na ordem da aula; (4) correções pelos caminhos de sempre e nova rodada dos scripts, com o registro do que mudou nos números; (5) segundo grau pelo DJEN; (6) roteiro da aula em documento editável e fichas de exercício para o aplicativo, que recebe só a ficha anonimizada. O plano lista cinco pontos que a leitura decide e que podem trocar um caso: o contato à distância antes da maquininha no CL 56 e no FE 105, o 154-A nos fatos do INV 14, a falta do §2º-A no CL 42, o papel do denunciado no FE 54 e o número de denunciados no INV 39. Os dispositivos legais do plano vêm das notas das questões e não foram conferidos de novo na sessão do plano, porque o acesso ao Planalto pediu aprovação.
 
-- que casos examinar (todos os do numerador, uma amostra, os de fronteira ou os da matriz);
-- que peça ler (denúncia, sentença, acórdão);
-- o que registrar de cada caso e onde gravar;
-- como o exame dialoga com o segundo leitor já feito nas questões 1 a 3 e com o que falta nas questões 4 a 7.
-
-A conferência humana das 57 decisões de adjudicação (`dados/conferencia/adjudicacao.csv`, coluna `motivo`) continua pendente, adiada pelo usuário; pode entrar no plano, porque toca os mesmos casos. Das perguntas pendentes das linhas de pesquisa, foram priorizadas pelo propósito prático e feitas a 4.4, a 3.4 com a 4.1 e a 2.3 reduzida à entrada do titular; ficaram de lado a 3.2, a 1.2, a 1.3, a 4.2, a 3.1, a 2.4 e a 4.3.
+Das perguntas pendentes das linhas de pesquisa, foram priorizadas pelo propósito prático e feitas a 4.4, a 3.4 com a 4.1 e a 2.3 reduzida à entrada do titular; ficaram de lado a 3.2, a 1.2, a 1.3, a 4.2, a 3.1, a 2.4 e a 4.3.
 
 Base analítica, unida pela coluna `numero`, com o peso de `dados/cjpg/amostra_tjsp.csv` e sem as duplicatas marcadas em `duplicata_de` (198 denúncias):
 
@@ -151,7 +146,7 @@ A validação das regex fora da amostra (rodada r2, 12 casos) deu concordância 
 
 ## Próximos passos, em ordem
 
-0. Planejar com o usuário o exame das sete questões nos casos de origem, como descrito no ponto de partida acima, antes de executar qualquer dos passos seguintes.
+0. Executar o plano de exame em aula (`docs/aula/plano-exame-casos.md`), como descrito no ponto de partida acima, antes dos passos seguintes. O plano antecipa, do passo 1, as cinco adjudicações do CL 48 e do CL 13, e a leitura integral dos 16 casos adianta, só nesses casos, a releitura das consequências do passo 2 e a conferência dos dicionários do passo 3, sem substituir o segundo leitor por amostra.
 1. Conferência humana, pelo pesquisador, das 57 decisões de `dados/conferencia/adjudicacao.csv` (coluna `motivo`), começando pelas de fronteira (CL 48 e CL 40 no papel, INV 4, INV 30 e FE 125 nos danos, CL 13 e CL 58 no intermediário). Mudança de decisão entra no lugar de sempre (`grava_codificacao.py`, `pipe_sentencas.py corrige` ou os dicionários dos scripts de análise), com a coluna `final` atualizada; `python3 scripts/segundo_leitor.py` acusa o que não estiver aplicado. A conferência decide também se as categorias novas da codificação (`relacional`, `extorsao_transferencia`, `taxa_antecipada`, `devassa_privacidade`, `falso_relacionamento`, `outro`) ficam ou são fundidas.
 2. Releitura das consequências do crime nas condenações que o leitor por termos não marcou (`conseq_valoracao` = "não lida" em `q3_dano.csv`, cerca de 98), porque a amostra mostrou uma negativa perdida em 21 (FE 21); e decisão sobre o FE 16 (1505916-93.2021.8.26.0554, sentença de 14/11/2024 no cjpg sem movimento nem DJEN; tentar a lista de documentos do Codex ou o cjpg no navegador).
 3. Segundo leitor para as tabelas que a conferência não cobriu: `NIVEL` e o vetor da questão 1, `OBJETO` e `CANAL_MANUAL` dos eixos, o dicionário `ESTRUTURA` da questão 4, com leitura integral das 65 denúncias plurais, e os dicionários manuais das questões 5 a 7 (`TERCEIRO`, `PEDIDO_COTA`, `CREDITO`, `REACAO`, `VERSAO_MANUAL`), com as 101 versões do titular lidas no texto integral da sentença.
@@ -193,4 +188,5 @@ A validação das regex fora da amostra (rodada r2, 12 casos) deu concordância 
 - `docs/RUNBOOK_TJSP.md`: roteiro do cjpg e do Codex.
 - `docs/plano-captura.md`: plano completo.
 - `dados/extracao/LEIAME.md`: extração.
+- `docs/aula/plano-exame-casos.md`: plano de exame em aula das sete questões em oito pares de casos, espelhado no Project como `claude/plano-exame-casos-aula.md`. O roteiro de 15 casos da base de consulta pública, separado deste, está no doc `claude/roteiro-aula-magistrados-15-casos.md` do Project.
 - No Project "Criminologia Informática" do claude.ai, o doc `claude/plano-captura-base-tjpa.md` espelha o estado da coleta, e o `claude/matriz-selecao-casos.md` resume a matriz de 29 casos para exame criminológico (documento editável em https://claude.ai/artifact/4rUKtiqaqKiia9LUKqGm3Y), agora com a seção de sentenças.
