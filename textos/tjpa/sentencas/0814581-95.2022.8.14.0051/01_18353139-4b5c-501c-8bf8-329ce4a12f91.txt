@@ -1,0 +1,741 @@
+[Texto nativo do PJe]
+
+PODER JUDICIÁRIO
+
+TRIBUNAL DE JUSTIÇA DO ESTADO DO PARÁ
+
+1ª VARA CRIMINAL DE BELÉM
+
+Proc. nº 0814581-95.2022.8.14.0051
+
+Autor: Ministério Público
+
+Réu: MARCOS CORRÊA PANTOJA
+
+SENTENÇA
+
+Vistos.
+
+O Ministério Público do Estado do Pará ofereceu denúncia contra MARCOS CORRÊA PANTOJA, imputando-lhe a prática do crime previsto no art. 171, §2ºA, do Código Penal, por fatos ocorridos em 18/10/2022, quando teria participado do escoamento de valores provenientes de fraude eletrônica perpetrada contra a vítima Sheila Cardoso Gomes, consistente na contratação fraudulenta de empréstimo consignado no valor aproximado de R$ 150.000,00, seguido de transferência indevida de R$ 50.000,00 para conta de Nayade Sanches Nobre, e posterior saque, pelo acusado, de R$ 5.000,00 (divididos em R$ 2.000,00 e R$ 3.000,00) no terminal 208 da agência Banpará, em Santarém/PA (Num. 120272459).
+
+O flagrante foi homologado e o acusado posto em liberdade, em 19/10/2022, sob condições (dentre as quais a de devolver o valor sacado de R$ 5.000,00 através de depósito judicial), mediante pagamento de fiança (Num. 79766927). Comprovados o depósito judicial e o pagamento da fiança pelo acusado (Num. 79811687 - Pág. 1/5).
+
+A denúncia foi recebida regularmente em 19/07/2024 (Num. 120783500).
+
+Citado (Num. 121487696 - Pág. 1), o acusado ofereceu resposta escrita à acusação (Num. 132361906).
+
+Em audiência, foi realizada a oitiva da vítima SHEILA CARDOSO GOMES, das testemunhas GLEDISON DOS SANTOS SIQUEIRA, CLEOTON MARQUES BENTES e PAULO SÉRGIO LEÃO VALE, e da informante NAYADE SANCHES NOBRE, bem como o interrogatório do acusado (Num. 140867910 e Num. 147142379).
+
+Foi juntada a certidão de antecedentes do acusado (Num. 147209725 - Pág. 1).
+
+A acusação ofereceu alegações finais, requerendo a condenação do acusado às penas do 171, §2º-A, do Código Penal Brasileiro, bem como a fixação de valor mínimo para reparação dos danos causados pela infração (Num. 148761800).
+
+A defesa, por sua vez, em alegações finais, requereu a absolvição do réu por atipicidade da conduta, falta de provas de autoria ou insuficiência de provas para uma condenação; subsidiariamente, em caso de condenação, postulou pena no mínimo legal em regime aberto (Num. 155122554).
+
+É o relatório. Decido.
+
+Ao longo da instrução processual foram colhidas provas contundentes e convergentes que dão suporte à condenação do réu pelo crime previsto no art. 171, §2º-A, do Código Penal Brasileiro.
+
+A materialidade do delito foi comprovada por meio dos seguintes documentos: extrato de conta da vítima, constando a transferência do valor de R$ 50.000,00 para a favorecida Nayade Sanches Nobre, namorada do acusado (Num. 85483867- Pág.7); detalhamento log, documentos remetidos pelo Banpará demonstrando a movimentação financeira na conta de Nayade Sanches Nobre (crédito de R$ 50.000,00, um saque no valor de R$ 3.000,00 e outro no valor de R$ 2.000,00, bem como consulta a extrato), no caixa eletrônico de numeração final 208, no momento em que a fraude acontecia e era relatada ao banco pela vítima (Num. 102232750 - Pág. 10/13); bem como imagens do acusado feitas pela câmera do caixa eletrônico utilizado por ele (Num. 102232750 - Pág. 14/19). A autoria delitiva restou demonstrada por meio dos relatos colhidos em juízo. Vejamos.
+
+A vítima Sheila Cardoso Gomes, em juízo, informou o seguinte:
+
+- Senhora Sheila, a senhora foi vítima do crime que nós estamos apurando um estelionato praticado, mediante fraude eletrônica, pelo Sr. Marcos Correa Pantoja. Eu gostaria que a senhora narrasse como foi que aconteceu esse fato, qual a senhora foi vítima. (promotora)
+
+- OK, posso falar?
+
+- Pode. (promotora)
+
+- Tá. Eh, foi, salvo engano, foi ano retrasado. Eh, eu estava saindo de casa pro trabalho e recebi uma ligação. Nessa ligação, alguém me dizia o seguinte...E, importante, quando o meu celular tocou, eu só atendi porque eu tenho salvo o número do Banpará, o geral do Banpará, no meu telefone e quando meu telefone tocou aparecia que a ligação ela era originada do banco, do meu banco, do Banco do Estado do Pará.
+
+- Então a senhora tinha o contato salvo e quem lhe ligava era o contato salvo do Banpará? (promotora)
+
+- Exatamente. Eu só atendi porque não era número desconhecido, era Banpará, que é o telefone geral do Banpará, para onde eu já liguei várias vezes para solicitar informações. Então, o número que aparecia para mim era Banpará. Então, eu atendi. Quando eu atendi, eh, a pessoa se identificou como do banco e foi aquela ligação bem eh tradicional que a gente recebe. "Eh, você tá sendo eh notificado de que estão fazendo uma movimentação na sua conta"  o que aconteceu foi que não me solicitaram, durante o início da ligação, não me solicitaram meu nome completo, nem meu RG, nem minha conta. Na ligação já disseram "é a senhora Sheila Cardoso Gomes sobre o CPF tal, sobre a conta tal". E aí isso chamou minha atenção. Eu disse: "Sim, sou eu."
+
+-Esses dados todos conferiam, dona Sheila? (promotora)
+
+- Conferiam. A pessoa que me ligou sabia todos os meus dados, inclusive a minha conta corrente, o nome da agência e tudo mais. E isso eh me despertou a atenção. E na hora a pessoa disse: "Olha, estão fazendo um, estão fazendo uma renegociação do consignado que a senhora já tem no determinado valor" que, salvo engano foi R$ 150.000. Eh, e aí começou a falar que tava fazendo uma movimentação, tava sendo aprovado e tal para me deixar ciente e que era para eu entrar no meu aplicativo e verificar se essa negociação estava acontecendo. Como eu tava de saída pro trabalho, eu estava dentro do carro, eu coloquei o telefone no viva voz, a minha agência fica alguns metros da minha casa. Com a ligação ativa, eu me dirigi à minha agência, porque eu achei muito estranho. Eu me dirigi a minha agência. Quando eu entrei na agência, eu entrei com o telefone no Viva Voz, pedi pro guarda para falar direto com o gerente e fui passando direto. Não falei com o gerente, falei com uma pessoa que me atendeu na mesa e eu cheguei e falei pra pessoa: "Ouça essa ligação que estão me ligando do Banpará". E coloquei pro funcionário do Banpará ouvir. A pessoa ainda estava falando. A pessoa do Banpará que me atendeu disse: "Desligue imediatamente que é fraude". Eu desliguei o telefone e disse pra pessoa: "Olha, recebi essa ligação (e relatei o que o que eu relatei para vocês agora), a pessoa sabia todos os meus dados, eu queria que vocês conferissem se tá acontecendo alguma movimentação na minha conta". A pessoa foi pro computador, mexeu, olhou para mim e disse: "Sim, acabou de ser feito uma renegociação no seu nome no consignado, via internet, que eu não sabia nem que podia ser feito via internet. Todas as renegociações de consignado que eu havia feito até então, elas eram de agência, direto na agência. E aí a pessoa disse: "Ó, Olha, a senhora, por favor, vá até uma delegacia de polícia e registre imediatamente a ocorrência, relate tudo que tá acontecendo. A agência daqui a pouco tá fechando, mas quando a senhora voltar, se tiver fechada, a senhora mostra o boletim de ocorrência e a gente deixa a senhora entrar e verifica o que tá acontecendo".  Aí foi exatamente o que eu fiz. Fui pra delegacia de polícia, aguardei minha vez, relatei tudo ao delegado, fiz o boletim de ocorrência, voltei na agência, ainda deu tempo de entrar, apresentei o boletim de ocorrência para a pessoa que havia me atendido. E a pessoa disse: "Olha, eh, a gente tá fazendo agora também uma, ele usou um termo que, que eu entendi como uma notificação, de que a senhora esteve na agência e que não partiu da senhora essa renegociação e agora a senhora precisa aguardar". E foi o que eu fiz desde então. Me deram um prazo para aguardar, esse prazo venceu. Eu fiquei ligando várias vezes pro Banpará, eh, e pedindo um esclarecimento. E com, eu acho que com dois ou, faz tanto tempo, mas eu acho que foram dois ou três meses, eu indo a agência toda semana aí telefonando, eles disseram: "Olha, foi suspenso eh realmente eh houve um uma renegociação no nome da senhora, mas o banco já percebeu, já entendeu que foi fraudulento. Então o, eh, essa renegociação ela vai ser desfeita e o dinheiro que tava sendo descontado da sua conta nos próximos meses vai ser reposto". O valor que começou a ser retirado da minha parcela foi muito grande perto do que eu já devia. E foi exatamente o que aconteceu. O banco me repôs, o meu valor voltou ao consignado um valor normal que eu tinha e eles disseram: "Agora é conosco". E desde então eu fiquei aguardando.
+
+- Então a senhora já tinha um consignado anterior? (promotora)
+
+- Exatamente e foi feito, em meu nome, uma renegociação de um valor bem alto.
+
+- Fraudulenta, no valor de R$ 150.000? (promotora)
+
+- Isso, salvo engano, esse foi o valor. Foi 150 ou 180, eu não lembro. Tem tanto tempo que eu não lembro.
+
+- A senhora quando recebeu essa ligação e a pessoa dizia pra senhora entrar no seu aplicativo, ela pediu pra senhora eh digitar alguma senha de token? (promotora)
+
+- Não, ela me deu a minha senha, que foi o que eu estranhei. Ela me deu a minha senha, a minha senha da internet, que são seis ou oito dígitos. Eh, eu não lembro porque no meu celular eu só entro pela digital, mas são seis ou oito dígitos. E a pessoa me passou isso enquanto eu estava dirigindo. E ela dizia: "Olha, você tem que entrar no seu aplicativo, vai aparecer uma numeração do token e a senhora precisa me passar essa numeração" e apareceu uma e eu cliquei, apareceu uma senha, mas eu não cheguei a passar essa senha para a pessoa. Eu não sei o que aconteceu, se nesse momento a pessoa conseguia ter acesso a à tela do meu celular, porque enquanto eu estava eh falando ao telefone, a minha preocupação maior, eu tava no Viva-voz, dirigindo, era chegar na agência para verificar se tava partindo de lá essa ligação. Mas a pessoa chegou a me dizer a minha senha.
+
+- E a senhora foi então imediatamente ao banco e logo em seguida foi fazer o registro de ocorrência e retornou ao banco? (promotora)
+
+- Isso, isso.
+
+- A senhora ficou sabendo que havia uma pessoa neste exato momento fazendo um saque de uma dessas transferências numa agência localizada em Santarém e que no caso denunciaram? (promotora)
+
+- No interior, sim.  Eu não sei a pessoa
+
+- Quando a senhora tomou conhecimento disso? (promotora)
+
+- Sim. O conhecimento que eu tomei foi no retorno da delegacia pro banco. O banco na mesma hora, inclusive não queria eh fazer o estorno. Eu lembro que foi, eu fiquei muito indignada porque o retorno do banco, quando eu voltei da delegacia, foi o seguinte: "eh a senhora tem sorte que nós conseguimos recuperar uma parte do valor que lhe foi retirado. Essa parte do valor estava sendo sacada por alguém no interior do Pará, neste momento enquanto a senhora fazia o boletim de ocorrência". E aí só que eles me disseram assim: "olha, não tem o que fazer, a gente também não. Agora é o processo é interno. Mas se a senhora quiser, a gente repõe o valor que lhe foi tirado". Como foi feito toda uma negociação que não partiu de mim, na hora eu falei pro banco: "Não, eu não quero que me reponha nada porque não fui eu que fiz nem a renegociação e muito menos o saque, então, eu não quero que seja reposto nada. Eu quero que seja anulado essa renegociação que não foi feita por mim". Essa foi a solicitação que eu fiz no banco.
+
+- A senhora ficou sabendo que desse consignado no valor de 150.000, 50.000 havia sido transferido para uma conta em nome de Nayade Sanches Nobres? (promotora)
+
+- Sim, sim. Inclusive apareceu no meu no histórico do meu do Banpará aparecia o Pix, o nome da pessoa. Eu cheguei a colocar o nome da pessoa no banco. Eu disse: "Olha, aparece, eu relatei tudo. Olha, tudo que está aparecendo para mim é isso"
+
+-No seu extrato? era mais de uma transferência para mais de uma pessoa? Senhora, lembra, dona Sheila? (promotora)
+
+-Não, só aparecia uma pessoa. Era uma pessoa, um nome de mulher.
+
+- A senhora lembra o nome dela, dessa pessoa? (promotora)
+
+- Ai, eu tenho em print de tela.
+
+- Mas se a senhora não lembrar, não tem problema. Eu vou lhe falar o nome que consta na denúncia. Senhora não tá lembrando, mas aí a senhora pode dizer: "Não, não era esse. Eu lembro". (promotora)
+
+- Não era um nome tão comum.
+
+- Nayade Sanches Nobre? (promotora)
+
+- Sanchez é o sobrenome. Isso. O sobrenome era Sanchez
+
+- Então a senhora não a fez a transferência para essa conta de Nayade? foi uma operação fraudulenta na sua conta, é isso? A senhora confirma? (promotora)
+
+- Sim. Confirmo. Essa operação aconteceu depois. Essa operação dessa transferência aconteceu depois dessa renegociação, dessa suposta renegociação feita por mim, que o banco entendeu como fraudulenta.
+
+-E esses 50.000 seriam dinheiro do consignado? (promotora)
+
+- Isso. Do consignado.
+
+- Que a senhora estaria repassando, que a sua conta estaria repassando para essa conta dessa Naias Sanches Nobre? E a senhora não reconhece essa operação? (promotora)
+
+- Não. Não.
+
+- Eh, a senhora ficou sabendo que, na hora que a senhora foi no banco,  havia uma pessoa numa agência em Santarém tentando sacar R$ 5.000, que chegou a sacar R$ 5.000 e fazer uma operação a partir dessa conta da Nayade? (promotora)
+
+- Tá, eu não sei se foi do em nome de alguém. Eu sei que no próprio banco, quando eu retornei, eu lembro que quando eu voltei no banco, a movimentação entre os funcionários estava muito grande, eles estavam muito agoniados. Eles disseram: "Olha, nesse exato momento tão mexendo na sua conta, tão tentando fazer um saque. Fizeram um Pix, estão tentando fazer um saque". Tinham três pessoas, na primeira vez que eu fui tinha uma pessoa me atendendo, quando eu voltei tinham três pessoas conversando comigo. Então, assim, era uma movimentação de dizerem: "Olha, tão estão mexendo no seu dinheiro, tão fazendo um Pix, tão tentando fazer um saque no interior do estado". Eu lembro dessas conversas, que alguém estava tentando fazer um saque na agência. Não sei se a pessoa conseguiu fazer o saque, nem se a pessoa foi identificada.
+
+- Eh, a senhora chegou a ter descontos consignados na sua conta dessas dessa operação fraudulenta, mesmo tendo avisado o banco que não reconhecia e tendo imediatamente ido fazer um boletim de ocorrência? Ainda foi descontado da sua conta? (promotora).
+
+- Foi. Foi descontado durante dois meses. Foi um grande problema para mim. Inclusive eu tive que contratar um advogado porque mediante um empréstimo onde eu pagava eh parcelas, eu não lembro se era de R$ 300 ou R$ 400, eu precisei começar a pagar parcelas de R$1.500. Comeu muito do meu salário e esse desconto vem em folha. Então eu lembro que o meu advogado entrou inclusive para que quando houvesse a reposição, houvesse a correção de juros, que foram dois meses de desconto. E quando o Banpará me devolveu, ele me devolveu exatamente o valor que foi tirado. Aí o meu advogado, eh, eu lembro de ter me dito: "Olha, professora, não houve nenhuma negociação do banco para lhe pagar com juros de 2 meses que a senhora ficou e precisou".
+
+- Então, apesar dessa operação fraudulenta ter sido anulada, esse empréstimo de 150.000, a senhora teve descontos e não houve, com a devolução, a correção monetária, nem o pagamento em dobro, porque uma foi uma cobrança indevida? (promotora)
+
+- Exatamente. O advogado pediu a o pagamento em dobro, pediu tudo isso que a senhora tá falando e não houve nada. Houve depois de dois meses o retorno do valor.
+
+- Sem correção e sem pagamento em dobro? (promotora)
+
+- Sem nada, sem nada. Exatamente, o valor que foi tirado foi reposto, inclusive os centavos. Eh, e uma coisa que aconteceu, que eu achei estranha, fui ao banco e relatei, é que no meu consignado vinha assim: empréstimo e vinha x parcelas de tanto, x parcelas de tanto. Depois que retornou em folha, por alguns meses, essas parcelas vinham em branco. E eu fui por duas ou três vezes à agência e disse: "Olha, eh, eu não consigo mais controlar meu consignado porque Só vem empréstimo e vem o desconto. Não vem mais dizendo o número de parcela de tantas parcelas que foi feito o acordo". Disseram: "Não, mas é assim mesmo, é em folha isso. Você tem que ir na Secretaria de Planejamento do Estado, porque são eles que vão reajustar isso em folha para você." Eu fui até a Seplad, não consegui ser atendida, voltei pro Banpará e, enfim, ficou por muito tempo assim, depois normalizou.
+
+- Esse desconto era uma coisa em branco, havia desconto de dinheiro? Não entendi. (promotora)
+
+- É, por exemplo, eh, antigamente vinha assim, primeira parcela barra 150, o valor que eu pagava anterior, por exemplo, bora supor, que eu não lembro, era R$ 400. Eu já tava, eu acho que na 10ª parcela de 150 de 400. Aí começou 11ª parcela de 150 de 1500, que foi o primeiro. Aí 12ª parcela de barra 150 parcelas de 1500. Aí quando normalizou, depois que eles me reembolsaram essas duas parcelas, que voltou a ao a cobrança normal do meu valor que era bem mais baixo, não vinha mais discriminado o número de parcelas que eu estava pagando.
+
+- Ah, que correto, né? Da ordem correta? (promotora)
+
+- Correto. Sim, na ordem correta. Parou de vir. Aí eu fui ao Banpará, me mandaram ir a Seplad. Eu fui a Seplad, não consegui ser atendida, me mandaram de volta pro Banpará. Nem foi o atendimento, foi a própria secretária, ela disse: "Olha, no momento nós não estamos atendendo, volte na sua agência bancária, porque eles precisam reajustar isso." E aí ficou um jogando pro outro e, enfim, ficou por muito tempo, depois normalizou.
+
+- Entendi. Eh, a senhora disse antes que contratou um advogado, né? A senhora teve prejuízos por conta de ter que contratar um advogado para resolver uma situação que foi falha do banco envolvendo os fraudadores? (promotora)
+
+- Sim, sim, sim. Eh, salvo engano, eu paguei três parcelas de R$ 300 para advogado, que era o período em que ele estava, que são as custas, né, que ele estava me acompanhando.
+
+- Então, a senhora teve um prejuízo, teve que arcar com advogado e pagou R$ 900 no total? (promotora)
+
+- Isso.
+
+- Fora a dor de cabeça que a senhora teve para resolver esses problemas. E também a questão de não ter o valor corrigido, nem o pagamento em dobro, porque foi uma cobrança totalmente indevida? (promotora)
+
+- Sim, sim. Tudo isso.
+
+- Tá bom. Eu não tenho mais perguntas, dona Sheila. Muito obrigada. (promotora)
+
+- Nada.
+
+- só confirmando. Bom dia, Sheila. (defensor)
+
+- Bom dia,
+
+- Sheila. Foi devolvido todos os valores subtraídos do da sua conta? (defensor)
+
+- Sim.
+
+- Sim. E com relação à questão lá de Santarém, chegou a informação até ti no mesmo dia ou no dia seguinte ou quando que chegou a informação sobre essa situação de Santarém? (defensor)
+
+- Como eu falei anteriormente, tudo aconteceu num prazo de em torno de 2 a 3 horas. Foi tudo no mesmo na mesma tarde.
+
+- Perfeito. OK. Nesse dia você tava aqui em Belém, não é isso? (defensor)
+
+- Sim, tava indo trabalhar.
+
+- Perfeito. A sua agência fica onde, Sheila? (defensor)
+
+- Na Avenida Bernardo Saião, esquina com a Tamoios,
+
+- Em Belém? (defensor)
+
+- Em Belém, próximo da minha casa.
+
+- Perfeito. Sem mais perguntas, excelência. (defensor)
+
+- Dona Sheila, a senhora já relatou tudo. Eu sei que além da dor de cabeça, né, da angústia que é imensurável, a senhora teve prejuízos financeiros, porque a senhora disse que recebeu de volta duas parcelas, mas não foram corrigidas. É isso? (juíza)
+
+- Certo. Certo. Foi o valor exato que foi tirado.
+
+- É, além disso, a senhora teve também eh que pagar o advogado? (juíza)
+
+- Certo.
+
+Em audiência, a testemunha Gledison dos Santos Siqueira, policial militar, declarou que:
+
+- Bom dia, Sr. Gledison.
+
+- Bom dia, senhora.
+
+- Sr. Gledison, eh, o senhor, estamos apurando um fato que aconteceu numa agência bancária de Santarém, eh, mais precisamente no dia em 2022, no dia 18 de outubro de 2022, numa agência do BanPará, tá? E envolvendo um estelionato praticado mediante fraude eletrônica, envolvendo o acusado presente na sala de audiência na sua tela, né, Marcos Correa. O senhor recorda desses fatos? (promotora)
+
+- Sim, com certeza.
+
+- Tá. Então eu gostaria que o senhor narrasse como foi que aconteceu, como foi, no que consistiu essa diligência que combinou com a prisão flagrante do acusado? (promotora)
+
+- É, nós fomos o primeiro informados via 190, via rádio viatura. Chegamos no local, o gerente do banco nos repassou a situação e conduzimos o mesmo até a delegacia de polícia civil, mas com o mesmo não foi encontrado nada.
+
+- Como foi? Vocês foram até a agência? (promotora)
+
+- Perfeitamente.
+
+- E o que que aconteceu em seguida? (promotora)
+
+- O gerente nos falou que ele era, de momento, suspeito de tá - movimentando um alto valor que não condizia com o que ele ganhava. Em Seguida, a gente conduziu mesmo para a delegacia de polícia civil.
+
+- É a pessoa presente na na sua tela? (promotora)
+
+-Sim, sim, sim.
+
+-Era ele que tava detido dentro da agência? (promotora)
+
+- Positivo, senhora.
+
+- Por conta de uma movimentação incompatível, segundo o gerente falou? (promotora)
+
+- Sim. Perfeitamente.
+
+- Tá. O gerente chegou a lhe explicar o no que que consistia essa movimentação, se era algum empréstimo, se era no nome de uma outra pessoa? (promotora)
+
+- Eu não recordo senhora.
+
+- Não recorda desses dados em relação à fraude. É isso? (promotora)
+
+- Sim. Não recordo.
+
+- O senhor deu voz de prisão pro acusado? (promotora)
+
+Sim. Já tava praticamente detido pelo pela gerência do banco e o conduzimos para a delegacia. Nosso serviço foi esse.
+
+- Tá. O senhor sabe dizer se com ele foi encontrado algum extrato bancário e alguma quantia em dinheiro? (promotora)
+
+- Também não recordo. Com ele não encontramos dinheiro não.
+
+- O senhor só fez então a detenção dele e encaminhamento dele pra delegacia para as providências cabíveis com a autoridade policial. É isso? (promotora)
+
+- Exatamente. Foi.
+
+- Excelência. Eu não tenho mais perguntas. Obrigada senhor. (promotora)
+
+- Bom dia. Gledison. (defensor)
+
+- Bom dia.
+
+- Você já tinha efetuado a prisão dele anteriormente a esse fato? (defensor)
+
+- Não, não, não, não. A primeira vez.
+
+-Você conhecia ele? (defensor)
+
+- também Não, fui conhecer no banco quando fomos chamados dia 190.
+
+- Você sabe dizer, você se recorda se foi feita alguma revista pessoal nele? (defensor)
+
+- Sim.
+
+- E foi encontrado algo com ele? (defensor)
+
+- Nada.
+
+- Ok. Sem mais perguntas, excelência. (defensor)
+
+- Policial. Então, quando o senhor foi a acionado que chegou na agência, ele já estava detido? (juíza)
+
+- Sim, pela gerência do banco com os guardas.
+
+- E qual foi a alegação que o senhor tomou conhecimento da detenção dele? (juíza)
+
+- Segundo o gerente nos relatou que ele tava movimentando uma grande quantia de dinheiro que não condizia com que ele ganhava.
+
+- Ele tava tentando sacar. Era isso? (juíza)
+
+- Era sacar uma transferência, uma coisa parecida. Não recordo bem de momento.
+
+-Tá certo. E isso quem lhe passou foi o gerente? (juíza)
+
+- Foi o gerente do banco.
+
+A Testemunha Paulo Sérgio Leão Vale, perante o juízo, declarou o seguinte:
+
+- Nós estamos apurando um fato que aconteceu no dia 18 de outubro de 2022, né? Uma correntista, uma fraude eletrônica, um estelionato mediante fraude eletrônica, no qual teve uma vítima que é correntista do Banpará. Eh, o senhor trabalha no Bampará ou trabalhava? (promotora)
+
+- Trabalho.
+
+- E esse estelionato aconteceu no dia 18 de outubro de 2022, envolvendo a vítima Sheila Cardoso Gomes, né? Eh, e envolvendo também o senhor Marcos Correa presente na sala de audiência. Eh, o senhor presenciou esses fatos? O Senhor tomou conhecimento desses fatos? (promotora)
+
+- Sim, tomei.
+
+- Tá. Eu gostaria que o senhor narrasse como foi que o senhor tomou conhecimento desses fatos. (promotora)
+
+- Olha, para falar a verdade, eu não estava na agência, eu tava em uma visita, uma reunião de trabalho, algo do tipo. E quando eu cheguei na agência, o gerente geral da unidade me chamou e falou assim: "Paulo, tá acontecendo um problema". Aí eu perguntei para ele o que foi e ele me comentou que o setor de risco e fraude do banco tinha informado ele que  estava ocorrendo um saque numa conta que sofreu por fraude eletrônica, de uma maneira bem rápida. E aí ele até tinha abordado uma mulher, uma outra cliente que estava sacando, porque o nome do cartão era de uma mulher e ele constatou que a cliente era cliente de fato, que ele tinha abordado uma pessoa errada. Ele voltou, segundo ele: "Qual é o caixa eletrônico que a pessoa tá?" Informaram. Quando informaram o caixa eletrônico, ele abordou, aí já era o Marcos, né, que ele tinha abordado lá, tinha feito algumas perguntas. Eu lembro que o Marcos entrou na agência junto do Cléoton , eh, normal, tinha pegado cartão, alguma coisa assim. E aí tava tendo uma conversa e eu fiquei observando porque, de fato ele só tinha me comentado isso. E eu acredito que daí o Marcos ficou dentro da agência com Cléoton, que é o gerente, e depois chegou a polícia. Eh, o setor do banco deve ter notificado a polícia, talvez o próprio Cléoton, mas eu acredito que o setor do banco lá que tinha identificado isso e chegou a polícia para averiguar o que tava acontecendo. Foi exatamente isso que eu consigo lembrar, depois nós fomos para a delegacia.
+
+- Entendi. O senhor trabalha numa agência em Belém ou em Santarém? (promotora)
+
+- Hoje em Belém.
+
+- Na época era em Santarém? (promotora)
+
+- Na época dos fatos era em Santarém.
+
+- Então quando o senhor recebeu a ligação dizendo que estava acontecendo uma fraude, um saque fraudulento, falava qual era o caixa? (promotora)
+
+- Eu não recebi ligação.
+
+- Não. Não. Quando vocês tomaram conhecimento, dizia qual era o caixa eletrônico que estava acontecendo? (promotora)
+
+- Segundo o Cléoton, que me comentou isso verbalmente, ele disse que ele recebeu a ligação e informaram qual era o caixa eletrônico depois.
+
+- Era o caixa eletrônico no qual o denunciado estava? (promotora)
+
+- Sim, eu acredito que sim.
+
+- Tá. Era a pessoa presente, que o senhor vê aí na sua tela? (promotora)
+
+- Eu acredito eu acredito que sim.
+
+- Eh, quando o senhor foi até ele, o senhor constatou que ele tava movimentando a conta em nome de uma mulher? (promotora)
+
+- Quem conversou com o Marcos foi o Cléoton. Eu acho que ele pediu cartão para ele, pediu a identidade, alguma coisa nesse sentido. Pelo que eu lembro, segundo o Cléoton, o Marcos falou que a conta era da namorada dele e de fato eu fiquei observando, né, a situação. Eh, o Cléoton, que de fato intermediou juntamente do Marcos, eu não lembro nem se eu cheguei a falar alguma coisa com o Marcos, eu acredito que não. E eu fiquei observando. Ele me comentou o que tava acontecendo, eu fiquei assistindo para ver se não tinha nenhum equívoco da parte dele também. Depois a gente foi pra delegacia,
+
+- Então ele disse que a conta era da namorada? (promotora)
+
+- Pelo que eu me lembro, sim.
+
+- O senhor lembra o nome dessa correntista que seria a namorada dele? (promotora)
+
+- Nayade.
+
+- Nayade? Senhor, lembra o resto do nome? (promotora)
+
+- Eu lembro que tinha Sanches. Nayade Sanchez.
+
+- A denúncia informa Nayade Sanches Nobre. Eh, foi o denunciado, ele foi impedido de sair da agência? (promotora)
+
+- Olha, eu acredito que não, porque ele tava amigavelmente. Não teve assim tumulto, não teve algo nesse sentido. Eu acredito que não. O Marcos entrou lá para dentro, porque o caixa eletrônico fica no mais fora, né? E eles adentraram a parte lá da agência e não teve força de nenhuma parte, no meu entender, no que eu presenciei, no que eu vi, o Marcos estava conversando lá com o Cléoton e depois chegou a polícia. Não teve, na minha opinião, força de nenhuma das partes. Depois chegou a  polícia para fazer a condução do Marcos pra delegacia.
+
+- A polícia depois chegou. para fazer a condução do Marcos na delegacia? (promotora)
+
+- Exatamente.
+
+- O senhor lembra se o Marcos já havia sacado dinheiro, algum valor dessa conta da Nayade, em nome de Nayade? (promotora)
+
+- Eh, olha, pelo histórico do banco, me parece que tinha sido um saque de R$ 5.000. Depois, logicamente, eh, a gente viu o processo, né, do banco e, se eu não me engano, era uma conta que tinham feito um consignado de uma cliente, eu não lembro o nome, eu acho que é isso que vocês falaram aí. E era um valor alto acima de 100.000. Pelos relatórios do banco, me parecia, se eu não me engano, eu não estou lembrado, mas me parecia que houve um saque de R$ 5.000, mas eu não vi ele sacar, eu não vi ele pegar dinheiro, colocar dinheiro, eu não vi. Eu tô falando do relatório do banco.
+
+- Nem na delegacia? Se foi encontrado o dinheiro com ele? (promotora)
+
+- também não posso afirmar. Eu não entrei junto dele. Ele veio com a polícia e foi conduzido lá, conversou com o delegado, eu acredito. Depois eu falei com o delegado a nível de testemunha também. Então não posso informar se ele estava com dinheiro.
+
+-Só tô perguntando que o senhor viu, presenciou. É isso mesmo. Tá tudo bem. O senhor viu o extrato da Nayade com ele, com o acusado? Um extrato em nome dessa Nayade Sanches? (promotora)
+
+- Não Consigo lembrar. Acredito que não.
+
+- Tá. O acusado, ele era correntista do banco? da agência lá de Santarém? (promotora)
+
+- Olha, me parece que ele já teve um contrato com uma empresa que pagava pelo banco, então me parece que sim, que já teve uma conta corrente, algo nesse sentido, mas eu não consigo afirmar. Me parece isso, porque no tempo, o gerente tinha verificado o caso. Eu não parei para estudar o caso nem nada, mas assim, parece que ele me comentou que ele já foi correntista antes, mas eu não tenho certeza disso não.
+
+- Tá. Eh, eu não tenho mais perguntas. Muito obrigada (promotora)
+
+- Bom, bom dia, Paulo. (defensor)
+
+- Bom dia,
+
+- Paulo. Lá na hora lá, o que você verificou lá? O Marcos, ele tava colaborando com Cleoton? (defensor)
+
+- Acredito que sim. Não vi o Marcos fazer força, não vi nenhum tipo de situação. A conversa eu não escutei, mas eu vi o Marcos explicando que a conta, segundo o Cléoton me disse, que a conta era da namorada e que era um saque, algo assim nesse sentido. Não vi. Eu acho que colaborou na minha opinião. Sim.
+
+- sim, né? Ok. Eh, você chegou a analisar a conta da Sheila, que é a vítima? Você chegou a analisar ou ver a as transferências dessa conta? (defensor)
+
+- Não, não faz parte da minha atribuição. Talvez o gerente tenha feito isso aí. Não, não fazia parte da minha tarefa.
+
+-Você disse que informou agora que o Marcos, ele já teve transações lá com o banco. Isso é uma informação importante. Você sabe dizer se o Marcos ele tinha uma conta MEI microempreendedor individual? Sabe dizer? (defensor)
+
+- Não sei dizer. O que me parece é que ele foi funcionário do Hospital Regional. Não tenho certeza. É o que eu tenho como lembrança agora. Então, seria uma conta pessoa física. Eu não sei dizer se ele tem.
+
+- Pessoa física para receber salário. Não é isso? (defensor)
+
+-  Acredito que sim.
+
+- Perfeito. Você conhecia o Marcos? (defensor)
+
+- Não.
+
+- Perfeito. OK. Excelência, sem mais pergunta. (defensor)
+
+A testemunha Cleoton Marques Bentes, em audiência, relatou que:
+
+- Bom dia, seu Cleoton (promotora)
+
+- Bom dia,
+
+- Seu Cleoton. Nós estamos apurando um fato que aconteceu numa agência bancária de Santarém, eh, um dos enrolados do fato, né, no dia 18 de outubro de 2022, por volta das do início da tarde, das 13:30, envolvendo o acusado presente na sala de audiência, modo virtual, o Senhor Marcos Correa Pantoja. Eh, ele está sendo acusado de ter praticado o crime de estelionato mediante fraude eletrônica. Eh, o senhor é funcionário do Banpará? (promotora)
+
+- Sim.
+
+- O senhor trabalha na agência de Santarém? (promotora)
+
+- Sim.
+
+- Tá. Senhor tomou conhecimento dos fatos que nós estamos apurando? (promotora)
+
+-Com certeza.
+
+- Tá. Então, eu gostaria que o senhor narrasse como foi que o senhor tomou conhecimento desses fatos. Senhor tava presente na agência nesse dia que eu acabei de falar, dia 18 de outubro de 2022? (promotora)
+
+- Sim, estava presente.
+
+- Tá. E o que que aconteceu nesse dia, Seu Cléoton? (promotora)
+
+- Eu fui acionado pela minha área de fraude, né? E foi me falado que havia uma senhora eh, utilizando-se de cartão e senha, efetuando saques para fraudulentos na agência. E aí eu fui até o autoatendimento, tinha uma senhora saindo, eu até fui atrás da senhora, mas, na volta, me chamou atenção o seu Marcos e aí eu perguntei para ele o que ele estava fazendo, né? Ele falou que tava só olhando uns extratos, vendo uns extratos, tudo. E aí eu perguntei, né, se era dele, né? A aí ele ficou meio: "não, é da minha esposa, tal",  eu posso verificar? E aí ele ficou nervoso já, né? E aí eu desconfiei que isso tratava não de uma mulher sacando, mas da pessoa dele utilizando-se do cartão de uma mulher. E aí eu convidei ele para ir até a minha sala para verificar. Com isso. Eu confirmei através do log, acho deve estar nos autos. O terminal que ele tava usando era o mesmo, né? Ele já havia feito consulta de extrato e efetuado dois saques de R$ 2.000 e R$ 3.000, totalizando R$5.000. Ele tava com o cartão em mãos, extrato bancário e os valores mencionados anteriormente. E aí eu acionei a Polícia Militar. Acionei a Polícia Militar que chegou com a guarnição. Acionei o comandante, né? Conheço o comandante, a gente tem relacionamento próximo, por trabalhar na agência. E aí ele mandou uma viatura para cá. Vieram dois militares numa viatura e conduziram mesmo até a delegacia.
+
+- Entendi. Então, o senhor constatou esse fato a partir de uma ligação? (promotora)
+
+- Sim, da minha área de fraude.
+
+- Da sua área de fraude. A ligação, ela dizia qual era o caixa eletrônico? (promotora)
+
+- Sim. Terminal 208, se não me falha a memória.
+
+- E era o terminal no qual estava o acusado. (promotora)
+
+- Sim, exatamente.
+
+- O senhor disse que foi atrás de uma mulher, é porque essa mulher estava nesse terminal? Queria que o senhor esclarecesse isso. (promotora)
+
+- Não, porque a conta que o acusado tava utilizando era de uma mulher. Ele tava utilizando o cartão e então sabia-se que era uma mulher por conta disso.
+
+- Então o senhor foi atrás de uma mulher porque a ligação já lhe disse que era uma conta de uma mulher. É isso? (promotora)
+
+- Exatamente. E ele identificou que era a esposa dele. E aí ele fez uma ligação e queria que eu saísse da agência e fosse até o encontro dessa pessoa que, segundo ele era a esposa dele, estava próximo de lá. E eu falei que não, se ela pudesse aparecer lá seria melhor. E ela não apareceu.
+
+- Eh, mas o senhor chegou a ir até atrás de uma mulher, é isso, seu Cleóton? Porque o senhor achou que era essa mulher que estava sacando. É isso? (promotora)
+
+- Não, não achei que era mulher. O que eu falei, a senhora tá modificando o que eu falei. O que eu falei foi que quando a área de fraude liga, aparece o nome da mulher como saque. Então, subentendia-se que fosse uma mulher, porém, o terminal que tava sendo utilizado era por ele, com o cartão do nome que estava utilizando da mulher que segundo ele era a esposa dele, que é o mesmo nome que aparece no log.
+
+- Entendi. O senhor explicou porque que o senhor foi atrás da mulher. Me diga uma coisa, a fraude que foi informada pro senhor falava que era um empréstimo consignado, dizia qual era o valor? (promotora)
+
+- 150.000 oriundo de uma conta de Belém.
+
+- Dizia qual era a o nome da pessoa que de Belém estava transferindo para essa conta de Santarém? Senhor, lembra? (promotora)
+
+- Estava transferindo? Como assim?
+
+- É o nome da correntista, da vítima que estava transferindo para Santarém (promotora)
+
+- A senhora que saber o nome da vítima ou fraudadora?
+
+- Da vítima. (promotora)
+
+- Não lembro de cabeça, só verificando.
+
+- Tá? Era uma outra mulher, não é isso? (promotora)
+
+- Sim, foi anexado nos autos aí, inclusive o depoimento dela, junto com o delegado Fábio.
+
+- Eh, o senhor lembra o nome dessa correntista de Santarém que estaria recebendo esse valor? (promotora)
+
+- Não era não era de Santarém, a correntista era de Breves. Segundo o rapaz aí, seria a esposa dele, tratava de esposa dele.
+
+- Senhor lembra do nome dela? (promotora)
+
+- Eu posso verificar? Tá nos autos. Não, não lembro de cabeça. Foi 2022. Isso.
+
+- Eh, me diga uma coisa. Então, o acusado estava com o extrato, com o cartão e o valor de dinheiro que ele havia acabado de sacar no valor que o senhor falou no total de R$ 5.000? (promotora)
+
+- Sim, sim. Estava de posse.
+
+- E era no nome de uma mulher de uma correntista de Breves? (promotora)
+
+- Segundo o mesmo se tratava ser esposa dele.
+
+- O senhor conheceu, eh depois, em colaboração com a justiça, as imagens? (promotora)
+
+- Forneci imagem, fotos, os logs, tudo.
+
+- Entendi. E a pessoa presente na sala de audiência era a pessoa que tava na agência nesse dia que o senhor abordou e que foi pego com essas coisas, o senhor falou? (promotora)
+
+- Isso. Isso. No canto Superior esquerdo, canto superior esquerdo na minha tela.
+
+- O senhor reconhece? (promotora)
+
+- Sim.
+
+-Excelência, eu não tenho mais perguntas (promotora)
+
+- Bom dia, Cleoton (defensor)
+
+- Bom dia.
+
+- Ele teria informado, no dia lá, o que foi que aconteceu sobre essa questão desse saque. Ele chegou a esclarecer para você? (defensor)
+
+- Ah, ele ficou todo nervoso, né? No momento que eu abordei perguntando do que se tratava, porque que ele tava fazendo os saques e tudo mais. E ele disse que que ia ligar pra esposa dele, que ele não sabia, que era da esposa dele, que era para mim ir até lá, que era para mim sair com ele. "Não, não vou sair. Chame ela até aqui e a gente pode verificar e esclarecer a situação, né?" E aí eu já tinha acionado, né, a viatura que eu já sabia que se tratava de fraude e aí foi o tempo que eles chegaram.
+
+- Eh, mas ele chegou a esclarecer alguma coisa para você lá no dia? (defensor)
+
+- Não, não.
+
+- Perfeito. Você chegou a acessar a conta da vítima? (defensor)
+
+- Da que sofreu a fraude?
+
+- Sim (defensor)
+
+- não lembro de cabeça se eu cheguei a consultar, não.
+
+- Você disse foi 150.000, não é isso? (defensor)
+
+- Isso.
+
+- Esses 150.000 foram depositados em uma única conta ou foram feitos vários depósitos em várias contas diferentes? Você sabe informar? (defensor)
+
+-Não lembro. Eu sei que na conta, eu lembro bem, na conta que o Marco estava movimentando, 50.000 salvo engano, tinha na conta.
+
+-E o Marcos chegou a movimentar quanto? (defensor)
+
+- R$ 5.000. Dois. um de dois e outro de três. Não lembro a ordem. Qual foi o primeiro
+
+- Permaneceu ainda 45 na conta? (defensor)
+
+- Isso, exatamente. Valor esse que foi bloqueado.
+
+- Certo. Perfeito. Eh, e o restante dos outros, os outros 100.000, você não sabe o a destinação desses outros 100.000? (defensor)
+
+- Não, só verificando.
+
+- Perfeito. Eh, você conhecia o Marcos? (defensor)
+
+- Não, nunca tinha visto ele na minha vida.
+
+- Você procurou algum histórico para saber se o Marcos era correntista do do Banpará? (defensor)
+
+- No momento da situação?
+
+- Sim. (defensor)
+
+- Não, eu fui acionado e eu não tinha como tá verificando a as outras situações
+
+- E posteriormente você tentou verificar se o Marcos era correntista? (defensor)
+
+- Sim.
+
+- E aí, o que foi que aconteceu? (defensor)
+
+- Inclusive o antigo gerente me passou umas informações que ele tinha aberto uma conta inclusive na agência Santarém. Né? Anos anteriores, uma conta PJ e que ele já tinha cometido esse tipo de situação.
+
+- E qual foi o que que tipo de situação? (defensor)
+
+- De receber recursos oriundos de fraude.
+
+- Qual foi o nome desse gerente? (defensor)
+
+- Jeferson Aguiar
+
+- Jeferson Aguiar? Certo. Eh, essa conta seria uma conta PJ? (defensor)
+
+- Exatamente.
+
+- E essa conta PJ era MEI? (defensor)
+
+-Não, deixa eu só confirmar. Posso confirmar isso olhando do e-mail agora mesmo?
+
+- Não, não, não, não precisa não. Não, não. É só perguntando se você sabe informar. Eh, nessa, nesse dia lá, você chegou então aí até a delegacia? (defensor)
+
+-Sim, fui à delegacia.
+
+- Perfeito. Então, excelência, Não tenho mais pergunta. (defensor)
+
+- Seu Cléoton, O senhor disse que na hora que o acusado Marcos foi abordado, ele alegou que a conta, o dinheiro pertencia a sua esposa? (juíza)
+
+- Foi o que ele falou, excelência, na hora. E ele até chegou a ligar para essa senhora, moça, não sei, e conversou com ela e disse que era para mim ir até o encontro dela, fora da agência,
+
+- Certo? E o senhor chegou a mencionar para ele o que estava ocorrendo ou não? (juíza)
+
+- Não, não, não, senhora.
+
+- Quando a polícia chegou, ele deu alguma explicação? Senhor lembra? (juíza)
+
+- Eu acho que, se eu não me engano, ele só pediu para acompanhar eles até a delegacia. Ele tava sendo acusado de tá cometendo crime. Eu acho que foi isso. Não, não recordo faz muito tempo.
+
+- Mas essa suposta esposa não foi até agência? (juíza)
+
+-  Não, não foi. Só para deixar claro nos autos, ele saiu da agência de posse do dinheiro, do extrato e do cartão.
+
+- E esse dinheiro, ele saiu de posse desse dinheiro, e esse dinheiro foi devolvido para a agência? (juíza)
+
+- Não, no depoimento já foi alegado lá que ele não tinha cartão, não tinha extrato e muito menos o dinheiro.
+
+- Hum. Quer dizer que ele saiu do banco portando o dinheiro do saque? (juíza)
+
+- Dinheiro do saque, o extrato e o cartão.
+
+- O senhor lembra na época quanto foi que ele sacou? (juíza)
+
+- R$ 5.000. Foram dois saques, um de dois e outro de três.
+
+- Certo. Deixa eu perguntar. Quando o senhor abordou o Marcos, ele já tinha realizado o saque? (juíza)
+
+- Já. Sim, senhora. Já estava de posse e tava olhando os extratos, o extrato, né?
+
+- Ah, ele tava já, ele tinha sacado e tava olhando os extratos? (juíza)
+
+- Sim. Tava com o extrato impresso em mão. Já foi aí que eu perguntei, né, para ele, interpelei perguntando, né, e aí ele ficou todo errado, todo sem graça, né, como se estivesse cometendo alguma coisa errada, né? Fazendo alguma coisa errada. E aí foi um momento que ele ficou nervoso. Eu pedi pros vigilantes travarem a porta, né, para ele não sair. Em momento algum ele foi agredido ou foi seguro, nada. Eu convidei depois para ir até minha sala e ele foi espontaneamente, até chegar a guarnição da polícia.
+
+- E quando o senhor eh abordou, o senhor disse que ele ficou nervoso e tudo. E aí ele disse que aquele dinheiro não pertencia a ele, mas sim a esposa, né? Que a conta era da esposa. Era isso? (juíza)
+
+- Isso. Ele já ligou que era da esposa.
+
+-Chegou a ligar para essa pessoa? (juíza)
+
+- Por duas por duas vezes.
+
+- E a pessoa atendeu? (juíza)
+
+- Atendeu, falou com ele e ele pediu. Aí foi que ele disse que era para mim até lá, que ela tava próximo de lá no posto de gasolina.
+
+- Ele não pediu pra pessoa ir até o banco, não? (juíza)
+
+- Não, disse que ela tava ocupada lá, que era para mim até lá. Eu falei: "Não, não vou sair daqui da agência, é ela que que precisa vir aqui esclarecer".
+
+- Aí, como ela não compareceu, ele foi encaminhado para a delegacia? (juíza)
+
+- Isso, exatamente.
+
+Nayade Sanches Nobre, namorada do acusado, na qualidade de informante referida pela defesa, narrou em juízo o seguinte:
+
+- Dona Nayade, né? (juíza)
+
+- Sim,
+
+- Dona Nayade, a senhora recebeu, a senhora possui conta bancária? (juíza)
+
+- Como eh no caso em outras instituições?
+
+- Eu queria saber em quantas instituições a senhora tem conta bancária? (juíza)
+
+- Que eu utilizo, somente o Bradesco?
+
+- Não que a senhora utiliza, não. Eu perguntei quantas a senhora tem em seu nome. Não perguntei quantas a senhora utiliza? (juíza)
+
+- Hum, não, não tenho outras.
+
+- A senhora utiliza uma conta de onde mesmo? Do Bradesco? (juíza)
+
+- Sim, Bradesco.
+
+- A senhora recebeu uma transferência bancária para sua conta? (juíza)
+
+- Não.
+
+- Não recebeu? (juíza)
+
+- Não.
+
+- A senhora tem conhecimento de que consta nesse processo um documento em seu nome que a senhora recebeu uma transferência no valor de R$ 50.000? (juíza)
+
+- Eh, eu não reconheço a transferência, mas sei que é o que está sendo julgado agora, né?
+
+- A senhora tem conhecimento de que existe uma conta corrente no seu nome e que recebeu essa transferência e que inclusive os valores estão sendo objetos aqui da ação de fraude, tendo como denunciado o seu namorado? A senhora diz que é seu namorado, Marcos, não é isso? Denunciado Marcos. (juíza)
+
+- Isso.
+
+- Então, a senhora não sabe como como esse valor foi parar na sua conta? (juíza)
+
+- Não,
+
+- Mesmo estando envolvido o seu namorado, Marcos Correia Pantoja? (juíza)
+
+- Sim, não sei.
+
+Interrogado o acusado Marcos Correa Pantoja respondeu somente às perguntas da defesa, ocasião em que relatou o seguinte:
+
+- Eh, bom dia, doutora. Desculpa a loucura aqui que tá complicada essa situação, mas vamos lá, vamos conseguir desenrolar essa situação dessa audiência. E Marcos, eu eu queria que tu contasses para mim o que que a aconteceu no dia dos fatos? O que que aconteceu desde o diante dos fatos até no dia que efetuaram a tua abordagem lá no banco, poderia falar pra gente? (advogado)
+
+- Bom, eh sou namorada da Nayade, né? Já faz três 3 anos e meio. A gente trabalhava como contratado da prefeitura de Breves. Eu e ela, nessa época dos fatos, a gente tinha uma conta do Banpará, tanto eu quanto ela, para receber. A gente recebia pelo Bradesco, mas tinha que passar pelo Banpará, que é o banco recebedor de Breves. Nós usava essa conta apenas para isso e para receber empréstimo, que a gente fazia empréstimo, eu acredito que é na folha de pagamento, aí descontava direto. Tanto ela quanto eu já tinha feito outros empréstimo, eu já tinha feito um e ela dois, parece. Próximo dos fatos, eh, aconteceu que ela foi na agência tentar um empréstimo. Aí como é ela conhecia o rapaz lá, o mesário ou gerente, não entendi direito, Eh, ela falou queria contratar, renovar o empréstimo. Aí ele falou que tava com uma inconsistência lá no sistema, mas ele ia ficar avisando ela, né, sobre quando liberasse, que era para ela ficar de olho lá também no aplicativo dela. Nesse dia que aconteceu o fato, ela tava trabalhando, ela tava no horário de serviço, né? Como ela viajava sempre para cá, ela vinha para cá, às vezes eu também vinha. Quando eu tava lá, eu ia para lá para Breves. Quando eu tava aqui, às vezes ela vinha para cá. Numa dessas viagens, ela deixou a bolsinha dela com cartão e tal. Aí no dia que aconteceu o fato, ela me mandou uma mensagem que ela tinha recebido uma mensagem no aplicativo, não sei se era aplicativo ou SMS, que talvez tinha sido liberado o empréstimo, que como eu tava com o cartão dela era para mim dar uma olhada lá, aí como eu tava próximo do banco, aí eu entrei no banco e fui e olhei lá. Aí eu sabia quanto era mais ou menos a margem que sempre liberava pra gente do empréstimo. Aí eu fui sacar. Aí eu fiz um saque, fiz outro saque que era na base de uns 7.000 que sempre liberava, que era margem do empréstimo, né? E quando eu fiz o segundo saque, aí não saiu mais, que eu tentei sacar o valor que era 7.000, aí não saiu mais, só saiu 5.000. Aí nisso, aí eu puxei a folha do extrato, aí eu olhei o extrato, aí nisso que eu olhei o extrato, eu fui saindo, olhando o extrato. Aí quando eu ia sair na porta, um rapaz lá de dentro que eu não sabia quem era, chegou já pedindo o dinheiro que eu tinha tirado, que eu tava roubando, falando que eu tava roubando, tava acontecendo, acho que era uma fraude, se eu não me engano, nesse exato momento que tinha ligado para ele que era para me devolver o dinheiro e mostrar o extrato e entregar o cartão. E eu não sabia nem quem era, não tava nem uniformizado, nada. Aí já veio outro pessoal por trás de mim, o segurança já trancou a porta do banco e ficou insistindo para mim entregar o cartão e o dinheiro e o extrato. Aí eu não ia entregar para quem eu não conhecia. Aí nisso ele ficou insistindo, insistindo para mim entregar e eu não entreguei. Aí ele disse que ia chamar a polícia. Eu até cheguei a discar o número da polícia para eu mesmo chamar, mas como tava naquele nervosismo, ele botando pressão para me dar o cartão e o dinheiro de volta. Aí nem cheguei a ligar. Eu acredito que ele ligou. Aí nisso chegou a polícia e me levou já. Aí quando eu cheguei na delegacia que eles vieram falar o que realmente tava acontecendo. Disseram que tava acontecendo uma fraude e que eu tava sacando dinheiro dessa fraude que tava acontecendo no banco. Sendo que até esse momento eu não tava nem sabendo do que que realmente tava acontecendo lá.
+
+- E Marcos, no caso, quando tu tirou o extrato, tu entregou pro gerente do banco o extrato? (advogado)
+
+- Não, no momento lá não.
+
+- Tu não entregou? (advogado)
+
+- Eu não sabia, ele nem se identificou que era gerente. Ele chegou pedindo já o dinheiro, o cartão e o extrato.
+
+- Sim, mas lá na delegacia também tu não entregou? (advogado)
+
+- Não. Não, não, porque já não teve mais, não, não chegaram a pedir mais nada lá na delegacia, só falaram lá e que era o que tava acontecendo e já disseram que eu ia ser preso e eu fiquei fui preso, né?
+
+- Sim. Me diz uma coisa, tu devolveu dinheiro para pra vítima?
+
+- Sim, sim. No momento, quando eu percebi que era realmente o nome dela, que tinha outra mulher, que não era dinheiro de empréstimo, eu falei pro primeiro juiz, depois que eu vi que não era um dinheiro certo, que realmente não era de empréstimo e que tava acontecendo realmente isso, mesmo sem a gente saber, eu falei: "Ó, tá aqui o dinheiro, em momento nenhum eu gastei, em momento nenhum eu fiz outra coisa com o dinheiro, O dinheiro tá guardado aqui" que recolheram meus pertencem, alguns pertences deram para minha família, né, para o advogado. E no momento que eles falaram que eu soube, né, tomei ciência disso, eu disse, "guarda esse dinheiro, guarda o extrato, guarda o cartão, que esse dinheiro vai ser devolvido pro dono". E assim foi feito.
+
+- Sem mais, doutora. (advogado)
+
+Como se verifica, a prova oral e documental coligida evidencia que o réu obteve, mediante ardil executado por meios eletrônicos, vantagem patrimonial indevida em prejuízo da vítima, induzindoa e mantendoa em erro. Consta do depoimento judicial de Sheila Cardoso Gomes que ela recebeu uma ligação telefônica que se apresentava como oriunda do Banpará, pois o número exibido coincidia com o contato oficial salvo no aparelho dela, circunstância que conferiu aparência de legitimidade à comunicação. O interlocutor detinha todos os dados bancários e pessoais dela, transmitindolhe diretamente e afirmando que havia movimentação irregular na conta dela, orientando a vítima a acessar o aplicativo bancário e informando códigos de autenticação e senha, o que evidencia o emprego de artifícios fraudulentos por meio eletrônico, aptos a permitir a posterior movimentação indevida de valores na conta.
+
+A fraude é materialmente comprovada pelos registros de transações e logs bancários juntados aos autos, os quais demonstram que, após a falsa renegociação realizada no ambiente eletrônico, houve a transferência de R$ 50.000,00 da conta da vítima para conta de titularidade de Nayade Sanches Nobre, seguida da imediata realização de dois saques, nos valores de R$ 2.000,00 e R$ 3.000,00, no terminal 208 da agência Banpará em Santarém. Os depoimentos do gerente Cléoton e do funcionário Paulo Sérgio Leão Vale revelam que a área de fraudes identificou, em tempo real, o terminal utilizado, tendo o réu sido abordado de posse do cartão, do extrato e do numerário sacado, o que se harmoniza com os documentos bancários anexados.
+
+A autoria também se encontra solidamente demonstrada. O réu foi identificado atuando no exato terminal indicado pela área de fraudes, já tendo efetuado consulta de extrato e concretizado os saques mencionados. Segundo declarou o gerente, o acusado apresentavase nervoso e forneceu explicação que não convenceu - afirmando tratarse de conta da companheira dele, a qual, em juízo, negou reconhecer a transferência de R$ 50.000,00 e afirmou não saber como tal valor teria ingressado em sua conta. Tal circunstância desfaz a alegada boafé do acusado e reforça o dolo voltado à obtenção de vantagem ilícita.
+
+O meio eletrônico de execução - exigido pelo §2ºA do art.171 do Código Penal - restou evidenciado pela fraude inicialmente praticada por ligação telefônica mascarada como institucional e pelas movimentações realizadas por sistemas digitais, permitindo que terceiros acessassem a conta da vítima e realizassem, sem a autorização dela, renegociação, transferência e disponibilização dos valores posteriormente sacados pelo réu. A existência de prejuízo patrimonial ficou igualmente demonstrada, já que a vítima suportou descontos indevidos por dois meses, houve a necessidade de contratação de advogado e suportou transtornos decorrentes da fraude, ainda que parte dos valores tenha sido posteriormente restituída pelo banco.
+
+Assim, ainda que não tenha sido demonstrado cabalmente que o réu foi o autor da ligação telefônica fraudulenta ou das transferências eletrônicas realizadas contra a vítima, é nítida a participação efetiva dele no delito, eis que flagrado consultando a conta favorecida e sacando o dinheiro decorrente da fraude, no momento em que ela era realizada.
+
+Diante de todo o conjunto probatório, encontramse plenamente demonstrados os elementos configuradores do delito previsto no art. 171, §2ºA, do Código Penal, quais sejam: a vantagem ilícita obtida; o uso de artifício fraudulento por meio eletrônico; o dolo específico de enganar; a indução e manutenção da vítima em erro; e o prejuízo patrimonial. As provas dos autos confirmam a materialidade e revelam a autoria de forma segura, impondo o reconhecimento da fraude eletrônica descrita na denúncia.
+
+A acusação, em alegações finais, requereu a fixação de valor para reparação de danos da vítima, a despeito disso, a fixação de valor mínimo para reparação dos danos (art. 387, IV, CPP) exige requerimento expresso na denúncia. Dessa forma, ausente pedido inicial, não há contraditório prévio, razão pela qual deixo de arbitrar reparação mínima. Nesse sentido segue jurisprudência:
+
+AGRAVO REGIMENTAL NO RECURSO ESPECIAL. REPARAÇÃO POR DANOS. AUSÊNCIA DE PEDIDO EXPRESSO DA DENÚNCIA. INADMISSIBILIDADE. 1. Incabível a fixação de valor mínimo para reparação por danos materiais e morais, nos termos do art. 387, IV, do Código de Processo Penal, porquanto, além de constar no julgado a inexistência de contencioso específico sobre o assunto, não houve pedido expresso na denúncia. 2 . Agravo regimental improvido.(STJ - AgRg no REsp: 1971541 SP 2021/0369175-5, Data de Julgamento: 14/06/2022, T6 - SEXTA TURMA, Data de Publicação: DJe 20/06/2022).
+
+A conduta criminosa não está acobertada por nenhuma causa excludente da ilicitude. O réu é imputável, tinha potencial consciência da ilicitude e poderia agir de modo diverso. Em síntese, o acusado praticou um fato típico, antijurídico e culpável; sendo assim, o direito lhe reserva a devida sanção penal.
+
+Em face do exposto,
+
+1- Julgo procedente a pretensão punitiva deduzida na denúncia para condenar réu MARCOS CORREA PANTOJA, brasileiro, paraense, natural de SANTARÉM/Pará, filho de Vanuza Correa Pantoja e Miguel Custodio Pantoja, nascido em 04/02/1999, portador da Carteira de Identidade nº 3002764, residente na Rosa Passos, N. 2606, (esquina com Santos Dumont), bairro Santíssimo, Santarém/PA, CEP: 68010250. Contato (93) 98402-9177, pela prática do crime previsto no art. 171, §2ºA, do Código Penal.
+
+2- Analisando as circunstâncias judiciais mencionadas no art. 59 do Código Penal, verifica-se o seguinte: culpabilidade normal à espécie; não há registro de antecedentes criminais em desfavor do réu; nada nos autos macula sua conduta social ou sua personalidade; os motivos do crime são próprios da espécie delitiva, pois buscava lucro fácil em detrimento do patrimônio alheio; as circunstâncias do crime foram normais à espécie; as consequências do crime não foram graves, irremediáveis ou excepcionais; o comportamento da ofendida não contribuiu para a prática do ilícito. Não existem elementos de convicção satisfatórios para aferir adequadamente a situação econômica do condenado.
+
+3- Assim, fixo a pena-base em 04 (quatro) anos de reclusão e 10 (dez) dias-multa, à base de 1/30 (um trigésimo) do salário mínimo vigente à época do fato, a qual torno concreta e definitiva, ante a ausência de circunstâncias que agravem ou atenuem a pena.
+
+4- Nos termos do art. 33, § 2°, "c", do CP, o réu deverá iniciar o cumprimento de sua pena privativa de liberdade em regime aberto.
+
+5- Em atenção ao previsto no artigo 44 do Código Penal, verifica-se que a pena aplicada não é superior a quatro anos, o crime não foi cometido com violência ou grave ameaça e as circunstâncias judiciais são favoráveis ao réu. Dessa forma, em atenção ao disposto no § 2º do referido artigo, substituo a reprimenda privativa de liberdade mencionada no item 3 por duas penas restritivas de direitos a serem estabelecidas pelo Juízo de Execução.
+
+6- O condenado ficou preso cautelarmente pelo período de 18/10/2022 a 19/10/2022. Dessa forma, nos termos do art. 42 do Código Penal (detração), esse período de custódia deve ser abatido pelo juízo da execução penal da sanção estabelecidas no item 3, sem nenhuma repercussão, neste momento processual, no regime estabelecido no item 4.
+
+7- Ao réu é garantido o direito de apelar em liberdade, haja vista o regime inicial de cumprimento de pena para ele fixado.
+
+8- Concedo o benefício da gratuidade judicial. A execução da multa definida nesta sentença será feita nos termos dos artigos 49 a 52 do Código Penal.
+
+9- Após o trânsito em julgado, comunique-se à Justiça Eleitoral para o fim de suspender os direitos políticos do condenado (art. 15, III, da CF), façam-se as demais comunicações e anotações de praxe, registre-se a condenação para o fim de antecedentes criminais, expeça-se a documentação necessária para a formação dos autos de execução penal.
+
+10- Intimem-se as partes e o réu. Cumpridas as determinações contidas nesta sentença e adotados os expedientes e cautelas de praxe, arquivem-se os autos.
+
+Belém/PA, 09 de março de 2026.
+
+CLARICE MARIA DE ANDRADE ROCHA
+
+Juíza de Direito da 1ª Vara Criminal da Capital

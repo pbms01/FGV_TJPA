@@ -111,6 +111,21 @@ A rota do TJSP (`pdpj_mapa_documentos` e leitura em lote da categoria "Peça Ini
 4. `pdpj_read_documentos_batch` com a denúncia e a sentença; em processo apelado, deduplicar por nome, páginas e caracteres e ficar com uma cópia.
 5. Gravar como na fase 1: `textos/tjpa/denuncias/<numero>/` e `textos/tjpa/sentencas/<numero>/`, manifesto com sha256 e data da leitura, sem a linha `Original:`.
 
+### Operação na conversa (`scripts/pipe_tjpa.py`, desde 21/11/2026)
+
+A coleta roda na conversa, com o conector Codex, e o texto lido não passa pelo contexto: a leitura em lote repete os IDs até a resposta passar de cerca de 100 mil caracteres, e a sessão a grava em arquivo sem prévia. Fila em `dados/codex_tjpa/fila.csv` (grupo 1: 99 com sentença conhecida; grupo 2: 126 ações penais restantes; ordem aleatória, semente 20261121); status em `dados/codex_tjpa/status.csv` (vale a última linha); textos em `textos/tjpa/denuncias/` e `textos/tjpa/sentencas/`; manifesto em `textos/tjpa/manifesto.csv`.
+
+Roteiro por processo, da raiz do repositório:
+
+1. `python3 scripts/pipe_tjpa.py prox` dá o próximo número.
+2. `pdpj_visao_geral_processo`: total de documentos, grau e sigilo. Sigilo: `status NUM sigilo "..." 1`. Fato fora do tema (por exemplo, termo circunstanciado ambiental): `status NUM fora_do_tema "..." 1`.
+3. Com mais de cerca de 330 documentos, `pdpj_mapa_documentos` vai a arquivo, e `python3 scripts/pipe_tjpa.py mapa ultimo` imprime denúncia, sentença, recebimento e candidatas. Com menos, `pdpj_list_movimentos(tipo_filter="cedência")` dá o documento da sentença, e `pdpj_list_documentos(limit=45, offset=total-45)` dá as primeiras peças (até 45 documentos, uma chamada só com `offset=0`). Sem documento do tipo "Denúncia" na janela, `pdpj_list_movimentos(tipo_filter="Denúncia")` dá a data do recebimento e orienta a página seguinte; as petições e pareceres do MP antes dela entram como `cand`.
+4. `python3 scripts/pipe_tjpa.py sel NUM "den:ID|nome|data|chars" "sent:ID|nome|data|0" ["cand:..."]` imprime a lista de IDs repetidos; tamanho 0 (desconhecido) usa 30 IDs.
+5. `pdpj_read_documentos_batch` com essa lista; depois `python3 scripts/pipe_tjpa.py grava ultimo N "nota"` (N = chamadas do processo), que grava, aceita candidata só se o texto for de denúncia e imprime capitulação e dispositivo.
+6. `python3 scripts/pipe_tjpa.py resumo` dá o andamento. Commit a cada 10 a 20 processos.
+
+Lições dos primeiros 20: o movimento "Improcedência" às vezes acompanha sentença condenatória (o resultado sai do texto); processo migrado traz a denúncia como "doc 0NN - denuncia.pdf" (Documento de Migração) logo depois dos volumes do inquérito; processo nascido de flagrante tem a denúncia mais adiante na lista; sentença lida pelo movimento tem tamanho desconhecido, e por isso o `sel` usa 0. Quando a denúncia não aparece, grava-se só a sentença (`so_sentenca`), cujo relatório transcreve a imputação, e o processo fica para uma segunda passada.
+
 Custo: de 3 a 4 chamadas por processo, perto de 350 para os 99 com sentença e de 800 para os 225, ou seja, de 4 a 9 horas a 90 chamadas por hora. O `scripts/codex_denuncias.py` ainda segue a rota do TJSP e precisa do localizador acima antes de rodar no TJPA.
 
 ## Pendências

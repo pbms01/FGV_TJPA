@@ -1,0 +1,113 @@
+[Texto nativo do PJe]
+
+ESTADO DO PARÁ
+
+PODER JUDICIÁRIO
+
+8ª VARA CRIMINAL DA CAPITAL
+
+Processo nº. 0000586-02.2021.8.14.0401
+
+SENTENÇA
+
+O Ministério Público do Estado do Pará ofereceu denúncia em face de Felipe Augusto Jardim Barbosa, Ericson Williams Brabo Ayres e outros, atribuindo-lhes, inicialmente, a prática do delito previsto no art. 1º, § 1º, II, c/c § 4º, da Lei nº 9.613/1998, além do crime de organização criminosa, imputação posteriormente afastada.
+
+Segundo a acusação, os fatos foram apurados no âmbito da denominada Operação Trojan, instaurada para investigar fraudes eletrônicas praticadas contra correntistas do Banco Itaú. No episódio em análise, a empresa ENERT ELET TEL SERV teria sofrido prejuízo de R$ 84.186,90, em razão de operações bancárias fraudulentas, cujos valores foram posteriormente transferidos para contas de terceiros.
+
+No curso do processo, foi afastada a imputação de organização criminosa e os fatos foram reclassificados como furto qualificado mediante fraude, com declínio da competência para Campo Grande/MS. Posteriormente, o STJ reconheceu a competência deste Juízo, permanecendo a imputação de lavagem de dinheiro. Os autos foram então encaminhados ao Ministério Público para análise de ANPP, cuja celebração foi recusada, com posterior ratificação pela Procuradoria-Geral de Justiça.
+
+A denúncia e seus aditamentos foram recebidos. Em relação aos acusados citados por edital e não localizados, foi determinada a suspensão do processo e do prazo prescricional, nos termos do art. 366 do CPP. A instrução prosseguiu quanto a Felipe Augusto Jardim Barbosa, Ericson Williams Brabo Ayres e Maria Ataíde Rangel Palmerim, com a oitiva das testemunhas e o interrogatório dos réus.
+
+Em alegações finais, o Ministério Público requereu a condenação de Felipe Augusto Jardim Barbosa e Ericson Williams Brabo Ayres e a absolvição de Maria Ataíde Rangel Palmerim. As Defesas dos três acusados, por sua vez, pleitearam a absolvição.
+
+Posteriormente, com a entrada em vigor da Lei nº 15.397/2026, a Defesa requereu a aplicação retroativa do novo tipo penal previsto no art. 171, § 2º, VII, do Código Penal, por ser mais benéfico, bem como a suspensão condicional do processo. Este Juízo reconheceu a emendatio libelli, determinou o desmembramento do feito em relação à acusada Maria Ataíde Rangel Palmerim e encaminhou os autos ao Ministério Público para manifestação. Em resposta, o órgão ministerial opôs-se à nova capitulação e requereu a manutenção da imputação originária.
+
+Em síntese, é o relatório. Decido.
+
+I.  DA FUNDAMENTAÇÃO
+
+Inicialmente, observa-se que a denúncia descreveu a utilização das contas bancárias dos acusados para o recebimento e a posterior movimentação de valores provenientes de fraude eletrônica. A instrução confirmou, especialmente pelos interrogatórios, que Felipe Augusto Jardim Barbosa e Ericson Williams Brabo Ayres entregaram voluntariamente seus cartões, senhas e dados bancários a terceiros. As operações posteriores, portanto, integram a dinâmica de utilização das contas cedidas, não se tratando de acesso clandestino ou de subtração dos instrumentos bancários.
+
+Nesse sentido, o núcleo da conduta imputada - consistente na disponibilização de contas bancárias para o recebimento e a circulação de recursos provenientes de atividade criminosa - encontra correspondência específica na figura introduzida pela Lei nº 15.397/2026, conforme Decisão proferida nos autos.
+
+O Ministério Público insurgiu-se contra a nova capitulação, requerendo a manutenção da imputação originária de lavagem de dinheiro. Contudo, sua manifestação não vincula o Juízo, a quem compete definir juridicamente os fatos, nos termos do art. 383 do CPP. Assim, mantenho o entendimento anterior e reconheço, quanto a Felipe Augusto Jardim Barbosa e Ericson Williams Brabo Ayres, a aplicação retroativa do art. 171, § 2º, VII, do Código Penal.
+
+A nova capitulação repercute na análise dos benefícios consensuais. Embora o Ministério Público não tenha se manifestado expressamente sobre o ANPP ou a suspensão condicional do processo à luz da nova tipificação, sua oposição à emendatio libelli e a insistência na manutenção da imputação originária, somadas à recusa anterior ao ANPP em razão da gravidade da conduta, permitem inferir a ausência de disposição para formular propostas com fundamento no art. 171, § 2º, VII, do Código Penal. Embora distintos, ambos os institutos dependem de iniciativa ministerial, não cabendo ao Juízo substituir o órgão acusatório nessa atribuição. Assim, a postura ministerial, no contexto dos autos, permite concluir a ausência de iniciativa para a oferta dos benefícios.
+
+Superada essa questão, a materialidade está demonstrada pelos documentos bancários e relatórios de investigação, que registram as transferências realizadas a partir da conta da empresa ENERT ELET TEL SERV e o posterior ingresso e movimentação dos valores nas contas destinatárias.
+
+A prova oral esclareceu a dinâmica da fraude. Henrique de Souza Jordão e Luiz Fernando Romero, funcionários do Banco Itaú, explicaram que os acusados do golpe capturavam dados bancários das vítimas por meio de links maliciosos e interceptavam os códigos de validação mediante alteração indevida do chip telefônico. Relataram, ainda, que os valores eram transferidos para contas de terceiros, posteriormente utilizadas para saques e novas transferências. A delegada Vanessa Lee Pinto Araújo confirmou a existência de diferentes núcleos e a utilização de contas bancárias para dispersão dos recursos. Tais depoimentos, corroborados pelos registros bancários, demonstram a origem criminosa dos valores e a dinâmica geral da fraude, mas não comprovam que os acusados tenham participado diretamente de sua execução ou de atos autônomos de ocultação. Sua vinculação aos fatos refere-se, especificamente, à disponibilização de suas contas bancárias para o trânsito dos recursos ilícitos.
+
+Quanto a Felipe Augusto Jardim Barbosa, o acusado confirmou que entregou seu cartão bancário e sua senha a um conhecido chamado Diogo, para que este recebesse valores. Alegou que não conhecia a origem dos recursos, não acompanhava as movimentações e deixou de utilizar a conta após encerrar seu vínculo de emprego com a empresa Loja dos Plásticos. Entretanto, os registros bancários apontam o ingresso de R$ 9.782,00 em sua conta, seguido de saques, transferência de R$ 3.000,00 para Bruno de Paiva Gomes, crédito de igual valor em favor de Roseane de Oliveira Câmara e pagamento de boleto de R$ 4.999,60. Além de entregar voluntariamente o cartão e a senha, Felipe reconheceu que Diogo, ao devolver o cartão, informou ter realizado um saque.
+
+A entrega dos instrumentos de acesso bancário, associada ao ingresso de quantia expressiva e à posterior dispersão dos valores, permite afastar a hipótese de utilização meramente clandestina da conta. A circunstância de ela ter sido originalmente aberta para recebimento de salário também não altera essa conclusão, pois a conduta examinada consiste em sua posterior disponibilização a terceiro. Nesse contexto, a versão de desconhecimento da finalidade da cessão não se mostra suficiente para afastar o dolo.
+
+Em relação a Ericson Williams Brabo Ayres, também houve confirmação da entrega voluntária dos instrumentos bancários. O acusado admitiu que disponibilizou seu cartão, CPF e senha a um conhecido chamado Lucas Costa Silva, que, segundo afirmou, pretendia receber auxílio financeiro de familiares e quitar uma dívida de aproximadamente R$ 400,00. A conta, contudo, recebeu R$ 10.892,00, quantia seguida de dois saques e duas transferências de R$ 3.000,00 cada. A discrepância entre a dívida alegada e o valor movimentado, somada à entrega do cartão e da senha constitui circunstância relevante para a análise do elemento subjetivo. Embora Ericson tenha negado conhecimento das operações e recebido o cartão de volta sem qualquer quantia em espécie, tais alegações não afastam, diante do conjunto probatório, a consciência quanto à finalidade para a qual disponibilizou a conta.
+
+Ressalte-se que o tipo penal não exige que o cedente realize pessoalmente os saques ou obtenha vantagem econômica, uma vez que abrange a cessão gratuita ou onerosa da conta bancária. Assim, a ausência de participação direta nas operações posteriores não exclui a tipicidade da conduta. As Defesas alegaram que a titularidade das contas e o recebimento de valores ilícitos não seriam suficientes para demonstrar o dolo. De fato, a responsabilização penal não pode decorrer exclusivamente dessas circunstâncias. No presente caso, porém, a conclusão condenatória está amparada também na entrega voluntária dos cartões, senhas e dados bancários para movimentação de valores, bem como na efetiva utilização e movimentação das contas para a circulação dos recursos provenientes da fraude.
+
+Embora não haja prova de que os acusados tenham participado diretamente da fraude antecedente, tal circunstância não afasta a tipicidade da cessão consciente de contas bancárias para o trânsito de recursos ilícitos, sendo desnecessário o conhecimento dos detalhes da fraude ou da identidade de seus executores. No caso, as declarações judiciais dos acusados, a entrega voluntária dos meios de acesso bancário e os registros das movimentações financeiras, analisados em conjunto e de forma individualizada, demonstram que a atuação não se limitou à mera titularidade das contas, mas revelou a consciência da finalidade criminosa da cessão. Estão, portanto, comprovadas a materialidade, a autoria e o dolo exigido pelo art. 171, § 2º, VII, do Código Penal, não havendo espaço para a aplicação do princípio do in dubio pro reo.
+
+II. DO DISPOSITIVO
+
+Ante o exposto, JULGO PROCEDENTE a pretensão punitiva estatal para CONDENAR FELIPE AUGUSTO JARDIM BARBOSA E ERICSON WILLIAMS BRABO AYRES pela prática do delito previsto no art. 171, § 2º, VII, do Código Penal, com aplicação retroativa da Lei nº 15.397/2026.
+
+Considerando as diretrizes estabelecidas nos arts. 59, 60 e 68 do Código Penal, passo à dosimetria das penas:
+
+1. Felipe Augusto Jardim Barbosa
+
+a) culpabilidade: normal à espécie, valorada de forma neutra; b) antecedentes: inexistem condenações anteriores aptas a justificar valoração negativa, circunstância valorada de forma neutra; c) conduta social e personalidade: ausentes elementos concretos para avaliação desfavorável, ambas valoradas de forma neutra; d) motivos: não ultrapassam aqueles ordinariamente relacionados à espécie delitiva, sendo valorados de forma neutra; e) circunstâncias: não apresentam particularidades que justifiquem exasperação, sendo valoradas de forma neutra; f) consequências: correspondem às inerentes ao tipo penal, valoradas de forma neutra; g) comportamento da vítima: não contribuiu para a prática delitiva, sendo valorado de forma neutra.
+
+Diante da ausência de circunstâncias judiciais desfavoráveis, fixo a pena-base em 1 (um) ano de reclusão e 10 (dez) dias-multa, no mínimo legal.
+
+Na segunda fase, não identifico circunstâncias agravantes. De outro lado, reconheço a atenuante da confissão espontânea, prevista no art. 65, III, "d", do Código Penal, pois o acusado admitiu ter entregado voluntariamente seu cartão bancário e senha a terceiro, embora tenha negado conhecimento da finalidade criminosa da cessão. Trata-se de confissão parcial e qualificada. Contudo, por estar a pena-base fixada no mínimo legal, deixo de reduzi-la, em observância à Súmula 231 do STJ.
+
+Na terceira fase, não há causas de aumento ou diminuição de pena.
+
+Assim, torno definitiva a pena em 1 (um) ano de reclusão e 10 (dez) dias-multa, fixado cada dia-multa em 1/30 (um trigésimo) do salário mínimo vigente ao tempo dos fatos.
+
+2. Ericson Williams Brabo Ayres
+
+a) culpabilidade: normal à espécie, valorada de forma neutra; b) antecedentes: inexistem condenações anteriores aptas a justificar valoração negativa, circunstância valorada de forma neutra; c) conduta social e personalidade: ausentes elementos concretos para avaliação desfavorável, ambas valoradas de forma neutra; d) motivos: não ultrapassam aqueles ordinariamente relacionados à espécie delitiva, sendo valorados de forma neutra; e) circunstâncias: não apresentam particularidades que justifiquem exasperação, sendo valoradas de forma neutra; f) consequências: correspondem às inerentes ao tipo penal, valoradas de forma neutra; g) comportamento da vítima: não contribuiu para a prática delitiva, sendo valorado de forma neutra.
+
+Diante da ausência de circunstâncias judiciais desfavoráveis, fixo a pena-base em 1 (um) ano de reclusão e 10 (dez) dias-multa, no mínimo legal.
+
+Na segunda fase, não identifico circunstâncias agravantes. De outro lado, reconheço a atenuante da confissão espontânea, prevista no art. 65, III, "d", do Código Penal, considerando que o acusado admitiu ter disponibilizado seu cartão, CPF e senha a terceiro, embora tenha negado conhecimento da finalidade criminosa da cessão. Por se tratar de confissão parcial e qualificada, reconheço a atenuante, mas deixo de reduzir a pena, por já estar estabelecida no mínimo legal, conforme a Súmula 231 do STJ.
+
+Na terceira fase, ausentes causas de aumento ou diminuição de pena.
+
+Dessa forma, torno definitiva a pena em 1 (um) ano de reclusão e 10 (dez) dias-multa, fixado cada dia-multa em 1/30 (um trigésimo) do salário mínimo vigente ao tempo dos fatos.
+
+Considerando o quantum das penas, a primariedade dos acusados e a ausência de circunstâncias judiciais desfavoráveis, estabeleço o regime inicial aberto para ambos, nos termos do art. 33, § 2º, "c", e § 3º, do Código Penal.
+
+Deixo de aplicar a detração, pois não há período de prisão cautelar capaz de alterar o regime inicial.
+
+Presentes os requisitos do art. 44 do Código Penal, substituo, para cada condenado, a pena privativa de liberdade por uma pena restritiva de direitos, consistente em prestação de serviços à comunidade ou a entidades públicas, pelo período de 1 (um) ano, em condições a serem estabelecidas pelo Juízo da Execução. As penas de multa permanecem aplicáveis, conforme previsão do tipo penal.
+
+Concedo aos sentenciados o direito de recorrer em liberdade, uma vez que responderam ao processo nessa condição e não há fundamentos concretos que justifiquem a decretação da prisão preventiva.
+
+A denúncia contém pedido expresso de fixação de valor mínimo para reparação dos danos, no montante total de R$ 84.186,90. Contudo, considerando a emendatio libelli e a condenação restrita à cessão consciente das contas bancárias, entendo adequado individualizar a reparação conforme os valores provenientes da fraude que ingressaram em cada conta, sem atribuir aos acusados responsabilidade indistinta pelo prejuízo integral da fraude. Assim, fixo o valor mínimo para reparação dos danos em R$ 9.782,00, em relação a Felipe Augusto Jardim Barbosa, e R$ 10.892,00, em relação a Ericson Williams Brabo Ayres, correspondentes aos valores identificados nas respectivas contas, sem prejuízo de eventual apuração de danos remanescentes na esfera cível.
+
+Condeno ambos os acusados ao pagamento das custas processuais, nos termos do art. 804 do Código de Processo Penal. Eventual alegação de insuficiência de recursos para fins de isenção ou suspensão da exigibilidade das custas deverá ser apreciada pelo Juízo da Execução Penal quando do adimplemento da obrigação.
+
+Determino a retificação da autuação processual em relação a Felipe Augusto Jardim Barbosa, para que conste como seu defensor exclusivamente o advogado Luigi Rocha da Silva Barbosa, conforme instrumento de procuração de ID 141985916, procedendo-se à retirada da vinculação da Defensoria Pública do Estado do Pará em relação ao referido acusado.
+
+CERTIFICADO O TRÂNSITO EM JULGADO, DETERMINO:
+
+a) Expedição das Guias de Execução Definitiva à Vara de Execução Penal e Medidas Alternativas da Comarca da Capital;
+
+b) Comunicação à Justiça Eleitoral, para os fins do art. 15, III, da Constituição Federal;
+
+c) Lançamento das informações pertinentes nos sistemas próprios.
+
+Intimem-se o Ministério Público, as Defesas e os sentenciados.
+
+Publique-se. Registre-se. Intimem-se. Cumpra-se.
+
+Belém, 4 de novembro de 2026.
+
+JOÃO AUGUSTO DE OLIVEIRA JR
+
+JUIZ DE DIREITO
+
+TITULAR DA 8ª VARA CRIMINAL DE BELÉM
