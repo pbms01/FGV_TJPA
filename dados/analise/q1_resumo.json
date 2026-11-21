@@ -1,0 +1,1381 @@
+{
+ "CL": {
+  "denuncias": 50,
+  "fraude": 48,
+  "nivel": {
+   "só conta": [
+    43,
+    91.1
+   ],
+   "autor presencial": [
+    5,
+    8.9
+   ]
+  },
+  "nivel_por_contato": {
+   "remoto": {
+    "só conta": [
+     40,
+     100.0
+    ]
+   },
+   "presencial ou outro": {
+    "só conta": [
+     3,
+     43.9
+    ],
+    "autor presencial": [
+     5,
+     56.1
+    ]
+   }
+  },
+  "nivel_por_canal": {
+   "correio": {
+    "só conta": [
+     3,
+     100.0
+    ]
+   },
+   "internet": {
+    "só conta": [
+     26,
+     100.0
+    ]
+   },
+   "presencial": {
+    "só conta": [
+     3,
+     43.9
+    ],
+    "autor presencial": [
+     5,
+     56.1
+    ]
+   },
+   "sistema-objeto, contato físico": {
+    "só conta": [
+     1,
+     100.0
+    ]
+   },
+   "sistema-objeto, internet": {
+    "só conta": [
+     3,
+     100.0
+    ]
+   },
+   "telefonia": {
+    "só conta": [
+     7,
+     100.0
+    ]
+   }
+  },
+  "nivel_vetor_por_canal": {
+   "internet": {
+    "só conta | registro": [
+     26,
+     100.0
+    ]
+   },
+   "telefonia": {
+    "só conta | registro": [
+     7,
+     100.0
+    ]
+   }
+  },
+  "nivel_vetor_contato_remoto": {
+   "só conta | registro": [
+    40,
+    100.0
+   ]
+  },
+  "nivel_por_artificio": {
+   "falso_parente": {
+    "só conta": [
+     10,
+     100.0
+    ]
+   },
+   "falsa_central": {
+    "só conta": [
+     6,
+     100.0
+    ]
+   },
+   "venda_falsa": {
+    "só conta": [
+     11,
+     100.0
+    ]
+   },
+   "taxa_antecipada": {
+    "só conta": [
+     2,
+     100.0
+    ]
+   },
+   "maquininha": {
+    "só conta": [
+     1,
+     37.0
+    ],
+    "autor presencial": [
+     2,
+     63.0
+    ]
+   }
+  },
+  "vetor_autor_remoto_e_logistico": {},
+  "vetor_todos": {
+   "registro": [
+    44,
+    93.0
+   ],
+   "ambos": [
+    4,
+    7.0
+   ]
+  },
+  "so_conta_coautores_desconhecidos": {
+   "true": [
+    38,
+    88.4
+   ],
+   "false": [
+    5,
+    11.6
+   ]
+  },
+  "so_conta_repasse_narrado": {
+   "false": [
+    30,
+    70.2
+   ],
+   "true": [
+    13,
+    29.8
+   ]
+  },
+  "indicios_por_nivel_vetor": {
+   "autor presencial | ambos": {
+    "telematica": 0,
+    "linha_em_nome": 0,
+    "confissao": 0,
+    "reconhecimento": 3,
+    "flagrante": 2,
+    "repasse": 0,
+    "n": 4
+   },
+   "autor presencial | registro": {
+    "telematica": 0,
+    "linha_em_nome": 0,
+    "confissao": 0,
+    "reconhecimento": 1,
+    "flagrante": 0,
+    "repasse": 0,
+    "n": 1
+   },
+   "só conta | registro": {
+    "telematica": 3,
+    "linha_em_nome": 2,
+    "confissao": 6,
+    "reconhecimento": 2,
+    "flagrante": 1,
+    "repasse": 13,
+    "n": 43
+   }
+  },
+  "telematica_casou": [
+   "CL 25",
+   "CL 13",
+   "CL 41",
+   "CL 18",
+   "CL 12"
+  ],
+  "telematica_sem_leitura": [],
+  "quebra_sigilo_por_nivel": {
+   "só conta": {
+    "false": [
+     39,
+     90.8
+    ],
+    "true": [
+     4,
+     9.2
+    ]
+   },
+   "autor presencial": {
+    "false": [
+     4,
+     75.7
+    ],
+    "true": [
+     1,
+     24.3
+    ]
+   }
+  },
+  "artificio_so_conta": {
+   "venda_falsa": [
+    11,
+    25.9
+   ],
+   "falso_parente": [
+    10,
+    22.2
+   ],
+   "falsa_central": [
+    6,
+    14.5
+   ],
+   "boleto_falso": [
+    4,
+    8.7
+   ],
+   "invasao_sistema_bancario": [
+    3,
+    7.1
+   ],
+   "extorsao_transferencia": [
+    2,
+    5.0
+   ],
+   "taxa_antecipada": [
+    2,
+    4.0
+   ],
+   "maquininha": [
+    1,
+    2.6
+   ],
+   "investimento_falso": [
+    1,
+    2.6
+   ],
+   "falso_advogado": [
+    1,
+    2.6
+   ],
+   "falso_conhecido": [
+    1,
+    2.4
+   ],
+   "roubo_celular_invasao": [
+    1,
+    2.4
+   ]
+  },
+  "cap_por_nivel": {
+   "só conta": {
+    "171 §2º-A": [
+     20,
+     47.0
+    ],
+    "171 outro": [
+     13,
+     29.6
+    ],
+    "155 §4º-B": [
+     4,
+     9.8
+    ],
+    "158": [
+     2,
+     5.0
+    ],
+    "155 outro": [
+     2,
+     4.7
+    ],
+    "180": [
+     2,
+     4.0
+    ]
+   },
+   "autor presencial": {
+    "158": [
+     2,
+     32.4
+    ],
+    "155 §4º-B": [
+     1,
+     24.3
+    ],
+    "171 outro": [
+     1,
+     21.6
+    ],
+    "171 §2º-A": [
+     1,
+     21.6
+    ]
+   }
+  },
+  "anpp_so_conta": {
+   "tratado na cota": {
+    "true": [
+     29,
+     66.5
+    ],
+    "false": [
+     14,
+     33.5
+    ]
+   },
+   "recusa pela pena, entre as tratadas, por capitulação": {
+    "155 outro": {
+     "true": [
+      2,
+      100.0
+     ]
+    },
+    "155 §4º-B": {
+     "true": [
+      2,
+      64.3
+     ],
+     "false": [
+      1,
+      35.7
+     ]
+    },
+    "158": {
+     "true": [
+      1,
+      100.0
+     ]
+    },
+    "171 outro": {
+     "false": [
+      12,
+      100.0
+     ]
+    },
+    "171 §2º-A": {
+     "true": [
+      8,
+      78.2
+     ],
+     "false": [
+      2,
+      21.8
+     ]
+    },
+    "180": {
+     "false": [
+      1,
+      100.0
+     ]
+    }
+   }
+  },
+  "condena_por_nivel": {
+   "só conta": {
+    "true": [
+     40,
+     93.4
+    ],
+    "false": [
+     3,
+     6.6
+    ]
+   },
+   "autor presencial": {
+    "true": [
+     5,
+     100.0
+    ]
+   }
+  },
+  "acolhido_por_nivel": {
+   "só conta": {
+    "171 §2º-A": [
+     14,
+     33.9
+    ],
+    "171 outro": [
+     11,
+     27.4
+    ],
+    "171 §2º VII": [
+     8,
+     20.9
+    ],
+    "155 §4º-B": [
+     3,
+     7.6
+    ],
+    "155 outro": [
+     2,
+     5.1
+    ],
+    "158": [
+     1,
+     2.5
+    ],
+    "180": [
+     1,
+     2.5
+    ]
+   },
+   "autor presencial": {
+    "171 §2º VII": [
+     2,
+     48.6
+    ],
+    "171 outro": [
+     1,
+     21.6
+    ],
+    "171 §2º-A": [
+     1,
+     21.6
+    ],
+    "158": [
+     1,
+     8.1
+    ]
+   }
+  },
+  "pena_mediana": {
+   "autor presencial | 171 §2º VII": "n=2, mediana 12.0 meses",
+   "só conta | 155 outro": "n=2, mediana 30.65 meses",
+   "só conta | 155 §4º-B": "n=3, mediana 54.0 meses",
+   "só conta | 171 outro": "n=11, mediana 13.5 meses",
+   "só conta | 171 §2º VII": "n=8, mediana 12.0 meses",
+   "só conta | 171 §2º-A": "n=14, mediana 48.0 meses"
+  },
+  "so_conta_2A_pena": {
+   "idosa": [
+    7,
+    48.0
+   ],
+   "não idosa": [
+    7,
+    48.0
+   ],
+   "acima de 48 meses": 6,
+   "n": 14,
+   "substituída até 48 meses": "6 de 8",
+   "substituída acima de 48 meses": "0 de 6"
+  },
+  "regime_por_nivel": {
+   "só conta": {
+    "aberto": [
+     27,
+     75.4
+    ],
+    "semiaberto": [
+     8,
+     20.3
+    ],
+    "fechado": [
+     2,
+     4.3
+    ]
+   },
+   "autor presencial": {
+    "aberto": [
+     2,
+     48.6
+    ],
+    "fechado": [
+     2,
+     29.7
+    ],
+    "semiaberto": [
+     1,
+     21.6
+    ]
+   }
+  },
+  "lei_por_nivel": {
+   "só conta": {
+    "sem menção": [
+     9,
+     31.3
+    ],
+    "aplica": [
+     8,
+     29.4
+    ],
+    "recusa": [
+     8,
+     27.4
+    ],
+    "só dispositivo": [
+     2,
+     6.0
+    ],
+    "reforço": [
+     1,
+     3.6
+    ],
+    "absolve": [
+     1,
+     2.4
+    ]
+   },
+   "autor presencial": {
+    "aplica": [
+     2,
+     100.0
+    ]
+   }
+  },
+  "so_conta_2A_pos_lei_sem_mencao": [
+   "CL 54",
+   "CL 52"
+  ],
+  "so_conta_pre_lei_acolhido": {
+   "171 §2º-A": [
+    7,
+    52.0
+   ],
+   "171 outro": [
+    4,
+    26.8
+   ],
+   "155 §4º-B": [
+    2,
+    14.2
+   ],
+   "158": [
+    1,
+    7.1
+   ]
+  },
+  "so_conta_pos_lei_acolhido": {
+   "171 §2º VII": [
+    8,
+    32.6
+   ],
+   "171 outro": [
+    7,
+    27.8
+   ],
+   "171 §2º-A": [
+    7,
+    23.8
+   ],
+   "155 outro": [
+    2,
+    7.9
+   ],
+   "155 §4º-B": [
+    1,
+    4.0
+   ],
+   "180": [
+    1,
+    4.0
+   ]
+  }
+ },
+ "FE": {
+  "denuncias": 114,
+  "fraude": 113,
+  "nivel": {
+   "só conta": [
+    59,
+    53.1
+   ],
+   "elo logístico": [
+    10,
+    7.9
+   ],
+   "autor remoto": [
+    36,
+    31.2
+   ],
+   "autor presencial": [
+    8,
+    7.8
+   ]
+  },
+  "nivel_por_contato": {
+   "remoto": {
+    "só conta": [
+     59,
+     57.2
+    ],
+    "elo logístico": [
+     10,
+     8.6
+    ],
+    "autor remoto": [
+     35,
+     32.7
+    ],
+    "autor presencial": [
+     2,
+     1.5
+    ]
+   },
+   "presencial ou outro": {
+    "autor remoto": [
+     1,
+     11.5
+    ],
+    "autor presencial": [
+     6,
+     88.5
+    ]
+   }
+  },
+  "nivel_por_canal": {
+   "internet": {
+    "só conta": [
+     44,
+     57.7
+    ],
+    "autor remoto": [
+     34,
+     41.3
+    ],
+    "autor presencial": [
+     1,
+     1.0
+    ]
+   },
+   "presencial": {
+    "autor presencial": [
+     6,
+     100.0
+    ]
+   },
+   "sistema-objeto, internet": {
+    "só conta": [
+     2,
+     56.8
+    ],
+    "elo logístico": [
+     1,
+     43.2
+    ]
+   },
+   "telefonia": {
+    "só conta": [
+     13,
+     53.5
+    ],
+    "elo logístico": [
+     9,
+     31.2
+    ],
+    "autor remoto": [
+     2,
+     11.9
+    ],
+    "autor presencial": [
+     1,
+     3.4
+    ]
+   }
+  },
+  "nivel_vetor_por_canal": {
+   "internet": {
+    "só conta | registro": [
+     44,
+     57.7
+    ],
+    "autor remoto | registro": [
+     26,
+     31.2
+    ],
+    "autor remoto | presença": [
+     6,
+     8.0
+    ],
+    "autor remoto | ambos": [
+     2,
+     2.2
+    ],
+    "autor presencial | presença": [
+     1,
+     1.0
+    ]
+   },
+   "telefonia": {
+    "só conta | registro": [
+     13,
+     53.5
+    ],
+    "elo logístico | presença": [
+     7,
+     25.1
+    ],
+    "autor remoto | registro": [
+     2,
+     11.9
+    ],
+    "elo logístico | ambos": [
+     1,
+     3.4
+    ],
+    "autor presencial | ambos": [
+     1,
+     3.4
+    ],
+    "elo logístico | registro": [
+     1,
+     2.7
+    ]
+   }
+  },
+  "nivel_vetor_contato_remoto": {
+   "só conta | registro": [
+    59,
+    57.2
+   ],
+   "autor remoto | registro": [
+    27,
+    25.1
+   ],
+   "elo logístico | presença": [
+    8,
+    7.2
+   ],
+   "autor remoto | presença": [
+    6,
+    6.0
+   ],
+   "autor remoto | ambos": [
+    2,
+    1.6
+   ],
+   "elo logístico | ambos": [
+    1,
+    0.8
+   ],
+   "autor presencial | ambos": [
+    1,
+    0.8
+   ],
+   "autor presencial | presença": [
+    1,
+    0.7
+   ],
+   "elo logístico | registro": [
+    1,
+    0.6
+   ]
+  },
+  "nivel_por_artificio": {
+   "falso_parente": {
+    "só conta": [
+     16,
+     75.3
+    ],
+    "autor remoto": [
+     4,
+     24.7
+    ]
+   },
+   "falsa_central": {
+    "só conta": [
+     12,
+     50.3
+    ],
+    "elo logístico": [
+     9,
+     34.3
+    ],
+    "autor remoto": [
+     3,
+     15.3
+    ]
+   },
+   "venda_falsa": {
+    "só conta": [
+     16,
+     46.2
+    ],
+    "autor remoto": [
+     20,
+     51.6
+    ],
+    "autor presencial": [
+     1,
+     2.3
+    ]
+   },
+   "taxa_antecipada": {
+    "só conta": [
+     4,
+     70.1
+    ],
+    "autor remoto": [
+     2,
+     29.9
+    ]
+   },
+   "maquininha": {
+    "só conta": [
+     1,
+     20.2
+    ],
+    "autor presencial": [
+     3,
+     79.8
+    ]
+   }
+  },
+  "vetor_autor_remoto_e_logistico": {
+   "autor remoto | registro": [
+    28,
+    61.7
+   ],
+   "elo logístico | presença": [
+    8,
+    17.0
+   ],
+   "autor remoto | presença": [
+    6,
+    14.1
+   ],
+   "autor remoto | ambos": [
+    2,
+    3.9
+   ],
+   "elo logístico | ambos": [
+    1,
+    1.8
+   ],
+   "elo logístico | registro": [
+    1,
+    1.4
+   ]
+  },
+  "vetor_todos": {
+   "registro": [
+    88,
+    77.8
+   ],
+   "presença": [
+    20,
+    18.7
+   ],
+   "ambos": [
+    5,
+    3.5
+   ]
+  },
+  "so_conta_coautores_desconhecidos": {
+   "true": [
+    43,
+    71.4
+   ],
+   "false": [
+    16,
+    28.6
+   ]
+  },
+  "so_conta_repasse_narrado": {
+   "false": [
+    49,
+    83.0
+   ],
+   "true": [
+    10,
+    17.0
+   ]
+  },
+  "indicios_por_nivel_vetor": {
+   "autor presencial | ambos": {
+    "telematica": 0,
+    "linha_em_nome": 0,
+    "confissao": 0,
+    "reconhecimento": 1,
+    "flagrante": 0,
+    "repasse": 0,
+    "n": 2
+   },
+   "autor presencial | presença": {
+    "telematica": 1,
+    "linha_em_nome": 0,
+    "confissao": 1,
+    "reconhecimento": 2,
+    "flagrante": 3,
+    "repasse": 0,
+    "n": 6
+   },
+   "autor remoto | ambos": {
+    "telematica": 0,
+    "linha_em_nome": 0,
+    "confissao": 1,
+    "reconhecimento": 1,
+    "flagrante": 0,
+    "repasse": 0,
+    "n": 2
+   },
+   "autor remoto | presença": {
+    "telematica": 3,
+    "linha_em_nome": 0,
+    "confissao": 1,
+    "reconhecimento": 0,
+    "flagrante": 5,
+    "repasse": 1,
+    "n": 6
+   },
+   "autor remoto | registro": {
+    "telematica": 1,
+    "linha_em_nome": 2,
+    "confissao": 2,
+    "reconhecimento": 3,
+    "flagrante": 1,
+    "repasse": 4,
+    "n": 28
+   },
+   "elo logístico | ambos": {
+    "telematica": 0,
+    "linha_em_nome": 0,
+    "confissao": 0,
+    "reconhecimento": 1,
+    "flagrante": 1,
+    "repasse": 0,
+    "n": 1
+   },
+   "elo logístico | presença": {
+    "telematica": 2,
+    "linha_em_nome": 0,
+    "confissao": 3,
+    "reconhecimento": 5,
+    "flagrante": 5,
+    "repasse": 1,
+    "n": 8
+   },
+   "elo logístico | registro": {
+    "telematica": 0,
+    "linha_em_nome": 1,
+    "confissao": 0,
+    "reconhecimento": 0,
+    "flagrante": 0,
+    "repasse": 0,
+    "n": 1
+   },
+   "só conta | registro": {
+    "telematica": 2,
+    "linha_em_nome": 3,
+    "confissao": 3,
+    "reconhecimento": 4,
+    "flagrante": 1,
+    "repasse": 10,
+    "n": 59
+   }
+  },
+  "telematica_casou": [
+   "FE 53",
+   "FE 79",
+   "FE 122",
+   "FE 86",
+   "FE 106",
+   "FE 29",
+   "FE 10",
+   "FE 17",
+   "FE 102"
+  ],
+  "telematica_sem_leitura": [],
+  "quebra_sigilo_por_nivel": {
+   "só conta": {
+    "false": [
+     52,
+     87.5
+    ],
+    "true": [
+     7,
+     12.5
+    ]
+   },
+   "elo logístico": {
+    "false": [
+     9,
+     92.6
+    ],
+    "true": [
+     1,
+     7.4
+    ]
+   },
+   "autor remoto": {
+    "false": [
+     35,
+     97.8
+    ],
+    "true": [
+     1,
+     2.2
+    ]
+   },
+   "autor presencial": {
+    "false": [
+     6,
+     74.6
+    ],
+    "true": [
+     2,
+     25.4
+    ]
+   }
+  },
+  "artificio_so_conta": {
+   "falso_parente": [
+    16,
+    29.0
+   ],
+   "venda_falsa": [
+    16,
+    26.5
+   ],
+   "falsa_central": [
+    12,
+    18.1
+   ],
+   "taxa_antecipada": [
+    4,
+    6.8
+   ],
+   "falso_conhecido": [
+    3,
+    6.0
+   ],
+   "investimento_falso": [
+    2,
+    4.0
+   ],
+   "falsa_taxa_plataforma": [
+    1,
+    2.7
+   ],
+   "invasao_sistema_bancario": [
+    1,
+    2.1
+   ],
+   "sequestro_conta": [
+    1,
+    1.3
+   ],
+   "maquininha": [
+    1,
+    1.3
+   ],
+   "falso_advogado": [
+    1,
+    1.3
+   ],
+   "falso_relacionamento": [
+    1,
+    0.8
+   ]
+  },
+  "cap_por_nivel": {
+   "só conta": {
+    "171 §2º-A": [
+     54,
+     91.6
+    ],
+    "171 outro": [
+     5,
+     8.4
+    ]
+   },
+   "elo logístico": {
+    "171 §2º-A": [
+     9,
+     82.0
+    ],
+    "155 §4º-B": [
+     1,
+     18.0
+    ]
+   },
+   "autor remoto": {
+    "171 §2º-A": [
+     32,
+     88.7
+    ],
+    "171 outro": [
+     4,
+     11.3
+    ]
+   },
+   "autor presencial": {
+    "171 §2º-A": [
+     5,
+     53.8
+    ],
+    "171 outro": [
+     2,
+     37.1
+    ],
+    "155 outro": [
+     1,
+     9.1
+    ]
+   }
+  },
+  "anpp_so_conta": {
+   "tratado na cota": {
+    "true": [
+     40,
+     62.8
+    ],
+    "false": [
+     19,
+     37.2
+    ]
+   },
+   "recusa pela pena, entre as tratadas, por capitulação": {
+    "171 outro": {
+     "false": [
+      2,
+      70.2
+     ],
+     "true": [
+      1,
+      29.8
+     ]
+    },
+    "171 §2º-A": {
+     "true": [
+      32,
+      86.5
+     ],
+     "false": [
+      5,
+      13.5
+     ]
+    }
+   }
+  },
+  "condena_por_nivel": {
+   "só conta": {
+    "true": [
+     49,
+     81.6
+    ],
+    "false": [
+     9,
+     18.4
+    ]
+   },
+   "elo logístico": {
+    "true": [
+     10,
+     100.0
+    ]
+   },
+   "autor remoto": {
+    "true": [
+     33,
+     90.1
+    ],
+    "false": [
+     3,
+     9.9
+    ]
+   },
+   "autor presencial": {
+    "true": [
+     8,
+     100.0
+    ]
+   }
+  },
+  "acolhido_por_nivel": {
+   "só conta": {
+    "171 §2º-A": [
+     42,
+     88.2
+    ],
+    "171 outro": [
+     7,
+     11.8
+    ]
+   },
+   "elo logístico": {
+    "171 §2º-A": [
+     10,
+     100.0
+    ]
+   },
+   "autor remoto": {
+    "171 §2º-A": [
+     25,
+     80.2
+    ],
+    "171 outro": [
+     7,
+     16.8
+    ],
+    "171 §2º VII": [
+     1,
+     3.0
+    ]
+   },
+   "autor presencial": {
+    "171 outro": [
+     3,
+     45.9
+    ],
+    "171 §2º-A": [
+     4,
+     44.9
+    ],
+    "155 outro": [
+     1,
+     9.1
+    ]
+   }
+  },
+  "pena_mediana": {
+   "autor presencial | 171 outro": "n=3, mediana 12.0 meses",
+   "autor presencial | 171 §2º-A": "n=4, mediana 44.0 meses",
+   "autor remoto | 171 outro": "n=7, mediana 14.0 meses",
+   "autor remoto | 171 §2º-A": "n=25, mediana 48.0 meses",
+   "elo logístico | 171 §2º-A": "n=10, mediana 52.0 meses",
+   "só conta | 171 outro": "n=7, mediana 12.0 meses",
+   "só conta | 171 §2º-A": "n=41, mediana 48.0 meses"
+  },
+  "so_conta_2A_pena": {
+   "idosa": [
+    11,
+    64.0
+   ],
+   "não idosa": [
+    30,
+    48.0
+   ],
+   "acima de 48 meses": 19,
+   "n": 41,
+   "substituída até 48 meses": "18 de 22",
+   "substituída acima de 48 meses": "0 de 19"
+  },
+  "regime_por_nivel": {
+   "só conta": {
+    "aberto": [
+     28,
+     61.6
+    ],
+    "semiaberto": [
+     12,
+     27.2
+    ],
+    "fechado": [
+     5,
+     11.2
+    ]
+   },
+   "elo logístico": {
+    "aberto": [
+     4,
+     42.5
+    ],
+    "fechado": [
+     3,
+     34.4
+    ],
+    "semiaberto": [
+     3,
+     23.0
+    ]
+   },
+   "autor remoto": {
+    "aberto": [
+     18,
+     53.8
+    ],
+    "semiaberto": [
+     10,
+     33.1
+    ],
+    "fechado": [
+     4,
+     13.0
+    ]
+   },
+   "autor presencial": {
+    "aberto": [
+     4,
+     59.7
+    ],
+    "fechado": [
+     1,
+     29.0
+    ],
+    "semiaberto": [
+     1,
+     11.3
+    ]
+   }
+  },
+  "lei_por_nivel": {
+   "só conta": {
+    "sem menção": [
+     14,
+     83.4
+    ],
+    "recusa": [
+     2,
+     16.6
+    ]
+   },
+   "elo logístico": {
+    "sem menção": [
+     2,
+     100.0
+    ]
+   },
+   "autor remoto": {
+    "sem menção": [
+     17,
+     94.0
+    ],
+    "aplica": [
+     1,
+     6.0
+    ]
+   },
+   "autor presencial": {
+    "sem menção": [
+     3,
+     100.0
+    ]
+   }
+  },
+  "so_conta_2A_pos_lei_sem_mencao": [
+   "FE 63",
+   "FE 14",
+   "FE 91",
+   "FE 75",
+   "FE 36",
+   "FE 27",
+   "FE 126",
+   "FE 119",
+   "FE 96"
+  ],
+  "so_conta_pre_lei_acolhido": {
+   "171 §2º-A": [
+    31,
+    89.6
+   ],
+   "171 outro": [
+    5,
+    10.4
+   ]
+  },
+  "so_conta_pos_lei_acolhido": {
+   "171 §2º-A": [
+    11,
+    84.3
+   ],
+   "171 outro": [
+    2,
+    15.7
+   ]
+  }
+ }
+}

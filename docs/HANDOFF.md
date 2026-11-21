@@ -1,10 +1,19 @@
-# Handoff: fase 1 TJSP coletada; próxima sessão começa a análise criminológica (21/11/2026)
+# Handoff: fase 1 TJSP coletada; análise criminológica com as questões 1 e 2 feitas (21/11/2026)
 
 Repositório pbms01/FGV_TJPA, branch `coleta-datajud`, que ainda não foi mesclado no main. Este arquivo substitui o estado da conversa e deve ser lido antes de qualquer passo novo.
 
 ## Para a próxima sessão: análise sob a perspectiva da criminologia informática
 
-A coleta da fase 1 está encerrada para fins de análise. As pendências de coleta seguem na seção de próximos passos e não bloqueiam a análise: conferência da codificação assistida, segundo leitor das sentenças lidas por regras, FE 16, inteiro teor de 18 acórdãos e o CL 34, pautado para 03/12/2026. A referência teórica é o doc `claude/criminologia-informatica-linhas-de-pesquisa.md` do Project: quatro elementos (delito, infrator, vítima, controle social), o teste de eliminação de Wall como critério comum e a exigência de produto utilizável por quem investiga, acusa, julga ou previne.
+A coleta da fase 1 está encerrada para fins de análise. As pendências de coleta seguem na seção de próximos passos e não bloqueiam a análise: conferência da codificação assistida, segundo leitor das sentenças lidas por regras, FE 16, inteiro teor de 18 acórdãos e o CL 34, pautado para 03/12/2026. A referência teórica é o doc `claude/criminologia-informatica-linhas-de-pesquisa.md` do Project, versão 0.3, espelhado em `docs/linhas-de-pesquisa.md`: quatro elementos (delito, infrator, vítima, controle social), a mediação técnica relevante como critério distintivo, o teste de eliminação de Wall reformulado em dois eixos como critério comum (retira-se o sistema informático, em rede ou isolado, e observa-se se a conduta desaparece, perde escala ou continua por outros meios; depois, identifica-se o canal pelo qual o agente chegou ao sistema) e a exigência de produto utilizável por quem investiga, acusa, julga ou previne. A internet é um canal entre outros.
+
+Análise feita nesta fase, com os dois eixos codificados em `scripts/eixos_mediacao.py` (sistema: objeto ou meio; canal: internet, telefonia, rede interna, contato físico, presencial, correio, sem contato; distância como agrupamento dos canais):
+
+- Questão 1, linhas 2.2 e 1.4: quem o sistema penal alcança na fraude eletrônica e o que a Lei 15.397/2026 muda. Nota em `docs/analise/q1-alcance-elo-fisico.md` (Project: `claude/analise-q1-alcance-elo-fisico.md`), script `scripts/analise_q1_alcance.py`, saídas em `dados/analise/q1_*`. Achado central: o sistema alcança o elo físico e registral (conta, linha, recolha do cartão); o regime de atribuição segue a distância, e o golpe por telefone se comporta como o golpe pela internet; a lei reprecificou o titular da conta sem ampliar o alcance.
+- Questão 2, linha 1.1: o que a eliminação do sistema separa e se a capitulação acompanha. Nota em `docs/analise/q2-teste-eliminacao.md` (Project: `claude/analise-q2-teste-eliminacao.md`), script `scripts/analise_q2_eliminacao.py`, saídas em `dados/analise/q2_*`. Achado central: o crime informático não depende da internet (13 das 33 invasões do INV persistem sem ela, por contato físico ou rede interna); a fraude é crime informático impróprio à distância; o §2º-A qualifica pelo canal à distância e é aplicado a cinco enganos face a face; o 154-A sai da denúncia quando o invasor não é alcançado e cai na sentença quando é meio de outro crime.
+- Pendências das duas questões: conferir os dicionários `NIVEL` (questão 1) e `OBJETO` e `CANAL_MANUAL` (eixos), e separar no sistema-meio a mediação relevante da acessória.
+- Para reproduzir: `python3 scripts/analise_q1_alcance.py` e `python3 scripts/analise_q2_eliminacao.py`, da raiz do repo; `-q` grava sem imprimir.
+
+Ponto de partida da próxima sessão: questão 3, linha 3.3 (tipologia do dano). A pergunta é que dano a sentença reconhece além do financeiro e como o valor da reparação mínima do art. 387, IV, do CPP se distribui pelos eixos (sistema e canal), pelo nível alcançado da questão 1 (o titular da conta responde pela reparação do golpe que não executou?) e pela vulnerabilidade da vítima (idosa, §4º do 171). O primeiro passo é extrair dos textos de `textos/tjsp/sentencas/` o valor fixado no art. 387, IV, a negativa de fixação e o fundamento, por regras validadas à mão contra a matriz, como foi feito com o leitor das sentenças; o valor do fato já está na extração das denúncias (`valor_max`, `valor_soma_distintos`). A questão também alimenta a 3.4 e devolve produto para a aferição do art. 59 do CP e do art. 387, IV.
 
 Base analítica, unida pela coluna `numero`, com o peso de `dados/cjpg/amostra_tjsp.csv` e sem as duplicatas marcadas em `duplicata_de` (198 denúncias):
 
@@ -20,13 +29,13 @@ Base analítica, unida pela coluna `numero`, com o peso de `dados/cjpg/amostra_t
 
 O que a base sustenta, por linha de pesquisa:
 
-- Com força: 2.2 (gargalos logísticos: a conta laranja, com o papel do denunciado, o valor em conta, a pena do titular e a desclassificação para o VII em primeiro e segundo grau), 1.4 (avaliação do tipo novo da Lei 15.397/2026, com sentenças, apelações, razões do MP e 56 acórdãos) e 1.1 (taxonomia pelo teste de eliminação, cruzando artifício e meio com a capitulação da denúncia e da sentença).
+- Com força: 2.2 (gargalos logísticos: a conta laranja, com o papel do denunciado, o valor em conta, a pena do titular e a desclassificação para o VII em primeiro e segundo grau), 1.4 (avaliação do tipo novo da Lei 15.397/2026, com sentenças, apelações, razões do MP e 56 acórdãos) e 1.1 (taxonomia pelo teste de eliminação reformulado, cruzando sistema e canal com a capitulação da denúncia e da sentença). As três foram tratadas nas questões 1 e 2.
 - Em parte: 2.1 (organização: 288 e Lei 12.850 nas capitulações e o papel "misto"), 3.4 (vulnerabilidade: §4º do 171 e artifícios dirigidos a idosos), 3.3 (dano: os valores de reparação do art. 387, IV, estão nos textos das sentenças, ainda não extraídos), 3.2 (notificação: a representação e o §5º revogado aparecem nos textos, sem variável) e o eixo da seletividade do controle (quem chega à denúncia e à pena).
 - Não sustenta: 1.2 e 1.3 (cifra oculta e deslocamento pedem séries externas, como DataJud e boletins de ocorrência), 2.3, 3.1, 4.1, 4.2, 4.3 e 4.4.
 
 Vieses que toda conclusão precisa carregar: o cjpg lista só processos com sentença de primeiro grau publicada, de modo que a base é de casos que chegaram à sentença; os estratos vêm de termos da sentença, corrigidos pela pós-estratificação pela capitulação da denúncia; processos em segredo de justiça ficam fora; é só o TJSP, com sentenças de 2021 a 2026, quase metade de 2026 (a do CL 1 é de 2014); e a codificação assistida e 113 sentenças ainda não tiveram segundo leitor.
 
-Primeira questão proposta para a análise: quem o sistema penal alcança na fraude eletrônica, o elo físico (o titular da conta de passagem) ou o autor do ardil, e o que a Lei 15.397/2026 muda nisso. Escolhi essa porque é a única que a base acompanha em todas as etapas (papel na denúncia, pena na sentença e desclassificação em segundo grau) e porque devolve produto direto às linhas 2.2 e 1.4.
+A questão 1 foi escolhida por ser a única que a base acompanha em todas as etapas (papel na denúncia, pena na sentença e desclassificação em segundo grau); a questão 2, por fixar a taxonomia que as demais linhas usam.
 
 ## Onde estamos
 

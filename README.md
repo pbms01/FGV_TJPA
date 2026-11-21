@@ -31,6 +31,10 @@ Estado em 20/11/2026, à noite: a fase 1 (TJSP) tem a amostra de 200 denúncias 
 | `scripts/pipe_sentencas.py` | Coleta das sentenças na conversa: na matriz, pela ordem de `dados/extracao/matriz_casos.csv`; na amostra, `prox`, `lote`, `djen`, `corrige` e `recalcula`, com gravação do texto sem a linha `Original:`, manifesto, status e uma linha por processo em `dados/extracao/sentencas_amostra.csv` |
 | `scripts/resultado_sentenca.py` | Leitor por regras do dispositivo: resultado, capitulação acolhida, pena, regime, substituição e menção à Lei 15.397/2026; `valida` compara com as 30 linhas lidas à mão da matriz |
 | `scripts/consolida_sentencas.py` | Consolidação das sentenças da amostra por estrato, com peso, mudança de capitulação, variável da Lei 15.397/2026 e divergência entre movimento e texto; grava `dados/extracao/resumo_sentencas.json` |
+| `scripts/eixos_mediacao.py` | Eixos da mediação técnica comuns às análises (sistema: objeto ou meio; canal; distância como agrupamento dos canais), pelo critério das linhas de pesquisa, versão 0.3 |
+| `scripts/analise_q1_alcance.py` | Questão 1: quem o sistema penal alcança na fraude eletrônica (nível e vetor de identificação), pena por papel e Lei 15.397/2026; grava `dados/analise/q1_*` |
+| `scripts/analise_q2_eliminacao.py` | Questão 2: teste de eliminação reformulado (sistema e canal) cruzado com a capitulação da denúncia e o tipo acolhido; grava `dados/analise/q2_*` |
+| `docs/analise/` | Notas analíticas das questões 1 e 2, espelhadas no Project "Criminologia Informática" |
 | `scripts/registra_apelacao.py` e `scripts/grava_acordao.py` | Andamento em segundo grau das sentenças que trataram da Lei 15.397/2026 (`dados/tjsp2/apelacoes_amostra.csv`) e gravação de acórdãos e razões de apelação lidos pelo Codex |
 | `scripts/classifica_acordaos.py` | Junta as buscas do cjsg sobre o 171 §2º, VII e grava `dados/tjsp2/acordaos_inciso_vii.csv` com a decisão lida em cada ementa |
 | `scripts/sorteio_complemento_fe.py` | Complemento do sorteio da FE (ordens 120 a 131) |

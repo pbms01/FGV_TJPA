@@ -1,0 +1,911 @@
+{
+ "classe_por_estrato": {
+  "INV": {
+   "próprio, pela internet": [
+    18,
+    54.5
+   ],
+   "próprio, por rede interna": [
+    4,
+    12.1
+   ],
+   "próprio, por contato físico": [
+    9,
+    27.3
+   ],
+   "impróprio, pela internet": [
+    1,
+    3.0
+   ],
+   "impróprio, por correio ou sem contato": [
+    1,
+    3.0
+   ]
+  },
+  "CL": {
+   "próprio, pela internet": [
+    3,
+    6.5
+   ],
+   "próprio, por contato físico": [
+    1,
+    2.2
+   ],
+   "impróprio, pela internet": [
+    26,
+    55.0
+   ],
+   "impróprio, por telefonia": [
+    7,
+    14.7
+   ],
+   "impróprio, presencial": [
+    8,
+    15.9
+   ],
+   "impróprio, por correio ou sem contato": [
+    3,
+    5.8
+   ]
+  },
+  "FE": {
+   "próprio, pela internet": [
+    3,
+    3.2
+   ],
+   "impróprio, pela internet": [
+    79,
+    69.4
+   ],
+   "impróprio, por telefonia": [
+    25,
+    21.0
+   ],
+   "impróprio, presencial": [
+    6,
+    6.4
+   ]
+  }
+ },
+ "testes_por_estrato": {
+  "INV": {
+   "sem internet": {
+    "desaparece": [
+     18,
+     54.5
+    ],
+    "persiste igual": [
+     14,
+     42.4
+    ],
+    "continua por outros meios": [
+     1,
+     3.0
+    ]
+   },
+   "sem sistema": {
+    "desaparece": [
+     31,
+     93.9
+    ],
+    "continua por outros meios": [
+     2,
+     6.1
+    ]
+   }
+  },
+  "CL": {
+   "sem internet": {
+    "continua por outros meios": [
+     26,
+     55.0
+    ],
+    "persiste igual": [
+     19,
+     38.5
+    ],
+    "desaparece": [
+     3,
+     6.5
+    ]
+   },
+   "sem sistema": {
+    "continua por outros meios": [
+     44,
+     91.3
+    ],
+    "desaparece": [
+     4,
+     8.7
+    ]
+   }
+  },
+  "FE": {
+   "sem internet": {
+    "continua por outros meios": [
+     79,
+     69.4
+    ],
+    "persiste igual": [
+     31,
+     27.4
+    ],
+    "desaparece": [
+     3,
+     3.2
+    ]
+   },
+   "sem sistema": {
+    "continua por outros meios": [
+     110,
+     96.8
+    ],
+    "desaparece": [
+     3,
+     3.2
+    ]
+   }
+  }
+ },
+ "classe_x_capitulacao_denuncia": {
+  "impróprio, presencial": {
+   "171 §2º-A": 5,
+   "158": 4,
+   "171 outro": 3,
+   "155 §4º-B": 2
+  },
+  "próprio, pela internet": {
+   "154-A": 17,
+   "171 §2º-A": 3,
+   "155 §4º-B": 2,
+   "lavagem": 1,
+   "155 outro": 1
+  },
+  "impróprio, pela internet": {
+   "171 §2º-A": 85,
+   "171 outro": 20,
+   "180": 1
+  },
+  "impróprio, por telefonia": {
+   "171 §2º-A": 27,
+   "155 outro": 2,
+   "155 §4º-B": 1,
+   "171 outro": 1,
+   "180": 1
+  },
+  "próprio, por contato físico": {
+   "154-A": 8,
+   "155 §4º-B": 1,
+   "155 outro": 1
+  },
+  "impróprio, por correio ou sem contato": {
+   "171 §2º-A": 2,
+   "171 outro": 1,
+   "outro tipo": 1
+  },
+  "próprio, por rede interna": {
+   "154-A": 4
+  }
+ },
+ "classe_x_tipo_acolhido": {
+  "impróprio, presencial": {
+   "171 §2º-A": 5,
+   "171 outro": 3,
+   "171 §2º VII": 3,
+   "158": 2
+  },
+  "impróprio, pela internet": {
+   "171 §2º-A": 64,
+   "171 outro": 23,
+   "171 §2º VII": 6
+  },
+  "próprio, pela internet": {
+   "154-A": 9,
+   "171 §2º-A": 3,
+   "155 outro": 2,
+   "155 §4º-B": 2,
+   "171 outro": 1,
+   "147-A": 1
+  },
+  "impróprio, por telefonia": {
+   "171 §2º-A": 24,
+   "171 outro": 2,
+   "155 outro": 2,
+   "171 §2º VII": 2,
+   "180": 1
+  },
+  "próprio, por contato físico": {
+   "154-A": 5,
+   "147": 1,
+   "180": 1,
+   "158": 1,
+   "155 §4º-B": 1
+  },
+  "impróprio, por correio ou sem contato": {
+   "171 outro": 1,
+   "171 §2º-A": 1,
+   "312": 1
+  },
+  "próprio, por rede interna": {
+   "154-A": 4
+  }
+ },
+ "objeto_papel_acesso": {
+  "remoto": {
+   "invasor": 11,
+   "executor": 2,
+   "misto": 5,
+   "titular_conta": 6
+  },
+  "local": {
+   "invasor": 4,
+   "misto": 2,
+   "executor": 3,
+   "titular_conta": 1
+  },
+  "rede interna": {
+   "executor": 1,
+   "invasor": 3
+  }
+ },
+ "objeto_contexto_acesso": {
+  "remoto": {
+   "institucional": 8,
+   "relacional": 3,
+   "patrimonial": 11,
+   "violencia_domestica": 2
+  },
+  "local": {
+   "violencia_domestica": 4,
+   "patrimonial": 5,
+   "relacional": 1
+  },
+  "rede interna": {
+   "institucional": 4
+  }
+ },
+ "objeto_154A_por_papel": {
+  "executor": "4 de 6",
+  "invasor": "18 de 18",
+  "misto": "6 de 7",
+  "titular_conta": "1 de 7"
+ },
+ "objeto_titular_cap": {
+  "CL 15": "155 §4º-B > 155 §4º-B",
+  "CL 10": "155 outro > 155 outro",
+  "FE 73": "171 §2º-A > 171 §2º-A",
+  "INV 32": "154-A > 171 outro",
+  "FE 88": "171 §2º-A > 171 §2º-A",
+  "CL 41": "155 §4º-B > 155 §4º-B",
+  "CL 28": "155 §4º-B > 155 §4º-B"
+ },
+ "2A_denuncia_por_canal": {
+  "internet": 85,
+  "telefonia": 27,
+  "postal": 2,
+  "objeto remoto": 3,
+  "presencial": 5
+ },
+ "2A_denuncia_por_eixos": {
+  "meio | à distância": 114,
+  "objeto | à distância": 3,
+  "meio | próxima": 5
+ },
+ "eixos_por_estrato": {
+  "INV": {
+   "sistema": {
+    "objeto": [
+     31,
+     93.9
+    ],
+    "meio": [
+     2,
+     6.1
+    ]
+   },
+   "canal": {
+    "internet": [
+     19,
+     57.6
+    ],
+    "contato físico": [
+     9,
+     27.3
+    ],
+    "rede interna": [
+     4,
+     12.1
+    ],
+    "sem contato": [
+     1,
+     3.0
+    ]
+   },
+   "distância": {
+    "à distância": [
+     19,
+     57.6
+    ],
+    "próxima": [
+     13,
+     39.4
+    ],
+    "sem contato": [
+     1,
+     3.0
+    ]
+   },
+   "Wall": {
+    "verdadeiro": [
+     18,
+     54.5
+    ],
+    "tradicional (erro do teste)": [
+     13,
+     39.4
+    ],
+    "tradicional": [
+     1,
+     3.0
+    ],
+    "híbrido": [
+     1,
+     3.0
+    ]
+   }
+  },
+  "CL": {
+   "sistema": {
+    "meio": [
+     44,
+     91.3
+    ],
+    "objeto": [
+     4,
+     8.7
+    ]
+   },
+   "canal": {
+    "internet": [
+     29,
+     61.5
+    ],
+    "presencial": [
+     8,
+     15.9
+    ],
+    "telefonia": [
+     7,
+     14.7
+    ],
+    "correio": [
+     3,
+     5.8
+    ],
+    "contato físico": [
+     1,
+     2.2
+    ]
+   },
+   "distância": {
+    "à distância": [
+     39,
+     82.0
+    ],
+    "próxima": [
+     9,
+     18.0
+    ]
+   },
+   "Wall": {
+    "híbrido": [
+     26,
+     55.0
+    ],
+    "tradicional": [
+     18,
+     36.3
+    ],
+    "verdadeiro": [
+     3,
+     6.5
+    ],
+    "tradicional (erro do teste)": [
+     1,
+     2.2
+    ]
+   }
+  },
+  "FE": {
+   "sistema": {
+    "meio": [
+     110,
+     96.8
+    ],
+    "objeto": [
+     3,
+     3.2
+    ]
+   },
+   "canal": {
+    "internet": [
+     82,
+     72.6
+    ],
+    "telefonia": [
+     25,
+     21.0
+    ],
+    "presencial": [
+     6,
+     6.4
+    ]
+   },
+   "distância": {
+    "à distância": [
+     107,
+     93.6
+    ],
+    "próxima": [
+     6,
+     6.4
+    ]
+   },
+   "Wall": {
+    "híbrido": [
+     79,
+     69.4
+    ],
+    "tradicional": [
+     31,
+     27.4
+    ],
+    "verdadeiro": [
+     3,
+     3.2
+    ]
+   }
+  }
+ },
+ "2A_presencial": {
+  "FE 82": "compra_fraudulenta_empresa > 171 §2º-A",
+  "FE 105": "maquininha > 171 §2º-A",
+  "CL 56": "maquininha > 171 §2º-A",
+  "FE 50": "maquininha > 171 §2º-A",
+  "FE 29": "maquininha > 171 §2º-A"
+ },
+ "2A_telefonia": {
+  "FE 79": "falsa_central > 171 §2º-A",
+  "FE 39": "falsa_central > 171 §2º-A",
+  "FE 65": "falsa_central > 171 §2º-A",
+  "FE 107": "falso_parente > 171 outro",
+  "CL 49": "falso_parente > 171 §2º-A",
+  "FE 2": "taxa_antecipada > 171 §2º-A",
+  "FE 51": "falsa_central > 171 §2º-A",
+  "FE 52": "falsa_central > 171 §2º-A",
+  "FE 122": "falsa_central > 171 §2º-A",
+  "FE 61": "falsa_central > 171 §2º-A",
+  "CL 48": "falsa_central > 171 §2º-A",
+  "FE 77": "falsa_central > 171 §2º-A",
+  "FE 70": "falsa_central > 171 §2º-A",
+  "FE 3": "falsa_central > 171 §2º-A",
+  "FE 92": "falsa_central > 171 outro",
+  "FE 28": "falso_parente > 171 §2º-A",
+  "FE 5": "falso_conhecido > 171 §2º-A",
+  "FE 36": "falsa_central > 171 §2º-A",
+  "CL 30": "falso_parente > 171 §2º-A",
+  "FE 18": "maquininha > absolvição",
+  "FE 115": "falsa_central > 171 §2º-A",
+  "CL 13": "falsa_central > 171 §2º VII",
+  "FE 21": "falsa_central > 171 §2º-A",
+  "FE 72": "falsa_central > 171 §2º-A",
+  "FE 54": "falsa_central > 171 §2º-A",
+  "FE 64": "falsa_central > 171 §2º-A",
+  "FE 126": "falsa_central > 171 §2º-A"
+ },
+ "dispersao_denuncia": {
+  "venda_falsa": {
+   "n": 49,
+   "modal": "171 §2º-A",
+   "participação do modal": 79.6,
+   "tipos distintos": 2,
+   "distribuição": {
+    "171 §2º-A": 39,
+    "171 outro": 10
+   }
+  },
+  "falso_parente": {
+   "n": 30,
+   "modal": "171 §2º-A",
+   "participação do modal": 73.3,
+   "tipos distintos": 2,
+   "distribuição": {
+    "171 §2º-A": 22,
+    "171 outro": 8
+   }
+  },
+  "falsa_central": {
+   "n": 30,
+   "modal": "171 §2º-A",
+   "participação do modal": 83.3,
+   "tipos distintos": 5,
+   "distribuição": {
+    "171 §2º-A": 25,
+    "171 outro": 2,
+    "155 §4º-B": 1,
+    "155 outro": 1,
+    "180": 1
+   }
+  },
+  "controle_parceira": {
+   "n": 9,
+   "modal": "154-A",
+   "participação do modal": 88.9,
+   "tipos distintos": 2,
+   "distribuição": {
+    "154-A": 8,
+    "155 outro": 1
+   }
+  },
+  "taxa_antecipada": {
+   "n": 8,
+   "modal": "171 §2º-A",
+   "participação do modal": 87.5,
+   "tipos distintos": 2,
+   "distribuição": {
+    "171 §2º-A": 7,
+    "180": 1
+   }
+  },
+  "compra_fraudulenta_empresa": {
+   "n": 7,
+   "modal": "171 §2º-A",
+   "participação do modal": 71.4,
+   "tipos distintos": 2,
+   "distribuição": {
+    "171 §2º-A": 5,
+    "171 outro": 2
+   }
+  },
+  "maquininha": {
+   "n": 7,
+   "modal": "171 §2º-A",
+   "participação do modal": 71.4,
+   "tipos distintos": 2,
+   "distribuição": {
+    "171 §2º-A": 5,
+    "155 §4º-B": 2
+   }
+  },
+  "invasao_sistema_venda_dados": {
+   "n": 6,
+   "modal": "154-A",
+   "participação do modal": 100.0,
+   "tipos distintos": 1,
+   "distribuição": {
+    "154-A": 6
+   }
+  },
+  "invasao_sistema_bancario": {
+   "n": 6,
+   "modal": "155 §4º-B",
+   "participação do modal": 33.3,
+   "tipos distintos": 4,
+   "distribuição": {
+    "155 §4º-B": 2,
+    "171 §2º-A": 2,
+    "154-A": 1,
+    "155 outro": 1
+   }
+  },
+  "sequestro_conta": {
+   "n": 6,
+   "modal": "154-A",
+   "participação do modal": 83.3,
+   "tipos distintos": 2,
+   "distribuição": {
+    "154-A": 5,
+    "171 §2º-A": 1
+   }
+  },
+  "extorsao_transferencia": {
+   "n": 5,
+   "modal": "158",
+   "participação do modal": 80.0,
+   "tipos distintos": 2,
+   "distribuição": {
+    "158": 4,
+    "155 outro": 1
+   }
+  },
+  "insider_empresa": {
+   "n": 5,
+   "modal": "154-A",
+   "participação do modal": 80.0,
+   "tipos distintos": 2,
+   "distribuição": {
+    "154-A": 4,
+    "171 outro": 1
+   }
+  },
+  "falso_conhecido": {
+   "n": 4,
+   "modal": "171 §2º-A",
+   "participação do modal": 75.0,
+   "tipos distintos": 2,
+   "distribuição": {
+    "171 §2º-A": 3,
+    "171 outro": 1
+   }
+  },
+  "roubo_celular_invasao": {
+   "n": 4,
+   "modal": "154-A",
+   "participação do modal": 75.0,
+   "tipos distintos": 2,
+   "distribuição": {
+    "154-A": 3,
+    "155 §4º-B": 1
+   }
+  },
+  "insercao_dados_falsos": {
+   "n": 4,
+   "modal": "lavagem",
+   "participação do modal": 25.0,
+   "tipos distintos": 4,
+   "distribuição": {
+    "lavagem": 1,
+    "outro tipo": 1,
+    "154-A": 1,
+    "171 §2º-A": 1
+   }
+  },
+  "boleto_falso": {
+   "n": 4,
+   "modal": "171 §2º-A",
+   "participação do modal": 75.0,
+   "tipos distintos": 2,
+   "distribuição": {
+    "171 §2º-A": 3,
+    "171 outro": 1
+   }
+  },
+  "investimento_falso": {
+   "n": 4,
+   "modal": "171 §2º-A",
+   "participação do modal": 100.0,
+   "tipos distintos": 1,
+   "distribuição": {
+    "171 §2º-A": 4
+   }
+  }
+ },
+ "dispersao_sentenca": {
+  "venda_falsa": {
+   "n": 43,
+   "modal": "171 §2º-A",
+   "participação do modal": 65.1,
+   "tipos distintos": 3,
+   "distribuição": {
+    "171 §2º-A": 28,
+    "171 outro": 11,
+    "171 §2º VII": 4
+   }
+  },
+  "falsa_central": {
+   "n": 30,
+   "modal": "171 §2º-A",
+   "participação do modal": 76.7,
+   "tipos distintos": 5,
+   "distribuição": {
+    "171 §2º-A": 23,
+    "171 outro": 3,
+    "171 §2º VII": 2,
+    "155 outro": 1,
+    "180": 1
+   }
+  },
+  "falso_parente": {
+   "n": 26,
+   "modal": "171 §2º-A",
+   "participação do modal": 76.9,
+   "tipos distintos": 2,
+   "distribuição": {
+    "171 §2º-A": 20,
+    "171 outro": 6
+   }
+  },
+  "taxa_antecipada": {
+   "n": 8,
+   "modal": "171 §2º-A",
+   "participação do modal": 87.5,
+   "tipos distintos": 2,
+   "distribuição": {
+    "171 §2º-A": 7,
+    "171 outro": 1
+   }
+  },
+  "controle_parceira": {
+   "n": 8,
+   "modal": "154-A",
+   "participação do modal": 75.0,
+   "tipos distintos": 3,
+   "distribuição": {
+    "154-A": 6,
+    "147": 1,
+    "147-A": 1
+   }
+  },
+  "compra_fraudulenta_empresa": {
+   "n": 7,
+   "modal": "171 §2º-A",
+   "participação do modal": 57.1,
+   "tipos distintos": 2,
+   "distribuição": {
+    "171 §2º-A": 4,
+    "171 outro": 3
+   }
+  },
+  "invasao_sistema_bancario": {
+   "n": 6,
+   "modal": "155 outro",
+   "participação do modal": 33.3,
+   "tipos distintos": 3,
+   "distribuição": {
+    "155 outro": 2,
+    "155 §4º-B": 2,
+    "171 §2º-A": 2
+   }
+  },
+  "extorsao_transferencia": {
+   "n": 5,
+   "modal": "158",
+   "participação do modal": 40.0,
+   "tipos distintos": 3,
+   "distribuição": {
+    "158": 2,
+    "171 §2º VII": 2,
+    "155 outro": 1
+   }
+  },
+  "sequestro_conta": {
+   "n": 5,
+   "modal": "154-A",
+   "participação do modal": 60.0,
+   "tipos distintos": 3,
+   "distribuição": {
+    "154-A": 3,
+    "171 §2º-A": 1,
+    "171 outro": 1
+   }
+  },
+  "maquininha": {
+   "n": 5,
+   "modal": "171 §2º-A",
+   "participação do modal": 80.0,
+   "tipos distintos": 2,
+   "distribuição": {
+    "171 §2º-A": 4,
+    "171 §2º VII": 1
+   }
+  },
+  "insider_empresa": {
+   "n": 4,
+   "modal": "154-A",
+   "participação do modal": 75.0,
+   "tipos distintos": 2,
+   "distribuição": {
+    "154-A": 3,
+    "171 outro": 1
+   }
+  },
+  "falso_conhecido": {
+   "n": 4,
+   "modal": "171 outro",
+   "participação do modal": 50.0,
+   "tipos distintos": 2,
+   "distribuição": {
+    "171 outro": 2,
+    "171 §2º-A": 2
+   }
+  },
+  "roubo_celular_invasao": {
+   "n": 4,
+   "modal": "180",
+   "participação do modal": 25.0,
+   "tipos distintos": 4,
+   "distribuição": {
+    "180": 1,
+    "158": 1,
+    "154-A": 1,
+    "155 §4º-B": 1
+   }
+  }
+ },
+ "fronteira_furto_estelionato": {
+  "INV 35": "invasao_sistema_bancario | 154-A > 155 outro",
+  "INV 13": "roubo_celular_invasao | 154-A > 180",
+  "INV 28": "roubo_celular_invasao | 154-A > 158",
+  "CL 15": "invasao_sistema_bancario | 155 §4º-B > 155 §4º-B",
+  "FE 84": "falsa_central | 155 §4º-B > 171 §2º-A",
+  "FE 51": "falsa_central | 171 §2º-A > 171 §2º-A",
+  "CL 10": "invasao_sistema_bancario | 155 outro > 155 outro",
+  "CL 48": "falsa_central | 171 §2º-A > 171 §2º-A",
+  "FE 36": "falsa_central | 171 §2º-A > 171 §2º-A",
+  "INV 24": "roubo_celular_invasao | 154-A > 154-A",
+  "FE 18": "maquininha | 171 §2º-A > absolvição",
+  "FE 105": "maquininha | 171 §2º-A > 171 §2º-A",
+  "CL 33": "falsa_central | 155 outro > 155 outro",
+  "CL 56": "maquininha | 171 §2º-A > 171 §2º-A",
+  "FE 88": "invasao_sistema_bancario | 171 §2º-A > 171 §2º-A",
+  "FE 115": "falsa_central | 171 §2º-A > 171 §2º-A",
+  "FE 50": "maquininha | 171 §2º-A > 171 §2º-A",
+  "CL 24": "maquininha | 155 §4º-B > absolvição",
+  "CL 41": "roubo_celular_invasao | 155 §4º-B > 155 §4º-B",
+  "FE 97": "invasao_sistema_bancario | 171 §2º-A > 171 §2º-A",
+  "CL 28": "invasao_sistema_bancario | 155 §4º-B > 155 §4º-B",
+  "FE 29": "maquininha | 171 §2º-A > 171 §2º-A",
+  "CL 29": "maquininha | 155 §4º-B > 171 §2º VII"
+ },
+ "154A_na_sentenca": {
+  "com outro crime": {
+   "absolvição integral": 2,
+   "indeterminado": 1,
+   "154-A acolhido": 8,
+   "condena pelo outro crime e não pelo 154-A": 6
+  },
+  "154-A sozinho": {
+   "154-A acolhido": 10,
+   "absolvição integral": 2
+  }
+ },
+ "154A_na_sentenca_casos": {
+  "com outro crime | absolvição integral": [
+   "INV 34",
+   "INV 33"
+  ],
+  "com outro crime | indeterminado": [
+   "INV 8"
+  ],
+  "com outro crime | 154-A acolhido": [
+   "INV 41",
+   "INV 2",
+   "INV 22",
+   "INV 17",
+   "INV 45",
+   "INV 24",
+   "INV 4",
+   "INV 21"
+  ],
+  "com outro crime | condena pelo outro crime e não pelo 154-A": [
+   "INV 35",
+   "INV 1",
+   "INV 13",
+   "INV 28",
+   "INV 32",
+   "INV 26"
+  ],
+  "154-A sozinho | 154-A acolhido": [
+   "INV 29",
+   "INV 43",
+   "INV 11",
+   "INV 30",
+   "INV 38",
+   "INV 39",
+   "INV 20",
+   "INV 44",
+   "INV 6",
+   "INV 27"
+  ],
+  "154-A sozinho | absolvição integral": [
+   "INV 42",
+   "INV 19"
+  ]
+ },
+ "pena_mediana_por_tipo": {
+  "171 outro": "n=30, mediana 12.0 meses",
+  "171 §2º-A": "n=96, mediana 48.0 meses",
+  "154-A": "n=18, mediana 32.0 meses",
+  "155 §4º-B": "n=3, mediana 54.0 meses"
+ }
+}
