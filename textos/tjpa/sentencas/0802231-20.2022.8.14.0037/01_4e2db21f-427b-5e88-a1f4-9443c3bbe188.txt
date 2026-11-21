@@ -1,0 +1,336 @@
+[Texto nativo do PJe]
+
+PODER JUDICIÁRIO
+
+TRIBUNAL DE JUSTIÇA DO ESTADO DO PARÁ
+
+VARA ÚNICA DA COMARCA DE ORIXIMINÁ
+
+AUTOS: 0802231-20.2022.8.14.0037
+
+AÇÃO: AÇÃO PENAL - PROCEDIMENTO ORDINÁRIO (283) - [Receptação Qualificada, Invasão de Dispositivo Informático]
+
+AUTORIDADE: DELEGACIA DE POLÍCIA CIVIL DE ORIXIMINÁ
+AUTOR: MINISTERIO PUBLICO DO ESTADO DO PARA
+
+REU: EDILSON SEIXAS TAVARES
+
+SENTENÇA
+
+1. RELATÓRIO
+
+O MINISTÉRIO PÚBLICO DO ESTADO DO PARÁ ofereceu denúncia em face de EDILSON SEIXAS TAVARES, já qualificado nos autos, como incurso nas penas do art. 180, §1º, art. 154-A, c/c art. 69, todos do Código Penal.
+
+Na denúncia, consta a seguinte narrativa (id. 81990795 - Pág. 1-4):
+
+"Narram os autos do Inquérito Policial que, no dia 14/11/2022, por volta das EDILSON SEIXAS TAVARES recebeu, em proveito próprio, coisa que tinha ciência que era produto de crime, por exercício de sua atividade comercial, utilizando-se de dispositivo informático para invadir o produto do crime advinda da vítima ISRAEL SOUZA DA SILVA, com o fim de destruir os dados da vítima, e obter vantagem para comercialização do objeto do crime.
+
+Segundo o referido IPL, a Polícia Civil tomou conhecimento da prática delituosa de roubo ocorrido em 12/11/2022, por volta das 21h40, onde as vítimas tiveram seus aparelhos telefônicos subtraídos por dois indivíduos que estavam em uma moto e portando arma de fogo.
+
+Ante a necessidade de localização dos objetos do crime narrado, a autoridade policial realizou atuação para rastreamento dos celulares através do GPS, resultando na localização de onde os objetos roubados estariam.
+
+Dirigindo-se até o local apontado no rastreamento, identificando que se tratava de ponto comercial localizado a TRAV. MAGALHÃES BARATA, BAIRRO: SANTÍSSIMO, nº 1011, destinado a Assistência Técnica e Manutenção de Celulares, onde foi encontrado os dois aparelhos telefônicos roubados em posse do indiciado.
+
+No momento da abordagem, a equipe da Polícia Civil verificou e documentou a imagem da tela do computador do acusado, no qual os celulares estavam conectados, onde o indiciado já estava realizando a quebra de segurança e outras violações ao dispositivo informático utilizando-se de software ilegais, a fim de, provavelmente, facilitar a comercialização e utilização posterior, conforme relatório de investigação anexo, ocultando ou destruindo dados para a venda posterior do bem, sem rastro ou registro de posse anterior.
+
+O condutor, IPC HORLEANS MENDONÇA FREITAS, fls.04 do IPL, declarou que:
+
+"(...) apresentados os seguintes objetos: 01 celular samsung galaxy A10s Azul e 02 celular Samsung 01 cor vermelho. Disse o condutor que na data de 12/11/2022, a equipe policial teve informações através do BOP 00105/2022.103064-9, sobre um roubo em via pública, onde dois indivíduos com arma de fogo roubaram o nacional ISRAEL SOUZA e sua colega LARA GATO. Disse o condutor que durante investigações, e através do pedido de rastreio dos aparelhos, foi identificado que os mesmos se encontravam na assistência técnica do nacional EDILSON SEIXAS TAVARES, localizada na TRAV. MAGALHÃES BARATA, BAIRRO: SANTÍSSIMO, 1011, após a equipe ir até o local para constatar as informações, foi encontrado na referida assistência os supracitados aparelhos, assim, o condutor deu voz de prisão ao indivíduo que foi conduzido para esta Delegacia de Polícia".
+
+A vítima, ás fls. 07, declarou que: "QUE na data de 12/11/2022, por volta das 21:40, estava com sua namorada Lara, trafegando pelo beco da barão, quando foram abordados por dois indivíduos, que estavam em uma moto, modelo FAN 160, cor vermelha, placa parcial W...6938, sendo que um deles estava de porte de uma arma de fogo; QUE um dos indivíduos anunciou o assalto, dizendo "Passa o celular", momento em que entregaram os celulares, modelo Samsung Galaxy A 10S, 32 GB, AZUL, IMEI 354474117415876, operadora VIVO, número 93 991896807 e outro SAMSUNG GALAXY 01, cor vermelha, operadora VIVO, número 93 991136635, email: mariapicanco205@qmail.com, assim como um relógio modelo Champion, digital, mais o valor de R$ 140,00 (cento e quarenta reais); QUE na ocasião um dos indivíduos os ameaçou dizendo "passa a bolsa que se não vou atirar em vocês"
+
+Interrogado às fls.10, o indiciado confessou a condição de celulares roubados, afirmando que os recebeu em sua loja de assistência técnica, e ainda que utiliza software para a quebra de senhas."
+
+A denúncia foi oferecida em 29 de novembro de 2022 (id. 81990795 - Pág. 1-4) e recebida em 02 de dezembro de 2022 (id. 82916093 - Pág. 1-2).
+
+Certidão de antecedentes criminais acostada em id. 140084414 - Pág. 1, constando 03 (três) registros.
+
+Resposta à acusação apresentada por defensor constituído em 02 de dezembro de 2022 (id. 82950050 - Pág. 1-2).
+
+Audiência de instrução e julgamento realizada em 22 de janeiro de 2025 (id. 135562242 - pág. 1-4), oportunidade em que foram ouvidas as testemunhas Horleans Mendonça Freitas, Fernanda de Paiva Araújo, José Vinnicius Rocha de Castro e Lara Jorranna Sena Pimentel, bem como o informante Fredson da Conceição Alves, sendo, ao final, realizado o interrogatório do acusado Edilson Seixas Tavares.
+
+Em alegações finais orais, o Ministério Público pugnou pela CONDENAÇÃO do réu, argumentando que a materialidade e a autoria delitiva estão comprovadas por meio dos depoimentos testemunhais e do relatório de investigação (id. 135562242 - Pág. 3).
+
+Por sua vez a Defesa, em alegações finais escritas, em sede preliminar requereu a absolvição do réu, termos do artigo 386, inciso III, do Código de Processo Penal, ausência por materialidade, ante a perícia nos objetos apreendidos.
+
+Subsidiariamente, a absolvição o réu com no artigo 386, inciso VII, do CPP.
+
+Caso não acolhida absolvição, reconhecida uma atipicidade da conduta.
+
+Por fim, pugnou pela aplicação do princípio da presunção inocência e pugnando o réu por um julgamento justo (id. 136280082 - Pág. 1-2).
+
+Vieram os autos conclusos.
+
+É a síntese do necessário. Decido.
+
+2. FUNDAMENTAÇÃO
+
+Cuida-se de ação penal pública ajuizada pelo parquet pela prática do crime de receptação qualificada, invasão de dispositivo informático em concurso material. Analisando os autos, verifico que a materialidade e autoria dos delitos narrados na denúncia foram inequivocamente comprovadas, conforme será analisado alhures nesta sentença.
+
+No mais, o processo não padece de nulidades ou irregularidades, bem como estão presentes as condições da ação e os pressupostos processuais, devendo assim passar este magistrado para o julgamento do mérito.
+
+2.1- MATERIALIDADE
+
+A materialidade do delito de receptação qualificada e invasão de dispositivo informático em concurso material restou demonstrada pelos seguintes elementos de convicção:
+
+i)
+Boletim de Ocorrência (id. 82249673 - Pág. 3);
+
+ii)
+Auto de apreensão (id. 82249673 - Pág. 12), indicando: 01 (um) Notebook, marca positivo, modelo STILO XC3650, cor preto e 01 (um) Aparelho celular, marca Samsung, modelo S10 lite;
+
+iii)
+Auto de apreensão (id. 82249673 - Pág. 13), indicando: 01 (um) Samsung galaxy A10S, 32GB, azul, IMEI 354474117415876 e 01 (um) Samsung galaxy 01, cor vermelho;
+
+iv)
+Auto de entrega (id. 82249673 - Pág. 14), indicando: 01 (um) Samsung galaxy A10S, 32GB, azul, IMEI 354474117415876 e 01 (um) Samsung galaxy 01, cor vermelho;
+
+v)
+Relatório de investigação (id. 82249673 - Pág. 22-24).
+
+2.2- AUTORIA
+
+A autoria, por sua vez, é certa e recai sobre a pessoa do réu.
+
+A testemunha Horleans Mendonça Freitas, relatou que houve um roubo à mão armada cometido por dois indivíduos contra um casal. Durante o crime, dois aparelhos celulares foram subtraídos das vítimas. Estas registraram boletim de ocorrência e forneceram informações técnicas cruciais, como o IMEI dos aparelhos e as credenciais de conta Google. A partir disso, utilizando bancos de dados restritos, solicitações às operadoras e informações da própria Google, a equipe policial conseguiu rastrear os celulares, cuja localização os levou até uma assistência técnica pertencente ao acusado. No local, Edilson foi flagrado com os aparelhos celulares roubados, sendo que um deles estava conectado a um computador com programas especializados em remover a conta Google original dos aparelhos, prática conhecida como procedimento de bypass usada para permitir a reutilização do dispositivo por terceiros após a redefinição de fábrica. Dois menores de idade alegaram, posteriormente, terem levado os celulares à assistência de forma "independente": uma adolescente teria "achado" um dos aparelhos, e outro jovem teria "comprado" por R$ 100,00. Ainda assim, ambos os celulares de um mesmo roubo foram parar no mesmo local, o que chamou atenção da investigação. O acusado, segundo Horleans, confessou que sabia que os aparelhos eram produtos de roubo, mas tentou minimizar sua conduta alegando que apenas realizava o "desbloqueio". O policial também mencionou que não sabe informar se os aparelhos ou o computador foram submetidos à perícia, apenas que foram apresentados à autoridade policial. A equipe policial já possuía relatórios de inteligência anteriores que apontavam o acusado como alguém possivelmente envolvido com o desbloqueio de celulares oriundos de crimes, identificando-o como um elo entre o furto/roubo e a receptação.
+
+A testemunha Fernanda de Paiva Araújo, relatou que, em 12 de novembro de 2022, foi registrada uma ocorrência de roubo cometido contra um homem e sua namorada, ocasião em que dois aparelhos celulares foram subtraídos. Após o registro, a equipe policial iniciou o rastreio técnico dos dispositivos, utilizando: Dados das operadoras de telefonia e Informações da conta Google fornecida pelas vítimas. No dia 14 de novembro de 2022, os sinais de localização indicaram que os celulares estavam dentro da assistência técnica de Edilson. Ao chegar no local, a equipe policial encontrou ambos os aparelhos subtraídos, cuja identificação foi confirmada via IMEI. E contataram Edilson tentando quebrar a senha de um dos celulares usando o computador. Diante dessa situação, os policiais conduziram Edilson à delegacia, onde foi lavrado o flagrante pela autoridade policial. Fernanda também afirmou que, no momento da abordagem, Edilson confessou saber que os aparelhos eram oriundos de roubo, alegando que apenas fazia a parte técnica do desbloqueio. Ela mencionou, ainda, que o réu já havia sido preso anteriormente pelo mesmo tipo de crime. Um dos aparelhos já conectado ao sistema, evidenciando o uso de programas de quebra de proteção, técnica usada para remover a conta Google e viabilizar a revenda ou uso por terceiros.
+
+A testemunha José Vinnicius Rocha de Castro, relatou que, em decorrência de um roubo ocorrido na cidade de Oriximiná, as vítimas compareceram à delegacia com informações de rastreio fornecidas pela plataforma do Google, a partir da conta vinculada aos aparelhos subtraídos. Com base nessas informações, a equipe policial obteve a localização exata dos celulares roubados, que indicava a assistência técnica de Edilson. No local a equipe encontrou dois aparelhos celulares da marca Samsung. Edilson admitiu que os celulares foram levados até ele para serem desbloqueados. O próprio Edilson mostrou seu notebook aos policiais, informando que utilizava um programa de desbloqueio de celulares. Edilson não negou o conhecimento da origem ilícita dos aparelhos, embora tenha dito apenas que "tinha uma ideia", pois sabia que celulares levados para esse tipo de serviço geralmente eram produtos de crime. Ele disse que os aparelhos tinham sido deixados por um rapaz e uma mulher, mas não soube identificar os nomes. Durante a abordagem, um dos celulares procurados estava sendo manuseado pelo próprio Edilson, já conectado ao computador no exato momento da diligência. Não soube informar se os aparelhos e o computador foram submetidos à perícia técnica.
+
+A testemunha Lara Jorranna Sena Pimentel relatou que encontrou o aparelho celular em via pública, levou-o para casa e aguardou que o dono aparecesse. Como isso não ocorreu, decidiu levar o aparelho a uma assistência técnica, com o intuito de verificar se ainda havia possibilidade de conserto, tendo em vista que o dispositivo estava bastante danificado. Informou, ainda, que não levou o aparelho à delegacia.
+
+O informante Fredson da Conceição Alves, relatou que no dia da abordagem de Edilson estava na assistência técnica de dele e foi levar umas peças para ele.
+
+O réu Edilson Seixas Tavares negou ter cometido os crimes pelos quais foi denunciado. Ele afirmou que, no dia dos fatos, estava em sua assistência técnica quando dois celulares foram deixados por um cliente, e que não sabia com certeza que os aparelhos eram produto de crime, embora tenha admitido que "presumiu" a possibilidade, em razão da conduta suspeita do indivíduo que os entregou. O réu declarou que um dos celulares estava conectado ao notebook apenas para carregamento via cabo USB, e que o objetivo era ligar o aparelho para verificar seu funcionamento. Negou expressamente que estivesse realizando qualquer tipo de extração de dados ou quebra de senha. Disse também que não conhecia programas para invadir celulares, e que, à época, já não trabalhava mais com esse tipo de recurso, mas conhecia e teve curiosidade. Alegou que seu foco era a manutenção básica de aparelhos, como troca de tela, bateria e conector. Edilson negou ter feito a afirmação onde teria confessado o uso de programas de desbloqueio, dizendo que estava algemado, nervoso, e que assinou sem ler corretamente o conteúdo. Ele admitiu que já havia sido preso anteriormente pelo mesmo crime. O réu negou ter comprado os celulares, afirmando que os aparelhos foram deixados apenas para manutenção, e que não chegou a realizar qualquer conserto, pois logo após reabrir o estabelecimento, por volta das 15h, a polícia civil chegou ao local e o conduziu à delegacia. Segundo ele, os policiais identificaram os aparelhos como sendo produto de roubo e apreenderam também seu notebook, além de lhe indagar sobre os objetos encontrados. Por fim, Edilson esclareceu que não comprou os celulares e não realizou desbloqueio de nenhum dos aparelhos.
+
+Como sabido, o interrogatório é meio de defesa e não meio de prova, devendo, pois, ser valorado com as devidas reservas.
+
+Nesse sentido, TOURINHO FILHO (TOURINHO FILHO, Fernando da Costa. Código de Processo Penal Comentado, v. 1, Saraiva, 1998, p. 380)
+
+"Um dos atos processuais mais importantes é, sem dúvida, o interrogatório. A despeito da sua posição topográfica, no capítulo das provas, é meio de defesa; pode 'constituir fonte de prova, mas não meio de prova: não está ordenado ad veritatem quaerendam'. Embora o Juiz possa formular ao acusado as perguntas que lhe parecerem apropriadas e úteis, transformando o ato numa oportunidade para a obtenção da prova, o certo é que a Constituição consagrou o direito ao silêncio. Em face do texto constitucional (art. 5°, LXIII), o réu responderá às perguntas a ele dirigidas se quiser. Não se pode dizer, pois, seja o interrogatório meio de prova. (Sem os destaques no original).
+
+Nunca é demais ressaltar que o interrogatório é protegido pelo direito fundamental expresso na cláusula nemo tenetur se detegere (privilégio contra a autoincriminação), que é a manifestação eloquente da ampla defesa, do direito de permanecer calado e, ainda, da presunção de inocência (Constituição Federal, art. 5°, incisos LV, LXIII e LVII). É o que tem declarado reiteradamente o Colendo Supremo Tribunal Federal, pois o Estado não pode obrigar os acusados em geral a fornecerem base probatória para caracterizar sua própria culpa.
+
+2.3- TIPIFICAÇÃO PENAL
+
+No que pertine à tipicidade, tem-se que o delito perpetrado corresponde ao crime de receptação qualificada e invasão de dispositivo informático em concurso material, tipificado no art. 180, §1º, art. 154-A, c/c art. 69, todos do Código Penal, em sua modalidade consumada.
+
+A conduta do réu encontra perfeita tipificação no art. 180, §1º, art. 154-A, c/c art. 69, todos do Código Penal, que implica:
+
+Receptação
+
+Art. 180 - Adquirir, receber, transportar, conduzir ou ocultar, em proveito próprio ou alheio, coisa que sabe ser produto de crime, ou influir para que terceiro, de boa-fé, a adquira, receba ou oculte:
+
+Pena - reclusão, de um a quatro anos, e multa.
+
+Receptação qualificada (Redação dada pela Lei nº 9.426, de 1996)
+
+§ 1º - Adquirir, receber, transportar, conduzir, ocultar, ter em depósito, desmontar, montar, remontar, vender, expor à venda, ou de qualquer forma utilizar, em proveito próprio ou alheio, no exercício de atividade comercial ou industrial, coisa que deve saber ser produto de crime: (Redação dada pela Lei nº 9.426, de 1996)
+
+Pena - reclusão, de três a oito anos, e multa. (Redação dada pela Lei nº 9.426, de 1996)
+
+Invasão de dispositivo informático
+
+Art. 154-A. Invadir dispositivo informático de uso alheio, conectado ou não à rede de computadores, com o fim de obter, adulterar ou destruir dados ou informações sem autorização expressa ou tácita do usuário do dispositivo ou de instalar vulnerabilidades para obter vantagem ilícita:
+
+Pena - reclusão, de 1 (um) a 4 (quatro) anos, e multa.
+
+Concurso material
+
+Art. 69 - Quando o agente, mediante mais de uma ação ou omissão, pratica dois ou mais crimes, idênticos ou não, aplicam-se cumulativamente as penas privativas de liberdade em que haja incorrido. No caso de aplicação cumulativa de penas de reclusão e de detenção, executa-se primeiro aquela."
+
+Constata-se que a conduta do acusado se enquadra ao crime de receptação qualificada, previsto no artigo 180, § 1º, do Código Penal, tendo em vista que o réu tinha a posse dos dois aparelhos celulares roubados, portanto recebeu e manteve em depósito bens de origem criminosa, no exercício de sua atividade comercial. Tal circunstância evidencia maior reprovabilidade da conduta, na medida em que o réu contribui para a manutenção do ciclo delitivo, sendo um elo da prática de crimes patrimoniais e auferindo vantagem econômica ilícita.
+
+PROCESSO PENAL. AGRAVO REGIMENTAL NO AGRAVO EM RECURSO ESPECIAL. CRIME DE RECEPTAÇÃO QUALIFICADA. NÃO COMPROVAÇÃO DA HABITUALIDADE. ATIVIDADE QUE NÃO SE ENQUADRA NO CONCEITO LEGAL DE ATIVIDADE COMERCIAL OU INDUSTRIAL. AGRAVO NÃO PROVIDO. 1. Para que se configure a modalidade qualificada há a exigência legal de que a prática de um dos verbos nucleares ocorra no exercício de atividade comercial ou industrial. Inteligência do art. 180, § 1º, do CP.2. A expressão "no exercício de atividade comercial ou industrial" pressupõe, segundo abalizada doutrina, habitualidade no exercício do comércio ou da indústria, "pois é sabido que a atividade comercial (em sentido amplo) não se aperfeiçoa com um único ato, sem continuidade no tempo." (MASSON, Cleber. Código Penal Comentado, 6ª ed. rev., atual. e ampl., São Paulo: Método, 2018.3. Concluir que os agravados estavam inseridos no contexto de atividade comercial, diversamente do que afirmou o Tribunal local, é medida que esbarra na Súmula 7/STJ.4. Agravo regimental não provido. Data de julgamento 18/04/2023.
+
+No caso em tela, verifica-se que o acusado já foi anteriormente flagranteado pela prática do mesmo delito, havendo sua punibilidade extinta pelo cumprimento de Acordo de Não-Persecução Penal nos autos nº 0801267-61.2021.8.14.0037, reiterando, portanto, a conduta delitiva ora apurada. Tal circunstância evidencia a reiteração criminosa, denotando que o réu persiste na prática de receptação, demonstrando inclinação para atividades ilícitas e desrespeito à ordem jurídica.
+
+Incabível o pleito de ausência de dolo, acerca disso é importante consignar que o fato de a res aliena ter sido encontrada na posse do acusado no delito de receptação, inverte o ônus da prova, pois neste caso é suficiente para a atribuição da autoria a acusação demonstrar que o réu estava na posse da coisa de origem ilícita e que as circunstâncias do fato indicam sua ciência sobre a referida condição do bem, incumbindo a ela demonstrar a justificativa de que não cometeu o crime.
+
+Quando há a apreensão do bem resultante de crime na posse do agente, é ônus do imputado comprovar a origem lícita do produto ou que sua conduta ocorreu de forma culposa. Isto não implica inversão do ônus da prova, ofensa ao princípio da presunção de inocência ou negativa do direito ao silêncio, mas decorre da aplicação do art. 156 do Código de Processo Penal, segundo o qual a prova da alegação compete a quem a fizer. (AgRg no HC n. 446.942/SC, relatora Ministra LAURITA VAZ, SEXTA TURMA, julgado em 4/12/2018, DJe 18/12/2018). [...] (AgRg no AREsp 1239066/RS, Rel. Ministro ANTONIO SALDANHA PALHEIRO, SEXTA TURMA, julgado em 20/04/2021, DJe 27/04/2021).
+
+DA INVASÃO DE DISPOSITIVO INFORMÁTICO
+
+Verifica-se, ainda, que o réu praticou o crime de invasão de dispositivo informático, tipificado no artigo 154-A do Código Penal, pois, de forma indevida, acessou sistema ou aparelho alheio, mediante violação de mecanismos de segurança, com o objetivo de destruir dados ou informações sem autorização usuário do dispositivo. Tal conduta demonstra grave afronta à intimidade, à segurança da informação e à confiança depositada na proteção dos dados digitais.
+
+Ressalte-se que todos os policiais ouvidos como testemunhas confirmaram que no momento da abordagem o réu estava realizando a remoção da conta original de um dos aparelhos celulares conecta a um notebook utilizando programa ilícito, alia-se ainda a confissão do réu de que sabia que os bens roubados estavam em sua posse, mesmo que tal confissão seja parcial e qualificada.
+
+Não prospera a alegação de ausência de perícia nos objetos apreendidos como causa de afastamento dos tipos penais, uma vez que a materialidade delitiva da receptação e invasão de dispositivo informático não se condiciona exclusivamente à elaboração de laudo pericial, podendo ser comprovada por outros elementos idôneos constantes dos autos, tais como declarações das vítimas, auto de apreensão e confirmação dos legítimos proprietários de que os bens apreendidos são seus, e a confirmação do número do MEI dos aparelhos roubados e os que estavam na posse do réu atestam a origem ilícita dos bens. Assim como quanto ao crime de invasão de dispositivo informático, não é imprescindível podendo ser suprida por outros elementos capazes de gerar certeza necessária.
+
+Dos dispositivos legais, depreende-se que nos crimes que deixam vestígios é necessária a perícia, mas esta não é imprescindível, podendo ser suprida por outros elementos de prova capazes de gerar a certeza necessária para a prolação de uma sentença condenatória pelo princípio do livre convencimento motivado do juiz. Dessa forma, entendendo o Magistrado que a prova testemunhal é suficiente para esclarecimento dos fatos alegados na exordial e que, encontra-se, dessa forma, apto a proferir o julgamento, desnecessário solicitar a realização de perícia. (STJ - HC: 742997 SE 2022/0148827-4, Relator.: Ministro ROGERIO SCHIETTI CRUZ, Data de Publicação: DJ 03/08/2022)
+
+Importa registrar que o depoimento de agentes policiais, pelo simples fato de terem procedido à apreensão dos objetos, não os inquina de suspeito.
+
+É iterativa a jurisprudência nesse sentido:
+
+EMENTA: APELAÇÃO CRIMINAL - TRÁFICO DE DROGAS - NEGATIVA DE AUTORIA - PROVA TESTEMUNHAL - DEPOIMENTO DE POLICIAIS - VALIDADE - CONTEXTO PROBATÓRIO SUFICIENTE PARA A MANUTENÇÃO DA CONDENAÇAO - REDUÇÃO DA PENA-BASE - POSSIBILIDADE - RECURSO CONHECIDO E PARCIALMENTE PROVIDO. - Se a prova dos autos, em seu conjunto, aponta para a materialidade e autoria do crime de tráfico de drogas em desfavor do réu, ainda que haja peremptória negativa de autoria, é de se manter a sentença condenatória recorrida - Os depoimentos testemunhais dos policiais envolvidos na prisão do réu, desde que harmônicos com o contexto probatório e não maculados por interesses particulares, são idôneos para embasar a condenação - A presença de uma circunstância judicial desfavorável justifica a fixação da pena-base do acusado acima do mínimo legal - Se a pena-base foi fixada de modo rigoroso na sentença, merece ser reduzida. V.V. EXPEDIÇÃO DE MANDADO DE PRISÃO DE FORMA IMEDIATA - NECESSIDADE - CONDENAÇÃO FIRMADA EM PRIMEIRA INSTÂNCIA MANTIDA EM GRAU DE RECURSO. O processo penal deve ter utilidade e as decisões proferidas devem possuir efetividade, de modo que, postergar a expedição de um mandado de prisão até a eventual interposição de recursos nesta instância é o mesmo que incentivar a eternização de um processo. A fim de garantir a efetividade da condenação do acusado, a determinação da expedição do mandado de prisão, de forma imediata, é medida que se impõe. (TJ-MG - APR: 10693110031368001 MG, Relator: Adilson Lamounier, Data de Julgamento: 06/11/2018, Data de Publicação: 14/11/2018)
+
+O fato de a prova da acusação estar calcada principalmente nos depoimentos testemunhais de policiais que efetuaram a prisão do réu e apreensão dos bens, não a desqualifica ou a torna imprestável, posto que a prova é uníssona, coerente e contundente com relação aos fatos.
+
+A respeito do valor probante dos depoimentos dos policiais, oportuno ressaltar que não há nos autos quaisquer indícios de motivos aparentes de que estivesse imputando falsa conduta ao réu.
+
+Resta configurado, portanto, o concurso material de crimes, nos termos do artigo 69 do Código Penal, uma vez que o réu, mediante mais de uma ação ou omissão, praticou dois ou mais crimes autônomos no caso, a receptação qualificada e a invasão de dispositivo informático, que, embora conexos, guardam autonomia típica e fática, devendo, portanto, as penas serem aplicadas cumulativamente.
+
+De todo o apurado, resta claro que houve a subsunção formal e material da conduta do réu EDILSON SEIXAS TAVARES ao tipo previsto no art. 180, §1º e art. 154-A, na forma do art. 69, todos do Código Penal. Assim, está presente a tipicidade do delito.
+
+Além disso, a conduta consumada foi antijurídica, já que ofendeu um bem jurídico protegido pela norma penal, não incidindo qualquer causa excludente de ilicitude.
+
+A ação é ainda culpável, pois o réu era imputável ao tempo da conduta, tinha potencial consciência da ilicitude de suas ações e, ainda, dele era exigível comportamento diverso, em conformidade com o direito. Não há, portanto, a incidência de qualquer causa excludente da culpabilidade.
+
+3. DISPOSITIVO
+
+Diante do exposto e por tudo que consta dos autos, JULGO PROCEDENTE o pedido contido na DENÚNCIA ofertada pelo Ministério Público do Estado do Pará para CONDENAR o réu EDILSON SEIXAS TAVARES, já qualificado nos autos, nas sanções punitivas do art. art. 180, §1º, art. 154-A, c/c art. 69 do Código Penal.
+
+4. INDIVIDUALIZAÇÃO DA PENA
+
+4.1 CRIME DE RECEPTAÇÃO
+
+Passo à dosimetria da pena do crime supracitado, atento aos ditames do artigo 68 do Estatuto Repressivo e considerando as disposições do artigo 59 e seguintes do Código Penal, que elegeram o sistema trifásico para a quantificação das sanções aplicáveis ao condenado e a Súmula n.º 23 do Tribunal de Justiça do Estado do Pará, publicada na Edição nº 6024/2016 - Quinta-Feira, 4 de agosto de 2016.
+
+"A aplicação dos vetores do art. 59 do CPB obedece a critérios quantitativos e qualitativos, de modo que, existindo a aferição negativa de qualquer deles, fundamenta-se a elevação da pena base acima do mínimo legal".
+
+a) Circunstâncias judiciais (art. 59 do CP)
+
+Culpabilidade: elemento neutro no presente caso;
+
+Antecedentes: elemento neutro;
+
+Conduta Social: elemento neutro no presente caso;
+
+Personalidade: elemento neutro no presente caso;
+
+Motivos do Crime: são os típicos da espécie, logo, vetor neutro;
+
+Circunstâncias do Crime: elemento neutro no presente caso;
+
+Consequências do Crime: elemento neutro no presente caso;
+
+Comportamento da Vítima: também neutro no presente caso.
+
+Desse modo, fixo a pena-base no patamar mínimo de 03 (três) anos de reclusão e 10 (dez) dias-multa.
+
+b) Circunstâncias atenuantes e agravantes
+
+Na segunda fase, verifica-se, a inexistência de circunstâncias atenuantes e agravantes.
+
+Logo, mantenho a reprimenda no patamar mínimo de 03 (três) anos de reclusão e 10 (dez) dias-multa.
+
+c) Causas de diminuição e aumento de pena
+
+Na terceira fase, para obtenção da pena definitiva, sem causas de aumento ou diminuição de pena, chegando-se à pena definitiva de 03 (três) anos de reclusão e 10 (dez) dias-multa.
+
+d) Pena definitiva
+
+Fica, portanto, o réu definitivamente condenado a 03 (três) anos de reclusão e 10 (dez) dias-multa.
+
+4.2. CRIME DE INVASÃO DE DISPOSITIVO INFORMÁTICO
+
+Passo à dosimetria da pena do crime supracitado, atento aos ditames do artigo 68 do Estatuto Repressivo e considerando as disposições do artigo 59 e seguintes do Código Penal, que elegeram o sistema trifásico para a quantificação das sanções aplicáveis ao condenado e a Súmula n.º 23 do Tribunal de Justiça do Estado do Pará, publicada na Edição nº 6024/2016 - Quinta-Feira, 4 de agosto de 2016.
+
+"A aplicação dos vetores do art. 59 do CPB obedece a critérios quantitativos e qualitativos, de modo que, existindo a aferição negativa de qualquer deles, fundamenta-se a elevação da pena base acima do mínimo legal".
+
+a) Circunstâncias judiciais (art. 59 do CP)
+
+Culpabilidade: elemento neutro no presente caso;
+
+Antecedentes: elemento neutro;
+
+Conduta Social: elemento neutro no presente caso;
+
+Personalidade: elemento neutro no presente caso;
+
+Motivos do Crime: são os típicos da espécie, logo, vetor neutro;
+
+Circunstâncias do Crime: elemento neutro no presente caso;
+
+Consequências do Crime: elemento neutro no presente caso;
+
+Comportamento da Vítima: também neutro no presente caso.
+
+Desse modo, fixo a pena-base no patamar mínimo de 01 (um) ano de reclusão e 10 (dez) dias-multa.
+
+b) Circunstâncias atenuantes e agravantes
+
+Na segunda fase, verifica-se, a inexistência de circunstâncias atenuantes e agravantes.
+
+Logo, mantenho a reprimenda no patamar mínimo de 01 (um) ano de reclusão e 10 (dez) dias-multa.
+
+c) Causas de diminuição e aumento de pena
+
+Na terceira fase, para obtenção da pena definitiva, sem causas de aumento ou diminuição de pena, chegando-se à pena definitiva de 01 (um) ano de reclusão e 10 (dez) dias-multa.
+
+d) Pena definitiva
+
+Fica, portanto, o réu definitivamente condenado a 01 (um) ano de reclusão e 10 (dez) dias-multa.
+
+CONCURSO MATERIAL
+
+Incide, ainda, a regra preconizada pelo art. 69 do Código Penal, entre, eis que as infrações penais foram cometidas pelo agente mediante mais de uma ação (receptação qualificada e invasão de dispositivo informático), devendo-se aplicar cumulativamente as penas privativas de liberdade respectivas, totalizando 04 (quatro) anos de reclusão e 20 (vinte) dias-multa.
+
+e) Detração do período de prisão provisória
+
+Deixo de realizar a detração preconizada no artigo 387, §2º, do Código de Processo Penal, considerando que o tempo de custódia não irá alterar o regime inicial de cumprimento de tempo e, ainda, por se tratar de verdadeira progressão de pena, exigindo não apenas o requisito objetivo do tempo de prisão já cumprido, mas também a presença de requisitos subjetivos, como a comprovação de bom comportamento carcerário.
+
+f) Regime de cumprimento de pena
+
+Com base em tais parâmetros, e considerando notadamente a quantidade de pena aplicada, bem como a reincidência do réu, deve ser fixado o ABERTO para início de cumprimento da pena privativa de liberdade.
+
+g) Substituição por pena restritiva de direitos e suspensão condicional da pena
+
+Substituo a pena privativa de liberdade aplicada por duas penas restritivas de direitos, conforme a determinação do artigo 44, §2º, do Código Penal. Portanto, o réu deverá PRESTAR SERVIÇO À COMUNIDADE (4h semanais durante o interstício de 02 anos) à ESCOLA ESTADUAL PADRE JOSÉ NICOLINO DE SOUZA e prestação pecuniária no valor de R$1.518,00 (mil quinhentos e dezoito reais), destinada à entidade pública ou de interesse social.
+
+h) Valor do dia-multa
+
+Ao que consta dos autos, as condições econômicas do réu, de sorte que arbitro o valor do dia multa no mínimo, ou seja, 1/30 (um trinta avos) do salário-mínimo vigente na data dos fatos, devidamente atualizado.
+
+i) Direito de apelar em liberdade
+
+Concedo o direito de recorrer em liberdade.
+
+j) da fixação do valor mínimo de indenização (art. 387, IV do CPP)
+
+Deixo de aplicar o art. 387, IV do CPP em virtude de a matéria não ter sido debatida no curso do processo pelas partes, oportunizando a instauração de contraditório sobre o tema e garantindo a observância do princípio da ampla defesa e se trata de crime contra o Estado.
+
+Da perda de bens
+
+Determino a perda dos seguintes objetos descritos no auto de apreensão (id. 82249673 - Pág. 12).
+
+DISPOSIÇÕES FINAIS
+
+1.
+Condeno ainda o réu ao pagamento das custas processuais, a serem calculadas pela UNAJ, na forma da Lei Estadual n.º 8.328/2015.
+
+O pagamento das custas deve se dar no prazo de 10 (dez) dias a partir do trânsito em julgado da presente sentença, sob pena de execução e inscrição em dívida ativa, a cargo da Procuradoria do Estado do Pará.
+
+2.
+Intime-se Ministério Público e a Defesa do acusado.
+
+3.
+Havendo interposição de recurso, certificar acerca de sua tempestividade antes da conclusão para análise de seu recebimento
+
+Após o trânsito em julgado:
+
+1. Expeça-se MANDADO DE PRISÃO PENA em face do acusado;
+
+2. Expeça-se guia de execução definitiva;
+
+3. Ficam suspensos os direitos políticos do apenado enquanto durarem todos os efeitos desta sentença, como disposto no art. 15, inciso III da Constituição Federal, devendo ser comunicada esta sentença ao Tribunal Regional Eleitoral;
+
+4. Comunique-se à Justiça Eleitoral e ao Instituto de Identificação de Belém/PA (CF/1988, art. 15, III e CPP, art. 809, § 3º);
+
+5. Recolha o réu, no prazo de dez (10) dias, ao Fundo Penitenciário Nacional (FUNPEN), através da guia correspondente, a multa que lhe foi aplicada, sob pena de converter-se em dívida de valor;
+
+6.   Não realizado o pagamento no prazo legal (art. 50 do CP), certifique-se nos autos e expeça-se certidão de ausência de pagamento e de dívida de valor, na forma do artigo 51 do CP (redação conferida pela Lei nº. 13.964/2019), com remessa dos autos ao Ministério Público para, querendo, promover a execução da pena de multa perante o juízo da execução, em tudo sendo observado o procedimento disposto nos arts. 164 a 170 da Lei n°. 7.210/1984 e sendo aplicáveis as normas relativas à dívida ativa da Fazenda Pública, notadamente quanto às causas interruptivas e suspensivas da prescrição;
+
+7. Oportunamente, arquive-se.
+
+Publique-se. Registre-se. Intimem-se. Cumpra-se.
+
+Por questão de eficiência processual, SERVIRÁ a presente sentença como MANDADO/OFÍCIO, nos termos dos Provimentos nº 03/2009 da CJRMB e da CJCI do Tribunal de Justiça do Estado do Pará (TJPA).
+
+Oriximiná/PA, 2 de julho de 2025.
+
+JOSÉ GOMES DE ARAÚJO FILHO
+
+Juiz de Direito

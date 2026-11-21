@@ -190,7 +190,7 @@ def cmd_grava(arq, chamadas, extra=""):
             cap = cap or (re.sub(r"\s+", " ", m[0])[:170] if m else "")
         else:
             m = re.findall(r"(?:condeno|condenar|conden[áa]-l[oa]s?|absolvo|absolv[êe]-l[oa]s?|julg\w+\s+(?:parcialmente\s+)?"
-                           r"(?:im)?procedente|extin\w+ a punibilidade)[^.]{0,140}", plano, re.I)
+                           r"(?:im)?procedente|extin\w+ a punibilidade|rejeito a den[úu]ncia)[^.]{0,140}", plano, re.I)
             # o último "condeno" costuma ser o das custas; ele só vale se não houver outro
             m = [x for x in m if not re.search(r"custas|honor", x, re.I)] or m
             disp = re.sub(r"\s+", " ", m[-1])[:150] if m else "dispositivo não localizado"
