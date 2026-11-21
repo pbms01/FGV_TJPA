@@ -927,7 +927,7 @@ cota_pede_dado,q5,FE 100,1501466-67.2023.8.26.0577,FE,11.25,False
 cota_pede_dado,q5,FE 93,1501702-37.2023.8.26.0474,FE,18.0,False
 cota_pede_dado,q5,FE 114,1501872-88.2023.8.26.0577,FE,23.143,False
 cota_pede_dado,q5,FE 55,1502202-85.2023.8.26.0577,FE,6.75,False
-cota_pede_dado,q5,FE 105,1502440-36.2023.8.26.0535,FE,9.0,False
+cota_pede_dado,q5,FE 105,1502440-36.2023.8.26.0535,FE,9.0,True
 cota_pede_dado,q5,FE 20,1502653-03.2023.8.26.0548,FE,28.929,False
 cota_pede_dado,q5,INV 5,1502875-88.2023.8.26.0024,INV,1.0,False
 cota_pede_dado,q5,INV 42,1502937-50.2023.8.26.0438,INV,1.0,False

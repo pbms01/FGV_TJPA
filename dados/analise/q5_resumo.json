@@ -96,17 +96,17 @@
   "tempo": {
    "n": 47,
    "mediana": 28.2,
-   "q1": 19.3,
+   "q1": 17.7,
    "q3": 45.0,
-   "alem_6m": 43,
-   "alem_12m": 41,
-   "alem_24m": 28,
+   "alem_6m": 42,
+   "alem_12m": 40,
+   "alem_24m": 27,
    "alem_5a": 3
   },
   "faixa": {
    "até 6 meses": [
-    4,
-    9.3
+    5,
+    11.2
    ],
    "6 a 12 meses": [
     2,
@@ -117,8 +117,8 @@
     28.4
    ],
    "24 a 60 meses": [
-    25,
-    53.1
+    24,
+    51.1
    ],
    "mais de 60 meses": [
     3,
@@ -127,22 +127,22 @@
   },
   "alem_6m": {
    "true": [
-    43,
-    90.7
+    42,
+    88.8
    ],
    "false": [
-    4,
-    9.3
+    5,
+    11.2
    ]
   },
   "alem_12m": {
    "true": [
-    41,
-    86.3
+    40,
+    84.4
    ],
    "false": [
-    6,
-    13.7
+    7,
+    15.6
    ]
   },
   "precisao": {
@@ -295,12 +295,12 @@
   },
   "presencial": {
    "n": 14,
-   "mediana": 16.5,
-   "q1": 5.9,
-   "q3": 29.4,
-   "alem_6m": 11,
-   "alem_12m": 9,
-   "alem_24m": 5,
+   "mediana": 12.9,
+   "q1": 3.7,
+   "q3": 27.6,
+   "alem_6m": 10,
+   "alem_12m": 8,
+   "alem_24m": 4,
    "alem_5a": 2
   },
   "correio": {
@@ -367,12 +367,12 @@
   },
   "autor presencial": {
    "n": 13,
-   "mediana": 21.3,
-   "q1": 5.6,
-   "q3": 31.2,
-   "alem_6m": 10,
-   "alem_12m": 9,
-   "alem_24m": 6,
+   "mediana": 13.0,
+   "q1": 4.5,
+   "q3": 29.9,
+   "alem_6m": 9,
+   "alem_12m": 8,
+   "alem_24m": 5,
    "alem_5a": 2
   }
  },
@@ -381,10 +381,10 @@
    "n": 29,
    "mediana": 7.3,
    "q1": 0.7,
-   "q3": 21.2,
+   "q3": 20.4,
    "alem_6m": 15,
    "alem_12m": 11,
-   "alem_24m": 5,
+   "alem_24m": 4,
    "alem_5a": 0
   },
   "False": {
@@ -392,8 +392,8 @@
    "mediana": 23.4,
    "q1": 16.0,
    "q3": 34.9,
-   "alem_6m": 147,
-   "alem_12m": 128,
+   "alem_6m": 146,
+   "alem_12m": 127,
    "alem_24m": 80,
    "alem_5a": 5
   }
@@ -500,7 +500,8 @@
   "FE 5": "bancário (requer) | 19.3 meses | quebra do sigilo bancário do denunciado, com cadastro e extratos",
   "FE 113": "bancário (requer) | 19.0 meses | extrato da conta do indiciado",
   "FE 74": "bancário (junta resultado) | 22.1 meses | resultado da quebra do sigilo bancário da denunciada",
-  "CL 56": "perícia em objetos apreendidos (aguarda resultado) | 27.7 meses | laudos do material apreendido",
+  "FE 105": "bancário, pela vítima (requer) | 13.0 meses | extratos da vítima das duas operações, por ofício à delegacia",
+  "CL 56": "perícia em objetos apreendidos (aguarda resultado) | 2.1 meses | laudos do material apreendido",
   "INV 21": "perícia em dispositivo (aguarda resultado) | 0.5 meses | laudos dos aparelhos eletrônicos apreendidos",
   "FE 17": "telemático em aparelho apreendido (requer) | 0.8 meses | extração dos dados do celular apreendido, para apurar a associação",
   "CL 7": "bancário (requer) | 0.4 meses | quebra das contas de destino, com cadastro, selfies e extratos, para rastrear o dinheiro"
@@ -535,12 +536,12 @@
   "com_data": 193,
   "tempo": {
    "n": 193,
-   "mediana": 21.9,
-   "q1": 10.1,
+   "mediana": 21.6,
+   "q1": 10.0,
    "q3": 33.7,
-   "alem_6m": 162,
-   "alem_12m": 139,
-   "alem_24m": 85,
+   "alem_6m": 161,
+   "alem_12m": 138,
+   "alem_24m": 84,
    "alem_5a": 5
   },
   "sem_data": [
@@ -558,8 +559,9 @@
    "até": 11
   },
   "data_denuncia": {
-   "PJe": 98,
-   "assinatura": 96
+   "PJe": 97,
+   "assinatura": 96,
+   "manual": 1
   }
  }
 }

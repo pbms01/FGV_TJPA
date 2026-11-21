@@ -17,7 +17,7 @@ Decisões que não saltam aos olhos:
   canal, nível e prisão no ato os números são contagens simples das três camadas somadas,
   com mediana e quartis em meses de 30,44 dias, porque o canal atravessa os estratos.
 - "Preso no ato" é a triagem de termos da questão 1 (flagrante, foi preso, abordado,
-  surpreendido), não uma codificação.
+  surpreendido), não uma codificação, corrigida em PRESO_MANUAL nos casos lidos por inteiro.
 """
 import csv
 import json
@@ -40,6 +40,12 @@ FAIXAS = ["até 6 meses", "6 a 12 meses", "12 a 24 meses", "24 a 60 meses", "mai
 CANAIS = ["internet", "telefonia", "presencial", "correio", "sem contato", "sistema-objeto"]
 FONTES = ["banco", "vitima", "operadora", "plataforma", "conexao", "dispositivo", "camera"]
 MES = 30.44
+
+# Correções da triagem "preso no ato" lidas no exame em aula (dados/aula/divergencias.csv).
+# CL 56: o "flagrante" da denúncia é o de receptação e de arma, na busca, dois meses depois
+# do golpe. FE 105: a denúncia narra a parada do carro pela PM logo depois do golpe sem usar
+# nenhum dos termos da triagem.
+PRESO_MANUAL = {"CL 56": False, "FE 105": True}
 
 
 def faixa(dias):
@@ -72,7 +78,7 @@ def base():
             caso=caso, numero=n_, estrato=d["estrato"], peso=float(d["peso"]), fora=ex["classe"] == "fora",
             sistema=ex["sistema"], canal="sistema-objeto" if ex["sistema"] == "objeto" else ex["canal_eixo"],
             acesso=ex["canal_eixo"] if ex["sistema"] == "objeto" else "", meio=c["meio_contato"], artificio=c["artificio"],
-            papel=c["papel_denunciado"], nivel=nivel, preso_no_ato=bool(re.search(INDICIOS["flagrante"], texto, re.I)),
+            papel=c["papel_denunciado"], nivel=nivel, preso_no_ato=PRESO_MANUAL.get(caso, bool(re.search(INDICIOS["flagrante"], texto, re.I))),
             data_fato=x["data_fato"].isoformat() if x["data_fato"] else "", precisao=x["precisao"], fonte_data=x["fonte_data"],
             data_denuncia=x["data_denuncia"].isoformat() if x["data_denuncia"] else "", fonte_data_denuncia=x["fonte_data_denuncia"],
             dias=dias, meses=round(dias / MES, 1) if dias is not None else None, faixa=faixa(dias),

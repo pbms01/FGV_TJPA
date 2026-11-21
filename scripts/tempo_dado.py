@@ -110,6 +110,14 @@ DATA_MANUAL = {
     "FE 86": (datetime.date(2023, 11, 26), "até", "a denúncia diz só 'na data dos fatos'; a venda dos ingressos é anterior ao show de 26 de novembro de 2023, que a regra lia como data do fato"),
 }
 
+# Data da denúncia lida à mão, quando a da assinatura falta e a do PJe não é a do protocolo.
+# No CL 56 a denúncia fecha com "data do protocolo", e a cópia gravada veio do e-STJ, com data
+# de PJe de 14/11/2025; o carimbo da própria peça dá o protocolo em 27/09/2023 (exame em aula,
+# 21/11/2026, dados/aula/divergencias.csv).
+DATA_DENUNCIA_MANUAL = {
+    "CL 56": (datetime.date(2023, 9, 27), "carimbo de protocolo da peça; a data do PJe é a da cópia remetida ao STJ"),
+}
+
 # Leitura à mão das 29 denúncias da matriz (trecho depois da âncora). Nas duas marcadas com
 # "até" a denúncia só dá o limite; no CL 56 o primeiro fato é de "data incerta" e vale o
 # segundo; no INV 11 vale o início do período (janeiro de 2021 a outubro de 2022).
@@ -222,6 +230,9 @@ PEDIDO_COTA = {
     "INV 28": [("perícia em objetos apreendidos", "requer", "objetos apreendidos na casa de um denunciado")],
     "INV 21": [("perícia em dispositivo", "aguarda resultado", "laudos dos aparelhos eletrônicos apreendidos")],
     "CL 56": [("perícia em objetos apreendidos", "aguarda resultado", "laudos do material apreendido")],
+    # Lido no exame em aula (21/11/2026): a denúncia sai 13 meses depois do flagrante sem o
+    # extrato das duas operações, e a cota pede que a delegacia o obtenha da vítima.
+    "FE 105": [("bancário, pela vítima", "requer", "extratos da vítima das duas operações, por ofício à delegacia")],
 }
 FALSO_PEDIDO = {
     "FE 51": "ofícios de praxe a bancos e operadoras para localizar o réu, não para provar",
@@ -241,13 +252,16 @@ def le(caso, numero):
     cota = re.sub(r"\s+", " ", seg.get("cota", ""))
     doc, ass = data_documento(numero), data_assinatura(seg)
     den = ass or doc
+    fonte_den = "assinatura" if ass else "PJe"
+    if caso in DATA_DENUNCIA_MANUAL:
+        den, fonte_den = DATA_DENUNCIA_MANUAL[caso][0], "manual"
     if caso in DATA_MANUAL:
         fato, prec, fonte = DATA_MANUAL[caso][0], DATA_MANUAL[caso][1], "manual"
     else:
         fato, prec = data_fato_regra(narr, den)
         fonte = "regra" if fato else ""
     x = dict(data_fato=fato, precisao=prec, fonte_data=fonte, data_denuncia=den,
-             fonte_data_denuncia="assinatura" if ass else "PJe", data_documento_pje=doc)
+             fonte_data_denuncia=fonte_den, data_documento_pje=doc)
     x["dias"] = (den - fato).days if fato and den else None
     texto = narr + " " + cota
     for k, rx in RX_FONTES.items():

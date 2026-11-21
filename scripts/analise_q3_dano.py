@@ -67,7 +67,8 @@ CORRECAO = {
 # dosimetria, em ementa citada ou no pedido do MP). Entradas marcadas "(segundo leitor)" vêm
 # da adjudicação de dados/conferencia/adjudicacao.csv.
 CONSEQ_MANUAL = {
-    "INV 39": ("negativa", ["psicológico", "social"], "relatório psicológico; hostilidade e falta de acolhimento no trabalho depois da divulgação"),
+    "FE 105": ("neutra", [], "pena-base de um réu no mínimo, sem circunstância negativa, e a do outro elevada só pelos antecedentes; o prejuízo restituído na delegacia aparece só na recusa da insignificância (exame em aula)"),
+    "INV 39":("negativa", ["psicológico", "social"], "relatório psicológico; hostilidade e falta de acolhimento no trabalho depois da divulgação"),
     "INV 20": ("não examinada", [], "a menção a consequências patrimoniais e morais está na recusa da insignificância"),
     "INV 30": ("negativa", ["econômico", "digital", "reputacional"], "perdeu projetos e clientes e contratou 15 pessoas para refazer o trabalho perdido; a perda de clientes é dano à reputação da empresa (segundo leitor)"),
     "INV 4": ("negativa", ["digital", "psicológico"], "uso ilícito de dados e documentos pessoais, abalo psíquico e receio de prejuízo; a reparação é negada porque 'não houve prejuízo financeiro' (segundo leitor)"),

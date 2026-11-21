@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Duas cartelas de ovos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Layout: o mesmo do exercício do caso âncora (coluna única; o caso em cima, as
+   questões em cartões, a síntese do par ao fim), para que os dois se leiam juntos. */
+:root {
+  --bg: #f3f5f7;
+  --surface: #ffffff;
+  --ink: #18212b;
+  --muted: #5a6573;
+  --line: #d9dee4;
+  --accent: #1d4f73;
+  --accent-soft: #e6eef4;
+  --ok: #2f6b4f;
+  --ok-soft: #e7f1ec;
+  --del: #8a2f2f;
+  --font-display: "Literata", Georgia, "Times New Roman", serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #12171d;
+    --surface: #1a2129;
+    --ink: #e4e9ee;
+    --muted: #9aa6b3;
+    --line: #2c3641;
+    --accent: #7fb3d9;
+    --accent-soft: #1e2e3b;
+    --ok: #7cc4a0;
+    --ok-soft: #18302a;
+    --del: #e08a8a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #12171d;
+  --surface: #1a2129;
+  --ink: #e4e9ee;
+  --muted: #9aa6b3;
+  --line: #2c3641;
+  --accent: #7fb3d9;
+  --accent-soft: #1e2e3b;
+  --ok: #7cc4a0;
+  --ok-soft: #18302a;
+  --del: #e08a8a;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+/* o atributo hidden prevalece sobre qualquer display definido por classe */
+[hidden] { display: none !important; }
+html, body { margin: 0; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+}
+a { color: var(--accent); }
+.wrap {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 32px 20px 64px;
+  display: grid;
+  gap: 28px;
+}
+header { display: grid; gap: 10px; }
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+h1, h2, h3 { font-family: var(--font-display); font-weight: 600; text-wrap: balance; margin: 0; line-height: 1.25; }
+h1 { font-size: 30px; }
+h2 { font-size: 21px; }
+h3 { font-size: 18px; }
+p { margin: 0; max-width: 65ch; }
+.lead { color: var(--muted); }
+
+.status { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+.chip {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--muted);
+}
+.chip.done { border-color: var(--ok); color: var(--ok); background: var(--ok-soft); }
+
+section.caso {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 22px;
+  display: grid;
+  gap: 14px;
+}
+dl { margin: 0; display: grid; gap: 10px; }
+dl div { display: grid; grid-template-columns: 120px 1fr; gap: 12px; }
+dt { font-weight: 600; color: var(--muted); font-size: 14.5px; padding-top: 1px; }
+dd { margin: 0; max-width: 60ch; }
+@media (max-width: 520px) { dl div { grid-template-columns: 1fr; gap: 2px; } }
+
+.questoes { display: grid; gap: 20px; }
+article.q {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--line);
+  border-radius: 10px;
+  padding: 22px;
+  display: grid;
+  gap: 14px;
+}
+article.q.answered { border-left-color: var(--ok); }
+.qhead { display: flex; gap: 12px; align-items: baseline; }
+.qnum { font-family: var(--font-mono); font-size: 13px; color: var(--accent); flex: none; }
+label.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+textarea {
+  width: 100%;
+  min-height: 130px;
+  resize: vertical;
+  padding: 12px 14px;
+  font: inherit;
+  color: var(--ink);
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+textarea:focus-visible, button:focus-visible, input:focus-visible, a:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+textarea[readonly] { opacity: 0.85; }
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; justify-content: space-between; }
+.count { font-family: var(--font-mono); font-size: 12.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+button {
+  font: inherit;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 9px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: var(--surface);
+  cursor: pointer;
+}
+button:disabled { opacity: 0.45; cursor: not-allowed; }
+button.ghost { background: transparent; color: var(--accent); }
+
+.gabarito {
+  display: grid;
+  gap: 12px;
+  background: var(--ok-soft);
+  border: 1px solid var(--ok);
+  border-radius: 8px;
+  padding: 18px;
+}
+.gabarito h3 { color: var(--ok); font-size: 16px; font-family: var(--font-body); }
+.lei {
+  font-family: var(--font-display);
+  font-size: 15px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 12px 14px;
+  display: grid;
+  gap: 8px;
+}
+.lei del { color: var(--del); text-decoration-thickness: 2px; }
+.lei ins { text-decoration: none; border-bottom: 2px solid var(--ok); }
+.lei b { font-family: var(--font-body); font-weight: 600; font-size: 13.5px; }
+.lei small { display: block; font-family: var(--font-body); font-size: 13px; color: var(--muted); }
+.base { font-size: 14.5px; color: var(--muted); }
+fieldset { border: 0; margin: 0; padding: 0; display: grid; gap: 6px; }
+legend { font-weight: 600; font-size: 14.5px; margin-bottom: 6px; }
+.ponto { display: flex; gap: 10px; align-items: flex-start; }
+.ponto input { margin-top: 5px; width: 16px; height: 16px; accent-color: var(--ok); flex: none; }
+.placar { font-family: var(--font-mono); font-size: 13px; color: var(--ok); font-variant-numeric: tabular-nums; }
+
+section.sintese {
+  border: 1px dashed var(--line);
+  border-radius: 10px;
+  padding: 22px;
+  display: grid;
+  gap: 12px;
+}
+section.sintese.open { border-style: solid; border-color: var(--accent); background: var(--accent-soft); }
+section.sintese ul { margin: 0; padding-left: 20px; display: grid; gap: 8px; max-width: 65ch; }
+footer { font-size: 13.5px; color: var(--muted); display: grid; gap: 10px; }
+@media (prefers-reduced-motion: no-preference) {
+  .gabarito:not([hidden]) { animation: abre 220ms ease-out; }
+  @keyframes abre { from { opacity: 0.4; transform: translateY(-3px); } to { opacity: 1; transform: none; } }
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <div class="eyebrow">Cibercriminologia para magistrados · Par 2 · Caso de contraste</div>
+    <h1>Duas cartelas de ovos</h1>
+    <p class="lead">Este caso faz par com o da <a href="https://claude.ai/artifact/WAes76QrSQFfN1xALSSxGy">furadeira de R$ 99,99</a>. Os três réus são os mesmos. Leia o caso, que vem sem o desfecho, e responda às quatro questões. O gabarito de cada uma aparece quando você envia a sua resposta. Depois, marque os pontos que a sua resposta cobriu.</p>
+    <div class="status">
+      <span class="chip" id="progresso" aria-live="polite">0 de 4 respondidas</span>
+      <button type="button" class="ghost" id="recomecar">Recomeçar</button>
+    </div>
+  </header>
+
+  <section class="caso" aria-labelledby="t-caso">
+    <h2 id="t-caso">O caso</h2>
+    <p>Dois homens passaram de carro por uma rua anunciando ovos a R$ 18,00 a cartela. A vítima quis duas cartelas e entregou o cartão a um deles, que o pôs na máquina. Ela digitou a senha; o vendedor disse que a máquina dera problema e pediu a senha de novo. Em cada operação digitaram R$ 2.036,00, com o milhar escondido no visor, e disseram que nenhuma fora aceita e que voltariam com outro aparelho. Saíram R$ 4.072,00, no débito, para a conta de um terceiro que tinha cedido a conta a um dos vendedores.</p>
+    <dl>
+      <div><dt>Datas</dt><dd>Fato e prisão em flagrante em agosto de 2023, 25 dias depois do fato do caso da furadeira; denúncia em setembro de 2024 (TJSP).</dd></div>
+      <div><dt>Flagrante</dt><dd>A PM, avisada de que o carro estava envolvido num crime registrado em julho, parou-o logo depois do golpe. Debaixo do console havia uma maquininha e quatro cartões. Os dois admitiram o golpe e indicaram o endereço da vítima, que já estava na delegacia e os reconheceu. O dinheiro foi devolvido a ela ali.</dd></div>
+      <div><dt>Denúncia</dt><dd>Os dois vendedores no art. 171, §2º-A, do CP; o titular da conta no mesmo dispositivo, com o art. 29. A cota recusa o ANPP porque a pena mínima do §2º-A não é inferior a quatro anos, junta a denúncia do caso da furadeira, em que os três respondem por associação criminosa, "para futura referência e eventual comprovação do vínculo", e pede que a vítima apresente o extrato das duas operações. Sustenta que houve representação tácita. Pedido de reparação mínima.</dd></div>
+      <div><dt>Instrução</dt><dd>Um dos vendedores, citado por edital, tem o processo suspenso. O outro, que dirigia o carro e é o dono das maquininhas no caso da furadeira, confessa e diz que o dinheiro iria para a conta do titular. O titular nega: emprestou a conta para o outro trabalhar como motorista de aplicativo, e a delegacia ligou mandando devolver o dinheiro.</dd></div>
+    </dl>
+  </section>
+
+  <div class="questoes">
+
+    <article class="q" id="q1" aria-labelledby="t-q1">
+      <div class="qhead"><span class="qnum">1 de 4</span><h3 id="t-q1">Pela narrativa, qual é a definição jurídica do fato, e o que ela decide antes da sentença?</h3></div>
+      <label class="sr" for="r1">Sua resposta à questão 1</label>
+      <textarea id="r1" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c1">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b1" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g1" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>O mesmo que no caso da furadeira: o §2º-A pede meio análogo a redes sociais, telefone ou correio eletrônico, e face a face restam o caput do art. 171 ou o furto mediante fraude por dispositivo eletrônico. A sentença deste caso aplicou o §2º-A dizendo que a fraude eletrônica "independe do meio tecnológico específico utilizado", e o acórdão manteve.</p>
+        <p>O contraste mostra o momento: a capitulação decidiu antes da sentença. A cota recusou o ANPP só pela pena mínima de 4 anos; no caput, com pena mínima de 1 ano, o acordo não estaria vedado pela pena para o titular, primário e menor de 21 anos na data do fato. E a representação, que o estelionato exigia em 2023, foi discutida até o segundo grau; o furto mediante fraude não dependeria dela neste caso.</p>
+        <div class="lei">
+          <span><b>Art. 28-A do CPP.</b> Não sendo caso de arquivamento e tendo o investigado confessado formal e circunstancialmente a prática de infração penal sem violência ou grave ameaça e com pena mínima inferior a 4 (quatro) anos, […]</span>
+        </div>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" id="p1a" data-q="1"> Aplicou ao caso a leitura do §2º-A pelo canal, e não pelo aparelho.</label>
+          <label class="ponto"><input type="checkbox" id="p1b" data-q="1"> Indicou as alternativas do caput do art. 171 e do furto mediante fraude por dispositivo eletrônico.</label>
+          <label class="ponto"><input type="checkbox" id="p1c" data-q="1"> Notou que a capitulação fechou o ANPP na cota.</label>
+          <label class="ponto"><input type="checkbox" id="p1d" data-q="1"> Notou o efeito sobre a exigência de representação.</label>
+        </fieldset>
+        <span class="placar" id="s1">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+
+    <article class="q" id="q2" aria-labelledby="t-q2">
+      <div class="qhead"><span class="qnum">2 de 4</span><h3 id="t-q2">Por que a denúncia não imputa a associação criminosa, se os três agiam juntos?</h3></div>
+      <label class="sr" for="r2">Sua resposta à questão 2</label>
+      <textarea id="r2" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c2">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b2" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g2" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>Porque a associação, crime permanente, já estava denunciada no caso da furadeira, e imputá-la de novo seria punir duas vezes o mesmo fato. A cota juntou a outra denúncia para registrar o vínculo. O efeito é que cada processo julga só o fato que narra: aqui o dono das maquininhas é o motorista do golpe; lá, um fornecedor de contas. Em nenhum dos dois ele é julgado pelo que o acórdão do outro processo reconheceu, a liderança.</p>
+        <p>Para o juiz, a outra denúncia não serve para aumentar a pena, mas mostra que o mesmo titular cedeu a conta ao mesmo comprador nos dois processos. A sentença usou como maus antecedentes condenações por fatos posteriores, e o acórdão corrigiu. A consulta cruzada de processos pelos titulares e pelas contas recebedoras é o que junta o que a competência territorial separa.</p>
+        <p class="base">Na base, só 14 das 65 denúncias plurais narram quem coordena, e a fraude chega ao processo pelos papéis locais: quem aborda a vítima, quem dirige, quem cede a conta.</p>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" id="p2a" data-q="2"> Identificou o risco de dupla imputação da mesma associação.</label>
+          <label class="ponto"><input type="checkbox" id="p2b" data-q="2"> Explicou a juntada da outra denúncia como registro do vínculo.</label>
+          <label class="ponto"><input type="checkbox" id="p2c" data-q="2"> Notou que cada processo julga só o fato que narra.</label>
+          <label class="ponto"><input type="checkbox" id="p2d" data-q="2"> Propôs cruzar processos pelos titulares e pelas contas.</label>
+        </fieldset>
+        <span class="placar" id="s2">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+
+    <article class="q" id="q3" aria-labelledby="t-q3">
+      <div class="qhead"><span class="qnum">3 de 4</span><h3 id="t-q3">No recebimento da denúncia, o que ligava o titular da conta ao golpe? E a devolução do dinheiro prova o quê?</h3></div>
+      <label class="sr" for="r3">Sua resposta à questão 3</label>
+      <textarea id="r3" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c3">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b3" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g3" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>A palavra dos dois presos. O extrato das operações estava só pedido, treze meses depois do flagrante. O dado que faltava não tinha vencido: a maquininha estava apreendida desde o primeiro dia, e o registro do credenciamento diz em nome de quem ela estava e em que conta liquidava as vendas. O juiz que defere a juntada pode, na sentença, verificar se ela veio; a sentença não lista o extrato entre as provas.</p>
+        <p>A sentença leu a devolução do valor exato como confissão do titular, embora registre que quem devolveu foi o outro vendedor. A devolução feita depois de a delegacia mandar devolver prova que o dinheiro estava na conta, e não que o titular sabia do golpe. Também não é arrependimento posterior, que exige ato voluntário até o recebimento da denúncia; as duas instâncias decidiram assim.</p>
+        <div class="lei">
+          <span><b>Art. 16 do CP.</b> Nos crimes cometidos sem violência ou grave ameaça à pessoa, reparado o dano ou restituída a coisa, até o recebimento da denúncia ou da queixa, por ato voluntário do agente, a pena será reduzida de um a dois terços.</span>
+        </div>
+        <p class="base">Na base, só 15 das 194 cotas pedem dado novo à investigação, e esta é a única que o pede à própria vítima. Com prisão no ato, a mediana do fato à denúncia é de 7,3 meses; esta levou 13.</p>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" id="p3a" data-q="3"> Identificou que a ligação do titular ao golpe era a palavra dos corréus.</label>
+          <label class="ponto"><input type="checkbox" id="p3b" data-q="3"> Notou que o extrato estava só pedido e que o dado não tinha vencido.</label>
+          <label class="ponto"><input type="checkbox" id="p3c" data-q="3"> Indicou a máquina apreendida e o credenciamento como prova a buscar.</label>
+          <label class="ponto"><input type="checkbox" id="p3d" data-q="3"> Distinguiu a prova de que o dinheiro estava na conta da prova do dolo do titular.</label>
+        </fieldset>
+        <span class="placar" id="s3">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+
+    <article class="q" id="q4" aria-labelledby="t-q4">
+      <div class="qhead"><span class="qnum">4 de 4</span><h3 id="t-q4">Compare as penas dos três nos dois processos.</h3></div>
+      <label class="sr" for="r4">Sua resposta à questão 4</label>
+      <textarea id="r4" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c4">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b4" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g4" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>No caso da furadeira, o dono das maquininhas, que o acórdão põe em posição de liderança, teve 1 ano em aberto pelo 288; o titular desta conta, também 1 ano; a titular da conta da maquininha, 6 anos e 4 meses em semiaberto; o vendedor, absolvido em primeiro grau, foi condenado no 288 em segundo. Neste caso, a sentença deu 5 anos e 4 meses em semiaberto ao dono das maquininhas e 4 anos em aberto, substituídos, ao titular; o acórdão afastou os maus antecedentes e reduziu a pena do primeiro a 4 anos, mantido o semiaberto. O outro vendedor segue com o processo suspenso.</p>
+        <p>O titular que lá teve 1 ano aqui tem a mesma pena do dono das maquininhas, porque a conta dele é a que está no fato. Em nenhum dos dois processos o dono das maquininhas foi julgado pelo que fazia no grupo.</p>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" id="p4a" data-q="4"> Comparou a pena do dono das maquininhas nos dois processos.</label>
+          <label class="ponto"><input type="checkbox" id="p4b" data-q="4"> Comparou a pena do titular da conta nos dois processos.</label>
+          <label class="ponto"><input type="checkbox" id="p4c" data-q="4"> Explicou a diferença pelo fato que cada denúncia narrou.</label>
+          <label class="ponto"><input type="checkbox" id="p4d" data-q="4"> Notou que em nenhum dos dois a liderança chegou à pena.</label>
+        </fieldset>
+        <span class="placar" id="s4">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+
+  </div>
+
+  <section class="sintese" id="sintese" aria-labelledby="t-sintese" aria-live="polite">
+    <h2 id="t-sintese">O que o par acrescenta à decisão</h2>
+    <p id="sintese-espera">A síntese aparece quando as quatro questões estiverem respondidas.</p>
+    <ul id="sintese-lista" hidden>
+      <li>A leitura do §2º-A pelo aparelho, e não pelo canal, decide antes da sentença: fecha o ANPP na cota e mantém a discussão sobre a representação.</li>
+      <li>O mesmo grupo processado em duas comarcas é julgado em pedaços. Cada processo julga o fato que narra, e a liderança, reconhecida num acórdão, não chega à pena em nenhum.</li>
+      <li>O flagrante não substitui o dado. Com a máquina apreendida, o credenciamento e a conta de liquidação estavam ao alcance desde o primeiro dia.</li>
+      <li>Quem devolveu o dinheiro foi o grupo, depois da prisão. Isso não é arrependimento posterior, e não prova o dolo do titular da conta.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Caso de uma ação penal do TJSP, com denúncia, sentença e acórdão lidos por inteiro e anonimizados. Os números vêm da base de pesquisa de 198 denúncias e suas sentenças.</p>
+    <p>As respostas ficam só nesta página e se perdem ao recarregá-la.</p>
+  </footer>
+</main>
+
+<script>
+(function () {
+  var MIN = 40;
+  var QS = [1, 2, 3, 4];
+  var respondidas = {};
+  QS.forEach(function (q) { respondidas[q] = false; });
+
+  function el(id) { return document.getElementById(id); }
+
+  function atualizaProgresso() {
+    var n = QS.filter(function (q) { return respondidas[q]; }).length;
+    var chip = el("progresso");
+    chip.textContent = n + " de " + QS.length + " respondidas";
+    chip.classList.toggle("done", n === QS.length);
+    var aberta = n === QS.length;
+    el("sintese").classList.toggle("open", aberta);
+    el("sintese-lista").hidden = !aberta;
+    el("sintese-espera").hidden = aberta;
+  }
+
+  function atualizaPlacar(q) {
+    var caixas = document.querySelectorAll('input[data-q="' + q + '"]');
+    var marcados = Array.prototype.filter.call(caixas, function (c) { return c.checked; }).length;
+    el("s" + q).textContent = marcados + " de " + caixas.length + " pontos marcados";
+  }
+
+  QS.forEach(function (q) {
+    var campo = el("r" + q), botao = el("b" + q), conta = el("c" + q);
+    campo.addEventListener("input", function () {
+      var n = campo.value.trim().length;
+      conta.textContent = n + (n === 1 ? " caractere" : " caracteres") + " · mínimo de " + MIN;
+      botao.disabled = n < MIN;
+    });
+    botao.addEventListener("click", function () {
+      if (campo.value.trim().length < MIN) return;
+      campo.readOnly = true;
+      botao.disabled = true;
+      botao.textContent = "Resposta enviada";
+      el("g" + q).hidden = false;
+      el("q" + q).classList.add("answered");
+      respondidas[q] = true;
+      atualizaProgresso();
+    });
+    document.querySelectorAll('input[data-q="' + q + '"]').forEach(function (c) {
+      c.addEventListener("change", function () { atualizaPlacar(q); });
+    });
+  });
+
+  el("recomecar").addEventListener("click", function () {
+    QS.forEach(function (q) {
+      var campo = el("r" + q), botao = el("b" + q);
+      campo.value = "";
+      campo.readOnly = false;
+      botao.disabled = true;
+      botao.textContent = "Responder e ver o gabarito";
+      el("c" + q).textContent = "0 caracteres · mínimo de " + MIN;
+      el("g" + q).hidden = true;
+      el("q" + q).classList.remove("answered");
+      document.querySelectorAll('input[data-q="' + q + '"]').forEach(function (c) { c.checked = false; });
+      atualizaPlacar(q);
+      respondidas[q] = false;
+    });
+    atualizaProgresso();
+    el("r1").focus();
+  });
+})();
+</script>
+</body>
+</html>
