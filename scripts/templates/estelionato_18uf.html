@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Estelionato eletrônico em 18 UFs</title>
+<style>
+/* Ideia: uma página de leitura única; resumo em três números, o gráfico em destaque, método e fontes abaixo.
+   Forma do gráfico: ênfase (um matiz para o eletrônico, cinza para o comum), colunas empilhadas com o eletrônico na linha de base. */
+:root {
+  color-scheme: light;
+  --page: #f9f9f7;
+  --surface: #fcfcfb;
+  --ink: #0b0b0b;
+  --ink-2: #52514e;
+  --muted: #898781;
+  --grid: #e1e0d9;
+  --axis: #c3c2b7;
+  --accent: #2a78d6;
+  --deemph: #c3c2b7;
+  --wash: rgba(42,120,214,0.07);
+  --ring: rgba(11,11,11,0.10);
+  --font: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7; --muted: #898781;
+    --grid: #2c2c2a; --axis: #383835; --accent: #3987e5; --deemph: #5f5e5a;
+    --wash: rgba(57,135,229,0.10); --ring: rgba(255,255,255,0.10);
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7; --muted: #898781;
+  --grid: #2c2c2a; --axis: #383835; --accent: #3987e5; --deemph: #5f5e5a;
+  --wash: rgba(57,135,229,0.10); --ring: rgba(255,255,255,0.10);
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--page); color: var(--ink); font-family: var(--font); line-height: 1.5; }
+main { max-width: 880px; margin: 0 auto; padding: 40px 20px 64px; display: grid; gap: 28px; }
+h1 { font-size: 30px; line-height: 1.2; margin: 0; font-weight: 650; text-wrap: balance; letter-spacing: -0.01em; }
+h2 { font-size: 17px; margin: 0 0 8px; font-weight: 650; }
+p { margin: 0; max-width: 68ch; }
+.lede { color: var(--ink-2); font-size: 16px; margin-top: 10px; }
+.tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.tile { background: var(--surface); border: 1px solid var(--ring); border-radius: 10px; padding: 14px 16px; display: grid; gap: 4px; align-content: start; }
+.tile .label { font-size: 13px; color: var(--ink-2); }
+.tile .value { font-size: 30px; font-weight: 650; line-height: 1.15; }
+.tile .sub { font-size: 13px; color: var(--muted); }
+.tile .key { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: 0; }
+figure { margin: 0; background: var(--surface); border: 1px solid var(--ring); border-radius: 12px; padding: 18px 18px 12px; }
+.fig-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 8px 16px; }
+.fig-title { font-size: 15px; font-weight: 600; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 13px; color: var(--ink-2); list-style: none; padding: 0; margin: 8px 0 0; }
+.legend li { display: flex; align-items: center; gap: 6px; }
+.sw { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+.chart-wrap { position: relative; margin-top: 8px; }
+svg { display: block; width: 100%; height: auto; overflow: visible; }
+.tick { font-size: 12px; fill: var(--muted); font-variant-numeric: tabular-nums; }
+.xlab { font-size: 13px; fill: var(--ink-2); }
+.dl { font-size: 13px; fill: var(--ink); font-weight: 600; }
+.dl2 { font-size: 12px; fill: var(--ink-2); }
+.hit { fill: transparent; cursor: default; outline: none; }
+.hit:hover, .hit:focus-visible { fill: var(--wash); }
+.hit:focus-visible { stroke: var(--accent); stroke-width: 1.5; }
+.tip { position: absolute; pointer-events: none; background: var(--surface); color: var(--ink); border: 1px solid var(--ring); border-radius: 8px; padding: 8px 10px; font-size: 13px; box-shadow: 0 4px 16px rgba(0,0,0,0.12); min-width: 190px; display: none; }
+.tip .yr { font-size: 12px; color: var(--muted); margin-bottom: 4px; }
+.tip .row { display: flex; align-items: center; gap: 8px; justify-content: space-between; }
+.tip .row span:first-child { display: flex; align-items: center; gap: 6px; color: var(--ink-2); }
+.tip .row strong { font-variant-numeric: tabular-nums; }
+.tip .lk { width: 12px; height: 2px; border-radius: 1px; display: inline-block; }
+.fig-foot { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 16px; align-items: center; margin-top: 6px; font-size: 12px; color: var(--muted); }
+button { font: inherit; font-size: 13px; color: var(--ink); background: transparent; border: 1px solid var(--axis); border-radius: 6px; padding: 5px 10px; cursor: pointer; }
+button:hover { background: var(--wash); }
+button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.table-wrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; margin-top: 10px; }
+th, td { text-align: right; padding: 6px 8px; border-bottom: 1px solid var(--grid); font-variant-numeric: tabular-nums; white-space: nowrap; }
+th:first-child, td:first-child { text-align: left; }
+th { color: var(--ink-2); font-weight: 600; }
+td.motivo { text-align: left; white-space: normal; color: var(--ink-2); min-width: 220px; }
+tr.fora td { color: var(--muted); }
+.notes { display: grid; gap: 12px; color: var(--ink-2); font-size: 15px; }
+details { background: var(--surface); border: 1px solid var(--ring); border-radius: 10px; padding: 12px 16px; }
+summary { cursor: pointer; font-weight: 600; font-size: 15px; }
+summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.sources { font-size: 14px; color: var(--ink-2); display: grid; gap: 4px; padding-left: 18px; margin: 0; }
+a { color: var(--accent); }
+@media (max-width: 640px) {
+  .tiles { grid-template-columns: 1fr; }
+  h1 { font-size: 24px; }
+}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>O aumento do estelionato registrado é, sobretudo, eletrônico</h1>
+    <p class="lede" id="lede"></p>
+  </header>
+
+  <section class="tiles" aria-label="Resumo">
+    <div class="tile">
+      <div class="label"><span class="key" style="background: var(--accent)"></span>Estelionato por meio eletrônico, 2025</div>
+      <div class="value" id="t1v"></div>
+      <div class="sub" id="t1s"></div>
+    </div>
+    <div class="tile">
+      <div class="label"><span class="key" style="background: var(--deemph)"></span>Estelionato comum, 2025</div>
+      <div class="value" id="t2v"></div>
+      <div class="sub" id="t2s"></div>
+    </div>
+    <div class="tile">
+      <div class="label">Parte eletrônica do aumento de 2022 a 2025</div>
+      <div class="value" id="t3v"></div>
+      <div class="sub" id="t3s"></div>
+    </div>
+  </section>
+
+  <figure id="fig" aria-labelledby="figt">
+    <div class="fig-head">
+      <div class="fig-title" id="figt"></div>
+    </div>
+    <ul class="legend">
+      <li><span class="sw" style="background: var(--accent)"></span>Estelionato por meio eletrônico (art. 171, §§ 2º-A, 2º-B e 3º, CP)</li>
+      <li><span class="sw" style="background: var(--deemph)"></span>Estelionato comum (total menos eletrônico)</li>
+    </ul>
+    <div class="chart-wrap" id="wrap">
+      <svg id="chart" viewBox="0 0 760 400" role="img" aria-describedby="lede"></svg>
+      <div class="tip" id="tip" role="status" aria-live="polite"></div>
+    </div>
+    <div class="fig-foot">
+      <span>Fonte: FBSP, Anuário Brasileiro de Segurança Pública, 17ª a 20ª edições (registros das polícias estaduais). * Primeiro ano da natureza; ver nota.</span>
+      <button type="button" id="tbtn" aria-expanded="false" aria-controls="tview">Ver como tabela</button>
+    </div>
+    <div class="table-wrap" id="tview" hidden>
+      <table id="tseries"></table>
+    </div>
+  </figure>
+
+  <section class="notes" aria-labelledby="nh">
+    <h2 id="nh">Como a série foi montada</h2>
+    <p>Os números vêm das tabelas de estelionato e estelionato por meio eletrônico de quatro edições do Anuário Brasileiro de Segurança Pública, da 17ª (2023) à 20ª (2026), cada uma com dois anos. Como o Fórum revisa o ano anterior a cada edição, ficou para cada ano o valor da edição mais recente. O estelionato comum é o total menos o eletrônico, porque o total do Anuário abrange as duas modalidades.</p>
+    <p id="n2"></p>
+    <p id="n3"></p>
+    <p id="n4"></p>
+  </section>
+
+  <details>
+    <summary>Estelionato por meio eletrônico, por UF, e critério do painel</summary>
+    <div class="table-wrap"><table id="tuf"></table></div>
+  </details>
+
+  <section aria-labelledby="fh">
+    <h2 id="fh">Fontes</h2>
+    <ul class="sources">
+      <li><a href="https://publicacoes.forumseguranca.org.br/items/721e3396-1a66-4ff6-8ceb-ea319684a57a">17º Anuário (2023), planilha, aba T15: 2021 e 2022</a></li>
+      <li><a href="https://publicacoes.forumseguranca.org.br/items/f62c4196-561d-452d-a2a8-9d33d1163af0">18º Anuário (2024), planilha, aba T15: 2022 e 2023</a></li>
+      <li><a href="https://publicacoes.forumseguranca.org.br/items/c3605778-37b3-4ad6-8239-94e4cb236444">19º Anuário (2025), planilha, aba T19: 2023 e 2024</a></li>
+      <li><a href="https://publicacoes.forumseguranca.org.br/items/bb542342-3cf8-47a5-a51d-a0eb911914b9">20º Anuário (2026), planilha, aba T17: 2024 e 2025</a></li>
+    </ul>
+  </section>
+</main>
+
+<script>
+const DATA = /*__DATA__*/null;
+const S = DATA.serie, R = DATA.resumo;
+const nf = new Intl.NumberFormat('pt-BR');
+const mil = v => new Intl.NumberFormat('pt-BR', {minimumFractionDigits: 1, maximumFractionDigits: 1}).format(v / 1000) + ' mil';
+const pct = v => Math.round(v * 100) + '%';
+const dec = (v, d) => new Intl.NumberFormat('pt-BR', {minimumFractionDigits: d, maximumFractionDigits: d}).format(v);
+const vez = (v, d) => dec(v, d) + (Math.round(v * 10 ** d) / 10 ** d >= 2 ? ' vezes' : ' vez');
+const set = (id, txt) => { document.getElementById(id).textContent = txt; };
+
+set('lede', `Nas ${R.n_ufs} unidades da Federação que informaram o meio eletrônico em todos os anos de 2021 a 2025, sem quebra de registro declarada, o estelionato eletrônico passou de ${mil(R.e2021)} para ${mil(R.e2025)} registros, e o comum, de ${mil(R.c2021)} para ${mil(R.c2025)}. A parte eletrônica do total foi de ${pct(R.share_e_2021)} para ${pct(R.share_e_2025)}. Esses estados somam ${pct(R.painel_sobre_brasil_2025)} dos estelionatos registrados no país em 2025.`);
+set('t1v', mil(R.e2025));
+set('t1s', `${vez(R.mult_e_2021, 1)} o de 2021 e ${vez(R.mult_e_2022, 1)} o de 2022`);
+set('t2v', mil(R.c2025));
+set('t2s', `${vez(R.mult_c_2021, 1)} o de 2021 e ${vez(R.mult_c_2022, 2)} o de 2022`);
+set('t3v', dec(R.parte_e_aumento * 100, 1) + '%');
+set('t3s', `${mil(R.aum_e_22_25)} dos ${mil(R.aum_total_22_25)} registros a mais nas ${R.n_ufs} UFs`);
+set('figt', `Registros de estelionato por ano nas ${R.n_ufs} UFs do painel`);
+const br25 = S[S.length - 1].brasil_eletronico_composicao_variavel;
+set('n2', `O total nacional do meio eletrônico publicado em cada edição não serve como série, porque soma apenas os estados que informaram naquele ano. São Paulo, Rio de Janeiro e Ceará nunca informaram, e os ${nf.format(br25)} registros de 2025 os deixam de fora. Além desses três, saíram do painel os estados com quebra de registro declarada em nota ou com revisão sem explicação, listados com o motivo na tabela por UF abaixo.`);
+set('n3', `* 2021 é o primeiro ano da natureza criada pela Lei 14.155/2021, e várias UFs ainda a implantavam nos sistemas (Goiás registrou ${nf.format(DATA.por_uf.find(u => u.uf === 'Goiás').eletronico[0])} casos e Roraima, ${nf.format(DATA.por_uf.find(u => u.uf === 'Roraima').eletronico[0])}), o que infla o crescimento medido a partir desse ano. Por isso os números do resumo trazem também a comparação com 2022.`);
+set('n4', `O registro policial não separa o crescimento do crime da migração de casos do comum para o eletrônico à medida que as polícias adotam a nova natureza. Em Goiás, o estelionato total pouco variou entre 2022 e 2025 (${nf.format(R.go_t2022)} e ${nf.format(R.go_t2025)}), enquanto o eletrônico passou de ${nf.format(R.go_e2022)} para ${nf.format(R.go_e2025)}. Parte do crescimento do segmento eletrônico é, portanto, reclassificação, em proporção que esses dados não permitem medir.`);
+
+// ---------- gráfico ----------
+const svg = document.getElementById('chart');
+const NS = 'http://www.w3.org/2000/svg';
+const W = 760, H = 400, M = {l: 64, r: 20, t: 30, b: 40};
+const pw = W - M.l - M.r, ph = H - M.t - M.b;
+const YMAX = 900000, TICKS = [0, 200000, 400000, 600000, 800000];
+const band = pw / S.length, BW = 24, GAP = 2, RAD = 4;
+const y = v => M.t + ph - (v / YMAX) * ph;
+const el = (tag, attrs, parent = svg) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); parent.appendChild(e); return e; };
+const txt = (s, attrs) => { const e = el('text', attrs); e.textContent = s; return e; };
+
+TICKS.forEach(t => {
+  el('line', {x1: M.l, x2: W - M.r, y1: y(t), y2: y(t), stroke: t === 0 ? 'var(--axis)' : 'var(--grid)', 'stroke-width': 1});
+  txt(t === 0 ? '0' : nf.format(t / 1000) + ' mil', {x: M.l - 10, y: y(t) + 4, 'text-anchor': 'end', class: 'tick'});
+});
+
+// coluna com topo arredondado (4px) e base reta
+const topRounded = (x, y0, w, h, r) => `M${x},${y0 + h}V${y0 + r}Q${x},${y0} ${x + r},${y0}H${x + w - r}Q${x + w},${y0} ${x + w},${y0 + r}V${y0 + h}Z`;
+
+const tip = document.getElementById('tip');
+const wrap = document.getElementById('wrap');
+function showTip(d, cx) {
+  tip.replaceChildren();
+  const yr = document.createElement('div'); yr.className = 'yr'; yr.textContent = String(d.ano) + (d.ano === 2021 ? ' (primeiro ano da natureza)' : ''); tip.appendChild(yr);
+  [['Eletrônico', d.eletronico, 'var(--accent)'], ['Comum', d.comum, 'var(--deemph)'], ['Total', d.total, null]].forEach(([n, v, c]) => {
+    const row = document.createElement('div'); row.className = 'row';
+    const a = document.createElement('span');
+    if (c) { const k = document.createElement('i'); k.className = 'lk'; k.style.background = c; a.appendChild(k); }
+    a.appendChild(document.createTextNode(n));
+    const b = document.createElement('strong'); b.textContent = nf.format(v);
+    row.append(a, b); tip.appendChild(row);
+  });
+  const sh = document.createElement('div'); sh.className = 'yr'; sh.style.marginTop = '4px';
+  sh.textContent = `Eletrônico: ${dec(d.eletronico / d.total * 100, 1)}% do total`; tip.appendChild(sh);
+  tip.style.display = 'block';
+  const scale = svg.getBoundingClientRect().width / W;
+  let left = cx * scale + 16;
+  if (left + tip.offsetWidth > wrap.clientWidth) left = cx * scale - tip.offsetWidth - 16;
+  tip.style.left = left + 'px'; tip.style.top = (M.t * scale) + 'px';
+}
+const hideTip = () => { tip.style.display = 'none'; };
+
+S.forEach((d, i) => {
+  const cx = M.l + band * i + band / 2, x = cx - BW / 2;
+  const yE = y(d.eletronico), yT = y(d.total);
+  // eletrônico na linha de base: segmento interno, cantos retos
+  el('rect', {x, y: yE, width: BW, height: y(0) - yE, fill: 'var(--accent)'});
+  // comum por cima, separado por 2px de superfície, topo arredondado
+  el('path', {d: topRounded(x, yT, BW, (yE - GAP) - yT, RAD), fill: 'var(--deemph)'});
+  txt(d.ano === 2021 ? '2021*' : String(d.ano), {x: cx, y: H - M.b + 22, 'text-anchor': 'middle', class: 'xlab'});
+
+  const first = i === 0, last = i === S.length - 1;
+  if (first || last) {
+    // rótulos seletivos: só a primeira e a última coluna; 2021 à direita, 2025 à esquerda, dentro da faixa livre
+    const side = first ? 1 : -1, ax = cx + side * (BW / 2 + 8), anchor = first ? 'start' : 'end';
+    const mE = (yE + y(0)) / 2, mC = (yT + yE) / 2;
+    txt(mil(d.eletronico), {x: ax, y: mE - 2, 'text-anchor': anchor, class: 'dl'});
+    txt(pct(d.eletronico / d.total) + ' do total', {x: ax, y: mE + 14, 'text-anchor': anchor, class: 'dl2'});
+    txt(mil(d.comum), {x: ax, y: mC + 4, 'text-anchor': anchor, class: 'dl2'});
+    txt(mil(d.total), {x: cx, y: yT - 8, 'text-anchor': 'middle', class: 'dl'});
+  }
+  // alvo de hover e foco: a faixa inteira, maior que a marca
+  const hit = el('rect', {x: M.l + band * i + 2, y: M.t, width: band - 4, height: ph, class: 'hit', tabindex: 0, rx: 6,
+    'aria-label': `${d.ano}: eletrônico ${nf.format(d.eletronico)}, comum ${nf.format(d.comum)}, total ${nf.format(d.total)}`});
+  hit.addEventListener('pointerenter', () => showTip(d, cx));
+  hit.addEventListener('pointerleave', hideTip);
+  hit.addEventListener('focus', () => showTip(d, cx));
+  hit.addEventListener('blur', hideTip);
+});
+
+// ---------- tabelas ----------
+function fillTable(t, head, rows, rowClass) {
+  const thead = document.createElement('thead'), tr = document.createElement('tr');
+  head.forEach(h => { const th = document.createElement('th'); th.scope = 'col'; th.textContent = h; tr.appendChild(th); });
+  thead.appendChild(tr); t.appendChild(thead);
+  const tb = document.createElement('tbody');
+  rows.forEach((r, i) => {
+    const row = document.createElement('tr'); if (rowClass) row.className = rowClass(i);
+    r.forEach((c, j) => { const td = document.createElement('td'); td.textContent = c; if (j === r.length - 1 && head[j] === 'No painel') td.className = 'motivo'; row.appendChild(td); });
+    tb.appendChild(row);
+  });
+  t.appendChild(tb);
+}
+fillTable(document.getElementById('tseries'), ['Ano', 'Eletrônico', 'Comum', 'Total', '% eletrônico'],
+  S.map(d => [String(d.ano), nf.format(d.eletronico), nf.format(d.comum), nf.format(d.total), dec(d.eletronico / d.total * 100, 1) + '%']));
+const ufs = DATA.por_uf.slice().sort((a, b) => (b.painel - a.painel) || a.uf.localeCompare(b.uf, 'pt-BR'));
+fillTable(document.getElementById('tuf'), ['UF', '2021', '2022', '2023', '2024', '2025', 'No painel'],
+  ufs.map(u => [u.uf, ...u.eletronico.map(v => v === null ? 'não inf.' : nf.format(v)), u.painel ? 'sim' : 'não: ' + u.motivo]),
+  i => ufs[i].painel ? '' : 'fora');
+
+const tbtn = document.getElementById('tbtn'), tview = document.getElementById('tview');
+tbtn.addEventListener('click', () => {
+  const open = tview.hidden; tview.hidden = !open;
+  tbtn.setAttribute('aria-expanded', String(open));
+  tbtn.textContent = open ? 'Ocultar tabela' : 'Ver como tabela';
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crime patrimonial eletrônico no Pará</title>
+<style>
+/* Ideia: resumo em três números, o gráfico em destaque, método e fontes abaixo.
+   Forma: ênfase. Azul é a parte que a estatística nacional vê (§ 2º-A); cinzas são o resto do registro policial;
+   a linha laranja é o número que o Anuário publica, no mesmo eixo e na mesma unidade (registros). */
+:root {
+  color-scheme: light;
+  --page: #f9f9f7;
+  --surface: #fcfcfb;
+  --ink: #0b0b0b;
+  --ink-2: #52514e;
+  --muted: #898781;
+  --grid: #e1e0d9;
+  --axis: #c3c2b7;
+  --accent: #2a78d6;
+  --deemph: #c3c2b7;
+  --accent2: #eb6834;
+  --g1: #d6d5ce;
+  --g2: #a3a29a;
+  --wash: rgba(42,120,214,0.07);
+  --ring: rgba(11,11,11,0.10);
+  --font: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7; --muted: #898781;
+    --grid: #2c2c2a; --axis: #383835; --accent: #3987e5; --deemph: #5f5e5a; --accent2: #d95926; --g1: #42423e; --g2: #6d6c66;
+    --wash: rgba(57,135,229,0.10); --ring: rgba(255,255,255,0.10);
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7; --muted: #898781;
+  --grid: #2c2c2a; --axis: #383835; --accent: #3987e5; --deemph: #5f5e5a; --accent2: #d95926; --g1: #42423e; --g2: #6d6c66;
+  --wash: rgba(57,135,229,0.10); --ring: rgba(255,255,255,0.10);
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--page); color: var(--ink); font-family: var(--font); line-height: 1.5; }
+main { max-width: 880px; margin: 0 auto; padding: 40px 20px 64px; display: grid; gap: 28px; }
+h1 { font-size: 30px; line-height: 1.2; margin: 0; font-weight: 650; text-wrap: balance; letter-spacing: -0.01em; }
+h2 { font-size: 17px; margin: 0 0 8px; font-weight: 650; }
+p { margin: 0; max-width: 68ch; }
+.lede { color: var(--ink-2); font-size: 16px; margin-top: 10px; }
+.tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.tile { background: var(--surface); border: 1px solid var(--ring); border-radius: 10px; padding: 14px 16px; display: grid; gap: 4px; align-content: start; }
+.tile .label { font-size: 13px; color: var(--ink-2); }
+.tile .value { font-size: 30px; font-weight: 650; line-height: 1.15; }
+.tile .sub { font-size: 13px; color: var(--muted); }
+.tile .key { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: 0; }
+figure { margin: 0; background: var(--surface); border: 1px solid var(--ring); border-radius: 12px; padding: 18px 18px 12px; }
+.fig-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 8px 16px; }
+.fig-title { font-size: 15px; font-weight: 600; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 13px; color: var(--ink-2); list-style: none; padding: 0; margin: 8px 0 0; }
+.legend li { display: flex; align-items: center; gap: 6px; }
+.sw { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+.chart-wrap { position: relative; margin-top: 8px; }
+svg { display: block; width: 100%; height: auto; overflow: visible; }
+.tick { font-size: 12px; fill: var(--muted); font-variant-numeric: tabular-nums; }
+.xlab { font-size: 13px; fill: var(--ink-2); }
+.dl { font-size: 13px; fill: var(--ink); font-weight: 600; }
+.dl2 { font-size: 12px; fill: var(--ink-2); }
+.hit { fill: transparent; cursor: default; outline: none; }
+.hit:hover, .hit:focus-visible { fill: var(--wash); }
+.hit:focus-visible { stroke: var(--accent); stroke-width: 1.5; }
+.tip { position: absolute; pointer-events: none; background: var(--surface); color: var(--ink); border: 1px solid var(--ring); border-radius: 8px; padding: 8px 10px; font-size: 13px; box-shadow: 0 4px 16px rgba(0,0,0,0.12); min-width: 190px; display: none; }
+.tip .yr { font-size: 12px; color: var(--muted); margin-bottom: 4px; }
+.tip .row { display: flex; align-items: center; gap: 8px; justify-content: space-between; }
+.tip .row span:first-child { display: flex; align-items: center; gap: 6px; color: var(--ink-2); }
+.tip .row strong { font-variant-numeric: tabular-nums; }
+.tip .lk { width: 12px; height: 2px; border-radius: 1px; display: inline-block; }
+.tip .bx { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+.lgline { width: 18px; height: 2px; position: relative; display: inline-block; }
+.lgline::after { content: ''; position: absolute; left: 5px; top: -4px; width: 8px; height: 8px; border-radius: 50%; background: inherit; }
+.fig-foot { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 16px; align-items: center; margin-top: 6px; font-size: 12px; color: var(--muted); }
+button { font: inherit; font-size: 13px; color: var(--ink); background: transparent; border: 1px solid var(--axis); border-radius: 6px; padding: 5px 10px; cursor: pointer; }
+button:hover { background: var(--wash); }
+button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.table-wrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; margin-top: 10px; }
+th, td { text-align: right; padding: 6px 8px; border-bottom: 1px solid var(--grid); font-variant-numeric: tabular-nums; white-space: nowrap; }
+th:first-child, td:first-child { text-align: left; }
+th { color: var(--ink-2); font-weight: 600; }
+td.motivo { text-align: left; white-space: normal; color: var(--ink-2); min-width: 220px; }
+tr.fora td { color: var(--muted); }
+.notes { display: grid; gap: 12px; color: var(--ink-2); font-size: 15px; }
+details { background: var(--surface); border: 1px solid var(--ring); border-radius: 10px; padding: 12px 16px; }
+summary { cursor: pointer; font-weight: 600; font-size: 15px; }
+summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.sources { font-size: 14px; color: var(--ink-2); display: grid; gap: 4px; padding-left: 18px; margin: 0; }
+a { color: var(--accent); }
+@media (max-width: 640px) {
+  .tiles { grid-template-columns: 1fr; }
+  h1 { font-size: 24px; }
+}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>No Pará, a estatística nacional capta menos de um quinto do crime patrimonial eletrônico registrado</h1>
+    <p class="lede" id="lede"></p>
+  </header>
+
+  <section class="tiles" aria-label="Resumo">
+    <div class="tile">
+      <div class="label">Registros da Polícia Civil do Pará, 2025</div>
+      <div class="value" id="t1v"></div>
+      <div class="sub" id="t1s"></div>
+    </div>
+    <div class="tile">
+      <div class="label"><span class="key" style="background: var(--accent2)"></span>No Anuário como estelionato por meio eletrônico, 2025</div>
+      <div class="value" id="t2v"></div>
+      <div class="sub" id="t2s"></div>
+    </div>
+    <div class="tile">
+      <div class="label"><span class="key" style="background: var(--g2)"></span>Furto mediante fraude eletrônica (§ 4º-B), 2025</div>
+      <div class="value" id="t3v"></div>
+      <div class="sub" id="t3s"></div>
+    </div>
+  </section>
+
+  <figure id="fig" aria-labelledby="figt">
+    <div class="fig-head">
+      <div class="fig-title" id="figt">Crimes patrimoniais por meio eletrônico registrados no Pará, por ano e classificação, e o número publicado no Anuário</div>
+    </div>
+    <ul class="legend">
+      <li><span class="sw" style="background: var(--accent)"></span>Estelionato qualificado, art. 171, § 2º-A (fraude eletrônica)</li>
+      <li><span class="sw" style="background: var(--g1)"></span>Estelionato no caput, praticado por meio eletrônico</li>
+      <li><span class="sw" style="background: var(--g2)"></span>Furto mediante fraude eletrônica, art. 155, § 4º-B</li>
+      <li><span class="lgline" style="background: var(--accent2)"></span>Anuário: estelionato por meio eletrônico do Pará</li>
+    </ul>
+    <div class="chart-wrap" id="wrap">
+      <svg id="chart" viewBox="0 0 760 400" role="img" aria-describedby="lede"></svg>
+      <div class="tip" id="tip" role="status" aria-live="polite"></div>
+    </div>
+    <div class="fig-foot">
+      <span>Fontes: barras, censo de 98.039 boletins de ocorrência da SIAC/SEGUP-PA (Silva, Ramos e Reis Netto, 2026, Tabela 1); linha, FBSP, Anuário Brasileiro de Segurança Pública, 18ª a 20ª edições. * Mudança de método da SSP/PA no Anuário.</span>
+      <button type="button" id="tbtn" aria-expanded="false" aria-controls="tview">Ver como tabela</button>
+    </div>
+    <div class="table-wrap" id="tview" hidden>
+      <table id="tseries"></table>
+    </div>
+  </figure>
+
+  <section class="notes" aria-labelledby="nh">
+    <h2 id="nh">Como os dados foram montados</h2>
+    <p>As barras vêm do censo de 98.039 boletins de ocorrência registrados pela Polícia Civil do Pará entre janeiro de 2022 e dezembro de 2025, fornecidos pela Secretaria Adjunta de Inteligência e Análise Criminal (SIAC/SEGUP-PA) e publicados por Silva, Ramos e Reis Netto na Revista Tópicos, com consumados e tentados. As categorias são as do registro: estelionato no caput praticado por meio eletrônico, estelionato qualificado do § 2º-A e furto mediante fraude eletrônica do § 4º-B.</p>
+    <p id="n2"></p>
+    <p id="n3"></p>
+    <p id="n4"></p>
+  </section>
+
+  <section aria-labelledby="fh">
+    <h2 id="fh">Fontes</h2>
+    <ul class="sources">
+      <li><a href="https://doi.org/10.70773/revistatopicos/793465755">Silva, Ramos e Reis Netto (2026), Caracterização dos crimes patrimoniais praticados por meio cibernético no estado do Pará, de 2022 a 2025, Revista Tópicos, Tabela 1</a></li>
+      <li><a href="https://publicacoes.forumseguranca.org.br/items/f62c4196-561d-452d-a2a8-9d33d1163af0">18º Anuário (2024), planilha, aba T15: Pará, 2022</a></li>
+      <li><a href="https://publicacoes.forumseguranca.org.br/items/c3605778-37b3-4ad6-8239-94e4cb236444">19º Anuário (2025), planilha, aba T19, nota 4: Pará, 2023, e a mudança de método</a></li>
+      <li><a href="https://publicacoes.forumseguranca.org.br/items/bb542342-3cf8-47a5-a51d-a0eb911914b9">20º Anuário (2026), planilha, aba T17: Pará, 2024 e 2025</a></li>
+    </ul>
+  </section>
+</main>
+
+<script>
+const DATA = /*__DATA__*/null;
+const S = DATA.serie, R = DATA.resumo;
+const nf = new Intl.NumberFormat('pt-BR');
+const dec = (v, d) => new Intl.NumberFormat('pt-BR', {minimumFractionDigits: d, maximumFractionDigits: d}).format(v);
+const pc1 = v => dec(v * 100, 1) + '%';
+const set = (id, txt) => { document.getElementById(id).textContent = txt; };
+
+set('lede', `Entre 2022 e 2025, a Polícia Civil do Pará registrou ${nf.format(R.geral_tot)} crimes patrimoniais por meio eletrônico, e o volume anual cresceu ${pc1(R.cresc_22_25)}. No mesmo intervalo, o número que o Anuário Brasileiro de Segurança Pública publica para o estado como estelionato por meio eletrônico caiu de ${nf.format(R.anu22)} para ${nf.format(R.anu23)} entre 2022 e 2023, porque a secretaria passou a contar só a qualificadora. Desde então ficam de fora o estelionato eletrônico registrado no caput, que em 2025 ainda era ${pc1(R.caput_sh_estel25)} dos casos, e todo o furto mediante fraude eletrônica.`);
+set('t1v', nf.format(R.tot25));
+set('t1s', `${pc1(R.cresc_22_25)} sobre 2022 (${nf.format(R.tot22)})`);
+set('t2v', nf.format(R.anu25));
+set('t2s', `${pc1(R.cob25)} dos registros; em 2022, antes da mudança de método, ${nf.format(R.anu22)}`);
+set('t3v', nf.format(R.furto25));
+set('t3s', `${pc1(R.furto_sh25)} dos registros; não há tabela nacional desse furto`);
+
+const s22 = S[0], s25 = S[S.length - 1];
+set('n2', `A linha traz o valor do Pará na edição mais recente do Anuário que cobre cada ano. A 19ª edição registra a mudança de método: a SSP/PA filtrava todas as fraudes dentro do estelionato e passou a filtrar pelos §§ 2º-A, 2º-B e 3º, e o valor de 2023, antes informado como 16.884, foi revisto para ${nf.format(R.anu23)}. Os dois números convergem com o censo de forma reveladora: em 2022 o Anuário (${nf.format(R.anu22)}) fica perto de todo o estelionato eletrônico do censo (${nf.format(R.caput_mais_qualif22)}); em 2025 (${nf.format(R.anu25)}) fica perto só da qualificadora (${nf.format(R.qualif25)}).`);
+set('n3', `O estelionato no caput não some da estatística nacional: entra no total de estelionatos do estado, mas sem a marca do meio eletrônico. Em 2025, o estelionato eletrônico do censo (caput e § 2º-A) equivale a ${pc1(R.eletr_sobre_estel_total25)} de todo o estelionato que o Anuário registra no Pará (${nf.format(s25.anuario_estel_total)}). O furto do § 4º-B não aparece em tabela nacional nenhuma.`);
+set('n4', `A divisão entre as categorias depende da classificação feita no balcão. A passagem do caput para a qualificadora ainda está em curso, e o número nacional deve subir por esse motivo, independentemente do crime. O furto caiu ${dec((S[1].furto / s22.furto - 1) * -100, 1)}% de 2022 para 2023 e voltou a crescer depois, oscilação que os autores atribuem à dificuldade de separar, no registro, a entrega induzida (estelionato) da subtração sem conhecimento da vítima (furto).`);
+
+// ---------- gráfico ----------
+const svg = document.getElementById('chart');
+const NS = 'http://www.w3.org/2000/svg';
+const W = 760, H = 400, M = {l: 64, r: 64, t: 30, b: 40};
+const pw = W - M.l - M.r, ph = H - M.t - M.b;
+const YMAX = 35000, TICKS = [0, 10000, 20000, 30000];
+const band = pw / S.length, BW = 24, GAP = 2, RAD = 4;
+const y = v => M.t + ph - (v / YMAX) * ph;
+const el = (tag, attrs, parent = svg) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); parent.appendChild(e); return e; };
+const txt = (s, attrs) => { const e = el('text', attrs); e.textContent = s; return e; };
+const cxOf = i => M.l + band * i + band / 2;
+
+TICKS.forEach(t => {
+  el('line', {x1: M.l, x2: W - M.r, y1: y(t), y2: y(t), stroke: t === 0 ? 'var(--axis)' : 'var(--grid)', 'stroke-width': 1});
+  txt(t === 0 ? '0' : nf.format(t / 1000) + ' mil', {x: M.l - 10, y: y(t) + 4, 'text-anchor': 'end', class: 'tick'});
+});
+const topRounded = (x, y0, w, hgt, r) => `M${x},${y0 + hgt}V${y0 + r}Q${x},${y0} ${x + r},${y0}H${x + w - r}Q${x + w},${y0} ${x + w},${y0 + r}V${y0 + hgt}Z`;
+
+const tip = document.getElementById('tip'), wrap = document.getElementById('wrap');
+function showTip(d, cx) {
+  tip.replaceChildren();
+  const yr = document.createElement('div'); yr.className = 'yr'; yr.textContent = String(d.ano); tip.appendChild(yr);
+  [['§ 2º-A', d.qualif, 'var(--accent)', 'bx'], ['Caput, meio eletrônico', d.caput, 'var(--g1)', 'bx'], ['Furto § 4º-B', d.furto, 'var(--g2)', 'bx'],
+   ['Total registrado', d.total, null], ['Anuário', d.anuario_eletr, 'var(--accent2)', 'lk']].forEach(([n, v, c, k]) => {
+    const row = document.createElement('div'); row.className = 'row';
+    const a = document.createElement('span');
+    if (c) { const i = document.createElement('i'); i.className = k; i.style.background = c; a.appendChild(i); }
+    a.appendChild(document.createTextNode(n));
+    const b = document.createElement('strong'); b.textContent = nf.format(v);
+    row.append(a, b); tip.appendChild(row);
+  });
+  const sh = document.createElement('div'); sh.className = 'yr'; sh.style.marginTop = '4px';
+  sh.textContent = `Anuário sobre o total registrado: ${pc1(d.anuario_eletr / d.total)}`; tip.appendChild(sh);
+  tip.style.display = 'block';
+  const scale = svg.getBoundingClientRect().width / W;
+  let left = cx * scale + 16;
+  if (left + tip.offsetWidth > wrap.clientWidth) left = cx * scale - tip.offsetWidth - 16;
+  tip.style.left = left + 'px'; tip.style.top = (M.t * scale) + 'px';
+}
+const hideTip = () => { tip.style.display = 'none'; };
+
+S.forEach((d, i) => {
+  const cx = cxOf(i), x = cx - BW / 2;
+  // pilha: § 2º-A na base (a parte que a estatística nacional vê), caput, furto no topo
+  const yQ = y(d.qualif), yC = y(d.qualif + d.caput), yT = y(d.total);
+  if (y(0) - yQ > 0.5) el('rect', {x, y: yQ, width: BW, height: y(0) - yQ, fill: 'var(--accent)'});
+  const baseC = (y(0) - yQ > 0.5) ? yQ - GAP : y(0);
+  el('rect', {x, y: yC, width: BW, height: baseC - yC, fill: 'var(--g1)'});
+  el('path', {d: topRounded(x, yT, BW, (yC - GAP) - yT, RAD), fill: 'var(--g2)'});
+  txt(String(d.ano), {x: cx, y: H - M.b + 22, 'text-anchor': 'middle', class: 'xlab'});
+  if (i === 0 || i === S.length - 1) txt(nf.format(d.total), {x: cx, y: yT - 8, 'text-anchor': 'middle', class: 'dl'});
+  if (i === S.length - 1) {
+    // rótulos dos segmentos só na última coluna, à esquerda, na faixa livre entre colunas
+    const ax = cx - BW / 2 - 8;
+    txt('Furto § 4º-B: ' + nf.format(d.furto), {x: ax, y: (yT + yC) / 2 + 4, 'text-anchor': 'end', class: 'dl2'});
+    txt('Caput: ' + nf.format(d.caput), {x: ax, y: (yC + yQ) / 2 + 4, 'text-anchor': 'end', class: 'dl2'});
+    txt('§ 2º-A: ' + nf.format(d.qualif), {x: ax, y: (yQ + y(0)) / 2 + 4, 'text-anchor': 'end', class: 'dl'});
+  }
+});
+
+// linha do Anuário, no mesmo eixo e na mesma unidade
+const pts = S.map((d, i) => [cxOf(i), y(d.anuario_eletr)]);
+el('polyline', {points: pts.map(p => p.join(',')).join(' '), fill: 'none', stroke: 'var(--accent2)', 'stroke-width': 2, 'stroke-linejoin': 'round', 'stroke-linecap': 'round'});
+pts.forEach(([px, py], i) => {
+  el('circle', {cx: px, cy: py, r: 5, fill: 'var(--accent2)', stroke: 'var(--surface)', 'stroke-width': 2});
+  const d = S[i];
+  if (i !== 2) {
+    // rótulos seletivos: o antes (2022), a queda (2023) e o ponto final (2025)
+    const lab = nf.format(d.anuario_eletr) + (i === 1 ? ' *' : '');
+    txt(lab, {x: px + BW / 2 + 8, y: py + (i === 0 ? -6 : 4), 'text-anchor': 'start', class: 'dl'});
+  }
+});
+
+S.forEach((d, i) => {
+  const cx = cxOf(i);
+  const hit = el('rect', {x: M.l + band * i + 2, y: M.t, width: band - 4, height: ph, class: 'hit', tabindex: 0, rx: 6,
+    'aria-label': `${d.ano}: § 2º-A ${nf.format(d.qualif)}, caput ${nf.format(d.caput)}, furto ${nf.format(d.furto)}, total ${nf.format(d.total)}, Anuário ${nf.format(d.anuario_eletr)}`});
+  hit.addEventListener('pointerenter', () => showTip(d, cx));
+  hit.addEventListener('pointerleave', hideTip);
+  hit.addEventListener('focus', () => showTip(d, cx));
+  hit.addEventListener('blur', hideTip);
+});
+
+// ---------- tabela ----------
+const t = document.getElementById('tseries');
+const head = ['Ano', '§ 2º-A', 'Caput, meio eletrônico', 'Furto § 4º-B', 'Total registrado', 'Anuário', 'Anuário / total'];
+const thead = document.createElement('thead'), trh = document.createElement('tr');
+head.forEach(hd => { const th = document.createElement('th'); th.scope = 'col'; th.textContent = hd; trh.appendChild(th); });
+thead.appendChild(trh); t.appendChild(thead);
+const tb = document.createElement('tbody');
+S.forEach(d => {
+  const tr = document.createElement('tr');
+  [String(d.ano), nf.format(d.qualif), nf.format(d.caput), nf.format(d.furto), nf.format(d.total), nf.format(d.anuario_eletr), pc1(d.anuario_eletr / d.total)]
+    .forEach(c => { const td = document.createElement('td'); td.textContent = c; tr.appendChild(td); });
+  tb.appendChild(tr);
+});
+t.appendChild(tb);
+const tbtn = document.getElementById('tbtn'), tview = document.getElementById('tview');
+tbtn.addEventListener('click', () => {
+  const open = tview.hidden; tview.hidden = !open;
+  tbtn.setAttribute('aria-expanded', String(open));
+  tbtn.textContent = open ? 'Ocultar tabela' : 'Ver como tabela';
+});
+</script>
+</body>
+</html>

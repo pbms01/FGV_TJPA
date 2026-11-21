@@ -95,6 +95,15 @@ Vieses que toda conclusão precisa carregar: o cjpg lista só processos com sent
 
 A questão 1 foi escolhida por ser a única que a base acompanha em todas as etapas (papel na denúncia, pena na sentença e desclassificação em segundo grau); a questão 2, por fixar a taxonomia que as demais linhas usam; a questão 3, porque a reparação e as consequências do crime estavam nos textos das sentenças e só pediam extração.
 
+## Trilha paralela: séries oficiais do estelionato eletrônico (21/11/2026, à noite)
+
+Primeiro passo nas séries externas que as linhas 1.2 e 1.3 pedem e a base judicial não sustenta. Nota completa em `docs/estatisticas/serie-estelionato-eletronico.md` (Project: `claude/serie-estelionato-eletronico-painel-18uf.md`), com o roteiro de reprodução; scripts `scripts/estatisticas_*.py`, modelos em `scripts/templates/`, dados em `dados/estatisticas/`, páginas em `docs/estatisticas/paginas/` e PNGs em `docs/estatisticas/graficos/`. Não interfere no ponto de partida do exame em aula.
+
+- Anuário do FBSP (17ª a 20ª edições): não há série nacional do estelionato por meio eletrônico, porque o total "Brasil" soma só as UFs que informaram no ano (SP, RJ e CE nunca informaram). Painel balanceado de 18 UFs, 37,0% dos estelionatos do país em 2025: o eletrônico vai de 108.188 (2021) a 278.590 (2025), 2,6 vezes, contra 1,3 vez do comum; de 2022 a 2025, 70,5% do aumento é eletrônico. Ressalvas: 2021 é ano de implantação da natureza, e parte da curva é reclassificação do comum para o eletrônico. Página "Estelionato eletrônico em 18 UFs" (https://claude.ai/artifact/RuqeRgeDmHGYSm5UvdJstv).
+- Furto mediante fraude eletrônica (art. 155, § 4º-B): sem série nacional no Anuário, no Mapa da Segurança Pública 2026 do Sinesp e nas TPU. Fontes indiretas registradas na nota: registros estaduais por LAI, Estatísticas de Fraude no Pix do BCB (MED, mensal desde jan/2022, sem separar golpe de acesso à conta) e o item de fraude bancária da pesquisa de vitimização FBSP/Datafolha.
+- Pará: o censo de 98.039 BOs da SIAC/SEGUP-PA publicado por Silva, Ramos e Reis Netto (Revista Tópicos, 2026) separa caput, § 2º-A e § 4º-B. Desde a mudança de filtro da SSP/PA em 2023, o Anuário conta só a qualificadora e capta menos de um quinto do registrado (16,9% em 2025); em 2025, 79,4% do estelionato eletrônico ainda vai para o caput, e o furto é 14,5%. Página "Crime patrimonial eletrônico no Pará" (https://claude.ai/artifact/YS8RSQFwPw5Y5gEJdQrj6v). As duas páginas estão privadas até o usuário as compartilhar.
+- Próximo passo possível, não decidido: pedido de LAI às 27 secretarias pelos registros mensais do § 4º-B e do § 2º-A desde 2021, para repetir o confronto do Pará em outros estados.
+
 ## Onde estamos
 
 A amostra TJSP de 200 denúncias está completa, gravada e extraída.
@@ -223,4 +232,5 @@ A validação das regex fora da amostra (rodada r2, 12 casos) deu concordância 
 - `docs/plano-captura.md`: plano completo.
 - `dados/extracao/LEIAME.md`: extração.
 - `docs/aula/plano-exame-casos.md`: plano de exame em aula das sete questões em oito pares de casos, espelhado no Project como `claude/plano-exame-casos-aula.md`; `docs/aula/fichas/` e `docs/aula/exercicios/` guardam as fichas e as fontes dos exercícios, e `dados/aula/`, o índice, as divergências e a triagem da elementar do 154-A. O roteiro de 15 casos da base de consulta pública, separado deste, está no doc `claude/roteiro-aula-magistrados-15-casos.md` do Project.
+- `docs/estatisticas/serie-estelionato-eletronico.md`: séries oficiais do estelionato eletrônico, furto mediante fraude eletrônica e o Pará, espelhado no Project como `claude/serie-estelionato-eletronico-painel-18uf.md`.
 - No Project "Criminologia Informática" do claude.ai, o doc `claude/plano-captura-base-tjpa.md` espelha o estado da coleta, e o `claude/matriz-selecao-casos.md` resume a matriz de 29 casos para exame criminológico (documento editável em https://claude.ai/artifact/4rUKtiqaqKiia9LUKqGm3Y), agora com a seção de sentenças.

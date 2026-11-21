@@ -7,7 +7,7 @@ Repositório do projeto de pesquisa em criminologia informática: bases processu
 | `sentencas_tjsp_base100/` | Base de 130 casos do TJSP (furto mediante fraude eletrônica, fraude eletrônica e invasão de dispositivo), com íntegras das sentenças, `indice.csv`, `fichas.jsonl`, a planilha exportada (`planilha/`) e a coleta com seus scripts (`coleta/`) |
 | `documentacao_projeto/` | Nota metodológica da base, análise contrafactual dos casos, quadro da Convenção de Budapeste e quadro de visibilidade nas TPU, com índice dos documentos e das versões editáveis |
 | `roteiro_aula_magistrados/` | Roteiro de aula para magistrados e assessores sobre quinze casos da base, em Markdown e Word |
-| `docs/`, `scripts/`, `dados/`, `textos/`, `consultas/` | Base processual da fase 1 (TJSP): plano de captura, linhas de pesquisa, roteiros, amostra de 200 denúncias e suas sentenças, extração, codificação e análises das questões 1 a 7; mapa detalhado abaixo |
+| `docs/`, `scripts/`, `dados/`, `textos/`, `consultas/` | Base processual da fase 1 (TJSP): plano de captura, linhas de pesquisa, roteiros, amostra de 200 denúncias e suas sentenças, extração, codificação e análises das questões 1 a 7; e as séries oficiais do estelionato eletrônico (Anuário do FBSP, censo do Pará, fraudes no Pix do BCB); mapa detalhado abaixo |
 
 Os textos das sentenças e das denúncias trazem os nomes de réus, vítimas e testemunhas como publicados ou como lidos nos autos; as fichas e a planilha da base de 130 casos os omitem. Não redistribuir os textos sem anonimização.
 
@@ -63,6 +63,9 @@ Estado em 21/11/2026: a coleta da fase 1 (TJSP) está encerrada para fins de an�
 | `docs/aula/` | Plano de exame em aula das sete questões em oito pares de casos, fichas dos casos (`fichas/`) e fontes dos exercícios com gabarito publicados como artefatos (`exercicios/`) |
 | `scripts/casos_aula.py` | Índice dos 16 casos da aula (`dados/aula/casos_aula.csv`), esqueleto de cada ficha com os valores já codificados e links do GitHub das peças |
 | `dados/aula/` | Índice dos casos da aula, divergências da leitura integral contra a codificação e triagem das sentenças do INV quanto à elementar de segurança do 154-A |
+| `docs/estatisticas/` | Séries oficiais do estelionato eletrônico: nota com método, achados e roteiro de reprodução (espelho do doc do Project), fontes das páginas publicadas como artefatos (`paginas/`) e gráficos em PNG (`graficos/`) |
+| `scripts/estatisticas_*.py`, `scripts/templates/` | Download das planilhas do Anuário do FBSP e do artigo do Pará para `dados/bruto/` (fora do git), série por UF e edição, painel balanceado de 18 UFs, página do Pará, fraudes no Pix do BCB e captura das páginas em PNG |
+| `dados/estatisticas/` | O que foi lido das fontes externas: estelionato e estelionato por meio eletrônico por UF em cada edição do Anuário e na edição mais recente, tabelas do censo do Pará como lidas, série do Pará contra o Anuário e fraudes mensais no Pix (MED) |
 | `scripts/registra_apelacao.py` e `scripts/grava_acordao.py` | Andamento em segundo grau das sentenças que trataram da Lei 15.397/2026 (`dados/tjsp2/apelacoes_amostra.csv`) e gravação de acórdãos e razões de apelação lidos pelo Codex |
 | `scripts/classifica_acordaos.py` | Junta as buscas do cjsg sobre o 171 §2º, VII e grava `dados/tjsp2/acordaos_inciso_vii.csv` com a decisão lida em cada ementa |
 | `scripts/sorteio_complemento_fe.py` | Complemento do sorteio da FE (ordens 120 a 131) |
