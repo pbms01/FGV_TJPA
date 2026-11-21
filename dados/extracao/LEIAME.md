@@ -1,6 +1,6 @@
 # Extração das denúncias TJSP (fase 1)
 
-Gerado por `scripts/extrai_denuncias.py` a partir de `textos/tjsp/denuncias/`, `dados/codex/status.csv` (só status ok) e `dados/cjpg/amostra_tjsp.csv`. Os dados pessoais não estão mascarados nesta etapa, por decisão do pesquisador; o mascaramento fica para a versão de circulação.
+Gerado por `scripts/extrai_denuncias.py` (TJSP, padrão; o TJPA tem seção própria no fim) a partir de `textos/tjsp/denuncias/`, `dados/codex/status.csv` (só status ok) e `dados/cjpg/amostra_tjsp.csv`. Os dados pessoais não estão mascarados nesta etapa, por decisão do pesquisador; o mascaramento fica para a versão de circulação.
 
 ## Saídas
 
@@ -183,7 +183,7 @@ Consolidação: `python3 scripts/consolida_sentencas.py` imprime as tabelas e gr
 | --- | --- | --- | --- | --- | --- |
 | INV | 34 de 34 | 85,3% | 14,7% | 154-A 66,7%, o resto espalhado (147, 147-A, 158, 180, 171, 155, 138, 312) | aberto 57,7%, fechado 26,9% |
 | CL | 50 de 50 | 94,2% | 5,8% | 171 §2º-A 31,5%, 171 sem §2º-A 25,9%, 171 §2º, VII 22,7%, 155 §4º-B 6,7% | aberto 69,8%, semiaberto 19,6% |
-| FE | 113 de 114 | 87,3% | 12,1% (e 0,6% de extinção) | 171 §2º-A 82,1%, 171 sem §2º-A 15,3% | aberto 57,3%, semiaberto 27,6% |
+| FE | 113 de 114 | 87,3% | 12,1% (e 0,6% de extinção) | 171 §2º-A 82,1%, 171 sem §2º-A 15,3% | aberto 58,2%, semiaberto 27,0% (regerado em 21/11/2026, à noite: o resumo anterior era de antes da adjudicação do regime do FE 20, e dava 57,3% e 27,6%) |
 
 - A sentença mantém a capitulação da denúncia em 70,4% das condenações INV, 65,8% das CL e 86,7% das FE. No CL, a mudança dominante é a desclassificação para o 171 §2º, VII (22,7%); na FE, o afastamento do §2º-A (6,7%), quase sempre para o 171 caput ou para o privilégio do §1º, contra 4,0% que acrescentam o §2º-A a uma denúncia do 171 simples.
 - Penas medianas (meses, sem peso, primeira pena privativa do dispositivo): 171 §2º-A 48 no CL e na FE; 171 sem §2º-A 14,25 no CL e 12 na FE; 171 §2º, VII 12; 154-A 32 no INV.
@@ -254,3 +254,74 @@ Família do artifício: a codificação agrupada pelo que a fraude imita (instit
 Leitor em `scripts/titular_conta.py`, usado por `scripts/analise_q7_titular.py`, que grava `dados/analise/q7_titular.csv` e `q7_resumo.json`. A nota está em `docs/analise/q7-titular-conta.md`.
 
 População: as 101 denúncias de só conta da FE e do CL. A versão é procurada frase a frase na narrativa, na cota e na sentença (`textos/tjsp/sentencas/`), só em frases de declaração, interrogatório, versão, álibi, silêncio ou revelia, depois de retiradas as ementas de acórdãos citadas na sentença; a categoria mais específica vence (cessão mediante pagamento, proposta de trabalho, renda ou crédito, empréstimo, perda do controle ou não reconhecimento da conta, negativa, silêncio, não localização ou revelia), e o verbo de cessão negado conta como negativa. `python3 scripts/titular_conta.py valida` imprime versão e trecho das 101; 11 leituras foram corrigidas em `VERSAO_MANUAL`. Antecedentes: reincidência ou maus antecedentes afirmados (não negados) vencem a primariedade, e só existem onde há dosimetria. Idade: menoridade relativa reconhecida ou pedida (12 processos, conferidos). A quem e por quanto saem do trecho da versão.
+
+## Extração das denúncias e sentenças do TJPA (fase 2, 21/11/2026)
+
+Gerado por `python3 scripts/extrai_denuncias.py tjpa`, `python3 scripts/sentencas_tjpa.py` e `python3 scripts/consolida_tjpa.py`, nessa ordem, da raiz do repo. O script das denúncias é o mesmo da fase 1, parametrizado por tribunal: sem argumento, roda o TJSP e reproduz byte a byte `denuncias_tjsp.csv` e `segmentos/` (conferido com `cmp` e `diff -r` depois de cada mudança), e `python3 scripts/resultado_sentenca.py valida` segue em 30, 29 e 30 de 30. As regras da fase 1 valem para os dois tribunais; o TJPA liga por cima a camada `mppa`, descrita abaixo, que só age onde a regra da fase 1 não acha nada ou onde o molde das denúncias do MPPA a contradiz.
+
+### Saídas
+
+- `denuncias_tjpa.csv`: uma linha por processo com denúncia (`status` igual a `ok` na última linha de `dados/codex_tjpa/status.csv`, 191), com as colunas do TJSP e mais `consultas` (rótulos crus do DJEN), `foro` (os quatro últimos dígitos do número), `operacao`, `ancora_cap` (`regra`, `mppa` ou `manual`, de onde veio a capitulação) e `cap_no_preambulo`. `estrato` segue a prioridade da fase 1 sobre `consultas` (INV, depois CL, depois FE, que junta FE, FE_amp e EE); `ordem` é a posição na fila da coleta (`dados/codex_tjpa/fila.csv`), estável; `lista` é o grupo da fila; `peso` é 1, porque é censo; `comarca` é `orgao_1g`, a vara.
+- `segmentos_tjpa/<numero>.json`: cota, narrativa, capitulação e a âncora usada.
+- `sentencas_tjpa.csv`: uma linha por processo com sentença ou decisão terminativa gravada (115: 110 dos processos com denúncia e 5 `so_sentenca`), com as colunas de `sentencas_amostra.csv` e mais `caso` no formato `PA-FE 12` (estrato e ordem na fila, com o prefixo para não confundir com os casos do TJSP), `status_coleta`, `duplicata_de`, `operacao`, `data_sentenca_djen`, `data_doc` e `nome_doc` (do manifesto), `terminativa`, `suspenso_366` e `pena_fonte`.
+- `resumo_tjpa.json`: as tabelas da consolidação, para o TJPA e, com as mesmas regras, para o TJSP.
+- `validacao_tjpa.csv`: o registro da leitura à mão (104 linhas, por rodada).
+
+### Camada `mppa` das denúncias
+
+O molde do MPPA difere do paulista em pontos que a regra da fase 1 não cobre. Sem a camada, ela não achava capitulação em 52 das 191 denúncias e lia data de nascimento como data do fato.
+
+- Âncora de segundo nível. Quando nenhuma âncora da fase 1 ("denuncio", "oferece denúncia", "incorreu") vem seguida de artigo e verbo de imputação, a camada procura as fórmulas do MPPA ("praticou o crime descrito no", "infringiu o disposto", "violou as disposições", "incurso", "caracteriza a prática do crime tipificado", "amolda-se", "subsumem-se", "pela prática do crime capitulado no", "Capitulação:"), com artigo em até 250 caracteres, e prefere, nesta ordem, a que não está em contexto policial (indiciamento, relatório) nem antes da seção dos fatos, a que vem depois de seção ou fecho de capitulação ("DO DIREITO", "TIPIFICAÇÃO", "DA IMPUTAÇÃO PENAL", "DO ENQUADRAMENTO LEGAL", "Assim agindo") e fora do pedido, e a primeira no texto. A fórmula descritiva ("dos delitos descritos no art.") entra como âncora fraca, que só vence quando não há outra, e "incorre na mesma pena" (transcrição de lei) não é âncora. Na base, 64 capitulações vêm da regra da fase 1, 126 da âncora de segundo nível e 1 de âncora manual.
+- Fim da capitulação: além do pedido processual da fase 1, a seção do pedido, a transcrição do tipo penal ("in verbis", "nos seguintes termos", "Art. 171 - Obter"), a seção de prova e a seção dos fatos, desde que reste algum artigo antes do corte (o OCR da Operação Trojan desloca o "denuncia:" para antes do título dos pedidos).
+- Narrativa: começa na seção dos fatos ("DOS FATOS", "FATO DELITUOSO", "Compulsando os autos"), onde quer que esteja antes da capitulação. Sem ela, pula a qualificação, definida como a cadeia de datas de nascimento que começa nos primeiros 2.500 caracteres, cada uma a menos de 1.500 da anterior, e abre no primeiro marco de narrativa em começo de frase depois dela. Uma data de nascimento solta mais adiante é de outra pessoa (titular da conta, vítima) e não conta. Com capitulação no preâmbulo ("oferecer DENÚNCIA contra X ... pela prática do crime capitulado no art. ..."), a narrativa vai da seção dos fatos até a seção de direito ou o pedido.
+- Endereçamento abreviado ("EXMO. SR.", "EXMA. SRA."), e a cota anterior ao endereçamento só vale se tiver cara de manifestação (ANPP, requerimento, diligência), porque no MPPA o que vem antes é cabeçalho, carimbo de protocolo ou capa de migração. O ANPP é tratado no corpo da denúncia; sem cota, ela passa a ser o trecho do ANPP fora da capitulação. Manifestação gravada como parte da denúncia vai para a cota (`PARTES_COTA_TJPA`).
+- Artigos lidos com `artigos(cap, tolerante=True)`, que aplica antes `normaliza_ocr`: o "§" lido como "8", "$" ou "$8" depois do número do artigo ("171, 82º-A"), o §2º-A sem hífen, o ponto entre número e ordinal ("§4.º-B"), o cabeçalho de página entre "§ 2º-" e "A", o inciso II lido como "Il" e o I como "|", "c/ c" e "clc". O TJSP e o leitor de sentenças da fase 1 chamam sem `tolerante` e não mudam. Ligar a tolerância no TJSP é uma conferência pendente, porque pode corrigir capitulações da fase 1.
+
+Correções conferidas na peça, todas com nota em `correcao_manual`: o aditamento que recapitula para o art. 171, caput (0046698-39.2015), a denúncia cujo cabeçalho diz §4º-B e o corpo §4º, II, lida pela sentença (0809824-96.2022), a denúncia da Operação Trojan substituída por outra da 5ª PJ, que é a julgada, de modo que só a parte 2 entra (0000352-20.2021, em `EXCLUI_PARTES_TJPA`), o aditamento e a ratificação que retiram a Lei 12.850 rejeitada pela Vara de Combate ao Crime Organizado (0000323-67.2021 e 0000533-21.2021, só nota) e a âncora manual do 0811772-81.2024, em que a automática caía no art. 2º da Lei 12.850 citado na narrativa (`ANCORA_MANUAL_TJPA`).
+
+### Famílias de desmembramento e operações
+
+A deduplicação por sha256 do texto limpo marca 11 duplicatas: as seis da família Patrick Auler Stefanes (originário 0802159-03.2025), quatro das cinco da 10ª Vara (originário 0820198-53.2022) e uma família que o handoff não listava, de Santa Maria do Pará (0800267-58.2024, desmembrado de 0800643-78.2023, mesma denúncia, como diz a nota da coleta). A quinta da 10ª Vara, 0817567-05.2023, tem o aditamento de 17/10/2023 como segunda parte e está em `DUPLICATA_MANUAL_TJPA`. São 12 duplicatas e 179 denúncias sem duplicatas.
+
+A comparação por trechos de oito palavras entre todas as denúncias mostrou dois grupos que não são duplicatas: as sete denúncias da Operação Trojan (GAECO; 0000323, 0000352, 0000410, 0000533, 0000548, 0000586 e 0000666 de 2021), que partilham a narrativa da operação (cerca de 65% dos trechos de três palavras) mas têm réus e capitulação próprios, e as três da Operação Arremate em Bragança (0803124, 0803125 e 0803127 de 2024), uma das quais (0803127) foi extinta por continência com as outras. Contam cada uma como denúncia e levam o nome em `operacao`, para que a análise saiba que vêm da mesma investigação.
+
+### Sentenças
+
+`scripts/sentencas_tjpa.py` aplica `resultado_sentenca.le(texto, tolerante=True)`, sem mudar regra do leitor, e acrescenta três coisas.
+
+- Decisão terminativa sem mérito, com resultado próprio, só quando o leitor não acha condenação nem absolvição e procurada no dispositivo e no fim do texto: rejeição da denúncia (0801839-21.2023 e 0804452-98.2024), rejeição parcial (0817566-20.2023, só quanto a uma ré), declinação de competência para a Justiça Federal (0815026-28.2025), extinção por decadência (0800337-36.2021 e 0824029-12.2022) e por continência (0803127-79.2024).
+- Pena e regime pela dosimetria: no TJPA a sentença julga ("JULGO PROCEDENTE ... para CONDENAR") e só depois dosa, de modo que a primeira pena do trecho de condenação, que o leitor da fase 1 lê, costuma ser a pena-base. Vale a duração dita junto da primeira pena "definitiva" do primeiro réu depois do início do dispositivo (a que vem logo depois, se houver, senão a última dos 260 caracteres antes), pulando o título "3ª Fase: Pena Definitiva", e a pena unificada quando o concurso material vem logo depois com pena maior; sem ela, vale o leitor. Nos oito casos em que o leitor e a dosimetria davam penas diferentes, a leitura deu razão à dosimetria em sete; no oitavo, a regra tinha lido o título da terceira fase, que passou a ser pulado, e as duas coincidem. `pena_fonte` diz de onde veio: das 73 condenações que o leitor marca, 60 da dosimetria, 6 da unificação, 3 do leitor, 3 da leitura à mão e 1 sem pena (0000548-87.2021); a condenação do 0811772-81.2024, que o leitor não marca, também ficou sem pena.
+- Parte da sentença: nos cinco processos com mais de uma decisão gravada, vale a de mérito (`PARTE_SENTENCA`); embargos, prescrição posterior de uma ré, decisão de citação e termo de audiência ficam fora. O réu com processo suspenso pelo art. 366 do CPP não entra no resultado (`suspenso_366` marca a menção).
+
+As 45 sentenças marcadas para revisão foram lidas no dispositivo e na pena. Nove têm correção em `CORRECOES` (a condenação em "JULGAMOS PROCEDENTE", na primeira pessoa do plural, e em "JULGA-SE TOTALMENTE PROCEDENTE", que o leitor não lê como marco; a absolvição por atipicidade em sentença de audiência; o §2º-A afastado no próprio dispositivo, que o leitor tomou por acolhido; o art. 159, que o leitor não nomeia; a pena dita na seção do regime; e duas notas sem mudança de campo); as outras 36 ficaram como o leitor leu (`CONFERIDAS`). Todas têm `conferido=lido`.
+
+### Validação por leitura
+
+- Denúncias: amostra de 30 sem duplicatas (semente 20261122; 10 FE, 10 de 12 CL, 10 de 11 INV), lidas na capitulação e no início da narrativa. O tipo da capitulação confere em 30 de 30, inclusive nas duas em que a regra leu a capitulação no preâmbulo, que é igual à do enquadramento legal. A data do fato erra em uma (0000666, data de circular do BCB citada, no OCR da Operação Trojan); `ano_fato` segue ruidoso, como na fase 1, e a data do fato da análise deve sair de um leitor como `scripts/tempo_dado.py`.
+- Denúncia contra sentença: em 84 processos com sentença, o tipo da denúncia foi comparado com o tipo que o relatório da sentença atribui à denúncia. Houve três divergências: duas eram erro da extração e foram corrigidas (0000352 e 0809824), e na terceira a sentença repetia o indiciamento.
+- Sentenças: as 45 marcadas para revisão e uma amostra de 19 das 70 restantes (semente 20261122; 10 FE, todas as 6 CL e as 3 INV). Resultado e tipo acolhido conferem nas 19; a pena errava em uma (a pena-base no lugar da definitiva, 0811342-58.2021), o que levou à regra da dosimetria. Limite que a regra mantém: a pena é a primeira definitiva do primeiro réu, que no concurso de crimes pode ser a de outro crime que não o acolhido como mais grave (0800532-36.2022, em que a pena lida é a do incêndio).
+- Não houve segundo leitor nesta fase, e a conferência humana das leituras está pendente, como na fase 1.
+
+### Resultados (179 denúncias sem duplicatas; censo, % simples)
+
+Capitulação da denúncia, ao lado da fase 1 (TJSP, % ponderado):
+
+| Estrato | TJPA | TJSP |
+| --- | --- | --- |
+| INV | 11: 154-A 10 (90,9%), lavagem 1 (Trojan) | 34: 154-A 85,3% |
+| CL | 12: 171 §2º-A 4, outro tipo 3 (159 e 288, 168 e 288, 288 e ECA), 171 sem §2º-A 2, lavagem, 155 §4º-B e 158 com 1 cada | 50: 171 §2º-A 43,2%; 171 sem §2º-A 27,8%; 155 §4º-B 10,7% |
+| FE | 156: 171 §2º-A 123 (78,8%), 171 sem §2º-A 14 (9,0%), 155 §4º-B 9 (5,8%), 155 sem §4º-B 6 (3,8%), lavagem 4 (2,6%) | 114: 171 §2º-A 86,3%; 171 sem §2º-A 10,8% |
+
+Sentenças, contando cada família uma vez (111 sentenças; 115 por processo) e com as cinco sem denúncia gravada:
+
+| Estrato | Lidas | Ao menos um réu condenado | Absolvição integral | Capitulação acolhida nas condenações | Mantém a capitulação da denúncia | Regime nas condenações |
+| --- | --- | --- | --- | --- | --- | --- |
+| INV | 7 | 5 (71,4%) | 1, e 1 extinção por decadência | 154-A 3, 147 2 | 3 de 5 (as outras duas absolvem do 154-A e condenam no 147 ou 147-B) | aberto 3 |
+| CL | 13 | 6 (46,2%) | 6 (46,2%), e 1 rejeição | 171 §2º-A 2; 171 sem §2º-A, 171 §2º, VII, 159 e 288 com 1 cada | 3 de 6 | aberto 5, fechado 1 |
+| FE | 91 | 60 (65,9%) | 27 (29,7%), e 4 terminativas | 171 §2º-A 51,7%; 171 sem §2º-A 31,7%; 155 §4º-B 6,7% | 78,9%; afasta o §2º-A em 14,0% | aberto 62,5%; semiaberto 31,2%; fechado 6,2% |
+
+- Na fase 1, ao menos um réu foi condenado em 85,3% das sentenças INV, 94,2% das CL e 87,3% das FE, e a absolvição integral ficou em 14,7%, 5,8% e 12,1%. No TJPA a absolvição integral é de 30,6% no total e de 29,7% na FE, e a sentença afasta o §2º-A da denúncia em 14,0% das condenações FE, contra 6,7% no TJSP. A diferença pede leitura antes de qualquer conclusão: o corpus do TJPA soma o grupo 1 (sentença conhecida no DJEN) e o grupo 2 (sentenças achadas no Codex), e a comparação é de proporções entre um censo e uma amostra ponderada.
+- Pena mediana nas condenações: 48 meses no 171 §2º-A (como no TJSP), 17 meses no 171 sem §2º-A (12 a 14 no TJSP), 52 no 155 §4º-B (4 casos) e 48 no 154-A (3 casos).
+- Lei 15.397/2026: das 111 sentenças, 83 são anteriores à lei (pela data do documento), 24 posteriores sem menção, 1 aplica o 171 §2º, VII (PA-CL 16, 0000586-02.2021, da Operação Trojan, denunciada por lavagem, com aplicação retroativa declarada) e 4 mencionam a lei sem que a variável tenha sido codificada (PA-CL 39, PA-FE 48, PA-FE 196 e PA-CL 8, esta absolutória, que afasta o inciso). O leitor marca também a menção ao art. 157, §2º, VII (PA-FE 84), que não é a lei nova.
+
+Ressalvas obrigatórias: o corpus de denúncias do TJPA inclui ações penais sem sentença (73 das 179), ao contrário do cjpg, que só lista sentenciados; a lista do DJEN subestima os julgados, porque 25 sentenças do grupo 2 não estavam classificadas como sentença no DJEN; a cobertura do DJEN contra o DataJud ou o Codex ainda não foi medida; ficam fora as 19 ações em sigilo, as 8 fora do tema e as 2 sem texto; e a codificação de artifício, meio e papel, a reparação, a organização, o tempo do dado, o serviço e a versão do titular (questões 1 a 7) ainda não foram feitas no TJPA.

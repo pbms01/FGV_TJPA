@@ -1,0 +1,105 @@
+rodada,numero,estrato,peca,campo,extraido,lido,concorda,nota
+den_amostra,0823725-42.2024.8.14.0401,FE,denuncia,tipo_capitulacao,171 §2º-A,171 §2º-A,1,"capitulação lida no preâmbulo (""Pela prática do crime capitulado no art. 171, § 2º-A""), igual à do enquadramento legal"
+den_amostra,0819528-15.2022.8.14.0401,FE,denuncia,tipo_capitulacao,171 §2º-A,171 §2º-A,1,
+den_amostra,0803124-27.2024.8.14.0009,FE,denuncia,tipo_capitulacao,171 §2º-A,171 §2º-A,1,
+den_amostra,0812600-77.2024.8.14.0401,FE,denuncia,tipo_capitulacao,171 §2º-A,171 §2º-A,1,
+den_amostra,0012873-31.2020.8.14.0401,FE,denuncia,tipo_capitulacao,171 §2º-A,171 §2º-A,1,
+den_amostra,0800118-17.2024.8.14.0072,FE,denuncia,tipo_capitulacao,171 §2º-A,171 §2º-A,1,
+den_amostra,0812695-94.2022.8.14.0040,FE,denuncia,tipo_capitulacao,171 §2º-A,171 §2º-A,1,
+den_amostra,0000666-63.2021.8.14.0401,FE,denuncia,tipo_capitulacao,lavagem,lavagem,1,ano_fato pega a data de uma circular do BCB citada na narrativa (OCR da Operação Trojan); campo já conhecido como ruidoso
+den_amostra,0801489-49.2023.8.14.0040,FE,denuncia,tipo_capitulacao,171 §2º-A,171 §2º-A,1,
+den_amostra,0814917-14.2025.8.14.0401,FE,denuncia,tipo_capitulacao,171 §2º-A,171 §2º-A,1,
+den_amostra,0804452-98.2024.8.14.0006,CL,denuncia,tipo_capitulacao,171 §2º-A,171 §2º-A,1,
+den_amostra,0825125-62.2022.8.14.0401,CL,denuncia,tipo_capitulacao,155 §4º-B,155 §4º-B,1,
+den_amostra,0800326-11.2023.8.14.0080,CL,denuncia,tipo_capitulacao,171 §2º-A,171 §2º-A,1,
+den_amostra,0804049-11.2024.8.14.0401,CL,denuncia,tipo_capitulacao,outro tipo,outro tipo,1,
+den_amostra,0802801-36.2021.8.14.0006,CL,denuncia,tipo_capitulacao,outro tipo,outro tipo,1,
+den_amostra,0810363-70.2024.8.14.0401,CL,denuncia,tipo_capitulacao,outro tipo,outro tipo,1,
+den_amostra,0815181-65.2024.8.14.0401,CL,denuncia,tipo_capitulacao,171 §2º-A,171 §2º-A,1,"capitulação lida no preâmbulo, igual à do enquadramento legal"
+den_amostra,0014826-69.2016.8.14.0401,CL,denuncia,tipo_capitulacao,171 outro,171 outro,1,"o cabeçalho de página cita outro número (0821639-69.2022); capitulação certa (171, caput, fato de 2013)"
+den_amostra,0804309-46.2023.8.14.0006,CL,denuncia,tipo_capitulacao,171 §2º-A,171 §2º-A,1,
+den_amostra,0010324-06.2019.8.14.0006,CL,denuncia,tipo_capitulacao,171 outro,171 outro,1,
+den_amostra,0800436-02.2024.8.14.0136,INV,denuncia,tipo_capitulacao,154-A,154-A,1,
+den_amostra,0019953-80.2019.8.14.0401,INV,denuncia,tipo_capitulacao,154-A,154-A,1,
+den_amostra,0800532-36.2022.8.14.0023,INV,denuncia,tipo_capitulacao,154-A,154-A,1,
+den_amostra,0818615-96.2023.8.14.0401,INV,denuncia,tipo_capitulacao,154-A,154-A,1,
+den_amostra,0800337-36.2021.8.14.0007,INV,denuncia,tipo_capitulacao,154-A,154-A,1,
+den_amostra,0801803-28.2022.8.14.0008,INV,denuncia,tipo_capitulacao,154-A,154-A,1,
+den_amostra,0021621-23.2018.8.14.0401,INV,denuncia,tipo_capitulacao,154-A,154-A,1,
+den_amostra,0009738-16.2017.8.14.0013,INV,denuncia,tipo_capitulacao,154-A,154-A,1,
+den_amostra,0814654-84.2022.8.14.0401,INV,denuncia,tipo_capitulacao,154-A,154-A,1,
+den_amostra,0802231-20.2022.8.14.0037,INV,denuncia,tipo_capitulacao,154-A,154-A,1,
+den_x_sentenca,0000352-20.2021.8.14.0401,FE,denuncia,tipo_capitulacao,lavagem,155 outro,0,a parte 1 (denúncia da Operação Trojan) foi substituída pela denúncia de 18/07/2022 (parte 2); corrigido em EXCLUI_PARTES_TJPA
+den_x_sentenca,0809824-96.2022.8.14.0006,FE,denuncia,tipo_capitulacao,155 outro,155 §4º-B,0,"cabeçalho §4º-B, corpo §4º, II; a sentença lê o §4º-B; corrigido em CORRECOES_TJPA"
+den_x_sentenca,0819887-96.2021.8.14.0401,FE,denuncia,tipo_capitulacao,171 §2º-A,171 §2º-A,1,a sentença repete o indiciamento (art. 171); a denúncia capitula o §2º-A
+sent_revisar,0003882-76.2014.8.14.0013,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",procedência parcial|155 outro|24|aberto,igual,1,
+sent_revisar,0014826-69.2016.8.14.0401,CL,sentenca,"resultado,tipo_acolhido,pena_meses,regime",condenação|171 outro|14|aberto,igual,1,
+sent_revisar,0009738-16.2017.8.14.0013,INV,sentenca,"resultado,terminativa",,resultado=absolvição; terminativa=,0,"sentença em audiência: absolve RENATO do art. 154-A por atipicidade (fato anterior à Lei 12.737/2012 na leitura do juízo, art. 386, III); prescrição da ameaça e da divulgação de segredo e decote do crime de ação privada antes; não há rejeição da denúncia (o termo veio da jurisprudência transcrita)"
+sent_revisar,0000548-87.2021.8.14.0401,FE,sentenca,nota,,,1,"Operação Trojan; condena DIOGO e ROMÊNIA no art. 1º, §1º, II, da Lei 9.613/98 e absolve HELISON; pena definitiva não localizada no texto (pena-base de DIOGO em 5 anos e 1 mês); a parte 2 gravada é decisão de citação"
+sent_revisar,0000586-02.2021.8.14.0401,CL,sentenca,"resultado,tipo_acolhido,pena_meses,regime",condenação|171 §2º VII|12|aberto,igual,1,
+sent_revisar,0800337-36.2021.8.14.0007,INV,sentenca,"resultado,tipo_acolhido,pena_meses,regime",extinção sem mérito (decadência)|||,igual,1,
+sent_revisar,0801007-56.2021.8.14.0401,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",procedência parcial|171 outro|12|aberto,igual,1,
+sent_revisar,0803456-37.2021.8.14.0061,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",procedência parcial|171 §2º-A|16|aberto,igual,1,
+sent_revisar,0819144-86.2021.8.14.0401,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",procedência parcial|171 outro|36|aberto,igual,1,
+sent_revisar,0801803-28.2022.8.14.0008,INV,sentenca,"resultado,tipo_acolhido,pena_meses,regime",procedência parcial|147|1.2|aberto,igual,1,
+sent_revisar,0805412-04.2022.8.14.0401,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",procedência parcial|171 §2º-A|48|aberto,igual,1,
+sent_revisar,0805552-38.2022.8.14.0401,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",procedência parcial|171 outro|12|aberto,igual,1,
+sent_revisar,0806056-44.2022.8.14.0401,FE,sentenca,tipo_acolhido,,tipo_acolhido=171 §2º-A,0,"julga parcialmente procedente: condena no art. 171, §2º-A, que absorve os arts. 297 e 304 por consunção; pena de 5 anos em semiaberto"
+sent_revisar,0814654-84.2022.8.14.0401,INV,sentenca,"resultado,tipo_acolhido,pena_meses,regime",procedência parcial|147|6|aberto,igual,1,
+sent_revisar,0819889-84.2022.8.14.0028,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",procedência parcial|171 outro|14|,igual,1,
+sent_revisar,0820198-53.2022.8.14.0401,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",procedência parcial|171 §2º-A|65.3|semiaberto,igual,1,
+sent_revisar,0824029-12.2022.8.14.0401,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",extinção sem mérito (decadência)|||,igual,1,
+sent_revisar,0800533-86.2023.8.14.0087,FE,sentenca,nota,,,1,"condena nos arts. 155, §4º-B, e 180, §3º; a pena é a do furto (1 ano e 6 meses, com arrependimento posterior em 2/3), e não a da receptação culposa, dita antes"
+sent_revisar,0800643-78.2023.8.14.0057,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",procedência parcial|171 §2º-A|18.7|semiaberto,igual,1,
+sent_revisar,0801497-10.2023.8.14.0401,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",procedência parcial|171 outro|15|aberto,igual,1,
+sent_revisar,0801839-21.2023.8.14.0401,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",rejeição da denúncia|||,igual,1,
+sent_revisar,0802578-85.2023.8.14.0015,FE,sentenca,"tipo_acolhido,pena_meses,regime,substituida_auto",,tipo_acolhido=171 outro; pena_meses=12; regime=aberto; substituida_auto=True,0,"condena no art. 171, caput, e afasta expressamente o §2º-A (o leitor pegou o §2º-A citado no afastamento); pena de 1 ano (o texto diz '01 de reclusão'), aberto, substituída"
+sent_revisar,0803104-11.2023.8.14.0061,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",procedência parcial|171 outro|18|aberto,igual,1,
+sent_revisar,0817558-43.2023.8.14.0401,FE,sentenca,"pena_meses,regime",,pena_meses=48; regime=aberto,0,"primeiro réu condenado, LUIZ FELIPE: 4 anos em aberto, substituída (a pena vem na seção do regime, sem 'definitiva')"
+sent_revisar,0817564-50.2023.8.14.0401,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",procedência parcial|171 §2º-A|56|semiaberto,igual,1,
+sent_revisar,0817566-20.2023.8.14.0401,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",rejeição parcial da denúncia|||,igual,1,
+sent_revisar,0821266-04.2023.8.14.0401,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",procedência parcial|171 §2º-A|51|semiaberto,igual,1,
+sent_revisar,0822630-11.2023.8.14.0401,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",procedência parcial|171 outro|12|aberto,igual,1,
+sent_revisar,0800169-85.2024.8.14.0053,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",procedência parcial|155 outro|24|aberto,igual,1,
+sent_revisar,0802098-73.2024.8.14.0015,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",procedência parcial|171 §2º-A|100|,igual,1,
+sent_revisar,0803124-27.2024.8.14.0009,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",procedência parcial|171 §2º-A|72|semiaberto,igual,1,
+sent_revisar,0803127-79.2024.8.14.0009,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",extinção sem mérito (continência)|||,igual,1,
+sent_revisar,0804049-11.2024.8.14.0401,CL,sentenca,tipo_acolhido,,tipo_acolhido=159,0,"condena no art. 159, caput (o §1º da denúncia cai), absolve do art. 288, parágrafo único, e extingue a punibilidade de JOYCE pela retratação (art. 342, §2º); 9 anos e 9 meses em fechado para o primeiro réu"
+sent_revisar,0804452-98.2024.8.14.0006,CL,sentenca,"resultado,tipo_acolhido,pena_meses,regime",rejeição da denúncia|||,igual,1,
+sent_revisar,0810363-70.2024.8.14.0401,CL,sentenca,"resultado,tipo_acolhido,pena_meses,regime",procedência parcial|288|18.3|aberto,igual,1,
+sent_revisar,0811347-54.2024.8.14.0401,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",procedência parcial|171 §2º-A|48|aberto,igual,1,
+sent_revisar,0811772-81.2024.8.14.0401,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",,resultado=condenação; tipo_acolhido=155 outro; pena_meses=; regime=,0,"JULGAMOS PROCEDENTE, na primeira pessoa do plural, que o leitor não lê: FLÁVIO e JUAREZ condenados nos arts. 155, §4º, II e IV, do CP, 1º, caput, §2º, I e §4º, da Lei 9.613/98 e 288 do CP; pena total não lida (o 155 continuado do primeiro réu chega a 6 anos e 8 meses)"
+sent_revisar,0812575-64.2024.8.14.0401,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",procedência parcial|171 §2º-A|42.7|aberto,igual,1,
+sent_revisar,0813146-35.2024.8.14.0401,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",procedência parcial|171 outro|36|,igual,1,
+sent_revisar,0814230-71.2024.8.14.0401,FE,sentenca,"tipo_acolhido,pena_meses,regime",,tipo_acolhido=171 §2º-A; pena_meses=56; regime=semiaberto,0,"JULGA-SE TOTALMENTE PROCEDENTE (forma impessoal, que o leitor não lê como marco): art. 171, §2º-A, c/c art. 71; 4 anos e 8 meses em semiaberto"
+sent_revisar,0814661-08.2024.8.14.0401,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",procedência parcial|157|76|fechado,igual,1,
+sent_revisar,0815181-65.2024.8.14.0401,CL,sentenca,"resultado,tipo_acolhido,pena_meses,regime",procedência parcial|171 §2º-A|32|aberto,igual,1,
+sent_revisar,0815210-18.2024.8.14.0401,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",procedência parcial|155 §4º-B|81|,igual,1,
+sent_revisar,0815026-28.2025.8.14.0401,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",declinação de competência|||,igual,1,
+sent_revisar,0818456-51.2026.8.14.0401,CL,sentenca,"resultado,tipo_acolhido,pena_meses,regime",absolvição|||,igual,1,
+sent_amostra,0811342-58.2021.8.14.0006,FE,sentenca,pena_meses,48 (leitor da fase 1),24,0,"o leitor da fase 1 pegou a pena-base (4 anos); a definitiva, com a tentativa, é de 2 anos: motivou a regra da dosimetria; com a regra, a extração passou a dar 24"
+sent_amostra,0805971-87.2024.8.14.0401,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",absolvição|||,igual,1,
+sent_amostra,0800267-58.2024.8.14.0057,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",condenação|171 §2º-A|24|aberto,igual,1,
+sent_amostra,0813074-82.2023.8.14.0401,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",absolvição|||,igual,1,
+sent_amostra,0802613-17.2024.8.14.0401,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",absolvição|||,igual,1,
+sent_amostra,0814092-75.2022.8.14.0401,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",absolvição|||,igual,1,
+sent_amostra,0812807-13.2023.8.14.0401,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",absolvição|||,igual,1,
+sent_amostra,0000533-21.2021.8.14.0401,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",condenação|288|72|semiaberto,igual,1,
+sent_amostra,0003478-80.2013.8.14.0006,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",absolvição|||,igual,1,
+sent_amostra,0822617-12.2023.8.14.0401,FE,sentenca,"resultado,tipo_acolhido,pena_meses,regime",absolvição|||,igual,1,
+sent_amostra,0804309-46.2023.8.14.0006,CL,sentenca,"resultado,tipo_acolhido,pena_meses,regime",absolvição|||,igual,1,
+sent_amostra,0010324-06.2019.8.14.0006,CL,sentenca,"resultado,tipo_acolhido,pena_meses,regime",absolvição|||,igual,1,
+sent_amostra,0800326-11.2023.8.14.0080,CL,sentenca,"resultado,tipo_acolhido,pena_meses,regime",condenação|171 §2º-A|48|aberto,igual,1,
+sent_amostra,0825125-62.2022.8.14.0401,CL,sentenca,"resultado,tipo_acolhido,pena_meses,regime",absolvição|||,igual,1,
+sent_amostra,0802801-36.2021.8.14.0006,CL,sentenca,"resultado,tipo_acolhido,pena_meses,regime",absolvição|||,igual,1,
+sent_amostra,0805119-21.2023.8.14.0006,CL,sentenca,"resultado,tipo_acolhido,pena_meses,regime",absolvição|||,igual,1,
+sent_amostra,0021621-23.2018.8.14.0401,INV,sentenca,"resultado,tipo_acolhido,pena_meses,regime",condenação|154-A|42|aberto,igual,1,
+sent_amostra,0800532-36.2022.8.14.0023,INV,sentenca,"resultado,tipo_acolhido,pena_meses,regime",condenação|154-A|80|,igual,1,"a pena lida (6 anos e 8 meses) é a do incêndio (art. 250), não a do 154-A; a regra é a do primeiro réu e da primeira pena definitiva"
+sent_amostra,0802231-20.2022.8.14.0037,INV,sentenca,"resultado,tipo_acolhido,pena_meses,regime",condenação|154-A|48|,igual,1,
+pena_regra,0819887-96.2021.8.14.0401,FE,sentenca,pena_meses,48 (leitor da fase 1),56,1,pena definitiva com o aumento do art. 71
+pena_regra,0803061-73.2022.8.14.0008,FE,sentenca,pena_meses,48 (leitor da fase 1),40,1,pena definitiva com a atenuante
+pena_regra,0803104-11.2023.8.14.0061,FE,sentenca,pena_meses,12 (leitor da fase 1),18,1,pena definitiva com o aumento de 1/2 do §4º
+pena_regra,0816542-54.2023.8.14.0401,FE,sentenca,pena_meses,56 (leitor da fase 1),37.3,1,pena definitiva com a redução de 1/3
+pena_regra,0820374-48.2025.8.14.0006,FE,sentenca,pena_meses,60 (leitor da fase 1),100,1,pena definitiva com o aumento de 2/3 do art. 71
+pena_regra,0823940-81.2025.8.14.0401,FE,sentenca,pena_meses,6 (leitor da fase 1),60,1,o leitor pegou 6 meses de outro trecho; a definitiva é de 5 anos
+pena_regra,0800267-58.2024.8.14.0057,FE,sentenca,pena_meses,24 (leitor da fase 1),24,1,"a primeira versão da regra pegou o título ""3ª Fase: Pena Definitiva""; o título passou a ser pulado"

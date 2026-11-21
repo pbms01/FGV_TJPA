@@ -1,0 +1,1084 @@
+{
+ "tjpa": {
+  "unidade": "denúncia sem duplicatas (família conta uma vez); censo, % simples",
+  "estratos": {
+   "INV": {
+    "denuncias": 11,
+    "processos_com_denuncia": 11,
+    "capitulacao": {
+     "154-A": [
+      10,
+      90.9
+     ],
+     "lavagem": [
+      1,
+      9.1
+     ]
+    },
+    "denuncias_com_sentenca": 7,
+    "sentencas_por_processo": 7,
+    "sentencas_so_sentenca": 0,
+    "sentencas_lidas": 7,
+    "resultado": {
+     "condenação": [
+      3,
+      42.9
+     ],
+     "procedência parcial": [
+      2,
+      28.6
+     ],
+     "absolvição": [
+      1,
+      14.3
+     ],
+     "extinção sem mérito (decadência)": [
+      1,
+      14.3
+     ]
+    },
+    "ao_menos_um_condenado": 71.4,
+    "tipo_acolhido": {
+     "154-A": [
+      3,
+      60.0
+     ],
+     "147": [
+      2,
+      40.0
+     ]
+    },
+    "mudanca_capitulacao": {
+     "mantém": [
+      3,
+      60.0
+     ],
+     "154-A → 147": [
+      2,
+      40.0
+     ]
+    },
+    "pena_mediana_meses": {
+     "154-A": [
+      3,
+      48.0
+     ],
+     "147": [
+      2,
+      3.6
+     ]
+    },
+    "regime": {
+     "aberto": [
+      3,
+      100.0
+     ]
+    },
+    "sem_pena_lida": 0,
+    "lei_15397": {
+     "anterior à lei": 6,
+     "sem menção": 1
+    },
+    "operacoes": {
+     "Trojan": 1
+    }
+   },
+   "CL": {
+    "denuncias": 12,
+    "processos_com_denuncia": 12,
+    "capitulacao": {
+     "171 §2º-A": [
+      4,
+      33.3
+     ],
+     "outro tipo": [
+      3,
+      25.0
+     ],
+     "171 outro": [
+      2,
+      16.7
+     ],
+     "lavagem": [
+      1,
+      8.3
+     ],
+     "155 §4º-B": [
+      1,
+      8.3
+     ],
+     "158": [
+      1,
+      8.3
+     ]
+    },
+    "denuncias_com_sentenca": 12,
+    "sentencas_por_processo": 13,
+    "sentencas_so_sentenca": 1,
+    "sentencas_lidas": 13,
+    "resultado": {
+     "absolvição": [
+      6,
+      46.2
+     ],
+     "condenação": [
+      3,
+      23.1
+     ],
+     "procedência parcial": [
+      3,
+      23.1
+     ],
+     "rejeição da denúncia": [
+      1,
+      7.7
+     ]
+    },
+    "ao_menos_um_condenado": 46.2,
+    "tipo_acolhido": {
+     "171 §2º-A": [
+      2,
+      33.3
+     ],
+     "171 outro": [
+      1,
+      16.7
+     ],
+     "171 §2º VII": [
+      1,
+      16.7
+     ],
+     "159": [
+      1,
+      16.7
+     ],
+     "288": [
+      1,
+      16.7
+     ]
+    },
+    "mudanca_capitulacao": {
+     "mantém": [
+      3,
+      50.0
+     ],
+     "para 171 §2º VII": [
+      1,
+      16.7
+     ],
+     "outro tipo → 159": [
+      1,
+      16.7
+     ],
+     "outro tipo → 288": [
+      1,
+      16.7
+     ]
+    },
+    "pena_mediana_meses": {
+     "171 §2º-A": [
+      2,
+      40.0
+     ],
+     "171 outro": [
+      1,
+      14.0
+     ],
+     "171 §2º VII": [
+      1,
+      12.0
+     ],
+     "159": [
+      1,
+      117.0
+     ],
+     "288": [
+      1,
+      18.3
+     ]
+    },
+    "regime": {
+     "aberto": [
+      5,
+      83.3
+     ],
+     "fechado": [
+      1,
+      16.7
+     ]
+    },
+    "sem_pena_lida": 0,
+    "lei_15397": {
+     "menciona, sem codificar": 2,
+     "anterior à lei": 10,
+     "aplica": 1
+    },
+    "operacoes": {
+     "Trojan": 1
+    }
+   },
+   "FE": {
+    "denuncias": 156,
+    "processos_com_denuncia": 168,
+    "capitulacao": {
+     "171 §2º-A": [
+      123,
+      78.8
+     ],
+     "171 outro": [
+      14,
+      9.0
+     ],
+     "155 §4º-B": [
+      9,
+      5.8
+     ],
+     "155 outro": [
+      6,
+      3.8
+     ],
+     "lavagem": [
+      4,
+      2.6
+     ]
+    },
+    "denuncias_com_sentenca": 87,
+    "sentencas_por_processo": 95,
+    "sentencas_so_sentenca": 4,
+    "sentencas_lidas": 91,
+    "resultado": {
+     "condenação": [
+      35,
+      38.5
+     ],
+     "absolvição": [
+      27,
+      29.7
+     ],
+     "procedência parcial": [
+      25,
+      27.5
+     ],
+     "extinção sem mérito (decadência)": [
+      1,
+      1.1
+     ],
+     "rejeição da denúncia": [
+      1,
+      1.1
+     ],
+     "extinção sem mérito (continência)": [
+      1,
+      1.1
+     ],
+     "declinação de competência": [
+      1,
+      1.1
+     ]
+    },
+    "ao_menos_um_condenado": 65.9,
+    "tipo_acolhido": {
+     "171 §2º-A": [
+      31,
+      51.7
+     ],
+     "171 outro": [
+      19,
+      31.7
+     ],
+     "155 §4º-B": [
+      4,
+      6.7
+     ],
+     "155 outro": [
+      3,
+      5.0
+     ],
+     "288": [
+      1,
+      1.7
+     ],
+     "lavagem": [
+      1,
+      1.7
+     ],
+     "157": [
+      1,
+      1.7
+     ]
+    },
+    "mudanca_capitulacao": {
+     "mantém": [
+      45,
+      78.9
+     ],
+     "afasta o §2º-A": [
+      8,
+      14.0
+     ],
+     "171 outro → 155 outro": [
+      1,
+      1.8
+     ],
+     "lavagem → 288": [
+      1,
+      1.8
+     ],
+     "171 §2º-A → 155 §4º-B": [
+      1,
+      1.8
+     ],
+     "171 §2º-A → 157": [
+      1,
+      1.8
+     ]
+    },
+    "pena_mediana_meses": {
+     "171 §2º-A": [
+      31,
+      48.0
+     ],
+     "171 outro": [
+      19,
+      18.0
+     ],
+     "155 §4º-B": [
+      4,
+      52.0
+     ],
+     "155 outro": [
+      2,
+      24.0
+     ],
+     "288": [
+      1,
+      72.0
+     ],
+     "157": [
+      1,
+      76.0
+     ]
+    },
+    "regime": {
+     "aberto": [
+      30,
+      62.5
+     ],
+     "semiaberto": [
+      15,
+      31.2
+     ],
+     "fechado": [
+      3,
+      6.2
+     ]
+    },
+    "sem_pena_lida": 2,
+    "lei_15397": {
+     "sem menção": 23,
+     "anterior à lei": 67,
+     "menciona, sem codificar": 1
+    },
+    "operacoes": {
+     "Trojan": 5,
+     "Arremate": 3
+    }
+   },
+   "total": {
+    "denuncias": 179,
+    "processos_com_denuncia": 191,
+    "capitulacao": {
+     "171 §2º-A": [
+      127,
+      70.9
+     ],
+     "171 outro": [
+      16,
+      8.9
+     ],
+     "154-A": [
+      10,
+      5.6
+     ],
+     "155 §4º-B": [
+      10,
+      5.6
+     ],
+     "lavagem": [
+      6,
+      3.4
+     ],
+     "155 outro": [
+      6,
+      3.4
+     ],
+     "outro tipo": [
+      3,
+      1.7
+     ],
+     "158": [
+      1,
+      0.6
+     ]
+    },
+    "denuncias_com_sentenca": 106,
+    "sentencas_por_processo": 115,
+    "sentencas_so_sentenca": 5,
+    "sentencas_lidas": 111,
+    "resultado": {
+     "condenação": [
+      41,
+      36.9
+     ],
+     "absolvição": [
+      34,
+      30.6
+     ],
+     "procedência parcial": [
+      30,
+      27.0
+     ],
+     "extinção sem mérito (decadência)": [
+      2,
+      1.8
+     ],
+     "rejeição da denúncia": [
+      2,
+      1.8
+     ],
+     "extinção sem mérito (continência)": [
+      1,
+      0.9
+     ],
+     "declinação de competência": [
+      1,
+      0.9
+     ]
+    },
+    "ao_menos_um_condenado": 64.0,
+    "tipo_acolhido": {
+     "171 §2º-A": [
+      33,
+      46.5
+     ],
+     "171 outro": [
+      20,
+      28.2
+     ],
+     "155 §4º-B": [
+      4,
+      5.6
+     ],
+     "155 outro": [
+      3,
+      4.2
+     ],
+     "154-A": [
+      3,
+      4.2
+     ],
+     "288": [
+      2,
+      2.8
+     ],
+     "147": [
+      2,
+      2.8
+     ],
+     "lavagem": [
+      1,
+      1.4
+     ],
+     "171 §2º VII": [
+      1,
+      1.4
+     ],
+     "159": [
+      1,
+      1.4
+     ],
+     "157": [
+      1,
+      1.4
+     ]
+    },
+    "mudanca_capitulacao": {
+     "mantém": [
+      51,
+      75.0
+     ],
+     "afasta o §2º-A": [
+      8,
+      11.8
+     ],
+     "154-A → 147": [
+      2,
+      2.9
+     ],
+     "171 outro → 155 outro": [
+      1,
+      1.5
+     ],
+     "lavagem → 288": [
+      1,
+      1.5
+     ],
+     "para 171 §2º VII": [
+      1,
+      1.5
+     ],
+     "171 §2º-A → 155 §4º-B": [
+      1,
+      1.5
+     ],
+     "outro tipo → 159": [
+      1,
+      1.5
+     ],
+     "outro tipo → 288": [
+      1,
+      1.5
+     ],
+     "171 §2º-A → 157": [
+      1,
+      1.5
+     ]
+    },
+    "pena_mediana_meses": {
+     "171 §2º-A": [
+      33,
+      48.0
+     ],
+     "171 outro": [
+      20,
+      17.0
+     ],
+     "155 §4º-B": [
+      4,
+      52.0
+     ],
+     "154-A": [
+      3,
+      48.0
+     ],
+     "155 outro": [
+      2,
+      24.0
+     ],
+     "288": [
+      2,
+      45.1
+     ],
+     "147": [
+      2,
+      3.6
+     ],
+     "171 §2º VII": [
+      1,
+      12.0
+     ],
+     "159": [
+      1,
+      117.0
+     ],
+     "157": [
+      1,
+      76.0
+     ]
+    },
+    "regime": {
+     "aberto": [
+      38,
+      66.7
+     ],
+     "semiaberto": [
+      15,
+      26.3
+     ],
+     "fechado": [
+      4,
+      7.0
+     ]
+    },
+    "sem_pena_lida": 2,
+    "lei_15397": {
+     "sem menção": 24,
+     "anterior à lei": 83,
+     "menciona, sem codificar": 3,
+     "aplica": 1
+    },
+    "operacoes": {
+     "Trojan": 7,
+     "Arremate": 3
+    }
+   }
+  }
+ },
+ "tjsp": {
+  "unidade": "denúncia sem duplicatas, % ponderado dentro do estrato",
+  "estratos": {
+   "INV": {
+    "denuncias": 34,
+    "capitulacao": {
+     "154-A": [
+      29,
+      85.3
+     ],
+     "outro tipo": [
+      2,
+      5.9
+     ],
+     "lavagem": [
+      1,
+      2.9
+     ],
+     "171 §2º-A": [
+      1,
+      2.9
+     ],
+     "155 outro": [
+      1,
+      2.9
+     ]
+    },
+    "sentencas_lidas": 34,
+    "resultado": {
+     "procedência parcial": [
+      16,
+      47.1
+     ],
+     "condenação": [
+      13,
+      38.2
+     ],
+     "absolvição": [
+      5,
+      14.7
+     ]
+    },
+    "ao_menos_um_condenado": 85.3,
+    "tipo_acolhido": {
+     "154-A": [
+      18,
+      66.7
+     ],
+     "147": [
+      1,
+      3.7
+     ],
+     "171 §2º-A": [
+      1,
+      3.7
+     ],
+     "312": [
+      1,
+      3.7
+     ],
+     "180": [
+      1,
+      3.7
+     ],
+     "147-A": [
+      1,
+      3.7
+     ],
+     "158": [
+      1,
+      3.7
+     ],
+     "171 outro": [
+      1,
+      3.7
+     ],
+     "155 outro": [
+      1,
+      3.7
+     ],
+     "138": [
+      1,
+      3.7
+     ]
+    },
+    "mudanca_capitulacao": {
+     "mantém": [
+      19,
+      70.4
+     ],
+     "154-A → 147": [
+      1,
+      3.7
+     ],
+     "outro tipo → 312": [
+      1,
+      3.7
+     ],
+     "154-A → 180": [
+      1,
+      3.7
+     ],
+     "154-A → 147-A": [
+      1,
+      3.7
+     ],
+     "154-A → 158": [
+      1,
+      3.7
+     ],
+     "154-A → 171 outro": [
+      1,
+      3.7
+     ],
+     "154-A → 155 outro": [
+      1,
+      3.7
+     ],
+     "outro tipo → 138": [
+      1,
+      3.7
+     ]
+    },
+    "pena_mediana_meses": {
+     "154-A": [
+      18,
+      32.0
+     ],
+     "147": [
+      1,
+      12.0
+     ],
+     "171 §2º-A": [
+      1,
+      67.2
+     ],
+     "312": [
+      1,
+      24.0
+     ],
+     "180": [
+      1,
+      12.0
+     ],
+     "147-A": [
+      1,
+      13.1
+     ],
+     "158": [
+      1,
+      165.3
+     ],
+     "171 outro": [
+      1,
+      24.0
+     ],
+     "155 outro": [
+      1,
+      24.0
+     ],
+     "138": [
+      1,
+      8.0
+     ]
+    },
+    "regime": {
+     "aberto": [
+      15,
+      57.7
+     ],
+     "fechado": [
+      7,
+      26.9
+     ],
+     "semiaberto": [
+      4,
+      15.4
+     ]
+    },
+    "sem_pena_lida": 2
+   },
+   "CL": {
+    "denuncias": 50,
+    "capitulacao": {
+     "171 §2º-A": [
+      21,
+      43.2
+     ],
+     "171 outro": [
+      14,
+      27.8
+     ],
+     "155 §4º-B": [
+      5,
+      10.7
+     ],
+     "158": [
+      4,
+      7.2
+     ],
+     "155 outro": [
+      2,
+      4.2
+     ],
+     "180": [
+      2,
+      3.5
+     ],
+     "outro tipo": [
+      1,
+      2.1
+     ],
+     "lavagem": [
+      1,
+      1.4
+     ]
+    },
+    "sentencas_lidas": 50,
+    "resultado": {
+     "condenação": [
+      24,
+      47.6
+     ],
+     "procedência parcial": [
+      23,
+      46.6
+     ],
+     "absolvição": [
+      3,
+      5.8
+     ]
+    },
+    "ao_menos_um_condenado": 94.2,
+    "tipo_acolhido": {
+     "171 §2º-A": [
+      15,
+      31.5
+     ],
+     "171 outro": [
+      12,
+      25.9
+     ],
+     "171 §2º VII": [
+      10,
+      22.7
+     ],
+     "155 §4º-B": [
+      3,
+      6.7
+     ],
+     "155 outro": [
+      2,
+      4.4
+     ],
+     "158": [
+      2,
+      3.0
+     ],
+     "drogas": [
+      1,
+      2.2
+     ],
+     "180": [
+      1,
+      2.2
+     ],
+     "lavagem": [
+      1,
+      1.5
+     ]
+    },
+    "mudanca_capitulacao": {
+     "mantém": [
+      31,
+      65.8
+     ],
+     "para 171 §2º VII": [
+      10,
+      22.7
+     ],
+     "afasta o §2º-A": [
+      2,
+      4.7
+     ],
+     "acrescenta o §2º-A": [
+      2,
+      3.2
+     ],
+     "outro tipo → drogas": [
+      1,
+      2.2
+     ],
+     "180 → 171 outro": [
+      1,
+      1.5
+     ]
+    },
+    "pena_mediana_meses": {
+     "171 §2º-A": [
+      15,
+      48.0
+     ],
+     "171 outro": [
+      12,
+      14.2
+     ],
+     "171 §2º VII": [
+      10,
+      12.0
+     ],
+     "155 §4º-B": [
+      3,
+      54.0
+     ],
+     "155 outro": [
+      2,
+      30.6
+     ],
+     "158": [
+      1,
+      64.0
+     ],
+     "drogas": [
+      1,
+      70.0
+     ],
+     "lavagem": [
+      1,
+      205.3
+     ],
+     "180": [
+      1,
+      14.0
+     ]
+    },
+    "regime": {
+     "aberto": [
+      29,
+      69.8
+     ],
+     "semiaberto": [
+      9,
+      19.6
+     ],
+     "fechado": [
+      6,
+      10.6
+     ]
+    },
+    "sem_pena_lida": 1
+   },
+   "FE": {
+    "denuncias": 114,
+    "capitulacao": {
+     "171 §2º-A": [
+      100,
+      86.3
+     ],
+     "171 outro": [
+      11,
+      10.8
+     ],
+     "155 §4º-B": [
+      1,
+      1.4
+     ],
+     "155 outro": [
+      2,
+      1.4
+     ]
+    },
+    "sentencas_lidas": 113,
+    "resultado": {
+     "condenação": [
+      77,
+      67.6
+     ],
+     "procedência parcial": [
+      24,
+      19.7
+     ],
+     "absolvição": [
+      11,
+      12.1
+     ],
+     "extinção": [
+      1,
+      0.6
+     ]
+    },
+    "ao_menos_um_condenado": 87.3,
+    "tipo_acolhido": {
+     "171 §2º-A": [
+      81,
+      82.1
+     ],
+     "171 outro": [
+      17,
+      15.3
+     ],
+     "155 outro": [
+      2,
+      1.6
+     ],
+     "171 §2º VII": [
+      1,
+      1.0
+     ]
+    },
+    "mudanca_capitulacao": {
+     "mantém": [
+      85,
+      86.7
+     ],
+     "afasta o §2º-A": [
+      10,
+      6.7
+     ],
+     "acrescenta o §2º-A": [
+      4,
+      4.0
+     ],
+     "155 §4º-B → 171 §2º-A": [
+      1,
+      1.6
+     ],
+     "para 171 §2º VII": [
+      1,
+      1.0
+     ]
+    },
+    "pena_mediana_meses": {
+     "171 §2º-A": [
+      81,
+      48.0
+     ],
+     "171 outro": [
+      17,
+      12.0
+     ],
+     "155 outro": [
+      2,
+      16.6
+     ],
+     "171 §2º VII": [
+      1,
+      12.0
+     ]
+    },
+    "regime": {
+     "aberto": [
+      56,
+      58.2
+     ],
+     "semiaberto": [
+      26,
+      27.0
+     ],
+     "fechado": [
+      13,
+      14.8
+     ]
+    },
+    "sem_pena_lida": 0
+   }
+  }
+ }
+}

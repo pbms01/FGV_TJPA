@@ -137,6 +137,12 @@ Duas famílias de desmembramento repetem a mesma denúncia e precisam contar uma
 - Patrick Auler Stefanes, na Vara de Combate ao Crime Organizado de Belém (md5 do texto sem as três linhas de cabeçalho `1129e03326c83a6252b191f3377c8483`): 0802404-14.2025, 0802159-03.2025, 0802415-43.2025, 0802399-89.2025, 0802298-52.2025, 0802294-15.2025 e 0807765-75.2026.
 - 10ª Vara Criminal de Belém, IPL 592 (md5 `2a12908e23003ebc9f5792d0e67712cb`): 0817567-05.2023, 0820198-53.2022, 0817564-50.2023, 0817558-43.2023, 0817566-20.2023 e 0817569-72.2023.
 
+Uma terceira família apareceu na extração: 0800267-58.2024.8.14.0057, desmembrado de 0800643-78.2023.8.14.0057 (Santa Maria do Pará), com a mesma denúncia, como já dizia a nota da coleta. As denúncias da Operação Trojan (sete) e da Operação Arremate (três, Bragança) não são duplicatas: partilham a narrativa da operação, mas cada uma tem réus e capitulação próprios.
+
+### Extração (21/11/2026, à noite)
+
+Feita com `python3 scripts/extrai_denuncias.py tjpa`, `python3 scripts/sentencas_tjpa.py` e `python3 scripts/consolida_tjpa.py`, pelas regras da fase 1 com a camada do molde do MPPA. Método, correções, validação e resultados na seção "Extração das denúncias e sentenças do TJPA" do `dados/extracao/LEIAME.md`. A capitulação que a regex do `cmd_grava` deixava escapar (pendência 4 abaixo) é lida na extração, pela âncora de segundo nível.
+
 ### Lições da coleta
 
 Onde a denúncia aparece, além do documento do tipo "Denúncia":
@@ -163,7 +169,7 @@ Outras regras de operação:
 1. Segunda passada: denúncia dos cinco `so_sentenca` (0818456-51.2026, 0003478-80.2013, 0814581-95.2022, 0814230-71.2024 e 0801497-10.2023, cuja denúncia a11b8a13 volta sem conteúdo) e dos dois `sem_texto` (0800083-74.2023, doc 3f51107f-81f7-5734-ad33-cc0aa5fc9d13; 0811946-61.2022, doc e4d29280-c055-5ca1-baf3-2a65c39b4e87), por OCR ou pelo navegador; sentença de 0802544 e 0000410 pelo texto do DJEN.
 2. Peças vistas e não lidas: o acórdão de 0805552-38.2022 (08f78e51-37d7-5303-8b19-0e1a8ffc7f35), a decisão de 06/11/2026 em 0805897-96.2025, a guia de execução de Kerolayne em 0817569-72.2023 e as decisões interlocutórias marcadas "não lida" nas notas.
 3. Medir a cobertura do DJEN contra o DataJud ou o Codex (viés acima), agora com a vantagem de que o grupo 2 mostrou 25 sentenças que o DJEN não classificava como tal.
-4. Ampliar a janela da regex de capitulação no `cmd_grava` e regravar os casos com "capitulação não localizada".
+4. Ampliar a janela da regex de capitulação no `cmd_grava` e regravar os casos com "capitulação não localizada". A extração já lê essas capitulações; a mudança só importa se a coleta for repetida.
 5. Portar o localizador do TJPA ao `scripts/codex_denuncias.py`, se a coleta for repetida fora da conversa.
 6. Inquéritos: aplicar a regra de seleção do `plano-captura.md` aos 74 inquéritos da lista, se a análise os pedir.
 7. Tentar de novo o Banco de Jurisprudência do TJPA para os acórdãos das 33 apelações.
