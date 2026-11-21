@@ -1,0 +1,433 @@
+[Texto nativo do PJe]
+
+Autor: MINISTÉRIO PÚBLICO DO ESTADO DO PARÁ
+
+Réus: 1) WULDSON RANGEL DE SOUZA; 2) ROGERIO JANSEN COSTA; 3) ADRIANI CRISTINA DOS SANTOS; 4) FELIPE ALBUQUERQUE DO ESPIRITO SANTO; 5) MARCELO WAGNER COSTA; 6) ROBERTO CESAR SANTOS PEREIRA; 7) ADRIANO SANTIAGO DA ROCHA; 8) CARLA CELISE CARVALHO DE OLIVEIRA.
+
+Capitulação: Art. 1º, §1º, II, da Lei 9.613/98 e Art. 2º, caput, da Lei 12.850/13.
+
+S E N T E N Ç A
+
+I) - DO RELATÓRIO.
+
+Trata-se de AÇÃO PENAL proposta pelo representante do MINISTÉRIO PÚBLICO DO ESTADO DO PARÁ contra 1) WULDSON RANGEL DE SOUZA, brasileiro, nascido em 27.10.1984, CPF no 844.169.712-49, RG no 4899166, filho de Ruth Helena Nazaré de Souza e Mariano Rangel de Souza, Residente na Av. José Bonifácio, Vila Magalhães Barata, NO 16, Bairro Guamá, Belém-PA ou Rua Gomes Palheta, N. 11, São Domingos do Capim-PA; 2) ROGERIO JANSEN COSTA, brasileiro, nascido e 16/10/1981, CPF no 700.895.472-76, filho de Sandra Mara Jansen da Costa, residente na Rua José Amancio, N. 1225, Santa Izabel-PA; 3) ADRIANI CRISTINA DOS SANTOS, brasileira, nascida em 03.04.1984, CPF no 021.822.005-76, RG no 7744972-PC/PA, telefone (91) 99156-575, filha de Maria Terezinha dos Santos, residente na Rua Bernardo Couto, N. 346, Bairro Umarizal, Belém-PA ou Rua Doutor Américo Santa Rosa, N. 27, Vila Conceição, Bairro Canudos, Belém-PA, CEP 66070-880; 4) FELIPE ALBUQUERQUE DO ESPÍRITO SANTO, brasileiro, nascido em 17/10/1988, CPF n. 975.657.332-53, RG no 5294360-PC/PA, filho de Sheila Albuquerque do Espírito Santo, residente na Rua Curuça, N. 1204, Bairro Telegrafo: Belém-PA; 5) MARCELO WAGNER COSTA, brasileiro, nascido em 29.10.1979, CPF no 693.056.332-34, RG no 3634149-PC/PA, filho de Lindonor Catarina Costa, residente na Travessa 14 de Abril, N02193, Bairro da Caripunas, Belém-PA; 6) ROBERTO CESAR SANTOS PEREIRA, brasileiro, nascido em 09.07.1978, CPF no 612.126.792-53, RG no 2990679-PC/PA, filho de Iolanda Rodrigues Pereira e Carlos Alberto Santos da Silva, residente na Av. Norte, Passagem Marajoara, N. 3, Casa 35, Bairro Val de Cans, Belém-PA; 7) ADRIANO SANTIAGO DA ROCHA, brasileiro, nascido em 30.05.1984, CPF no 917.763.762-34, RG n. 5361800-PC/PA, filho de Maria da Conceição Rocha, residente na Rua Benevides, 8) CARLA CELISE CARVALHO DE OLIVEIRA, brasileira, nascida em 07.09.1988, CPF n. 969.563.302-10, RG n. 5796433-PC/PA, filho de Sueli Teixeira Carvalho e Nicodemus Neves de Oliveira, residente na Rua Padre Julio Maria, N.1299, Bairro de Icoaraci, Belém-PA ou Passagem São Geraldo, N039, Alameda A, Bairro Aguas Negras, Belém-PA ou Rua Crisanto Arruda, N. 150, Casa 12, Fortaleza-CE, dando-os como incursos nas sanções punitivas do Art. 1º, §1º, II, da Lei 9.613/98 e Art. 2º, caput, da Lei 12.850/13.
+
+Narra o Dominus Litis na Denúncia (ID nº55283169), em síntese, que o Banco Itaú S/A, identificou a ocorrência de crimes eletrônicos, os quais eram realizados através de arquivos maliciosos (trojans e phishing). O esquemas criminoso era executado a partir do momento em que a vítima preenchia os dados de conta corrente e senha em um site falso, mas com aparência de ser do Banco Itaú, entretanto, a partir da coleta desses dados os criminosos entravam no site verdadeiro do banco e realizavam transferências e pagamentos de tributos. O esquema contava com pessoas especializadas em tecnologia que recebiam por meio da internet em seu banco de dados as informações das vítimas, e posteriormente entravam em contato com a operadora de telefone e cancelavam o chip do celular da vítima e solicitavam um novo, para assim receber o código itoken e finalizar as transações. Por fim, o dinheiro adquirido era lavado através da ocultação dos valores.
+
+Em razão dos fatos foram denunciados como incursos nos crimes capitulados nos Art. 1º, §1º, II, da Lei 9.613/98 e Art. 2º, caput, da Lei 12.850/13.
+
+Os Acusados 4) Felipe Albuquerque, 6) Roberto Cesar, 7) Adriano Santiago e 8) Carla Celise foram citados (id nº75360621, 78649726, 78102824 e 75040623) e apresentaram resposta à acusação, tendo em relação aos demais o processo sido suspenso, assim como o prazo prescricional.
+
+Na instrução processual foram ouvidas a policial Vanessa Lee Pinto, Ronaldo Sergio Guimarães, Henrique de Souza Jordão, Luiz Fernando Romero e Igor Carleo de Oliveira. Os Acusados Felipe Albuquerque do Espírito Santo e Roberto César Santos Pereira foram interrogados ao final, tendo sido decretada a revelia de Adriano Santiago da Rocha e Carla Celise Carvalho de Oliveira.
+
+Em Alegações Finais, o Ministério Público requer a realização da emendatio libelli com a condenação dos Acusados nas penas dispostas no Art. 1º, §1º, II, da Lei 9.613/98 e Art. 288, caput, do CPB.
+
+O Assistente de Acusação apresentou suas alegações finais em forma de memoriais no id nº128699695- Pág.1/23, requerendo, ao final, a condenação dos Acusados nos crimes de Lavagem de Dinheiro e Associação Criminosa.
+
+Por sua vez, as Defesas, à guisa de Razões Finais, requerem: i) absolvição por insuficiência de provas; ii) absolvição atipicidade da conduta referente a associação criminosa, iii) em caso de condenação requer aplicação da pena em seu mínimo legal.
+
+Em síntese, é o relatório. Passo a motivar e, alfim, decido.
+
+II) - DO MÉRITO.
+
+DA EMENDATIO LIBELLI (Art. 383, do CPP)
+
+Dispõe o Art. 383, do Código de Processo Penal, in verbis:
+
+"Art. 383. O juiz poderá dar ao fato definição jurídica diversa da que constar da queixa ou da denúncia, ainda que, em consequência, tenha de aplicar pena mais grave."
+
+Infere-se, portanto, do sobredito dispositivo que o Juiz de Direito pode e deve adequar a definição jurídica do delito, isto é, a sua capitulação, quando verificar que dos fatos narrados na denúncia fora utilizada capitulação diversa da efetivamente devida, quer porque houve omissão, quer porque houve excesso de zelo pelo Dominus Litis.
+
+Em tal hipótese, os fatos estão regularmente descritos na Denúncia, sendo que, nada obstante, não há correlação entre os fatos narrados e a definição jurídica capitulada pelo Órgão Acusador.
+
+O renomado Prof. JÚLIO FABBRINI MIRABETE preleciona que: "compreende-se que essa definição jurídica seja alterada pela sentença porque o Acusado se defende do fato criminoso que lhe é imputado e não dos artigos na lei com que ele é classificado na peça inicial."
+[1]
+
+Isso porque também vigora no Direito Processual Penal brasileiro o princípio do Jura Novit Curia, vale dizer, o princípio da livre dicção do direito pelo Julgador que reflete a máxima narra mihi factum dabo tibi jus, em vernáculo, "narra-me os fatos e dar-te-ei o direito".
+
+A Conspícua Professora ADA PELLEGRINI GRINOVER, em obra conjunta, nos ensina que:
+
+"De acordo com o Art. 383, o juiz, ao julgar a pretensão, deve dar ao fato a correta qualificação jurídica, dizendo qual o direito aplicável ao caso concreto. A adequação feita pelo Promotor de Justiça é meramente provisória; por sua vez, o réu se defende da imputação relativa a determinado fato descrito e não de sua capitulação jurídica.
+
+É o que tem sido afirmado pelo STF: 'o réu defende-se do fato que lhe é imputado na denúncia ou queixa e não da classificação jurídica feita pelo MP, ou querelante' (HC 61.617-8-SP, j. 04.051984), ou 'o réu se defende do crime descrito na denúncia e não da capitulação nela constante' (HC 63.587-3-RS, j. 14.02.1986). Ainda no mesmo sentido: RT 461/306 e 507/525."
+[2]
+
+Feitas tais considerações iniciais, constate-se agora que os Acusados Felipe Albuquerque, Roberto Cesar, Adriano Santiago e Carla Celise foram dados como incursos no Art. 2, caput, da Lei 12.850/13 e o crime de Lavagem de Capitais, entretanto, a Denúncia relata concurso material entre o delito do Art. 288, CPB (Associação Criminosa), e o previsto no Art. 1º, §1º, Inciso II, da Lei 9.613/1998 (Lavagem de Capitais).
+
+Entendo que a errônea capitulação em que incorreu o Membro do MINISTÉRIO PÚBLICO, diga-se por excesso de zelo, diz respeito ao enquadramento dos Acusados no Crime de Organização Criminosa, de forma que a correta capitulação seria elencada com fulcro no Art. 288 (Associação Criminosa), considerando que ficou provado que essas pessoas se reuniam com um vínculo associativo para de forma estável e permanente cometerem ilícitos.
+
+Superada tal premissa inicial, passemos ao mérito propriamente dito.
+
+Dispõe o Art. 1º, §1º, II, da Lei 9.613/98, que:
+
+"Art. 1o Ocultar ou dissimular a natureza, origem, localização, disposição, movimentação ou propriedade de bens, direitos ou valores provenientes, direta ou indiretamente, de infração penal.
+
+§ 1o  Incorre na mesma pena quem, para ocultar ou dissimular a utilização de bens, direitos ou valores provenientes de infração penal:  (Redação dada pela Lei nº 12.683, de 2012)
+
+II-  os adquire, recebe, troca, negocia, dá ou recebe em garantia, guarda, tem em depósito, movimenta ou transfere;"
+
+No caso em tela, restaram provadas tanto a autoria quanto a materialidade da conduta tipificada no Art. 1º, §1º, II, da Lei 9.613/98 (Lavagem de Dinheiro), diante da instrução probatória que encerrou em desfavor dos Acusados ADRIANO SANTIAGO DA ROCHA, CARLA CELISE CARVALHO DE OLIVEIRA, FELIPE ALBUQUERQUE DO ESPÍRITO SANTO e ROBERTO CÉSAR SANTOS PEREIRA.
+
+A materialidade ficou comprovada pelos documentos e extratos bancários anexados aos autos (55280498 - Pág. 90 e seguintes).
+
+A autoria por sua vez ficou comprovada pelos depoimentos prestados em Juízo.
+
+A testemunha Henrique de Souza Jordão, dentre outros fatos, relatou que, inicialmente, as vítimas detectaram as fraudes com identificação de transações não reconhecidas, motivando-as a buscarem o Banco e relatar o ocorrido. Posteriormente, foi aberta ocorrência pelo setor de prevenção às fraudes, com levantamento de vários pontos, como IP de acesso, beneficiários e máquinas. Assim, foi identificado um grande volume de fraudes oriundos de mesmos dispositivos, localizados no Estado do Pará. Em razão disso, foram juntadas as informações e encaminhadas à Polícia Civil, para instauração de Inquérito Policial. Em paralelo, foi feita a regularização das contas das vítimas e estorno dos valores subtraídos. Ressaltou, finalmente, que a fraude consistia em um malware trojan que infectava o computador da vítima com a captura de informações e dados, além da captura de tokens por intermédio da técnica sim swap e dessa forma era feita a realização das transações criminosas.
+
+A testemunha Vanessa Lee Pinto Araújo, relatou que a investigação se iniciou após uma Representação do ITAÚ/UNIBANCO, em que seus clientes foram vítimas de fraudes perpetradas por intermédio de dispositivos maliciosos. Em razão da responsabilidade financeira do banco, este também acabou se tornando vítima do golpe. Consta da Representação que cerca de cem pessoas foram beneficiadas diretamente pelas fraudes. A Polícia Civil conseguiu identificar alguns blocos de indivíduos, unidos por similaridades, os quais receberam os valores conseguidos ilicitamente dos correntistas do citado banco. A investigação visou os dispositivos maliciosos conhecidos como trojans, que eram enviados pelos criminosos aos clientes da instituição financeira. Na internet, ao clicarem nos trojans, os clientes do banco permitiam a instalação de extensão que fazia com que os criminosos obtivessem informações pessoais como senhas bancárias, números de agências e de contas correntes. Outro ponto era a manutenção de linha telefônica dos ofendidos, que fazia com que os autores do fato conseguissem realizar transações nas contas. Após conseguirem os valores, estes eram pulverizados em contas de terceiros em quantias inferiores a R$ 10.000,00 (dez mil reais), a fim de não gerar alerta de fraude junto ao COAF e aos bancos. Ressaltou que os montantes eram entre R$ 7.000,00 (sete mil reais) e R$ 8.000,00 (oito mil reais). Relatou que o principal investigado era WELLINGTON PATRICK, bem como sua companheira, a acusada CARLA CELISE, que ficou com a incumbência de fazer a partilha dos valores. RÓGERIO JANSEN COSTA recebeu quantia diretamente de WELLINGTON PATRICK, porém o valor não foi creditado em sua conta. ADRIANI CRISTINA DOS SANTOS não conseguiu receber os valores em sua conta, enquanto FELIPE ALBUQUERQUE DO ESPÍRITO SANTO recebeu valores diretamente de WELLINGTON PATRICK. No que concerne a MARCELO WAGNER COSTA, ADRIANO SANTIAGO DA ROCHA e ROBERTO CÉSAR DOS SANTOS PEREIRA, estes receberam quantias em suas contas correntes.
+
+A testemunha Policial Ronaldo Sérgio Guimarães relatou que participou da operação anterior aos novos indiciamentos, denominada de "TROJAN". Não estava mais lotado na respectiva Divisão quando deflagrada a Segunda Fase da citada Operação. Ressaltou ter realizado uma investigação em que foram identificados beneficiários de valores, os quais empregavam alguns arquivos maliciosos e posteriormente invadiam os dispositivos das vítimas e realizavam transações bancárias. Disse também que os infratores pulverizavam valores e os transferiam em quantias menores, visando burlar os sistemas bancários e a fiscalização do COAF. Outro ponto citado foi que WELLINGTON PATRICK era o mentor das fraudes, responsável pela engenharia social, arrecadação e distribuição dos valores. Ressaltou, por fim, que CARLA CELISE recebia dinheiro e tinha ciência dos fatos.
+
+A testemunha Luiz Fernando Romero relatou que a Inspetoria do banco identificou que vários clientes passaram a reclamar junto à instituição quanto à retirada indevida de valores de suas contas correntes. Assim, passou a apurar os fatos e constatou que a quadrilha enviava e-mails maliciosos contendo trojans e vírus. Ao acessar tais e-mails, o cliente tinha sua máquina infectada e os criminosos tinham acesso a dados e credenciais, passando a programar transferências das contas bancárias das vítimas. Pela necessidade do código e-token para concluir as transações, os autores do fato passavam a acompanhar transações legítimas do cliente. No momento em que o ofendido digitava o código, os criminosos o conseguiam e realizavam as transferências fraudulentas. Em virtude dos fatos foi elaborada uma Notícia Crime e enviada à Polícia Civil, para que fossem investigadas as fraudes, sendo que a maioria dos beneficiários das fraudes eram do Estado do Pará. Disse também que a Associação Criminosa era desmembrada e cada integrante tinha uma função bem definida, alguns incumbidos da captura de informações e outros responsáveis pelo recebimento de valores. Pontuou, finalmente, que WELLINGTON PATRICK era responsável por enviar os links maliciosos aos clientes.
+
+A testemunha Policial Igor Carleo de Oliveira relatou que era responsável pela identificação e localização dos beneficiários da Associação Criminosa, por intermédio de fontes abertas e fechadas, além de buscar identificar um vínculo entre eles. Ressaltou que alguns nomes constantes nos presentes autos receberam valores irregulares em suas contas e que WELLINGTON PATRICK era o mentor e articulador das fraudes. Disse que os principais envolvidos eram WELLINGTON PATRICK, sua esposa CARLA CELISE e um homem chamado GELMES.
+
+Os Réus Felipe Albuquerque do Espírito Santo e Roberto César Santos Pereira negaram a autoria do crime, tendo sido decretada a revelia em relação aos Acusados Adriano Santiago e Carla Celise.
+
+No caso em questão, restou inquestionavelmente demonstrada tanto a materialidade delitiva como a autoria do crime de lavagem de dinheiro previsto no Art. 1º, §1º, II, da Lei 9.613/98 (Lavagem de Dinheiro), pois os Réus receberam quantias em suas contas bancárias, na tentativa de revestir dinheiro ilícito em lícitos.
+
+O Dinheiro depositado na conta dos Acusados era proveniente de furto mediante fraude, pois as altas quantias eram retiradas das contas das vítimas através de fraude eletrônica perpetrada por intermédio de trojans e transferida para conta dos Réus, os quais recebiam os valores transforando ativo criminosos em dinheiro lícito.
+
+A vinculação entre o crime e os Acusados só foi possível após exaustiva investigação criminal onde se documentou provas das transferências bancárias, bem ainda o rastreamento do dinheiro, de forma a comprovar que o dinheiro da conta da empresa X8 Stands e Cenografia havia sido alvo de fraude. Ao constatar os atos ilícitos e os furtos mediante fraude nas contas bancárias, o Banco Itaú S/A iniciou uma análise interna e comunicou a Polícia Civil, de forma a tentar entender o destino e a forma de cometimento dos crimes.
+
+Após as investigações e durante a instrução processual ficou comprovado que a Ré Carla Celise era cônjuge do mentor da organização conhecido por Wellington Patrick, e que a Acusada tinha pleno conhecimento da divisão dos valores obtidos de forma ilícita.
+
+O Réu Adriano Santiago recebeu em sua conta bancária parte dos valores subtraídos, contribuindo para a ocultação da origem criminosa, conforme depoimentos e movimentações bancárias anexadas aos autos.
+
+Quanto ao Acusado Felipe Albuquerque do Espírito Santo, este foi beneficiado diretamente pelos valores transferidos por WELLINGTON PATRICK, agiu em cooperação com a organização criminosa ao disponibilizar sua conta para receber os ativos ilícitos, assim como ocorreu com Roberto César Santos Pereira, o qual também disponibilizou sua conta para dissimular o dinheiro.
+
+Conforme se vê, os valores dos depósitos eram em torno de 8 a 9 mil reais, de forma a não chamar atenção dos bancos e COAF.
+
+Neste caso, os réus, ao receberem valores provenientes de fraudes eletrônicas e ao pulverizá-los em suas contas bancárias buscaram dissimular a origem ilícita do dinheiro, revestindo-o de aparência lícita. Essa conduta se amolda perfeitamente ao tipo penal.
+
+Concluindo, em consonância com o que ficou comprovado da instrução processual contraditória, devem os Acusados ADRIANO SANTIAGO DA ROCHA, CARLA CELISE CARVALHO DE OLIVEIRA, FELIPE ALBUQUERQUE DO ESPÍRITO SANTO e ROBERTO CÉSAR SANTOS PEREIRA responderem pelas consequências de seus atos.
+
+Com relação ao crime previsto no Art. 288, do Código Penal Brasileiro
+
+Restou demonstrado também o crime previsto no Art. 288 do CPB.
+
+O Art. 288, do Código Penal, define como crime a associação de três ou mais pessoas com o fim específico de cometer crimes, exigindo-se um vínculo associativo estável e permanente. No presente caso, restou demonstrado que os réus integravam uma associação criminosa organizada, estável e com divisão de tarefas, configurando o crime de associação criminosa, além do delito de lavagem de dinheiro.
+
+Os depoimentos e as provas colhidas demonstram que a associação tinha como objetivo específico a prática reiterada de fraudes bancárias, lavagem de dinheiro e outros delitos correlatos, o que revela a intenção permanente de seus membros de atuar de forma criminosa.
+
+A divisão de tarefas entre os membros, apontada pelas testemunhas Luiz Fernando Romero, Vanessa Lee e Igor Carleo, reforça a estabilidade e a permanência do vínculo associativo. Cada integrante desempenhava uma função essencial para o êxito do esquema, desde a obtenção de dados por meio de malwares até a movimentação financeira dos valores ilícitos.
+
+Concluindo, em consonância com o que ficou comprovado da instrução processual contraditória, devem os Acusados ADRIANO SANTIAGO DA ROCHA, CARLA CELISE CARVALHO DE OLIVEIRA, FELIPE ALBUQUERQUE DO ESPÍRITO SANTO e ROBERTO CÉSAR SANTOS PEREIRA responderem pelas consequências de seus atos.
+
+III) - DA CONCLUSÃO.
+
+Em face do exposto, JULGO PROCEDENTE a pretensão punitiva estatal deduzida pelo MINISTÉRIO PÚBLICO DO ESTADO DO PARÁ, motivo pelo qual CONDENO os Acusados ADRIANO SANTIAGO DA ROCHA, CARLA CELISE CARVALHO DE OLIVEIRA, FELIPE ALBUQUERQUE DO ESPÍRITO SANTO e ROBERTO CÉSAR SANTOS PEREIRA às sanções punitivas do Art. 1º, §1º, II, da Lei 9.613/98 e Art. 288, caput, do Código Penal.
+
+Dosimetria da Pena - Crime Art. 1º, §1º, II, da Lei 9.613/98
+
+Passo à individualização da pena do Réu Adriano Santiago da Rocha com observância das disposições dos Arts. 68 e 59, do CPB.
+
+Culpabilidade não ultrapassou os contornos normais ao delito de lavagem de dinheiro.
+
+O Réu não possui antecedentes criminais.
+
+Sua conduta social reputo boa.
+
+Personalidade: não existem nos autos elementos suficientes para aferir a personalidade do Réu. Portanto, circunstância neutra
+[3]
+.
+
+Os motivos do crime e circunstâncias são inerentes ao tipo penal, portanto, favorável.
+
+As consequências foram graves, tendo em vista prejuízo vultuoso na quantia de milhões ao Banco Vítima.
+
+O comportamento da vítima em nada influenciou a ocorrência do delito, de forma que considero como circunstância neutra, conforme entendimento esposado na Súmula nº 18 do E. TJE/PA.
+
+Concluindo, à vista de tais circunstâncias judiciais fixo a pena-base no grau mínimo prevista para o crime de lavagem de dinheiro, isto é, em 04 (quatro) anos de reclusão e 30 (trinta) dias-multa à razão de 1/30 (um trinta avos) do salário mínimo vigente à época da infração.
+
+Inexistem circunstâncias agravantes ou atenuantes.
+
+Inexistem causas de aumento diminuição de pena.
+
+Portanto, torno definitiva a pena do Réu ADRIANO SANTIAGO DA ROCHA em 04 (quatro) anos de reclusão e 30 (trinta) dias-multa.
+
+Dosimetria da Pena crime do Art. 288, caput, do CPB.
+
+Passo à individualização da pena do Réu Adriano Santiago da Rocha com observância das disposições dos Arts. 68 e 59, do CPB.
+
+Culpabilidade não ultrapassou os contornos normais ao delito.
+
+O Réu não possui antecedentes criminas.
+
+Sua conduta social reputo boa.
+
+Personalidade: não existem nos autos elementos suficientes para aferir a personalidade do Réu. Portanto, circunstância neutra
+[4]
+.
+
+Os motivos foram desfavoráveis, tendo em vista que a associação dos criminosos era para cometer delitos envolvendo um grande número de vítimas, as quais tiveram seus dados vazados, além de ser delitos cometidos em âmbito de massa na rede mundial de computadores, o que fragiliza o nível de comprometimento das relações online.
+
+As circunstâncias do crime são inerentes ao tipo penal, portanto, favorável.
+
+As consequências foram graves, tendo em vista que a associação criminosa conseguiu obter êxito em parte de seus crimes, causando grande prejuízo financeiro.
+
+O comportamento das vítimas em nada influenciou a ocorrência do delito, de forma que considero como circunstância neutra, conforme entendimento esposado na Súmula nº 18 do E. TJE/PA.
+
+Concluindo, à vista de tais circunstâncias judiciais fixo a pena-base no grau acima do mínimo prevista para o crime de associação criminosa, isto é, em 02 (dois) anos de reclusão.
+
+Inexistem circunstâncias agravantes ou agravantes.
+
+Inexistem causas de diminuição ou aumento de pena.
+
+Portanto, torno definitiva a pena do Réu ADRIANO SANTIAGO DA ROCHA em 02 (dois) anos de reclusão.
+
+Unificação das penas
+
+Atendendo ao princípio da unificação das penas para fim de cumprimento, portanto, torno concreta e definitiva a pena de ADRIANO SANTIAGO DA ROCHA de 06 (seis) anos de reclusão e 30 (trinta) dias-multa, devendo ser cumprida inicialmente no regime semiaberto.
+
+Dosimetria da Pena - Crime Art. 1º, §1º, II, da Lei 9.613/98
+
+Passo à individualização da pena do Réu Carla Celise Carvalho de Oliveira com observância das disposições dos Arts. 68 e 59, do CPB.
+
+Culpabilidade não ultrapassou os contornos normais ao delito de lavagem de dinheiro.
+
+A Ré não possui antecedentes criminais.
+
+Sua conduta social reputo boa.
+
+Personalidade: não existem nos autos elementos suficientes para aferir a personalidade do Réu. Portanto, circunstância neutra
+[5]
+.
+
+Os motivos do crime e circunstâncias são inerentes ao tipo penal, portanto, favorável.
+
+As consequências foram graves, tendo em vista o prejuízo vultuoso na quantia de milhões ao Banco Vítima, .
+
+O comportamento da vítima em nada influenciou a ocorrência do delito, de forma que considero como circunstância neutra, conforme entendimento esposado na Súmula nº 18 do E. TJE/PA.
+
+Concluindo, à vista de tais circunstâncias judiciais fixo a pena-base no grau mínimo prevista para o crime de lavagem de dinheiro, isto é, em 04 (quatro) anos de reclusão e 30 (trinta) dias-multa à razão de 1/30 (um trinta avos) do salário mínimo vigente à época da infração.
+
+Inexistem circunstâncias agravantes ou atenuantes.
+
+Inexistem causas de aumento diminuição de pena.
+
+Portanto, torno definitiva a pena do Réu CARLA CELISE CARVALHO DE OLIVEIRA em 04 (quatro) anos de reclusão e 30 (trinta) dias-multa.
+
+Dosimetria da Pena crime do Art. 288, caput, do CPB.
+
+Passo à individualização da pena do Réu Carla Celise Carvalho de Oliveira com observância das disposições dos Arts. 68 e 59, do CPB.
+
+Culpabilidade não ultrapassou os contornos normais ao delito.
+
+A Ré não possui antecedentes criminas.
+
+Sua conduta social reputo boa.
+
+Personalidade: não existem nos autos elementos suficientes para aferir a personalidade da Ré. Portanto, circunstância neutra
+[6]
+.
+
+Os motivos foram desfavoráveis, tendo em vista que a associação dos criminosos era para cometer delitos envolvendo um grande número de vítimas, as quais tiveram seus dados vazados, além de ser delitos cometidos em âmbito de massa na rede mundial de computadores, o que fragiliza o nível de comprometimento das relações online.
+
+As circunstâncias do crime são inerentes ao tipo penal, portanto, favorável.
+
+As consequências foram graves, tendo em vista que a associação criminosa conseguiu obter êxito em parte de seus crimes, causando grande prejuízo financeiro.
+
+O comportamento das vítimas em nada influenciou a ocorrência do delito, de forma que considero como circunstância neutra, conforme entendimento esposado na Súmula nº 18 do E. TJE/PA.
+
+Concluindo, à vista de tais circunstâncias judiciais fixo a pena-base no grau acima do mínimo prevista para o crime de associação criminosa, isto é, em 02 (dois) anos de reclusão.
+
+Inexistem circunstâncias agravantes ou agravantes.
+
+Inexistem causas de diminuição ou aumento de pena.
+
+Portanto, torno definitiva a pena do Réu CARLA CELISE CARVALHO DE OLIVEIRA em 02 (dois) anos de reclusão.
+
+Unificação das penas
+
+Atendendo ao princípio da unificação das penas para fim de cumprimento, portanto, torno concreta e definitiva a pena de CARLA CELISE CARVALHO DE OLIVEIRA de 06 (seis) anos de reclusão e 30 (trinta) dias-multa, devendo ser cumprida inicialmente no regime semiaberto.
+
+Dosimetria da Pena - Crime Art. 1º, §1º, II, da Lei 9.613/98
+
+Passo à individualização da pena do Réu Felipe Albuquerque do Espírito Santo com observância das disposições dos Arts. 68 e 59, do CPB.
+
+Culpabilidade não ultrapassou os contornos normais ao delito de lavagem de dinheiro.
+
+O Réu não possui antecedentes criminais por força da Súmula nº444/STJ, em que pese possuir registro de ações penais em andamento.
+
+Sua conduta social reputo boa.
+
+Personalidade: não existem nos autos elementos suficientes para aferir a personalidade do Réu. Portanto, circunstância neutra
+[7]
+.
+
+Os motivos do crime e circunstâncias são inerentes ao tipo penal, portanto, favorável.
+
+As consequências foram graves, tendo em vista prejuízo vultuoso na quantia de milhões ao Banco Vítima.
+
+O comportamento da vítima em nada influenciou a ocorrência do delito, de forma que considero como circunstância neutra, conforme entendimento esposado na Súmula nº 18 do E. TJE/PA.
+
+Concluindo, à vista de tais circunstâncias judiciais fixo a pena-base no grau mínimo prevista para o crime de lavagem de dinheiro, isto é, em 04 (quatro) anos de reclusão e 30 (trinta) dias-multa à razão de 1/30 (um trinta avos) do salário mínimo vigente à época da infração.
+
+Inexistem circunstâncias agravantes ou atenuantes.
+
+Inexistem causas de aumento diminuição de pena.
+
+Portanto, torno definitiva a pena do Réu FELIPE ALBUQUERQUE DO ESPÍRITO SANTO em 04 (quatro) anos de reclusão e 30 (trinta) dias-multa.
+
+Dosimetria da Pena crime do Art. 288, caput, do CPB.
+
+Passo à individualização da pena do Réu Felipe Albuquerque do Espírito Santo com observância das disposições dos Arts. 68 e 59, do CPB.
+
+Culpabilidade não ultrapassou os contornos normais ao delito.
+
+O Réu não possui antecedentes criminais por força da Súmula nº444/STJ, em que pese possuir registro de ações penais em andamento.
+
+Sua conduta social reputo boa.
+
+Personalidade: não existem nos autos elementos suficientes para aferir a personalidade do Réu. Portanto, circunstância neutra
+[8]
+.
+
+Os motivos foram desfavoráveis, tendo em vista que a associação dos criminosos era para cometer delitos envolvendo um grande número de vítimas, as quais tiveram seus dados vazados, além de ser delitos cometidos em âmbito de massa na rede mundial de computadores, o que fragiliza o nível de comprometimento das relações online.
+
+As circunstâncias do crime são inerentes ao tipo penal, portanto, favorável.
+
+As consequências foram graves, tendo em vista que a associação criminosa conseguiu obter êxito em parte de seus crimes, causando grande prejuízo financeiro.
+
+O comportamento das vítimas em nada influenciou a ocorrência do delito, de forma que considero como circunstância neutra, conforme entendimento esposado na Súmula nº 18 do E. TJE/PA.
+
+Concluindo, à vista de tais circunstâncias judiciais fixo a pena-base no grau acima do mínimo prevista para o crime de associação criminosa, isto é, em 02 (dois) anos de reclusão.
+
+Inexistem circunstâncias agravantes ou agravantes.
+
+Inexistem causas de diminuição ou aumento de pena.
+
+Portanto, torno definitiva a pena do Réu FELIPE ALBUQUERQUE DO ESPÍRITO SANTO em 02 (dois) anos de reclusão.
+
+Unificação das penas
+
+Atendendo ao princípio da unificação das penas para fim de cumprimento, portanto, torno concreta e definitiva a pena de FELIPE ALBUQUERQUE DO ESPÍRITO SANTO de 06 (seis) anos de reclusão e 30 (trinta) dias-multa, devendo ser cumprida inicialmente no regime semiaberto.
+
+Dosimetria da Pena - Crime Art. 1º, §1º, II, da Lei 9.613/98
+
+Passo à individualização da pena do Réu Roberto César Santos Pereira com observância das disposições dos Arts. 68 e 59, do CPB.
+
+Culpabilidade não ultrapassou os contornos normais ao delito de lavagem de dinheiro.
+
+O Réu não possui antecedentes criminais por força da Súmula nº444/STJ, em que pese possuir registro de ações penais anteriores.
+
+Sua conduta social reputo boa.
+
+Personalidade: não existem nos autos elementos suficientes para aferir a personalidade do Réu. Portanto, circunstância neutra
+[9]
+.
+
+Os motivos do crime e circunstâncias são inerentes ao tipo penal, portanto, favorável.
+
+As consequências foram graves, tendo em vista prejuízo vultuoso na quantia de milhões ao Banco Vítima.
+
+O comportamento da vítima em nada influenciou a ocorrência do delito, de forma que considero como circunstância neutra, conforme entendimento esposado na Súmula nº 18 do E. TJE/PA.
+
+Concluindo, à vista de tais circunstâncias judiciais fixo a pena-base no grau mínimo prevista para o crime de lavagem de dinheiro, isto é, em 04 (quatro) anos de reclusão e 30 (trinta) dias-multa à razão de 1/30 (um trinta avos) do salário mínimo vigente à época da infração.
+
+Inexistem circunstâncias agravantes ou atenuantes.
+
+Inexistem causas de aumento diminuição de pena.
+
+Portanto, torno definitiva a pena do Réu ROBERTO CÉSAR SANTOS PEREIRA em 04 (quatro) anos de reclusão e 30 (trinta) dias-multa.
+
+Dosimetria da Pena crime do Art. 288, caput, do CPB.
+
+Passo à individualização da pena do Réu Roberto César Santos Pereira com observância das disposições dos Arts. 68 e 59, do CPB.
+
+Culpabilidade não ultrapassou os contornos normais ao delito.
+
+O Réu não possui antecedentes criminais por força da Súmula nº444/STJ, em que pese possuir registro de ações penais anteriores.
+
+Sua conduta social reputo boa.
+
+Personalidade: não existem nos autos elementos suficientes para aferir a personalidade do Réu. Portanto, circunstância neutra
+[10]
+.
+
+Os motivos foram desfavoráveis, tendo em vista que a associação dos criminosos era para cometer delitos envolvendo um grande número de vítimas, as quais tiveram seus dados vazados, além de ser delitos cometidos em âmbito de massa na rede mundial de computadores, o que fragiliza o nível de comprometimento das relações online.
+
+As circunstâncias do crime são inerentes ao tipo penal, portanto, favorável.
+
+As consequências foram graves, tendo em vista que a associação criminosa conseguiu obter êxito em parte de seus crimes, causando grande prejuízo financeiro.
+
+O comportamento das vítimas em nada influenciou a ocorrência do delito, de forma que considero como circunstância neutra, conforme entendimento esposado na Súmula nº 18 do E. TJE/PA.
+
+Concluindo, à vista de tais circunstâncias judiciais fixo a pena-base no grau acima do mínimo prevista para o crime de associação criminosa, isto é, em 02 (dois) anos de reclusão.
+
+Inexistem circunstâncias agravantes ou agravantes.
+
+Inexistem causas de diminuição ou aumento de pena.
+
+Portanto, torno definitiva a pena do Réu ROBERTO CÉSAR SANTOS PEREIRA em 02 (dois) anos de reclusão.
+
+Unificação das penas
+
+Atendendo ao princípio da unificação das penas para fim de cumprimento, portanto, torno concreta e definitiva a pena de ROBERTO CÉSAR SANTOS PEREIRA de 06 (seis) anos de reclusão e 30 (trinta) dias-multa, devendo ser cumprida inicialmente no regime semiaberto.
+
+III - DISPOSIÇÕES FINAIS.
+
+Não verifico a possibilidade de substituição de pena por restritivas de direito, tendo em vista o quantum da pena.
+
+Concedo aos Réus o direito de apelarem em liberdade, uma vez que permaneceram assim durante a instrução processual e não verifico por ora o periculum libertatis.
+
+Deixo de fixar indenização civil, nos termos do Art. 387, IV do Código de Processo Penal, devido ausência de contraditório específico.
+
+Deixo de condenar os Acusados no pagamento das custas e despesas processuais, tendo em vista encontrarem-se sob o pálio da Defensoria Pública.
+
+Transitada em julgado (CF, Art. 5º, LVII) e permanecendo inalterada esta decisão: 1) lance o nome dos Réus no Rol dos Culpados, oportunamente; 2) oficie-se à Justiça Eleitoral para fins de suspensão dos direitos políticos dos Réus (CF, Art. 15, III); 3) oficie-se ao órgão encarregado da Estatística Criminal (CPP, Art. 809); 4) Expeçam-se guias de recolhimento para o Juízo da Execução Penal, e 5) façam-se as demais comunicações de estilo.
+
+Publique-se. Registre-se. Intimem-se.
+
+Belém (PA), data da assinatura eletrônica.
+
+JACKSON JOSÉ SODRÉ FERRAZ
+
+Juiz de Direito Titular da 5ª Vara Criminal de Belém
+
+[1]
+In PROCESSO PENAL. 3ª edição, São Paulo: Atlas, 1994, p. 433.
+
+[2]
+In As Nulidades No Processo Penal. GRINOVER, Ada Pellegrini. FERNANDES, Antônio Scarance. GOMES FILHO, Antônio Magalhães. 6ª ed., São Paulo: Revista dos Tribunais, 1997, pp. 220/221.
+
+[3]
+" A "personalidade" prevista no art. 59 do Código Penal como circunstância judicial não se confunde com o polêmico conceito de personalidade advindo da psicologia. Seria ingenuidade supor que o legislador, ciente de que as discussões mais profundas dessa área de conhecimento fogem à rotina dos magistrados, preveria a referida circunstância objetivando, em cada processo, o exercício de algo como uma sessão psicanalítica para desvendar a personalidade do acusado. Para os fins do direito o alcance semântico do termo é muito mais humilde - e, inexistindo declaração de inconstitucionalidade da norma, ela deve ser aplicada -: a insensibilidade acentuada, a maldade, a desonestidade e a perversidade são deduzidas a partir do modo de agir do agente, isto é, a partir do exame de fatos concretos devidamente noticiados nos autos, capazes de extravasar a inerência ao tipo penal. Em outros termos, sua aferição somente é possível se existirem, nos autos, elementos suficientes e que efetivamente possam levar o julgador a uma conclusão segura sobre a questão.
+
+(STJ, HC 278.514/MS, Rel. Ministra LAURITA VAZ, QUINTA TURMA, julgado em 11/02/2014, DJe 28/02/2014)
+
+[4]
+" A "personalidade" prevista no art. 59 do Código Penal como circunstância judicial não se confunde com o polêmico conceito de personalidade advindo da psicologia. Seria ingenuidade supor que o legislador, ciente de que as discussões mais profundas dessa área de conhecimento fogem à rotina dos magistrados, preveria a referida circunstância objetivando, em cada processo, o exercício de algo como uma sessão psicanalítica para desvendar a personalidade do acusado. Para os fins do direito o alcance semântico do termo é muito mais humilde - e, inexistindo declaração de inconstitucionalidade da norma, ela deve ser aplicada -: a insensibilidade acentuada, a maldade, a desonestidade e a perversidade são deduzidas a partir do modo de agir do agente, isto é, a partir do exame de fatos concretos devidamente noticiados nos autos, capazes de extravasar a inerência ao tipo penal. Em outros termos, sua aferição somente é possível se existirem, nos autos, elementos suficientes e que efetivamente possam levar o julgador a uma conclusão segura sobre a questão.
+
+(STJ, HC 278.514/MS, Rel. Ministra LAURITA VAZ, QUINTA TURMA, julgado em 11/02/2014, DJe 28/02/2014)
+
+[5]
+" A "personalidade" prevista no art. 59 do Código Penal como circunstância judicial não se confunde com o polêmico conceito de personalidade advindo da psicologia. Seria ingenuidade supor que o legislador, ciente de que as discussões mais profundas dessa área de conhecimento fogem à rotina dos magistrados, preveria a referida circunstância objetivando, em cada processo, o exercício de algo como uma sessão psicanalítica para desvendar a personalidade do acusado. Para os fins do direito o alcance semântico do termo é muito mais humilde - e, inexistindo declaração de inconstitucionalidade da norma, ela deve ser aplicada -: a insensibilidade acentuada, a maldade, a desonestidade e a perversidade são deduzidas a partir do modo de agir do agente, isto é, a partir do exame de fatos concretos devidamente noticiados nos autos, capazes de extravasar a inerência ao tipo penal. Em outros termos, sua aferição somente é possível se existirem, nos autos, elementos suficientes e que efetivamente possam levar o julgador a uma conclusão segura sobre a questão.
+
+(STJ, HC 278.514/MS, Rel. Ministra LAURITA VAZ, QUINTA TURMA, julgado em 11/02/2014, DJe 28/02/2014)
+
+[6]
+" A "personalidade" prevista no art. 59 do Código Penal como circunstância judicial não se confunde com o polêmico conceito de personalidade advindo da psicologia. Seria ingenuidade supor que o legislador, ciente de que as discussões mais profundas dessa área de conhecimento fogem à rotina dos magistrados, preveria a referida circunstância objetivando, em cada processo, o exercício de algo como uma sessão psicanalítica para desvendar a personalidade do acusado. Para os fins do direito o alcance semântico do termo é muito mais humilde - e, inexistindo declaração de inconstitucionalidade da norma, ela deve ser aplicada -: a insensibilidade acentuada, a maldade, a desonestidade e a perversidade são deduzidas a partir do modo de agir do agente, isto é, a partir do exame de fatos concretos devidamente noticiados nos autos, capazes de extravasar a inerência ao tipo penal. Em outros termos, sua aferição somente é possível se existirem, nos autos, elementos suficientes e que efetivamente possam levar o julgador a uma conclusão segura sobre a questão.
+
+(STJ, HC 278.514/MS, Rel. Ministra LAURITA VAZ, QUINTA TURMA, julgado em 11/02/2014, DJe 28/02/2014)
+
+[7]
+" A "personalidade" prevista no art. 59 do Código Penal como circunstância judicial não se confunde com o polêmico conceito de personalidade advindo da psicologia. Seria ingenuidade supor que o legislador, ciente de que as discussões mais profundas dessa área de conhecimento fogem à rotina dos magistrados, preveria a referida circunstância objetivando, em cada processo, o exercício de algo como uma sessão psicanalítica para desvendar a personalidade do acusado. Para os fins do direito o alcance semântico do termo é muito mais humilde - e, inexistindo declaração de inconstitucionalidade da norma, ela deve ser aplicada -: a insensibilidade acentuada, a maldade, a desonestidade e a perversidade são deduzidas a partir do modo de agir do agente, isto é, a partir do exame de fatos concretos devidamente noticiados nos autos, capazes de extravasar a inerência ao tipo penal. Em outros termos, sua aferição somente é possível se existirem, nos autos, elementos suficientes e que efetivamente possam levar o julgador a uma conclusão segura sobre a questão.
+
+(STJ, HC 278.514/MS, Rel. Ministra LAURITA VAZ, QUINTA TURMA, julgado em 11/02/2014, DJe 28/02/2014)
+
+[8]
+" A "personalidade" prevista no art. 59 do Código Penal como circunstância judicial não se confunde com o polêmico conceito de personalidade advindo da psicologia. Seria ingenuidade supor que o legislador, ciente de que as discussões mais profundas dessa área de conhecimento fogem à rotina dos magistrados, preveria a referida circunstância objetivando, em cada processo, o exercício de algo como uma sessão psicanalítica para desvendar a personalidade do acusado. Para os fins do direito o alcance semântico do termo é muito mais humilde - e, inexistindo declaração de inconstitucionalidade da norma, ela deve ser aplicada -: a insensibilidade acentuada, a maldade, a desonestidade e a perversidade são deduzidas a partir do modo de agir do agente, isto é, a partir do exame de fatos concretos devidamente noticiados nos autos, capazes de extravasar a inerência ao tipo penal. Em outros termos, sua aferição somente é possível se existirem, nos autos, elementos suficientes e que efetivamente possam levar o julgador a uma conclusão segura sobre a questão.
+
+(STJ, HC 278.514/MS, Rel. Ministra LAURITA VAZ, QUINTA TURMA, julgado em 11/02/2014, DJe 28/02/2014)
+
+[9]
+" A "personalidade" prevista no art. 59 do Código Penal como circunstância judicial não se confunde com o polêmico conceito de personalidade advindo da psicologia. Seria ingenuidade supor que o legislador, ciente de que as discussões mais profundas dessa área de conhecimento fogem à rotina dos magistrados, preveria a referida circunstância objetivando, em cada processo, o exercício de algo como uma sessão psicanalítica para desvendar a personalidade do acusado. Para os fins do direito o alcance semântico do termo é muito mais humilde - e, inexistindo declaração de inconstitucionalidade da norma, ela deve ser aplicada -: a insensibilidade acentuada, a maldade, a desonestidade e a perversidade são deduzidas a partir do modo de agir do agente, isto é, a partir do exame de fatos concretos devidamente noticiados nos autos, capazes de extravasar a inerência ao tipo penal. Em outros termos, sua aferição somente é possível se existirem, nos autos, elementos suficientes e que efetivamente possam levar o julgador a uma conclusão segura sobre a questão.
+
+(STJ, HC 278.514/MS, Rel. Ministra LAURITA VAZ, QUINTA TURMA, julgado em 11/02/2014, DJe 28/02/2014)
+
+[10]
+" A "personalidade" prevista no art. 59 do Código Penal como circunstância judicial não se confunde com o polêmico conceito de personalidade advindo da psicologia. Seria ingenuidade supor que o legislador, ciente de que as discussões mais profundas dessa área de conhecimento fogem à rotina dos magistrados, preveria a referida circunstância objetivando, em cada processo, o exercício de algo como uma sessão psicanalítica para desvendar a personalidade do acusado. Para os fins do direito o alcance semântico do termo é muito mais humilde - e, inexistindo declaração de inconstitucionalidade da norma, ela deve ser aplicada -: a insensibilidade acentuada, a maldade, a desonestidade e a perversidade são deduzidas a partir do modo de agir do agente, isto é, a partir do exame de fatos concretos devidamente noticiados nos autos, capazes de extravasar a inerência ao tipo penal. Em outros termos, sua aferição somente é possível se existirem, nos autos, elementos suficientes e que efetivamente possam levar o julgador a uma conclusão segura sobre a questão.
+
+(STJ, HC 278.514/MS, Rel. Ministra LAURITA VAZ, QUINTA TURMA, julgado em 11/02/2014, DJe 28/02/2014)

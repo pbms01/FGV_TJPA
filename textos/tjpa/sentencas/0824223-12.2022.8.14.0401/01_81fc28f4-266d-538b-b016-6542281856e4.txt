@@ -1,0 +1,143 @@
+[Texto nativo do PJe]
+
+Autor: MINISTÉRIO PÚBLICO DO ESTADO DO PARÁ
+
+Ré: SÂMIA BALIEIRO DE LIMA
+
+Advogada: Dra. CAMILA DE FÁTIMA MATOS MACEDO, OAB/PA 26.431
+
+Capitulação: Art. 171, caput, do Código Penal Brasileiro.
+
+S E N T E N Ç A
+
+1. Do Relatório
+
+Trata-se de AÇÃO PENAL proposta pelo representante do MINISTÉRIO PÚBLICO DO ESTADO DO PARÁ contra SÂMIA BALIEIRO DE LIMA, paraense, natural de Breves/PA, nascida em 10 de julho de 1995, filha de Aliana Gorete Farias Balieiro e Charles Ozório de Lima, dando-a como incursa nas sanções punitivas do Artigo 171, caput, do Código Penal Brasileiro (ID 134574201).
+
+Narra o Dominus Litis na Denúncia, de ID nº 134574201, em síntese, que no dia 27 de agosto de 2022, por volta de 13 horas, a denunciada praticou o crime de estelionato em desfavor da vítima Brenda Gadelha Staack, em fato ocorrido nesta comarca de Belém. De acordo com a exordial acusatória, a acusada entrou em contato com o estabelecimento comercial de propriedade da vítima por meio do aplicativo WhatsApp, utilizando o número de telefone (91) 98145-1737 e apresentando-se sob o perfil de "Wendel e Helena" (ID 134574201).
+
+Após selecionar diversas peças de vestuário que totalizaram o montante de R$ 1.156,72, a denunciada simulou a realização de um pagamento via PIX, enviando um comprovante de transferência falso em nome de Heloísa Helena de Lima, emitido pela instituição Nu Pagamentos S.A. (ID 134574201). No dia seguinte, as mercadorias foram retiradas por um motorista de aplicativo de transporte e entregues à acusada, que bloqueou o contato com o estabelecimento, consolidando o prejuízo financeiro da vítima (ID 134574201). Conclui a peça acusatória postulando o processamento da ré na forma da lei até o final julgamento.
+
+A denúncia foi devidamente recebida em 13 de janeiro de 2025 (ID 134604545), oportunidade em que este juízo indeferiu a representação por prisão preventiva formulada pela autoridade policial, acolhendo o parecer do Ministério Público quanto à ausência de contemporaneidade dos fatos (ID 134604545). A acusada foi citada por meio eletrônico e confirmou o recebimento da contrafé pelo aplicativo WhatsApp, manifestando que não desejava ser assistida pela Defensoria Pública (ID 137386003).
+
+Diante da ausência de manifestação no prazo legal, os autos foram encaminhados à Defensoria Pública do Estado do Pará (ID 145775904), que apresentou resposta à acusação genérica, reservando-se o direito de manifestar-se sobre o mérito após a instrução processual (ID 146064870). Posteriormente, a acusada constituiu advogada particular, que requereu a juntada de procuração e a realização da audiência por videoconferência (ID 157269186).
+
+Na instrução processual, realizada em 24 de setembro de 2025 por meio da plataforma Microsoft Teams (ID 157646803), foram ouvidas a vítima Brenda Gadelha Staack e a testemunha de acusação Alexia Nunes da Luz Santos (ID 157646803). Ao final, foi realizado o interrogatório da acusada Sâmia Balieiro de Lima, oportunidade em que esta, após entrevista reservada com sua defensora, exerceu seu direito constitucional ao silêncio (ID 157646803). As partes nada requereram com base no Artigo 402 do Código de Processo Penal (ID 157646803).
+
+Em alegações finais por memoriais (ID 166086844), o Ministério Público requereu a procedência integral da ação penal para condenar a acusada nos termos da denúncia, sustentando que a materialidade e a autoria delitivas restaram cabalmente comprovadas pelas provas documentais e testemunhais colhidas (ID 166086844).
+
+Por sua vez, a defesa técnica de Sâmia Balieiro de Lima apresentou memoriais escritos (ID 175879041), arguindo, preliminarmente, a nulidade parcial da prova digital por quebra da cadeia de custódia dos vestígios eletrônicos obtidos na fase investigativa (ID 175879041). No mérito, sustentou a absolvição por insuficiência de provas de autoria, argumentando que a instrução judicial não produziu prova firme e individualizada contra a ré, e que a condenação não pode se basear exclusivamente em elementos informativos do inquérito policial (ID 175879041).
+
+Em síntese, é o relatório. Passo a motivar e, ao final, decido.
+
+2. Do Mérito: Preliminar de Nulidade por Quebra da Cadeia de Custódia Digital
+
+Antes de adentrar na análise do mérito propriamente dito, cumpre examinar a preliminar suscitada pela defesa da acusada, que arguiu a nulidade parcial da prova digital produzida na fase de investigação policial, sob o argumento de que teria havido quebra da cadeia de custódia dos vestígios eletrônicos (ID 175879041). A defesa sustenta que capturas de tela, mensagens, relatórios de operadoras e cruzamentos de dados telemáticos não observaram os procedimentos técnicos de preservação, integridade e rastreabilidade previstos na legislação processual penal (ID 175879041).
+
+A cadeia de custódia, conforme preconiza o artigo 158-A do Código de Processo Penal, consiste no conjunto de todos os procedimentos utilizados para manter e documentar a história cronológica do vestígio coletado em locais ou em vítimas de crimes, a fim de rastrear sua posse e manuseio desde o seu reconhecimento até o descarte definitivo. Esse instituto visa assegurar a autenticidade e a integridade da prova penal, impedindo qualquer tipo de contaminação, manipulação ou adulteração que possa comprometer a busca pela verdade real.
+
+No entanto, no caso concreto, a irresignação defensiva não merece prosperar. A identificação da autoria delitiva e a obtenção dos dados telemáticos não decorreram de simples capturas de tela descontextualizadas ou de manuseio informal por parte de agentes públicos, mas sim de uma complexa e detalhada investigação técnica realizada pelo Núcleo de Inteligência Policial, devidamente autorizada por decisão judicial de quebra de sigilo de dados telefônicos e telemáticos nos autos do processo apenso nº 0821004-88.2022.8.14.0401 (ID 106372388). Esse procedimento seguiu o fluxo oficial de requisição e recebimento de dados eletrônicos diretamente das plataformas Google e Apple, o que afasta qualquer possibilidade de adulteração unilateral do conteúdo probatório.
+
+Ademais, a jurisprudência pátria consolidou o entendimento de que a mera alegação genérica de quebra da cadeia de custódia de provas digitais não é suficiente para declarar a nulidade do ato processual. Para que seja reconhecida a invalidade da prova, é indispensável que a defesa demonstre, de forma concreta e objetiva, a ocorrência de efetiva adulteração, manipulação fraudulenta ou prejuízo real à apuração dos fatos, ônus do qual a defesa não se desincumbiu no presente feito.
+
+Os relatórios técnicos emitidos pelo órgão de inteligência policial apresentam a cronologia exata das consultas, a identificação dos códigos de IMEI dos aparelhos e as linhas telefônicas utilizadas, demonstrando plena confiabilidade e rastreabilidade das informações colhidas (ID 106372388). Não havendo qualquer indício mínimo de falsidade ou alteração nos dados cadastrais fornecidos de forma oficial pelas empresas de tecnologia, afasto a preliminar de nulidade e declaro a plena validade de todas as provas digitais produzidas nos autos.
+
+3. Do Mérito: Materialidade e Autoria Delitivas
+
+Dispõe o Art. 171, caput, do Código Penal Brasileiro, que:
+
+Art. 171 - Obter, para si ou para outrem, vantagem ilícita, em prejuízo alheio, induzindo ou mantendo alguém em erro, mediante artifício, ardil, ou qualquer outro meio fraudulento:
+
+Pena - reclusão, de um a cinco anos, e multa.
+
+O insigne CEZAR ROBERTO BITENCOURT leciona que “a conduta de estelionato consiste no emprego de meio fraudulento para conseguir vantagem econômica ilícita. A fraude pode consistir em artifício, que é a utilização de um aparato que modifica, aparentemente, o aspecto material da coisa ou da situação etc., em ardil, que é a conversa enganosa, a astúcia, ou mesmo em simples mentira, ou em qualquer outro meio para iludir a vítima, inclusive no inadimplemento contratual preconcebido.” (In Tratado de Direito Penal, V. 3, 15ª ed., São Paulo: Saraiva, 2019, p. 278).
+
+No caso em julgamento, resultou provada a materialidade e a autoria do crime de estelionato consumado ante a instrução probatória realizada sob as garantias do contraditório e da ampla defesa, a qual finalizou em desfavor da acusada Sâmia Balieiro de Lima.
+
+A materialidade delitiva restou cabalmente comprovada pelo Boletim de Ocorrência Policial nº 00003/2022.102565-3 (ID 82139864), pelos comprovantes de transferência bancária simulada e capturas de tela das conversações de WhatsApp juntadas aos autos (ID 82139865), bem como pelo robusto Auto Circunstanciado nº 02.050/2023-NIP/PC/PA elaborado pelo Núcleo de Inteligência Policial (ID 106372388), elementos estes que demonstram a ocorrência da fraude eletrônica e o prejuízo material sofrido pela vítima.
+
+A autoria delitiva, por sua vez, é inequívoca e recai diretamente sobre a ré. A vítima Brenda Gadelha Staack relatou em juízo, de forma firme e detalhada, que possui um estabelecimento de roupas fitness e que, no dia 25 de agosto de 2022, uma pessoa que se identificava como Helena entrou em contato via WhatsApp demonstrando interesse em adquirir mercadorias (ID 157646803). A vítima asseverou que, após a escolha das peças no valor total de R$ 1.156,72, a suposta cliente enviou um comprovante de transferência PIX falso, e que a fraude só foi percebida após a entrega das roupas a um motorista de aplicativo, momento em que constatou a ausência do crédito em sua conta bancária e percebeu que havia sido bloqueada pela interlocutora (ID 166086844).
+
+No mesmo sentido, a testemunha Alexia Nunes da Luz Santos, funcionária do estabelecimento comercial, corroborou integralmente a dinâmica dos fatos em seu depoimento judicial (ID 157646803). Alexia confirmou que realizou o atendimento à cliente por meio do número de WhatsApp (91) 98145-1737, enviou as fotos e preços das roupas, recebeu o comprovante de PIX falso em nome de Heloísa Helena de Lima e, acreditando na veracidade do documento, efetuou a entrega das mercadorias ao motorista de aplicativo de transporte (ID 166086844).
+
+Embora a defesa sustente a insuficiência probatória sob a alegação de que as testemunhas não conheciam a ré pessoalmente (ID 175879041), a autoria restou demonstrada de forma incontestável por meio da investigação técnica de inteligência telemática. O relatório do Núcleo de Inteligência Policial revelou que o número de WhatsApp utilizado para aplicar o golpe estava inserido no aparelho celular de IMEI nº 357290099279529 (ID 106372388). Ao oficiar à empresa Apple, constatou-se que o referido dispositivo móvel foi habilitado e utilizado mediante vinculação direta à conta de e-mail pessoal balieirosamyaa@gmail.com e ao número de telefone cadastrado em nome da acusada Sâmia Balieiro de Lima, titular do CPF 009.995.792-23 (ID 106372388).
+
+A tese defensiva de que a ré não operava o perfil ou de que os dados poderiam pertencer a terceiros não encontra qualquer respaldo nos autos. O cruzamento de dados realizado pela Polícia Civil revelou que a acusada é contumaz na prática de estelionatos eletrônicos com idêntico modus operandi (ID 106372388). Sâmia foi presa em flagrante delito na Seccional de São Braz no dia 28 de outubro de 2022 por aplicar exatamente o mesmo golpe contra outra loja de roupas, utilizando o mesmo pseudônimo de Heloísa Helena de Lima e o mesmíssimo número de telefone (91) 98145-1737 para enviar comprovantes de PIX falsos e retirar as mercadorias por meio de motoristas de aplicativo (ID 106372388).
+
+Dessa forma, o conjunto probatório é harmônico e afasta qualquer dúvida razoável sobre a autoria delitiva. Não há que se falar em condenação baseada exclusivamente em elementos informativos do inquérito policial, porquanto a prova técnica de rastreamento do IMEI e do e-mail da ré foi plenamente corroborada pelos depoimentos judiciais da vítima e da testemunha presencial, os quais confirmaram a ocorrência da fraude e a dinâmica do crime sob o crivo do contraditório judicial.
+
+Por fim, o exercício do direito constitucional ao silêncio por parte da acusada em seu interrogatório judicial (ID 157646803) não foi interpretado em seu prejuízo, em estrito respeito às garantias fundamentais da ampla defesa e da não autoincriminação. Contudo, diante de provas técnicas e testemunhais tão contundentes e precisas apresentadas pela acusação, a ausência de justificativa idônea por parte da ré apenas confirma a higidez do decreto condenatório.
+
+4. Do Mérito: Tipicidade Penal e Consumação
+
+O crime cometido pela ré adequa-se perfeitamente à capitulação penal do delito de estelionato simples, previsto no artigo 171, caput, do Código Penal Brasileiro.
+
+No caso em julgamento, todos os elementos estruturais do tipo penal restaram plenamente caracterizados. A ré utilizou-se de artifício ao criar um perfil falso de WhatsApp sob o pseudônimo de "Wendel e Helena" e ao editar um comprovante de transferência bancária via PIX inidôneo (ID 134574201), simulando o pagamento do valor de R$ 1.156,72 para induzir e manter em erro as funcionárias do estabelecimento comercial da vítima.
+
+O ardil empregado pela acusada foi idôneo para ludibriar a vendedora, que, acreditando na veracidade do comprovante apresentado e na boa-fé da transação, efetuou a entrega das mercadorias ao transportador indicado (ID 166086844). Houve, portanto, nexo de causalidade direto entre o meio fraudulento empregado pela ré e o erro em que foi mantida a vítima.
+
+A vantagem ilícita restou configurada no momento em que a ré obteve a posse das peças de vestuário sem realizar a devida contraprestação financeira, incorporando os bens ao seu patrimônio de forma fraudulenta. O prejuízo alheio restou igualmente consolidado, uma vez que a vítima Brenda Gadelha Staack sofreu desfalque em seu estoque comercial no valor correspondente às mercadorias entregues, sem que houvesse qualquer compensação financeira posterior ou restituição espontânea dos objetos (ID 134574201).
+
+O crime chegou a sua consumação plena, visto que o delito de estelionato, por ser crime material e de duplo resultado, consuma-se no momento em que o agente obtém a vantagem econômica indevida em prejuízo da vítima. No caso vertente, a consumação ocorreu no instante em que as roupas foram retiradas pelo motorista de aplicativo no Reduto e levadas ao destino final determinado pela ré, saindo da esfera de disponibilidade da comerciante.
+
+5. Do Dispositivo
+
+Em face do exposto, JULGO PROCEDENTE a pretensão punitiva estatal, motivo pelo qual condeno a acusada SÂMIA BALIEIRO DE LIMA às sanções punitivas do Artigo 171, caput, do Código Penal Brasileiro.
+
+Em obediência ao princípio constitucional de individualização da pena, insculpido no artigo 5º, inciso XLVI, da Constituição da República Federativa do Brasil, corroborado pelas disposições ínsitas no artigo 59 do Código Penal, passo à análise das circunstâncias judiciais para a ré Sâmia Balieiro de Lima.
+
+Culpabilidade: Normal à espécie, não extrapolando os contornos do tipo penal.
+
+Antecedentes: A ré é tecnicamente primária, uma vez que, consultando a Folha de Antecedentes Criminais de ID 175897799, constata-se a existência de outros feitos criminais em andamento (ID 175897799), os quais, por força do princípio constitucional da presunção de inocência e da Súmula nº 444 do Superior Tribunal de Justiça, não podem ser valorados como maus antecedentes na fixação da pena-base.
+
+Conduta Social: Não há elementos nos autos que desabonem sua conduta no convívio familiar ou comunitário.
+
+Personalidade: Não existem nos autos elementos suficientes para aferir a personalidade da ré, razão pela qual considero esta circunstância como neutra.
+
+Motivos do crime: A busca pelo lucro fácil, circunstância que já é inerente ao próprio tipo penal de estelionato.
+
+Circunstâncias do crime: Desfavoráveis. O crime foi praticado com elevado nível de planejamento e ardil, envolvendo a criação de perfil falso em aplicativo de mensagens, simulação de comprovante de transferência bancária e contratação de terceiros para a retirada das mercadorias (ID 134574201). Tal conduta demonstra maior reprovabilidade e sofisticação na execução do delito.
+
+Consequências do crime: circunstância neutra. O golpe causou prejuízo financeiro expressivo no valor de R$ 1.156,72 (ID 134574201) em desfavor de comerciante de pequeno porte local, entretanto, já é circunstância punida pelo próprio tipo pena.
+
+Comportamento da vítima: Em nada influenciou a ocorrência do delito, de forma que considero como circunstância neutra.
+
+Concluindo, à vista de tais circunstâncias judiciais, em especial as circunstâncias e consequências desfavoráveis do crime, fixo a pena-base acima do mínimo legal, em 01 (um) ano e 06 (seis) meses de reclusão e 15 (quinze) dias-multa.
+
+Na segunda fase da dosimetria da pena, não há circunstâncias agravantes ou atenuantes a serem consideradas, mantendo-se a pena provisória no mesmo patamar.
+
+Na terceira fase, inexistindo causas de aumento ou de diminuição de pena, torno-a definitiva em 01 (um) ano e 06 (seis) meses de reclusão e 15 (quinze) dias-multa.
+
+Fixo o valor do dia-multa em 1/30 (um trigésimo) do salário-mínimo vigente à época da infração, considerando a ausência de elementos que demonstrem condições financeiras abastadas por parte da condenada.
+
+A pena privativa de liberdade deverá ser cumprida, inicialmente, em regime aberto, nos termos do artigo 33, parágrafo 2º, alínea 'c', do Código Penal.
+
+Verifico a possibilidade de substituição da pena privativa de liberdade por restritivas de direitos, nos termos do artigo 44 do Código Penal, porquanto a pena aplicada é inferior a quatro anos, o crime foi cometido sem violência ou grave ameaça à pessoa e a ré é tecnicamente primária. Assim, substituo a pena de reclusão da ré por duas penas restritivas de direitos, a serem definidas pelo Juízo da Execução Penal, consistentes em:
+
+a) Prestação de serviços à comunidade ou a entidades públicas, pelo mesmo prazo da pena substituída;
+
+b) Prestação pecuniária no valor de 01 (um) salário mínimo, a ser destinada a entidade pública ou privada com destinação social, a ser indicada pelo Juízo da Execução.
+
+Concedo à Ré o direito de apelar em liberdade, uma vez que respondeu ao processo solta e não se encontram presentes os requisitos autorizadores da custódia cautelar previstos no artigo 312 do Código de Processo Penal.
+
+Em atenção ao disposto no artigo 387, inciso IV, do Código de Processo Penal, verifico que houve pedido expresso de fixação de valor mínimo para reparação de danos na denúncia oferecida pelo Ministério Público (ID 134574201). Assim, com base no prejuízo financeiro efetivamente sofrido e comprovado pela vítima Brenda Gadelha Staack, fixo o valor mínimo para reparação dos danos em R$ 1.156,72 (mil cento e cinquenta e seis reais e setenta e dois centavos), montante que deverá ser corrigido monetariamente pelo Índice IPCA-E a contar da data do fato e acrescido de juros de mora de 1% ao mês a partir da citação.
+
+Condeno a acusada no pagamento das custas e despesas processuais.
+
+Transitada em julgado esta decisão e permanecendo inalterada:
+
+a) oficie-se à Justiça Eleitoral para fins de suspensão dos direitos políticos da Ré, nos termos do artigo 15, inciso III, da Constituição Federal;
+
+b) oficie-se ao órgão encarregado da Estatística Criminal;
+
+c) expeça-se a guia de recolhimento para execução das penas restritivas de direitos;
+
+d) façam-se as demais comunicações e anotações de estilo.
+
+Publique-se. Registre-se. Intimem-se.
+
+Belém (PA), data da assinatura eletrônica.
+
+JACKSON JOSÉ SODRÉ FERRAZ
+
+Juiz de Direito Titular da 5ª Vara Criminal de Belém

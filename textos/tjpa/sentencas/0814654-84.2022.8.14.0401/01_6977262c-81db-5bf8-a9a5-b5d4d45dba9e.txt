@@ -1,0 +1,95 @@
+[Texto nativo do PJe]
+
+PODER JUDICIÁRIO
+
+TRIBUNAL DE JUSTIÇA DO ESTADO DO PARÁ
+
+2ª VARA DE VIOLÊNCIA DOMÉSTICA E FAMILIAR CONTRA A MULHER DE BELÉM
+
+Processo nº:  0814654-84.2022.8.14.0401
+
+SENTENÇA
+
+I - RELATÓRIO
+
+Trata-se de ação penal movida pelo Ministério Público Estadual contra LUCAS GABRIEL ATAÍDE DA COSTA, acusado da prática dos crimes de violência psicológica (art. 147-B do Código Penal) e invasão de dispositivo informático na forma qualificada (art. 154-A, §3º do Código Penal), ambos no contexto de violência doméstica.
+
+Consta nos autos que a vítima alegou ter sofrido monitoramento e invasão de sua privacidade pelo acusado, que teria utilizado informações do e-mail e do WhatsApp para constrangê-la psicologicamente. Além disso, narrou que tais condutas lhe causaram abalos emocionais.
+
+A denúncia foi recebida, sendo o denunciado citado, apresentando defesa preliminar.
+
+Em audiência de instrução e julgamento ocorrida em 07/11/2023, foi ouvida a vítima e uma testemunha de defesa. Depoimentos gravados mediante recursos áudios visuais, armazenado em Secretaria e no servidor do Tribunal de Justiça, (id nº 103817576). Em audiência de continuação, ocorrida no dia 25/06/2024, foi decretada a revelia do acusado e encerrada a instrução processual (id nº 118520872).
+
+Em alegações finais, o MP requereu a procedência da denúncia, dando o réu como incurso nas penas do art. art. 154-A, §3º do CPB.
+
+A defesa, em alegações finais, pugnou pela absolvição do acusado por insuficiência de provas e aplicação do princípio do "in dubio pro reo".
+
+II - FUNDAMENTAÇÃO
+
+2.1  crime de invasão de dispositivo informático - atipicidade da conduta
+
+O crime de invasão de dispositivo informático, descrito no art. 154-A do Código Penal, ocorre quando alguém acessa, sem autorização expressa ou tácita do usuário, um dispositivo informático de uso alheio, conectado ou não à rede de computadores, com a finalidade de obter, adulterar ou destruir dados ou informações, ou instalar vulnerabilidades para alcançar vantagem ilícita.
+
+Para sua configuração, exige-se a ausência de consentimento do titular e o dolo específico de realizar uma das ações previstas na lei, sendo que a simples invasão, sem esses requisitos, não caracteriza o delito.
+
+No presente caso, a vítima confirmou em juízo que ambas as partes possuíam livre acesso aos dispositivos informáticos um do outro, além do que, segundo consta nos autos, o tablet foi compartilhado voluntariamente pela vítima com o requerido, sem existência/exigência de quaisquer senhas, restando, automaticamente, liberado o acesso a todos os seus conteúdos e dados de aplicativos.
+
+Dessa maneira, a "invasão" a sistemas isentos de senhas ou qualquer outro mecanismo de proteção, e cujo dispositivo tenha sido compartilhado, de forma voluntária pela vítima, não pode ser considerada conduta típica.
+
+Sendo assim, a ausência de elementos subjetivos e objetivos na conduta, torna o fato atípico, sendo impositiva a absolvição do acusado, nos termos prescritos no art. 386, inciso III do Código de Processo Penal.
+
+2.2 Crime de Violência psicológica - autoria e materialidade
+
+O crime de violência psicológica (art. 147-B do Código Penal) demanda a comprovação de um dano psicológico que tenha gerado prejuízo à autodeterminação ou à saúde pscicológica da vítima.
+
+No tocante à sua configuração, o crime irá se caracterizar através da prática de atos como: ameaça, constrangimento, humilhação, manipulação, isolamento, chantagem, ridicularização, limitação do direito de ir e vir ou qualquer outro meio.
+
+No caso em tela, a vítima relatou de maneira detalhada e consistente que o acusado, após o término do relacionamento, adotou comportamentos obsessivos e de controle.
+
+Utilizou-se do acesso que possuía ao e-mail e whatsapp da vítima para ficar monitorando sua localização, fazia-lhe constantes questionamentos acerca de seus relacionamentos com outras pessoas, trazendo a tona questões íntimas para desestabilizá-la emocionalmente, além de ficar tentando reatar o relacionamento, mesmo após a negativa expressa da vítima.
+
+A a intensidade e frequência das ações do acusado geraram significativo impacto emocional à vítima, conforme se abstrai de seu depoimento, ante o relato de sofrimento psicológico, corroborado pela busca de medidas protetivas.
+
+A vítima chegou a mencionar que ficou emocionalmente abalada a ponto de precisar de assistência psicológica, evidenciando o dano emocional sofrido.
+
+Nesse contexto, vale ressaltar que a palavra da vítima, neste tipo de crime, assume especial relevância em razão do caráter privado, íntimo, em que ocorrem as agressões, merecendo crédito quase absoluto, ainda mais quando em harmonia com os demais elementos presentes nos autos.
+
+Considerando todo o conjunto probatório, entendo que a conduta do acusado restou comprovada. E, à luz da moderna teoria penal, verifico que seu comportamento se subsume nas elementares do art. 147-B do Código Penal, tendo, em consequência, praticado um fato típico, eis que a vítima se sentiu emocionalmente abalada pela conduta manipuladora e obsessiva do acusado. Houve, portanto, o nexo de causalidade entre a conduta inicial e o sofrimento sentido pela vítima, sendo a condenação medida necessária.
+
+III - DISPOSITIVO
+
+Ante o exposto, julgo procedente em parte a denúncia para CONDENAR o réu  LUCAS GABRIEL ATAÍDE DA COSTA, qualificado nos autos, nas penas do art. 147-B do CP, bem como ABSOLVÊ-LO com relação ao CRIME VIOLAÇÃO DE DISPOSITIVO INFORMÁTICO (art. art. 154-A do CP), com fundamento no art. 386, III, do Código de Processo Penal.
+
+IV - DOSIMETRIA DA PENA PARA O CRIME DE VIOLÊNCIA PSICOLÓGICA (ART. 147-B DO CP)
+
+Passo a dosar a pena em obediência às diretrizes do art. 59 do Código Penal: culpabilidade evidenciada e conduta reprovável em seu grau mínimo; o réu é tecnicamente primário; sua personalidade não foi aferida; Conduta social não aferida; não há elementos aptos a identificar a sua personalidade; os motivos que o levaram à prática do delito foram por ciúmes; no que concerne às circunstâncias e consequências do crime, não lhe são favoráveis; não há consequências extrapenais a serem consideradas; e nada consta de que a vítima tenha contribuído para a consecução do delito.
+
+Ponderadas as circunstâncias judiciais acima, fixo a pena-base em 06 (seis) meses de reclusão.
+
+E na ausência de outras agravantes ou atenuantes a serem consideradas e por inexistirem causas de aumento e diminuição de pena, TORNO A PENA DEFINITIVA PARA O CRIME DE VIOLÊNCIA PSICOLÓGICA EM 06 (SEIS) MESES DE RECLUSÃO.
+
+Considerando a pena aplicada e não ser o réu reincidente, com fundamento no artigo 33, § 2º, alínea "c" do Código Penal, fixo o regime aberto para o início do cumprimento da pena.
+
+Atento às regras do art. 43, 44 e 46, do Código Penal, substituo a pena privativa de liberdade por uma de prestação de serviços à comunidade, pelo prazo da pena, a ser especificada pela VEPMA.
+
+Em virtude de não estarem presentes quaisquer requisitos que autorizam a decretação da prisão preventiva, concedo ao réu o direito de recorrer em liberdade.
+
+Tendo em vista que a indenização pelos danos morais, decorrentes do abalo emocional sofrido pela vítima, decorrem exclusivamente da violência psicológica em si, configurando dano in re ipsa, arbitro como indenização a ser paga pelo requerido LUCAS GABRIEL ATAÍDE DA COSTA, o correspondente a um salário mínimo, em favor da vítima.
+
+Comunique-se à vítima sobre o teor desta sentença, e, após o trânsito em julgado:
+
+a) Lancem-se o nome do réu no rol dos culpados;
+
+b) Oficie-se ao Tribunal Regional Eleitoral, para fins do art.15, III da Constituição da República;
+
+c) Procedam-se as demais comunicações necessárias, inclusive as de caráter estatísticos. Após, arquive-se.
+
+Intime-se o réu pessoalmente. Se frustrada a intimação pessoal do réu, proceda a sua intimação na pessoa de seu defensor (art. 392, II, do CPP). Em caso negativo, intime-se através de edital.
+
+Publique-se. Registre-se. Intime-se.
+
+Belém,  4 de dezembro de 2024.
+
+MAURICIO PONTE FERREIRA DE SOUZA
+Juiz de Direito Titular da 2ª Vara de Violência
+Doméstica e Familiar contra a Mulher

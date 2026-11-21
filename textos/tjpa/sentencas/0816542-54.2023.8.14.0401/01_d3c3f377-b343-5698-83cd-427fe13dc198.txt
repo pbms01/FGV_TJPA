@@ -1,0 +1,133 @@
+[Texto nativo do PJe]
+
+S E N T E N Ç A
+
+I) - DO RELATÓRIO
+
+Trata-se de AÇÃO PENAL proposta pelo representante do MINISTÉRIO PÚBLICO DO ESTADO DO PARÁ contra NELSON BESSA DOS SANTOS JÚNIOR, devidamente qualificado nos autos, dando-o como incurso nas sanções punitivas do artigo 171, § 2º-A c/c artigo 14, inciso II e artigo 71 (por duas vezes), todos do Código Penal Brasileiro.
+
+Narra a Dominus Litis na Denúncia de id. 110978728:
+
+Compulsando os autos do presente procedimento inquisitorial, verifica-se que nos dia 08 e 09 de maio de 2023, o denunciado NELSON BESSA DOS SANTOS JÚNIOR praticou crimes de Fraude Eletrônica, em sua modalidade tentada, em desfavor da rede de lojas “Casa Contente”, representada por Armando Trindade Contente Dias, fato ocorrido nesta cidade. Consta que em 08.05.2023, NELSON contatou a Plataforma de e-commerce
+
+da “Casa Contente” e, mediante fraude, se apresentou como DAMIÃO LEONARDO CAETANO, portador do CPF N.º 046.386.397-63, utilizando-se do aplicativo WhatsApp pelo numeral (33) 99982-6917, habilitado em nome de ADILSON JOSÉ FÉLIX, residente no Estado de Minas Gerais. O denunciado efetuou uma compra no valor total de R$ 11.396,00 (onze mil, trezentos e noventa e seis reais), paga no cartão de crédito ELO, final 7440, parcelada em quatro vezes, via links de pagamento, cujo material deveria ser entregue na Rua Mucajás, N.º 35, Bairro Mangueirão, nesta cidade. Contudo, ao perceber que o número de CPF do comprador era relativo ao Estado do Rio de Janeiro e o numeral de telefone empregado era do Estado de Minas Gerais, o proprietário do estabelecimento realizou o cancelamento da compra e o estorno da quantia paga no cartão de crédito. No dia seguinte, entretanto, o denunciado fez novo contato, desta vez com sua real identidade, porém, novamente se utilizando de um numeral telefônico relativo a terceiro, in casu, o número (91) 98186-0422, em nome de JÚLIO CÉSAR BENOLIEL REBELO OLIVEIRA, residente nesta capital. O autor do fato tentou, novamente, efetuar uma compra no cartão de crédito ELO, final 7440, apontando como endereço de entrega aquele informado no dia anterior pelo suposto “DAMIÃO”, sem sucesso. Em virtude dos fatos, o proprietário do estabelecimento, Armando Trindade Contente Dias, compareceu à Diretoria Estadual de Combate a Crimes Cibernéticos e relatou o ocorrido. Após diligências realizadas pela Polícia Civil, foi constatado que ambos os números que contataram a loja eram utilizados em um aparelho telefônico do denunciado, mas que tais linhas estavam registradas em nome de terceiros, conforme ao norte exposto. Colhida a oitiva das pessoas que tiveram seus dados utilizados, todas negaram conhecer o denunciado. Outrossim, após investigações, constatou-se a existência de 25 (vinte e cinco) vínculos bancários relativos ao ora denunciado, que compreendem contas pagamento, contas corrente e contas de poupança. Em Interrogatório, porém, o denunciado NELSON BESSA DOS SANTOS JÚNIOR negou a prática do crime e afirmou desconhecer DAMIÃO LEONARDO CAETANO e JÚLIO CÉSAR BENOLIEL REBELO OLIVEIRA, além de ter afirmado possuir vínculo bancário somente com as instituições financeiras Caixa Econômica Federal e C6 Bank, destacando não possuir cartões de crédito. Por fim, relatou não reconhecer os numerais (33) 99982-6917 e (91) 98186-0422.
+
+Em razão dos fatos, o investigado acabou sendo denunciado pela prática dos delitos previstos no artigo 171, § 2º-A c/c artigo 14, inciso II e artigo 71 (por duas vezes), todos do Código Penal Brasileiro.
+
+A Denúncia foi recebida em 20 de março de 2024, conforme id. 111380754.
+
+A Defesa apresentou resposta a acusação no id. 112450594
+
+Na instrução processual, durante a audiência de instrução e julgamento, foram realizadas as oitivas da vítima ARMANDO TRINDADE CONTENTE DIAS e das testemunhas de acusação JÚLIO CÉSAR BENOLIEL REBELO OLIVEIRA e DAMIÃO LEONARDO CAETANO. Ao final da instrução processual, ocorreu o interrogatório do réu NELSON BESSA DOS SANTOS JÚNIOR.
+
+As partes nada requereram, com base no art. 402, do Código de Processo Penal.
+
+Em alegações finais de id. 132293822, o Ministério Público requer a CONDENAÇÃO de NELSON BESSA DOS SANTOS JÚNIOR pelas condutas delitivas elencadas no artigo 171, § 2º-A c/c artigo 14, inciso II e artigo 71 (por duas vezes), todos do Código Penal Brasileiro, com fundamento no artigo 387, do CPP.
+
+Por sua vez, a Defesa, à guisa de Razões Finais de id. 134587319, requer: a) Que seja o acusado absolvido por atipicidade da conduta e por não existir prova suficiente para a condenação, de acordo com o art. 386, incisos III e VII, do Código de Processo Penal; b) Subsidiariamente a absolvição com fulcro no art. 386, inciso V c/c 155 do CPP, uma vez que não há nos autos prova sobre o crivo do contraditório e ampla defesa que imputem ao réu, de forma indubitável a autoria do delito; c) Em caso de condenação, que sejam consideradas favoráveis todas as circunstâncias judiciais da primeira fase da dosimetria (art. 59, CP), devendo a pena ser fixada no mínimo legal; d) Aplicação do regime inicial de cumprimento no aberto, nos termos do art. 33, § 2º, alínea c, do CP; e) A substituição da pena privativa de liberdade por restritiva de direitos, conforme o artigo 44, do CP; f) O afastamento da reparação de danos, tendo em vista que o acusado é hipossuficiente nos termos da lei; e g) Pela gratuidade de justiça, com isenção de dias-multa e custas processuais, por se tratar de hipossuficiente nos termos da lei.
+
+Em síntese, é o relatório. Passo a motivar e, alfim, decido.
+
+II) – DO MÉRITO
+
+Dispõem o art. 171, § 2º-A c/c artigo 14, inciso II e artigo 71, todos do Código Penal Brasileiro:
+
+Art. 171 – Obter, para si ou para outrem, vantagem ilícita, em prejuízo alheio, induzindo ou mantendo alguém em erro, mediante artifício, ardil, ou qualquer outro meio fraudulento:
+
+§ 2º-A. A pena é de reclusão, de 4 (quatro) a 8 (oito) anos, e multa, se a fraude é cometida com a utilização de informações fornecidas pela vítima ou por terceiro induzido a erro por meio de redes sociais, contatos telefônicos ou envio de correio eletrônico fraudulento, ou por qualquer outro meio fraudulento análogo.
+
+Art. 14 – Diz-se o crime:
+
+II – tentado, quando, iniciada a execução, não se consuma por circunstâncias alheias à vontade do agente.
+
+Art. 71 - Quando o agente, mediante mais de uma ação ou omissão, pratica dois ou mais crimes da mesma espécie e, pelas condições de tempo, lugar, maneira de execução e outras semelhantes, devem os subseqüentes ser havidos como continuação do primeiro, aplica-se-lhe a pena de um só dos crimes, se idênticas, ou a mais grave, se diversas, aumentada, em qualquer caso, de um sexto a dois terços.
+
+Lesiona o Professor MICHEL PROCÓPIO AVELA acerca do delito de fraude eletrônica, que:
+
+“O paragrafo 2°-A traz uma modalidade qualificada do delito, denominado pela lei de fraude eletrônica, com pena de reclusão, de 4 (quatro) a 8 (oito) anos, e multa Incide se o estelionato for cometido com a utilização de informações fornecidas pela vítima ou por terceiro induzido a erro por meio de redes sociais, contatos telefônicos ou envio de correio eletrônico fraudulento, ou por qualquer outro meio fraudulento análogo. A qualificadora se vincula à forma não presencial de prática do delito, em que a utilização de informações envolve a fraude, induzindo alguém a erro.”
+
+(In Manual de Direito Penal – volume único – Parte Geral e Parte Especial, 3ª ed. rev., atual. e ampl., -- São Paulo/SP: Editora JusPodivm, 2024, pág. 1058).
+
+No caso em julgamento, resultaram provadas a materialidade e a autoria da tentativa do crime de fraude eletrônica na sua modalidade continuada ante a instrução probatória contraditória, a qual finalizou em desfavor do acusado NELSON BESSA DOS SANTOS JÚNIOR.
+
+Tanto a materialidade como a autoria delitivas restaram comprovadas por meio dos depoimentos fornecidos pela vítima e pelas testemunhas em juízo durante a instrução processual penal, bem como pelo relatório de investigação de fl. 04 do id. 99214789, de fls. 01/05 do id. 99214790, fls. 01/05 do id. 99214799 e fls. 01/03 do id. 99214800 e pelos documentos de fls. 03/05 do id. 99214802 e fls. 10/14 do id. 99214801.
+
+A vítima ARMANDO TRINDADE CONTENTE DIAS declarou em juízo:
+
+Que no dia 08.05.2023 foi efetuada uma compra na loja e houve a coleta de dados do cliente; que após análise, verificou-se que o cartão utilizado para o pagamento não pertencia ao comprador, sendo que no dia seguinte NELSON fez contato e tentou efetuar outra compra, fornecendo o mesmo local de entrega da tentativa de compra anterior; que ressaltou ter comunicado a pessoa que se passava por Damião (NELSON), de que não havia sido possível concluir a transação; que o sistema de banco de dados constatou a fraude, posteriormente comunicada à Polícia; que os dados de endereço de entrega do acusado e os fornecidos em nome da pessoa que se identificou como Damião eram os mesmos.
+
+Em seguida, a testemunha JÚLIO CÉSAR BENOLIEL REBELO OLIVEIRA declarou:
+
+Que chamado para depor na Delegacia de Combate a Crimes Virtuais, que em sede policial, descobriu que chegaram ao seu nome por intermédio de um chip de celular cadastrado em seus dados, o qual foi usado em um aparelho celular furtado.
+
+Já a testemunha DAMIÃO LEONARDO CAETANO declarou:
+
+Que no dia 03.07.2023 foi contatado pela Divisão de Crimes Cibernéticos; que foi informado que seu CPF havia sido utilizado em uma compra no Estado do Pará, porém o lojista desconfiou e cancelou a transação eis que pela numeração do CPF foi constatado que se tratava de um documento proveniente do Estado do Rio de Janeiro, sendo que no dia seguinte o criminoso ainda tentou realizar outra compra.
+
+Por fim, o acusado, em sede de interrogatório judicial, negou a prática do delito.
+
+Após a análise dos depoimentos e das demais provas constantes dos autos, indiscutível a responsabilidade do acusado NELSON BESSA DOS SANTOS JÚNIOR pela tentativa da prática do delito de fraude eletrônica, na modalidade continuada,  previsto no art. 171, § 2º-A c/c artigo 14, inciso II e artigo 71, todos do Código Penal Brasileiro, uma vez que os relatos fornecidos pelas vítima e pela testemunhas confirmam com clareza que o réu tentou obter vantagem ilícita em prejuízo do estabelecimento comercial Casa Contente, utilizando dados de terceiros, situação ratificadas pelos diversos documentos constates nos autos.
+
+A vítima, ratificado pelos depoimentos das testemunhas e pela investigação policial, informou de maneira detalhada como se realizou toda a tentativa de empreitada criminosa, destacando a artimanha utilizada pelo réu, o qual utilizava os dados das testemunhas com a finalidade de obter vantagem ilícita, mediante a realização de compras on-line, ocasionando prejuízo especialmente para o estabelecimento comercial.
+
+Conforme a vasta quantidade de provas, no dia 08 de maio de 2023, o acusado Nelson Bessa dos Santos Júnior, utilizando o aplicativo de mensagens WhatsApp, através do número 33 99982-6917, identificou-se como Damião Leonardo Caetano, CPF 046.386.397-63, e efetuou uma compra no estabelecimento comercial “Casa Contente” no valor de R$ 11.396,00 (onze mil, trezentos e noventa e seis reais), pago no cartão de crédito ELO, final 7440, com endereço de entrega para a rua Mucajás, N.º 35, Bairro Mangueirão, Belém/PA, todavia, ao verificar a inconsistência das informações, pois o CPF utilizado era do Estado do Rio de Janeiro, enquanto que o número de celular era do Estado de Minas Gerais e o endereço de entrega de Belém do Pará, o estabelecimento, representado por Armando Trindade Contente Dias, cancelou a compra. No dia seguinte, o acusado se identificou pela sua real identidade, entretanto utilizou o aplicativo WhatsApp por meio do número 91 98186-0422, em nome de JÚLIO CÉSAR BENOLIEL REBELO OLIVEIRA, e tentou efetuar novamente a compra através do mesmo cartão de crédito, informando igual endereço de entrega do dia anterior, todavia sem sucesso, pois foi cancelada mais uma vez, sendo informados os fatos pela vítima para a Polícia Civil.
+
+Conforme os documentos de investigação de fl. 04 do id. 99214789, de fls. 01/05 do id. 99214790, fls. 01/05 do id. 99214799, fls. 01/03 do id. 99214800, fls. 03/05 do id. 99214802 e fls. 10/14 do id. 99214801 é possível ter certeza da tentativa da prática dos delitos por parte do réu, porquanto inicialmente tentou efetuar transação financeira utilizando os dados pessoais  de DAMIÃO LEONARDO CAETANO, o qual é morador do Estado do Rio de Janeiro e posteriormente, tentou realizar nova transação financeira, utilizando a linha telefônica de número (91) 98186-0422, a qual estava registrada indevidamente em nome de JÚLIO CÉSAR BENOLIEL REBELO OLIVEIRA. Além do mais, as investigações constataram que os números (33) 99982-6917 e (91) 98186-0422 foram utilizados no aparelho celular de propriedade do réu, Samsung Galaxy S21, nos IMEIs 351331724667625 e 352523244667627, logo não há a menor sombra de dúvidas quanto a tentativa da prática do delito de fraude eletrônica, na modalidade continuada, prevista no art. 171, § 2º-A c/c artigo 14, inciso II e artigo 71, todos do Código Penal Brasileiro, tendo em vista que, utilizando dados de terceiros, tentou ludibriar a vítima com a finalidade de obtenção de vantagem ilícita.
+
+Em sede de interrogatório judicial, o réu não apresentou qualquer elemento capaz de comprovar que não tentou praticar os referidos delitos, pois se limitou a alegar que realizou as compras via Whatsapp no cartão de crédito de sua sogra, pois estaria em processo de mudança de endereço.
+
+Verifica-se que as condutas criminosas não chegaram a ser consumadas por circunstâncias alheias a vontade do agente, uma vez que a vítima ao perceber inconsistências no CPF do comprovador, no número de celular de fora do Estado do Pará e no endereço de entrega dos produtos, cancelou duas vezes as compras, pois notou se tratar de fraude, de forma que se enquadra no crime tentado.
+
+Verifico a incidência no caso concreto do instituto do crime continuado, previsto no art. 71, caput, do Código Penal, uma vez que há pluralidade de crimes da mesma espécie (fraude eletrônica), praticados em um curto intervalo de tempo, na mesma comarca (Belém/PA), e com igual modus operandi (Tentativa de realizar compras de alto valor, utilizando dados de terceiros), demonstrando, portanto, elo de continuidade entre as condutas.
+
+Portanto, é formalmente típica a tentativa da prática da infração penal de fraude eletrônica descrita na denúncia, na modalidade continuada, devendo o acusado ser responsabilizado criminalmente pelas consequências de seus atos.
+
+III) – DA CONCLUSÃO
+
+Em face do exposto e por tudo mais que dos autos consta, JULGO PROCEDENTE a pretensão punitiva estatal formulada na Denúncia, motivo pelo qual CONDENO o réu NELSON BESSA DOS SANTOS às sanções punitivas do art. 171, § 2º-A c/c artigo 14, inciso II e artigo 71 (por duas vezes), todos do Código Penal Brasileiro.
+
+Por conseguinte, passo à individualização da pena do réu com observância das disposições dos arts. 68 e 59, do CPB.
+
+Culpabilidade não ultrapassou contornos suficientes para justificar maior exasperação da pena. Portanto, circunstância neutra.
+
+O réu não registra antecedentes criminais, conforme se verifica pela certidão de id. 134591136.
+
+Sua conduta social reputo como neutra, por ausência de elementos para sua aferição.
+
+Personalidade: não existem nos autos elementos suficientes para aferir a personalidade do réu. Portanto, circunstância neutra.
+
+Os motivos do crime são inerentes ao tipo penal, portanto, neutra.
+
+As consequências do crime não reputo como graves, tendo em vista que não houve prejuízo financeiro para as vítimas.
+
+O comportamento das vítimas em nada influenciou a ocorrência do delito, de forma que considero como circunstância neutra, conforme entendimento esposado na Súmula nº 18 do E. TJE/PA.
+
+Concluindo à vista de tais circunstâncias judiciais, fixo a pena-base no grau mínimo previsto para o crime de fraude eletrônica, isto é, em 04 (quatro) anos de reclusão e 10 (dez) dias-multa à razão de 1/30 (um trinta avos) do salário mínimo vigente à época da infração.
+
+Não há atenuantes e/ou agravantes.
+
+Presente a causa de aumento da pena prevista na parte geral do Código Penal (Art. 71, do CPB), conforme restou evidenciada no bojo desta sentença, motivo pelo qual aumento a pena-base em 1/6 (um sexto), conforme Súmula 659 do STJ, passando a dosá-la em 04 (quatro) anos e 08 (oito) meses de reclusão e 11 (onze) dias-multa.
+
+Reconheço a incidência da causa de diminuição da pena prevista na parte geral do Código Penal (Art.14, Inciso II), conforme restou evidenciada no bojo dos autos, desta forma, diminuo a pena anteriormente fixada em 1/3 (um terço), diante dos fatos e fundamentos já declinados e, em consequência, passo a dosá-la em 03 (três) anos, 01 (um) mês e 10 (dez) dias de reclusão e 07 (sete) dias-multa.
+
+Portanto, torno concreta e definitiva a pena de NELSON BESSA DOS SANTOS JÚNIOR em 03 (três) anos, 01 (um) mês e 10 (dez) dias de reclusão e 07 (sete) dias-multa, devendo ser cumprida inicialmente no regime aberto, nos termos do art. 33, §2º, c, do Código Penal.
+
+IV) – DISPOSIÇÕES FINAIS
+
+Não verifico a possibilidade de substituição da pena imposta por restritivas de direitos, tendo em vista não ser medida socialmente recomendada, pois entendo que não seria medida suficiente e eficaz para prevenir o cometimento de novos delitos da mesma espécie.
+
+Concedo ao réu o direito de apelar em liberdade.
+
+Não concedo ao acusado os benefícios da justiça gratuita, porquanto não há nos autos provas da sua hipossuficiência, deste modo, condeno-o no pagamento das custas e despesas processuais.
+
+Deixo de fixar indenização civil, nos termos do art. 387, IV do Código de Processo Penal, devido ausência de pedido e contraditório específico.
+
+Transitada em julgado (CF, art. 5º, LVII) e permanecendo inalterada esta sentença: 1) lance o nome do réu no rol dos culpados, oportunamente; 2) oficie-se à Justiça Eleitoral para fins de suspensão dos direitos políticos do réu (CF, art.15, III); 3) oficie-se ao órgão encarregado da Estatística Criminal (CPP, art. 809); 4) expeça-se a guia de cumprimento de pena e a encaminhe à Vara de Execuções Penais para as devidas providências, conforme Resolução n. 417/2021 do CNJ; e 5) façam-se as demais comunicações de estilo.
+
+Publique-se.Registre-se. Intimem-se.
+
+Belém/PA, data da assinatura digital.
+
+JACKSON JOSÉ SODRÉ FERRAZ
+
+Juiz de Direito Titular da 5ª Vara Criminal de Belém/PA

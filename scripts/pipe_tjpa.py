@@ -174,13 +174,15 @@ def cmd_grava(arq, chamadas, extra=""):
             sha256=hashlib.sha256(corpo.encode()).hexdigest(), lido_em=c.agora()))
         plano = corpo.replace("\n", " ")
         if papel == "den":
-            m = (re.findall(r"(?:incurs\w*|viol\w+ (?:as )?disposi\w+|capitula\w*|pr[áa]tica d[oa]s? (?:crimes?|delitos?)|"
-                            r"pela pr[áa]tica d[oa]s?)[^.;]{0,40}art[^;]{0,150}", plano, re.I)
-                 or re.findall(r"art\.?\s?\d{3}[^;]{0,120}(?:C[óo]digo Penal|CPB?\b)", plano, re.I))
+            m = (re.findall(r"(?:incurs\w*|incorr\w*|viol\w+ (?:as )?disposi\w+|capitula\w*|pr[áa]tica d[oa]s? (?:crimes?|delitos?)|"
+                            r"pela pr[áa]tica d[oa]s?)[^.;]{0,40}(?:art|\d{3})[^;]{0,150}", plano, re.I)
+                 or re.findall(r"art\.?\s*\d{3}[^;]{0,120}(?:C[óo]digo Penal|CPB?\b)", plano, re.I))
             cap = cap or (re.sub(r"\s+", " ", m[0])[:170] if m else "capitulação não localizada")
         else:
             m = re.findall(r"(?:condeno|conden[áa]-l[oa]s?|absolvo|absolv[êe]-l[oa]s?|julg\w+\s+(?:parcialmente\s+)?"
                            r"(?:im)?procedente|extin\w+ a punibilidade)[^.]{0,140}", plano, re.I)
+            # o último "condeno" costuma ser o das custas; ele só vale se não houver outro
+            m = [x for x in m if not re.search(r"custas|honor", x, re.I)] or m
             disp = re.sub(r"\s+", " ", m[-1])[:150] if m else "dispositivo não localizado"
     if cands and not n["den"]:
         notas.append("nenhuma das %d candidatas era denúncia" % len(cands))
@@ -254,6 +256,12 @@ def main():
     elif a[0] == "status":
         status(a[1], a[2], 0, 0, int(a[4]) if len(a) > 4 else 0, a[3] if len(a) > 3 else "")
         print("status", a[1], a[2])
+    elif a[0] == "nota":  # acrescenta detalhe à última linha do processo, preservando status e contagens
+        ult = dict(feitos()[a[1]])
+        ult["detalhe"] = "; ".join(x for x in [ult.get("detalhe", ""), a[2]] if x)
+        ult["quando"] = c.agora()
+        c.anexar(STATUS, CAMPOS_STATUS, ult)
+        print("nota", a[1], ult["status"])
     elif a[0] == "resumo":
         cmd_resumo()
     elif a[0] == "mapa":
