@@ -1,0 +1,129 @@
+[Texto nativo do PJe]
+
+PODER JUDICIÁRIO
+
+TRIBUNAL DE JUSTIÇA DO ESTADO DO PARÁ
+
+VARA CRIMINAL DE BRAGANÇA
+
+Avenida Nazeazeno Ferreira, Centro, Bragança/PA, CEP: 68.600-000
+
+Telefone (91) 3197-5490/3197-5489 / Whatsapp: (91) 98251-0379
+
+E-mail: 1crimbraganca@tjpa.jus.br
+
+Proc. nº: 0803127-79.2024.8.14.0009
+
+AUTOR: DIVISAO DE COMBATE A CRIMES ECONOMICOS E PATRIMONIAIS PRATICADOS POR MEIOS CIBERNETICOS
+
+Endereço: Nome: DIVISAO DE COMBATE A CRIMES ECONOMICOS E PATRIMONIAIS PRATICADOS POR MEIOS CIBERNETICOS
+Endereço: Avenida Governador Magalhães Barata, 209, DG, Nazaré, BELéM - PA - CEP: 66040-170
+
+REU: TAMIRES DOS REIS SILVERIO e outros
+
+Endereço: Nome: TAMIRES DOS REIS SILVERIO
+Endereï¿½o: desconhecido
+Nome: BRUNA CRISTINA OLIVEIRA DA SILVA
+Endereço: Rua Edgard Pinto César, 277, Parque Santa Madalena, SãO PAULO - SP - CEP: 03982-150
+
+Advogado(a)(s): Advogado(s) do reclamado: TARCIO VINICIUS ORMON GOMES FERREIRA
+
+DECISÃO / SENTENÇA
+
+Retornaram os autos conclusos para o processamento das preliminares apresentadas na resposta escrita à acusação pela acusada BRUNA CRISTINA OLIVEIRA DA SILVA após a manifestação do Ministério Público.
+
+Na resposta escrita ofertada, a ré aponta a preliminar de inépcia da denúncia ao argumentar que não houve descrição detalhada da atuação da acusada em relação às alegações de estelionato, lavagem de dinheiro e participação em organização criminosa.
+
+No mérito, nega qualquer envolvimento nos eventos que culminaram no ato ilícito das vítimas, sustentando que não teve contato direto com as vítimas, não atuou na criação de sites fraudulentos e não se beneficiou diretamente dos valores.
+
+Nesse contexto, requereu a produção de prova de perícia contábil e financeira de suas operações financeiras, a quebra de seu sigilo telemático, a perícia técnica que analise os servidores dos sites fraudulentos e os IPs registrados e os relatórios de movimentação da COAF (ID n. 128720311).
+
+Em manifestação, o Ministério Público sustentou que os elementos iniciais de informação colhidas na investigação apontam a participação direta e efetiva da denunciada no prejuízo causado à vítima Ediones da Costa Conceição e Francisco Gerry Cavalcante, com substrato no Relatório de Inteligência Financeira - RIF nº 95738.131.12442.14912 (cujo relatório de análise se encontra no ID 119967208 - Pág. 3), pelo Laudo prosopográfico (ID. 119967205 - Pág. 18).
+
+Quanto ao pedido de produção de perícia contábil e de relatórios de movimentação da COAF, aponta que o relatório de análise financeira (ID 119967208 - Pág. 3) já evidencia créditos atípicos seguidos de pulverização.
+
+Quanto ao pedido de perícia de criação ou manutenção dos sites, aponta que o Laudo de Perícia de Local de Internet nº 2023.01.000134-INF (ID 119967203 - Pág. 9) já atesta o caráter fraudulento dos portais utilizados.
+
+Quanto ao pedido de quebra telemático, sustenta que há indícios de fumus comissi delicti evidenciado por comprovantes de transferência, Relatório de Inteligência Financeira já juntado e laudo de internet que atesta a fraude, além de laudo prosopográfico que vincula a investigada às contas beneficiárias (ID n. 157895081).
+
+É o relatório.
+
+1. DA PRELIMINAR - INÉPCIA DA DENÚNCIA
+
+Quanto a esta preliminar, entendo que tal pedido não merece guarida.
+
+Da leitura da denúncia anexada ao ID n. 122204254, se imputa a acusada BRUNA CRISTINA OLIVEIRA DA SILVA e os demais coautores ISABELLA CRISTINA CALABRO BLASCO, GUILHERME HENRIQUE DO NASCIMENTO NUNES, ALAN PEREIRA DA SILVA, TAMIRES DOS REIS SILVÉRIO e WILLIAM ALVES DAS SILVA a comunhão de esforços para a consecução da prática de estelionato por meio de simulação do sítio eletrônico oficial do Departamento de Trânsito do Estado do Pará (DETRAN/PA), na qual resultou em prejuízo para as vítimas Francisco Gerry Cavalcante, Márcio Antônio de Souza Alves, Nilson Vale Ferreira, Ediones da Costa Conceição e Marcos Antônio Correia da Silva.
+
+Se imputa que a ré BRUNA CRISTINA OLIVEIRA DA SILVA se passaria como leiloeira oficial no esquema criminosa.
+
+É certo de que o acusado se defende dos fatos apresentados na denúncia, com a análise inicial da denúncia se limitando a indícios de autoria e materialidade, não se exigindo o esgotamento das minúcias dos fatos incriminadores. Todavia ainda compete ao Ministério Público que apresente uma narrativa congruente dos fatos a incidir nas elementares dos tipos penais citados, assim permitindo o exercício da ampla defesa.
+
+Sob essa ótica, entendo que a denúncia descreveu suficientemente os fatos ao descrever a conduta praticada, notadamente o nexo de causalidade entre a suposta conduta da denunciada e o registro da materialidade, apresentando indícios do elemento subjetivo do verbo penal imputado. Assim, entendo que a denúncia, permite ao denunciado exercer o seu direito a ampla defesa, razão pela qual REJEITO A PRELIMINAR apresentada.
+
+2. DO PEDIDO DE PRODUÇÃO DE PROVAS.
+
+Quanto ao pedido relacionado de quebra de sigilo temático, impõe destacar que tal pleito já fora abarcado quando da Representação n. 0800832-69.2024.8.14.0009 (em apenso).
+
+Naquela representação fora decretada a prisão preventiva da investigada e de outras pessoas, determinada a busca e apreensão domiciliar, decretada a quebra do sigilo telemático e telefônico, e determinando o bloqueio de ativos financeiros dos investigados (sequestro).
+
+Logo, eventual relatório de quebra de sigilo temático dos eletrônicos apreendidos na residência da acusada podem ser consultados na Representação n. 0800832-69.2024.8.14.0009.
+
+Não obstante, a própria acusada poderá apresentar contraprovas e histórico de eventuais mensagens arquivadas, observando-se a necessidade de apresentação dos metadados para apuração da integridade dos arquivos.
+
+Quanto ao pedido de afastamento de sigilo bancário e fiscal, aponto que já fora objeto de apreciação quando do recebimento da denúncia, ao passo que já anexo ao feito a pesquisa de informações junto à Receita Federal, com os resultados anexados ao ID n. 155545746, ao passo que os dados bancários solicitados via CSS Bacen se fazem juntadas nessa oportunidade.
+
+Quanto ao pedido de perícia de criação ou manutenção dos sites, é pertinente o apontamento feito pelo Ministério Público de que já houve laudo anexado aos autos com a dita finalidade (ID 119967203 - Pág. 9), competindo as partes o dever de argumentar sobre as conclusões lá apresentadas
+
+Nesse contexto, entendo que a produção das provas já fora objeto de avaliação em momento anterior.
+
+3. DA REUNIÃO DOS PROCESSOS. CONEXÃO INTERSUBJETIVA.
+
+No mais, ao se proceder a revisão do caso, entendo que há a possibilidade de reunião de processos para consolidação processual e julgamento uniforme, face a observação de que se imputa a conduta do delito de associação criminosa.
+
+Isto porque na origem se trata da investigação de possível colaboração entre a acusada BRUNA CRISTINA OLIVEIRA DA SILVA e os demais coautores ISABELLA CRISTINA CALABRO BLASCO, GUILHERME HENRIQUE DO NASCIMENTO NUNES, ALAN PEREIRA DA SILVA, TAMIRES DOS REIS SILVÉRIO e WILLIAM ALVES DAS SILVA na consecução da prática de estelionato por meio de simulação do sítio eletrônico oficial do Departamento de Trânsito do Estado do Pará (DETRAN/PA), na qual resultou em prejuízo para as vítimas Francisco Gerry Cavalcante, Márcio Antônio de Souza Alves, Nilson Vale Ferreira, Ediones da Costa Conceição e Marcos Antônio Correia da Silva.
+
+A investigação resultou na Representação n. 0800832-69.2024.8.14.0009.
+
+Naquela representação fora decretada a prisão preventiva dos investigados, determinada a busca e apreensão domiciliar, decretada a quebra do sigilo telemático e telefônico e determinando o bloqueio de ativos financeiros dos investigados (sequestro).
+
+Todavia, da representação nasceram 4 (quatro) ações penais que atualmente estão em diferentes fases processuais, conforme se expõe a seguir:
+
+a) Proc. 0803115-65.2024.8.14.0009 - acusado William Alves Silva, respondendo em liberdade após revogação da preventiva, com o feito aguardando a realização da instrução programada para 2 de dezembro de 2025, às 11h.
+
+b) Proc. 0803124-27.2024.8.14.0009 - acusados Alan Pereira da Silva e Guilherme Henrique do Nascimento Nunes - condenados como incursos no art. 171, §2º-A, do Código Penal, em 21 de fevereiro de 2025. Já cumprindo pena provisoriamente e aguardando a análise do apelo junto ao 2º grau.
+
+c) Proc. 0803125-12.2024.8.14.0009 (sob análise) - acusada Isabela Cristina Calabro Cardoso - aguardando cumprimento de ordem de prisão preventiva e citação.
+
+d) Proc. 0803127-79.2024.8.14.0009 - acusadas Tamires dos Reis Silvério e Bruna Cristina Oliveira da Silva - determinado o desmembramento do feito em relação à ré Tamires dos Reis Silvério, visto que não localizada e citada por edital (aguardando cumprimento de ordem de prisão preventiva); e pendente de avaliação a resposta escrita apresentada pela ré Bruna Cristina Oliveira da Silva, com esta respondendo em liberdade após revogação da prisão preventiva/domiciliar.
+
+Nesse contexto, se observa que dos 6 (seis) denunciados, 2 (dois) já estão julgados, 2 (dois) estão no meio da instrução processual e 2 (duas) estão foragidas.
+
+Assim, é possível a reorganização dos processos para acomodação e melhor instrução no feito nos termos do art. 79, caput, do Código de Processo Penal.
+
+5. DELIBERAÇÕES
+
+Quanto às rés foragidas TAMIRES DOS REIS SILVÉRIO e ISABELLA CRISTINA CALABRO BLASCO, fica designado o Processo n. 0803125-12.2024.8.14.0009 para tramitação das denunciadas de forma conjunta.
+
+Quanto aos réus BRUNA CRISTINA OLIVEIRA DA SILVA e WILLIAM ALVES DAS SILVA fica designado o Processo n. 0803115-65.2024.8.14.0009 para tramitação de forma conjunta.
+
+Não havendo outras causas hipóteses de absolvição sumária, previstas no art. 397 do CPP, MANTENHO O RECEBIMENTO DA DENÚNCIA.
+
+No mais, visto que as testemunhas e vítimas arroladas pelo Ministério Público nos presentes autos são as mesmas que serão ouvidas no Proc. 0803115-65.2024.8.14.0009, ao passo que a acusada BRUNA CRISTINA OLIVEIRA DA SILVA não arrolou testemunhas, fica designada a audiência de instrução para o dia 2 de dezembro de 2025, às 11h, tal como designado no Proc. 0803115-65.2024.8.14.0009, podendo o ato ser acompanhado pelo mesmo link lá fornecido, a saber:
+
+0803115-65.2024.8.14.0009 - WILLIAM ALVES SILVA - ESTELIONATO MAJORARO - RÉU SOLTO | Participar da Reunião | Microsoft Teams
+
+Intimem-se as partes e suas testemunhas.
+
+Promova a Secretaria a juntada dos documentos concernentes a BRUNA CRISTINA OLIVEIRA DA SILVA que foram proferidas no bojo do Processo n. 0803127-79.2024.8.14.0009 (decisões, resposta escrita à acusação, incluso essa sentença, documentos, etc…) no Processo n. 0803115-65.2024.8.14.0009.
+
+De forma similar a Secretaria deve proceder com a documentação relacionada a ré TAMIRES DOS REIS SILVÉRIO proferidas no bojo do Processo n. 0803127-79.2024.8.14.0009 no Proc. n. 0803125-12.2024.8.14.0009.
+
+Por tabela, fica extinto o Processo n. 0803127-79.2024.8.14.0009 em razão da continência com os feitos indicados acima.
+
+Publique-se, registre-se e cumpra-se.
+
+Bragança/PA, data de assinatura no sistema.
+
+ANDREW MICHEL FERNANDES FREIRE
+
+Juiz de Direito Titular da Vara Criminal de Bragança

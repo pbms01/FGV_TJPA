@@ -1,5 +1,7 @@
 # Coleta noturna TJPA + panorama TJSP, TJMG e TJBA (20/11/2026)
 
+Nota de 21/11/2026: para a porta de entrada da fase 2, este roteiro foi substituído pelo `docs/RUNBOOK_TJPA.md` (API do DJEN e localização da denúncia no Codex do TJPA). Fica como registro da coleta noturna pelo DataJud.
+
 ATUALIZAÇÃO 19/11, prevalece sobre qualquer menção a "três maiores tribunais": o Pedro fixou TJSP, TJMG e
 TJBA como tribunais de comparação. Não ranquear. Na seção do doc, o título nomeia os três.
 IDs no doc após o ajuste: panorama = pendente mwh7v6bwqhq.16334; resultados = pendente mwh7v6bwqhq.18659

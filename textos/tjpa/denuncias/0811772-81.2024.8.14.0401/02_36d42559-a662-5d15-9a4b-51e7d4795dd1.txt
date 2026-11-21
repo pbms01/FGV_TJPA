@@ -1,0 +1,422 @@
+[Texto nativo do PJe]
+
+on E E A GRUPO DE ATUAÇÃO ESPECIAL NO COMBATE AO CRIME
+
+MINISTÉRIO PÚBLICO ORGANIZADO - GAECO
+DO ESTADO DO PARÁ
+
+do depoimento prestado na DPRCT, apenas Geormany, Márcio Vítor e Cesar
+Calado continuavam com acesso remoto.
+
+Desse modo, exsurgiu ainda, o esclarecimento que existia a
+possibilidade de conexão direta ao banco de dados através de "DBLINK" ou outra
+ferramenta, contudo, o testemunho da gerencia da empresa vítima Geormany
+asseverou que tal possibilidade técnica somente se implementava até às 14h da
+data de 05/11/2015, sendo no momento utilizada as ferramentas PLSQL e SQLPlus,
+os quais permitem ao usuário acesso direto ao banco de dados podendo alterar ou
+deletar qualquer informação.
+
+Deste modo, uma vez identificado, que os três títulos tinham como
+beneficiários as empresas Loreal Brasil, Usaflex e Laticínios Bela Vista, apurou-se
+ainda, que ditas empresas sequer haviam reclamado quanto a falta de pagamento,
+por isso, quando o responsável pela gerência do setor de compras a pagar realizou
+uma consulta sobre os pagamentos realizados na data de 23/11/2014 restou
+constatado que os pagamentos haviam sido apagados do sistema, procedimento
+este que, de acordo com o fluxo interno, jamais poderia ter acontecido.
+
+Afinal, os autos do inquérito policial dão conta, que houve um acesso
+ao sistema, bem como, houve também o apagamento do registro dos
+pagamentos”.
+
+Tal circunstância ensejou, a partir do trabalho policial voltado em
+desvendar a(s) autoria(s), que o crime somente poderia ter sido perpetrado inclusive
+da forma reiterada e de modo estável como transcorreu, em decorrência do
+envolvimento de funcionário integrante da equipe do multicitado senhor Álvaro,
+razões pelas quais, restaram objeto de apreensão pela polícia o conjunto de provas
+documentais consubstanciadas em tais cópias dos boletos falsos, ofício de
+solicitação dos valores, cópia das comunicações com o Banco Santander, além de
+outros, segundo informações extraídas do Inquérito Policial.
+
+Sucede que, a partir de tal inconteste prova de materialidade
+constantes das comunicações realizadas entre o Grupo Líder e o Banco Santander,
+a empresa vítima ao ter solicitado o cancelamento dos 03 (três) boletos junto banco
+acabou por obtido como resposta daquela instituição bancária que o cedente dos
+três boletos falsos se tratava de uma sociedade empresarial de razão social
+“MIRANDA & CORDEIRO COMÉRCIO DE CARAMELOS LTDA-EPP”.
+
+Diante de tais informações colhidas, a equipe de investigadores de
+polícia civil realizou diligências em contextualizar dentro do contexto de engenharia
+criminosa da Organização quem seria MARCELO DE AVIZ MIRANDA, sócio
+acionista da sociedade empresarial “MIRANDA & CORDEIRO COMÉRCIO DE
+CARAMELOS LTDA-EPP”3.
+
+? Em razão desse contexto, importante notar que referido Senhor Alvaro Janau acabou por ter telefonado para
+as três empresas supracitadas indagando se o grupo Líder possuía alguma pendência com as mesmas, obtendo a
+resposta negativa. '
+
+8 Importante destacar que, de acordo com as diligência policiais realizadas, a partir de informações constantes
+de RIF (Relatório de Inteligência Financeira) acostada aos autos, referida sociedade empresarial esteve, dentre
+outras, sendo utilizada pelos réus para o recebimento de valores obtidos mediante boletos fraudulentos da
+
+grupo empresarial identificado como vítima inclusive tendo ocorrido a cessação de sua conta corrente de forma,
+6
+
+GRUPO DE ATUAÇÃO ESPECIAL NO COMBATE AO CRIME ORGANIZADO Fone: (91) 3210-3540
+Rua 16 de Novembro, 418, Cidade Velha, Belém-PA gaecoQmppa.mp.br
+CEP: 66.023-220 www.mppa.mp.br
+Dn E E A GRUPO DE ATUAÇÃO ESPECIAL NO COMBATE AO CRIME
+
+MINISTÉRIO PÚBLICO ORGANIZADO - GAECO
+DO ESTADO DO PARÁ
+
+Para tanto, de simples leitura do relatório de missão que pode ser
+evidenciado as fls. 02 dos autos, restou despertada a atenção da equipe policial o
+fato de Marcelo de Aviz Miranda possuir residência na Travessa Bom Jardim, nº
+1310, Bairro do Jurunas, próximo à Rua dos Pariquis, ou seja, às proximidades da
+Gerência do Grupo Líder.
+
+Em seguida, por meio de novos esclarecimentos prestados pela
+gerência de informações de Tecnologia da Informação do Grupo Líder, sobrevieram
+comprovações documentais que após a vítima ter realizado nova pesquisa em seu
+banco de dados e no sistema RMS utilizado pela empresa, primeiro, restou
+constatado que na data de 05.01.2016, ao procurar no sistema lançamentos do ano
+de 2013 verificou-se que um título de nº 3411, o qual contava com 03 (três) parcelas,
+todas com o vencimento para o ano de 2013, tinha uma quarta parcela com
+vencimento no ano 2014, e justamente devido tamanha distância temporal entre as
+datas de vencimentos, essa circunstância igualmente despertou atenção junto aos
+integrantes da equipe de controle interno dos sistemas da empresa vítima.
+
+Enfim, diante do fato de ter sido acostada aos autos a nota fiscal de nº
+3411 e, após minuciosa análise de referida prova documental, restou identificado e
+que a terceira parcela da nota (datada em 2013) divergia da terceira parcela do
+sistema (2014). Esse procedimento permitiu que, em decorrência de comparação
+dos códigos de barras dos boletos lançados no sistema e o cotejo com o código da
+terceira parcela acima destacada divergia das duas anteriores, concluindo-se de
+forma incontestável, desta forma, que a última parcela fora alterada.
+
+Uma vez pormenorizado o modus operandi de como os réus inclusive
+em razão de suas respectivas funções como empregados e, desde então, ex-
+empregados da empresa vítima, se conheciam e mantinham entre si relação, ou
+seja, mediante representação dos vínculos que liga todos os participantes ora
+denunciados uns aos outros, com vínculos permanentes, apurou-se após rigorosa
+pesquisa no sistema da empresa vítima que o mecanismo acima descrito
+alcançou mais 23 (vinte e três) outros títulos adulterados, na medida que ao ter
+sido realizado o mesmo modo de verificação e comparação dos vencimentos das
+notas fiscais com os vencimentos lançados no sistema.
+
+Os perfis dos réus Juarez Pereira Bahia Junior e Marleide
+Rodrigues Cardoso restaram identificados como tendo sido os perfis de
+usuários com acesso ao sistema RMS diretamente correlacionados e
+responsáveis por um total, segundo testemunho da gerência de tecnologia da
+informação do grupo empresarial vítima, de 24 (vinte e quatro) títulos fraudados*.
+
+coincidentemente, somente após o surgimento da empresa “M&J Serviços Contábeis e Tecnologia LTDA”. Além
+disso, impõe-se destacar ainda, que dita Sociedade M&J Serviços possuía 03 (três) contas, sendo duas no
+Bradesco e uma Banco Itaú, de sorte que, em apenas uma das contas do banco Bradesco houve um depósito do
+valor de R$ 3.699.352,00 (três milhões, seiscentos e noventa nove mil reais no período de 15/09/2014 até
+01/12/2015, ou seja, justamente o lapso temporal que coincide com as fraudes perpetradas em desfavor do
+grupo empresarial vítima. E isso tudo de valores, sem que dita empresa sequer houvesse sequer apresentado
+despesas.
+
+9 Para os fins e efeitos do real alcance do quantum foi subtraído e que consubstancia prova de materialidade dos
+
+delitos imputados em desfavor dos réus, evidencie-se o documento de folhas 380 (docum úmero 05 —
+7
+
+GRUPO DE ATUAÇÃO ESPECIAL NO COMBATE AO CRIME ORGANIZADO Fone: (91) 3210-3540
+Rua 16 de Novembro, 418, Cidade Velha, Belém-PA gaecomppa.mp.br
+CEP: 66.023-220 www.mppa.mp.br
+Fl E E A GRUPO DE ATUAÇÃO ESPECIAL NO COMBATE AO CRIME
+
+MINISTÉRIO PÚBLICO ORGANIZADO - GAECO
+DO ESTADO DO PARÁ
+
+E mais, emerge das provas cautelares não repetíveis dos autos, que os
+denunciados Marleide Rodrigues Cardoso e Juarez Pereira Bahia Júnior,
+mantiveram vínculos permanentes e solidariedade de ação, sobretudo diante das
+circunstâncias e atribuições funcionais dentro do organograma da empresa, o que
+resta possível se identificar justamente por suas funções e perfis de acesso aos
+sistema, como planejaram e executaram as ações, bem como, pela função que cada
+um exercia na organização engendrada, tanto assim, que o teor do relatório de
+investigação policial acabou por ter constatado que o denunciado Juarez é sócio da
+Sociedade Empresarial “M & J Serviços Contábeis e Tecnologia Ltda-ME”
+juntamente com Flávio Marinho Alves Pereira (doc. 03, f. 02), também ex-
+funcionário do Grupo Líder e que trabalhava no mesmo setor que Juarez.
+
+tem, O endereço da sociedade empresarial de Juarez e Flávio fica na
+Passagem Moura Carvalho, nº 113, Bairro do Jurunas, próximo à Rua dos Tamoios,
+porém, em verificação in loco, constatou-se que o local não existe fisicamente,
+sendo o endereço em uma pequena passagem, onde sequer trafegam automóveis. /
+
+Além disso, restou constatado ainda, que o deriunciado Flávio Marinho,
+sócio e colega de trabalho de Juarez, ambos líderes de referida organização
+criminosa, possuíam acesso às informações de boletos de pagamento do setor da
+empresa onde trabalhava, circunstância indiciária inclusive que se viu reforçada por
+meio do fato que, uma vez que as investigações caminhavam em avanço, em
+movimento de busca em construir sentido não incriminador em seu desfavor, o
+mesmo buscando exercer autodefesa pediu demissão do Grupo Líder.
+
+O trabalho policial constante dos autos descortinou ainda, que embora
+o planejamento da organização criminosa houvesse executado um planejamento
+voltado em buscar ocultar, ou melhor, não denotar qualquer registro de bens de
+modo uniforme em nome e favor de todos os denunciados'º, tal qual operou-se, por
+exemplo, em desfavor da ré Marleide Rodrigues Cardoso, cujo nome não se viu
+
+pa associado a registro de bens ou empresas, o fato inconteste é que, do conjunto de
+diligências de verificações de análise dos Logs de acesso dos boletos, referida ré
+restou evidenciada como responsável por ter lançou no sistema o pagamento de
+vários boletos fraudados.
+
+Emerge do caderno inquisitivo ainda, por meio de outros testemunhos,
+dentre os quais, com destaques aos teores de declarações dos senhores Camila
+Lemos da Glória e Anderson Marques Barbosa, funcionários do grupo Líder, o
+modus operandi empregado pelo réu Flávio Marinho quando do desenvolvimento de
+
+/
+
+Relatório de Investigação com síntese das apurações relacionadas aos denunciados) dos autos cautelares
+registrados sob número 0010066-09.2018.8.14.0401, etiquetados por prisão preventiva.
+
+1º Tanto assim, que diante do contexto fático acima descrito as autoridades policiais representaram por diversas
+medidas cautelares, dentre as quais, pelo afastamento de sigilo bancário e fiscal dos denunciados (processo nº
+000275013.2016.814.0401) e pelo afastamento do sigilo das comunicações telefônicas (processo nº
+000275013.2016.814.0401), e esses meios de prova integram parta todos os fins e efeitos verossimilhança para
+os fins e efeitos desta peça acusatória, sobretudo, diante do descompasso patrimonial frente a real capacidade
+de aquisição descortinado como tendo de propriedade, afora outras situações de posse de outro: ns que o
+transcurso da instrução processual seja capaz de evidenciar.
+
+GRUPO DE ATUAÇÃO ESPECIAL NO COMBATE AO CRIME ORGANIZADO Fone: (91) 3210-3540
+Rua 16 de Novembro, 418, Cidade Velha, Belém-PA gaeco()mppa.mp.br
+CEP: 66.023-220 www.mppa.mp.br
+Fl E E A GRUPO DE ATUAÇÃO ESPECIAL NO COMBATE AO CRIME
+
+MINISTÉRIO PÚBLICO ORGANIZADO - GAECO
+DO ESTADO DO PARÁ
+
+cooptação de possíveis integrantes para referida organização criminosa por si
+liderada, e para a qual sempre buscou aliciar funcionários que detivessem perfil com
+“atribuições chaves” ao intento criminoso concebido.
+
+Tanto assim, que em 2014, o réu Flávio já perpetrando sua forma
+fraudulenta de subtrair dinheiro mediante fraude da empresa vítima para a qual
+trabalhava, e objetivando aliciar colegas de trabalho com perfis de acesso a
+documentos e/ou aos sistemas segundo os fins de seus interesses delituosos,
+dentre os quais, o fato que transcorreu com a funcionária Camila com quem o
+mesmo manteve contato e proposta que áquela “procurasse alguns boletos”
+inclusive propondo que “ganhassem dinheiro por fora” através de um negócio com
+notas e boletos, sendo que cada boleto que o Réu Flávio efetuasse o pagamento,
+Camila ganharia o valor de R$ 3.000,00 (três mil reais), ou até mais, dependendo do
+valor dos boletos, proposta que Camila, disse, não ter aceitado, mas, cujo aspecto
+circunstancial revela-se caracterizador do modus operandi de sua atuação voltada
+em cooptar outros agentes em favor da organização por si concebida e gestada.
+
+O ponto descortinador quanto a autoria e conduta de Flávio adveio do
+fato que, à época, seu colega de atividades na empresa vítima, o nacional
+identificado por nome de Anderson levou um notebook para seu local de trabalho e o
+réu Flávio instalou um programa no referido notebook que servia como roteador.
+
+Posteriormente, Anderson!!” perfurou um móvel do tipo armário
+pequeno, em atendimento a ordem direta do réu Flávio, e conectou um cabo de rede
+no notebook, com o objetivo de assegurar acesso a rede interna do Grupo Líder.
+
+Esclareceu-se também, sobretudo, pelo teor do testemunho da
+funcionária Camila que, por diversas vezes, o réu Flavio não se fez presente ao
+trabalho na empresa sob a artimanha de ter estado doente, contudo, o mesmo por
+várias vezes manteve contato para número de telefone corporativo da empresa
+pedindo para que Camila ligasse o referido notebook, mas esta não atendia seu
+pedido e repassava o telefone para o funcionário Anderson, o qual sempre atendia
+as ligações do réu Flávio.
+
+Além disso, some-se o fato que referido testemunho de Camila, a um
+só tempo, presenciou quando o funcionário Anderson ligou o notebook e também viu
+quando o mouse estava sendo acessado remotamente por outra pessoa, pelo que,
+em razão da coincidência sequencial de fatos e circunstâncias, denota-se ter sido
+ação direta do réu Flávio como tendo sido o responsável por ter acessado dados de
+um fornecedor inclusive apagando diversas informações rapidamente, isso, logo
+após o réu Flávio ter pedido para o funcionário Anderson, via telefone, ter realizado
+o procedimento de “ligação” do notebook.
+
+4 Em interpretação holística de como a fraude restou perpetrada e até mesmo descoberta, desde
+logo, justifica-se, em princípio, a não inclusão do referido nacional do polo passivo da peça acusatória
+em razão de emanar dos autos, nomeadamente, das circunstâncias de emprego de astucia e
+artimanha pela liderança da Organização Criminosa representada pelo réu Flavio Marinho Alves
+Pereira, em entender-se que a conduta de perfuração desenvolvida pelo nacional Anderson decorreu
+de boa fé, além do que, em atendimento a ordem superior do réu Flavio, cujo contexto/pretexto, sem
+ocorrência de dolo por parte de Anderson, objetivou assegurar distribuição de sinal para todos os
+
+demais funcionários que ocupavam o mesmo espaço de trabalho num único ou contíguo ambiente.
+9
+
+GRUPO DE ATUAÇÃO ESPECIAL NO COMBATE AO CRIME ORGANIZADO Fone: (91) 3210-3540
+Rua 16 de Novembro, 418, Cidade Velha, Belém-PA gaecobmppa.mp.br
+CEP: 66.023-220 www.mppa.mp.br
+F k 5 A GRUPO DE ATUAÇÃO ESPECIAL NO COMBATE AO CRIME
+
+MINISTÉRIO PÚBLICO ORGANIZADO - GAECO
+DO ESTADO DO PARÁ
+
+Igual forma de acesso remoto também se perfez perpetrada pelo
+correu Juarez, na medida que, igualmente, segundo testemunho de Camila, dito
+integrante da organização criminosa, em razão de ser responsável pelo centro de
+processamento de dados da empresa, e também ter se valido da desculpa de
+ausência física do local de trabalho, não raro, em determinada oportunidade,
+manteve contato com a mesma para que ela realizasse a “ligação, ou turn on” do
+referido equipamento tipo notebook, ocasião em que Camila invariavelmente
+repassava o telefone para o funcionário Anderson, e inclusive presenciou quando o
+mesmo ligou o computador portátil, o qual estava guardado em um móvel, tipo
+armário pequeno, do setor de contabilidade.
+
+Ou seja, o denunciado Juarez, em franco vínculo estável que mantinha
+com os demais integrantes, especialmente, com o corréu e líder Flávio, igualmente
+desenvolvia sua função assentada em condutas ilícitas mediante acesso remoto
+através do referido notebook.
+
+Tal espécie de acesso remoto acima descrita somente foi possível em
+razão do fato do réu Flávio, sob a justificava de haver necessidade de,
+alternativamente, desenvolver algumas de suas atividades funcionais decorrente de
+seu trabalho ou mister de sua casa, ter culminado por ter instalado um programa
+chamado “Team Viewer"!?, por meio do qual, viabilizou acesso de fora das
+instalações do grupo empresarial vítima como se nela estivesse fisicamente
+atuando.
+
+Tanto assim, que o réu Flavio, valendo-se de sua condição, à época,
+de funcionário, manteve diversos contatos telefônicos!? para o ramal da sala onde
+
+12 Segundo informações técnicas extraídas do site do desenvolvedor do programa em sua página mantida de
+forma aberta e para fins de oferta comercial na internet (Desde logo, ressalvando não haver qualquer outro fim
+ou ato de propaganda, mas apenas e tão somente, buscar evidenciar o que é, ou melhor, em consiste referida
+ferramenta tecnológica e quais são suas principais características e funcionalidades, daí que ressalta-se o
+TeamViewer 13 ser (.....) o mais poderoso, seguro e versátil suporte remoto, acesso remoto e ferramenta de
+colaboração on-line disponível. O TeamViewer foi projetado para ser executado em um amplo espectro de
+sistemas operacionais partindo de sistemas modernos como o Windows 10, macOS Sierra, iOS 11, Android 8
+Oreo e Chrome OS até sistemas operacionais mais antigos como o Windows XP e OS X 10.8. Todo o conjunto de
+recursos especificados aqui, a menos que declarado o contrário, se relaciona à versão Windows. Para a exata
+funcionalidade de outras versões, consulte a versão de teste respectiva para Mac / Linux / iOS / Android /
+Universal Windows Platform / BlackBerry. Com o lançamento de uma nova versão principal (e.x. 13.x etc.) para
+Windows, macOS ou Linux, trocamos os links de download em nosso site. Você encontrará versões anteriores
+em nosso site em Download/Versões anteriores.Vantagens TeamViewer: Economize tempo e dinheiro. Preste
+suporte, assista, interaja e colabore com as pessoas. Intercâmbio de informações. Acesso e uso da tecnologia.
+Uma única ferramenta torna possível trabalharem como se estivessem na mesma sala, sem perda de tempo com
+viagem e sem despesas.Com o TeamViewer, você tem tudo o que precisa na sua frente.Concentre-se em seu
+trabalho, e não em ir até ele. Resolva problemas remotamente ou una clientes e colegas sem passos complexos
+ou tempo de preparação oneroso. O TeamViewer é projetado para que você comece a trabalhar em segundos,
+em qualquer dispositivo. Seguro e potente. O TeamViewer permite você fazer o que quiser sem qualquer
+aborrecimento ou preocupações. Dados, conversas e reuniões privadas mantêm-se assim(....)”.Disponível em
+https://www teamviewer.com/pt/. Acesso em 20/09/2018, as 13:07 pm.
+33 E ainda, conforme teor do testemunho de Anderson, dentre outras ocorrências, ressalta o mesmo o fato de
+que, antes de Flávio ter pedido demissão da empresa vítima, pediu-lhe para levar o notebook até a portaria, e
+
+como o ora réu Flávio ainda não havia sido desligado da empresa, obedeceu-lhe, em razão do o exercer
+2 10
+GRUPO DE ATUAÇÃO ESPECIAL NO COMBATE AO CRIME ORGANIZADO Fone: (91) 3210-3540
+Rua 16 de Novembro, 418, Cidade Velha, Belém-PA gaecoQmppa.mp.br
+CEP: 66.023-220 www.mppa.mp.br
+PPA y
+É GRUPO DE ATUAÇÃO ESPECIAL NO COMBATE AO CRIME
+
+MINISTÉRIO PÚBLICO ORGANIZADO - GAECO
+DO ESTADO DO PARÁ
+
+trabalhava pedindo, dentre outros, para os seus colegas de trabalho (Camila e
+Anderson) para ligar o notebook. a
+
+1.3. DAS CONDUTAS DELITUOSAS DOS DENUNCIADOS
+
+A seguir, segue o detalhamento da atuação dos denunciados, diante da
+complexidade dos fatos apurados.
+
+Os denunciados, sob o modo de agir enquanto Organização Criminosa,
+e sempre tendo objetivado o intento de subtrair valores do grupo empresarial para o
+qual trabalhavam, reunidos de forma estável inclusive sob o vínculo empregatício até
+então mantido, e em unidade de vontades, tanto que emerge como compreensão
+sobre os mecanismos ou sistemas de controle internos da empresa, inviabilidade de
+conceber-se tamanho esquema criminoso e executado por tanto lapso temporal,
+sem que houvesse uma efetiva e encadeada participação de agentes!! que, como
+restou comprovado nos presentes autos, detendo poderes e/ou exercendo diversas
+funções dentro de áreas sensíveis e de confiança dentro da empresa identificada
+como vítima, eis que todos trabalhavam em setores estratégicos (financeiro e
+contabilidade) para a consecução de seu fim (ilícito), todos concorreram dentro de
+um ciclo completo e de “engenharia criminosa” quase perfeita, para que fossem
+emitidos boletos (como se fossem para pagamentos decorrentes de
+produtos/serviços adquiridos pelo grupo Líder), que, na verdade, eram documentos
+falsos, e, com a atuação de outros funcionários em cargos específicos, efetuavam os
+pagamentos decorrentes destes, os quais, por fim, beneficiavam empresas dos
+acusados.
+
+Nesse sentido, evidencie-se que desde os primeiros boletos que foram
+detectados como obra e ação fraudulenta diretamente decorrente de efetiva atuação
+de referido Organização Criminosa que beneficiaram a sociedade empresária
+“Miranda & Cordeiro comércio de caramelos LTDA-EPP”, cujos sócios são os réus
+Marcelo de Aviz Miranda, pessoa jurídica que movimentou financeiramente de
+
+funções de superior hierárquico do mesmo, embora subsista também teor de testemunho de Anderson dando
+conta que o réu Flávio igualmente o teria assediado para integrar o esquema da Organização Criminosa,
+oportunidade inclusive que o ré Flavio ressaltou precisar que o senhor Anderson viesse a ser transferido para o
+setor de “contas a pagar”, afim de trabalhar em conjunto com Marcos Melo.
+
+14 Nesse sentido, a partir do teor das declarações de Anderson Marques Barbosa restou possível identificar,
+primeiro, que o réu Flávio buscou cooptar ao mesmo para integrar o “esquema”, uma vez que, dos autos, restou
+comprovado, a indispensável “ajuda” não somente de Anderson para trabalhar junto com o corréu Marcos
+Otávio Sousa De Melo no setor de “Contas A Pagar”, como também, segundo trabalho policial, antes das
+respostas do afastamento de sigilo bancário e fiscal dos investigados (quando da coleta do teor do depoimento
+de Anderson, em 04/09/2016), em cotejo daquele com o relatório de análise de dados e patrimônio, restou
+apontado de maneira irrefutável que, para que houvesse o êxito alcançado pelo atuar da organização, fazia-se
+necessário a participação do coordenador financeiro, pois sem sua contribuição no crime não seria possível a
+obtenção dos proveitos ilícitos através dos pagamentos de boletos fraudulentos.
+
+GRUPO DE ATUAÇÃO ESPECIAL NO COMBATE AO CRIME ORGANIZADO Fone: (91) 3210-3540
+Rua 16 de Novembro, 418, Cidade Velha, Belém-PA gaeco(bmppa.mp.br
+CEP: 66.023-220 www.mppa.mp.br
+GRUPO DE ATUAÇÃO ESPECIAL NO COMBATE AO CRIME ORGANIZADO Fone: (91) 3210-3540
+Rua 16 de Novembro, 418, Cidade Velha, Belém-PA gaecoQbmppa.mp.br
+CEP: 66.023-220 www.mppa.mp.br
+
+Fl E E A GRUPO DE ATUAÇÃO ESPECIAL NO COMBATE AO CRIME
+
+MINISTÉRIO PÚBLICO ORGANIZADO - GAECO
+DO ESTADO DO PARA'
+
+janeiro a novembro de 2014, aproximadamente, R$ 2.400.00,00 (dois milhões e
+quatrocentos mil reais), valores vultosos considerando-se tratar de uma pequena
+empresa de comércio de “bombons”.
+
+Imputa-se assim, que os 23 boletos fraudados foram adulterados pelos
+réus Juarez Pereira Bahia Junior e Marleide Rodrigues Cardoso, cujo proveito do
+crime restou devidamente ocultado e pulverizado em diversas empresas, e cujas
+movimentações bancárias de tais investigadas coincidem com o período de
+defraudação do Grupo Líder, além de que recaem de forma igualmente coincidente
+com o período de contratação dos réus acima qualificados.
+
+Senão vejamos:
+
+Evolução Patrimonial de Marleide
+
+R$ 70.000,00 “TT
+- R$60.000,00 E
+
+R$ 50.000,00 -
+
+“ R$40.000,00 +—— e
+u Movimentação bancária
+informada na DIMOF
+
+Como dito anteriormente, precisamente, nos termos destacado em
+sede da nota de rodapé identificada pelo número 8, o trabalho de investigação
+policial apurou que a “M & J Serviços Contábeis e Tecnologia LTDA-ME” sociedade
+empresária de Juarez Pereira Bahia Junior e Flávio Marinho Alves Pereira?*, a qual,
+em somente uma de suas contas vinculadas, recebeu efetivamente o depósito de R$
+
+18 Eis toda evolução patrimonial segundo informações obtidas pelo DIMOF, que é a Declaração de Informações
+sobre Movimentação Financeira, prevista na INSTRUÇÃO NORMATIVA REB Nº 1.571, DE 02 DE JULHO DE 2015 é
+de apresentação obrigatória para os bancos de qualquer espécie, cooperativas de crédito e associações de
+poupança e empréstimo. As instituições financeiras prestarão, por intermédio da DIMOF, informações sobre as
+operações financeiras efetuadas pelos usuários de seus serviços em conta de depósitos ou conta de poupança,
+inerentes à depósitos à vista e a prazo; pagamentos efetuados em moeda corrente ou em cheques; emissão de
+ordens de crédito ou documentos assemelhados e resgates à vista ou a prazo.As informações devem ser
+apresentadas pelas instituições financeiras, em relação aos titulares das operações, quando o total
+movimentado, em cada semestre, for superior a R$ 5.000,00 (cinco mil reais), no caso de pessoas físicas e R$
+10.000,00 (dez mil reais), no caso de pessoas jurídicas.
+
+18 Além disso, tem-se ainda que destacar que o Flávio Marinho Alves Pereira, conforme dados retirados do
+INFOSEG, é sócio de três empresas: “BELÉM SPORT BAR”, “WIROZE COMÉRCIO DE CALÇADOS LTDA-EPP” e “M &
+J SERVIÇOS CONTÁBEIS E TECNOLOGIA LTDA”, tudo conforme consta dos autos, no doc. 03, fls. À

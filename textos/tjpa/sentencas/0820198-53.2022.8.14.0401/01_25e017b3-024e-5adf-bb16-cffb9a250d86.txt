@@ -1,0 +1,759 @@
+[Texto nativo do PJe]
+
+di
+PODER JUDICIÁRIO
+
+TRIBUNAL DE JUSTIÇA DO ESTADO DO PARÁ
+
+10ª VARA CRIMINAL DE BELÉM
+
+Proc. n.º 0820198-53.2022.8.14.0401
+
+Réus: LUCAS MONTEIRO LOPES, NORILUCY AVILA SALGADO, JUCILENE DE MORAIS PINTO, RAI FELIPE DE SOUZA MOTA e CLEBERSON DIOGO OLIVEIRA SILVA
+
+Vítimas: Raimundo Nilo Lobo Lisboa, Ancleta Soares de Almeida, Rosa Helena Seco de Oliveira, Alex Sousa Costa, Ana Maria Monteiro Mesquita; Avelino Lázaro Rodrigues Sizo e Oceanira de Brito Malheiros
+
+Capitulação provisória: art. 171, § 2º-A, do Código Penal, e art. 1º, § 1º, da Lei 9.613/1998, em concurso material (CP, art. 69), bem como, no caso do réu Cleberson, também na forma tentada (CP, art. 14, II).
+
+SENTENÇA n.º 087/2026 (C/M):
+
+I - Relatório:
+
+Vistos.
+
+Trata-se de ação penal proposta pelo Ministério Público em face de Lucas Monteiro Lopes, Norilucy Ávila Salgado, Jucilene de Morais Pinto, Rai Felipe de Souza Mota e Cleberson Diogo Oliveira Silva e outros, imputando-lhes a prática dos crimes previstos no art. 171, § 2ºA, do Código Penal, e art. 1º, § 1º, da Lei 9.613/1998, em concurso material (CP, art. 69), bem como, no caso do réu Cleberson, também na forma tentada (CP, art. 14, II), conforme narrativa constante da denúncia (ID 100355303-Pág.1/5).
+
+Segundo a inicial acusatória, os réus teriam integrado esquema estruturado de fraude eletrônica, ocorrido entre abril e agosto de 2022, mediante o qual terceiros, utilizando perfis falsos no aplicativo WhatsApp [(91) 9117-0170], faziam-se passar por filhos ou familiares das vítimas para solicitar transferências bancárias.
+
+Os valores obtidos, segundo o órgão ministerial, eram então direcionados a contas vinculadas aos denunciados, que realizariam movimentações internas para ocultar a real destinação e origem dos recursos. O inquérito policial contém comprovantes bancários, extratos, laudos prosopográficos e documentos correlatos (ID's 97188721, 97188732, 97194003, 97194027, 97194028, 97194030, 97194031, 97194032, 97194034, 97194036, 97194037, 97194039, 97195440, 97195441, 97195442, 97197251, 9719725161, 9719725162).
+
+Registre-se que, em decisão proferida no ID 100179932, este Juízo recebeu a denúncia (06/09/2023) e, considerando o elevado número de acusados e as dificuldades de citação e instrução conjunta, determinou o desmembramento do processo, nos termos do art. 80 do Código de Processo Penal, com a consequente autuação em autos apartados para os demais denunciados.
+
+Em razão desse desmembramento, permaneceram neste feito apenas os réus que se encontravam presos à época - Lucas Monteiro Lopes, Rai Felipe de Souza Mota, Jucilene de Morais Pinto, Norilucy Ávila Salgado e Cleberson Diogo Oliveira Silva - prosseguindo a instrução exclusivamente em relação a eles, enquanto os demais acusados passaram a responder em autos próprios.
+
+Regularmente citados, os réus apresentaram respostas à acusação, conforme os seguintes registros: Lucas Monteiro Lopes (ID 100833208); Jucilene de Morais Pinto (ID 107567629); Norilucy Ávila Salgado (ID 101475510); Rai Felipe de Souza Mota (ID 101433560) e Cleberson Diogo Oliveira Silva (ID 101022667), com os respectivos documentos e anexos identificados nos IDs mencionados.
+
+Após a apresentação das respostas à acusação, o Juízo proferiu despacho ratificando o recebimento da denúncia, não sendo hipótese de absolvição sumária, determinando o prosseguimento do feito, consoante registro constante da movimentação processual, passando-se à fase de instrução.
+
+Durante a instrução, foram ouvidas, além das vítimas Ancleta Soares de Almeida, Rosa Helena Seco de Oliveira, Alex Sousa Costa (filho da vítima Maria das Graças  Sousa Costa), Ana Maria Monteiro Mesquita e Raimundo Nilo Lobo Lisboa, com registros em ata, mídias e transcrições (TRANSCR 01 - ID 128128412; TRANSCR 02 - ID 128128417; TRANSCR 03 - ID 128128425), também as testemunhas arroladas pelas defesas, cujos depoimentos constam nas mídias de audiência (ID's 139268503, 139268510, 139268511, 139268522) e foram igualmente mencionados pelo Ministério Público em suas alegações finais (ID 142103638).
+
+Foram ouvidas, pela defesa do réu Lucas Monteiro Lopes: (1) Jânio Flávio de Amorim; (2) Selma Cristina da Silva Monteiro; (3) Vitória Cristina Pereira Amorim. Pela defesa do réu Cleberson Diogo Oliveira Silva, foi ouvida: Elessandra da Conceição Fernandes. Pela defesa do réu Rai Felipe de Souza Mota, foi ouvido: (1) Kelton Sena. Os depoimentos foram regularmente colhidos em juízo e integram o conjunto probatório dos autos.
+
+As vítimas Avelino Lázaro Rodrigues Sizo e Oceanira de Brito Malheiros não foram localizadas, apesar das tentativas certificadas nos autos, tendo o Ministério Público desistido de suas oitivas (ID 133280980), pedido homologado por este Juízo (ID 138949651).
+
+Ao final da fase instrutória, foram colhidos os interrogatórios de todos os réus, conforme registros das audiências constantes nas mídias juntadas aos autos (ID's: 139268523, 139268524), tendo sido ouvidos:  Lucas Monteiro Lopes; Rai Felipe de Souza Mota; Jucilene de Morais Pinto; Norilucy Avila Salgado e Cleberson Diogo Oliveira Silva.
+
+Os interrogatórios foram realizados perante este juízo, de forma regular, encerrando a instrução probatória. Não havendo requerimento de diligências complementares, foi aberto prazo para apresentação dos memoriais escritos, nos termos do art. 403 do Código de Processo Penal, os quais foram devidamente apresentados pelas partes na seguinte ordem:
+
+Alegações finais do Ministério Público (ID 142103638), pugnando pela condenação de todos os réus, com fundamento no conjunto probatório constante dos autos, nos exatos termos da denúncia.
+
+Por seu turno, foram apresentados os Memoriais do Defensor Público da ré Jucilene de Morais Pinto (Ids: 149181228 - Pág. 1-5), negando autoria, alegando movimentação por terceiros e insuficiência probatória; subsidiariamente, requerendo pena mínima, regime menos gravoso e isenção de custas.
+
+Defesas técnicas particulares:
+
+Lucas Monteiro Lopes (ID 142580740-Pág. 1/5), nega vínculo subjetivo e dolo; questiona os laudos produzidos nos autos; requer absolvição, nos termos do art. 386, III, V e VII, do Código de Processo Penal; não acolhimento de valor mínimo para reparação de danos.
+
+Norilucy Ávila Salgado (ID 142900395-Pág. 1/10): nega autoria; afirma que a conta bancária estaria inativa no período dos fatos; requer absolvição, nos termos do art. 386, V e VII, do CPP, por não restar provada a autoria, ou por não existir prova suficiente para a condenação.
+
+Cleberson Diogo Oliveira Silva (ID 145035943): negativa de autoria, sob a alegação de empréstimo de sua conta a terceiro e desconhecimento dos demais envolvidos; requer absolvição, nos termos do art. 386, III, V e VII, do CPP.
+
+Rai Felipe de Souza Mota (ID 148663883 - Pág. 1/15): pugna pela sua absolvição dos crimes, subsidiariamente, a desclassificação do crime de fraude eletrônica para o de estelionato simples, fixando-se, ainda, a reprimenda em seu patamar mínimo e o regime diverso do fechado (art. 387, §2°, do CPP), bem como concedendo ao acusado o direito de recorrer em liberdade.
+
+É o relatório. Decido.
+
+II. FUNDAMENTAÇÃO:
+
+Inicialmente, cumpre registrar que o presente feito envolve múltiplos réus, diversos fatos delituosos e situações jurídico-processuais distintas, o que impõe a apreciação ordenada e individualizada das questões submetidas a julgamento, observando-se, em primeiro lugar, aquelas de natureza prejudicial ou preliminar, aptas a obstar o exame do mérito propriamente dito.
+
+Nessa perspectiva, antes de adentrar na análise da materialidade, autoria e tipicidade, passa-se ao exame de questão preliminar relativa à condição de procedibilidade da ação penal, especificamente quanto ao fato atribuído ao réu CLEBERSON DIOGO OLIVEIRA SILVA, envolvendo o registro de ocorrência realizado por Alex Sousa Costa, em nome de sua genitora, Maria das Graças Sousa Costa.
+
+2.1. PRELIMINAR:
+
+2.1.1. DA AUSÊNCIA DE REPRESENTAÇÃO - CONDIÇÃO DE PROCEDIBILIDADE: (Fato envolvendo Alex Sousa Costa / Maria das Graças Sousa Costa - Réu Cleberson Diogo Oliveira Silva):
+
+Ainda que nenhuma preliminar tenha sido arguida pelas partes, verifica-se, de plano, a presença de questão de ordem pública, consistente na ausência de condição de procedibilidade da ação penal, a qual pode e deve ser conhecida de ofício por este Juízo, por anteceder o exame do mérito.
+
+No que se refere ao fato atribuído ao réu CLEBERSON DIOGO OLIVEIRA SILVA envolvendo Alex Sousa Costa, verifica-se que este não figura como vítima direta, tendo procedido ao registro de boletim de ocorrência em nome de sua genitora, Maria das Graças Sousa Costa, apontada como suposta ofendida.
+
+Todavia, Maria das Graças Sousa Costa não foi ouvida na fase policial nem em juízo, inexistindo nos autos qualquer manifestação expressa ou tácita de vontade no sentido de representar criminalmente, circunstância que inviabiliza o regular exercício da ação penal.
+
+Ressalte-se que, com o advento da Lei nº 13.964/2019, o crime de estelionato passou a ser, como regra, de ação penal pública condicionada à representação da vítima. Registre-se que, embora haja referência nos autos de que a suposta vítima Maria das Graças Sousa Costa seja pessoa idosa, não há qualquer elemento probatório que comprove que possuía 70 (setenta) anos ou mais à época dos fatos, circunstância indispensável para a incidência da exceção prevista no art. 171, § 5º, parte final, do Código Penal.
+
+Assim, não afastada a regra geral, permanece exigível a representação válida como condição de procedibilidade da ação penal.
+
+O simples registro de boletim de ocorrência por terceiro, desacompanhado de manifestação da vítima legitimada, não supre a exigência legal de representação válida, sobretudo quando a suposta ofendida não confirmou os fatos nem demonstrou interesse na persecução penal.
+
+Diante da ausência de condição de procedibilidade, reconhecese a impossibilidade de prosseguimento da ação penal quanto ao fato envolvendo a suposta vítima Alex Sousa Costa (registro realizado em nome de Maria das Graças Sousa Costa), relativamente ao réu CLEBERSON DIOGO OLIVEIRA SILVA, declarando-se extinta a punibilidade quanto a esse fato, após as cautelas legais.
+
+Superada a questão preliminar, passa-se ao exame do mérito da ação penal quanto aos demais réus.
+
+2.2. RÉU LUCAS MONTEIRO LOPES - Vítima: RAIMUNDO NILO LOBO LISBOA - Crimes imputados: Estelionato eletrônico (art. 171, § 2ºA, do CP) e Lavagem de dinheiro (art. 1º, § 1º, da Lei 9.613/1998)
+
+2.2.1. Materialidade e autoria delitiva:
+
+a) Materialidade delitiva - LUCAS MONTEIRO LOPES x Vítima: RAIMUNDO NILO LOBO LISBOA - Estelionato eletrônico consumado:
+
+A materialidade do crime de estelionato eletrônico praticado em prejuízo de Raimundo Nilo Lobo Lisboa encontra-se comprovada: (i) pelo depoimento judicial da vítima, que narrou ter realizado três transferências após ser contatada por pessoa que se fazia passar por seu filho, ressaltando a segunda transferência, no valor de R$ 3.955,00, enviada diretamente à conta bancária de titularidade do réu Lucas Monteiro Lopes (132386549); (ii) pela denúncia e rastreio financeiro constantes do inquérito policial, que registram o crédito do referido valor na conta do réu; e (iii) pelos comprovantes bancários, laudos prosopográficos e demais documentos técnicos, em IDs  97195441 e 97195442, os quais confirmam a efetiva transferência do numerário e a titularidade da conta beneficiária.
+
+Resta, assim, inequívoca a materialidade do estelionato eletrônico, evidenciada pela diminuição patrimonial da vítima e pelo ingresso direto do produto do crime na esfera do acusado, quadro que se harmoniza com o modus operandi apurado no feito (contato via WhatsApp com DDD 91), segundo a narrativa judicial e os elementos do IPL.
+
+b) Autoria delitiva: Réu LUCAS MONTEIRO LOPES X Vítima RAIMUNDO NILO LOBO LISBOA - Crime de estelionato:
+
+A autoria delitiva emerge da declaração firme e coerente da vítima em juízo, corroborada pelos documentos bancários e pelos elementos técnicos do IPL. Em audiência perante este Juízo, a vítima relatou:
+
+"no dia 16 de julho de 2022 recebeu mensagem, via WhatsApp, de alguém se passando por seu filho Renato, alegando que estava com problema no celular e fornecendo número provisório; que o interlocutor, fazendo-se passar por seu filho, disse estar com dificuldades para pagar contas; que então realizou transferência no valor de R$ 2.591,00 para Luiz Felipe Pontes da Silva; que a segunda transferência, no importe de R$ 3.955,00, foi direcionada para Lucas Monteiro Lopes; que no sábado seguinte realizou ainda outra transferência de R$ 2.500,00 para Luiz Felipe; que somente na segunda-feira, ao falar pessoalmente com o filho, percebeu que havia caído em golpe; que registrou boletim de ocorrência; que não conhece os beneficiários das transferências; que não havia foto no aplicativo; que a chave Pix utilizada tinha DDD 91; que não é comum realizar transferências dessa natureza; que somente o declarante utiliza o seu celular; (...)". ; […]"  (ID 132386549).
+
+O crédito direto, nominativo e incontroverso de R$ 3.955,00 em conta de titularidade de Lucas individualiza a sua participação e estabelece o vínculo objetivo com o resultado, sendo tecnicamente suficiente para a imputação da autoria delitiva do estelionato. A narrativa do contato fraudulento (perfil falso de familiar, alegada urgência e solicitações via Pix com DDD 91) coincide com o padrão reiterado dos fatos apurados no processo, ainda que, no caso de Lucas, a autoria se firme não pelo número utilizado, mas pelo ingresso direto do numerário em sua conta.
+
+Conclusão: autoria e dolo do estelionato eletrônico comprovados em juízo (prova oral + documental).
+
+c) Do Crime de lavagem de dinheiro:
+
+Embora esteja comprovado o ingresso direto da quantia de R$ 3.955,00 (produto do estelionato) na conta bancária do próprio réu, tal circunstância, por si só, não configura lavagem de dinheiro. O simples recebimento do produto do crime antecedente na conta do agente caracteriza mero exaurimento do estelionato, não se confundindo com atos autônomos de ocultação ou dissimulação exigidos pelo art. 1º, § 1º, da Lei 9.613/1998.
+
+Ainda que os elementos do IPL apontem movimentações posteriores, não se demonstrou de modo seguro que tais operações tenham sido estruturadas com a finalidade específica de ocultar ou dissimular a origem ilícita do numerário: inexiste prova de engenharia financeira, interposição consciente de terceiros, camadas sucessivas ou outra estratégia típica de branqueamento. A ausência de identificação de eventual destinatário final, por si, não supre a exigência típica, porque o tipo não se satisfaz com mera circulação - requer-se demonstração concreta de atos dolosos e autônomos de ocultação/dissimulação, o que não se verificou nestes autos (faixas IDs 97188721-97188732 e 97194000-97197262 apenas documentam os créditos e movimentações, sem revelar arquitetura de branqueamento).
+
+Conclusivamente, ausentes materialidade típica e dolo específico da lavagem, por inexistência de comprovação, quanto a esse delito.
+
+d) Tese defensiva:
+
+A negativa genérica de vínculo subjetivo e de dolo não prospera quanto ao estelionato, porque a prova judicializada demonstra transferência direta, nominativa e incontroversa de R$ 3.955,00 para a conta do réu, corroborada por extratos e documentos técnicos (TRANSCR 01 - ID 128128412; ID 132386542; faixas IDs 97188721-97188732 e 97194000-97197262).
+
+Por outro lado, a defesa merece acolhimento parcial quanto à lavagem, na medida em que não se comprovou a prática de atos subsequentes, autônomos e dolosos de ocultação/dissimulação, permanecendo apenas o ingresso direto do produto do crime - insuficiente para o tipo penal da Lei 9.613/1998.
+
+Diante do exposto, reconheço, em relação a LUCAS MONTEIRO LOPES, a materialidade, a autoria e o dolo quanto ao crime de estelionato eletrônico (art. 171, § 2ºA, CP), praticado em prejuízo da vítima Raimundo Nilo Lobo Lisboa, entretanto, quanto ao crime de lavagem de dinheiro (art. 1º, § 1º, Lei 9.613/1998), restou insuficiente, por ausência de materialidade típica e de dolo específico, nos termos do art. 386, III e VII, do CPP.
+
+2.3. RÉU: LUCAS MONTEIRO LOPES - VÍTIMA: ANCLETA SOARES DE ALMEIDA - Crimes imputados neste fato: Estelionato eletrônico (CP, art. 171, § 2ºA) e Lavagem de dinheiro (Lei 9.613/1998, art. 1º, § 1º)
+
+2.3.1. Materialidade delitiva:
+
+A materialidade dos fatos envolvendo a vítima Anclêta Soares de Almeida encontrase plenamente demonstrada pelo conjunto probatório reunido no inquérito policial e nos autos desta ação penal.
+
+Os comprovantes de pagamento e documentos bancários anexados no ID 79212949 (págs. 49-57) demonstram valores transferidos pela própria vítima, com identificação dos destinatários e elementos das transações, incluindo pagamentos diretamente destinados ao réu Lucas Monteiro Lopes.
+
+O Termo de Declaração da vítima (ID 97192625 - pág. 13) descreve que, ao longo da fraude, a vítima realizou diversas transferências bancárias e operações via PIX, especificando três pagamentos realizados em 13/07/2022 diretamente em favor de Lucas Monteiro Lopes (CPF 052.408.78145), nos valores de R$ 2.000,00, R$ 2.000,00 e R$ 629,00, totalizando R$ 4.629,00, além de outras transferências efetuadas em favor de Anderson Silva de Arruda, por orientação do interlocutor fraudador. A vítima informou prejuízo total de R$ 10.919,00.
+
+A prova telemática constante do ID 97192627 (Pág. 3) reúne prints das conversas mantidas entre a vítima e o interlocutor fraudador, evidenciando pedidos de valores, envio de instruções para pagamento em cada operação, inclusive daqueles cujo beneficiário é Lucas Monteiro Lopes, em correspondência com os documentos bancários.
+
+Os laudos e relatórios técnicos periciais (IDs 97195440/97195441/971954442) atestam a correspondência entre dados bancários, valores transferidos e contas destinatárias, confirmando a autenticidade dos registros financeiros analisados.
+
+Ademais, os Relatórios Policiais (IDs 97197984, 97197985, 97197986, 97197987, 97198688 e 97198689) sistematizam o modus operandi das fraudes, identificam os números telefônicos utilizados - entre eles (91) 991170170 - e reúnem os documentos e prints que demonstram a movimentação financeira decorrente das solicitações fraudulentas.
+
+Dessa forma, a materialidade delitiva resta comprovada pelos comprovantes bancários, declaração da vítima, prova telemática e laudos periciais, todos convergentes quanto à ocorrência de transferências não autorizadas e ao efetivo prejuízo patrimonial suportado pela vítima.
+
+2.3.2. Autoria delitiva - Estelionato eletrônico:
+
+A autoria delitiva do crime de estelionato eletrônico emerge de forma clara do depoimento judicial da vítima Anclêta Soares de Almeida, corroborado pelo conjunto documental acostado aos autos, conforme se passa a expor :
+
+"Logo pela manhã cedo recebeu mensagem de seu filho pedindo dinheiro por estar com problemas; que fez depósito em três dias totalizando nove mil e pouco através de um link pago em Centro Lotérico até descobrir que se tratava de um golpe; que não atentou para a possibilidade de golpe; que seu "filho" mandou mensagem dizendo que tinha trocado o número do celular e não aparecia foto; que ambos estavam em Altamira, mas não nos mesmos endereços; que ele pedia dinheiro para pagar contas porque não podia pagar pelo seu celular que tinha perdido; que a pessoa conversava como se fosse seu filho; que não percebeu diferença na voz que pudesse levá-la a desconfiar; que acreditou se tratar de seu filho realmente; que nunca tinha acontecido de passar dinheiro para seu filho e mesmo assim não desconfiou; que não tem condições de identificar os documentos".
+
+Como relatado em Juízo, a vítima confirmou que recebeu mensagens de pessoa que se fazia passar por seu filho, solicitando dinheiro sob alegação de problemas urgentes, tendo realizado depósitos por três dias consecutivos até descobrir que se tratava de um golpe.
+
+A dinâmica do fato é esclarecida pelo depoimento da vítima, que afirmou ter sido levada a realizar múltiplas transferências bancárias e operações via PIX após receber mensagens de pessoa que se fazia passar por seu filho, utilizando o número (91) 9 991170170, com pedidos urgentes e instruções para pagamentos.
+
+As conversas constantes do ID 76499190, do Processo 0815625-69.2022.8.14.0401), confirmam que o interlocutor fraudador orientava a vítima durante a execução das operações. Após cada pagamento, a própria vítima encaminhava o respectivo comprovante; e, nas págs. 6 e 11, constam comprovantes cujo beneficiário é Lucas Monteiro Lopes, em consonância com os documentos bancários do ID 79212949 (págs. 49-57).
+
+O Termo de Declaração da vítima (ID 97192625 - pág. 13) reforça a identificação do destino de parte significativa dos valores, ao apontar os três pagamentos diretos em favor de Lucas Monteiro Lopes, totalizando R$ 4.629,00 (quatro mil seiscentos e vinte e nove reais), além de transferências efetuadas em favor de Anderson Silva de Arruda, sempre executadas pela própria vítima, por orientação do interlocutor fraudador. A vítima apresentou representação criminal.
+
+O relatório técnico do IPL (ID 97197987) demonstra que o número utilizado no golpe encontrava-se vinculado a terceiro não integrante deste feito - responsável pela engenharia social - evidenciando a estrutura organizada do esquema, dentro da qual o réu Lucas Monteiro Lopes figurava como destinatário direto de valores ilícitos.
+
+Nesse contexto, está plenamente caracterizada a autoria delitiva do estelionato eletrônico praticado pelo réu Lucas Monteiro Lopes em detrimento da vítima Anclêta Soares de Almeida.
+
+2.3.3. Da Lavagem de Dinheiro:
+
+Embora demonstrada a origem ilícita dos valores por meio do crime de estelionato eletrônico, não se verifica, no presente caso, a configuração do delito de lavagem de dinheiro.
+
+Do conjunto probatório - especialmente o depoimento judicial da vítima, os comprovantes bancários e a prova telemática - extraise que todas as transferências financeiras foram materialmente realizadas pela própria vítima, induzida em erro pelo interlocutor fraudador, que se limitava a fornecer orientações quanto aos valores e aos destinatários.
+
+As transferências efetuadas, inclusive em favor de Anderson Silva de Arruda, inseremse no modus operandi do estelionato, adotado para evitar concentração de pagamentos e reduzir suspeitas imediatas, compondo a fase executória e o exaurimento do crime antecedente.
+
+No que se refere aos valores pagos diretamente ao réu Lucas Monteiro Lopes, embora esteja comprovado o recebimento do produto do estelionato, não há prova de atos posteriores, autônomos e individualizados de ocultação ou dissimulação da origem ilícita, como movimentação subsequente relevante ou reinserção econômica.
+
+Ausentes, portanto, condutas distintas do exaurimento do estelionato, bem como o dolo específico exigido pelo art. 1º da Lei nº 9.613/1998, impõe-se o afastamento da imputação pelo crime de lavagem de dinheiro, por atipicidade da conduta.
+
+2.3.4. Tese defensiva:
+
+No interrogatório, o réu negou vínculo com o golpe e afirmou desconhecer a origem dos valores ingressados em sua conta. Tais alegações não afastam a responsabilidade pelo estelionato eletrônico, diante dos comprovantes nominais e da prova telemática que demonstram o recebimento direto dos valores.
+
+Por outro lado, assiste razão parcial à defesa quanto ao crime de lavagem de dinheiro, cuja imputação é afastada ante a ausência de atos autônomos posteriores de ocultação ou dissimulação.
+
+2.4. RÉU: RAI FELIPE DE SOUZA MOTA - VÍTIMA: ROSA HELENA DE OLIVEIRA - Crimes imputados neste fato: Estelionato eletrônico (CP, art. 171, § 2ºA) e Lavagem de dinheiro (Lei 9.613/1998, art. 1º, § 1º):
+
+2.4.1. Materialidade delitiva - Estelionato eletrônico:
+
+A materialidade delitiva encontrase demonstrada pelo Boletim de Ocorrência nº 79212941 (pág. 42) e pelas demais peças documentais que compõem o inquérito policial, notadamente pela identificação da vítima (pág. 44), pelo depoimento prestado na Delegacia (pág. 46) e pelos comprovantes de transferências via PIX constantes das páginas 52 a 54 do mesmo ID.
+
+Conforme apurado, em 26 de abril de 2022, a vítima recebeu mensagens por meio do aplicativo WhatsApp de interlocutora que se passou por sua filha, alegando utilizar número provisório com prefixo (91) em razão de defeito no aparelho celular. A interlocutora utilizou o segundo nome da filha da vítima, informação verdadeira, circunstância que reforçou a verossimilhança da fraude.
+
+Sob alegação de urgência financeira e de impossibilidade de acesso ao aplicativo bancário, a suposta filha solicitou que a vítima realizasse pagamentos em favor de terceiros, repassando nomes, CPFs e valores. Confiando tratarse de pedido legítimo, a vítima efetuou transferências que totalizaram R$ 2.391,00 (dois mil trezentos e noventa e um reais), valor devidamente comprovado por meio dos documentos bancários juntados aos autos.
+
+O conjunto probatório evidencia, assim, inequívoca diminuição patrimonial da vítima mediante indução em erro, restando plenamente configurada a materialidade do crime de estelionato eletrônico.
+
+2.4.2. Autoria delitiva - Estelionato eletrônico:
+
+A autoria delitiva também se encontra devidamente comprovada.
+
+Em Juízo, Rosa Helena de Oliveira narrou, de forma firme, coerente e linear, que recebeu mensagens por meio do aplicativo WhatsApp de pessoa que se passou por sua filha, alegando utilizar número provisório em razão de defeito no celular. A interlocutora utilizou o segundo nome da filha, informação verdadeira, o que reforçou a credibilidade da fraude.
+
+A vítima relatou que a suposta filha afirmava estar com o aplicativo bancário bloqueado e solicitava pagamentos urgentes em favor de terceiros, fornecendo nomes, CPFs e valores. Entre esses nomes, afirmou expressamente constar "Rai Felipe", pessoa completamente desconhecida de sua família. Apenas à noite, ao entrar em contato com sua filha verdadeira, constatou que havia sido vítima de golpe, circunstância que confere coerência e espontaneidade ao relato.
+
+Os comprovantes de transferência juntados às páginas 52 a 54 do ID 79212941, especialmente o da página 54, confirmam que o valor de R$ 2.391,00 foi direcionado à conta bancária titularizada pelo réu Rai Felipe de Souza Mota, individualizando sua atuação como beneficiário direto do produto do estelionato, sem qualquer lastro lícito que justificasse o ingresso da quantia.
+
+Em interrogatório, o réu negou envolvimento, sustentando ter emprestado sua conta digital à suposta vizinha Janaína Santos Figueira, a qual estaria com restrições bancárias. Alegou que a referida pessoa teria instalado o aplicativo bancário em seu aparelho celular e movimentado a conta sem seu acompanhamento.
+
+Tal versão, contudo, mostrase frágil e desacompanhada de qualquer elemento probatório: o réu não comprovou a existência da suposta vizinha, não apresentou documento que evidenciasse empréstimo da conta, tampouco registrou boletim de ocorrência por uso indevido. Ademais, declarou não saber quais valores transitaram por sua conta, não recordar seus próprios números telefônicos à época e não possuir controle algum sobre a movimentação financeira, o que esvazia a credibilidade de sua narrativa defensiva.
+
+A testemunha Kelton Sena, arrolada pela defesa, limitouse a relatar conhecer o réu do ambiente de trabalho e descrevêlo como pessoa de boa conduta. Embora o depoimento não revele inconsistências, restringese a aspectos pessoais, sem qualquer relação direta com os fatos apurados, não sendo capaz de afastar a robusta prova documental.
+
+Diante do depoimento firme da vítima, dos comprovantes que identificam nominalmente o réu como destinatário do PIX, da inexistência de causa lícita para o ingresso dos valores e da fragilidade da tese defensiva, resta plenamente configurada a autoria delitiva do estelionato eletrônico praticado por Rai Felipe de Souza Mota contra Rosa Helena de Oliveira.
+
+2.4.3. Da Lavagem de Dinheiro:
+
+Embora esteja demonstrada a origem ilícita dos valores por meio do estelionato, não há nos autos qualquer elemento que indique a prática de atos subsequentes de ocultação ou dissimulação do numerário por parte do réu Rai Felipe de Souza Mota.
+
+A conduta apurada limitase ao recebimento do valor indevido, não havendo prova de movimentação posterior, fracionamento, pulverização ou repasses a terceiros. Ausente, portanto, a materialidade de qualquer ato típico previsto no art. 1º, § 1º, da Lei nº 9.613/1998, não se configura o crime de lavagem de dinheiro neste fato específico.
+
+Impõese, assim, a absolvição do réu quanto à imputação de lavagem, nos termos do art. 386, VII, do Código de Processo Penal.
+
+2.4.4. Tese defensiva:
+
+A defesa (ID 148663883 - págs. 1/15) sustentou ausência de vínculo com o golpe, bem como requereu, subsidiariamente, desclassificação do delito e fixação da pena no mínimo legal.
+
+As alegações absolutórias não prosperam quanto ao estelionato, diante da indicação nominal do réu nos comprovantes de transferência e do depoimento firme e coerente da vítima, que afastam a negativa de autoria.
+
+Não há falar em desclassificação, pois a fraude foi praticada mediante uso de aplicativo de mensagens, simulação de identidade e ardil eletrônico, subsumindose integralmente ao art. 171, § 2ºA, do Código Penal. As demais pretensões defensivas serão examinadas na fase própria da dosimetria.
+
+2.5. RÉ: JUCILENE DE MORAIS PINTO - VÍTIMA: ANA MARIA MONTEIRO MESQUITA - Crimes imputados neste fato: Estelionato eletrônico (CP, art. 171, § 2ºA) e Lavagem de dinheiro (Lei 9.613/1998, art. 1º, § 1º).
+
+2.5.1. Materialidade delitiva - Estelionato eletrônico
+
+A materialidade delitiva do crime de estelionato eletrônico encontrase devidamente comprovada pelo conjunto probatório coligido aos autos.
+
+O Boletim de Ocorrência presencial nº 00615/2022.1005761 (ID 79210886, pág. 5, e ID 979210886- Pág. 7), aliado à representação formal e ao depoimento prestado pela vítima em sede policial (ID 79210886, pág. 7), descreve de forma coerente e pormenorizada a dinâmica dos fatos, notadamente a indução da vítima em erro por meio eletrônico, culminando na transferência de valores em favor da denunciada.
+
+A identificação da vítima (ID 79210886, pág. 9) e os documentos acostados às páginas 13 a 19 do mesmo ID corroboram integralmente a narrativa apresentada, evidenciando a efetiva realização das transações financeiras e o prejuízo patrimonial suportado por Ana Maria Monteiro Mesquita, no montante de R$ 10.000,00, quantia esta repassada diretamente à ré Jucilene de Morais Pinto.
+
+Os elementos documentais analisados em conjunto demonstram, de forma suficiente: a ocorrência do prejuízo patrimonial; o emprego de meio eletrônico para a prática do ardil e, a vantagem ilícita obtida pela ré, em detrimento da vítima.
+
+Restam, assim, plenamente caracterizados os elementos objetivos do tipo penal previsto no art. 171, § 2ºA, do Código Penal, estando a materialidade delitiva do crime de estelionato eletrônico devidamente comprovada.
+
+2.5.2. Autoria delitiva - Estelionato eletrônico
+
+A autoria do crime de estelionato eletrônico encontrase suficientemente demonstrada em relação à ré JUCILENE DE MORAIS PINTO.
+
+Consoante o depoimento prestado pela vítima Ana Maria Monteiro Mesquita em sede policial (ID 79210886, pág. 7), a ofendida foi induzida em erro mediante contato mantido por meios eletrônicos, em contexto que envolveu mais de um interlocutor, evidenciando dinâmica típica de golpe praticado de forma coordenada.
+
+A narrativa da vítima mostrase coerente e harmônica com a prova documental, notadamente com os comprovantes de transferência juntados às páginas 13 a 15 e 19 do ID 79210886, os quais demonstram que a quantia de R$ 10.000,00 foi efetivamente repassada à ré Jucilene de Morais Pinto.
+
+Os documentos revelam, ainda, que o repasse foi realizado por meio de transferência via PIX, utilizandose como chave um endereço de email vinculado à própria ré, associado à conta bancária de sua titularidade, identificada em seu nome e vinculada ao CPF nº 022.043.24140, afastando qualquer dúvida quanto ao domínio da denunciada sobre o meio de recebimento da vantagem ilícita.
+
+As conversas juntadas às páginas 13 a 15 do ID 79210886 evidenciam a utilização do contato telefônico com DDD (91) e final 0170, ainda que com variações formais de grafia, número este associado à atuação da ré e utilizado também por outros corréus, circunstância que reforça a existência de atuação conjunta, mediante o emprego de idênticos meios de comunicação.
+
+O conjunto probatório indica, assim, comunhão de desígnios entre os agentes, sendo desnecessária a individualização minuciosa da função desempenhada por cada um, especialmente porque, em crimes de estelionato eletrônico, é comum a divisão de tarefas entre quem mantém contato com a vítima e quem recebe os valores indevidamente obtidos.
+
+Dessa forma, comprovado que a ré JUCILENE DE MORAIS PINTO recebeu diretamente a vantagem econômica ilícita, em contexto de atuação coordenada e mediante o uso de meios eletrônicos para indução da vítima em erro, resta caracterizada sua autoria no crime previsto no art. 171, § 2ºA, do Código Penal.
+
+2.5.3. Crime de Lavagem de Dinheiro
+
+Embora demonstrada a existência de crime antecedente, consistente no estelionato eletrônico anteriormente analisado, não restou configurada a prática do crime de lavagem de dinheiro em relação à ré JUCILENE DE MORAIS PINTO.
+
+É incontroverso que a denunciada recebeu diretamente a quantia de R$ 10.000,00, proveniente da fraude, mediante transferência via PIX direcionada à conta de sua titularidade, vinculada ao CPF nº 022.043.24140, utilizandose como chave um endereço de email pessoal, circunstância que, inclusive, reforça sua autoria no crime de estelionato eletrônico.
+
+Todavia, tais elementos não são suficientes, por si sós, para a caracterização do delito de lavagem de dinheiro.
+
+No caso concreto, não se verifica a prática de atos autônomos de ocultação ou dissimulação da origem ilícita dos valores, tais como: fracionamento deliberado de quantias; utilização de interpostas pessoas; simulação de negócios jurídicos; reinserção estruturada dos valores no sistema financeiro;  ou qualquer outro expediente voltado a conferir aparência de licitude ao numerário.
+
+A conduta atribuída à ré limitase ao recebimento direto do produto do crime antecedente, o que configura mero exaurimento do estelionato, não podendo ser automaticamente elevada à condição de crime autônomo de lavagem, sob pena de indevida dupla punição (bis in idem).
+
+Dessa forma, ausente o elemento normativo do tipo penal previsto no art. 1º da Lei nº 9.613/1998, impõese o reconhecimento de que o fato não constitui crime de lavagem de dinheiro, devendo a ré ser absolvida quanto a essa imputação.
+
+2.5.4. Tese defensiva:
+
+A negativa de autoria não se sustenta diante do conjunto probatório produzido.
+
+Conforme demonstrado, a vítima Ana Maria Monteiro Mesquita realizou a transferência da quantia de R$ 10.000,00 em favor da ré, fato comprovado pelos documentos constantes do ID 79210886, pág. 19 e págs. 14 e 15, que evidenciam o efetivo repasse do numerário.
+
+Os comprovantes demonstram que a transferência foi realizada por PIX, utilizando-se como chave endereço de e-mail pertencente à própria ré, vinculado à sua conta bancária, afastando de maneira objetiva a alegação de que a movimentação teria ocorrido por terceiros ou sem o conhecimento da denunciada.
+
+Não há nos autos qualquer elemento que indique uso indevido da conta bancária, empréstimo de dados financeiros ou apropriação por pessoa estranha à ré, limitando-se a defesa a alegações genéricas, desacompanhadas de suporte probatório mínimo.
+
+O conjunto probatório, portanto, mostrase coeso e convergente, sendo plenamente suficiente para a formação do convencimento judicial quanto à autoria e materialidade do crime de estelionato eletrônico.
+
+Os pedidos subsidiários serão analisados na fase própria da dosimetria.
+
+2.6. RÉ: NORILUCY ÁVILA SALGADO - VÍTIMA: ANA MARIA MONTEIRO MESQUITA - Crimes imputados neste fato: Estelionato eletrônico (CP, art. 171, § 2ºA) e Lavagem de dinheiro (Lei 9.613/1998, art. 1º, § 1º).
+
+2.6.1. MATERIALIDADE DELITIVA DOS CRIMES DE ESTELIONATO E LAVAGEM:
+
+a) A materialidade delitiva do crime de estelionato eletrônico encontrase devidamente comprovada nos autos.
+
+O boletim de ocorrência presencial (ID 79210886, p. 5), a representação formalizada pela vítima ANA MARIA MONTEIRO MESQUITA e o depoimento prestado em sede policial (ID 79210886, p. 7) descrevem, de forma coerente e harmônica, a dinâmica da fraude praticada por meio eletrônico, mediante a qual a vítima foi induzida em erro.
+
+A prova documental juntada aos autos, notadamente os documentos constantes do ID 79210886, págs. 10 e 13 a 19, evidencia a efetiva ocorrência de prejuízo patrimonial, demonstrando que a vítima realizou transferências financeiras no contexto da fraude, com repasses aos envolvidos, inclusive nos valores de R$ 10.000,00 e R$ 6.460,00.
+
+Tais elementos comprovam a existência do fato típico, consubstanciado na obtenção de vantagem econômica ilícita mediante o emprego de meio eletrônico, em detrimento da vítima, estando presentes os elementos objetivos do tipo penal previsto no art. 171, § 2ºA, do Código Penal, restando plenamente caracterizada a materialidade delitiva do crime de estelionato eletrônico.
+
+b) Materialidade do crime de lavagem de dinheiro:
+
+Diversamente, não restou comprovada a materialidade do crime de lavagem de dinheiro.
+
+Embora evidenciada a existência de crime antecedente, consistente no estelionato eletrônico, os elementos constantes dos autos não demonstram a prática de atos autônomos de ocultação ou dissimulação da origem ilícita dos valores, indispensáveis à configuração do delito previsto no art. 1º da Lei nº 9.613/1998.
+
+Os fatos apurados revelam apenas o recebimento direto dos valores provenientes do estelionato, sem indicação de fracionamento, interposição de terceiros, simulação de negócios jurídicos ou qualquer outro expediente voltado a conferir aparência de licitude ao numerário.
+
+Assim, ausente a demonstração de condutas típicas de ocultação ou dissimulação, a conduta se limita ao exaurimento do crime antecedente, o que impede o reconhecimento da materialidade do crime de lavagem de dinheiro, sob pena de indevida dupla punição pelo mesmo fato.
+
+2.6.2. AUTORIA DELITIVA PARA OS CRIMES DE ESTELIONADO E LAVAGEM (VÌTIMA ANA MARIA MONTEIRO MESQUITA):
+
+a) Autoria do crime de estelionato eletrônico - Ré NORILUCY ÁVILA SALGADO
+
+A autoria do crime de estelionato eletrônico resta devidamente demonstrada em relação à ré NORILUCY ÁVILA SALGADO.
+
+Conforme se extrai do conjunto probatório, a vítima ANA MARIA MONTEIRO MESQUITA foi induzida em erro por meio de contatos realizados em ambiente eletrônico, em dinâmica que não se restringiu a um único interlocutor, mas envolveu a atuação coordenada de mais de um agente, circunstância compatível com a prática de estelionato por meios digitais.
+
+No tocante à ré Norilucy Ávila Salgado, a autoria evidencia-se pelo recebimento da quantia de R$ 6.460,00, valor repassado pela vítima no contexto da fraude, conforme comprovam os documentos juntados aos autos (ID 79210886, págs. 13 a 19), em consonância com o boletim de ocorrência e o depoimento da ofendida.
+
+Do exame das conversas juntadas aos autos, verifica-se a utilização do contato telefônico identificado pelo DDD (91) e final 0170, ainda que com variações formais de grafia, número associado à atuação da ré Norilucy Ávila Salgado e vinculado também a Luiz Felipe, circunstância que reforça a comunhão de desígnios entre os envolvidos e afasta a tese de fato isolado ou de desconhecimento da prática delitiva.
+
+O conjunto probatório, portanto, demonstra que a ré NORILUCY ÁVILA SALGADO aderiu conscientemente à empreitada criminosa, contribuindo para a indução da vítima em erro e auferindo vantagem econômica ilícita, restando caracterizada sua autoria no crime previsto no art. 171, § 2ºA, do Código Penal.
+
+b) Autoria do crime de lavagem de dinheiro - Ré NORILUCY ÁVILA SALGADO
+
+Diversamente, não restou caracterizada a autoria do crime de lavagem de dinheiro em relação à ré NORILUCY ÁVILA SALGADO.
+
+Embora comprovada a existência de crime antecedente, consistente no estelionato eletrônico, os elementos constantes dos autos não demonstram a prática de atos autônomos de ocultação ou dissimulação da origem ilícita dos valores, indispensáveis à configuração do delito previsto no art. 1º da Lei nº 9.613/1998.
+
+A conduta atribuída à ré limita-se ao recebimento direto do numerário proveniente da fraude, sem indicação de fracionamento, interposição de terceiros, simulação de negócios jurídicos ou qualquer outro expediente voltado a conferir aparência de licitude aos valores.
+
+Ausente, portanto, o plus típico exigido para a caracterização da lavagem de dinheiro, a conduta permanece no âmbito do exaurimento do crime antecedente, o que impede o reconhecimento da autoria do delito de lavagem, sob pena de indevida dupla punição pelo mesmo fato.
+
+2.6.3. TESES DEFENSIVAS:
+
+A defesa da ré NORILUCY ÁVILA SALGADO, em alegações finais (ID 142900395), sustenta, em síntese: (i) negativa de autoria; (ii) alegação de que a conta bancária estaria inativa no período dos fatos; e (iii) pedido de absolvição com fundamento no art. 386, incisos V e VII, do Código de Processo Penal.
+
+As teses não merecem acolhimento.
+
+Inicialmente, a negativa genérica de autoria não encontra respaldo no conjunto probatório. Conforme já analisado nos tópicos anteriores, restou comprovado que a ré recebeu diretamente a quantia de R$ 6.460,00, valor transferido pela vítima ANA MARIA MONTEIRO MESQUITA no contexto da fraude eletrônica, conforme demonstram os comprovantes bancários acostados aos autos (ID 79210886, págs. 13 a 19).
+
+O recebimento do numerário ilícito, por si só, constitui elemento objetivo de elevada relevância probatória, sobretudo quando inserido em um contexto de fraude praticada de forma articulada, envolvendo mais de um agente, sendo prescindível a demonstração de que a ré tenha sido a única responsável pelo contato direto com a vítima.
+
+No que se refere à alegação de que a conta bancária estaria inativa à época dos fatos, tal argumento não se sustenta diante da prova documental produzida. Os registros de transferência juntados aos autos evidenciam que a conta vinculada à ré encontrava-se operante, tendo sido efetivamente utilizada para o recebimento dos valores oriundos do estelionato. Não há nos autos qualquer elemento técnico ou bancário que comprove a suposta inatividade da conta no período mencionado, ônus que incumbia à defesa e do qual não se desincumbiu.
+
+Ademais, a simples alegação de inatividade da conta, desacompanhada de documentação idônea, não é suficiente para afastar prova documental objetiva, consistente em comprovantes de transferência que identificam a destinatária dos valores.
+
+Ressalte-se, ainda, que a dinâmica dos crimes praticados por meio eletrônico frequentemente envolve a utilização de contas de terceiros ou de contas formalmente vinculadas aos próprios agentes, circunstância que, longe de afastar a autoria, reforça a adesão consciente à empreitada criminosa, especialmente quando há benefício econômico direto.
+
+Dessa forma, o conjunto probatório revela-se seguro e harmônico, demonstrando que a ré contribuiu de forma consciente e voluntária para a prática do estelionato eletrônico, afastando-se as hipóteses absolutórias previstas no art. 386, incisos V e VII, do Código de Processo Penal.
+
+Por fim, destaca-se que a absolvição quanto ao crime de lavagem de dinheiro, já reconhecida nos tópicos anteriores, não interfere na responsabilização penal pelo crime de estelionato eletrônico, por se tratar de tipos penais distintos, com requisitos próprios, estando plenamente comprovada a autoria e materialidade do delito previsto no art. 171, § 2º-A, do Código Penal.
+
+2.7. RÉU:CLEBERSON DIOGO OLIVEIRA SILVA - VÍTIMAS: AVELINO LÁZARO RODRIGUES SIZO e OCEANIRA DE BRITO MALHEIROS - Crimes imputados neste fato: Estelionato eletrônico (CP, art. 171, § 2ºA C/C ART. 14, II,) e Lavagem de dinheiro (Lei 9.613/1998, art. 1º, § 1º).
+
+A materialidade do crime de estelionato eletrônico (art. 171, § 2ºA, do Código Penal), imputado em relação às vítimas indicadas, resta comprovada por prova documental produzida na fase investigativa, consubstanciada em boletins de ocorrência, registros de mensagens eletrônicas e documentos bancários, os quais demonstram a utilização de meio fraudulento eletrônico com o intuito de induzir as vítimas em erro para obtenção de vantagem patrimonial ilícita.
+
+Diversamente, a materialidade típica do crime de lavagem de dinheiro (art. 1º, § 1º, da Lei nº 9.613/1998) não se encontra comprovada, pois os elementos constantes dos autos não evidenciam, de forma autônoma e inequívoca, a prática de atos de ocultação ou dissimulação de bens, direitos ou valores, limitandose a demonstrar transferências bancárias isoladas.
+
+a) Vítima Avelino Lázaro Rodrigues Sizo
+
+No tocante à vítima Avelino Lázaro Rodrigues Sizo, a materialidade do crime de estelionato eletrônico, na forma tentada, encontra respaldo no boletim de ocorrência virtual juntado aos autos (ID 97192624, pág. 5) e no relatório policial (ID 97197986, pág. 3), dos quais consta que houve contato fraudulento por meio do aplicativo WhatsApp, a partir do número telefônico (91) 91170170, ocasião em que o interlocutor se fez passar por sua filha.
+
+Os próprios registros indicam que a vítima desconfiou da tentativa de golpe e não aderiu ao ardil, razão pela qual não houve concretização do resultado patrimonial. Assim, a prova documental demonstra a execução do meio fraudulento e o início de atos executórios, sem obtenção de vantagem ilícita, configurando a materialidade do estelionato eletrônico na forma tentada, nos termos do art. 14, II, do Código Penal.
+
+No que se refere ao crime de lavagem de dinheiro, verifica-se inexistência absoluta de materialidade típica em relação a esse episódio, uma vez que não houve ingresso ou circulação de valores oriundos da vítima Avelino, inexistindo qualquer movimentação financeira apta a caracterizar atos de ocultação ou dissimulação.
+
+b) Vítima Oceanira de Brito Malheiros
+
+Em relação à vítima Oceanira de Brito Malheiros, a materialidade do crime de estelionato eletrônico encontra respaldo no boletim de ocorrência registrado perante a Delegacia Especializada (ID 97192600, pág. 2), no qual a vítima narrou que recebeu mensagem por meio do aplicativo WhatsApp, a partir do número (91) 91170170, na qual o interlocutor se identificava falsamente como sua filha, ILOANA MARIA, circunstância que a levou a realizar depósito bancário no valor de R$ 1.900,00 em conta de titularidade de Gabriela Azevedo Moraes de Brito.
+
+Foram juntados aos autos os registros das mensagens eletrônicas (ID 97192600, págs. 8/10) e o comprovante do depósito efetuado (ID 97192600, pág. 12), os quais evidenciam, de forma objetiva, a utilização do meio fraudulento eletrônico e a efetiva ocorrência de prejuízo patrimonial, caracterizando a materialidade do crime de estelionato eletrônico quanto a essa vítima.
+
+Todavia, no que se refere ao delito de lavagem de dinheiro, ainda que conste posterior transferência de valores da conta de Gabriela para o réu Cleberson Diogo Oliveira Silva (documento juntado sob o ID 92587620, pág. 26, do Processo N.º  0809405-21.2023.8.14.0401), com identificação por laudo prosopográfico), tais elementos não demonstram, por si sós, a prática de atos de ocultação ou dissimulação, limitando-se à comprovação de movimentações bancárias, o que é insuficiente para caracterizar a materialidade típica da lavagem.
+
+2.7.2. AUTORIA DELITIVA PARA OS CRIME SDE ESTELIONADO E LAVAGEM (AVELINO LÁZARO RODRIGUES SIZO e OCEANIRA DE BRITO MALHEIROS):
+
+Não obstante o reconhecimento da materialidade delitiva do crime de estelionato eletrônico, nos termos do item anterior, a autoria dos crimes imputados ao réu Cleberson Diogo Oliveira Silva não restou comprovada de forma segura e suficiente, seja em relação ao estelionato eletrônico, inclusive na forma tentada, seja quanto ao delito de lavagem de dinheiro, impondo-se a absolvição, consoante passa a expor.
+
+a) Estelionato eletrônico (art. 171, § 2ºA, c/c art. 14, II, do Código Penal)
+
+No que se refere ao fato envolvendo a vítima Avelino Lázaro Rodrigues Sizo, verifica-se que os autos registram apenas a ocorrência de contato fraudulento por meio eletrônico, consistente em mensagens enviadas via aplicativo WhatsApp, nas quais o interlocutor se fazia passar por familiar da vítima. Consta, contudo, que a vítima desconfiou da tentativa de golpe e não aderiu ao ardil, inexistindo prova de que tenha realizado qualquer transferência de valores ou praticado atos voltados à concretização de prejuízo patrimonial.
+
+Ademais, a vítima não foi ouvida em juízo, inexistindo produção de prova oral na fase judicial capaz de vincular o réu ao envio das mensagens ou ao contato fraudulento descrito. Não há elementos que demonstrem que o acusado tenha sido o responsável direto pela comunicação eletrônica, tampouco que tenha assumido qualquer conduta voltada à execução do golpe. Nessas circunstâncias, permanece ausente o nexo de autoria, não sendo possível afirmar, com segurança, a participação consciente do réu no iter criminis do estelionato, ainda que na forma tentada.
+
+De igual modo, quanto ao fato envolvendo a vítima Oceanira de Brito Malheiros, embora esta tenha registrado boletim de ocorrência narrando o recebimento de mensagens fraudulentas e a realização de depósito bancário, a própria vítima consignou desconhecer a autoria do fato, não indicando quem efetivamente praticou o contato fraudulento. Importa ressaltar que Oceanira não foi formalmente ouvida mediante termo de oitiva, limitando-se a relatar os fatos no registro da ocorrência, tampouco foi inquirida em juízo, inexistindo prova oral submetida ao contraditório.
+
+Nesse contexto, inexiste prova judicializada que demonstre que o réu tenha sido o autor do contato eletrônico fraudulento, que tenha induzido ou mantido a vítima em erro ou que tenha participado, de forma consciente, da prática do ardil. Ressalte-se, ainda, que a imputação de estelionato não foi objeto de indiciamento na fase investigativa quanto ao réu, o que, embora não vincule a atuação ministerial, reforça a ausência de lastro probatório mínimo em juízo, não sendo possível suprir tal lacuna por presunções ou ilações.
+
+Registrese, ainda, que os contatos fraudulentos noticiados pelas vítimas Avelino Lázaro Rodrigues Sizo e Oceanira de Brito Malheiros foram realizados a partir do mesmo número telefônico, qual seja, (91) 91170170, utilizado via aplicativo WhatsApp, circunstância que se repete nos diversos episódios apurados neste processo. Tal dado evidencia a reiteração e padronização do meio fraudulento empregado, prestando-se à comprovação do modus operandi do estelionato eletrônico. Todavia, a utilização do mesmo número telefônico, por si só, não é suficiente para identificar o autor das mensagens ou para vincular diretamente o réu Cleberson Diogo Oliveira Silva ao envio dos contatos fraudulentos, especialmente à míngua de prova técnica, testemunhal ou judicializada que demonstre a titularidade, o controle ou o uso do referido número pelo acusado.
+
+b) Lavagem de dinheiro (art. 1º, § 1º, da Lei nº 9.613/1998):
+
+Quanto ao crime de lavagem de dinheiro, embora conste dos autos prova documental de que valores foram inicialmente transferidos para a conta de GABRIELA AZEVEDO MORAES DE BRITO e, na mesma data, posteriormente repassados para a conta do réu Cleberson Diogo Oliveira Silva, conforme indicado nos documentos bancários e confirmado por laudo prosopográfico, tal circunstância, isoladamente considerada, não autoriza a conclusão pela ocorrência do delito.
+
+Com efeito, o tipo penal da lavagem de dinheiro exige, além da existência de crime antecedente, a comprovação de que o agente tinha ciência da origem ilícita dos valores e que praticou atos voltados à ocultação ou dissimulação do numerário. No presente caso, o suposto crime antecedente (estelionato eletrônico) não restou comprovado quanto à autoria do réu, sendo, ademais, imputado, em relação a uma das vítimas, na forma tentada, o que fragiliza ainda mais a subsistência da imputação.
+
+Outrossim, a pessoa que recebeu diretamente os valores da vítima (Gabriela Azevedo Moraes de Brito) não figura como denunciada, tampouco teve sua conduta penalmente delimitada, não sendo possível presumir que atuasse como interposta pessoa ou "laranja" do acusado sem prova concreta de ajuste prévio, comunhão de vontades ou ciência da origem ilícita do numerário.
+
+Assim, a simples movimentação financeira, desacompanhada de prova do dolo específico e da prática de atos típicos de ocultação ou dissimulação, não configura, por si só, o crime de lavagem de dinheiro, sobretudo quando toda a prova produzida permanece restrita à fase inquisitiva, sem confirmação em juízo, em afronta ao disposto no art. 155 do Código de Processo Penal.
+
+Cumpre salientar, ademais, que o inquérito policial que embasou a denúncia mostrou-se deficientemente instruído para sustentar a narrativa acusatória em juízo. O IPL limitou-se à colheita de elementos meramente informativos, sem a oitiva formal das vítimas, sem produção de prova técnica ou testemunhal apta a demonstrar, sob o crivo do contraditório, a autoria do contato fraudulento, o nexo subjetivo do réu com os fatos ou, no tocante à imputação de lavagem de dinheiro, a prática de atos de ocultação ou dissimulação. Tal deficiência estrutural do inquérito inviabiliza a transposição automática de seus elementos para o âmbito judicial, à luz do art. 155 do Código de Processo Penal.
+
+Ressalte-se, por fim, que embora o Ministério Público, com base nos elementos colhidos no inquérito policial, tenha requerido a condenação do acusado em relação a ambas as vítimas, tanto pelo crime de estelionato eletrônico quanto pelo delito de lavagem de dinheiro, as premissas fáticas e probatórias sustentadas na denúncia não se confirmaram em juízo. A ausência de prova judicializada da autoria quanto ao estelionato e a inexistência de materialidade típica e de dolo específico quanto à lavagem impedem o juízo condenatório, nos termos do art. 386, VII - e, quanto ao delito de lavagem, também do inciso III - do Código de Processo Penal.
+
+Diante desse panorama, não há prova suficiente da autoria delitiva imputada ao réu Cleberson Diogo Oliveira Silva em relação aos crimes de estelionato eletrônico (tentado) e lavagem de dinheiro, envolvendo as vítimas Avelino Lázaro Rodrigues Sizo e Oceanira de Brito Malheiros. Persistem dúvidas relevantes quanto ao nexo subjetivo, à participação consciente do acusado e à existência do dolo exigido pelos tipos penais, impondo-se, portanto, a absolvição, nos termos do art. 386, VII, do Código de Processo Penal (e, quanto à lavagem, também do inciso III).
+
+2.8.  Do Crime Continuado - Fundamentação (art. 71 do Código Penal):
+
+No que tange ao réu LUCAS MONTEIRO LOPES, verifica-se que os crimes de estelionato eletrônico praticados em detrimento das vítimas Anacleta Soares de Almeida e Raimundo Nilo Lobo Lisboa foram cometidos em condições semelhantes de tempo, lugar e modo de execução, mediante idêntico modus operandi, consistente na utilização de meios eletrônicos de comunicação, especialmente o aplicativo WhatsApp, com indução das vítimas em erro e direcionamento dos valores à mesma estrutura de recebimento.
+
+Com efeito, no tocante à vítima Anacleta Soares de Almeida, constam três transferências realizadas no mesmo dia (13/07/2022), nos valores de R$ 2.000,00 (ID 79212949 - pág. 53), R$ 2.000,00 (ID 79212949 - pág. 55) e R$ 629,00 (ID 79212949 - pág. 57), todas decorrentes do mesmo padrão de execução. Na sequência, em 15/07/2022, o réu praticou o delito em detrimento da vítima Raimundo Nilo Lobo Lisboa, no valor de R$ 3.955,00 (ID 97192629 - pág. 7), valendo-se do mesmo contexto fático-operacional.
+
+As condutas inserem-se, assim, em um único contexto fático-operacional, evidenciando unidade de desígnios, não se tratando de ações isoladas ou autônomas, mas de reiteração de prática delitiva integrada ao mesmo plano criminoso. Presentes, portanto, os requisitos objetivos e subjetivos exigidos pelo art. 71 do Código Penal, reconhece-se a incidência do crime continuado, cuja repercussão será oportunamente considerada na fase da dosimetria da pena.
+
+2.9. Da agravante - vítimas maiores de 60 anos de idade (art. 61, II, "h", do CP):
+
+Com relação às vítimas, ANACLETA SOARES DE ALMEIDA, conforme cópia do documento de identidade RG nº 3.037.431 SSP/PA, data de nascimento em 26/04/1954, consoante ID 79212949 - pág. 47, sendo maior de 60 anos à época dos fatos. ANA MARIA MONTEIRO MESQUITA, por sua vez, conforme cópia do RG nº 3.250.351SSP/PA, nasceu em 15/09/1939, conforme ID 79210886 - pág. 9, tratando-se igualmente de pessoa idosa no momento da prática delitiva. Diante da comprovação documental da condição etária das vítimas, reconhece-se a incidência da agravante prevista no art. 61, II, alínea "h", do Código Penal, circunstância legal de natureza objetiva, aferível a partir da prova dos autos e passível de reconhecimento de ofício pelo Juízo, a ser considerada na segunda fase da dosimetria da pena.
+
+III. DISPOSITIVO:
+
+Ante o exposto, com fundamento nos arts. 171, § 2º-A, do Código Penal, no art. 1º, § 1º, da Lei nº 9.613/1998, e no art. 386, VII, do Código de Processo Penal, JULGO PARCIALMENTE PROCEDENTE a pretensão punitiva estatal, para:
+
+3.1. Quanto ao réu LUCAS MONTEIRO LOPES
+
+CONDENÁ-LO como incurso no art. 171, § 2º-A, do Código Penal (estelionato eletrônico), pelos fatos praticados em detrimento das vítimas Anacleta Soares de Almeida e Raimundo Nilo Lobo Lisboa, reconhecendo-se a continuidade delitiva entre as condutas (art. 71 do Código Penal), a ser considerada na fase de dosimetria da pena.
+
+ABSOLVÊ-LO, ainda, da imputação relativa ao crime de lavagem de dinheiro (Lei nº 9.613/1998), por atipicidade da conduta, nos termos do art. 386, III, do Código de Processo Penal.
+
+3.2. Quanto ao réu RAI FELIPE DE SOUZA MOTA - (Fato relativo à vítima ROSA HELENA DE OLIVEIRA)
+
+CONDENÁ-LO como incurso no art. 171, § 2º-A, do Código Penal, pelo crime de estelionato eletrônico praticado contra a vítima Rosa Helena de Oliveira, e
+
+ABSOLVÊ-LO da imputação relativa ao crime de lavagem de dinheiro (Lei nº 9.613/1998), por inexistência de prova de atos autônomos de ocultação ou dissimulação, com fundamento no art. 386, VII, do Código de Processo Penal.
+
+3.3. Quanto à ré JUCILENE DE MORAIS PINTO - (Fato relativo à vítima ANA MARIA MONTEIRO MESQUITA)
+
+CONDENÁ-LA como incursa no art. 171, § 2º-A, do Código Penal, pelo crime de estelionato eletrônico praticado em detrimento da vítima Ana Maria Monteiro Mesquita, e
+
+ABSOLVÊ-LA da imputação relativa ao crime de lavagem de dinheiro (Lei nº 9.613/1998), por não configuração do tipo penal, nos termos do art. 386, III, do Código de Processo Penal.
+
+3.4. Quanto à ré NORILUCY ÁVILA SALGADO (Fato relativo à vítima ANA MARIA MONTEIRO MESQUITA)
+
+CONDENÁ-LA como incursa no art. 171, § 2º-A, do Código Penal, pelo crime de estelionato eletrônico praticado em detrimento da vítima ANA MARIA MONTEIRO MESQUITA, e
+
+ABSOLVÊ-LA da imputação relativa ao crime de lavagem de dinheiro (art. 1º da Lei nº 9.613/1998), por ausência de prática de atos autônomos de ocultação ou dissimulação da origem ilícita dos valores, nos termos do art. 386, III, do Código de Processo Penal.
+
+3.5. Quanto ao réu CLEBERSON DIOGO OLIVEIRA SILVA
+
+ABSOLVÊ-LO das imputações relativas aos crimes de estelionato eletrônico, na forma tentada (art. 171, § 2º-A c/c art. 14, II, do Código Penal) e de lavagem de dinheiro (art. 1º da Lei nº 9.613/1998), em relação às vítimas Avelino Lázaro Rodrigues Sizo e Oceanira de Brito Malheiros Silva, por ausência de prova suficiente de autoria e do dolo quanto ao delito patrimonial, bem como por inexistência de materialidade e de atos autônomos de ocultação ou dissimulação no tocante à lavagem de capitais, nos termos do art. 386, III e VII, do Código de Processo Penal.
+
+3.6. Ainda quanto ao réu CLEBERSON DIOGO OLIVEIRA SILVA
+Por fim, DECLARO EXTINTA A PUNIBILIDADE, quanto ao fato envolvendo a suposta vítima Maria das Graças Sousa Costa (registro realizado por Alex Sousa Costa), em razão da ausência de representação válida, condição de procedibilidade da ação penal, com fundamento no art. 107, IV, do Código Penal, c/c art. 386, IV, do Código de Processo Penal.
+
+IV - Das circunstâncias judiciais (art. 59 do Código Penal)
+
+Antes de proceder à análise das circunstâncias judiciais previstas no art. 59 do Código Penal, cumpre registrar que se trata de processo de elevada complexidade, envolvendo pluralidade de réus e vítimas, com reiteração de fatos de mesma natureza, praticados em curto intervalo de tempo e mediante idêntico modus operandi, no contexto de fraudes eletrônicas, nas quais os réus, residentes em outros entes federativos, atuavam à distância em detrimento de vítimas domiciliadas no Estado do Pará. As condutas foram desenvolvidas sob circunstâncias fáticas substancialmente idênticas, com igual dinâmica de execução, meios empregados e contexto operacional, não se verificando peculiaridades relevantes que justifiquem diferenciação prévia na fixação da pena-base.
+
+Ressalte-se que, embora determinadas vítimas sejam pessoas idosas, tal circunstância não será valorada nesta etapa, por constituir elemento específico previsto pelo legislador como agravante legal, cuja incidência foi devidamente comprovada nos autos apenas em relação a vítimas determinadas e será examinada na fase própria da dosimetria, nos termos do art. 61, II, alínea "h", do Código Penal, evitando-se qualquer indevida duplicidade de valoração.
+
+Nesse contexto, dispensa-se a repetição de análises idênticas para cada fato ou vítima, procedendo-se à apreciação conjunta das circunstâncias judiciais comuns, sem prejuízo do princípio da individualização da pena, que será plenamente observado nas fases subsequentes da dosimetria. Assim, as circunstâncias judiciais do art. 59 do Código Penal serão avaliadas de forma única, servindo de base para a fixação conjunta da pena-base, por se mostrarem homogêneas em relação aos fatos e aos executores envolvidos.
+
+4.1. Dito isso, passa-se à análise das circunstâncias judiciais do art. 59 do Código Penal e a fixação da pena-base:
+
+Superada a questão organizacional acima exposta, passa-se à análise das circunstâncias judiciais previstas no art. 59 do Código Penal, consideradas de forma única e conjunta, por se mostrarem homogêneas em relação aos fatos e aos executores envolvidos.
+
+A culpabilidade: é idêntica em relação a todos os executores, pois não extrapola a censurabilidade inerente ao tipo penal do estelionato eletrônico, inexistindo especial reprovabilidade apta a justificar a exasperação da pena-base sob esse vetor.
+
+Os antecedentes dos réus, conforme se extrai das certidões de IDs nº 156152942 (Cleberson), 156152944 (Rai Felipe), 156152945 (Jucilene), 156152946 (Norilucy), 156152947 (Lucas), bem como das certidões de antecedentes penais dos Estados do Pará e de Mato Grosso (ID nº 101870510), não serão valorados negativamente. Registre-se que, embora tenham sido juntadas certidões relativas a diferentes unidades da federação, nenhuma delas aponta a existência de condenação transitada em julgado, apta a caracterizar reincidência ou maus antecedentes.
+
+A conduta social e a personalidade dos réus: não foram objeto de prova concreta que autorize juízo desfavorável, sendo vedada a valoração negativa fundada em presunções.
+
+Os motivos dos crimes: revelam-se de ordem patrimonial, comuns à espécie delitiva, sem qualquer especial censurabilidade adicional.
+
+As circunstâncias dos crimes: são idênticas em relação a todos os executores e consistem na prática de estelionato por meio eletrônico, com atuação à distância, uso reiterado de contato telefônico e simulação de vínculo familiar, fazendo-se passar por filho ou filha das vítimas para induzilas em erro e obter vantagem econômica indevida.
+
+As consequências dos crimes: consistem, essencialmente, em prejuízo de natureza patrimonial: suportado pelas vítimas, efeito que, embora relevante, é inerente ao próprio tipo penal de estelionato. Não há nos autos demonstração de dano excepcional ou de repercussões extraordinárias que ultrapassem aquelas normalmente decorrentes desse tipo de infração, razão pela qual o vetor não autoriza a exasperação da pena-base.
+
+O comportamento das vítimas: não contribuiu para a prática delitiva.
+
+4.2. Primeira Fase da Dosimetria - Réu Lucas Monteiro Lopes X Raimundo Nilo Lobo Lisboa (vítima).
+
+No tocante à primeira fase da dosimetria:
+
+Analisando as circunstâncias judiciais previstas no art. 59 do Código Penal, não se verificam vetores judiciais desfavoráveis a serem valorados negativamente em desfavor do réu.
+
+Diante disso, fixo a pena-base no patamar mínimo legal, qual seja, 04 (quatro) anos de reclusão e 10 (dez) dias-multa, sendo cada dia-multa fixado à razão de 1/30 (um trigésimo) do salário-mínimo vigente à época do fato, nos termos do art. 49 do Código Penal.
+
+Assim, passo à segunda fase da dosimetria, para exame das circunstâncias legais incidentes no caso concreto.
+
+Segunda Fase da Dosimetria:
+
+Na segunda fase da dosimetria, não há circunstâncias agravantes legais aplicáveis, tampouco circunstâncias atenuantes a serem reconhecidas, nos termos dos arts. 65 e 66 do Código Penal.
+
+Diante disso, mantenho a pena intermediária no mesmo patamar da pena-base, passando-se à terceira fase da dosimetria.
+
+Terceira fase da Dosimetria:
+
+Na terceira fase da dosimetria, não há causas especiais de aumento ou de diminuição de pena a serem consideradas, assim, mantém-se a pena conforme fixada até então, sem alterações nesta fase.
+
+4.3. Primeira Fase da Dosimetria - Réu Lucas Monteiro Lopes X Ancleta Soares de Almeida (vítima).
+
+Primeira Fase da Dosimetria:
+
+Analisando as circunstâncias judiciais previstas no art. 59 do Código Penal, não se verificam vetores desfavoráveis a serem valorados negativamente em relação ao réu.
+
+Diante disso, fixo a pena-base no patamar mínimo legal, qual seja, 04 (quatro) anos de reclusão e 10 (dez) dias-multa, sendo cada dia-multa estabelecido à razão de 1/30 (um trigésimo) do salário-mínimo vigente à época do fato, nos termos do art. 49 do Código Penal, passando-se à segunda fase da dosimetria.
+
+Segunda Fase da Dosimetria
+
+Na segunda fase da dosimetria, não há circunstâncias atenuantes a serem reconhecidas.
+
+Por outro lado, incide a circunstância agravante prevista no art. 61, inciso II, alínea "h", do Código Penal, uma vez que a vítima ANACLETA SOARES DE ALMEIDA possui idade superior a 60 (sessenta) anos, circunstância devidamente comprovada nos autos.
+
+Assim, agravo a pena em 1/6 (um sexto), tornando-a em 04 (quatro) anos e 08 (oito) meses de reclusão e 11 (onze) dias-multa, mantido o valor unitário anteriormente fixado.
+
+Terceira Fase da Dosimetria:
+
+Na terceira fase da dosimetria, não há causas especiais de aumento ou de diminuição de pena a serem consideradas, assim, mantém-se a pena conforme fixada até então, sem alterações nesta fase.
+
+4.4. Do Crime Continuado:
+
+Quanto ao reconhecimento do crime continuado, ratifico integralmente a fundamentação já expendida no item 2.8, anteriormente lançada nestes autos, na qual restou demonstrado que os delitos de estelionato eletrônico praticados pelo réu LUCAS MONTEIRO LOPES em detrimento das vítimas ANACLETA SOARES DE ALMEIDA e RAIMUNDO NILO LOBO LISBOA foram cometidos em condições semelhantes de tempo, lugar e modo de execução, mediante idêntico modus operandi, evidenciando a unidade de desígnios.
+
+Assim, mantém-se o reconhecimento da continuidade delitiva, nos termos do art. 71 do Código Penal. Tratando-se de dois crimes idênticos, adoto como base a pena do crime mais grave, consistente em 04 (quatro) anos e 08 (oito) meses de reclusão e 11 (onze) dias-multa, sobre a qual aplico o acréscimo de 1/6 (um sexto), fração adequada, proporcional e suficiente diante da existência de apenas dois delitos em continuidade, observados os princípios da razoabilidade e da individualização da pena.
+
+Dessa forma, fixo a pena definitiva do réu LUCAS MONTEIRO LOPES em 05 (cinco) anos, 05 (cinco) meses e 10 (dez) dias de reclusão, e o pagamento de 13 (treze) dias-multa, mantido o valor unitário anteriormente fixado.
+
+Considerando o quantum da pena, superior a 04 (quatro) e inferior a 08 (oito) anos, e a ausência de circunstâncias judiciais desfavoráveis, fixo o regime inicial SEMIABERTO, nos termos do art. 33, § 2º, alínea "b", do Código Penal. Inviável a substituição por penas restritivas de direitos (art. 44 do CP) e a suspensão condicional da pena (art. 77 do CP), em razão do quantum aplicado.
+
+4.5. Réu: RAI FELIPE DE SOUZA MOTA - Fato relativo à vítima ROSA HELENA DE OLIVEIRA.
+
+Primeira Fase da Dosimetria:
+
+Analisando as circunstâncias judiciais previstas no art. 59 do Código Penal, não se verificam vetores desfavoráveis a serem valorados negativamente em relação ao réu RAI FELIPE DE SOUZA MOTA, nos termos já examinados de forma conjunta para todos os acusados.
+
+Diante disso, fixo a pena-base no patamar mínimo legal, qual seja, 04 (quatro) anos de reclusão e 10 (dez) dias-multa, sendo cada dia-multa fixado à razão de 1/30 (um trigésimo) do salário-mínimo vigente à época do fato, nos termos do art. 49 do Código Penal, passando-se à segunda fase da dosimetria.
+
+Assim, passo à segunda fase da dosimetria, para exame das circunstâncias legais incidentes no caso concreto.
+
+Segunda Fase da Dosimetria:
+
+Na segunda fase da dosimetria, não há circunstâncias agravantes legais aplicáveis, tampouco circunstâncias atenuantes a serem reconhecidas, nos termos dos arts. 65 e 66 do Código Penal.
+
+Diante disso, mantenho a pena intermediária no mesmo patamar da pena-base, passando-se à terceira fase da dosimetria.
+
+Terceira Fase da Dosimetria:
+
+Na terceira fase da dosimetria, não há causas especiais de aumento ou de diminuição de pena a serem consideradas, razão pela qual mantém-se a pena conforme fixada até então, sem alterações nesta fase.
+
+Regime Inicial de Cumprimento da Pena:
+
+Considerando o quantum da pena aplicada, fixado em 04 (quatro) anos de reclusão, bem como a ausência de circunstâncias judiciais desfavoráveis, fixo o regime inicial ABERTO para o cumprimento da pena privativa de liberdade, nos termos do art. 33, § 2º, alínea "c", do Código Penal.
+
+Substituição da Pena Privativa de Liberdade:
+
+Presentes os requisitos do art. 44 do Código Penal, tendo em vista que a pena aplicada não é superior a 04 (quatro) anos, que o delito foi praticado sem violência ou grave ameaça à pessoa e que não há circunstâncias judiciais desfavoráveis, substituo a pena privativa de liberdade por duas penas restritivas de direitos, consistentes em:
+
+a) prestação de serviços à comunidade ou a entidade pública ou privada com finalidade social, a ser indicada pelo Juízo da Vara de Execuções Penais, pelo mesmo período da pena privativa de liberdade substituída; e
+
+b) prestação pecuniária, no valor de um salário-mínimo, vigente à época do fato, a ser destinada a uma entidade pública ou privada, a critério do Juízo da Vara de Execuções Penais, nos termos do art. 45, § 1º, do Código Penal.
+
+Suspensão Condicional da Pena:
+
+Deixo de aplicar a suspensão condicional da pena, prevista no art. 77 do Código Penal, uma vez que a pena privativa de liberdade foi substituída por penas restritivas de direitos, medida mais adequada ao caso concreto.
+
+4.6. Ré: JUCILENE DE MORAIS PINTO - Fato relativo à vítima ANA MARIA MONTEIRO MESQUITA (vítima).
+
+Primeira Fase da Dosimetria:
+
+Analisando as circunstâncias judiciais previstas no art. 59 do Código Penal, não se verificam vetores desfavoráveis a serem valorados negativamente em relação à ré JUCILENE DE MORAIS PINTO, nos termos já examinados de forma conjunta para todos os acusados.
+
+Diante disso, fixo a pena-base no patamar mínimo legal, qual seja, 04 (quatro) anos de reclusão e 10 (dez) dias-multa, sendo cada dia-multa fixado à razão de 1/30 (um trigésimo) do salário-mínimo vigente à época do fato, nos termos do art. 49 do Código Penal, passando-se à segunda fase da dosimetria.
+
+Segunda Fase da Dosimetria:
+
+Na segunda fase da dosimetria, não há circunstâncias atenuantes a serem reconhecidas.
+
+Por outro lado, incide a circunstância agravante prevista no art. 61, inciso II, alínea "h", do Código Penal, uma vez que a vítima ANA MARIA MONTEIRO MESQUITA é pessoa idosa, circunstância devidamente comprovada nos autos (ID 79210886 - pág. 9).
+
+Diante disso, agravo a pena em 1/6 (um sexto), fixando-a em 04 (quatro) anos e 08 (oito) meses de reclusão e 11 (onze) dias-multa, mantido o valor unitário do dia-multa anteriormente fixado, passando-se à terceira fase da dosimetria.
+
+Terceira Fase da Dosimetria:
+
+Na terceira fase da dosimetria, não há causas especiais de aumento ou de diminuição de pena a serem avaliadas, inexistindo previsão legal incidente ao caso concreto nesta etapa.
+
+Dessa forma, mantém-se a pena conforme fixada na fase anterior, sem alterações nesta fase.
+
+Regime Inicial de Cumprimento da Pena:
+
+Considerando o quantum da pena aplicada, fixado em 04 (quatro) anos e 08 (oito) meses de reclusão, bem como a ausência de circunstâncias judiciais desfavoráveis, fixo o regime inicial SEMIABERTO para o cumprimento da pena privativa de liberdade, nos termos do art. 33, § 2º, alínea "b", do Código Penal.
+
+Substituição da Pena Privativa de Liberdade e Suspensão Condicional da Pena:
+
+Incabível a substituição da pena privativa de liberdade por penas restritivas de direitos, prevista no art. 44 do Código Penal, uma vez que o quantum da pena aplicada é superior a 04 (quatro) anos, razão pela qual, igualmente, afasto a suspensão condicional da pena, prevista no art. 77 do mesmo diploma legal, diante da incompatibilidade do montante fixado com o benefício.
+
+4.7. A Ré NORILUCY ÁVILA SALGADO - Fato relativo à vítima ANA MARIA MONTEIRO MESQUITA.
+
+Primeira Fase da Dosimetria:
+
+Analisando as circunstâncias judiciais previstas no art. 59 do Código Penal, não se verificam vetores desfavoráveis a serem valorados negativamente em relação à ré NORILUCY ÁVILA SALGADO, conforme já examinado de forma uniforme para todos os réus.
+
+Diante disso, fixo a pena-base no patamar mínimo legal, qual seja, 04 (quatro) anos de reclusão e 10 (dez) dias-multa, sendo cada dia-multa fixado à razão de 1/30 (um trigésimo) do salário-mínimo vigente à época do fato, nos termos do art. 49 do Código Penal, passando-se à segunda fase da dosimetria.
+
+Segunda Fase da Dosimetria:
+
+Na segunda fase da dosimetria, não há circunstâncias atenuantes a serem reconhecidas.
+
+Por outro lado, incide a circunstância agravante prevista no art. 61, inciso II, alínea "h", do Código Penal, uma vez que a vítima ANA MARIA MONTEIRO MESQUITA é pessoa idosa, circunstância devidamente comprovada nos autos.
+
+Diante disso, agravo a pena em 1/6 (um sexto), elevandoa para 04 (quatro) anos e 08 (oito) meses de reclusão e 11 (onze) dias-multa, mantido o valor unitário do dia-multa anteriormente fixado, passando-se à terceira fase da dosimetria (ID 79210886 - pág. 9).
+
+Terceira Fase da Dosimetria:
+
+Na terceira fase da dosimetria, não há causas especiais de aumento ou de diminuição de pena a serem aplicadas, inexistindo previsão legal incidente ao caso concreto nesta etapa.
+
+Dessa forma, mantém-se a pena conforme fixada na fase anterior, sem alterações nesta fase.
+
+Regime Inicial de Cumprimento da Pena:
+
+Diante da pena definitivamente estabelecida, fixada em 04 (quatro) anos e 08 (oito) meses de reclusão e o pagamento de 11 (onze) DM, e inexistindo circunstâncias judiciais que recomendem maior rigor na execução, estabeleço o regime inicial SEMIABERTO para o cumprimento da sanção corporal, em conformidade com o disposto no art. 33, § 2º, alínea "b", do Código Penal.
+
+Substituição da Pena e Suspensão Condicional:
+
+Tendo em vista que a pena privativa de liberdade fixada supera o limite legal de 04 (quatro) anos, mostra-se inviável a substituição da pena por restritivas de direitos, nos termos do art. 44 do Código Penal.
+
+Pelo mesmo motivo, afasto a aplicação da suspensão condicional da pena, prevista no art. 77 do Código Penal, em razão da incompatibilidade com o quantum da pena fixada.
+
+V. Disposições Gerais:
+
+5.1. Do Direito de Recorrer em Liberdade:
+
+Os réus responderam ao processo em liberdade e, ausentes os requisitos do art. 312 do Código de Processo Penal, não há fundamento, nem requerimento por parte da acusação, para a decretação da prisão preventiva.
+
+Assim, concedo-lhes o direito de recorrer em liberdade, nos termos do art. 387, § 1º, do Código de Processo Penal.
+
+5.2. Da Detração Penal:
+
+Nos termos do art. 387, § 2º, do Código de Processo Penal, verifico que os réus responderam ao processo em liberdade, assim permanecendo até o presente momento.
+
+Eventual período de custódia cautelar deverá ser considerado para fins de detração pelo Juízo da Execução Penal, a quem compete a apuração do tempo a ser abatido.
+
+5.3. Da Reparação dos Danos:
+
+Nos termos do art. 387, inciso IV, do Código de Processo Penal, fixo o valor mínimo para a reparação dos danos causados às vítimas, considerando os prejuízos patrimoniais devidamente comprovados nos autos, sem prejuízo de ulterior liquidação ou complementação na esfera cível, nos seguintes termos:
+
+(a) Lucas Monteiro Lopes deverá reparar os danos:
+
+(1) à vítima Ancleta Soares de Almeida, no valor de R$ 4.629,00 (quatro mil, seiscentos e vinte e nove reais) e,
+
+(2) à vítima Raimundo Nilo Lobo Lisboa, no valor de R$ 3.955,00 (três mil, novecentos e cinquenta e cinco reais);
+
+b) Rai Felipe de Souza Mota deverá reparar os danos causados à vítima Rosa Helena Seco de Oliveira, no valor de R$ 2.391,00 (dois mil, trezentos e noventa e um reais);
+
+c) Norilucy Ávila Salgado deverá reparar os danos causados à vítima Ana Maria Monteiro Mesquita, no valor de R$ 6.460,00 (seis mil, quatrocentos e sessenta reais);
+
+d) Jucilene de Morais Pinto deverá reparar os danos causados à vítima Ana Maria Monteiro Mesquita, no valor de R$ 10.000,00 (dez mil reais).
+
+Os valores ora fixados correspondem exclusivamente aos prejuízos patrimoniais diretamente comprovados, sobre os quais incidirão correção monetária a partir da data do efetivo prejuízo e juros moratórios desde o evento danoso, na forma da legislação aplicável.
+
+Sem prejuízo da execução no juízo competente após o trânsito em julgado, faculta-se às partes o ajuizamento de ação na esfera cível, caso entendam necessário, especialmente para a apuração de eventual dano complementar.
+
+VI. Disposições Finais:
+
+Oportunamente, após o trânsito em julgado (CF, art. 5º, LVII) dessa decisão, tomem-se as seguintes providências de praxe:
+
+(1) Em observância a regra contida no artigo 71 § 2º do Código Eleitoral c/c art. 15, III, da Constituição Federal, registre-se junto ao E. Tribunal Regional Eleitoral deste Estado, no cadastro do Sistema (INFODIP) acerca desta decisão;
+
+(2) Encaminhe-se a guia definitiva de execuções à VEPMA/VEP;
+
+(3) Proceda-se às comunicações e aos registros de praxe, inclusive junto aos órgãos competentes;
+
+(4) Condeno os réus ao pagamento das custas processuais, ressalvado o réu absolvido CLEBERSON DIOGO OLIVEIRA SILVA.
+
+Em relação à ré JUCILENE DE MORAIS PINTO, beneficiária da justiça gratuita e assistida pela Defensoria Pública, fica suspensa a exigibilidade das custas processuais, nos termos do art. 98, § 3º, do Código de Processo Civil.
+
+Ressalte-se que o entendimento firmado pelo Superior Tribunal de Justiça e pelo Tribunal de Justiça do Estado do Pará é no sentido de que, ainda que concedido o benefício da gratuidade da justiça, a condenação ao pagamento das custas é imperativa, devendo ser apenas suspensa a sua exigibilidade, pelo prazo de 05 (cinco) anos, enquanto perdurar a situação de hipossuficiência econômica da parte.
+
+Nesse sentido, verbis:
+
+STJ: PROCESSO PENAL. AGRAVO REGIMENTAL NO RECURSO ESPECIAL. ASSISTÊNCIA JUDICIAL GRATUITA. COMPETÊNCIA. JUÍZO DA EXECUÇÃO. AGRAVO REGIMENTAL DESPROVIDO 1. De acordo com a jurisprudência desta Corte, o momento de se aferir a situação do condenado para eventual suspensão da exigibilidade do pagamento das custas processuais é a fase de execução e, por tal razão, "nos termos do art. 804 do Código de Processo Penal, mesmo que beneficiário da justiça gratuita, o vencido deverá ser condenado nas custas processuais" (AgRg no AREsp n. 394.701/MG, Rel. Ministro ROGERIO SCHIETTI, SEXTA TURMA, DJe 4/9/2014).
+
+2. O patrocínio da causa pela Defensoria Pública não importa, automaticamente, na concessão dos benefícios da assistência judiciária gratuita, sendo indispensável, para tal finalidade, o preenchimento dos requisitos previstos em lei.
+
+3. Agravo regimental a que se nega provimento.
+
+(AgRg no REsp n. 1.732.121/SC, relator Ministro Ribeiro Dantas, Quinta Turma, julgado em 19/6/2018, DJe de 28/6/2018.)
+
+STJ: PENAL E PROCESSO PENAL. AGRAVO REGIMENTAL NO AGRAVO EM RECURSO ESPECIAL. JULGAMENTO MONOCRÁTICO. CERCEAMENTO DE DEFESA. INEXISTÊNCIA. CONDENAÇÃO BASEADA EM PROVAS COLHIDAS NA FASE INQUISITORIAL. POSSIBILIDADE, DESDE QUE AS PROVAS SEJAM CORROBORADAS POR AQUELAS PRODUZIDAS EM JUÍZO. CONDENAÇÃO AO PAGAMENTO DE CUSTAS PROCESSUAIS. RÉU ASSISTIDO PELA DEFENSORIA PÚBLICA. POSSIBILIDADE. AGRAVO DESPROVIDO.
+
+- É possível o julgamento monocrático do recurso especial nas hipóteses em que a decisão recorrida estiver em "manifesto confronto com súmula ou com jurisprudência dominante do Supremo Tribunal Federal, ou de Tribunal Superior".
+
+- O art. 155 do Código de Processo Penal permite que elementos colhidos na fase inquisitorial possam servir de fundamento à condenação, desde que em harmonia com o conteúdo produzido em juízo.
+
+- De acordo com a jurisprudência desta Corte Superior, o réu, mesmo sendo beneficiário da assistência judiciária gratuita, deve ser condenado ao pagamento das custas processuais.
+
+Agravo regimental desprovido.
+
+(AgRg no AREsp n. 608.381/MG, relator Ministro Ericson Maranho (Desembargador Convocado do TJ/SP), Sexta Turma, julgado em 18/12/2014, DJe de 6/2/2015.)
+
+TJPA: APELAÇÃO PENAL. ART. 157, § 2º, INCISO I DO CP (ROUBO MAJORADO).1 ? PEDIDO DE DESCLASSIFICAÇÃO DO CRIME DE ROUBO (ART. 157 DO CP), PARA FURTO (ART. 155, DO CP). POSSIBILIDADE. NÃO FORAM TRAZIDOS AOS AUTOS ELEMENTOS QUE JUSTIFICASSEM O USO DE GRAVE AMEAÇA À VÍTIMA, UMA VEZ QUE SEQUER A FACA QUE SUPOSTAMENTE TERIA SIDO USADA PELO APELANTE FOI APREENDIDA. VÍTIMA NÃO COMPARECEU EM JUÍZO PARA RATIFICAR SUAS DECLARAÇÕES PRESTADAS NA FASE INQUISITORIAL NÃO HAVENDO, POR CONSEGUINTE, ELEMENTOS CAPAZES DE MANTER A CONDENAÇÃO NO CRIME TIPIFICADO NO ART. 157, CAPUT, DO CP. DESCLASSIFICAÇÃO QUE SE IMPÕE PARA O DELITO TIPIFICADO NO ART. 155, CAPUT, DO CP, NOS TERMOS DO ART. 393, DO CÓDIGO DE PROCESSO PENAL, NO QUE CONCERNE À APLICAÇÃO DA EMENDATIO LIBELLI. REDIMENSIONAMENTO DA PENA PARA 01 (UM) ANO DE RECLUSÃO E PAGAMENTO DE 10 (DEZ) DIAS-MULTA, CALCULADOS À RAZÃO DE 1/30 (UM TRIGÉSIMO) DO SALÁRIO-MÍNIMO VIGENTE À ÉPOCA DO FATO DELITUOSO. REGIME DE CUMPRIMENTO DA PENA ABERTO. NOS TERMOS DO ART. 44, § 2º, DO CÓDIGO PENAL, ESTANDO PRESENTES OS REQUISITOS PARA CONCESSÃO DO BENEFÍCIO, SUBSTITUO A PENA PRIVATIVA DE LIBERDADE POR 02 (DUAS) RESTRITIVAS DE DIREITOS, QUAIS SEJAM: PRESTAÇÃO DE SERVIÇOS A COMUNIDADE E LIMITAÇÃO DE FIM DE SEMANA, A SER DETERMINADA PELO JUÍZO MONOCRÁTICO, APÓS TRÂNSITO EM JULGADO E REALIZAÇÃO DE AUDIÊNCIA ADMONITÓRIA. 2-PEDIDO PARA APLICAÇÃO DA MINORANTE DE CONFISSÃO ESPONTÂNEA DADO O RECONHECIMENTO PELO JUÍZO DA SÚMULA 231 DO STJ. IMPOSSIBILIDADE. MINORANTE DE CONFISSÃO ESPONTÃNEA JÁ RECONHECIDA A QUANDO DO CÁLCULO DOSIMETRICO DA PENA, PORÉM HÁ VEDAÇÃO LEGAL PARA APLICAÇÃO DA MESMA, NOS TERMOS DA SÚMULA 231 DO STJ. NA SEGUNDA FASE DO CÁLCULO DOSIMÉTRICO DA PENA ESTA NÃO PODE FICAR ABAIXO DO MÍNIMO LEGAL. 3? PEDIDO DE DISPENSA DAS CUSTAS PROCESSUAIS UMA VEZ QUE O APELANTE FOI PATROCINADO PELA DEFENSORIA PÚBLICA. IMPOSSIBILDIADE. MESMO QUE O RÉU ESTEJA NA SITUAÇÃO DE HIPOSSUFICIÊNCIA AS CUSTAS PROCESSUAIS NÃO PODEM SER ISENTAS OU DISPENSADAS, DEVENDO AS MESMAS SEREM SUSPENSAS PELO PERÍODO DE 05 (CINCO) ANOS AO FINAL DO QUAL, DEVERÁ SER CONSTATADA A IMPOSSIBILIDADE DE PAGAMENTO ONDE NÃO HAVENDO A POSSIBILIDADE DE QUITAÇÃO DENTRO DO QUINQUIDIO, AS MESMAS SERÃO EXTINTAS. 4- RECURSO CONHECIDO E PARCIALMENTE PROVIDO. ACÓRDÃO Vistos e etc... (TJPA - Apelação Criminal - Nº 0003942-73.2014.8.14.0005 - Relator(a): ROSI MARIA GOMES DE FARIAS - 1ª Turma de Direito Penal - Julgado em 21/01/2020)
+
+TJPA: APELAÇÃO CRIMINAL. ART. 14, DA LEI Nº 10.826/2003. SENTENÇA CONDENATÓRIA. PENA-BASE. APLICAÇÃO AQUÉM DO PATAMAR MÍNIMO LEGAL. INCIDÊNCIA DE ATENUANTES. IMPOSSIBILIDADE. MATÉRIA PACIFICADA. SÚMULA 231, DO STJ. INCONSTITUCIONALIDADE. TESE NÃO ACATADA. CUSTAS PROCESSUAIS. ISENÇÃO. TESE NÃO ACOLHIDA. RECURSO CONHECIDO E IMPROVIDO. DECISÃO UNÂNIME.
+
+1. O pedido para que a pena-base seja reduzida aquém do seu patamar mínimo legal, ante a incidência das atenuantes a que faz jus o apelante, sob a tese de inconstitucionalidade da Súmula 231, do STJ, não merece abrigo, haja vista que tal posicionamento não encontra amparo na seara jurídica, pois o próprio Órgão guardião da Constituição, qual seja, o Pretório Excelso, manifesta-se sobre o tema em comento na esteira do entendimento sumulado pelo STJ, seguido por esta Corte de Justiça, devendo permanecer incólume a sentença recorrida.
+
+2. Por fim, não obstante a alegada hipossuficiência do acusado, não há impedimento à condenação ao pagamento das custas processuais, isto porque, é imposta uma condição suspensiva à mesma, da qual não fica automaticamente dispensado o réu, a quem foi concedida a justiça gratuita ou que está sendo assistido pela Defensoria Pública. Em realidade, o que ocorre é a suspensão da obrigação pelo período de 05 (cinco) anos, a contar da sentença condenatória, sendo que, ao final desse prazo e permanecendo a hipossuficiência, que deverá ser aferida ao longo da execução da pena, restará prescrita a obrigação, nos termos da lei. (TJPA - RECURSO ESPECIAL - Nº 0020752-60.2018.8.14.0401 - Relator(a): VICE-PRESIDENTE DO TRIBUNAL - 1ª Turma de Direito Penal - Julgado em 04/10/2021)
+
+Intimem-se todos desta sentença, nos termos da legislação de vigente, observando-se que os réus condenados assistidos por advogados particulares sejam intimados por intermédio de seus patronos constituídos, bem como que o réu condenado assistido pela Defensoria Pública seja intimado por intermédio do Defensor Público que o representa.
+
+Intime-se, ainda, o réu absolvido, por intermédio de seu advogado constituído, bem como o Ministério Público, e por fim, as vítimas, nos termos do art. 201, § 2º, do Código de Processo Penal.
+
+Ressalte-se que, tendo os acusados respondido ao processo em liberdade, é dispensável a intimação pessoal, sendo suficiente a intimação dos respectivos defensores, conforme entendimento consolidado do Superior Tribunal de Justiça e do Supremo Tribunal Federal, nos termos do art. 392, inciso II, do Código de Processo Penal, conforme já sedimentado pelo Colendo Superior Tribunal de Justiça, verbis:
+
+AGRAVO REGIMENTAL NO RECURSO HABEAS CORPUS. ESTUPRO DE VULNERÁVEL. SENTENÇA CONDENATÓRIA. RÉUS SOLTOS. INTIMAÇÃO DO ADVOGADO CONSTITUÍDO. AUSÊNCIA DE ILEGALIDADE. AGRAVO DESPROVIDO.
+
+1. Conforme reiterada jurisprudência do Superior Tribunal de Justiça e do Supremo Tribunal Federal, tratando-se de réu solto, é suficiente a intimação do representante processual acerca da sentença condenatória, sendo prescindível o envio de comunicação ao acusado em liberdade. Precedentes.
+
+2. Agravo regimental desprovido.
+
+(AgRg no RHC n. 194.644/SC, relator Ministro Ribeiro Dantas, Quinta Turma, julgado em 20/5/2024, DJe de 23/5/2024)
+
+AGRAVO REGIMENTAL NO HABEAS CORPUS. LAVAGEM DE CAPITAIS. ALEGAÇÃO DE NULIDADE DO JULGAMENTO DO RECURSO EM SENTIDO ESTRITO POR FALTA DE PUBLICAÇÃO DA INTIMAÇÃO PARA SUSTENTAÇÃO ORAL NA IMPRENSA OFICIAL. ADVOGADO DEVIDAMENTE INTIMADO POR MEIO ELETRÔNICO. NULIDADE DO TRÂNSITO EM JULGADO DA CONDENAÇÃO. DESNECESSIDADE DE INTIMAÇÃO PESSOAL DA SENTENÇA AO RÉU SOLTO, BASTANDO A COMUNICAÇÃO AO DEFENSOR CONSTITUÍDO. INEXISTÊNCIA DE CONSTRANGIMENTO ILEGAL. WRIT DENEGADO. AGRAVO REGIMENTAL DESPROVIDO.
+
+1. O Tribunal de origem consignou que o patrono da agravante, que estava devidamente cadastrado no sistema PJE, foi intimado por meio eletrônico, acerca da inclusão do recurso em sentido estrito em pauta de julgamento, conforme disposto no art. 5º da Lei n. 11.419/2006 e na Resolução n. 185 do CNJ. Constatada a regularidade da intimação levada a efeito pela instância ordinária, não há nenhuma ilegalidade ou teratologia a ser reparada.
+
+2. Consoante a jurisprudência do Superior Tribunal de Justiça e nos termos do art. 392, II, do Código de Processo Penal, não há se falar em constrangimento ilegal pela ausência de intimação pessoal do réu quanto ao teor da sentença condenatória quando respondeu ao processo em liberdade, mostrando-se suficiente a intimação do defensor constituído por meio de imprensa oficial, como ocorreu na hipótese.
+
+3. Agravo regimental desprovido.
+
+(AgRg no HC n. 872.652/SP, relator Ministro Antonio Saldanha Palheiro, Sexta Turma, julgado em 18/3/2024, DJe de 21/3/2024)
+
+Aliás, é imperioso que se mencione que tal entendimento já foi ratificado por nossa suprema corte, verbis:
+
+STF: AGRAVO REGIMENTAL EM HABEAS CORPUS. SUCEDÂNEO DE REVISÃO CRIMINAL. AUSÊNCIA DE INTIMAÇÃO PESSOAL PARA RECORRER DA SENTENÇA CONDENATÓRIA. RÉU SOLTO. DESNECESSIDADE. ART. 392, INC. II, C/C O ART. 370, § 1º, DO CPP. INTIMAÇÃO DO ADVOGADO CONSTITUÍDO. PRECEDENTES.
+
+1. A jurisprudência do Supremo Tribunal Federal firmou-se no sentido da inviabilidade de utilização do habeas corpus como sucedâneo de revisão criminal, salvo em casos de manifesta ilegalidade, teratologia ou abuso de poder. Precedentes.
+
+2. O pronunciamento impugnado está alinhado com a jurisprudência do Supremo Tribunal Federal no sentido da desnecessidade da intimação pessoal do réu solto, sendo suficiente a intimação do representante processual da sentença condenatória. Precedentes.
+
+3. Agravo regimental a que se nega provimento.
+
+(HC 219766 AgR, Relator Ministro Andre Mendonça, Segunda Turma, julgado em 13/12/2022, DJe 10/1/2023; grifou-se)
+
+STF: AGRAVO REGIMENTAL NO HABEAS CORPUS. CRIMES DE FURTO QUALIFICADO E ASSOCIAÇÃO CRIMINOSA. CONDENAÇÃO PENAL COM TRÂNSITO EM JULGADO. WRIT SUBSTITUTIVO DE REVISÃO CRIMINAL. AUSÊNCIA DE INTIMAÇÃO PESSOAL DA SENTENÇA CONDENATÓRIA. RÉUS SOLTOS E COM DEFENSOR CONSTITUÍDO. ARTIGO 392, II, DO CÓDIGO DE PROCESSO PENAL. NULIDADE NÃO CONFIGURADA. MANIFESTA ILEGALIDADE OU TERATOLOGIA NÃO IDENTIFICADAS.
+
+1. Inadmissível, como regra, o emprego do habeas corpus como sucedâneo de recurso ou revisão criminal. Precedentes.
+
+2. Ato dito coator parametrizado com a jurisprudência desta Suprema Corte no sentido de que, a teor do art. 392, II, do CPP, a intimação de sentença condenatória por meio de advogado constituído dispensa a intimação pessoal de réu solto. Precedentes.
+
+3. Agravo regimental conhecido e não provido.
+
+(HC 211875 AgR, Relatora Ministra Rosa Weber, Primeira Turma, julgado em 30/5/2022, DJe 1/6/2022)
+
+Publique-se e registre-se, conforme disposto art. 387, VI, (em resumo no Diário de Justiça) c/c art. 389 do CPP.
+
+Cumpra-se, com as cautelas legais.
+
+Belém/Pará, data da assinatura eletrônica.
+
+SANDRA MARIA FERREIRA CASTELO BRANCO
+
+Juíza de Direito da 10ª VCB

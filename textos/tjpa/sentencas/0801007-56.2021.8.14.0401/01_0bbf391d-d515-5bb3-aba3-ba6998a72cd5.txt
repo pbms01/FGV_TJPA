@@ -1,0 +1,169 @@
+[Texto nativo do PJe]
+
+6ª Vara Criminal da Capital
+
+S E N T E N Ç A
+
+Processo nº 0801007-56.2021.8.14.0401
+
+Acusado: LEANDRO MARINHO BOTELHO
+
+Vítima: RENATA RAMOS VIEIRA
+
+Capitulação Penal: Art. 171, § 2º-A, do Código Penal
+
+1. RELATÓRIO
+
+Trata-se de Ação Penal Pública incondicionada, promovida pelo Ministério Público do Estado do Pará em face de LEANDRO MARINHO BOTELHO, devidamente qualificado nos autos, imputando-lhe a prática do crime de estelionato majorado, tipificado no Artigo 171, § 2º-A, do Código Penal Brasileiro.
+
+A peça acusatória (ID 133547447) narrou pormenorizadamente que, no dia 16 de maio de 2020, a vítima RENATA RAMOS VIEIRA foi ludibriada por meio de uma sofisticada fraude eletrônica. Segundo a narrativa, o réu, por meio de artifício ardil, obteve vantagem ilícita, induzindo a vítima a erro ao se passar por sua amiga, Julyana Queiroga, realizando a comunicação exclusivamente através do aplicativo WhatsApp. A fraude consistiu em utilizar um número de telefone sob o falso pretexto de pertencer à amiga da vítima, solicitando um empréstimo urgente. A vítima, confiando na solicitação, especialmente por já ter emprestado valores à amiga em ocasião anterior, realizou uma transferência bancária (PIX) no valor de R$ 3.990,00 (três mil, novecentos e noventa reais) para a conta NUBANK, cuja titularidade era de LEANDRO MARINHO BOTELHO (Ag. 0001, Conta nº 377.582.99-4, CPF nº 384.569.468-85).
+
+A vítima somente passou a desconfiar da manobra criminosa e interrompeu a comunicação após ter recebido um segundo pedido de transferência por um valor ainda mais elevado, momento em que foi alertada, em outros grupos sociais, de que o WhatsApp de sua amiga havia sido clonado, restando configurada, já naquele instante, a consumação do delito em detrimento do seu patrimônio.
+
+A Denúncia foi recebida em 07 de janeiro de 2025 (ID 134297702).
+
+Após a regular citação, o acusado, assistido pela Defensoria Pública, apresentou Resposta à Acusação (ID 138562726).
+
+Não houve absolvição sumária e o processo seguiu para instrução.
+
+Em audiência realizada em 30 de julho de 2025, foi colhido o depoimento da vítima RENATA RAMOS VIEIRA. Iniciado o interrogatório, o réu, devidamente presente e assistido por sua Defesa, exerceu seu direito constitucional de permanecer em silêncio. As partes não requereram diligências complementares, encerrando-se a fase probatória, nos moldes do artigo 402 do Código de Processo Penal.
+
+Em arremate da fase de instrução, o Ministério Público apresentou suas Alegações Finais (ID 158980176), onde pugnou pela condenação do acusado nas penas cominadas ao Artigo 171, § 2º-A, do Código Penal Brasileiro.
+
+Por sua vez, a Defesa (ID 160030826) apresentou Memoriais, pleiteando a prioridade da absolvição do réu em razão da insuficiência probatória.
+
+É o relatório. DECIDO.
+
+2. FUNDAMENTAÇÃO
+
+Trata-se de ação penal pública incondicionada em que se imputa ao réu LEANDRO MARINHO BOTELHO a prática do crime de estelionato majorado pelo meio eletrônico, previsto no art. 171, § 2º-A, do Código Penal.
+
+De início, cumpre registrar que, embora o Ministério Público tenha atribuído ao réu a prática do delito de estelionato mediante fraude eletrônica, não é possível enquadrar a conduta no tipo previsto no art. 171, § 2º-A, do CP. Isso porque, à época dos fatos (16.5.2020), ainda não existia tipificação específica - com pena mais elevada - para o estelionato praticado por meios eletrônicos. Tal majorante somente foi introduzida com o advento da Lei n. 14.155/2021, de 28.5.2021, que acrescentou o § 2º-A ao art. 171 do Código Penal.
+
+Considerando que o Direito Penal veda a retroatividade de normas penais mais gravosas (art. 1º do CP), não há base jurídica para aplicar ao caso as inovações trazidas pela Lei n. 14.155/2021, pois, no momento da conduta, inexistia tipo penal específico relativo à fraude eletrônica.
+
+Dessa forma, a conduta imputada ao réu deve ser analisada à luz do art. 171, caput, do Código Penal.
+
+2.1. Da Materialidade Delitiva
+
+A materialidade do crime de estelionato encontra-se comprovada no bojo do Inquérito Policial e do processo penal. Os elementos de convicção demonstram a ocorrência da infração e o prejuízo dela advindo: destacam-se, primeiramente, os prints das conversas travadas via WhatsApp (ID 22919965 - Pág. 10-15), que evidenciam o engodo perpetrado por meio eletrônico, induzindo a vítima a erro de forma deliberada; em segundo plano, existe o comprovante da transação financeira, que mostra a transferência dos R$ 3.990,00 (três mil, novecentos e noventa reais) efetuada pela vítima (ID 22919965 - Pág. 17). Por fim, e de forma crucial, as informações prestadas pela instituição financeira Nubank (Num. 22919965 - Pág. 22-25), que não deixam margem de dúvida quanto à titularidade da conta destinatária da vantagem ilícita, pertencente a LEANDRO MARINHO BOTELHO.
+
+O dano patrimonial causado à vítima, consubstanciado na perda imediata do valor transferido, é, portanto, fato objetivo e incontroverso, comprovando a materialidade do crime.
+
+2.2. Da Autoria Delitiva
+
+A autoria delitiva, por sua vez, é certa e deve ser integralmente imputada ao réu LEANDRO MARINHO BOTELHO.
+
+A vítima RENATA RAMOS VIEIRA prestou depoimento coeso perante este Juízo, descrevendo a fraude sofrida e confirmando o modus operandi eletrônico do delito. O fato central e irrefutável é que a conta bancária (NUBANK) utilizada como destino final da transferência fraudulenta estava registrada em nome e com o CPF de LEANDRO MARINHO BOTELHO. O vínculo incriminador, ao contrário do alegado pela Defesa, não se resume a um mero indício; demonstra a participação necessária do acusado, seja como executor direto, co-autor, ou, no mínimo, como agente que cedeu, permitiu ou anuiu com a utilização de seu cadastro bancário para fins manifestamente ilícitos, atuando, assim, em concurso de pessoas para a consumação do estelionato.
+
+O dolo do agente, elemento subjetivo essencial para a condenação pelo estelionato, é aferível por meio de um exame detido das circunstâncias fáticas e da subsequente conduta do acusado. O dolo é evidenciado de forma insofismável pela sua participação objetiva como beneficiário final do valor ardilosamente obtido e, ainda mais contundente, pela absoluta falta de qualquer providência que indicasse boa-fé ou ausência de ciência sobre a ilicitude.
+
+O réu, ao ser questionado pelas autoridades na fase policial sobre a conta que recebeu o dinheiro sujo, optou por uma negativa frontal e inverossímil, alegando jamais ter sido titular de conta junto ao Nubank, o que foi objetivamente refutado pela documentação bancária. Não fosse isso suficiente para evidenciar sua má-fé e ciência da origem do valor, observe-se que o acusado, mesmo ciente do processo e da acusação de recebimento de valores fraudulentos em sua conta, não adotou qualquer providência no sentido de devolver o dinheiro à vítima ou de cooperar com as investigações para identificar o suposto terceiro que teria feito o uso de seus dados.
+
+Caso o réu fosse uma vítima inocente, ludibriado por criminosos que usaram seus dados, a atitude natural e esperada seria a imediata comunicação à instituição bancária e às autoridades, acompanhada de esforços para a restituição do valor indevidamente creditado. A omissão em fazê-lo, aliada à negativa expressa sobre a própria existência da conta, corrobora de maneira irrefutável a sua adesão à conduta criminosa, configurando o dolo essencial para o tipo penal.
+
+2.3. Da Tipicidade
+
+A conduta de LEANDRO MARINHO BOTELHO amolda-se, sem sombra de dúvidas, ao tipo penal descrito no Artigo 171 do Código Penal:
+
+"Art. 171 - Obter, para si ou para outrem, vantagem ilícita, em prejuízo alheio, induzindo ou mantendo alguém em erro, mediante artifício, ardil, ou qualquer outro meio fraudulento:
+
+Pena - reclusão, de um a cinco anos, e multa, de quinhentos mil réis a dez contos de réis. (Vide Lei nº 7.209, de 1984)
+
+Estão presentes inequivocamente na conduta do acusado todos os elementos constitutivos do delito de estelionato.
+
+A Obtenção de Vantagem Ilícita restou concretizada no instante em que o valor de R$ 3.990,00 (três mil, novecentos e noventa reais), desviado da vítima, ingressou na esfera de disponibilidade do acusado por meio de sua conta bancária.
+
+O Prejuízo Alheio foi suportado diretamente pela vítima RENATA RAMOS VIEIRA, que teve seu patrimônio desfalcado.
+
+O Induzimento ou Manutenção de Alguém em Erro ocorreu quando a vítima foi levada a erro pela utilização fraudulenta de um perfil e número de WhatsApp que simulavam ser de sua amiga JULYANA QUEIROGA, enganando-a com uma falsa solicitação de empréstimo.
+
+O Meio Fraudulento é evidente, pois a fraude foi cometida com a utilização de informações obtidas por meio de redes sociais e contatos telefônicos, induzindo a vítima a transferir o valor por meio eletrônico.
+
+Por fim, o Dolo do Agente, consistente na vontade livre e consciente de obter vantagem patrimonial ilícita em detrimento de outrem mediante fraude, está plenamente demonstrado, conforme exaustivamente analisado no tópico anterior. A utilização de conta bancária própria para acolher o produto direto da fraude é a manifestação objetiva do dolo. A subsequente e persistente negligência em adotar medidas de reparação, ainda que o acusado alegasse ter sido engodado ou ter tido seus dados usados por terceiros, reforça a conclusão pela ciência e vontade do réu em se beneficiar dos valores ilícitos, confirmando a tipicidade penal.
+
+3. DISPOSITIVO
+
+Ante o exposto, e por tudo mais que dos autos consta, julgo PARCIALMENTE PROCEDENTE a pretensão punitiva estatal deduzida na denúncia para CONDENAR o réu LEANDRO MARINHO BOTELHO, já qualificado nos autos, como incurso nas sanções do Artigo 171, caput, do Código Penal Brasileiro.
+
+Passo à dosimetria da pena, em estrita observância ao critério trifásico estabelecido no Artigo 68 do Código Penal.
+
+3.1. Da Dosimetria da Pena
+
+1ª Fase - Pena-Base (Art. 59 do CP)
+
+Em atenção ao princípio da individualização da pena, e examinando cuidadosamente as circunstâncias judiciais previstas no Artigo 59 do Código Penal, procedo à avaliação de cada vetor:
+
+Culpabilidade: A reprovabilidade da conduta do réu não extrapola o limite inerente ao tipo penal. Valoro a circunstância como Neutra.
+
+Antecedentes: Conforme a certidão judicial criminal acostada aos autos (ID 157039492), não há registro de condenações criminais anteriores transitadas em julgado que possam configurar maus antecedentes.
+
+Conduta Social: Não há elementos no processo para realizar uma avaliação aprofundada da conduta do réu no meio social. Valoro a circunstância como Neutra.
+
+Personalidade do Agente: Pelas informações coletadas nos autos, não é possível aferir traços de personalidade voltada à prática criminosa de forma a justificar a exasperação da pena. Valoro a circunstância como Neutra.
+
+Motivos do Crime: O lucro fácil, embora seja a mola propulsora do delito, é elemento inerente ao tipo penal do estelionato e não representa um plus de reprovabilidade. Valoro a circunstância como Neutra.
+
+Circunstâncias do Crime: Não há outras circunstâncias que exorbitem o previsto. Valoro a circunstância como Neutra.
+
+Consequências do Crime: O prejuízo de R$ 3.990,00 (três mil, novecentos e noventa reais), embora inegavelmente relevante para o patrimônio da vítima, não é considerado um valor que cause consequências desastrosas ou irreparáveis o suficiente para justificar a exasperação da pena-base. Valoro a circunstância como Neutra.
+
+Comportamento da Vítima: A vítima em nada contribuiu para a prática delitiva, tendo sido enganada pela astúcia do agente. Valoro a circunstância como Neutra.
+
+Dado que todas as circunstâncias judiciais foram valoradas como neutras, fixo a pena-base precisamente no mínimo legal cominado para o Artigo 171, caput, do Código Penal, qual seja, 01 (um) ano de reclusão e 10 (dez) dias-multa.
+
+2ª Fase - Pena Provisória
+
+Na segunda fase da dosimetria, não foram verificadas quaisquer circunstâncias agravantes ou atenuantes legalmente previstas que modifiquem o quantum da pena.
+
+Assim, mantenho a pena provisória em 01 (um) ano de reclusão e 10 (dez) dias-multa.
+
+3ª Fase - Pena Definitiva
+
+Inexistindo causas de aumento ou de diminuição de pena aplicáveis ao caso concreto, torno a pena definitiva em 01 (um) ano de reclusão e 10 (dez) dias-multa.
+
+Fixo, ainda, o valor de cada dia-multa em 1/30 (um trigésimo) do salário-mínimo vigente à época dos fatos (maio de 2020), valor que deverá ser corrigido monetariamente até o efetivo pagamento, em consideração à presumível condição econômica do réu, que é assistido pela Defensoria Pública.
+
+3.2. Do Regime Inicial de Cumprimento da Pena
+
+Considerando o quantum da pena aplicada e a primariedade do réu, conforme a análise dos antecedentes criminais realizada na primeira fase, fixo o regime inicial ABERTO para o cumprimento da pena privativa de liberdade, em estrita observância ao Artigo 33, § 2º, alínea "c", do Código Penal.
+
+3.3. Da Substituição da Pena Privativa de Liberdade
+
+Verifico que o réu preenche integralmente os requisitos objetivos e subjetivos elencados no Artigo 44 do Código Penal, notadamente por se tratar de crime cometido sem violência ou grave ameaça à pessoa, e por ter a pena aplicada sido fixada em 01 (um) ano de reclusão. As circunstâncias judiciais favoráveis ou neutras indicam que a substituição é socialmente recomendável e suficiente para a reprovação e prevenção do delito.
+
+Desta forma, em consonância com a legislação vigente, substituo a pena privativa de liberdade imposta por uma pena restritiva de direito, a saber, Prestação Pecuniária, a ser paga em favor da vítima RENATA RAMOS VIEIRA, fixada no valor de 03 (três) salários-mínimos vigentes na data do efetivo pagamento, conforme preceitua o Artigo 45, § 1º, do Código Penal, devendo o montante ser pago em parcela única ou parcelado a critério do Juízo da Execução Penal.
+
+3.4. Do Direito de Recorrer em Liberdade
+
+Considerando a fixação do regime inicial aberto para o cumprimento da pena e a substituição da pena privativa de liberdade por restritivas de direitos, circunstâncias que não demonstram a necessidade da custódia cautelar, e que a prisão para recorrer seria desproporcional neste momento, concedo ao réu o direito de responder ao processo em liberdade.
+
+3.5. Da Reparação dos Danos (Art. 387, IV, do CPP)
+
+Deixo de condenar o réu ao pagamento de indenização que recomponha o patrimônio da vítima dos prejuízos materiais decorrentes da infração, uma vez que não houve pedido expresso nesse sentido.
+
+3.6. Das Custas Processuais
+
+Condeno o réu ao pagamento das custas processuais. Contudo, em razão de sua hipossuficiência financeira, amplamente presumida pela sua representação pela Defensoria Pública, defiro-lhe os benefícios da assistência judiciária gratuita, ficando, por conseguinte, suspensa a exigibilidade dos valores pelo prazo legal de 05 (cinco) anos, consoante a norma prevista no Artigo 98, § 3º, do Código de Processo Civil, aplicável em caráter analógico.
+
+4. DISPOSIÇÕES FINAIS
+
+Após o trânsito em julgado desta sentença, deverão ser tomadas as seguintes providências:
+
+a) Determino a expedição da competente Guia de Recolhimento Definitiva, para acompanhamento do cumprimento da pena pelo Juízo da Execução Penal.
+
+b) Determino a comunicação à Justiça Eleitoral, para os fins de suspensão dos direitos políticos do condenado, conforme previsto no Artigo 15, inciso III, da Constituição Federal.
+
+c) Determino que se oficie ao órgão de identificação criminal para as devidas anotações e registros.
+
+Intimem-se o Ministério Público, a Defesa e o réu pessoalmente.
+
+Publique-se. Registre-se. Intimem-se. Cumpra-se.
+
+Belém/PA, datado e assinado eletronicamente.
+
+ANDREA FERREIRA BISPO
+
+Juíza de Direito
+
+Titular 6ª Vara Criminal de Belém

@@ -1,0 +1,97 @@
+[Texto nativo do PJe]
+
+Poder Judiciário
+
+Tribunal de Justiça do Estado do Pará
+
+9ª Vara Criminal de Belém
+
+Processo 0815331-80.2023.8.14.0401
+
+Assunto [Estelionato Majorado ]
+
+Classe AÇÃO PENAL - PROCEDIMENTO ORDINÁRIO (283)
+
+Sentença
+
+Vistos, etc.
+
+Cuida-se de ação penal iniciada por denúncia do Ministério Público do Estado em que se imputa a RAEL MACHADO GOMES e THAISE DE JESUS LIMA, qualificados na exordial, o cometimento do crime do art. 171, § 2º-A, do Código Penal.
+
+Denúncia acompanhada dos autos do inquérito policial nº 00615/2023.100043-2.
+
+THAISE DE JESUS LIMA foi pessoalmente citada. Houve resposta à acusação, seguindo-se audiência de instrução e julgamento.
+
+O curso do processo e do prazo prescricional foi suspenso em relação ao réu RAEL MACHADO GOMES (ID 133630817).
+
+Em memoriais finais, o Ministério Público requereu a absolvição da acusada THAISE DE JESUS LIMA com fundamento no art. 386, VII, do Código de Processo Penal. A defesa secundou o pedido.
+
+É o relatório. Fundamento e decido.
+
+Tenho por convicção que a Constituição Federal consagrou o sistema acusatório em nosso processo penal. Esse convencimento decorre do fato de que o art. 5º da Carta Magna confere o status de garantias fundamentais a princípios como o devido processo legal, o contraditório, a ampla defesa, o juiz natural, a presunção de inocência, o in dubio pro reo, o direito ao silêncio, a vedação ao emprego de provas ilícitas, etc.
+
+O legislador ordinário, por sua vez, consagrou a orientação constitucional ao prever no art. 3º-A do Código de Processo Penal que "o processo penal terá estrutura acusatória, vedadas ao juiz a iniciativa do juiz na fase de investigação e a substituição da atuação probatória do órgão de acusação".
+
+No sistema acusatório, ação penal e processo não se confundem, da mesma forma como não se confundem em um único órgão as atividades de acusar e julgar. Assim, aquele que tem legitimidade para acusar nunca será o mesmo que tem legitimidade para julgar. Disso decorre que nesse sistema processual não se deduz, por meio da ação penal, pretensão punitiva, mas sim pretensão acusatória. Isto significa, em outras palavras, que não pode haver condenação sem que haja acusação formal feita pelo órgão que dispõe de legitimidade para tanto.
+
+Tal raciocínio torna incompatível com o texto constitucional o art. 385 do Código de Processo Penal, que permite ao juiz proferir, nos processos por crime de ação pública, sentença condenatória, ainda quando o Ministério Público tenha requerido a absolvição do réu. Ora, admitir essa possibilidade significa equiparar o juiz ao órgão de acusação, pois a condenação pressupõe o reconhecimento da procedência da imputação que, uma vez afastada pelo pedido de absolvição do Ministério Público, passa a depender apenas do próprio juiz.
+
+O Superior Tribunal de Justiça enfrentou a matéria no exame do Recurso Especial n° 2.022.413-PA (2022/0035644-0), julgado pela Sexta Turma em 14.02.2023, e no qual prevaleceu voto divergente do Ministro Rogério Schietti no sentido da constitucionalidade do art. 385 do CPP. Nada obstante, o relator original, Ministro Sebastião Reis, entendera que a admissibilidade da condenação do réu pelo juiz mesmo após pedido ministerial de absolvição viola o sistema acusatório. Em seu voto, aduziu o ministro:
+
+"Inicio destacando que o constituinte brasileiro, por ocasião da Constituição Federal de 1988, optou, claramente, pelo sistema acusatório, sistema este em que a função do juiz é de observador, cabendo ao mesmo a mediação do conflito entre as partes litigantes, não podendo ele agir no lugar das partes.
+
+Tal conclusão não apenas minha, mas também do Ministro Celso de Mello, que, por ocasião do julgamento do HC n. 188.888, afirmou que:
+
+omissis...
+
+Nesse sentido, destaco a atual redação dos arts. 282, § 2º, e 311, ambos do Código de Processo Penal, que vedam a decretação de medidas cautelares ex officio pelo Juiz, inclusive prisão preventiva.
+
+omissis...
+
+Nesse diapasão, não parece razoável concluir no sentido da vigência da previsão contida no art. 385 do Código de Processo Penal.
+
+Ora, se é vedada ao Magistrado decretar ex officio a prisão cautelar, também não deve ser admitida a atuação de ofício no sentido de condenar alguém, medida essa indubitavelmente mais gravosa do ponto de vista processual penal.
+
+Lendo o Código de Processo Penal, em especial o seu art. 385, considerando as balizas que permeiam o sistema acusatório, não vejo, pedindo vênia aos que pensam de modo contrário, como entender possível o Juiz condenar mesmo quando o Ministério Público requer a absolvição."
+
+Não é de agora que a doutrina processual penal brasileira vem apontando a inconstitucionalidade do art. 385 do CPP por violação ao sistema acusatório.
+
+"Partindo da construção dogmática do objeto do processo penal, com GOLDSCHMIDT, verificamos que (nos crimes de ação penal de iniciativa pública) o Estado realiza dois direitos distintos (acusar e punir) através de dois órgãos diferentes (Ministério Público e Julgador). Essa duplicidade do Estado (como acusador e julgador) é uma imposição do sistema acusatório (separação das tarefas de acusar e julgar).
+
+O Ministério Público é o titular da pretensão acusatória, e, sem o seu pleno exercício, não se abre a possibilidade de o Estado exercer o poder de punir, visto que se trata de um poder condicionado. O poder punitivo estatal está condicionado à invocação feita pelo MP através do exercício da pretensão acusatória. Logo, o pedido de absolvição equivale ao não exercício da pretensão acusatória, isto é, o acusador está abrindo mão de proceder contra alguém.
+
+Como consequência, não pode o juiz condenar, sob pena de exercer o poder punitivo sem a necessária invocação, no mais claro retrocesso ao modelo inquisitivo.
+
+Então, recordando que GOLDSCHMIDT afirma que o poder judicial de condenar o culpado é um direito protestativo, no sentido de que necessita de uma sentença condenatória para que se possa aplicar a pena e, mais do que isso, é um poder condicionado à existência de uma acusação. Essa construção é inexorável, se realmente se quer efetivar o projeto acusatório da Constituição. Significa dizer: aqui está um elemento fundante do sistema acusatório.
+
+Portanto, viola o sistema acusatório constitucional a regra prevista no art. 385 do CPPP, que prevê a possibilidade de o Juiz condenar ainda que o Ministério Público peça a absolvição. Também representa uma clara violação do Princípio da Necessidade do Processo Penal, fazendo com que a punição não esteja legitimada pela prévia e integral acusação, ou, melhor ainda, pleno exercício da pretensão acusatória.
+
+Ademais, aponta PRADO, há violação da garantia do contraditório, pois esse direito fundamental é imperativo para validade da sentença. Como o juiz 'não pode fundamentar sua decisão condenatória em provas ou argumentos que não tenham sido objeto de contraditório, é nula a sentença condenatória proferida quando a acusação opina pela absolvição. O fundamento da nulidade é a violação do contraditório (artigo 5º, inciso LV, da Constituição da República)." (LOPES JR, Aury. Direito processual penal. 10ª ed. São Paulo: Saraiva, 2013, pp. 1095/1096)
+
+Na mesma senda argumentativa:
+
+"Dependendo da forma como encarado, o presente artigo pode traduzir mais uma potencial face do modelo inquisitivo de processo reinante no Código de Processo Penal, pois permite ao juiz ir contra a postulação do legitimado ativo na ação penal de iniciativa do acusador público, postulação esta que é tratada como 'opinião' (sic) pelo Código de Processo Penal.
+
+Com efeito, mesmo autores marcantemente voltados para o modelo constitucional de processo (SILVA JARDIM, NASSIF, ENTRE OUTROS) vêem a possibilidade de manutenção (ainda que parcial) deste artigo, argumentando que, a admitir-se a vinculação do juiz à manifestação do acusador estar-se-ia atribuindo a este o julgamento de mérito, culminando com a idéia que 'a circunstância do Ministério Público ter pedido absolvição ... não exime o Magistrado ..., pois não se vincula ao entendimento do órgão acusatório' (RJTACRIM 33/152).
+
+Se o assunto for encarado estritamente pela estrutura do Código de Processo Penal pouca solução haverá, pois é de sua filosofia que a acusação é formalmente veiculada pelo Ministério Público nas ações de legitimação pública, mas a partir daí se desprende dele e passa a ser compartilhada com o magistrado, que detém, dentre outros, poderes instrutórios e mesmo postulatórios (v.g. artigo 384 e toda a gama de postulações cautelares de natureza pessoal ou probatória). Nesse cenário, é natural que o magistrado realmente não se prenda às postulações finais do Ministério Público.
+
+No entanto, se o artigo 129, I, toma a cena como vetor de interpretação, e se a promoção da ação penal pública não se exaure com a simples veiculação da acusação, mas encerra toda uma gama de poderes e deveres, o artigo 385 não tem como subsistir na sua redação pois não há como sustentar a condenação de alguém quando o próprio acusador avalia a impropriedade da sanção." (Choukr, Fauzi Hassan. Código de Processo Penal. Comentário Consolidados e Crítica Jurisprudencial. 4ª ed. Rio de Janeiro: Lumen Juris, 201, pp. 577/578)
+
+Nesse debate, filio-me àqueles que - embora minoritários - vislumbram a incompatibilidade constitucional do art. 385 do Código de processo Penal com o sistema acusatório.
+
+Assim, diante do pedido ministerial de absolvição, julgo improcedente a pretensão acusatória deduzida na denúncia de ID 117204073 em relação a THAISE DE JESUS LIMA, qualificada nos autos, em razão do que a absolvo, na forma do art. 386, VII, do Código de Processo Penal.
+
+Comunicações de estilo e intimações por edital, se necessário.
+
+Diligencie-se, se for o caso, a restituição de coisas apreendidas e de fiança.
+
+Após o transcurso do prazo de recurso desta sentença, retornem conclusos para providências em relação ao réu RAEL MACHADO GOMES.
+
+P.R.I.C.
+
+Belém (PA), data da assinatura digital.
+
+Marcus Alan de Melo Gomes
+
+Juiz de Direito da 9ª Vara Criminal

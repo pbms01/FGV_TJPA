@@ -1,0 +1,479 @@
+[Texto nativo do PJe]
+
+Processo
+& Judicial
+Eletrônico
+é
+
+TRIBUNAL DE JUSTIÇA
+DO ESTADO DO PARÁ
+Processo nº: 0801359-37.2023.8.14.0015
+
+Assunto: [Estelionato]
+
+AUTOR: MINISTERIO PUBLICO DO ESTADO DO PARÁ
+
+REU: DRIELLY BARROS CRISPIM DOS SANTOS, CAMILA GOMES DA SILVA
+
+Nome: DRIELLY BARROS CRISPIM DOS SANTOS
+Endereço: RAMALHO ORTIGAO, 431, 11-977907702, JD IRENE, SANTO ANDRé - SP - CEP: 09170-610
+Nome: CAMILA GOMES DA SILVA
+Endereço: Travessa da Vargem, 126, prox. Praça da Árvore (11)975283945, Sítio dos Vianas, SANTO ANDRé - SP - CEP: 09171-629
+
+Advogado(s) do reclamado: CLAUDEMIR DE OLIVEIRA, RODRIGO CACIAGLI MARQUES DA CRUZ, LUIZ FERNANDO BERTOLDO
+
+[DIVISAO DE COMBATE A CRIMES ECONOMICOS E PATRIMONIAIS PRATICADOS POR MEIOS CIBERNETICOS (TERCEIRO INTERESSADO), FRANCISCO BARBOSA DOS SANTOS - CPF: 834.294.502-25 (VÍTIMA)]
+
+Endereço:
+
+SENTENÇA / MANDADO / OFÍCIO
+
+1. Relatório
+
+Trata-se de ação penal movida pelo Ministério Público em face de DRIELLY BARROS CRISPIM DOS SANTOS e CAMILA GOMES DA SILVA como incursas no crime previsto no art. 171, caput, c/c, art. 296, §1º, c/c, art. 288, caput, c/c, art. 69, todos do Código Penal.
+
+Consta na denúncia (id 86849820 - Pág. 1):
+
+Noticiam os presentes autos de Inquérito Policial que, no dia 09/06/2020, por volta das 16h30min, nesta Cidade, por meio virtual, os Denunciados DRIELLY BARROS CRISPIM DOS SANTOS, BRUNO DA SILVA NASCIMENTO, CARLOS LARCIO BAUER e CAMILA GOMES DA SILVA, em ASSOCIAÇÃO CRIMINOSA, prévia, estável e permanente, voltada para a prática de cibercrimes patrimoniais, OBTIVERAM, para si, vantagem ilícita, em prejuízo alheio, o valor total de R$47.250,00 (quarenta e sete mil e duzentos e cinquenta reais), induzindo e mantendo a vítima FRANCISCO BARBOSA DOS SANTOS em erro, mediante artifício, ardil e outros meios fraudulentos, consistente na arrematação da motocicleta BMW S1000RR, Cor: Branca/Vermelha, Ano: 2017, em leilão virtual fraudulento realizado pelo site http://www.leilaodoparaoficial.org (LEILÃO DO PARÁ OFICIAL), inclusive envolvendo a FALSIFICAÇÃO DE SELO PÚBLICO, referente ao selo e autenticação de assinatura do Denunciado BRUNO DA SILVA NASCIMENTO, supostamente pelo 17º Tabelião de Belém.
+
+Termo provisório de arrematação (id 86849788 - Pág. 2).
+
+Comprovante transferência bancária (id 86849788 - Pág. 1).
+
+Relatório de inteligência (id 86849808 - Pág. 5).
+
+Cadastro clientes - banco digital next (id 86849850 - Pág. 2).
+
+Relatório (id 86849815 - Pág. 2).
+
+Extratos bancários (id 86849573 - Pág. 28).
+
+Auto circunstanciado nº 0023/2022 (id 86849861 - Pág. 1).
+
+Decisão - desmembramento (id 86849581 - Pág. 1).
+
+Decisão - recebimento da denúncia em 18/11/2022 (id 86849835 - Pág. 1).
+
+Citadas (id 86849870 - Pág. 1 e 86849576 - Pág. 1), responderam à acusação (id 90493515 - Pág. 1 e 90735116 - Pág. 1).
+
+Decisão - art. 397 do CPP (id 99432984 - Pág. 1).
+
+Audiência de instrução (id 137874528 - Pág. 1 e 146672276 - Pág. 1).
+
+Em alegações finais, o parquet requereu a procedência da ação nos termos da denúncia (id 147329918 - Pág. 1).
+
+Em alegações finais, a defesa da ré, Camila, requereu a improcedência da ação por falta de provas (id 147188008 - Pág. 1).
+
+Em alegações finais, a defesa da ré, Drielly, requereu a improcedência da ação por falta de provas (id 148229443 - Pág. 1).
+
+É o sucinto relatório.
+
+Decido.
+
+2. Fundamentação
+
+Trata-se de ação penal movida pelo Ministério Público em face de DRIELLY BARROS CRISPIM DOS SANTOS e CAMILA GOMES DA SILVA como incursas no crime previsto no art. 171, caput, c/c, art. 296, §1º, c/c, art. 288, caput, c/c, art. 69, todos do Código Penal.
+
+Cabe a parte que alegar a obrigação de produzir prova nesse sentido (art. 156, CPP). O ônus da prova é da acusação.
+
+Dos autos, tenho que a acusação se desincumbiu do ônus que lhe cabia.
+
+As provas foram produzidas sob o crivo do contraditório, com observância do art. 155 do CPP.
+
+A vítima FRANCISCO BARBOSA DOS SANTOS disse:
+
+Que nunca tinha participado de leilão, que realizou pesquisas para verificar se o site era falso ou não, que o site parecia verdadeiro, que em contato com os responsáveis pelo site de leilão se sentiu seguro, pois lhe solicitaram documentação, o convidaram a ir ao local visitar e ver o bem, que lhe forneceram documento autenticado em cartório, que realizou a transferência bancária no valor aproximado de R$47.000,00 para a conta de Bruno, que o bem não lhe foi entregue e percebeu que caiu em um golpe, que após o seu cartão de crédito foi clonado, fizeram compras no seu cartão, que usaram seus dados para cadastrar um endereço em Campinas/SP.
+
+DPC GUILHERME GONÇALVES DA SILVA disse:
+
+Que era comum sites falsos serem usados para obter vantagem ilícita, que realizou diligências referente a numerais e beneficiários de contas, que eles se valiam de símbolos de verificação, símbolos do Estado, criavam um falso leilão para as vítimas fazerem lances, que atraíram as vitimas com leilão de bens de alto valor, que a vítima era contemplada e levada a fazer pagamentos em nome de terceiros, terceiros que cedem suas contas para serem usadas, que usavam certidões de cartório falso, documentos falsos, para fazer a vitima cair no golpe, que as rés eram beneficiarias das contas, que há um modos operandi relacionado a fungibilidade dos beneficiários, que é o laranja que não é laranja, a pessoa fornece a conta, mas tem ciência da proveniência ilícita dos recursos, que normalmente são pessoas de outros estados da federação para dificultar as investigações.
+
+A ré DRIELLY BARROS CRISPIM DOS SANTOS disse:
+
+Que conhece Camila, que conviviam juntas até os fatos, que não conhece Bruno e Carlos, que Camila pediu sua conta emprestada e receberia uma porcentagem pelos valores depositados, que não sabia da origem ilícita dos valores, que foram depositados valores na sua conta algumas vezes, que nunca perguntou a origem, que aceitou porque estava precisando, que após receber os valores transferia para Camila Gomes, que ficava com 10% e o restante transferia para Camila Gomes.
+
+A ré CAMILA GOMES DA SILVA disse:
+
+Que conhece apenas Drielly, que era amiga da Drielly, que não participou do crime, que foi acusada devido ao conteúdo de outras conversas que teve com Drielly.
+
+O quadro fático probatório comprova que as rés Camila e Drielly concorreram para a prática da infração penal.
+
+Restou provado com base nas provas orais produzidas na audiência de instrução, Termo provisório de arrematação, Comprovante transferência bancária, Relatório de inteligência, Cadastro clientes - banco digital next, Relatório, Extratos bancários, Auto circunstanciado nº 0023/2022, que:
+
+Em relação ao crime do art. 171, caput, do Código Penal, as rés Camila e Drielly participaram do golpe consistente em criar um site de leilão de bens falso na internet, qual seja: http://www.leilaodoparaoficial.org, com utilização de símbolos de verificação, símbolos do Estado e certidões de cartório falsos para dar aparência de legalidade, por meio do qual a vítima Francisco Barbosa dos Santos acreditando que estava arrematando uma motocicleta em leilão fez uma transferência bancária no valor de R$ 47.250,00 para a conta bancária do denunciado Bruno, sendo Camila a responsável por recrutar pessoas para fornecer contas bancárias para serem utilizadas em transações ilícitas e gerenciar os depósitos efetuados e recebidos dando orientações para as pessoas que emprestam seus dados cadastrais para a aplicação do golpe e Drielly a responsável por fornecer a sua conta bancária para transações ilícitas e receberia uma porcentagem de cada transação.
+
+O Auto circunstanciado nº 0023/2022 referente a conversas entre Drielly Barros Crispim dos Santos e Camila Gomes da Silva via aplicativo WhatsApp confirmam o modus operandi e o papel de ambas na ação criminosa. Segue trechos de análises do conteúdo do diálogo:
+
+Diálogo 06: Camila comenta que quer fazer o mesmo que Drielly fez com o cartão de sua mãe. Diz que está com a senha de um cartão que tem um limite de R$ 20.000,00 e é da tia do Ricardinho, por isso tem que fazer o golpe muito bem feito, talvez compras on-line. Se refere a dona do cartão como "a veia tem cartão cheio de limite".
+
+Diálogo 07: Drielly fala para Camila que já sabe como conseguir o número do CPF da tia do Ricardinho (para poderem utilizar o cartão de crédito)
+
+Diálogo 08: Drielly diz que piu está pedindo uma conta jurídica.
+
+Diálogo 09: Camila fala para Drielly como podem retirar o dinheiro que cair na conta (sacando nos caixas eletrônicos).
+
+Diálogo 10: Camila e Drielly dizem que estão aguardando o dinheiro cair nas contas.
+
+Diálogo 11: Camila e Drielly comentam sobre como devem criar os QR CODE's com os valores para a chave PIX que receberá os valores fraudados pelos outros integrantes.
+
+A vítima Francisco Barbosa dos Santos apresentou conversa em que uma pessoa se identificando como representante da empresa leilão do pará oficial informava sobre um imposto IOF no valor de R$4.500,00 para ser pago mediante transferência na conta em nome da ré Drielly. (id 86849788 - Pág. 4).
+
+A ré DRIELLY em juízo confirmou que conhece Camila, que Camila pediu sua conta emprestada e receberia uma porcentagem pelos valores depositados, que não sabia da origem ilícita dos valores, que após receber os valores transferia para Camila Gomes, que ficava com 10% e o restante transferia para Camila Gomes.
+
+Assim, com a instrução criminal, a conduta das rés foi completamente desvelada, restando clara a intenção consciente das acusadas em obtenção de ganho fácil, valendo-se, principalmente, da internet em um site que repassava a falsa percepção de leilão de bens, especialmente carros e motocicletas.
+
+O art. 171 do Código Penal pune aquele que, por meio da "astúcia", "da esperteza" ou da "mentira" procura despojar a vítima do seu patrimônio fazendo com esta entregue a coisa visada espontaneamente.
+
+Incide a circunstância atenuante da confissão qualificada prevista no art. 65, d, III, do Código Penal, pois a ré Drielly admite que forneceu conta bancária para ser utilizada nas transações, embora alegue que não tinha ciência do caráter ilícito.
+
+No tocante ao crime do art. 296, §1º, do Código Penal, as rés Camila Gomes da Silva e Drielly Barros Crispim dos Santos também incorreram em conduta típica, pois se beneficiaram da utilização da falsificação de selo público, elemento utilizado como artifício no golpe aplicado à vítima.
+
+Conforme se extrai dos autos, especialmente do Termo Provisório de Arrematação e da comunicação entre os envolvidos, foi empregada certidão de cartório falsificada, a qual trazia selo e autenticação supostamente expedidos pelo 17º Tabelião de Belém, com o objetivo de conferir aparência de legalidade e autenticidade à transação realizada por meio do site fraudulento.
+
+A inserção desses elementos falsificados, como os selos e autenticações cartoriais, teve papel decisivo na indução da vítima em erro, contribuindo para a crença de que estava adquirindo legalmente o bem em um leilão público oficial. A vítima, inclusive, relatou em juízo que a apresentação de documentos aparentemente autenticados lhe deu segurança e confiança para realizar a transferência bancária.
+
+A responsabilidade das acusadas nessa falsificação se revela:
+
+Camila, ao atuar como organizadora do esquema, recrutando pessoas, coordenando transações e orientando quanto à logística dos repasses, demonstrando ciência e conivência com o uso dos documentos falsos;
+
+Drielly, embora alegue não saber da ilicitude, teve sua conta bancária indicada como destinatária da falsa cobrança de IOF no valor de R$ 4.500,00, conforme conversa apresentada pela vítima, em que um suposto representante do site fraudulento orientava a realização da transferência. Essa cobrança estava apoiada em documentos com selos cartoriais falsificados, o que evidencia que sua conta era utilizada como meio de recebimento de valores ilícitos. Ainda que a vítima tenha percebido a fraude a tempo e não tenha efetivado essa transferência, o episódio reforça a atuação consciente da ré no esquema fraudulento, especialmente considerando os diálogos interceptados e o contexto da associação criminosa.
+
+Nesse sentido, restou configurado o dolo específico exigido pelo tipo penal: a falsificação e uso de selo público ou sinal indicativo de autenticação oficial, com a finalidade de viabilizar e dar credibilidade à fraude perpetrada.
+
+Portanto, resta evidenciada a prática do crime previsto no art. 296, §1º, do Código Penal, em concurso material com os demais delitos denunciados.
+
+Nesse sentido, é válido ressaltar, ainda, que em casos de crimes praticados em concurso de pessoas, o STJ já decidiu que: "Nos crimes de autoria coletiva admite-se a descrição genérica dos fatos, se não for possível, como na espécie, esmiuçar e especificar a conduta de cada um dos denunciados." (STJ, HC 283.404/RJ, Rel. Ministro ROGERIO SCHIETTI CRUZ, SEXTA TURMA, julgado em 09/05/2017, DJe 15/05/2017).
+
+Colho ainda da jurisprudência:
+
+AGRAVO REGIMENTAL NOS EMBARGOS DE DECLARAÇÃO NO AGRAVO EM RECURSO ESPECIAL. ROUBO MAJORADO. INÉPCIA DA DENÚNCIA. INDIVIDUALIZAÇÃO DA CONDUTA DO ACUSADO. NÃO OCORRÊNCIA. PARTICIPAÇÃO DE MENOR IMPORTÂNCIA. INVIABILIDADE. REEXAME FÁTICO PROBATÓRIO. JURISPRUDÊNCIA DO SUPERIOR TRIBUNAL DE JUSTIÇA. AGRAVO REGIMENTAL NÃO PROVIDO. 1. É de ser afastada a alegação de inépcia da denúncia quando a imputação é sucedida de instrução criminal, sentença, apelação e embargos infringentes. Essa peculiaridade, conforme orientação deste Superior Tribunal, faz com que perca força a discussão acerca da inépcia da denúncia e de ausência de justa causa, ainda que deduzidas em momento anterior ao édito condenatório. 2. Segundo a jurisprudência do STJ, "nos crimes de autoria coletiva, reputa-se prescindível a descrição minuciosa e individualizada da ação de cada acusado, bastando a narrativa das condutas delituosas e da suposta autoria, com elementos suficientes ao avanço da persecução criminal e hábeis a garantir a ampla defesa e o contraditório" (AgRg no AREsp n. 1.333.052/PR, Rel. Ministra Laurita Vaz, 6ª T., DJe 1º/4/2019). 3. A condenação do acusado por co-autoria afasta, por si só, a incidência dos §§ 1º e 2º, do art. 29, do Código Penal. A revisão do julgado quanto à participação de maior ou menor importância do réu na empreitada criminosa implicaria no reexame fático-probatório dos autos, medida inviável em recurso especial, nos termos da Súmula n. 7 do STJ. 4. Agravo regimental não provido. (AgRg nos EDcl no AREsp n. 2.143.170/CE, relator Ministro Rogerio Schietti Cruz, Sexta Turma, julgado em 6/12/2022, DJe de 16/12/2022.).
+
+O crime de falsificação de selo público previsto no art. 296, §1º, do Código Penal, exige dolo específico e pode ser praticado tanto por quem realiza materialmente a falsificação quanto por quem contribui de forma essencial para sua efetivação e utilização, mesmo sem praticar diretamente o ato falsificador.
+
+Conforme reconhece o Superior Tribunal de Justiça (AgRg no AREsp n. 2.109.967/MG), na coautoria, todos os agentes possuem o domínio do fato típico mediante divisão de tarefas, sendo irrelevante que todos pratiquem diretamente o núcleo do tipo penal, desde que a conduta de cada um seja essencial para o resultado criminoso, senão vejamos:
+
+PENAL. PROCESSO PENAL. AGRAVO REGIMENTAL NO AGRAVO EM RECURSO ESPECIAL. JUÍZO DE ADMISSIBILIDADE NA ORIGEM. NEGATIVA DE SEGUIMENTO DE PARTE DO RECURSO ESPECIAL. AUSÊNCIA DE INTERPOSIÇÃO DE AGRAVO INTERNO. NÃO CONHECIMENTO DO APELO NOBRE QUANTO AO PONTO. ROUBO MAJORADO. PARTICIPAÇÃO DE MENOR IMPORTÂNCIA. INOCORRÊNCIA. PRÉVIO AJUSTAMENTO DE CONDUTAS ENTRE OS AGENTES. DOMÍNIO DO FATO. DIVISÃO DE TAREFAS. COAUTORIA CONFIGURADA. SÚMULA N. 7 DO SUPERIOR TRIBUNAL DE JUSTIÇA - STJ. AGRAVO REGIMENTAL DESPROVIDO. 1. A ausência de agravo interno previsto no art. 1.030, § 2º, do Código de Processo Civil - CPC, em face da negativa de seguimento de parte do recurso especial pelo Tribunal de origem, afasta o seu conhecimento quanto a essa parcela, em razão da preclusão. Portanto, inviável o conhecimento do recurso especial quanto à questão relativa ao crime de corrupção de menores. 2. O Tribunal de origem manteve o reconhecimento da coautoria para a prática do delito de roubo majorado, afastando a tese defensiva da participação de menor importância, uma vez que restou suficientemente comprovado o prévio ajustamento de condutas, bem como o domínio do fato e do resultado por todos os envolvidos na prática delituosa. Ainda restou demonstrado, nos termos da confissão judicial do réu, que o agravante permaneceu no veículo utilizado para a fuga, dando cobertura para que outros dois corréus subtraíssem os bens da vítima, que seria, posteriormente, dividido entre todos os coautores. 3. Não há reparo a ser feito no acórdão recorrido. Com efeito, de acordo com a pacífica jurisprudência deste Sodalício, "concluindo a Corte local que o agente efetivamente realizou a figura típica, resta vedado a este STJ aplicar a causa de diminuição da participação de menor importância (Súmula 7/STJ). Vale lembrar, ainda, nesse esteio, que, 'na coautoria, todos os agentes possuem o domínio comum do fato típico, mediante uma divisão de tarefas. Não é necessário que todos os agentes pratiquem o verbo descrito no tipo; basta que a sua conduta, atípica, se isoladamente observada, seja essencial para a realização do fato típico. Dessa forma, em se tratando de coautoria, todos os agentes respondem pela prática do mesmo delito praticado.' (AgRg no AREsp 1364031/MG, Rel. Ministro ROGERIO SCHIETTI CRUZ, SEXTA TURMA, julgado em 05/05/2020, DJe 12/05/2020)" (AgRg no AREsp n. 1.394.712/SP, relator Ministro Ribeiro Dantas, Quinta Turma, DJe de 15/3/2021). 4. Uma vez que as instâncias de origem entenderam estar suficientemente comprovada a coautoria do agravante, para se concluir de modo diverso, seria necessário o revolvimento fático-probatório, vedado conforme Súmula n. 7 do Superior Tribunal de Justiça - STJ. 5. Agravo regimental desprovido. (AgRg no AREsp n. 2.109.967/MG, relator Ministro Joel Ilan Paciornik, Quinta Turma, julgado em 7/3/2023, DJe de 10/3/2023).
+
+No caso dos autos, ficou amplamente demonstrado que as rés atuaram de maneira coordenada, consciente e com divisão de funções, com clara adesão ao plano criminoso. A ré Camila desempenhou papel de destaque na organização do esquema, coordenando a logística, repassando orientações sobre movimentações financeiras e envolvendo terceiros no fornecimento de contas bancárias. Já a ré Drielly disponibilizou sua própria conta para recebimento dos valores ilícitos e comunicava-se ativamente sobre os depósitos e repasses, além de demonstrar, nas mensagens interceptadas, pleno conhecimento sobre a origem ilícita dos valores.
+
+A utilização de documentos com selos falsificados, como certidões de cartório simuladas, foi essencial para induzir a vítima em erro e conferir aparência de legalidade ao falso leilão. Mesmo que não tenham sido as rés as responsáveis técnicas pela falsificação, elas se beneficiaram diretamente do uso desses documentos e contribuíram para sua utilização no golpe, o que configura coautoria.
+
+Quanto ao crime do art. 288, do Código Penal, as rés Camila Gomes da Silva e Drielly Barros Crispim dos Santos integravam associação criminosa estável e permanente, voltada à prática de fraudes eletrônicas e falsificações, com divisão de tarefas, comunicações frequentes, e atuação conjunta com outros indivíduos, conforme demonstrado nos autos. A conduta reiterada, a cooperação estruturada e o vínculo com demais envolvidos comprovam a associação para o fim específico de cometer crimes, preenchendo os requisitos típicos do delito.
+
+O objeto jurídico do crime de associação criminosa é a paz pública, entendida como o necessário sentimento de tranquilidade e segurança coletiva que a ordem pública deve proporcionar. Com efeito, o objeto material é a pessoa ou coisa sobre o qual recai a conduta criminosa.
+
+A disposição legal do art. 288 do Código Penal é a seguinte:
+
+Art. 288.  Associarem-se 3 (três) ou mais pessoas, para o fim específico de cometer crimes:
+
+Pena - reclusão, de 1 (um) a 3 (três) anos.
+
+O núcleo do tipo penal é associarem-se (unirem-se) e a conduta típica consiste em associarem-se três ou mais pessoas para o fim específico de cometer crimes.
+
+Como bem observa Rogério Greco, para a consumação do crime de associação criminosa será preciso conjugar seu caráter de estabilidade, permanência, com a finalidade de praticar um número indeterminado de crimes. Logo, é muito mais que um mero ajuntamento ocasional ou encontro passageiro, transitório (típico de concurso de agentes).
+
+Observo que as acusadas, por meio de três condutas e ações diversas, praticaram três crimes, o estelionato (art. 171 do Código Penal), o uso de selo falsificado (art. 296, §1º, I, do Código Penal) e a associação criminosa (art. 288 do Código Penal).
+
+O art. 69 do Código Penal é expresso:
+
+Art. 69 - Quando o agente, mediante mais de uma ação ou omissão, pratica dois ou mais crimes, idênticos ou não, aplicam-se cumulativamente as penas privativas de liberdade em que haja incorrido. No caso de aplicação cumulativa de penas de reclusão e de detenção, executa-se primeiro aquela.
+
+Portanto, devem ser somadas as penas dos crimes, em razão do concurso material.
+
+3. Dispositivo:
+
+Ante o exposto, julgo procedente a ação e:
+
+a) CONDENO as rés CAMILA GOMES DA SILVA e DRIELLY BARROS CRISPIM DOS SANTOS, como incursa nas sanções dos artigos 171, caput; 296, §1º; e 288, caput, todos do Código Penal, na forma do art. 69 do mesmo diploma legal, por terem, em concurso e com divisão de tarefas, praticado fraude eletrônica mediante site falso de leilão, falsificação de selo público e associação criminosa voltada à prática de delitos patrimoniais.
+
+4. DOSIMETRIA
+
+Considerando as disposições do artigo 59 e seguintes do Código Penal, especialmente o artigo 68, que elegeu o sistema trifásico para a quantificação das sanções aplicáveis ao condenado, passo a fixar a sua pena.
+
+4.1. CAMILA GOMES DA SILVA
+
+a. Crime do Art. 171 do Código Penal:
+
+a) Circunstâncias judiciais (art. 59 do Código Penal)
+
+a.1) culpabilidade: No caso em tela, não desborda dos delitos desta espécie.
+
+a.2) antecedentes: Nesse passo, a denunciada não possui antecedentes criminais.
+
+a.3) conduta social: Não deve pesar em desfavor da denunciada.
+
+a.4) personalidade: Não há elementos aptos a identificar o perfil da personalidade da denunciada, não sendo possível presumir-se ser voltada para as atividades criminosas.
+
+a.5) motivos do crime: No caso em tela, os motivos são próprios do tipo, envolvendo a aquisição de lucro fácil.
+
+a.6) circunstâncias do crime: Entendo que deve ser valorado de forma negativa, visto que o crime foi cometido na internet, por intermédio de um site de Leilão de bens virtual falso, com a possibilidade de inúmeras outras pessoas, além da vítima, de caírem na fraude e assim serem prejudicadas.
+
+a.7) consequências do crime: As consequências são desfavoráveis à denunciada, tendo em vista que não houve a efetiva devolução do valor de R$ 47.250,00, que a vítima fez transferência bancária.
+
+a.8) comportamento da vítima: em nada influiu na prática do delito, razão pela qual esta circunstância não pode ser levada em consideração para aumentar a pena base.
+
+Considerando que há duas circunstâncias judiciais desfavoráveis, fixo a pena base em 01 (um ano) e 04 (quatro) meses de reclusão e 11 dias-multa.
+
+b) Circunstâncias atenuantes e agravantes
+
+Inexistem atenuantes e agravantes a serem consideradas.
+
+Assim, fixo a pena intermediária em 01 (um ano) e 04 (quatro) meses de reclusão e 11 dias-multa.
+
+c) Causas de diminuição e de aumento de pena
+
+Inexistem causas de diminuição e de aumento de pena a serem consideradas.
+
+Assim, a pena se mantém em 01 (um ano) e 04 (quatro) meses de reclusão e 11 dias-multa.
+
+b. Crime do art. 296, §1º, do Código Penal:
+
+a) Circunstâncias judiciais (art. 59 do Código Penal)
+
+a.1) culpabilidade: No caso em tela, não desborda dos delitos desta espécie.
+
+a.2) antecedentes: Nesse passo, a denunciada não possui antecedentes criminais.
+
+a.3) conduta social: Não deve pesar em desfavor da denunciada.
+
+a.4) personalidade: Não há elementos aptos a identificar o perfil da personalidade da denunciada, não sendo possível presumir-se ser voltada para as atividades criminosas.
+
+a.5) motivos do crime: Normais à espécie.
+
+a.6) circunstâncias do crime: Normais à espécie.
+
+a.7) consequências do crime: As consequências são desfavoráveis à denunciada, tendo em vista que não houve a efetiva devolução do valor de R$ 47.250,00, que a vítima fez transferência bancária.
+
+a.8) comportamento da vítima: em nada influiu na prática do delito, razão pela qual esta circunstância não pode ser levada em consideração para aumentar a pena base.
+
+Considerando que há uma circunstância judicial desfavorável, fixo a pena base em 02 (dois) anos e 04 (quatro) meses de reclusão e 11 dias-multa.
+
+b) Circunstâncias atenuantes e agravantes
+
+Inexistem atenuantes e agravantes a serem consideradas.
+
+Fixo a pena intermediária em 02 (dois) anos e 04 (quatro) meses de reclusão e 11 dias-multa.
+
+c) Causas de diminuição e de aumento de pena
+
+Inexistem causas de diminuição e de aumento de pena a serem consideradas.
+
+Assim, a pena se mantém em 02 (dois) anos e 04 (quatro) meses de reclusão e 11 dias-multa.
+
+c. Crime do art. 288 do Código Penal:
+
+a) Circunstâncias judiciais (art. 59 do Código Penal)
+
+a.1) culpabilidade: No caso em tela, não desborda dos delitos desta espécie.
+
+a.2) antecedentes: Nesse passo, a denunciada não possui antecedentes criminais.
+
+a.3) conduta social: Não deve pesar em desfavor da denunciada.
+
+a.4) personalidade: Não há elementos aptos a identificar o perfil da personalidade da denunciada, não sendo possível presumir-se ser voltada para as atividades criminosas.
+
+a.5) motivos do crime: No caso em tela, os motivos são próprios do tipo, envolvendo a aquisição de lucro fácil.
+
+a.6) circunstâncias do crime: Entendo que deve ser valorado de forma negativa, visto que a associação criminosa atua no meio virtual, por intermédio de um site de Leilão virtual falso, com a possibilidade de inúmeras outras pessoas, além da vítima, caírem em fraudes.
+
+a.7) consequências do crime: As consequências são desfavoráveis ao denunciado, tendo em vista que não houve a efetiva devolução do valor de R$ 47.250,00, que a vítima fez transferência bancária.
+
+a.8) comportamento da vítima: em nada influiu na prática do delito, razão pela qual tal circunstância não pode ser levada em consideração para aumentar a pena base.
+
+Considerando que há duas circunstâncias judiciais desfavoráveis, fixo a pena base em 01 (um) ano e 04 (quatro) meses.
+
+b) Circunstâncias atenuantes e agravantes
+
+Inexistem atenuantes e agravantes a serem consideradas.
+
+Fixo a pena intermediária em 01 (um) ano e 04 (quatro) meses.
+
+c) Causas de diminuição e de aumento de pena
+
+Inexistem causas de diminuição e de aumento de pena a serem consideradas.
+
+Assim, a pena se mantém em 01 (um) ano e 04 (quatro) meses.
+
+PENA DEFINITIVA E CONCURSO MATERIAL DE CRIMES:
+
+Em sendo aplicável a regra do concurso material, conforme prevista no artigo 69, do Código Penal, diante da existência de desígnios autônomos do agente na prática dos crimes, qual seja, estelionato (art. 171 do Código Penal), uso de selo falsificado (art. 296, §1º, inciso I, do Código Penal) e associação criminosa (art. 288 do Código Penal), FICA A RÉ CAMILA GOMES DA SILVA CONDENADA, DEFINITIVAMENTE, À PENA DE 05 (cinco) anos de reclusão e 22 (vinte e dois) dias-multa, TORNANDO-A CONCRETA E DEFINITIVA.
+
+4.2. DRIELLY BARROS CRISPIM DOS SANTOS
+
+a. Crime do Art. 171 do Código Penal:
+
+a) Circunstâncias judiciais (art. 59 do Código Penal)
+
+a.1) culpabilidade: No caso em tela, não desborda dos delitos desta espécie.
+
+a.2) antecedentes: Nesse passo, a denunciada não possui antecedentes criminais.
+
+a.3) conduta social: Não deve pesar em desfavor da denunciada.
+
+a.4) personalidade: Não há elementos aptos a identificar o perfil da personalidade da denunciada, não sendo possível presumir-se ser voltada para as atividades criminosas.
+
+a.5) motivos do crime: No caso em tela, os motivos são próprios do tipo, envolvendo a aquisição de lucro fácil.
+
+a.6) circunstâncias do crime: Entendo que deve ser valorado de forma negativa, visto que o crime foi cometido na internet, por intermédio de um site de Leilão de bens virtual falso, com a possibilidade de inúmeras outras pessoas, além da vítima, de caírem na fraude e assim serem prejudicadas.
+
+a.7) consequências do crime: As consequências são desfavoráveis à denunciada, tendo em vista que não houve a efetiva devolução do valor de R$ 47.250,00, que a vítima fez transferência bancária.
+
+a.8) comportamento da vítima: em nada influiu na prática do delito, razão pela qual esta circunstância não pode ser levada em consideração para aumentar a pena base.
+
+Considerando que há duas circunstâncias judiciais desfavoráveis, fixo a pena base em 01 (um ano) e 04 (quatro) meses de reclusão e 12 dias-multa.
+
+b) Circunstâncias atenuantes e agravantes
+
+Inexistem agravantes a serem consideradas.
+
+Concorre atenuantes de confissão qualificada.
+
+Assim, fixo a pena intermediária em 01 (um ano) e 01 (um) mês de reclusão e 10 dias-multa.
+
+c) Causas de diminuição e de aumento de pena
+
+Inexistem causas de diminuição e de aumento de pena a serem consideradas.
+
+Assim, a pena se mantém em 01 (um ano) e 01 (um) mês de reclusão e 10 dias-multa.
+
+b. Crime do art. 296, §1º, do Código Penal:
+
+a) Circunstâncias judiciais (art. 59 do Código Penal)
+
+a.1) culpabilidade: No caso em tela, não desborda dos delitos desta espécie.
+
+a.2) antecedentes: Nesse passo, a denunciada não possui antecedentes criminais.
+
+a.3) conduta social: Não deve pesar em desfavor da denunciada.
+
+a.4) personalidade: Não há elementos aptos a identificar o perfil da personalidade da denunciada, não sendo possível presumir-se ser voltada para as atividades criminosas.
+
+a.5) motivos do crime: Normais à espécie.
+
+a.6) circunstâncias do crime: Normais à espécie.
+
+a.7) consequências do crime: As consequências são desfavoráveis à denunciada, tendo em vista que não houve a efetiva devolução do valor de R$ 47.250,00, que a vítima fez transferência bancária.
+
+a.8) comportamento da vítima: em nada influiu na prática do delito, razão pela qual esta circunstância não pode ser levada em consideração para aumentar a pena base.
+
+Considerando que há uma circunstância judicial desfavorável, fixo a pena base em 02 (dois) anos e 04 (quatro) meses de reclusão e 11 dias-multa.
+
+b) Circunstâncias atenuantes e agravantes
+
+Inexistem atenuantes e agravantes a serem consideradas.
+
+Fixo a pena intermediária em 02 (dois) anos e 04 (quatro) meses de reclusão e 11 dias-multa.
+
+c) Causas de diminuição e de aumento de pena
+
+Inexistem causas de diminuição e de aumento de pena a serem consideradas.
+
+Assim, a pena se mantém em 02 (dois) anos e 04 (quatro) meses de reclusão e 11 dias-multa.
+
+c. Crime do art. 288 do Código Penal:
+
+a) Circunstâncias judiciais (art. 59 do Código Penal)
+
+a.1) culpabilidade: No caso em tela, não desborda dos delitos desta espécie.
+
+a.2) antecedentes: Nesse passo, a denunciada não possui antecedentes criminais.
+
+a.3) conduta social: Não deve pesar em desfavor da denunciada.
+
+a.4) personalidade: Não há elementos aptos a identificar o perfil da personalidade da denunciada, não sendo possível presumir-se ser voltada para as atividades criminosas.
+
+a.5) motivos do crime: No caso em tela, os motivos são próprios do tipo, envolvendo a aquisição de lucro fácil.
+
+a.6) circunstâncias do crime: Entendo que deve ser valorado de forma negativa, visto que a associação criminosa atua no meio virtual, por intermédio de um site de Leilão virtual falso, com a possibilidade de inúmeras outras pessoas, além da vítima, caírem em fraudes.
+
+a.7) consequências do crime: As consequências são desfavoráveis ao denunciado, tendo em vista que não houve a efetiva devolução do valor de R$ 47.250,00, que a vítima fez transferência bancária.
+
+a.8) comportamento da vítima: em nada influiu na prática do delito, razão pela qual tal circunstância não pode ser levada em consideração para aumentar a pena base.
+
+Considerando que há duas circunstâncias judiciais desfavoráveis, fixo a pena base em 01 (um) ano e 04 (quatro) meses.
+
+b) Circunstâncias atenuantes e agravantes
+
+Inexistem atenuantes e agravantes a serem consideradas.
+
+Fixo a pena intermediária em 01 (um) ano e 04 (quatro) meses.
+
+c) Causas de diminuição e de aumento de pena
+
+Inexistem causas de diminuição e de aumento de pena a serem consideradas.
+
+Assim, a pena se mantém em 01 (um) ano e 04 (quatro) meses.
+
+PENA DEFINITIVA E CONCURSO MATERIAL DE CRIMES:
+
+Em sendo aplicável a regra do concurso material, conforme prevista no artigo 69, do Código Penal, diante da existência de desígnios autônomos do agente na prática dos crimes, qual seja, estelionato (art. 171 do Código Penal), uso de selo falsificado (art. 296, §1º, inciso I, do Código Penal) e associação criminosa (art. 288 do Código Penal), FICA A RÉ DRIELLY BARROS CRISPIM DOS SANTOS CONDENADA, DEFINITIVAMENTE, À PENA DE 04 (quatro) anos e 09 (nove) meses de reclusão e 21 (vinte e um) dias-multa, TORNANDO-A CONCRETA E DEFINITIVA.
+
+5. REGIME DE CUMPRIMENTO DE PENA
+
+O regime de cumprimento de pena deverá ser inicialmente o SEMIABERTO, nos termos do artigo 33, § 2º, alínea "b", do Código Penal.
+
+6. DETRAÇÃO DO PERÍODO DE PRISÃO PROVISÓRIA
+
+Deixo de realizar a detração conforme comando preconizado no artigo 387, §2º, do CPP, na medida em que o tempo de prisão provisória não altera o regime inicial de cumprimento de pena a ser aplicado.
+
+7. SUBSTITUIÇÃO POR PENA RESTRITIVA DE DIREITOS E SUSPENSÃO CONDICIONAL DA PENA
+
+Incabível a substituição da pena, pois a quantidade de sanção estipulada ao condenado supera o limite do artigo 44, inciso I, do Código Penal.
+
+Não incide a suspensão condicional das penas (Código Penal, artigo 77), pois as sanções impostas superam o limite de 02 (dois) anos e não houve possibilidade legal de aplicação do artigo 44, do Código Penal.
+
+8. VALOR DO DIA MULTA
+
+Ao que consta dos autos, as condições econômicas do sentenciado não são boas, de sorte que arbitro o valor do dia multa em seu mínimo, ou seja, 1/30(um trigésimo) do salário-mínimo vigente na data dos fatos, devidamente atualizado.
+
+9. EM RELAÇÃO À PRISÃO:
+
+Concedo o direito de apelar em liberdade, vez que ausentes os requisitos do art. 312 do CPP.
+
+10. DA FIXAÇÃO DO VALOR MÍNIMO DE INDENIZAÇÃO (ART. 387, IV DO CPP).
+
+A Lei nº 11.719 de 20 de junho de 2008, que alterou a redação do artigo 387, inciso IV e do artigo 63, parágrafo único, do Código de Processo Penal, trouxe a alternativa de o magistrado fixar um valor mínimo para reparar os danos advindos do ato ilícito.
+
+Nesse diapasão, tem-se o disposto no artigo 91, inciso I do Código Penal, sendo que este dispositivo deu início à busca da valorização da vítima, pois foi através dele que houve a possibilidade de a vítima ter a reparação dos danos sofridos.
+
+Art. 91 - São efeitos da condenação:
+
+I - Tornar certa a obrigação de indenizar o dano causado pelo crime.
+
+levando-se em consideração a extensão do dano, a função pedagógica do dano moral, a capacidade econômica das partes, as peculiaridades da causa, a vedação ao enriquecimento ilícito e os princípios da proporcionalidade e da congruência, bem como para evitar decisão ultra petita, em atenção ao expressamente requerido pelo Ministério Público, mostra-se razoável, CONDENO as sentenciadas a pagarem a título de indenização mínima, o valor de R$ 47.250,00 (quarenta e sete mil e duzentos e cinquentas reais) em favor da vítima (art. 12, parágrafo único, do CC), a ser atualizado desde o arbitramento (Súmula nº 362 do STJ) e acrescido de juros de mora em 1% a partir do evento danoso (Súmula nº 54 do STJ).
+
+11. DISPOSIÇÕES FINAIS:
+
+1. Com base nos arts. 804 e 805 do CPP, deixo de condenar as sentenciadas nas custas processuais, em virtude de serem pobres e se enquadrarem na isenção legal, a teor dos arts. 34 e 35 da Lei de Custas do Estado do Pará (Lei Estadual nº 8.328, de 29/12/15).
+
+2. Em decorrência, cumpram-se as seguintes determinações:
+
+2. 1. Publique-se. Registre-se. Intimem-se;
+
+2. 2. Intime-se o representante do Ministério Público. (art. 370, §4º, do CPP), intime-se as sentenciadas pessoalmente e seus advogados.
+
+3. Ocorrendo trânsito em julgado da sentença, adotar as seguintes providências:
+
+Seja lançado o nome da Ré no rol dos culpados, bem como providenciar o registro no rol dos antecedentes criminais.
+
+Expeça-se guia de recolhimento definitivo (Resolução CNJ nº 474/2022). Observe-se: se pessoa condenada a regime semiaberto ou aberto estiver solta, o juiz do conhecimento não expedirá mais o mandado de prisão para início do cumprimento da pena. Em lugar do mandado de prisão, o juiz deverá expedir uma guia de recolhimento. Neste momento, deverá ser autuado o processo de execução penal no SEEU, quando, então, o juízo da execução deverá verificar se há disponibilidade de vaga em estabelecimento penal adequado ao regime semiaberto ou aberto. Havendo vaga no regime semiaberto, a pessoa condenada será intimada para iniciar o cumprimento da pena com possibilidade de expedição de "Mandado de prisão".
+
+Ficam suspensos os direitos políticos das Rés enquanto durarem todos os efeitos desta sentença, devendo ser realizada a comunicação ao Tribunal Regional Eleitoral.
+
+Comunique-se à Justiça Eleitoral e ao Instituto de Identificação;
+
+As Rés deverão recolher, no prazo de dez (10) dias, ao Fundo Penitenciário Nacional (FUNPEN), através da guia correspondente, a multa que lhes foi aplicada, sob pena de converter-se em dívida de valor;
+
+CERTIFIQUE-SE nos autos e EXPEÇA-SE Certidão de Ausência de Pagamento e, na forma do artigo 51 do CP;
+
+Servirá o presente, por cópia digitada, como mandado e/ou ofício, nos termos dos Provimentos 003/2009-CJCI, de 05.03.2009, e 003/2009-CJRMB, de 22.01.2009, com a redação que lhe deu o Provimento n. 011/2009-CJRMB, de 03.03.2009.
+
+Caso necessário, expeça-se carta precatória.
+
+Publique-se. Registre-se. Intimem-se. Cumpra-se.
+
+Castanhal, 17 de julho de 2025
+
+DANIEL BEZERRA MONTENEGRO GIRÃO
+
+Juiz de Direito

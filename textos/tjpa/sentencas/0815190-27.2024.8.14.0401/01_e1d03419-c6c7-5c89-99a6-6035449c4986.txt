@@ -1,0 +1,147 @@
+[Texto nativo do PJe]
+
+6ª Vara Criminal da Capital
+
+S E N T E N Ç A
+
+Processo nº 0815190-27.2024.8.14.0401
+
+Acusado: Antonio Henrique Belarmino Neres
+
+Vítima: Vera Lúcia Batista Fleck
+
+Capitulação Penal: Art. 171, § 2º-A, do Código Penal
+
+1. RELATÓRIO
+
+Trata-se de Ação Penal Pública movida pelo Ministério Público do Estado do Pará em desfavor de ANTONIO HENRIQUE BELARMINO NERES, devidamente qualificado nos autos, imputando-lhe a prática do crime de estelionato na modalidade fraude eletrônica, majorado pelo uso de servidor mantido fora do território nacional, conforme o Art. 171, § 2º-A e § 2º-B, do Código Penal.
+
+O Ministério Público narrou na Denúncia (ID 127528923) que, em 12 de abril de 2024, por volta das 10h, a vítima VERA LÚCIA BATISTA FLECK recebeu uma ligação telefônica de um indivíduo que se identificou falsamente como gerente do Banco do Estado do Pará (BANPARÁ). O fraudador informou a vítima sobre supostas compras suspeitas realizadas com seus dados bancários e, por meio desse ardil, a induziu a fornecer seus dados pessoais e a instalar o aplicativo de acesso remoto AnyDesk Remote Desktop em seu aparelho celular. Logo depois, a vítima foi alertada pelo próprio banco sobre uma transação suspeita. Ao comparecer à agência bancária, constatou que havia sido efetuado um empréstimo consignado em seu nome no valor de R$ 13.000,00 (treze mil reais), dos quais R$ 12.900,00 (doze mil e novecentos reais) foram transferidos via TED para a conta de titularidade do acusado, Antonio Henrique Belarmino Neres.
+
+A investigação policial demonstrou que o acesso para a realização das transações fraudulentas tentou ser mascarado por meio de um endereço IP vinculado a um servidor no Reino Unido, embora o endereço IP utilizado na transferência do TED fosse rastreado à Vivo. Os dados cadastrais fornecidos pelo banco PagSeguro e pelo Google vincularam a conta de destino do valor desviado ao réu ANTONIO HENRIQUE BELARMINO NERES, comprovando a autoria.
+
+A denúncia foi recebida em 25 de setembro de 2024 (ID 127543548).
+
+O acusado foi citado por meio de Carta Precatória (ID 134855893), e a Defensoria Pública apresentou Resposta à Acusação (ID 134944704).
+
+Não sendo acolhida a tese de absolvição sumária, a instrução processual prosseguiu com a designação de audiência de instrução e julgamento para 19 de agosto de 2025 (ID 135045446).
+
+Em audiência de instrução (ID 154637189), foi ouvida a vítima VERA LÚCIA BATISTA FLECK. O réu ANTONIO HENRIQUE BELARMINO NERES optou por não se manifestar, exercendo o direito constitucional de permanecer em silêncio durante seu interrogatório judicial. Não houve requerimento de diligências complementares (Art. 402 do Código de Processo Penal).
+
+Em sede de Alegações Finais, o Ministério Público (ID 156065243) pugnou pela condenação do réu nos termos da denúncia, pelo crime tipificado no Art. 171, § 2º-A e § 2º-B, do Código Penal, por entender comprovadas a autoria e materialidade delitiva.
+
+A Defensoria Pública (ID 156581276) pleiteou, em resumo, a absolvição de ANTONIO HENRIQUE BELARMINO NERES por insuficiência de provas, com base no Art. 386, inciso VII, do Código de Processo Penal, em aplicação do princípio in dubio pro reo. Subsidiariamente, requereu a fixação da pena no mínimo legal, o estabelecimento do regime aberto, a substituição da pena privativa de liberdade por restritivas de direitos e a isenção de custas processuais.
+
+É o relatório. Decido.
+
+2. FUNDAMENTAÇÃO
+
+Trata-se de ação penal em que se imputa ao réu ANTONIO HENRIQUE BELARMINO NERES a prática do crime de estelionato qualificado pelo uso de fraude eletrônica, conforme o Art. 171, § 2º-A, do Código Penal.
+
+A pretensão punitiva estatal merece acolhimento em parte.
+
+2.1. Da Materialidade e da Autoria Delitivas
+
+A materialidade e a autoria do delito de estelionato mediante fraude eletrônica restaram plenamente comprovadas.
+
+A materialidade do crime está demonstrada por meio das provas documentais produzidas na fase inquisitorial, ratificadas em juízo, notadamente o Termo de Declaração da Vítima (ID 121280697 - pág. 7), o Extrato de Conta Corrente da vítima que comprova o empréstimo de R$ 13.000,00 e a transferência (TED) de R$ 12.900,00 (ID 121280697 - pág. 10), e o Comprovante de TED (ID 121280697 - pág. 9) que indica como destinatário ANTONIO HENRIQUE BELARMINO NERES, CPF 577.121.808-14 (Conta PagSeguro).
+
+A autoria é confirmada pelo conjunto probatório, em especial pelo depoimento da vítima e pelos documentos que rastrearam o destino final do dinheiro fruto da fraude.
+
+A vítima VERA LÚCIA BATISTA FLECK, em juízo, detalhou a dinâmica do golpe: o recebimento da ligação do falso gerente do BANPARÁ, a indução a instalar o aplicativo de acesso remoto AnyDesk Remote Desktop e a subsequente concretização das transações fraudulentas, resultando no prejuízo financeiro. Esse modus operandi - indução da vítima a erro por meio de contato telefônico fraudulento e uso de ferramenta de acesso remoto para obtenção de dados pessoais e efetivação do golpe - caracteriza a fraude eletrônica prevista no Art. 171, § 2º-A, do Código Penal.
+
+As provas documentais, como a informação de que a transferência de R$ 12.900,00 foi realizada diretamente para uma conta de titularidade do réu, vinculam o acusado ao resultado danoso, demonstrando que ele foi o beneficiário direto da vantagem ilícita obtida em prejuízo da vítima. O fato de o réu ter permanecido em silêncio em seu interrogatório judicial, embora seja um direito constitucional, não mitiga a robustez das provas documentais e testemunhais que convergem para sua responsabilidade criminal.
+
+Portanto, a conduta do réu ANTONIO HENRIQUE BELARMINO NERES amolda-se integralmente ao tipo penal do estelionato majorado por fraude eletrônica, previsto no Art. 171, § 2º-A, do Código Penal.
+
+2.2. Do Afastamento da Causa de Aumento do Art. 171, § 2º-B, do CP
+
+A denúncia imputou ao réu também a causa de aumento prevista no Art. 171, § 2º-B, do Código Penal, referente à utilização de servidor mantido fora do território nacional.
+
+Embora o inquérito policial tenha apontado que a primeira tentativa de acesso (empréstimo consignado) ocorreu por meio de um IP internacional (vias VPN, vinculado ao Reino Unido), e o Art. 171, § 2º-B, CP, exija a comprovação de que o crime foi praticado mediante o uso de servidor mantido fora do território nacional, não houve a produção de prova que demonstrasse, de forma clara e indubitável, que o acusado utilizou servidor mantido fora do território para praticar o delito. Conforme a própria investigação, o acesso relacionado à transferência do TED de R$ 12.900,00 para a conta do réu foi rastreado a um IP no Brasil, vinculado à operadora Vivo.
+
+Considerando a exigência da prova robusta para a caracterização de majorantes e agravantes, e a ausência de certeza de que o réu se valeu de servidor no exterior para a consumação do estelionato, impõe-se o afastamento da causa de aumento prevista no Art. 171, § 2º-B, do Código Penal.
+
+3. DISPOSITIVO
+
+Ante o exposto, e por tudo mais que dos autos consta, julgo PROCEDENTE a pretensão punitiva estatal deduzida na denúncia para CONDENAR o réu ANTONIO HENRIQUE BELARMINO NERES, já qualificado nos autos, como incurso nas sanções do Artigo 171, § 2º-A, do Código Penal.
+
+Passo à dosimetria da pena, em estrita observância ao critério trifásico estabelecido no Artigo 68 do Código Penal.
+
+3.1. Dosimetria da Pena Privativa de Liberdade
+
+1ª Fase - Pena-Base (Art. 59 do CP)
+
+A pena abstrata cominada para o crime de estelionato mediante fraude eletrônica (Art. 171, § 2º-A, CP) é de reclusão de 4 (quatro) a 8 (oito) anos e multa.
+
+As circunstâncias judiciais do Art. 59 do CP - culpabilidade, antecedentes, conduta social, personalidade do agente, motivos, circunstâncias e consequências do crime, e comportamento da vítima - serão valoradas de forma neutra, dada a ausência de elementos concretos capazes de justificar a exasperação da pena.
+
+Assim, fixo a pena-base no mínimo legal, ou seja, em 4 (quatro) anos de reclusão e multa.
+
+2ª Fase - Pena Provisória
+
+Verifica-se a presença da atenuante da menoridade relativa, prevista no Artigo 65, inciso I, do Código Penal. O réu ANTONIO HENRIQUE BELARMINO NERES nasceu em 09/09/2004 e, na data dos fatos (12/04/2024), contava com 19 (dezenove) anos de idade, sendo, portanto, menor de 21 (vinte e um) anos.
+
+Ainda que reconhecida a atenuante, a pena-base foi estabelecida no mínimo legal de 4 (quatro) anos de reclusão. Nos termos da Súmula 231 do Superior Tribunal de Justiça, a incidência de circunstância atenuante não pode conduzir à redução da pena abaixo do mínimo legal.
+
+Dessa forma, mantenho a pena provisória em 4 (quatro) anos de reclusão e multa.
+
+3ª Fase - Pena Definitiva
+
+Conforme fundamentado (item 2.2), fica afastada a causa de aumento prevista no Art. 171, § 2º-B, do CP. Não há outras causas de diminuição ou de aumento de pena aplicáveis.
+
+Torno a pena definitiva em 4 (quatro) anos de reclusão.
+
+Da Pena de Multa
+
+Tendo em vista a pena privativa de liberdade fixada, e a inexistência de elementos concretos sobre a situação econômica do réu, fixo a pena de multa em 10 (dez) dias-multa, no valor de 1/30 (um trigésimo) do salário-mínimo vigente à época dos fatos.
+
+3.2. Do Regime Inicial de Cumprimento da Pena
+
+Considerando o quantum da pena aplicada (4 anos de reclusão), o fato de a pena-base ter sido fixada no mínimo legal e a ausência de reincidência, estabeleço o regime inicial aberto para o cumprimento da pena privativa de liberdade, nos termos do Art. 33, § 2º, alínea c, do Código Penal.
+
+3.3. Da Substituição da Pena Privativa de Liberdade
+
+Uma vez que a pena aplicada não excede a 4 (quatro) anos, que o crime foi cometido sem violência ou grave ameaça à pessoa e que as circunstâncias judiciais do art. 59 do CP foram favoráveis, com a fixação da pena-base no mínimo legal, promovo a substituição da pena privativa de liberdade por duas penas restritivas de direitos, na forma do Art. 44, § 2º, e Art. 46, ambos do Código Penal.
+
+Substituo a pena privativa de liberdade de 4 (quatro) anos de reclusão pelas seguintes penas restritivas de direitos:
+
+a) Prestação Pecuniária: Pagamento de 3 (três) salários-mínimos vigentes à vítima, na forma do Art. 45, § 1º, do Código Penal. Este valor deverá ser atualizado monetariamente desde a data desta sentença.
+
+b) Prestação de Serviços à Comunidade: Pelo tempo da condenação (4 anos), em entidade a ser designada pelo Juízo das Execuções Penais, a razão de uma hora de tarefa por dia de condenação, na forma do Art. 46 do Código Penal.
+
+3.4. Da Reparação dos Danos (Art. 387, IV, do CPP)
+
+Em conformidade com o Art. 387, inciso IV, do Código de Processo Penal, e considerando as provas colhidas, condeno o réu ANTONIO HENRIQUE BELARMINO NERES ao pagamento de indenização à vítima VERA LÚCIA BATISTA FLECK, como forma de compensar os prejuízos decorrentes da infração, no valor de 1 (um) salário-mínimo.
+
+3.5. Do Direito de Recorrer em Liberdade
+
+Concedo ao réu o direito de recorrer em liberdade, tendo em vista o regime inicial fixado (aberto) e a substituição da pena privativa de liberdade, inexistindo motivos para a decretação ou manutenção de prisão cautelar.
+
+3.6. Das Custas Processuais
+
+Condeno o réu ao pagamento das custas processuais. Tendo em vista que o acusado é assistido pela Defensoria Pública, fica a exigibilidade de tal verba suspensa pelo prazo de 05 (cinco) anos, nos termos da legislação processual civil aplicável.
+
+4. PROVIDÊNCIAS FINAIS
+
+Após o trânsito em julgado desta sentença:
+
+a) Lance-se o nome do réu no rol dos culpados.
+
+b) Expeça-se a competente Guia de Execução Definitiva.
+
+c) Comunique-se à Justiça Eleitoral para os fins do Art. 15, inciso III, da Constituição Federal.
+
+d) Comunique-se ao órgão de identificação criminal.
+
+Intimem-se o Ministério Público, a Defensoria Pública e o réu pessoalmente.
+
+Publique-se. Registre-se. Cumpra-se.
+
+Belém/PA, data e assinatura registradas eletronicamente.
+
+ANDREA FERREIRA BISPO
+
+Juíza de Direito
+
+Titular da 6ª Vara Criminal de Belém

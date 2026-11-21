@@ -1,19 +1,21 @@
 # FGV_TJPA
 
-Repositório do projeto de pesquisa em criminologia informática: bases processuais e documentos de análise sobre a fraude e o acesso informático mediados por tecnologia, construídos com processos judiciais e consulta pública de tribunais. Reúne duas frentes: a base de 130 casos de consulta pública do TJSP, com sentenças e documentação, e a base processual da fase 1 (TJSP), capturada por cjpg, DataJud e Codex, com as notas analíticas.
+Repositório do projeto de pesquisa em criminologia informática: bases processuais e documentos de análise sobre a fraude e o acesso informático mediados por tecnologia, construídos com processos judiciais e consulta pública de tribunais. Reúne duas frentes: a base de 130 casos de consulta pública do TJSP, com sentenças e documentação, e a base processual das fases 1 (TJSP, capturada por cjpg, DataJud e Codex, com as notas analíticas) e 2 (TJPA, capturada pelo DJEN e pelo Codex).
 
 | Pasta | Conteúdo |
 | --- | --- |
 | `sentencas_tjsp_base100/` | Base de 130 casos do TJSP (furto mediante fraude eletrônica, fraude eletrônica e invasão de dispositivo), com íntegras das sentenças, `indice.csv`, `fichas.jsonl`, a planilha exportada (`planilha/`) e a coleta com seus scripts (`coleta/`) |
 | `documentacao_projeto/` | Nota metodológica da base, análise contrafactual dos casos, quadro da Convenção de Budapeste e quadro de visibilidade nas TPU, com índice dos documentos e das versões editáveis |
 | `roteiro_aula_magistrados/` | Roteiro de aula para magistrados e assessores sobre quinze casos da base, em Markdown e Word |
-| `docs/`, `scripts/`, `dados/`, `textos/`, `consultas/` | Base processual da fase 1 (TJSP): plano de captura, linhas de pesquisa, roteiros, amostra de 200 denúncias e suas sentenças, extração, codificação e análises das questões 1 a 7; e as séries oficiais do estelionato eletrônico (Anuário do FBSP, censo do Pará, fraudes no Pix do BCB); mapa detalhado abaixo |
+| `docs/`, `scripts/`, `dados/`, `textos/`, `consultas/` | Base processual da fase 1 (TJSP) e da fase 2 (TJPA, em `dados/djen/`, `dados/codex_tjpa/` e `textos/tjpa/`): plano de captura, linhas de pesquisa, roteiros, amostra de 200 denúncias e suas sentenças, extração, codificação e análises das questões 1 a 7; e as séries oficiais do estelionato eletrônico (Anuário do FBSP, censo do Pará, fraudes no Pix do BCB); mapa detalhado abaixo |
 
 Os textos das sentenças e das denúncias trazem os nomes de réus, vítimas e testemunhas como publicados ou como lidos nos autos; as fichas e a planilha da base de 130 casos os omitem. Não redistribuir os textos sem anonimização.
 
-## Base processual da fase 1 (TJSP)
+## Base processual das fases 1 (TJSP) e 2 (TJPA)
 
-Base processual para um exame cibercriminológico da fraude mediada por tecnologia, construída apenas com processos judiciais. A consulta pública de julgados do tribunal fornece os números de processo, e o Codex (PDPJ) lê as peças. O texto lido vai para o repositório.
+Base processual para um exame cibercriminológico da fraude mediada por tecnologia, construída apenas com processos judiciais. A consulta pública de julgados do tribunal fornece os números de processo (no TJPA, que não tem consulta de sentenças de 1º grau, a API pública do DJEN), e o Codex (PDPJ) lê as peças. O texto lido vai para o repositório.
+
+Fase 2 (TJPA), em 21/11/2026: a lista de 299 números saiu do DJEN, com 225 de ação penal ou apelação criminal, e o Codex leu a denúncia de 191 deles e a sentença ou decisão terminativa de 115, com a rota ajustada ao TJPA, onde o inquérito e a ação penal têm o mesmo número. O roteiro, o estado e as lições estão em `docs/RUNBOOK_TJPA.md`; a extração dos campos ainda não foi feita.
 
 Estado em 21/11/2026: a coleta da fase 1 (TJSP) está encerrada para fins de análise, com a amostra de 200 denúncias (INV 36 em censo, CL 50, FE 114) e as sentenças de 197 delas gravadas, extraídas por regras e codificadas (36 denúncias à mão e 164 de forma assistida, estas pendentes de conferência humana), e a análise criminológica tem as questões 1 a 7 feitas, as três primeiras conferidas por segundo leitor cego numa amostra de 34 denúncias e 50 sentenças, com notas em `docs/analise/`. O plano de exame em aula das sete questões, em 16 casos, está em `docs/aula/plano-exame-casos.md`. O estado, as decisões e os próximos passos estão em `docs/HANDOFF.md`, que é o ponto de partida de qualquer sessão nova. Os números-alvo vieram da Consulta de Julgados de 1º Grau do e-SAJ (cjpg), por busca textual, porque o TJSP quase não usa os códigos TPU que nomeiam o tipo. O DataJud fica como denominador. O recorte TJPA será replanejado depois.
 
@@ -24,7 +26,12 @@ Estado em 21/11/2026: a coleta da fase 1 (TJSP) está encerrada para fins de an�
 | `docs/HANDOFF.md` | Estado da pesquisa, decisões, próximos passos e modo de operar o Codex; ler primeiro |
 | `docs/plano-captura.md` | Plano completo: recorte, achados da sondagem, escada de captura, amostragem, livro de códigos, regra de seleção das peças, dado pessoal, riscos |
 | `docs/linhas-de-pesquisa.md` | Arquitetura das linhas de pesquisa em criminologia informática que o livro de códigos serve |
-| `docs/RUNBOOK.md` | Roteiro da coleta do TJPA (fases, ritmo, IDs do documento do plano) |
+| `docs/RUNBOOK.md` | Roteiro da coleta noturna do TJPA pelo DataJud (19 e 20/11/2026), substituído na porta de entrada pelo `RUNBOOK_TJPA.md` |
+| `docs/RUNBOOK_TJPA.md` | Fase 2: números-alvo pela API do DJEN (semântica da busca, consultas, vieses), localização da denúncia no Codex do TJPA, custo e pendências |
+| `scripts/djen_alvos.py` | Números-alvo pela API pública do DJEN: cinco rótulos de consulta por frase, união por id, filtro de classe, indicadores e consolidação por número, sem nomes de pessoas (só biblioteca padrão; roda no computador do usuário) |
+| `scripts/djen_navegador.js` | Mesmo coletor para rodar numa aba do comunica.pje.jus.br (via da sondagem de 21/11/2026) |
+| `scripts/testes/djen_fixture.json` | Fixture sintética da resposta do DJEN para testar o coletor (`--teste`) |
+| `dados/djen/` | Lista de alvos do TJPA (`alvos_djen_tjpa.csv`, 299 números) e totais por frase, rótulo e classe, com a série de controle de cobertura (`totais_tjpa.json`) |
 | `docs/RUNBOOK_TJSP.md` | Fase 1: números-alvo pelo cjpg, localização da denúncia no Codex, gravação do texto lido, campos do corpus, achados do piloto |
 | `scripts/cjpg_alvos.py` | Números-alvo do TJSP pela Consulta de Julgados de 1º Grau: quatro consultas textuais, indicadores de precisão, consolidação por número (só biblioteca padrão) |
 | `scripts/cjpg_navegador.js` | Mesmo coletor para rodar numa aba do cjpg (via do piloto) |
@@ -98,9 +105,19 @@ python scripts/cjpg_alvos.py --teste scripts/testes/cjpg_fixture.html  # testa o
 
 O script guarda cada resultado em `dados/cjpg/bruto/<rótulo>.jsonl`, retoma pelas páginas feitas, espera 3 s entre requisições e para, sem contornar, se a resposta trouxer CAPTCHA ou erro repetido. O sorteio por DataJud (`scripts/sorteio_datajud_tjsp.py`) continua no repositório para o censo de comparação.
 
+## Como gerar a lista de alvos do TJPA
+
+```bash
+python scripts/djen_alvos.py --fim 2026-11-20         # cinco rótulos, em dados/djen/
+python scripts/djen_alvos.py --controle estelionato   # série de cobertura por ano
+python scripts/djen_alvos.py --teste                  # testa o coletor sem rede
+```
+
+Do workspace da sessão a API devolve 403; o script roda no computador do usuário, e o `scripts/djen_navegador.js` roda numa aba do comunica.pje.jus.br.
+
 ## Cuidados
 
 - A chave do DataJud nos scripts é a chave pública que o próprio CNJ publica para todos os usuários; pode ser substituída pela variável `DATAJUD_API_KEY`.
 - Decisão de 20/11/2026: o texto lido das peças entra no repositório, sem pseudonimização e sem o arquivo original. O repositório passou a público em 21/11/2026.
 - Nenhum link de peça entra no repositório: a linha `Original:` do Codex traz token de acesso.
-- Publicações derivadas devem citar o TJSP (Consulta de Julgados de 1º Grau) como fonte dos números, e CNJ e DataJud quando o censo por código for usado (Portaria CNJ 160/2020, art. 4º, na redação da Portaria 374/2026).
+- Publicações derivadas devem citar o TJSP (Consulta de Julgados de 1º Grau) e o DJEN (CNJ) como fonte dos números, e CNJ e DataJud quando o censo por código for usado (Portaria CNJ 160/2020, art. 4º, na redação da Portaria 374/2026).

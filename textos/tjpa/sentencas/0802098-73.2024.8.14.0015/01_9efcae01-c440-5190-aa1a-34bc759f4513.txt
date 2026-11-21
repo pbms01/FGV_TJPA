@@ -1,0 +1,789 @@
+[Texto nativo do PJe]
+
+Processo
+& Judicial
+Eletrônico
+é
+
+TRIBUNAL DE JUSTIÇA
+DO ESTADO DO PARÁ
+Processo nº: 0802098-73.2024.8.14.0015
+
+Assunto: [Estelionato, Estelionato Majorado ]
+
+AUTORIDADE: DIVISAO DE COMBATE A CRIMES ECONOMICOS E PATRIMONIAIS PRATICADOS POR MEIOS CIBERNETICOS
+AUTOR: MINISTÉRIO PÚBLICO DO ESTADO DO PARÁ MPPA
+
+REU: EDUARDO BELARMINO SILVA, MICAEL BRASIL ANDRADE
+
+Nome: EDUARDO BELARMINO SILVA
+Endereço: UPR de Imperatriz/MA
+Nome: MICAEL BRASIL ANDRADE
+Endereço: Rua Maria Francisca, ., px Quadra Poliesportiva, Povoado Bananal, GOVERNADOR EDSON LOBãO - MA - CEP: 65928-000
+
+Advogado(s) do reclamado: RAFAEL HAWDENING MATOS BANDEIRA, JOSE SALES RIBEIRO JUNIOR REGISTRADO(A) CIVILMENTE COMO JOSE SALES RIBEIRO JUNIOR, JOAO PAULO DOS SANTOS SOUSA
+
+SENTENÇA / MANDADO / OFÍCIO
+
+RH
+
+1. RELATÓRIO:
+
+O Ministério Público do Estado do Pará ofereceu denúncia em face de Eduardo Belarmino Silva, Micael Brasil Andrade e José Mario dos Santos Junior por incurso nos arts. 171, § 2º-A (6x), 288 e 69, ambos do Código Penal Brasileiro, sendo indicado por vítimas Josinete Pereira Souza, Jocyemília Nazaré Durans Marques, Maria da Assunção Viana de Andrade, Gleicy Glenda Gonçalves de Oliveira Sousa, Rosilene Lima Magno de Souza e Cliene do Socorro Sena Rodrigues.
+
+A denúncia narra o seguinte (literal):
+
+[...] Noticiam os presentes autos de Inquérito Policial que, conforme relatado nos Boletins de Ocorrência Policiais n.º 00280/2023.108516-6, 00001/2023.100387-9, 00615/2023.102487-2, 00277/2023.637600-3, 00615/2023.102264-5 e 00008/2023.105710-2, nesta Cidade, por meio virtual, os Denunciados EDUARDO BELARMINO SILVA, JOSE MARIO DOS SANTOS JUNIOR, MICAEL BRASIL ANDRADE, em concurso de pessoas, com unidade de desígnios e completo domínio dos fatos, em ASSOCIAÇÃO CRIMINOSA, prévia, estável e permanente, voltada para a prática de cibercrimes patrimoniais, OBTIVERAM, para si, vantagem ilícita, em prejuízo alheio, no valor total de R$ 5.317,81 (cinco mil e trezentos e dezessete reais e oitenta e um centavos), induzindo e mantendo as vítimas JOSINETE PEREIRA SOUZA, JOCYEMÍLIA DE NAZARÉ DURANS MARQUES, CLIENE DO SOCORRO SENA RODRIGUES, MARIA DA ASSUNÇÃO VIANA DE ANDRADE, GLEICY GLENDA GONÇALVES DE OLIVEIRA SOUSA e ROSILENE LIMA MAGNO SOUZA, em erro, mediante artifício, ardil e outros meios fraudulentos, consistente na criação de um sítio eletrônico fraudulento que simula o endereço da concessionária de serviços públicos EQUATORIAL ENERGIA, bem como a criação de CNJP intitulado RECOLHI PAG ENERGIA, sob número 51.915.976/0001-25, e, finalmente, criação de conta bancária junto às instituições financeiras para emissão de boletos falsos e consequentemente o recebimento de valores fraudulentos oriundos do esquema criminoso, com prejuízo distribuído da seguinte forma:
+
+JOSINETE PEREIRA SOUZA 327,04 JOCYEMÍLIA DE NAZARÉ DURANS MARQUES 1.062,84 CLIENE DO SOCORRO SENA RODRIGUES 1.995,42 MARIA DA ASSUNÇÃO VIANA DE ANDRADE 529,92 GLEICY GLENDA GONÇALVES DE OLIVEIRA SOUSA 714,77 ROSILENE LIMA MAGNO SOUZA 687,46 Total 5.317,81.
+
+A investigação policial evidenciou a existência de um ESQUEMA DE ESTELIONATO MEDIANTE FRAUDE ELETRÔNICA, no qual os Denunciados atuaram com divisão de tarefas claramente definida:
+
+EDUARDO BELARMINO DA SILVA: Utilizando-se de documentos pessoais, criou o CNPJ 51.915.976/0001-25, sob a denominação "RECOLHI PAG ENERGIA", bem como abriu contas bancárias em instituições financeiras, servindo como a ponte final para o recebimento dos valores oriundos dos boletos fraudulentos. Eduardo confessou ter conhecimento da origem ilícita dos valores e de ter recebido um percentual sobre os montantes fruto da fraude.
+
+JOSÉ MAURO DOS SANTOS JUNIOR: Identificado como o indivíduo que cooptou Eduardo para participar do esquema, José Mauro foi peça chave no planejamento das ações, desde a criação do site fraudulento até a emissão dos boletos que simulavam débitos legítimos da concessionária EQUATORIAL ENERGIA. Sua participação foi crucial na orquestração do golpe e na distribuição dos papéis entre os envolvidos.
+
+MICAEL BRASIL ANDRADE: Destinatário final das transferências efetuadas por Eduardo, oriundas dos valores arrecadados fraudulentamente. Sua função no esquema era de redistribuir o dinheiro de forma a dificultar o rastreamento dos valores e lavar o produto do crime.
+
+O ESQUEMA FUNCIONAVA DA SEGUINTE MANEIRA: um site fraudulento que replicava a interface da EQUATORIAL ENERGIA era utilizado para induzir as vítimas a emitir e pagar boletos falsos, que aparentavam ser cobranças legítimas da concessionária. Os valores pagos eram então direcionados para a conta vinculada ao CNPJ criado por Eduardo, sendo posteriormente redistribuídos aos demais envolvidos.
+
+Dessa forma, conforme apurado pela autoridade policial, os Denunciados EDUARDO BELARMINO SILVA, JOSE MARIO DOS SANTOS JUNIOR, MICAEL BRASIL ANDRADE, em concurso de pessoas, com unidade de desígnios e completo domínio dos fatos, em ASSOCIAÇÃO CRIMINOSA, prévia, estável e permanente, voltada para a prática de cibercrimes patrimoniais, engendraram e executaram um esquema fraudulento de grande envergadura, consistindo na criação de um sítio eletrônico falso, que imitava o endereço eletrônico da concessionária de serviços públicos EQUATORIAL ENERGIA, bem como a formação de uma empresa fictícia denominada RECOLHI PAG ENERGIA, com o CNPJ 51.915.976/0001-25, utilizada para abrir contas bancárias em instituições financeiras diversas, com o propósito de emitir e receber pagamentos por meio de boletos fraudulentos.
+
+A partir desse artifício, os Denunciados EDUARDO BELARMINO SILVA, JOSE MARIO DOS SANTOS JUNIOR, MICAEL BRASIL ANDRADE lograram êxito em induzir em erro as vítimas JOSINETE PEREIRA SOUZA, JOCYEMÍLIA DE NAZARÉ DURANS MARQUES, CLIENE DO SOCORRO SENA RODRIGUES, MARIA DA ASSUNÇÃO VIANA DE ANDRADE, GLEICY GLENDA GONÇALVES DE OLIVEIRA SOUSA e ROSILENE LIMA MAGNO SOUZA, além de outros mencionados nos autos, causando-lhes prejuízos financeiros que totalizaram o montante de R$ 5.317,81.
+
+O modus operandi empregado pelos Denunciados EDUARDO BELARMINO SILVA, JOSE MARIO DOS SANTOS JUNIOR, MICAEL BRASIL ANDRADE envolveu não apenas a criação dos meios eletrônicos fraudulentos, mas também a exploração da confiança das vítimas na regularidade dos procedimentos para pagamento de contas de consumo, demonstrando a sofisticação e a premeditação das ações delitivas.
+
+Portanto, foi constatado no curso das investigações que os Denunciados EDUARDO BELARMINO SILVA, JOSE MARIO DOS SANTOS JUNIOR, MICAEL BRASIL ANDRADE tratam-se de ESTELIONATÁRIOS PROFISSIONAIS, que realizam cibercrimes patrimoniais de forma estável e permanente por tempo juridicamente relevante, isto é, em ASSOCIAÇÃO CRIMINOSA, havendo relatos, inclusive recentes, da existência de outras vítimas, inclusive em outras Comarcas, sendo decretada a prisão preventiva do Denunciado EDUARDO BELARMINO SILVA, em razão dos sucessivos abalos à ordem pública e reiteração delitiva.
+
+[...].
+
+A denúncia foi recebida em 20/03/2024 - id. 111574392 - Pág. 1.
+
+O réu Eduardo Belarmino Silva foi citado - id. 114352518 - Pág. 3 e apresentou resposta à acusação - id. 115059027 - Pág. 1/2.
+
+O réu Micael Brasil Andrade foi citado - id. 115107868 - Pág. 33 e apresentou resposta à acusação - id. 117389045 - Pág. 1/3.
+
+O réu José Mario dos Santos Junior não foi encontrado para ser citado - id. 117430497 - Pág. 4.
+
+Houve o desmembramento dos autos, mantendo apenas Eduardo Belarmino Silva e Micael Brasil Andrade nos autos de n. 0802098-73.2024.8.14.0015.
+
+Foi ratificado o recebimento da denúncia e designada a audiência de instrução para o dia 13/08/2024, às 11h30min - id. 118491322.
+
+Foi certificado o desmembramento - id. 118764068 - Pág. 1.
+
+A audiência foi realizada na data designada, conforme o termo de id. 123065455, sendo aplicado o art. 367 do CPP ao réu Micael Brasil Andrade, por não ter comparecido à audiência de instrução, mesmo intimado. Após, foram ouvidas as vítimas e testemunhas de acusação e de defesa. Em seguida, foi feito o interrogatório do acusado Eduardo Belarmino Silva.
+
+Memoriais do Ministério Público nos autos - id. 124610051 - Pág. 1/8.
+
+Memoriais de Eduardo Belarmino Silva nos autos - id. 124770758 - Pág. 1/6.
+
+Memoriais de Micael Brasil Andrade nos autos - id. 127370021 - Pág. 1/4.
+
+O réu Eduardo Belarmino Silva está custodiado preventivamente desde 29/02/2024.
+
+2. FUNDAMENTAÇÃO:
+
+Cuida-se de ação penal intentada pela possível prática dos crimes previstos nos arts. 171, § 2º-A (6x), 288 e 69, ambos do Código Penal Brasileiro, em que constam os réus Eduardo Belarmino Silva e Micael Brasil Andrade.
+
+Ao exame dos autos, verifico estarem presentes os pressupostos processuais e as condições da ação penal.
+
+Não foram arguidas questões preliminares ou prejudiciais, nem vislumbro qualquer nulidade que deva ser pronunciada de ofício.
+
+Deste modo, passo a análise do mérito.
+
+2.1 CRIME DO ART. 171, § 2º-A, DO CÓDIGO PENAL:
+
+O crime do art. 171, § 2º-A do CP possui a seguinte disposição legal:
+
+Art. 171 - Obter, para si ou para outrem, vantagem ilícita, em prejuízo alheio, induzindo ou mantendo alguém em erro, mediante artifício, ardil, ou qualquer outro meio fraudulento:
+
+Pena - reclusão, de um a cinco anos, e multa, de quinhentos mil réis a dez contos de réis.
+
+§ 2º-A. A pena é de reclusão, de 4 (quatro) a 8 (oito) anos, e multa, se a fraude é cometida com a utilização de informações fornecidas pela vítima ou por terceiro induzido a erro por meio de redes sociais, contatos telefônicos ou envio de correio eletrônico fraudulento, ou por qualquer outro meio fraudulento análogo.
+
+2.1.1 Materialidade delitiva:
+
+A materialidade delitiva do crime cometido em face das vítimas Josinete Pereira Souza, Jocyemília de Nazaré Durans Marques, Maria da Assunção Viana de Andrade, Gleicy Glenda Gonçalves de Oliveira Sousa e Rosilene Lima Magno de Souza está devidamente comprovada nos autos, conforme os seguintes elementos de convicção:
+
+a) Josinete Pereira Souza: boletim de ocorrência de id. 110478167 - Pág. 5; comprovante de transferência de valores de id. 110478167; e depoimento prestado em juízo.
+
+A Sra. Josinete Pereira Souza afirmou em juízo que tirava a conta do site da equatorial para fazer o pagamento, que nunca deu problema. Que chegou a pagar o débito de duzentos e uma fração, que chegou um homem e disse que ia cortar sua energia, ele disse que não constava no sistema o pagamento e, assim, fez o corte. Que foi na Equatorial e o rapaz disse que tinham outras vítimas, que a depoente não tinha outro dinheiro para pagar. Que o rapaz disse que não tinha nada a ver com isso, que ficou um bom tempo com a energia cortada e com um bebê de colo, que pagou em setembro um parcelamento e se livrou. Que não foi fácil, nem tanto pelo dinheiro, mas pelo que passou. Que a fatura era idêntica, a única coisa que não era idêntica era o CNPJ e o banco, que pegou um papel para onde tinha feito o pagamento. Que achou o site pelo Google. O site era "Equatorial Energia", idêntico, pedia unidade consumidora, tudo normal. Que não conhece Eduardo. Sempre entrou pelo celular ou pelo computador.
+
+b) Jocyemília de Nazaré Durans Marques: boletim de ocorrência policial de id. 110478167 - Pág. 12; comprovante de transferência de valores de id. 110478167 - Pág. 16/17; e depoimento prestado em juízo.
+
+A Sra. Jocyemília de Nazaré disse em juízo que chegou o papel de energia na sua casa, que foi acessar o qrcode, que não funcionou e pagou os dois papéis de energia. Que pagou e ficou com o comprovante, que começaram a lhe cobrar os valores e lhe ameaçar de cortar a energia. Que disse que tinha feito o pagamento. Que achou estranho, um rapaz orientou a levar o caso na equatorial. Que chegaram a cortar sua energia. Que foi até a empresa, quando chegou lá a moça logo disse que o CNPJ da empresa não era o mesmo que estava no papel de energia, que negou, pois disse que entrou no site e abriu o boleto e pagou pelo qrcode. Que ela lhe disse que caiu no golpe. Que tirou direto da empresa. Que ela comprovou que o CNPJ não era deles. Que nunca tinha acontecido isso, que foi a única vez que aconteceu, que teve que pagar novamente, que tem que conferir o CNPJ.  Que pagou duas faturas, que deu mais de R$ 1000,00 os dois.
+
+c) Maria da Assunção Viana de Andrade: boletim de ocorrência policial de id. 110478166 - Pág. 22/23; comprovante de transferência de valores - id. 110478166 - Pág. 30; e depoimento prestado em juízo.
+
+A Sra. Maria da Assunção disse em juízo que tentou imprimir um boleto pelo aplicativo da Equatorial, que não conseguiu tirar por lá, que pegou seu notebook, que entrou no site da equatorial, que era igual ao da Equatorial, que forneceram o qrcode e com o valor que estava acostumada a pagar, que entrou no aplicativo depois e lá constava que não tinha sido pago, que foi na concessionária e foi alertada que caiu em um golpe. Assim, foi fazer uma ocorrência policial. Que colocou seu CPF no site e emitiu um qrcode, não reparou e fez o pagamento.
+
+d) Gleicy Glenda Gonçalves de Oliveira Sousa: boletim de ocorrência policial - id. 110478166 - Pág. 15; e depoimento prestado em juízo.
+
+A Sra. Gleicy Glenda afirmou em juízo que acessou o site da equatorial, que colocou seus dados de login, que acessou sua fatura, com seu nome e valor. Que colocou para fazer o download do boleto e fez o pagamento, que tinha o nome da Equatorial, que o CNPJ tinha algo da equatorial, que achou não ter problema. Que chegou um reaviso, que entrou o contato com a Equatorial, que eles falaram que não tinha o pagamento, que eles lhe orientaram a procurar a delegacia, pois estava acontecendo. Que já tinha passado o prazo para o banco poder reaver o dinheiro, que então entrou em contato com a Delegacia. Que foi instruída sobre o ocorrido. Que o site não era da equatorial, que direcionava para um boleto de outra conta. O site era idêntico ao da equatorial que estava acostumada a acessar. Que não verificou de quem era o CNPJ.
+
+e) Rosilene Lima Magno de Souza: termo de declaração - id. 110478166 - Pág. 1; comprovantes de transferência - id. 110478166 - Pág. 7/8, 110478166 - Pág. 10/11 e 110478166 - Pág. 13/14; e depoimento prestado em juízo.
+
+A Sra. Rosilene Lima Magno de Souza afirmou em juízo que sempre pagou boletos pelo computador, que seu filho abria o notebook e acessava o site da Equatorial, que acessou rápido, que sempre pagou de forma organizada. Que chegou um aviso, estranhou pois já tinha feito o pagamento. Que no segundo mês veio com aviso de corte. Que aconteceu isso com 4 casas, a da depoente, outra casa que possui, a casa de seu marido e a casa de seu filho. Que cortaram sua energia, que chorou, pois gosta das coisas corretas e tem conduta de bom pagador. Que foi lá na concessionária, que foi avisada que não foi para o CNPJ da empresa, que foi alertada que estava ocorrendo isso. Que ficou com luz cortada por dois dias, que teve que pagar para ter sua energia de volta. Que foi na equatorial e falaram que não podiam fazer nada. O site deu o endereço da Equatorial mesmo. Seu prejuízo foi em três contas, uma de R$ 213, R$ 235 e outra de R$ 239. Não conhece os acusados dos acusados. Que a Equatorial forneceu os dados, que com tal documento que fez o boletim de ocorrência.
+
+Portanto, comprovada a materialidade delitiva.
+
+2.1.2 Autoria delitiva:
+
+Com a instrução criminal, as condutas dos réus Eduardo Belarmino Silva e Micael Brasil Andrade foram completamente desveladas, restando clara a intenção consciente de obterem vantagem ilícita, após terem feito com que as vítimas Josinete Pereira Souza, Jocyemília de Nazaré Durans Marques, Maria da Assunção Viana de Andrade, Gleicy Glenda Gonçalves de Oliveira Sousa e Rosilene Lima Magno de Souza fossem induzidas ao erro ao acessarem e fornecerem suas informações em um sítio eletrônico falso da Equatorial Energia S.A.
+
+Na fraude eletrônica, a vítima é induzida ao erro ao fornecer informações ao agente, devido a uma falsa percepção da realidade. A legislação, ao utilizar uma interpretação analógica, permite enquadrar o crime como sendo praticado por "qualquer outro meio fraudulento", como, por exemplo, o uso de um site falso (MASSON, 2023, p. 557).
+
+Em relação ao réu Eduardo Belarmino Silva visualizo as seguintes provas de autoria:
+
+a) No id. 110478166 - Pág. 31 consta comprovante da situação cadastral da empresa de CNPJ 51.915.976/0001-25, destinatária das transferências bancárias feitas pelas vítimas, que possui o nome empresarial do réu Eduardo Belarmino Silva.
+
+b) No id. 110478166 - Pág. 36 há informações da conta bancária para onde os valores foram transferidos pelas vítimas, em que consta na qualidade de titular da conta o Sr. Eduardo Belarmino Silva.
+
+c) Há Laudo da perícia prosopográfica no id. 110478163 - Pág. 1/7 que concluiu em grau +4 que a foto da pessoa que criou a conta bancária beneficiada é de Eduardo Belarmino da Silva, o que foi, inclusive, confirmado em juízo pelas testemunhas Felipe Vasconcelos de Castro e Caio Campos Ferreira.
+
+d) O Google informou no id. 110478164 - Pág. 18 que o endereço de e-mail informado na conta bancária "belarminoe243@gmail.com" de fato pertence ao réu Eduardo.
+
+A testemunha Adriany Tássia Borges de Carvalho, delegada de Polícia Civil responsável pela investigação, disse em juízo que identificaram o Eduardo como sócio proprietário do CNPJ, identificaram para qual conta ia o valor, que também é do Eduardo. A partir da fotografia da conta bancaria, solicitaram a perícia prosopográfica em comparação ao documento comparativo do prontuário civil. Que constataram que ele abriu várias contas bancárias e fechado em um período curto. Que muitas contas bancárias foram abertas. O Eduardo criou o CNPJ, abertura das contas e ele disse que foi juntamente com o Junior, que ele ficou com 20% da empreitada criminosa. Que não identificaram quem criou o site, que utilizaram VPNs para camuflar. Que ele disse que quem o convidou para participar do crime foi o Junior. Não solicitaram a quebra de sigilo bancário. Que o Eduardo forneceu seu aparelho celular. Na perícia de extração identificaram diversas transações do CNPJ fraudulento ao Micael. Tem laudo de extração dos dados feitos por perito nos autos.
+
+Além de tais documentos e depoimentos que indicam que Eduardo foi responsável pela criação do CNPJ e da conta bancária utilizadas na prática delitiva, o réu ainda confessou a prática delitiva na audiência de instrução.
+
+Qualificado e interrogado em juízo, Eduardo disse em juízo que o 'Júnior' chegou na loja perguntando se o depoente queria abrir a conta, que perguntou pra quê, que ele disse que ia abrir uma conta em nome de uma empresa para arrecadar dinheiro. Que passou os dados e ele abriu as contas e tudo. Ele mesmo que fazia os boletos e o depoente passava os valores para o Micael, que não o conhece. Que não lembra quanto passou acha que foi entre 80 e 90 mil. Que isso durou um mês. Não sabia sobre as vítimas, sabia que caia dinheiro e que tinha que transferir ao Micael. Que recebeu R$ 10.000,00, que estava precisando, ele disse que ia lhe dar R$ 10.000,00, tinha uma filha recém nascida. Que quando batia mil reais tinha que transferir para a conta do Micael. Que tinha o contato do Júnior, por WhatsApp, por mensagem e ligação. Que nunca entrou em contato com o Micael. Que só depositou na conta do Micael. O Junior não explicou de onde vinha o dinheiro. Que está arrependido.
+
+Portanto, comprovada a autoria delitiva de Eduardo Belarmino Silva.
+
+Outrossim, entendo que está comprovada a autoria também em face do Sr. Micael Brasil Andrade.
+
+A testemunha Adriany Tássia Borges de Carvalho disse em juízo que o Micael foi identificado posteriormente, foi a pessoa para quem o dinheiro foi redirecionado, ele tinha a função de ocultar os valores. Que várias transferências bancárias foram feitas ao Micael. Que o Eduardo forneceu seu aparelho celular. Na perícia de extração identificaram diversas transações do CNPJ fraudulento ao Micael. Tem laudo de extração dos dados feitos por perito nos autos.
+
+De fato, consta que houve a apreensão do aparelho celular do réu Eduardo (id. 110478171 - Pág. 1). Ademais, há comprovantes de transferência nos ids. 110478170 - Pág. 11/12, feitos para a conta bancária do réu Micael por "Recolhi Pag Energia", empresa justamente beneficiária das transações fraudulentas feitas pelas vítimas, de CNPJ 51.915.976/0001-25.
+
+Tais comprovantes, inclusive, foram objeto de perícia - id. 110478171 - Pág. 13/16, disponíveis em mídia física na Secretaria da 1ª Vara Criminal de Castanhal.
+
+Tais provas estão em consonância com o que o réu Eduardo confessou em Juízo, que "recebia valores e os repassava para o réu Micael quando batia mil reais em sua conta".
+
+Assim, com a instrução criminal, visualizo que o Eduardo Belarmino Silva e Micael Brasil Andrade auferiram vantagem ilícita, em prejuízo das vítimas Josinete Pereira Souza, Jocyemília de Nazaré Durans Marques, Maria da Assunção Viana de Andrade, Gleicy Glenda Gonçalves de Oliveira Sousa e Rosilene Lima Magno Souza, por intermédio da fraude eletrônica tipificada no art. 171, § 2º-A, do Código Penal Brasileiro, autorizando-se o decreto condenatório em face de ambos os réus.
+
+Apenas com relação à vítima Cliene do Socorro Sena Rodrigues, entendo que seu relato feito na Delegacia de Polícia Civil não foi comprovado em juízo, de maneira que é forçoso concluir pela absolvição dos réus para a mencionada vítima por ausência de provas suficientes para condenação (art. 385, VII, do CPP).
+
+2.1.3 Do concurso formal:
+
+As provas colhidas em juízo comprovam que os réus Eduardo Belarmino Silva e Micael Brasil Andrade com uma única ação criminosa, realizada em um mesmo contexto fático, que foi a criação de um sítio eletrônico falso semelhante ao da Equatorial Energia, obtiveram vantagem patrimonial em prejuízo de 05 vítimas.
+
+Com efeito, a hipótese é de concurso formal de crimes, correspondente ao caput do art. 70 do CP:
+
+Art. 70 - Quando o agente, mediante uma só ação ou omissão, pratica dois ou mais crimes, idênticos ou não, aplica-se-lhe a mais grave das penas cabíveis ou, se iguais, somente uma delas, mas aumentada, em qualquer caso, de um sexto até metade. As penas aplicam-se, entretanto, cumulativamente, se a ação ou omissão é dolosa e os crimes concorrentes resultam de desígnios autônomos, consoante o disposto no artigo anterior.(Redação dada pela Lei nº 7.209, de 11.7.1984)
+
+Parágrafo único - Não poderá a pena exceder a que seria cabível pela regra do art. 69 deste Código. (Redação dada pela Lei nº 7.209, de 11.7.1984)
+
+Quanto ao aumento que deve incidir no concurso formal, deve-se considerar o número de infrações praticadas, que no presente caso atinem a 05 (quatro), sendo este o critério adotado pelos Tribunais.
+
+Confira-se o que diz a jurisprudência (STJ HC 70437/RJ):
+
+[...] O acréscimo decorrente do reconhecimento do concurso formal de crimes deve ser aferido em função do número de delitos, e não à luz do art. 59 do Código penal.
+
+Assim, o número infrações penais perpetradas pelos Réus justifica a incidência da exasperação na fração de 1/3 (um terço).
+
+2.2 CRIME DO ART. 288 DO CÓDIGO PENAL:
+
+O objeto jurídico do crime de associação criminosa é a paz pública, entendida como o necessário sentimento de tranquilidade e segurança coletiva que a ordem pública deve proporcionar. Com efeito, o objeto material é a pessoa ou coisa sobre o qual recai a conduta criminosa.
+
+A disposição legal do art. 288 do Código Penal é a seguinte:
+
+Art. 288.  Associarem-se 3 (três) ou mais pessoas, para o fim específico de cometer crimes:
+
+Pena - reclusão, de 1 (um) a 3 (três) anos.
+
+O núcleo do tipo penal é associarem-se (unirem-se) e a conduta típica consiste em associarem-se três ou mais pessoas para o fim específico de cometer crimes.
+
+Como bem observa Rogério Greco, para a consumação do crime de associação criminosa será preciso conjugar seu caráter de estabilidade, permanência, com a finalidade de praticar um número indeterminado de crimes. Logo, é muito mais que um mero ajuntamento ocasional ou encontro passageiro, transitório (típico de concurso de agentes).
+
+Em relação à autoria e materialidade, restou claro que para a feitura e manutenção do sítio eletrônico falso semelhante ao da Equatorial Energia na internet, bem como sobre quem iria receber os valores transferidos pelas vítimas e a posterior distribuição aos autores do crime, foi necessária uma associação estável e permanente de 03 (três) pessoas.
+
+Rogério Greco sobre o crime de associação criminosa lesiona que "a lei, como visto, determina a presença de, no mínimo, três pessoas, sendo indiferente a posição ocupada por cada associado na organização, se conhecem uns aos outros ou não (associação via internet), se há ou não hierarquia; identificando-se vínculo associativo estável e permanente, haverá o crime".
+
+Com base nas declarações do réu Eduardo em Juízo, havia uma associação criminosa premeditada e organizada entre os réus e um terceiro identificado como "Júnior". Este último abriu a conta bancária, enquanto Eduardo recebeu os valores e os transferiu para Micael.
+
+Não se tratou de um caso isolado, mas de uma união permanente e habitual entre os envolvidos, com o objetivo de cometer o crime de estelionato eletrônico de maneira contínua e estável.
+
+O réu Eduardo, confessou que a associação criminosa obteve ilicitamente valores entre R$ 80.000,00 e R$ 90.000,00, quantias significativamente superiores ao montante de R$ 5.317,81, pelo qual as vítimas dos presentes autos foram lesadas.
+
+Esses fatos indicam que outros crimes foram cometidos pela associação, o que foi até corroborado nos autos pela testemunha Adriany Tássia Borges de Carvalho em juízo e os boletins de ocorrência policial feitos em outras cidades de id. 110478171 - Pág. 3/11, sendo forçoso concluir pela condenação de Eduardo Belarmino Silva e Micael Brasil Andrade, por incurso no art. 288, caput, do Código Penal.
+
+2.3 Da circunstância atenuante:
+
+O réu Eduardo Belarmino Silva, em audiência, confessou as práticas delitivas, fazendo jus à atenuante genérica incidente sobre a 2ª fase da dosimetria da pena, nos termos do art. 65, inciso III, d) do Código Penal.
+
+2.4 Do concurso material:
+
+Observo que os réus praticaram o crime de estelionato eletrônico em concurso formal (art. 171, § 2º-A do CP por 5x) e o crime de associação criminosa (art. 288 do Código Penal).
+
+O art. 69 do Código Penal é expresso:
+
+Art. 69 - Quando o agente, mediante mais de uma ação ou omissão, pratica dois ou mais crimes, idênticos ou não, aplicam-se cumulativamente as penas privativas de liberdade em que haja incorrido. No caso de aplicação cumulativa de penas de reclusão e de detenção, executa-se primeiro aquela.
+
+Portanto, devem ser somadas as penas dos crimes, em razão do concurso material.
+
+3. DISPOSITIVO:
+
+Diante do exposto, JULGO PARCIALMENTE PROCEDENTE a pretensão punitiva estatal e CONDENO EDUARDO BELARMINO SILVA E MICAEL BRASIL ANDRADE por incurso nas penas dos arts. 171, § 2º-A e 288 c/c art. 70 e 69, todos do Código Penal Brasileiro, cometido em face das vítimas Josinete Pereira Souza, Jocyemília de Nazaré Durans Marques, Maria da Assunção Viana de Andrade, Gleicy Glenda Gonçalves de Oliveira Sousa e Rosilene Lima Magno de Souza.
+
+Absolvo Eduardo Belarmino Silva e Micael Brasil Andrade por incurso nos arts. 171, § 2º-A e 288 c/c art. 70 e 69, todos do Código Penal, apenas em relação à vítima Cliene do Socorro Sena Rodrigues, com fulcro no art. 386, VII, do Código de Processo Penal.
+
+DOSIMETRIA:
+
+Passo à dosimetria da pena, atento aos ditames do art. 68 do Estatuto Repressivo e considerando as disposições do artigo 59 e seguintes do Código Penal, bem como a cada um dos crimes, vítimas e réus.
+
+Eduardo Belarmino Silva:
+
+Crime do Art. 171, § 2º-A, do Código Penal Brasileiro.
+
+Vítima Josinete Pereira Souza:
+
+a) Circunstâncias judiciais (art. 59 do Código Penal):
+
+a.1) culpabilidade: Entendo que a conduta do denunciado deve ser valorada negativamente, em razão de sua maior reprovabilidade. O acusado utilizou um sítio eletrônico com alto grau de semelhança ao da concessionária Equatorial Energia S.A., capaz de induzir as vítimas ao erro. Tal ação, que envolveu considerável conhecimento técnico, evidencia uma execução premeditada, demonstrando elevada periculosidade e intencionalidade, pois o crime foi cuidadosamente planejado e estrategicamente conduzido.
+
+a.2) antecedentes: o réu não possui sentença penal condenatória transitada em julgado.
+
+a.3) conduta social: Não deve pesar em desfavor do réu.
+
+a.4) personalidade: Não há elementos aptos a identificar o perfil da personalidade do denunciado, não sendo possível presumir-se ser voltada para as atividades criminosas.
+
+a.5) motivos do crime: No caso em tela, os motivos são próprios do tipo, envolvendo a aquisição de lucro fácil.
+
+a.6) circunstâncias do crime: Entendo que deve ser valorado de forma negativa, visto que o crime foi cometido na internet, por intermédio de um site falso da Equatorial Energia S.A, com a possibilidade de inúmeras outras pessoas, além da vítima, caírem na fraude e, assim, serem prejudicadas.
+
+a.7) consequências do crime: As consequências são desfavoráveis. A vítima afirmou em juízo que ficou com sua energia cortada por um bom tempo, por não ter dinheiro para pagá-la novamente, sendo que estava com um bebê de colo, tendo afirmado que a "situação não foi fácil", o que indicou forte tristeza e constrangimento pela situação por ato exclusivo praticado pelo réu.
+
+a.8) comportamento da vítima: em nada influiu na prática do delito, razão pela qual esta circunstância não pode ser levada em consideração para aumentar a pena base.
+
+Considerando que há 03 (três) circunstâncias judiciais desfavoráveis, fixo a pena base em 06 (seis) anos de reclusão e 185 (cento e oitenta e cinco) dias-multa.
+
+b) Circunstâncias atenuantes e agravantes:
+
+Durante a instrução processual, o réu confessou a prática delitiva, motivo pelo qual deve ser considerada a referida atenuante genérica na forma do art. 65, III, d), do Código Penal, assim, atenuo a pena na fase intermediária para 05 (cinco) anos de reclusão e 154 (cento e cinquenta e quatro) dias-multa.
+
+c) Causas de diminuição e de aumento de pena:
+
+Não há causas de diminuição e aumento de pena.
+
+d) Pena:
+
+Fica, portanto, o réu Eduardo Belarmino Silva condenado em relação ao crime do art. 171, § 2º-A do Código Penal cometido em face da vítima Josinete Pereira Souza à pena total de 05 (cinco) anos de reclusão e 154 (cento e cinquenta e quatro) dias-multa.
+
+Vítima Jocyemília de Nazaré Durans Marques:
+
+a) Circunstâncias judiciais (art. 59 do Código Penal):
+
+a.1) culpabilidade: Entendo que a conduta do denunciado deve ser valorada negativamente, em razão de sua maior reprovabilidade. O acusado utilizou um sítio eletrônico com alto grau de semelhança ao da concessionária Equatorial Energia S.A., capaz de induzir as vítimas ao erro. Tal ação, que envolveu considerável conhecimento técnico, evidencia uma execução premeditada, demonstrando elevada periculosidade e intencionalidade, pois o crime foi cuidadosamente planejado e estrategicamente conduzido.
+
+a.2) antecedentes: o réu não possui sentença penal condenatória transitada em julgado.
+
+a.3) conduta social: Não deve pesar em desfavor do réu.
+
+a.4) personalidade: Não há elementos aptos a identificar o perfil da personalidade do denunciado, não sendo possível presumir-se ser voltada para as atividades criminosas.
+
+a.5) motivos do crime: No caso em tela, os motivos são próprios do tipo, envolvendo a aquisição de lucro fácil.
+
+a.6) circunstâncias do crime: Entendo que deve ser valorado de forma negativa, visto que o crime foi cometido na internet, por intermédio de um site falso da Equatorial Energia S.A, com a possibilidade de inúmeras outras pessoas, além da vítima, caírem na fraude e, assim, serem prejudicadas.
+
+a.7) consequências do crime: As consequências são desfavoráveis. A vítima, que não possui o hábito de atrasar suas contas, foi surpreendida em ter que pagar novamente um débito que acreditava já ter quitado, em evidente prejuízo financeiro. Além de ser obrigada a se deslocar até a concessionária de energia elétrica para esclarecer a situação, sofreu perda de tempo e transtornos, gerando um sentimento de angústia e vulnerabilidade.
+
+a.8) comportamento da vítima: em nada influiu na prática do delito, razão pela qual não pode ser levada em consideração para aumentar a pena base.
+
+Considerando que há 03 (três) circunstâncias judiciais desfavoráveis, fixo a pena base em 06 (seis) anos de reclusão e 185 (cento e oitenta e cinco) dias-multa.
+
+b) Circunstâncias atenuantes e agravantes:
+
+Durante a instrução processual, o réu confessou a prática delitiva, motivo pelo qual deve ser considerada a referida atenuante genérica na forma do art. 65, III, d), do Código Penal, assim, atenuo a pena na fase intermediária para 05 (cinco) anos de reclusão e 154 (cento e cinquenta e quatro) dias-multa.
+
+c) Causas de diminuição e de aumento de pena:
+
+Não há causas de diminuição e aumento de pena.
+
+d) Pena:
+
+Fica, portanto, o réu Eduardo Belarmino Silva condenado em relação ao crime do art. 171, § 2º-A do Código Penal cometido em face da vítima Jocyemília de Nazaré Durans Marques à pena total de 05 (cinco) anos de reclusão e 154 (cento e cinquenta e quatro) dias-multa.
+
+Vítima Maria da Assunção Viana de Andrade:
+
+a) Circunstâncias judiciais (art. 59 do Código Penal):
+
+a.1) culpabilidade: Entendo que a conduta do denunciado deve ser valorada negativamente, em razão de sua maior reprovabilidade. O acusado utilizou um sítio eletrônico com alto grau de semelhança ao da concessionária Equatorial Energia S.A., capaz de induzir as vítimas ao erro. Tal ação, que envolveu considerável conhecimento técnico, evidencia uma execução premeditada, demonstrando elevada periculosidade e intencionalidade, pois o crime foi cuidadosamente planejado e estrategicamente conduzido.
+
+a.2) antecedentes: o réu não possui sentença penal condenatória transitada em julgado.
+
+a.3) conduta social: Não deve pesar em desfavor do réu.
+
+a.4) personalidade: Não há elementos aptos a identificar o perfil da personalidade do denunciado, não sendo possível presumir-se ser voltada para as atividades criminosas.
+
+a.5) motivos do crime: No caso em tela, os motivos são próprios do tipo, envolvendo a aquisição de lucro fácil.
+
+a.6) circunstâncias do crime: Entendo que deve ser valorado de forma negativa, visto que o crime foi cometido na internet, por intermédio de um site falso da Equatorial Energia S.A, com a possibilidade de inúmeras outras pessoas, além da vítima, caírem na fraude e, assim, serem prejudicadas.
+
+a.7) consequências do crime: As consequências são desfavoráveis. A vítima, que não possui o hábito de atrasar suas contas, foi surpreendida em ter que pagar novamente um débito que acreditava já ter quitado, tendo evidente prejuízo financeiro. Além de ser obrigada a se deslocar até a concessionária de energia elétrica para esclarecer a situação, sofreu perda de tempo e transtornos, gerando um sentimento de angústia e vulnerabilidade.
+
+a.8) comportamento da vítima: em nada influiu na prática do delito, razão pela qual esta circunstância não pode ser levada em consideração para aumentar a pena base.
+
+Considerando que há 03 (três) circunstâncias judiciais desfavoráveis, fixo a pena base em 06 (seis) anos de reclusão e 185 (cento e oitenta e cinco) dias-multa.
+
+b) Circunstâncias atenuantes e agravantes:
+
+Durante a instrução processual, o réu confessou a prática delitiva, motivo pelo qual deve ser considerada a referida atenuante genérica na forma do art. 65, III, d) do CP, assim, atenuo a pena na fase intermediária para 05 (cinco) anos de reclusão e 154 (cento e cinquenta e quatro) dias-multa.
+
+c) Causas de diminuição e de aumento de pena:
+
+Não há causas de diminuição e aumento de pena.
+
+d) Pena:
+
+Fica, portanto, o réu Eduardo Belarmino Silva condenado em relação ao crime do art. 171, § 2º-A do Código Penal cometido em face da vítima Maria da Assunção Viana de Andrade à pena total de 05 (cinco) anos de reclusão e 154 (cento e cinquenta e quatro) dias-multa.
+
+Vítima Gleicy Glenda Gonçalves de Oliveira Sousa:
+
+a) Circunstâncias judiciais (art. 59 do Código Penal):
+
+a.1) culpabilidade: Entendo que a conduta do denunciado deve ser valorada negativamente, em razão de sua maior reprovabilidade. O acusado utilizou um sítio eletrônico com alto grau de semelhança ao da concessionária Equatorial Energia S.A., capaz de induzir as vítimas ao erro. Tal ação, que envolveu considerável conhecimento técnico, evidencia uma execução premeditada, demonstrando elevada periculosidade e intencionalidade, pois o crime foi cuidadosamente planejado e estrategicamente conduzido.
+
+a.2) antecedentes: o réu não possui sentença penal condenatória transitada em julgado.
+
+a.3) conduta social: Não deve pesar em desfavor do réu.
+
+a.4) personalidade: Não há elementos aptos a identificar o perfil da personalidade do denunciado, não sendo possível presumir-se ser voltada para as atividades criminosas.
+
+a.5) motivos do crime: No caso em tela, os motivos são próprios do tipo, envolvendo a aquisição de lucro fácil.
+
+a.6) circunstâncias do crime: Entendo que deve ser valorado de forma negativa, visto que o crime foi cometido na internet, por intermédio de um site falso da Equatorial Energia S.A, com a possibilidade de inúmeras outras pessoas, além da vítima, caírem na fraude e, assim, serem prejudicadas.
+
+a.7) consequências do crime: As consequências são desfavoráveis. A vítima, que não possui o hábito de atrasar suas contas, foi surpreendida em ter que pagar novamente um débito que acreditava já ter quitado, tendo evidente prejuízo financeiro. Além de ser obrigada a se deslocar até a concessionária de energia elétrica para esclarecer a situação, sofreu perda de tempo e transtornos, gerando um sentimento de angústia e vulnerabilidade.
+
+a.8) comportamento da vítima: em nada influiu na prática do delito, razão pela qual esta circunstância não pode ser levada em consideração para aumentar a pena base.
+
+Considerando que há 03 (três) circunstâncias judiciais desfavoráveis, fixo a pena base em 06 (seis) anos de reclusão e 185 (cento e oitenta e cinco) dias-multa.
+
+b) Circunstâncias atenuantes e agravantes:
+
+Durante a instrução processual, o réu confessou a prática delitiva, motivo pelo qual deve ser considerada a referida atenuante genérica na forma do art. 65, III, d) do CP, assim, atenuo a pena na fase intermediária para 05 (cinco) anos de reclusão e 154 (cento e cinquenta e quatro) dias-multa.
+
+c) Causas de diminuição e de aumento de pena:
+
+Não há causas de diminuição e aumento de pena.
+
+d) Pena:
+
+Fica, portanto, o réu Eduardo Belarmino Silva condenado em relação ao crime do art. 171, § 2º-A do Código Penal cometido em face da vítima Gleicy Glenda Gonçalves de Oliveira Sousa à pena total de 05 (cinco) anos de reclusão e 154 (cento e cinquenta e quatro) dias-multa.
+
+Vítima Rosilene Lima Magno de Souza:
+
+a) Circunstâncias judiciais (art. 59 do Código Penal):
+
+a.1) culpabilidade: Entendo que a conduta do denunciado deve ser valorada negativamente, em razão de sua maior reprovabilidade. O acusado utilizou um sítio eletrônico com alto grau de semelhança ao da concessionária Equatorial Energia S.A., capaz de induzir as vítimas ao erro. Tal ação, que envolveu considerável conhecimento técnico, evidencia uma execução premeditada, demonstrando elevada periculosidade e intencionalidade, pois o crime foi cuidadosamente planejado e estrategicamente conduzido.
+
+a.2) antecedentes: o réu não possui sentença penal condenatória transitada em julgado.
+
+a.3) conduta social: Não deve pesar em desfavor do réu.
+
+a.4) personalidade: Não há elementos aptos a identificar o perfil da personalidade do denunciado, não sendo possível presumir-se ser voltada para as atividades criminosas.
+
+a.5) motivos do crime: No caso em tela, os motivos são próprios do tipo, envolvendo a aquisição de lucro fácil.
+
+a.6) circunstâncias do crime: Entendo que deve ser valorado de forma negativa, visto que o crime foi cometido na internet, por intermédio de um site falso da Equatorial Energia S.A, com a possibilidade de inúmeras outras pessoas, além da vítima, caírem na fraude e, assim, serem prejudicadas.
+
+a.7) consequências do crime: As consequências são desfavoráveis. A vítima, que não possui o hábito de atrasar suas contas, foi surpreendida em ter que pagar novamente um débito que acreditava já ter quitado, tendo evidente prejuízo financeiro. Além de ser obrigada a se deslocar até a concessionária de energia elétrica para esclarecer a situação, sofreu perda de tempo e transtornos, gerando um sentimento de angústia e vulnerabilidade.
+
+a.8) comportamento da vítima: em nada influiu na prática do delito, razão pela qual esta circunstância não pode ser levada em consideração para aumentar a pena base.
+
+Considerando que há 03 (três) circunstâncias judiciais desfavoráveis, fixo a pena base em 06 (seis) anos de reclusão e 185 (cento e oitenta e cinco) dias-multa.
+
+b) Circunstâncias atenuantes e agravantes:
+
+Durante a instrução processual, o réu confessou a prática delitiva, motivo pelo qual deve ser considerada a referida atenuante genérica na forma do art. 65, III, d) do CP, assim, atenuo a pena na fase intermediária para 05 (cinco) anos de reclusão e 154 (cento e cinquenta e quatro) dias-multa.
+
+c) Causas de diminuição e de aumento de pena:
+
+Não há causas de diminuição e aumento de pena.
+
+d) Pena:
+
+Fica, portanto, o réu Eduardo Belarmino Silva condenado em relação ao crime do art. 171, § 2º-A do Código Penal cometido em face da vítima Rosilene Lima Magno Souza à pena total de 05 (cinco) anos de reclusão e 154 (cento e cinquenta e quatro) dias-multa.
+
+PENA E CONCURSO FORMAL DE CRIMES:
+
+Em sendo aplicável a regra do concurso formal de crimes (art. 70 do CP), com a aplicação somente de uma das penas, aumentada em 1/3, considerando o cometimento do crime em face de 05 (cinco) vítimas, no mesmo contexto fático e modus operandi, fica o réu Eduardo Belarmino Silva condenado por incurso no art. 171, § 2º-A, do Código Penal à pena de 06 (seis) anos e 08 (oito) meses de reclusão e 205 dias-multa.
+
+Crime do art. 288 do Código Penal:
+
+a) Circunstâncias judiciais (art. 59 do Código Penal)
+
+a.1) culpabilidade: Entendo que a conduta do denunciado deve ser valorada negativamente, em razão de sua maior reprovabilidade. O acusado faz parte de associação que utiliza de um sítio eletrônico com alto grau de semelhança ao da concessionária Equatorial Energia S.A., capaz de induzir as vítimas ao erro. Tal ação, que envolveu considerável conhecimento técnico, evidencia uma execução premeditada, demonstrando elevada periculosidade e intencionalidade para a prática de crime, sendo cuidadosamente planejado e estrategicamente conduzido.
+
+a.2) antecedentes: Nesse passo, o denunciado não possui antecedentes criminais.
+
+a.3) conduta social: Não deve pesar em desfavor do denunciado.
+
+a.4) personalidade: Não há elementos aptos a identificar o perfil da personalidade do denunciado, não sendo possível presumir-se ser voltada para as atividades criminosas.
+
+a.5) motivos do crime: No caso em tela, os motivos são próprios do tipo, envolvendo a aquisição de lucro fácil.
+
+a.6) circunstâncias do crime: Entendo que deve ser valorado de forma negativa, visto que a associação criminosa atua no meio virtual, por intermédio de um site falso de uma concessionária de energia elétrica Equatorial Energia S.A, com a possibilidade de inúmeras outras pessoas, além da vítima, caírem em fraudes.
+
+a.7) consequências do crime: As consequências são desfavoráveis, tendo em vista que não houve a efetiva devolução dos valores às vítimas.
+
+a.8) comportamento da vítima: em nada influiu na prática do delito, razão pela qual tal circunstância não pode ser levada em consideração para aumentar a pena base.
+
+Considerando que há três circunstâncias judiciais desfavoráveis, fixo a pena base em 02 (dois) anos de reclusão.
+
+b) Circunstâncias atenuantes e agravantes
+
+Durante a instrução processual, o réu confessou a prática delitiva, motivo pelo qual deve ser considerada a referida atenuante genérica na forma do art. 65, III, d) do Código Penal, assim, atenuo a pena na fase intermediária para 01 (um) ano e 08 (oito) meses de reclusão.
+
+c) Causas de diminuição e de aumento de pena
+
+Inexistem causas de diminuição e de aumento de pena a serem consideradas.
+
+d) Pena:
+
+Fica, portanto, o Réu Eduardo Belarmino Silva condenado em relação ao crime do art. 288 do Código Penal à pena total de 01 (um) ano e 08 (oito) meses de reclusão.
+
+PENA DEFINITIVA E CONCURSO MATERIAL DE CRIMES:
+
+Em sendo aplicável a regra do concurso material, conforme prevista no art. 69, do Código Penal, diante da existência de desígnios autônomos do agente na prática dos crimes, qual seja, os estelionatos eletrônicos e a associação criminosa, FICA O RÉU EDUARDO BELARMINO SILVA CONDENADO, DEFINITIVAMENTE, À PENA DE 08 (OITO) ANOS E 04 (QUATRO) MESES DE RECLUSÃO E 205 (DUZENTOS E CINCO) DIAS-MULTA, TORNANDO-A CONCRETA E DEFINITIVA.
+
+REGIME DE CUMPRIMENTO DE PENA:
+
+O regime inicial de cumprimento de pena do condenado, observadas as disposições do art. 33, § 2º, alínea "a", do Código Penal e considerando a pena aplicada, será o FECHADO.
+
+DETRAÇÃO DO PERÍODO DE PRISÃO PROVISÓRIA:
+
+Deixo de realizar a detração conforme comando preconizado no artigo 387, §2º, do CPP, na medida em que o tempo de prisão provisória não altera o regime inicial de cumprimento de pena a ser aplicado.
+
+SUBSTITUIÇÃO POR PENA RESTRITIVA DE DIREITOS E SUSPENSÃO CONDICIONAL DA PENA
+
+Incabível a substituição da pena, pois a quantidade de sanção estipulada ao condenado supera o limite do artigo 44, inciso I, do Código Penal.
+
+Não incide a suspensão condicional das penas (Código Penal, artigo 77), pois as sanções impostas superam o limite de 02 (dois) anos e não houve possibilidade legal de aplicação do artigo 44, do Código Penal.
+
+VALOR DO DIA MULTA
+
+Ao que consta dos autos, as condições econômicas do réu não são boas, de sorte que arbitro o valor do dia multa em seu mínimo, ou seja, 1/30(um trigésimo) do salário-mínimo vigente na data dos fatos, devidamente atualizado.
+
+EM RELAÇÃO À CUSTÓDIA CAUTELAR DO RÉU:
+
+Nego o benefício de recorrer em liberdade ao sentenciado Eduardo Belarmino Silva, bem como indefiro o pedido de revogação da sua prisão preventiva feito por ocasião da audiência de instrução e nas alegações finais, posto que persistem as razões para a manutenção da prisão preventiva, consubstanciada na necessidade de garantir a preservação da ordem pública, e considerando as seguintes circunstâncias (CPP, art.312):
+
+A medida constritiva de liberdade se impõe como forma de restaurar a paz social, que foi violada em razão da turbação da ordem social gerada pelos crimes praticados pelo sentenciado. A perplexidade causada na população, que passa a deduzir que as instituições encarregadas da persecução penal não são capazes de executar suas atribuições, de forma a garantir a incolumidade das pessoas e de seus bens (descrédito no sistema de persecução criminal e sentimento de insegurança e impunidade);
+
+A medida incide também como forma de acautelar o meio social e preservar a credibilidade da justiça, pois a adoção das medidas previstas em lei diminuirá a sensação de impunidade junto à população e aos infratores, estimulando a redução dos índices de cometimento de infrações penais.
+
+Ademais, os crimes praticados pelo sentenciado ocorreram na internet, com a forte possibilidade de terem alcançado inúmeras pessoas, sendo necessário proteger a ordem pública.
+
+O réu foi condenado nos presentes autos pela prática do crime em face de 5 pessoas, sendo que foi indicado nos autos o prejuízo de outras vítimas, em outras cidades no Estado do Pará, além de que fez a abertura de várias contas bancárias e as fechou logo seguida, indicando a periculosidade do agente no meio social.
+
+De outra forma, não existe possibilidade de aplicação de medida cautelar típica ou atípica diversa da prisão, pois se fosse imposta, seria inadequada e insuficiente, já que a consequência imediata seria a soltura da acusada e, conforme demonstrado na fundamentação supra, este não possui condição de voltar ao convívio social nesta fase do procedimento sem acarretar abalo à ordem pública.
+
+Assim, mantenho a custódia preventiva de Eduardo Belarmino Silva.
+
+Réu Micael Brasil Andrade:
+
+Crime do art. 171, § 2º-A, do Código Penal:
+
+Vítima Josinete Pereira Souza:
+
+a) Circunstâncias judiciais (art. 59 do Código Penal):
+
+a.1) culpabilidade: Entendo que a conduta do denunciado deve ser valorada negativamente, em razão de sua maior reprovabilidade. O acusado utilizou um sítio eletrônico com alto grau de semelhança ao da concessionária Equatorial Energia S.A., capaz de induzir as vítimas ao erro. Tal ação, que envolveu considerável conhecimento técnico, evidencia uma execução premeditada, demonstrando elevada periculosidade e intencionalidade, pois o crime foi cuidadosamente planejado e estrategicamente conduzido.
+
+a.2) antecedentes: o réu não possui sentença penal condenatória transitada em julgado.
+
+a.3) conduta social: Não deve pesar em desfavor do réu.
+
+a.4) personalidade: Não há elementos aptos a identificar o perfil da personalidade do denunciado, não sendo possível presumir-se ser voltada para as atividades criminosas.
+
+a.5) motivos do crime: No caso em tela, os motivos são próprios do tipo, envolvendo a aquisição de lucro fácil.
+
+a.6) circunstâncias do crime: Entendo que deve ser valorado de forma negativa, visto que o crime foi cometido na internet, por intermédio de um site falso da Equatorial Energia S.A, com a possibilidade de inúmeras outras pessoas, além da vítima, caírem na fraude e, assim, serem prejudicadas.
+
+a.7) consequências do crime: As consequências são desfavoráveis. A vítima afirmou em juízo que ficou com sua energia cortada por um bom tempo, por não ter dinheiro para pagá-la novamente, sendo que estava com um bebê de colo, tendo afirmado que a "situação não foi fácil", o que indicou forte tristeza e constrangimento pela situação por ato exclusivo praticado pelo réu.
+
+a.8) comportamento da vítima: em nada influiu na prática do delito, razão pela qual esta circunstância não pode ser levada em consideração para aumentar a pena base.
+
+Considerando que há 03 (três) circunstâncias judiciais desfavoráveis, fixo a pena base em 06 (seis) anos de reclusão e 185 (cento e oitenta e cinco) dias-multa.
+
+b) Circunstâncias atenuantes e agravantes:
+
+Não há circunstâncias atenuantes e agravantes a serem consideradas.
+
+c) Causas de diminuição e de aumento de pena:
+
+Não há causas de diminuição e aumento de pena.
+
+d) Pena:
+
+Fica, portanto, o réu Micael Brasil Andrade condenado em relação ao crime do art. 171, § 2º-A do Código Penal cometido em face da vítima Josinete Pereira Souza à pena total de 06 (seis) anos de reclusão e 185 (cento e oitenta e cinco) dias-multa.
+
+Vítima Jocyemília de Nazaré Durans Marques:
+
+a) Circunstâncias judiciais (art. 59 do Código Penal):
+
+a.1) culpabilidade: Entendo que a conduta do denunciado deve ser valorada negativamente, em razão de sua maior reprovabilidade. O acusado utilizou um sítio eletrônico com alto grau de semelhança ao da concessionária Equatorial Energia S.A., capaz de induzir as vítimas ao erro. Tal ação, que envolveu considerável conhecimento técnico, evidencia uma execução premeditada, demonstrando elevada periculosidade e intencionalidade, pois o crime foi cuidadosamente planejado e estrategicamente conduzido.
+
+a.2) antecedentes: o réu não possui sentença penal condenatória transitada em julgado.
+
+a.3) conduta social: Não deve pesar em desfavor do réu.
+
+a.4) personalidade: Não há elementos aptos a identificar o perfil da personalidade do denunciado, não sendo possível presumir-se ser voltada para as atividades criminosas.
+
+a.5) motivos do crime: No caso em tela, os motivos são próprios do tipo, envolvendo a aquisição de lucro fácil.
+
+a.6) circunstâncias do crime: Entendo que deve ser valorado de forma negativa, visto que o crime foi cometido na internet, por intermédio de um site falso da Equatorial Energia S.A, com a possibilidade de inúmeras outras pessoas, além da vítima, caírem na fraude e, assim, serem prejudicadas.
+
+a.7) consequências do crime: As consequências são desfavoráveis. A vítima, que não possui o hábito de atrasar suas contas, foi surpreendida em ter que pagar novamente um débito que acreditava já ter quitado, em evidente prejuízo financeiro. Além de ser obrigada a se deslocar até a concessionária de energia elétrica para esclarecer a situação, sofreu perda de tempo e transtornos, gerando um sentimento de angústia e vulnerabilidade.
+
+a.8) comportamento da vítima: em nada influiu na prática do delito, razão pela qual não pode ser levada em consideração para aumentar a pena base.
+
+Considerando que há 03 (três) circunstâncias judiciais desfavoráveis, fixo a pena base em 06 (seis) anos de reclusão e 185 (cento e oitenta e cinco) dias-multa.
+
+b) Circunstâncias atenuantes e agravantes:
+
+Não há circunstâncias atenuantes e agravantes a serem consideradas.
+
+c) Causas de diminuição e de aumento de pena:
+
+Não há causas de diminuição e aumento de pena.
+
+d) Pena:
+
+Fica, portanto, o réu Micael Brasil Andrade condenado em relação ao crime do art. 171, § 2º-A do Código Penal cometido em face da vítima Jocyemília de Nazaré Durans Marques à pena total de 06 (seis) anos de reclusão e 185 (cento e oitenta e cinco) dias-multa.
+
+Vítima Maria da Assunção Viana de Andrade:
+
+a) Circunstâncias judiciais (art. 59 do Código Penal):
+
+a.1) culpabilidade: Entendo que a conduta do denunciado deve ser valorada negativamente, em razão de sua maior reprovabilidade. O acusado utilizou um sítio eletrônico com alto grau de semelhança ao da concessionária Equatorial Energia S.A., capaz de induzir as vítimas ao erro. Tal ação, que envolveu considerável conhecimento técnico, evidencia uma execução premeditada, demonstrando elevada periculosidade e intencionalidade, pois o crime foi cuidadosamente planejado e estrategicamente conduzido.
+
+a.2) antecedentes: o réu não possui sentença penal condenatória transitada em julgado.
+
+a.3) conduta social: Não deve pesar em desfavor do réu.
+
+a.4) personalidade: Não há elementos aptos a identificar o perfil da personalidade do denunciado, não sendo possível presumir-se ser voltada para as atividades criminosas.
+
+a.5) motivos do crime: No caso em tela, os motivos são próprios do tipo, envolvendo a aquisição de lucro fácil.
+
+a.6) circunstâncias do crime: Entendo que deve ser valorado de forma negativa, visto que o crime foi cometido na internet, por intermédio de um site falso da Equatorial Energia S.A, com a possibilidade de inúmeras outras pessoas, além da vítima, caírem na fraude e, assim, serem prejudicadas.
+
+a.7) consequências do crime: As consequências são desfavoráveis. A vítima, que não possui o hábito de atrasar suas contas, foi surpreendida em ter que pagar novamente um débito que acreditava já ter quitado, em evidente prejuízo financeiro. Além de ser obrigada a se deslocar até a concessionária de energia elétrica para esclarecer a situação, sofreu perda de tempo e transtornos, gerando um sentimento de angústia e vulnerabilidade.
+
+a.8) comportamento da vítima: em nada influiu na prática do delito, razão pela qual esta circunstância não pode ser levada em consideração para aumentar a pena base.
+
+Considerando que há 03 (três) circunstâncias judiciais desfavoráveis, fixo a pena base em 06 (seis) anos de reclusão e 185 (cento e oitenta e cinco) dias-multa.
+
+b) Circunstâncias atenuantes e agravantes:
+
+Não há circunstâncias atenuantes e agravantes a serem consideradas.
+
+c) Causas de diminuição e de aumento de pena:
+
+Não há causas de diminuição e aumento de pena.
+
+d) Pena:
+
+Fica, portanto, o réu Micael Brasil Andrade condenado em relação ao crime do art. 171, § 2º-A do Código Penal cometido em face da vítima Maria da Assunção Viana de Andrade à pena total de 06 (seis) anos de reclusão e 185 (cento e oitenta e cinco) dias-multa.
+
+Vítima Gleicy Glenda Gonçalves de Oliveira Sousa:
+
+a) Circunstâncias judiciais (art. 59 do Código Penal):
+
+a.1) culpabilidade: Entendo que a conduta do denunciado deve ser valorada negativamente, em razão de sua maior reprovabilidade. O acusado utilizou um sítio eletrônico com alto grau de semelhança ao da concessionária Equatorial Energia S.A., capaz de induzir as vítimas ao erro. Tal ação, que envolveu considerável conhecimento técnico, evidencia uma execução premeditada, demonstrando elevada periculosidade e intencionalidade, pois o crime foi cuidadosamente planejado e estrategicamente conduzido.
+
+a.2) antecedentes: o réu não possui sentença penal condenatória transitada em julgado.
+
+a.3) conduta social: Não deve pesar em desfavor do réu.
+
+a.4) personalidade: Não há elementos aptos a identificar o perfil da personalidade do denunciado, não sendo possível presumir-se ser voltada para as atividades criminosas.
+
+a.5) motivos do crime: No caso em tela, os motivos são próprios do tipo, envolvendo a aquisição de lucro fácil.
+
+a.6) circunstâncias do crime: Entendo que deve ser valorado de forma negativa, visto que o crime foi cometido na internet, por intermédio de um site falso da Equatorial Energia S.A, com a possibilidade de inúmeras outras pessoas, além da vítima, caírem na fraude e, assim, serem prejudicadas.
+
+a.7) consequências do crime: As consequências são desfavoráveis. A vítima, que não possui o hábito de atrasar suas contas, foi surpreendida em ter que pagar novamente um débito que acreditava já ter quitado, em evidente prejuízo financeiro. Além de ser obrigada a se deslocar até a concessionária de energia elétrica para esclarecer a situação, sofreu perda de tempo e transtornos, gerando um sentimento de angústia e vulnerabilidade.
+
+a.8) comportamento da vítima: em nada influiu na prática do delito, razão pela qual esta circunstância não pode ser levada em consideração para aumentar a pena base.
+
+Considerando que há 03 (três) circunstâncias judiciais desfavoráveis, fixo a pena base em 06 (seis) anos de reclusão e 185 (cento e oitenta e cinco) dias-multa.
+
+b) Circunstâncias atenuantes e agravantes:
+
+Não há circunstâncias atenuantes e agravantes a serem consideradas.
+
+c) Causas de diminuição e de aumento de pena:
+
+Não há causas de diminuição e aumento de pena.
+
+d) Pena:
+
+Fica, portanto, o réu Micael Brasil Andrade condenado em relação ao crime do art. 171, § 2º-A do Código Penal cometido em face da vítima Gleicy Glenda Gonçalves de Oliveira Sousa à pena total de 06 (seis) anos de reclusão e 185 (cento e oitenta e cinco) dias-multa.
+
+Vítima Rosilene Lima Magno de Souza:
+
+a) Circunstâncias judiciais (art. 59 do Código Penal):
+
+a.1) culpabilidade: Entendo que a conduta do denunciado deve ser valorada negativamente, em razão de sua maior reprovabilidade. O acusado utilizou um sítio eletrônico com alto grau de semelhança ao da concessionária Equatorial Energia S.A., capaz de induzir as vítimas ao erro. Tal ação, que envolveu considerável conhecimento técnico, evidencia uma execução premeditada, demonstrando elevada periculosidade e intencionalidade, pois o crime foi cuidadosamente planejado e estrategicamente conduzido.
+
+a.2) antecedentes: o réu não possui sentença penal condenatória transitada em julgado.
+
+a.3) conduta social: Não deve pesar em desfavor do réu.
+
+a.4) personalidade: Não há elementos aptos a identificar o perfil da personalidade do denunciado, não sendo possível presumir-se ser voltada para as atividades criminosas.
+
+a.5) motivos do crime: No caso em tela, os motivos são próprios do tipo, envolvendo a aquisição de lucro fácil.
+
+a.6) circunstâncias do crime: Entendo que deve ser valorado de forma negativa, visto que o crime foi cometido na internet, por intermédio de um site falso da Equatorial Energia S.A, com a possibilidade de inúmeras outras pessoas, além da vítima, caírem na fraude e, assim, serem prejudicadas.
+
+a.7) consequências do crime: As consequências são desfavoráveis. A vítima, que não possui o hábito de atrasar suas contas, foi surpreendida em ter que pagar novamente um débito que acreditava já ter quitado, em evidente prejuízo financeiro. Além de ser obrigada a se deslocar até a concessionária de energia elétrica para esclarecer a situação, sofreu perda de tempo e transtornos, gerando um sentimento de angústia e vulnerabilidade.
+
+a.8) comportamento da vítima: em nada influiu na prática do delito, razão pela qual esta circunstância não pode ser levada em consideração para aumentar a pena base.
+
+Considerando que há 03 (três) circunstâncias judiciais desfavoráveis, fixo a pena base em 06 (seis) anos de reclusão e 185 (cento e oitenta e cinco) dias-multa.
+
+b) Circunstâncias atenuantes e agravantes:
+
+Não há circunstâncias atenuantes e agravantes a serem consideradas.
+
+c) Causas de diminuição e de aumento de pena:
+
+Não há causas de diminuição e aumento de pena.
+
+d) Pena:
+
+Fica, portanto, o réu Micael Brasil Andrade condenado em relação ao crime do art. 171, § 2º-A do Código Penal cometido em face da vítima Rosilene Lima Magno de Souza à pena total de 06 (seis) anos de reclusão e 185 (cento e oitenta e cinco) dias-multa.
+
+PENA E CONCURSO FORMAL DE CRIMES:
+
+Em sendo aplicável a regra do concurso formal de crimes (art. 70 do CP), com a aplicação somente de uma das penas, aumentada em 1/3, considerando o cometimento do crime em face de 05 (cinco) vítimas, no mesmo contexto fático e modus operandi, fica o réu Micael Brasil Andrade condenado por incurso no art. 171, § 2º-A, do Código Penal à pena de 08 (oito) anos de reclusão e 247 (duzentos e quarenta e sete) dias-multa.
+
+Crime do art. 288 do Código Penal:
+
+a) Circunstâncias judiciais (art. 59 do Código Penal)
+
+a.1) culpabilidade: Entendo que a conduta do denunciado deve ser valorada negativamente, em razão de sua maior reprovabilidade. O acusado faz parte de associação que utiliza de um sítio eletrônico com alto grau de semelhança ao da concessionária Equatorial Energia S.A., capaz de induzir as vítimas ao erro. Tal ação, que envolveu considerável conhecimento técnico, evidencia uma execução premeditada, demonstrando elevada periculosidade e intencionalidade para a prática de crime, sendo cuidadosamente planejado e estrategicamente conduzido.
+
+a.2) antecedentes: Nesse passo, o denunciado não possui antecedentes criminais.
+
+a.3) conduta social: Não deve pesar em desfavor do denunciado.
+
+a.4) personalidade: Não há elementos aptos a identificar o perfil da personalidade do denunciado, não sendo possível presumir-se ser voltada para as atividades criminosas.
+
+a.5) motivos do crime: No caso em tela, os motivos são próprios do tipo, envolvendo a aquisição de lucro fácil.
+
+a.6) circunstâncias do crime: Entendo que deve ser valorado de forma negativa, visto que a associação criminosa atua no meio virtual, por intermédio de um site falso de uma concessionária de energia elétrica Equatorial Energia S.A, com a possibilidade de inúmeras outras pessoas, além da vítima, caírem em fraudes.
+
+a.7) consequências do crime: As consequências são desfavoráveis, tendo em vista que não houve a efetiva devolução dos valores às vítimas.
+
+a.8) comportamento da vítima: em nada influiu na prática do delito, razão pela qual tal circunstância não pode ser levada em consideração para aumentar a pena base.
+
+Considerando que há três circunstâncias judiciais desfavoráveis, fixo a pena base em 02 (dois) anos de reclusão.
+
+b) Circunstâncias atenuantes e agravantes
+
+Não há circunstâncias atenuantes e agravantes a serem consideradas.
+
+c) Causas de diminuição e de aumento de pena
+
+Inexistem causas de diminuição e de aumento de pena a serem consideradas.
+
+d) Pena:
+
+Fica, portanto, o Réu Micael Brasil Andrade condenado em relação ao crime do art. 288 do Código Penal à pena total de 02 (dois) anos de reclusão.
+
+PENA DEFINITIVA E CONCURSO MATERIAL DE CRIMES:
+
+Em sendo aplicável a regra do concurso material, conforme prevista no art. 69, do Código Penal, diante da existência de desígnios autônomos do agente na prática dos crimes, qual seja, os estelionatos eletrônicos e a associação criminosa, FICA O RÉU MICAEL BRASIL ANDRADE CONDENADO, DEFINITIVAMENTE, À PENA DE 10 (DEZ) ANOS DE RECLUSÃO E 247 (DUZENTOS E QUARENTA E SETE) DIAS-MULTA, TORNANDO-A CONCRETA E DEFINITIVA.
+
+REGIME DE CUMPRIMENTO DE PENA:
+
+O regime inicial de cumprimento de pena do condenado, observadas as disposições do art. 33, § 2º, alínea "a", do Código Penal e considerando a pena aplicada, será o FECHADO.
+
+DETRAÇÃO DO PERÍODO DE PRISÃO PROVISÓRIA:
+
+Deixo de realizar a detração conforme comando preconizado no artigo 387, §2º, do CPP, na medida em que o réu não ficou preso preventivamente nos presentes autos.
+
+SUBSTITUIÇÃO POR PENA RESTRITIVA DE DIREITOS E SUSPENSÃO CONDICIONAL DA PENA:
+
+Incabível a substituição da pena, pois a quantidade de sanção estipulada ao condenado supera o limite do artigo 44, inciso I, do Código Penal.
+
+Não incide a suspensão condicional das penas (Código Penal, artigo 77), pois as sanções impostas superam o limite de 02 (dois) anos e não houve possibilidade legal de aplicação do artigo 44, do Código Penal.
+
+VALOR DO DIA MULTA:
+
+Ao que consta dos autos, as condições econômicas do réu não são boas, de sorte que arbitro o valor do dia multa em seu mínimo, ou seja, 1/30(um trigésimo) do salário-mínimo vigente na data dos fatos, devidamente atualizado.
+
+EM RELAÇÃO À CUSTÓDIA CAUTELAR:
+
+Concedo ao sentenciado Micael Brasil Andrade o direito de recorrer em liberdade, considerando que não respondeu ao processo na condição de custodiado, além de não ter sido feita representação pela sua custódia cautelar nesse momento processual.
+
+DA FIXAÇÃO DO VALOR MÍNIMO DE INDENIZAÇÃO (ART. 387, IV DO CPP):
+
+A Lei nº 11.719 de 20 de junho de 2008, que alterou a redação do artigo 387, inciso IV e do artigo 63, parágrafo único, do Código de Processo Penal, trouxe a alternativa de o magistrado fixar um valor mínimo para reparar os danos advindos do ato ilícito.
+
+Nesse diapasão, tem-se o disposto no artigo 91, inciso I do Código Penal, sendo que este dispositivo deu início à busca da valorização da vítima, pois foi através dele que houve a possibilidade de a vítima ter a reparação dos danos sofridos.
+
+Art. 91 - São efeitos da condenação:
+
+I - Tornar certa a obrigação de indenizar o dano causado pelo crime.
+
+Levando-se em consideração a extensão do dano, a função pedagógica do dano moral, a capacidade econômica das partes, as peculiaridades da causa, a vedação ao enriquecimento ilícito e os princípios da proporcionalidade e da congruência, bem como para evitar decisão ultra petita, em atenção ao expressamente requerido pelo Ministério Público, mostrando-se razoável, CONDENO os sentenciados Eduardo Belarmino Silva e Micael Brasil Andrade a pagarem a título de indenização mínima:
+
+a)
+À Vítima Josinete Pereira Souza, o valor de R$ 327,04 (trezentos e vinte e sete reais e quatro centavos);
+
+b)
+À Vítima Jocyemília de Nazaré Durans Marques, o valor de R$ 1.062,84 (um mil e sessenta e dois reais e oitenta e quatro centavos);
+
+c)
+À Vítima Maria da Assunção Viana de Andrade, o valor de R$ 529,92 (quinhentos e vinte e nove reais e noventa e dois centavos);
+
+d)
+À Vítima Gleicy Glenda Gonçalves de Oliveira Sousa, o valor de R$ 714,77 (setecentos e quatorze reais e setenta e sete centavos);
+
+e)
+À Vítima Rosilene Lima Magno Souza, o valor de R$ 687,46 (seiscentos e oitenta e sete reais e quarenta e seis centavos).
+
+Todos os valores devem ser atualizados desde o presente arbitramento (Súmula nº 362 do STJ) e acrescido de juros de mora em 1% a partir do evento danoso, que foi o dia do pagamento do boleto falso (Súmula nº 54 do STJ).
+
+DISPOSIÇÕES FINAIS:
+
+1. Com base nos arts. 804 e 805 do CPP, deixo de condenar os sentenciados nas custas processuais, em virtude se enquadrarem na isenção legal, a teor dos arts. 34 e 35 da Lei de Custas do Estado do Pará (Lei Estadual nº 8.328, de 29/12/15).
+
+2. Em decorrência, cumpram-se as seguintes determinações:
+
+2.1. Publique-se. Registre-se. Intimem-se;
+
+2.2. Intimem-se o Ministério Público (art. 370, §4º, do CPP), os réus (art. 360 c/c. 370, ambos do CPP), as defesas (CPP, art. 370, § 4º) e as vítimas.
+
+2.3 Expeça-se Carta Precatória para fins de intimação, caso seja necessário.
+
+2.4 Havendo interposição de recurso, certifique-se a tempestividade e, após, façam-se os autos conclusos.
+
+2.5 Em caso de recurso, expeça-se a guia de execução provisória de Eduardo Belarmino Silva e depreca-se a comunicação para o local em que está atualmente custodiado (UPR de Imperatriz/MA).
+
+3. Ocorrendo trânsito em julgado da sentença, adotar as seguintes providências:
+
+a) ficam suspensos os direitos políticos dos sentenciados enquanto durarem todos os efeitos desta sentença, como disposto no art. 15 - III, da Constituição Federal, devendo ser comunicada esta sentença ao Tribunal Regional Eleitoral.
+
+b) Comunique-se à Justiça Eleitoral e ao Instituto de Identificação de Belém/PA (CF/1988, art. 15, III e CPP, art. 809, § 3º);
+
+c) Expeça-se mandado de prisão em face dos sentenciados para cumprimento definitivo de pena e, após o cumprimento, expeça-se a guia definitiva e encaminha-se ao órgão judicial onde se situar o estabelecimento prisional no qual o sentenciado esteja custodiado.
+
+d) Na pendência do cumprimento do mandado de prisão acima mencionado, arquivem-se os autos provisoriamente até o cumprimento.
+
+e) Não havendo pendências, arquivem-se os autos.
+
+Serve como ofício e mandado de intimação.
+
+Cumpra-se. P.R.I.
+
+Castanhal, 03 de outubro de 2024.
+
+DANIEL BEZERRA MONTENEGRO GIRÃO
+
+Juiz de Direito

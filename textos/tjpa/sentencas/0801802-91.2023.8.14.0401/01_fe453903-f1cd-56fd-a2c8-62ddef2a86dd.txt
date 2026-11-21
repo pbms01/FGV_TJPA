@@ -1,0 +1,73 @@
+[Texto nativo do PJe]
+
+6ª Vara Criminal da Capital
+
+S E N T E N Ç A
+
+Processo n. 0801802-91.2023.8.14.0401
+
+Denunciado: MARCOS VINICIUS PANTOJA SOUZA
+
+Delito imputado: art. 171, § 2º-A e art. 299 do Código Penal Brasileiro
+
+1. RELATÓRIO
+
+Vistos etc.
+
+Trata-se de Ação Penal Pública incondicionada movida pelo Ministério Público do Estado do Pará em face de MARCOS VINICIUS PANTOJA SOUZA, já qualificado nos autos, imputando-lhe a prática dos delitos de estelionato (modalidade fraude eletrônica) e falsidade ideológica, previstos, respectivamente, nos artigos art. 171, § 2º-A, e art. 299, ambos do Código Penal Brasileiro.
+
+Conforme se depreende da denúncia (ID 90540764), o acusado teria sido preso em flagrante no dia 31/01/2023 ao receber mercadorias da empresa GABRIELLE ARRAES FERNANDES - ARTIGOS ESPORTIVOS (Nação Rubro Negra Paraense), adquiridas mediante a apresentação de um comprovante de transferência bancária via PIX falso, em valor que a inicial acusatória não especifica, dando apenas a entender que o valor efetivamente recebido na transação foi de R$ 0,1.
+
+Segundo a acusação, o réu teria confessado, na fase inquisitorial, que agia a mando de SILAS DA SILVA CARNEIRO, que seria o responsável por alterar os comprovantes de PIX.
+
+A denúncia foi recebida em 13 de abril de 2023, conforme decisão de ID 90764895.
+
+O réu MARCOS VINICIUS PANTOJA SOUZA foi citado pessoalmente em 17/04/2023 (ID 91027715) e a Defensoria Pública apresentou a Resposta à Acusação (ID 92049804), pugnando pela absolvição.
+
+O corréu SILAS DA SILVA CARNEIRO, que não foi localizado para citação pessoal, teve o processo suspenso em relação a ele (ID 112366421), mas posteriormente se habilitou nos autos por advogada constituída, sendo o processo desmembrado em 03/11/2025, passando a tramitar sob o número 0821433-50.2025.8.14.0401, prosseguindo-se o presente feito apenas quanto ao acusado MARCOS VINICIUS PANTOJA SOUZA.
+
+Na fazer de instrução, foram ouvidas a vítima Alexandre Carneiro Paiva (preposto da empresa) e as testemunhas de acusação Daniel Ribeiro do Nascimento, Anderson Figueiredo dos Santos, Charles Gonzaga de Amorim, Walmir Pantoja Ferreira, Márcio Alexandre Oliveira de Souza e Paulo Roberto Gomes Remeiro Neto. Em seu interrogatório, o acusado MARCOS VINICIUS PANTOJA SOUZA optou por exercer o direito constitucional de permanecer em silêncio.
+
+As partes não requereram diligências complementares na fase do artigo 402 do Código de Processo Penal.
+
+Em sede de Alegações Finais (ID 159519586), o Ministério Público requereu a condenação do réu MARCOS VINICIUS PANTOJA SOUZA pela prática do crime de estelionato (art. 171, caput, do Código Penal).
+
+A Defesa Técnica, por sua vez, apresentou Alegações Finais (ID 160967678) requerendo a absolvição do acusado.
+
+É o relatório. Decido.
+
+2. FUNDAMENTAÇÃO
+
+A pretensão punitiva formulada pelo Ministério Público deve ser julgada improcedente, porquanto o acervo probatório colhido sob o crivo do contraditório e da ampla defesa mostrou-se insuficiente para sustentar o decreto condenatório contra o acusado MARCOS VINICIUS PANTOJA SOUZA.
+
+O crime de estelionato (artigo 171 do Código Penal) exige, para sua consumação, que o agente obtenha vantagem ilícita, em prejuízo alheio, induzindo ou mantendo a vítima em erro, mediante artifício ou ardil. No presente caso, a fraude material que teria sido aplicada para a obtenção da vantagem ilícita consistiu na falsificação de um comprovante de transferência bancária via PIX em valor que a inicial acusatória não especifica detalhadamente, dando apenas a entender que o valor efetivamente repassado para a vítima foi de R$ 0,1.
+
+Apesar dos consistentes depoimentos das testemunhas e da vítima em juízo, que relataram a dinâmica do golpe de fraude do PIX falso, o conjunto probatório não se mostrou robusto o suficiente para vincular o acusado MARCOS VINICIUS PANTOJA SOUZA de modo indubitável à autoria ou à participação na fraude da alteração do comprovante.
+
+Dos autos do inquérito, é possível perceber que há mais de uma fraude apurada e nem todas contam com a participação direta do acusado MARCOS VINICIUS, pois os fatos a ele imputados teriam ocorrido no dia 31/01/2023 (momento da prisão em flagrante na entrega da mercadoria), e os comprovantes de transação fraudulentos juntados aos autos (ID 89372336 - Pág. 11) datam do dia 28/01/2023, referente a transações anteriores supostamente perpetradas por terceiros.
+
+Abstrai-se dos autos que a acusação se baseou majoritariamente no depoimento extrajudicial de MARCOS VINICIUS, que na fase de inquérito admitiu ter recebido o material a mando de SILAS CARNEIRO e confessou ter participado de outras vezes nesse tipo de golpe (ID 85767066 - Pág. 6). Contudo, em juízo, o acusado optou por permanecer em silêncio, não confirmando as declarações colhidas na fase inquisitorial.
+
+Embora o depoimento das testemunhas ouvidas em juízo reforce o modus operandi da fraude (fraude do PIX falso), não houve prova material direta da adulteração do documento, ou seja, a efetiva e idônea prova da falsificação através do documento apropriado (comprovante adulterado).
+
+Ademais, não é possível afirmar com a certeza necessária para um decreto condenatório que as conversas de aplicativo juntadas aos autos envolvem efetivamente os fatos específicos apurados nestes autos contra o acusado MARCOS VINICIUS, ou que tratam de outra tentativa semelhante de golpe sofrida pela empresa vítima, considerando a notícia nos autos de que esse tipo de fraude com PIX falso não era incomum contra a empresa. A fragilidade reside na ausência de prova inequívoca que vá além do indício colhido no flagrante e na confissão não ratificada em juízo.
+
+Diante da insuficiência do conjunto probatório para imputar a autoria delitiva a MARCOS VINICIUS PANTOJA SOUZA, a absolvição é a solução que se impõe, em atenção ao princípio do in dubio pro reo. A dúvida razoável no processo penal opera em favor do acusado, devendo a condenação basear-se em certeza.
+
+3. DISPOSITIVO
+
+Ante o exposto, e em conformidade com a fundamentação de que as provas produzidas não são aptas a embasar um decreto condenatório, JULGO IMPROCEDENTE a pretensão punitiva formulada e, por conseguinte, com fundamento no artigo 386, inciso VII, do Código de Processo Penal, ABSOLVO o acusado MARCOS VINICIUS PANTOJA SOUZA, já qualificado nos autos.
+
+Dadas as razões do presente julgamento, revogo as medidas cautelares impostas na decisão de ID 85782017.
+
+Determino a intimação do Ministério Público, da Defesa e do Réu.
+
+Após o trânsito em julgado, procedam-se as comunicações e anotações necessárias e, em seguida, promova-se o arquivamento dos autos.
+
+Belém/PA, datado e assinado eletronicamente.
+
+ANDREA FERREIRA BISPO
+
+Juíza de Direito
+
+Titular da 6ª Vara Criminal da Capital

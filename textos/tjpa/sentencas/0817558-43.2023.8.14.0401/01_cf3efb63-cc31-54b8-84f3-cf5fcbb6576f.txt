@@ -1,0 +1,378 @@
+[Texto nativo do PJe]
+
+Proc. n.º 0817558-43.2023.8.14.0401
+
+Réus: LUIZ FELIPE PONTES DA SILVA, LUANA MARIA DIAS MORENO DE OLIVEIRA e VIVIAN VITÓRIA SEIXAS BUENO
+
+Vítimas: ROBSON AUGUSTO DE JESUS; RAIMUNDO NILO LOBO LISBOA E ANA MARIA MONTEIRO MESQUITA
+Capitulação provisória: art. 171, § 2ºA, do Código Penal, e art. 1º, § 1º, da Lei n. 9.613/1998, em concurso material (CP, art. 69).
+
+***********************************************************************************************************************
+SENTENÇA N.º 112/2026 (C/M)
+
+I - RELATÓRIO:
+
+Trata-se de ação penal proposta pelo Ministério Público em face de LUIZ FELIPE PONTES DA SILVA, LUANA MARIA DIAS MORENO DE OLIVEIRA e VIVIAN VITÓRIA SEIXAS BUENO, imputando-lhes a prática dos crimes previstos no art. 171, § 2º-A, do Código Penal, e art. 1º, § 1º, da Lei n. 9.613/1998, em concurso material (CP, art. 69), conforme narrativa constante da denúncia (ID 10035242).
+
+Consta da denúncia que os réus LUIZ FELIPE PONTES DA SILVA e LUANA MARIA DIAS MORENO DE OLIVEIRA, em contexto de fraude eletrônica, teriam participado de esquema criminoso consistente na utilização de aplicativos de mensagens para se fazerem passar por familiares das vítimas, induzindo-as em erro e obtendo vantagem econômica indevida mediante transferências bancárias.
+
+Segundo a inicial acusatória, os valores ilicitamente obtidos eram direcionados a contas vinculadas aos denunciados, sendo posteriormente objeto de movimentações financeiras com o propósito de ocultar e dissimular a origem e a destinação dos recursos, caracterizando, em tese, também o delito de lavagem de dinheiro.
+
+Ainda de acordo com a denúncia, os prejuízos suportados pelas vítimas foram assim individualizados: ROBSON AUGUSTO DE JESUS sofreu prejuízo patrimonial no valor de R$ 1.385,00 (um mil trezentos e oitenta e cinco reais), decorrente de transferências bancárias indevidamente realizadas via PIX, diretamente para a conta indicada pelo fraudador; RAIMUNDO NILO LOBO LISBOA suportou prejuízo no montante de R$ 5.091,00 (cinco mil e noventa e um reais), igualmente em razão de transferências realizadas via PIX; e
+ANA MARIA MONTEIRO MESQUITA sofreu prejuízo financeiro de R$ 2.491,00 (dois mil quatrocentos e noventa e um reais), também decorrente de transferências efetuadas via PIX, todas realizadas sob induzimento fraudulento e em favor da conta indicada pelo agente.
+
+O inquérito policial que embasou a denúncia encontra-se instruído com extratos bancários, comprovantes de transferências, registros de conversas mantidas por aplicativo de mensagens, laudos e demais documentos investigativos, constantes do IPL n.º 592 (IDs 10035242-9 a 10035221-7, dentre outros).
+
+A denúncia foi apresentada em 05/09/2023 (ID 10035242-4) e recebida por este Juízo em 06/09/2023 (ID 10035232-4).
+
+Em razão da existência de outros investigados relacionados aos mesmos fatos, foi determinado o desmembramento do feito, permanecendo nos presentes autos apenas os réus LUIZ FELIPE PONTES DA SILVA e LUANA MARIA DIAS MORENO DE OLIVEIRA (ID 10069462-1), tendo os demais acusados passado a responder em autos próprios.
+
+Regularmente citada, a ré LUANA MARIA DIAS MORENO DE OLIVEIRA apresentou resposta à acusação (ID 10211798-5). O réu LUIZ FELIPE PONTES DA SILVA, após tentativas infrutíferas de localização pessoal, foi citado por edital (IDs 11698439-6 e 17089566-6), tendo posteriormente apresentado resposta à acusação através de seu advogado constituído Rafel Winck do Nascimento OAB/19119 (ID 137259593-Pág. 1/9). Não sendo hipótese de absolvição sumária, foi determinado o prosseguimento do feito exclusivamente em relação aos réus LUIZ FELIPE PONTES DA SILVA e LUANA MARIA DIAS MORENO DE OLIVEIRA.
+
+No tocante à denunciada VIVIAN VITÓRIA SEIXAS BUENO, não tendo sido possível a sua localização para citação pessoal, foi expedido edital de citação (ID 116984396) e, após o decurso do prazo legal sem manifestação, foi determinada a suspensão do processo em relação a ela, nos termos do art. 366 do Código de Processo Penal, pelo prazo de 20 (vinte) anos, conforme decisão de ID 119565640.
+
+Na fase instrutória, foi realizada audiência de instrução e julgamento em 13/08/2025, ocasião em que foram ouvidas as vítimas ROBSON AUGUSTO D. J., RAIMUNDO NILO LOBO LISBOA, O. D. B. M. S. e A. M. M. M., conforme termo e mídias constantes dos autos (IDs 15441373-3 a 15441843-9). Na mesma oportunidade, foram realizados os interrogatórios dos réus LUIZ FELIPE PONTES DA SILVA e LUANA MARIA DIAS MORENO DE OLIVEIRA, conforme registros audiovisuais juntados aos autos (IDs 15441844-1 a 15441845-3).
+
+Encerrada a instrução probatória, não houve requerimento de diligências complementares, sendo aberto prazo para apresentação de alegações finais.
+
+O Ministério Público apresentou alegações finais (ID 155334191 - pág. 1/12), pugnando pela condenação dos réus nos exatos termos da denúncia.
+
+A defesa da ré LUANA MARIA DIAS MORENO DE OLIVEIRA apresentou alegações finais escritas (ID 159572210 - pág. 1/8), por intermédio de seus advogados constituídos, requerendo a absolvição com fundamento no art. 386, inciso III, do Código de Processo Penal, diante da alegada atipicidade da conduta por ausência de dolo. Subsidiariamente, requereu a absolvição com base no art. 386, inciso VII, do Código de Processo Penal, por insuficiência de provas. Em caso de eventual condenação, postulou a aplicação da pena no mínimo legal, o afastamento das qualificadoras e o direito de recorrer em liberdade.
+
+A Defensoria Pública apresentou alegações finais em favor do réu LUIZ FELIPE PONTES DA SILVA (ID 171200592 - pág. 1/5), requerendo a absolvição quanto ao crime de estelionato eletrônico, tipificado no art. 171, § 2ºA, do Código Penal, com fundamento no art. 386, inciso III, do Código de Processo Penal, em razão da alegada atipicidade da conduta pela ausência de dolo, ou, subsidiariamente, com base no art. 386, inciso VII, do mesmo diploma legal, por insuficiência de provas. Requereu, ainda, a absolvição quanto ao crime de lavagem de capitais, tipificado no art. 1º da Lei n. 9.613/1998, com fundamento no art. 386, inciso III, do Código de Processo Penal, ao argumento de que se trata de mero exaurimento do crime antecedente e de ausência de tipicidade material quanto as elementares de ocultação ou dissimulação. Subsidiariamente, em caso de condenação pelo delito de lavagem de capitais, postulou o afastamento da causa de aumento prevista no § 4º do art. 1º da Lei n. 9.613/1998, bem como a fixação da pena-base no mínimo legal, nos termos do art. 59 do Código Penal.
+
+É o relatório. Decido.
+
+Considerando que não foram arguidas preliminares pelas partes, estando ausentes questões processuais pendentes, passase diretamente à análise do mérito.
+
+II - FUNDAMENTAÇÃO:
+
+2.1. Réu LUIZ FELIPE PONTES DA SILVA × vítima RAIMUNDO NILO LOBO LISBOA
+
+a) Materialidade delitiva - crimes de estelionato eletrônico e lavagem de dinheiro:
+
+No que se refere à materialidade do crime de estelionato praticado por meio eletrônico, que se encontra devidamente comprovada pelo boletim de ocorrência (ID 100352397 - pág. 20), pelo termo de representação criminal regularmente formalizado (ID 100352398 - pág. 1), bem como pelos termos de declaração da vítima colhidos na fase policial (ID 100352398 - págs. 1, 3 e 5).
+
+Consta dos autos que a vítima RAIMUNDO NILO LOBO LISBOA, nascido em 25/09/1970, pessoa com mais de cinquenta anos à época do fato, induzida em erro após receber mensagens via aplicativo WhatsApp, mediante as quais o interlocutor se fez passar por seu filho RENAN SILVA LISBOA, alegando problemas com o aparelho celular e necessidade urgente de quitação de boletos.
+
+Em razão do ardil, a vítima realizou duas transferências via PIX, ambas efetivamente comprovadas nos autos, sendo: R$ 2.591,00, em 15/07/2022; R$ 2.500,00, em 16/07/2022, totalizando R$ 5.091,00 (cinco mil e noventa e um reais), valores creditados em conta vinculada ao réu LUIZ FELIPE PONTES DA SILVA, conforme comprovantes bancários juntados aos autos (ID 100352398 - págs. 3 e 5).
+
+A materialidade delitiva encontra ainda reforço: pela degravação integral das conversas mantidas via WhatsApp (ID 100352398 - págs. 11, 13 e 15), que evidencia o ardil empregado; e pela prova oral colhida em juízo, consistente no depoimento da vítima (ID 154418438), coerente com os elementos documentais.
+
+Quanto ao crime de lavagem de dinheiro, embora comprovada a existência de valores provenientes de infração penal antecedente, não há prova material de atos autônomos de ocultação ou dissimulação. Os documentos juntados demonstram apenas o recebimento direto dos valores pelo réu, inexistindo extratos bancários, registros de fracionamento, transferências subsequentes estruturadas ou movimentações destinadas a ocultar ou dissimular a origem ilícita do numerário.
+
+Dessa forma, resta comprovada a materialidade do crime de estelionato eletrônico, ao passo que não se evidencia a materialidade típica do delito de lavagem de dinheiro, diante da ausência de comprovação dos atos descritos no art. 1º, §1º, da Lei nº 9.613/1998.
+
+b) Autoria delitiva:
+
+A autoria do crime de estelionato eletrônico, no núcleo fático que envolve o réu LUIZ FELIPE PONTES DA SILVA e a vítima RAIMUNDO NILO LOBO LISBOA, encontra-se suficientemente demonstrada pelo conjunto probatório produzido.
+
+Os comprovantes bancários juntados às páginas 3 e 5 do ID 100352398 evidenciam que a quantia total de R$ 5.091,00 foi transferida via PIX pela vítima e creditada em conta bancária vinculada ao réu, individualizando-o de forma objetiva como destinatário direto do numerário.
+
+Esse elemento é corroborado: pelo depoimento da vítima, prestado tanto na fase policial (ID 100352398 - págs. 1, 3 e 5) quanto reiterado em juízo (ID 154418438), no qual confirmou as transferências realizadas após contato fraudulento; e pela degravação das conversas, que demonstra o envio direto dos dados bancários do réu para viabilizar os pagamentos.
+
+Em interrogatório judicial (IDs 154418441, 154418443 e 154418444), o acusado negou a prática delitiva, porém não apresentou qualquer elemento concreto capaz de infirmar a prova documental do crédito recebido, tampouco trouxe explicação plausível sobre a utilização de sua conta bancária no contexto fraudulento, limitando-se à negativa genérica.
+
+Assim, demonstrado que o réu recebeu diretamente os valores oriundos da fraude, e ausente prova capaz de afastar sua vinculação objetiva aos fatos, resta suficientemente individualizada a autoria do crime de estelionato eletrônico, nos termos do art. 171, §2ºA, do Código Penal.
+
+No tocante ao crime de lavagem de dinheiro, embora demonstrada a existência de valores provenientes de crime antecedente, não se evidencia autoria típica, porquanto inexiste prova de que o réu tenha praticado atos voltados à ocultação ou dissimulação do numerário, distintos do simples recebimento do produto do estelionato.
+
+c) Teses defensivas:
+
+A defesa sustentou, quanto ao crime de estelionato eletrônico:  ausência de dolo; e a insuficiência probatória.
+
+As alegações não merecem acolhimento. A condenação não se apoia exclusivamente em prova oral, mas em prova documental objetiva, consubstanciada nos comprovantes de transferência bancária que demonstram, de forma inequívoca, o crédito dos valores na conta vinculada ao acusado, em perfeita consonância com o relato firme e coerente da vítima e com a degravação das conversas.
+
+A negativa apresentada pelo réu, desacompanhada de qualquer prova idônea capaz de infirmar a destinação dos valores ou o prejuízo suportado pela vítima, mostrase insuficiente para afastar o robusto conjunto probatório formado.
+
+Por outro lado, assiste razão à defesa quanto ao crime de lavagem de dinheiro, uma vez que, conforme já analisado, não há prova material da prática de atos autônomos de ocultação ou dissimulação, inexistindo individualização de circulação posterior do numerário ou demonstração do dolo específico exigido pelo tipo penal, motivo pelo qual a solução absolutória quanto a esse delito se impõe.
+
+2.2.
+Réu LUIZ FELIPE PONTES DA SILVA X vítima ROBSON AUGUSTO DE JESUS
+
+a)
+Materialidade Delitiva Crime de Estelionato e Lavagem de Dinheiro
+
+A materialidade do crime de estelionato encontra-se devidamente comprovada nos autos.
+
+A materialidade delitiva está comprovada pelo boletim de ocorrência nº 001747/2022.102425-5 (ID 100352429, pág. 103), registrado em 08/08/2022, bem como pela prova oral colhida em juízo (ID 154418439).
+
+Conforme consta do registro policial e foi confirmado pela vítima em juízo, ROBSON AUGUSTO DE JESUS foi induzido em erro por meio de mensagens recebidas via aplicativo WhatsApp, nas quais o autor do delito fez-se passar por seu filho, ROBSON AUGUSTO DE JESUS JÚNIOR, utilizando fotografia e linguagem compatíveis, sob a alegação de que estaria com problemas em suas contas bancárias e necessitava de auxílio financeiro imediato.
+
+Em razão do ardil, a vítima realizou, dentre outras, uma transferência via PIX no valor de R$ 1.385,00 (mil trezentos e oitenta e cinco reais), tendo como favorecido o réu LUIZ FELIPE PONTES DA SILVA, por meio da instituição Mercado Pago IP Ltda, valor que saiu efetivamente de sua conta bancária.
+
+A materialidade do estelionato, portanto, encontra-se demonstrada pelo: boletim de ocorrência; registros da transação bancária; e pelo depoimento firme, coerente e consistente da vítima em juízo.
+
+Embora o réu tenha sido denunciado também pela prática do crime de lavagem de dinheiro (art. 1º da Lei nº 9.613/98), no núcleo fático relativo à vítima ROBSON AUGUSTO DE JESUS não se evidenciam atos autônomos e posteriores de ocultação ou dissimulação do produto do crime.
+
+O conjunto probatório demonstrou que o réu recebeu diretamente o valor de R$ 1.385,00, oriundo do estelionato eletrônico, não havendo comprovação de que tenha praticado condutas adicionais destinadas a ocultar, dissimular ou reinserir o numerário no sistema financeiro, para além do mero exaurimento do delito antecedente.
+
+Consoante entendimento consolidado, o simples recebimento do produto do crime antecedente, desacompanhado de atos posteriores e independentes de lavagem, não é suficiente para a configuração do delito previsto no art. 1º da Lei nº 9.613/98.
+
+Dessa forma, a conduta amolda-se exclusivamente ao crime de estelionato eletrônico, impondo-se a absolvição quanto ao delito de lavagem de dinheiro.
+
+b) Autoria Delitiva:
+
+Embora a vítima tenha relatado em juízo que realizou transferência no valor de R$ 1.385,00 (Hum mil trezentos e oitenta e cinco reais) em favor do acusado, não há nos autos qualquer comprovação documental de que referido valor tenha efetivamente ingressado em conta bancária de titularidade ou disponibilidade do réu.
+
+Tratando-se de crime praticado por meio eletrônico, cuja dinâmica naturalmente gera vestígios documentais, a ausência de comprovante da transação impede a formação de juízo de certeza quanto à autoria, não sendo suficiente, nesse contexto específico, o relato isolado da vítima para embasar decreto condenatório.
+
+Diante da fragilidade probatória quanto à autoria, impõe-se a absolvição do acusado, nos termos do art. 386, VII, do Código de Processo Penal, tanto em relação ao crime de estelionato eletrônico quanto ao delito de lavagem de dinheiro.
+
+2.3. Ré LUANA MARIA DIAS MORENO DE OLIVEIRA × Vítima ANA MARIA MONTEIRO MESQUITA
+
+a) Materialidade Delitiva - Crimes de Estelionato Eletrônico e Lavagem de Dinheiro
+
+A materialidade do crime de estelionato eletrônico resta amplamente comprovada nos autos.
+
+Consta do Boletim de Ocorrência nº 00615/2022.100576-1 (ID 100352429, págs. 5/6), registrado presencialmente, que a vítima ANA MARIA MONTEIRO MESQUITA, pessoa idosa, foi induzida em erro após receber mensagens por meio do aplicativo WhatsApp, oriundas do número (91) 991170170, no qual o interlocutor se fez passar por sua filha, utilizando-se de narrativa plausível de urgência financeira.
+
+Convencida da veracidade da comunicação, a vítima realizou diversas transferências bancárias, totalizando aproximadamente R$ 28.000,00 (vinte e oito mil reais), dentre as quais se destaca, para o presente contexto fático, a transferência via PIX no valor de R$ 2.491,00, efetuada em 05/05/2022, em favor da conta mantida junto ao Mercado Pago IP Ltda, em nome da ré LUANA MARIA DIAS MORENO DE OLIVEIRA, CPF 998.621.31187, fato comprovado pelo comprovante bancário de PIX acostado aos autos (ID 100352429, pág. 23).
+
+A materialidade também é corroborada: pela representação formal da vítima (ID 100352429, pág. 7); pela degravação integral das conversas mantidas via WhatsApp (ID 100352429, pág. 13), que demonstra o ardil empregado; e pelo depoimento da vítima em juízo (ID 154413734), coerente e harmônico com os demais elementos probatórios, no qual relatou com riqueza de detalhes o contexto do golpe, o prejuízo sofrido e a forma pela qual foi enganada.
+
+Quanto ao crime de lavagem de dinheiro, embora haja prova do ingresso do numerário na conta vinculada ao nome da ré, a materialidade deste delito exige, além da origem ilícita do valor, a comprovação de atos autônomos e posteriores de ocultação ou dissimulação da natureza, origem ou titularidade do numerário, nos termos do art. 1º da Lei nº 9.613/98, o que será objeto de análise específica no exame da autoria e da tipicidade da conduta.
+
+Assim, encontra-se inequivocamente comprovada a materialidade do estelionato eletrônico, estando demonstrado, quanto à lavagem de dinheiro, ao menos o lastro fático inicial referente ao trânsito de valor proveniente de infração penal antecedente, cuja subsunção típica demandará análise mais aprofundada.
+
+b) Autoria Delitiva:
+
+A autoria delitiva, no que se refere ao crime de estelionato eletrônico, resta suficientemente demonstrada em relação à ré LUANA MARIA DIAS MORENO DE OLIVEIRA.
+
+Conforme apurado, a vítima ANA MARIA MONTEIRO MESQUITA, pessoa idosa, foi induzida em erro mediante mensagens enviadas via aplicativo WhatsApp, nas quais o interlocutor se fez passar por sua filha, utilizando narrativa verossímil de urgência financeira. Em razão do ardil, a vítima realizou diversas transferências bancárias, dentre as quais se destaca, para o presente contexto fático, a transferência via PIX no valor de R$ 2.491,00, efetuada em 05/05/2022, em favor de conta vinculada ao nome da ré, mantida junto à instituição Mercado Pago IP Ltda.
+
+A autoria encontra suporte probatório: no comprovante bancário do PIX, que identifica como titular da conta beneficiária a ré LUANA MARIA DIAS MORENO DE OLIVEIRA (ID 100352429, pág. 23); na degravação integral das conversas mantidas via WhatsApp (ID 100352429, pág. 13), nas quais constam, expressamente, os dados bancários da conta em nome da acusada enviados à vítima para viabilizar a transferência; e no depoimento da vítima em juízo (ID 154413734), firme, coerente e harmônico com a prova documental, no qual confirmou ter realizado o pagamento confiando tratar-se de sua filha, bem como que apresentou os comprovantes das transferências à autoridade policial.
+
+Em interrogatório judicial, a acusada negou a prática delitiva, sustentando que teria emprestado sua conta bancária a um terceiro, identificado como "Valmir", sob a alegação de que este necessitava receber valores de sua antiga patroa, afirmando ainda que o montante teria sido inferior ao narrado.
+
+Tal versão defensiva, contudo, não encontra respaldo probatório e não é suficiente para afastar a autoria, porquanto:
+
+a conta bancária utilizada para o recebimento do numerário estava formalmente vinculada ao nome da acusada;
+os dados bancários fornecidos à vítima coincidem exatamente com os dados da conta da ré;
+inexiste qualquer elemento de prova que demonstre a alegada cessão lícita da conta ou a identidade e efetiva atuação do suposto terceiro.
+
+Nesse contexto, a disponibilização de conta bancária pessoal para recebimento de valores oriundos de fraude caracteriza adesão consciente à empreitada criminosa, ainda que a acusada não tenha sido a responsável direta pelo envio das mensagens fraudulentas, incidindo, no mínimo, a regra do art. 29 do Código Penal.
+
+No que tange ao crime de lavagem de dinheiro (art. 1º da Lei nº 9.613/98), embora esteja comprovado o ingresso de valor proveniente de estelionato na conta da ré, não há demonstração de atos autônomos e posteriores de ocultação ou dissimulação do numerário.
+
+O simples recebimento do valor ilícito, desacompanhado de condutas adicionais destinadas a ocultar, dissimular ou reinserir o produto do crime no sistema financeiro, não configura, por si só, o delito de lavagem, sob pena de confusão com o exaurimento do crime antecedente.
+
+Assim, ausente prova de movimentações subsequentes, fracionamento, dissimulação da titularidade ou outros expedientes típicos da lavagem, a autoria nesse particular não se mostra suficientemente demonstrada.
+
+c) Teses Defensivas:
+
+A defesa sustentou, em síntese:
+
+1.
+negativa de autoria, sob o argumento de que a acusada teria apenas emprestado sua conta bancária a terceiro identificado como "Valmir";
+
+2.
+ausência de dolo, afirmando desconhecer a origem ilícita do numerário recebido;
+
+3.
+inexistência do crime de lavagem de dinheiro.
+
+As teses não prosperam quanto ao crime de estelionato eletrônico.
+
+Em interrogatório judicial, a própria acusada LUANA MARIA DIAS MORENO DE OLIVEIRA confirmou que autorizou a utilização de sua conta bancária para recebimento de valores, afirmando que a teria "emprestado" a um terceiro, sem exigir qualquer comprovação da origem da quantia, tampouco identificar de forma minimamente verificável o suposto beneficiário final.
+
+Tal circunstância, longe de afastar a autoria, reforça o dolo eventual, uma vez que a disponibilização consciente de conta bancária pessoal para recebimento de valores de origem desconhecida, em contexto típico de fraude eletrônica, viabiliza e dá sustentação material à prática do estelionato. Tratase de conduta que extrapola a mera negligência e revela adesão consciente ao risco do resultado ilícito, sendo irrelevante que a acusada não tenha sido a autora direta das mensagens fraudulentas.
+
+Além disso, a versão defensiva mostrase isolada e desacompanhada de qualquer prova quanto à existência do alegado terceiro ou à licitude da operação, enquanto a prova dos autos demonstra que:
+
+a conta beneficiária estava formalmente vinculada ao nome da acusada;
+os dados bancários da ré foram fornecidos à vítima nas conversas via WhatsApp;
+e há comprovante de PIX nominal no valor de R$ 2.491,00, corroborando a efetiva participação da acusada na consumação do golpe.
+
+Dessa forma, comprovado que a acusada contribuiu de modo consciente para o resultado, resta caracterizada sua autoria no crime de estelionato eletrônico, nos termos do art. 171, §2ºA, c/c art. 29, ambos do Código Penal.
+
+Por outro lado, assiste razão à defesa quanto ao crime de lavagem de dinheiro. Embora demonstrado o ingresso de valor oriundo de infração penal em conta de titularidade da acusada, não há prova de atos autônomos e posteriores de ocultação ou dissimulação do numerário, distintos do mero recebimento do produto do crime antecedente.
+
+Ausente demonstração de movimentações subsequentes, fracionamento, dissimulação da titularidade ou qualquer expediente típico da lavagem, impõese a absolvição da acusada quanto a esse delito, nos termos do art. 386, VII, do Código de Processo Penal.
+
+A título informativo, registrese que a vítima OCEANIRA DE BRITO MALHEIROS SILVA foi ouvida em juízo, tendo narrado que também foi induzida em erro mediante mensagens recebidas via aplicativo WhatsApp, nas quais o interlocutor se fez passar por sua filha e solicitou transferência de valores, resultando em prejuízo patrimonial no importe aproximado de R$ 900,00 (novecentos reais).
+
+Todavia, o fato por ela narrado não integra o contexto fático imputado aos réus LUIZ FELIPE PONTES DA SILVA e LUANA MARIA DIAS MORENO DE OLIVEIRA, ora analisado nesta sentença. O episódio relatado pela referida vítima referese a dinâmica distinta, sem prova de vinculação subjetiva ou objetiva com os núcleos de conduta atribuídos aos mencionados acusados, razão pela qual seu depoimento não foi utilizado para fins de formação do juízo condenatório ou absolutório em relação a eles, servindo apenas como registro de ocorrência semelhante investigada no mesmo procedimento.
+
+Quanto à acusada VIVIAN VITÓRIA SEIXAS BUENO, destacase que, embora mencionada nos autos, não foi localizada para citação, tendo sido determinada a citação por edital, com a consequente suspensão do processo e do curso do prazo prescricional, nos termos do art. 366 do Código de Processo Penal, circunstância que impede o exame de mérito em relação a essa acusada no presente momento.
+
+Dessa forma, a presente decisão restringese exclusivamente à análise dos fatos e das responsabilidades penais imputadas aos réus LUIZ FELIPE PONTES DA SILVA e LUANA MARIA DIAS MORENO DE OLIVEIRA, nos limites precisos de cada contexto fático individualizado.
+
+III. DISPOSITIVO:
+
+Ante o exposto, JULGO PARCIALMENTE PROCEDENTE a pretensão punitiva estatal deduzida na denúncia, para:
+
+1.
+Quanto ao réu LUIZ FELIPE PONTES DA SILVA:
+
+a) CONDENÁLO como incurso no art. 171, § 2ºA, do Código Penal (estelionato eletrônico), em relação à vítima RAIMUNDO NILO LOBO LISBOA, pelos fatos descritos no item 2.1 da fundamentação;
+
+b) ABSOLVÊLO da imputação do crime de lavagem de dinheiro (art. 1º da Lei nº 9.613/1998), no tocante à vítima RAIMUNDO NILO LOBO LISBOA, com fundamento no art. 386, inciso VII, do Código de Processo Penal, diante da ausência de prova de atos autônomos de ocultação ou dissimulação;
+
+c) ABSOLVÊLO INTEGRALMENTE em relação à vítima ROBSON AUGUSTO DE JESUS, tanto pelo crime de estelionato eletrônico quanto pelo delito de lavagem de dinheiro, com fundamento no art. 386, inciso VII, do Código de Processo Penal, em razão da insuficiência de provas quanto à autoria.
+
+2. Quanto à ré LUANA MARIA DIAS MORENO DE OLIVEIRA:
+
+a) CONDENÁLA como incursa no art. 171, § 2ºA, do Código Penal, c/c art. 29 do Código Penal, pelo crime de estelionato eletrônico, em relação à vítima ANA MARIA MONTEIRO MESQUITA, conforme delineado no item 2.3 da fundamentação;
+
+b) ABSOLVÊLA da imputação do crime de lavagem de dinheiro (art. 1º da Lei nº 9.613/1998), com fundamento no art. 386, inciso VII, do Código de Processo Penal, diante da ausência de prova de atos autônomos e posteriores de ocultação ou dissimulação do numerário.
+
+IV - Das circunstâncias judiciais (art. 59 do Código Penal):
+
+Antes de proceder à análise das circunstâncias judiciais previstas no art. 59 do Código Penal, cumpre registrar que se trata de processo de elevada complexidade, envolvendo pluralidade de réus e vítimas, com reiteração de fatos de mesma natureza, praticados em curto intervalo temporal e mediante idêntico modus operandi, no contexto de fraudes eletrônicas. As condutas foram perpetradas à distância, por agentes residentes em outros entes federativos, em detrimento de vítimas domiciliadas no Estado do Pará, desenvolvendo-se sob circunstâncias fáticas substancialmente homogêneas, com igual dinâmica de execução, meios empregados e contexto operacional.
+
+Nesse cenário, não se verificam peculiaridades relevantes capazes de justificar diferenciação prévia na fixação da pena-base, razão pela qual se mostra adequada a apreciação conjunta das circunstâncias judiciais comuns aos fatos analisados.
+
+Ressalte-se, ainda, que, embora algumas das vítimas sejam pessoas idosas, tal circunstância não será considerada nesta etapa da dosimetria, por constituir elemento expressamente previsto pelo legislador como agravante genérica, prevista no art. 61, inciso II, alínea "h", do Código Penal, cuja incidência encontra-se comprovada nos autos apenas em relação a vítimas determinadas e será examinada na fase própria, evitando-se qualquer indevida duplicidade de valoração (bis in idem).
+
+Diante da homogeneidade das circunstâncias fáticas e subjetivas, dispensa-se a repetição de análises idênticas para cada fato ou vítima, procedendo-se à avaliação conjunta das circunstâncias judiciais previstas no art. 59 do Código Penal, sem prejuízo do princípio da individualização da pena, que será plenamente observado nas fases subsequentes da dosimetria.
+
+Assim, as circunstâncias judiciais serão examinadas de forma unitária, servindo de base para a fixação da pena-base comum, por se mostrarem equivalentes em relação aos fatos e aos executores envolvidos.
+
+4.1. Dito isso, passa-se à análise das circunstâncias judiciais do art. 59 do Código Penal e à fixação da pena-base.
+
+Superada a questão organizacional acima exposta, passase à análise das circunstâncias judiciais previstas no art. 59 do Código Penal, avaliadas de forma única e conjunta, por se mostrarem homogêneas em relação aos fatos e aos executores efetivamente julgados nestes autos, quais sejam, LUIZ FELIPE PONTES DA SILVA e LUANA MARIA DIAS MORENO DE OLIVEIRA, bem como em relação às vítimas RAIMUNDO NILO LOBO LISBOA e ANA MARIA MONTEIRO MESQUITA.
+
+A culpabilidade é idêntica em relação aos executores, não extrapolando a censurabilidade inerente ao tipo penal do estelionato eletrônico. Embora demonstrado o dolo na obtenção de vantagem ilícita mediante fraude, não se evidencia especial reprovabilidade concreta apta a justificar a exasperação da penabase sob esse vetor.
+
+Os antecedentes criminais dos réus LUIZ FELIPE PONTES DA SILVA e LUANA MARIA DIAS MORENO DE OLIVEIRA, conforme certidões de antecedentes criminais juntadas aos autos sob os IDs nº 103729751 (Luiz Felipe - certidão do Estado de Mato Grosso), 103729752 (Luana Maria - certidão do Estado de Mato Grosso), 154418454 (Luiz Felipe - certidão do Estado do Pará) e 154418455 (Luana Maria - certidão do Estado do Pará), não revelam a existência de condenações penais transitadas em julgado, razão pela qual não podem ser valorados negativamente, seja a título de maus antecedentes, seja para fins de reincidência.
+
+A conduta social e a personalidade dos réus não foram objeto de prova concreta capaz de autorizar juízo desfavorável, sendo vedada a valoração negativa fundada em presunções ou meras ilações, em observância ao princípio da culpabilidade.
+
+Os motivos dos crimes revelamse de ordem patrimonial, consistentes na obtenção de vantagem econômica indevida, comuns à espécie delitiva, inexistindo finalidade adicional ou especial censurabilidade que autorize valoração negativa.
+
+As circunstâncias dos crimes são substancialmente idênticas e consistem na prática de estelionato por meio eletrônico, com atuação à distância, utilização de aplicativo de mensagens e simulação de vínculo familiar, fazendose os agentes passarem por filhos das vítimas para induzilas em erro e obter vantagem econômica indevida. Tratase de modus operandi típico da infração, já absorvido pela própria tipicidade do art. 171, § 2ºA, do Código Penal, não autorizando incremento da penabase.
+
+As consequências dos crimes consistem, essencialmente, em prejuízo de natureza patrimonial suportado pelas vítimas, efeito que, embora relevante, é inerente ao próprio tipo penal do estelionato. Não há nos autos demonstração de dano excepcional ou repercussões extraordinárias que ultrapassem aquelas normalmente decorrentes desse tipo de infração.
+
+Registrese, ainda, que a condição de pessoa idosa da vítima ANA MARIA MONTEIRO MESQUITA não será considerada neste vetor, por constituir circunstância legal específica a ser analisada exclusivamente na segunda fase da dosimetria, como agravante prevista no art. 61, II, alínea "h", do Código Penal, evitandose bis in idem.
+
+O comportamento das vítimas não contribuiu para a prática delitiva, inexistindo qualquer elemento que autorize juízo negativo quanto a esse vetor.
+
+V - Da dosimetria da pena:
+
+5.1. Réu LUIZ FELIPE PONTES DA SILVA X RAIMUNDO NILO LOBO LISBOA:
+
+No tocante à primeira fase da dosimetria:
+
+Analisando as circunstâncias judiciais previstas no art. 59 do Código Penal, não se verificam vetores judiciais desfavoráveis a serem valorados negativamente em desfavor do réu.
+
+Diante disso, fixo a pena-base no patamar mínimo legal, qual seja, 04 (quatro) anos de reclusão e 10 (dez) dias-multa, sendo cada dia-multa fixado à razão de 1/30 (um trigésimo) do salário-mínimo vigente à época do fato, nos termos do art. 49 do Código Penal.
+
+Assim, passo à segunda fase da dosimetria, para exame das circunstâncias legais incidentes no caso concreto.
+
+Segunda Fase da Dosimetria:
+
+Na segunda fase da dosimetria, não há circunstâncias agravantes legais aplicáveis, tampouco circunstâncias atenuantes a serem reconhecidas, nos termos dos arts. 65 e 66 do Código Penal.
+
+Diante disso, mantenho a pena intermediária no mesmo patamar da pena-base, passando-se à terceira fase da dosimetria.
+
+Terceira fase da Dosimetria:
+
+Na terceira fase da dosimetria, não há causas especiais de aumento ou de diminuição de pena a serem consideradas, assim, mantém-se a pena conforme fixada até então, sem alterações nesta fase.
+
+Regime Inicial de Cumprimento da Pena:
+
+Considerando o quantum da pena aplicada, fixado em 04 (quatro) anos de reclusão, bem como a ausência de circunstâncias judiciais desfavoráveis, fixo o regime inicial ABERTO para o cumprimento da pena privativa de liberdade, nos termos do art. 33, § 2º, alínea "c", do Código Penal.
+
+Substituição da Pena Privativa de Liberdade:
+
+Presentes os requisitos do art. 44 do Código Penal, tendo em vista que a pena aplicada não é superior a 04 (quatro) anos, que o delito foi praticado sem violência ou grave ameaça à pessoa e que não há circunstâncias judiciais desfavoráveis, substituo a pena privativa de liberdade por duas penas restritivas de direitos, consistentes em:
+
+a) prestação de serviços à comunidade ou a entidade pública ou privada com finalidade social, a ser indicada pelo Juízo da Vara de Execuções Penais, pelo mesmo período da pena privativa de liberdade substituída; e
+
+b) prestação pecuniária, no valor de um salário-mínimo, vigente à época do fato, a ser destinada a uma entidade pública ou privada, a critério do Juízo da Vara de Execuções Penais, nos termos do art. 45, § 1º, do Código Penal.
+
+Suspensão Condicional da Pena:
+
+Deixo de aplicar a suspensão condicional da pena, prevista no art. 77 do Código Penal, uma vez que a pena privativa de liberdade foi substituída por penas restritivas de direitos, medida mais adequada ao caso concreto.
+
+, 5.2. Ré LUANA MARIA DIAS MORENO DE OLIVEIRA X ANA MARIA MONTEIRO MESQUITA:
+
+Primeira Fase da Dosimetria:
+
+Analisando as circunstâncias judiciais previstas no art. 59 do Código Penal, não se verificam vetores desfavoráveis a serem valorados negativamente em relação a ré.
+
+Diante disso, fixo a pena-base no patamar mínimo legal, qual seja, 04 (quatro) anos de reclusão e 10 (dez) dias-multa, sendo cada dia-multa estabelecido à razão de 1/30 (um trigésimo) do salário-mínimo vigente à época do fato, nos termos do art. 49 do Código Penal, passando-se à segunda fase da dosimetria.
+
+Segunda Fase da Dosimetria
+
+Na segunda fase da dosimetria, não há circunstâncias atenuantes a serem reconhecidas.
+
+Por outro lado, incide a circunstância agravante prevista no art. 61, inciso II, alínea "h", do Código Penal, uma vez que a vítima, ANA MARIA MONTEIRO MESQUITA (RG nº 3.250.351 - 3ª via - PC/PA, ID 100352429, pág. 9; data de nascimento: 15/09/1939), enquadra-se na condição legal de pessoa idosa, por possuir idade superior a 80 (oitenta) anos, circunstância devidamente comprovada nos autos.
+
+Assim, agravo a pena em 1/6 (um sexto), tornando-a em 04 (quatro) anos e 08 (oito) meses de reclusão e 11 (onze) dias-multa, mantido o valor unitário anteriormente fixado, passandose à terceira fase da dosimetria.
+
+Terceira Fase da Dosimetria:
+
+Na terceira fase da dosimetria, não há causas especiais de aumento ou de diminuição de pena a serem consideradas, assim, mantém-se a pena conforme fixada até então, sem alterações nesta fase.
+
+Dessa forma, mantémse a pena conforme fixada na fase anterior, sem alterações nesta fase.
+
+Regime Inicial de Cumprimento da Pena:
+
+Considerando o quantum da pena aplicada, fixado em 04 (quatro) anos e 08 (oito) meses de reclusão, bem como a ausência de circunstâncias judiciais desfavoráveis, fixo o regime inicial SEMIABERTO para o cumprimento da pena privativa de liberdade, nos termos do art. 33, § 2º, alínea "b", do Código Penal.
+
+Substituição da Pena Privativa de Liberdade e Suspensão Condicional da Pena:
+
+Incabível a substituição da pena privativa de liberdade por penas restritivas de direitos, prevista no art. 44 do Código Penal, uma vez que o quantum da pena aplicada é superior a 04 (quatro) anos, razão pela qual, igualmente, afasto a suspensão condicional da pena, prevista no art. 77 do mesmo diploma legal, diante da incompatibilidade do montante fixado com o benefício.
+
+V. Disposições Gerais:
+
+5.1. Do Direito de Recorrer em Liberdade:
+
+Os réus responderam ao processo em liberdade e, ausentes os requisitos do art. 312 do Código de Processo Penal, não há fundamento, nem requerimento por parte da acusação, para a decretação da prisão preventiva.
+
+Assim, concedo-lhes o direito de recorrer em liberdade, nos termos do art. 387, § 1º, do Código de Processo Penal.
+
+5.2. Da Detração Penal:
+
+Nos termos do art. 387, § 2º, do Código de Processo Penal, verifico que os réus responderam ao processo em liberdade, assim permanecendo até o presente momento.
+
+Eventual período de custódia cautelar deverá ser considerado para fins de detração pelo Juízo da Execução Penal, a quem compete a apuração do tempo a ser abatido.
+
+5.3. Da Reparação dos Danos:
+
+Nos termos do art. 387, inciso IV, do Código de Processo Penal, fixo o valor mínimo para a reparação dos danos causados às vítimas, considerando os prejuízos patrimoniais devidamente comprovados nos autos, sem prejuízo de ulterior liquidação ou complementação na esfera cível, nos seguintes termos:
+
+1)
+LUIZ FELIPE PONTES DA SILVA deverá reparar os danos causados à vítima RAIMUNDO NILO LOBO LISBOA, no valor de R$ 5.091,00 (cinco mil e noventa e um reais);
+
+2)
+LUANA MARIA DIAS MORENO DE OLIVEIRA deverá reparar os danos causados à vítima ANA MARIA MONTEIRO MESQUITA, no valor de R$ 2. 491,00 (dois mil quatrocentos e noventa e um reais).
+
+Os valores ora fixados correspondem exclusivamente aos prejuízos patrimoniais diretamente comprovados, sobre os quais incidirão correção monetária a partir da data do efetivo prejuízo e juros moratórios desde o evento danoso, na forma da legislação aplicável.
+
+Sem prejuízo da execução no juízo competente, após o trânsito em julgado, faculta-se às partes o ajuizamento de ação na esfera cível, caso entendam necessário, especialmente para a apuração de eventual dano complementar.
+
+VI - Disposições Finais:
+
+Oportunamente, após o trânsito em julgado (CF, art. 5º, LVII) desta decisão, adotem-se as seguintes providências de praxe:
+
+(1) Em observância à regra contida no art. 71, § 2º, do Código Eleitoral c/c art. 15, III, da Constituição Federal, proceda-se ao registro, junto ao Egrégio Tribunal Regional Eleitoral deste Estado, no cadastro do sistema INFODIP, acerca desta decisão;
+
+(2) Encaminhe-se a guia definitiva de execução à VEPMA/VEP;
+
+(3) Proceda-se às comunicações e aos registros de praxe, inclusive junto aos órgãos competentes;
+
+(4) Condeno os réus LUIZ FELIPE PONTES DA SILVA e LUANA MARIA DIAS MORENO DE OLIVEIRA ao pagamento das custas processuais.
+
+Em relação ao Réu LUIZ FELIPE PONTES DA SILVA, assistido pela Defensoria Pública, fica suspensa a exigibilidade das custas processuais, nos termos do art. 98, § 3º, do Código de Processo Civil.
+
+Ressalte-se que o entendimento firmado pelo Superior Tribunal de Justiça e pelo Tribunal de Justiça do Estado do Pará é no sentido de que, ainda que concedido o benefício da gratuidade da justiça, a condenação ao pagamento das custas é imperativa, devendo ser apenas suspensa a sua exigibilidade pelo prazo de 05 (cinco) anos, enquanto perdurar a situação de hipossuficiência econômica da parte.
+
+Intimem-se todos desta sentença, nos termos da legislação vigente, observando-se que os réus condenados assistidos por advogados particulares sejam intimados por intermédio de seus patronos constituídos, bem como que o réu condenado assistido pela Defensoria Pública seja intimado por intermédio do Defensor Público que o representa.
+
+Intime-se, ainda, o Representante do Ministério Público (CPP, art. 370, § 4º)  e, por fim, as vítimas RAIMUNDO NILO LOBO LISBOA, ANA MARIA MONTEIRO MESQUITA e ROBSON AUGUSTO DE JESUS, nos termos do art. 201, § 2º, do Código de Processo Penal.
+
+Ressalte-se que, tendo os acusados respondido ao processo em liberdade, é dispensável a intimação pessoal, sendo suficiente a intimação dos respectivos defensores, conforme entendimento consolidado do Superior Tribunal de Justiça e do Supremo Tribunal Federal, nos termos do art. 392, inciso II, do Código de Processo Penal.
+
+Publique-se e registre-se, conforme disposto no art. 387, VI (em resumo no Diário de Justiça), c/c art. 389, ambos do Código de Processo Penal.
+
+Cumpra-se, com as cautelas legais.
+
+Belém/Pará, data da assinatura eletrônica.
+
+SANDRA MARIA FERREIRA CASTELO BRANCO
+
+Juíza de Direito da 10ª VCB

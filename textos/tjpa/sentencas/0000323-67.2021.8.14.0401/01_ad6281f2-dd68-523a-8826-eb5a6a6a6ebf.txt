@@ -1,0 +1,138 @@
+[Texto nativo do PJe]
+
+Poder Judiciário
+
+Tribunal de Justiça do Estado do Pará
+
+9ª Vara Criminal de Belém
+
+Processo 0000323-67.2021.8.14.0401
+
+Assunto [Crimes de "Lavagem" ou Ocultação de Bens, Direitos ou Valores]
+
+Classe AÇÃO PENAL - PROCEDIMENTO ORDINÁRIO (283)
+
+Sentença
+
+Vistos, etc.
+
+José Raimundo Soares de Souza, Ademir Rocha da Silva, Maxlene de Jesus Nascimento da Silva e Elaine Cristina Cravo Vieira, qualificados na exordial, foram denunciados pelo Ministério Público pelo cometimento do crime do art. 1º, § 1º, II e § 4º da Lei nº. 9.613/1998, na forma do art. 69 do Código Penal, c/c art. 2º, caput, da Lei nº. 12.850/2013.
+
+A ação criminosa está assim narrada:
+
+"I- HISTÓRICO DAS INVESTIGAÇÕES
+
+A autoridade policial, após ser demandada através de petição de fls. 05/0/, Vol. I do IPL, oriunda do Banco Itaú Unibanco S/A, lavrou o Boletim de Ocorrência (fl. 04, Vol. I do IPL), e abriu Inquérito Policial através de Portaria (00487/2016.100003-2), para investigação de crimes eletrônicos ocorridos no âmbito daquela instituição financeira, praticados por meio de diversas pessoas especializadas nesse tipo de crime, os quais lograram êxito em obter vantagens ilícitas através de fraudes realizadas pela internet, por meio de arquivos maliciosos (trojans² e phishing³)
+
+O modus operandi dos integrantes da organização criminosa consistia na obtenção de números de contas correntes e dados cadastrais de clientes do Itaú Unibanco S/A, por meio de páginas falsas, induzindo a vitima a erro por achar estar na URL real da instituição financeira também vitimada.
+
+Após a utilização dos referidos programas maliciosos, os integrantes da organização criminosa efetuavam o acesso às contas correntes dos clientes através do sistema Itaú Bankline, realizando assim, à revelia dos titulares das contas, transferências bancárias, bem como pagamento de títulos privados (DARF's e outras guias de recolhimento tributário).
+
+Segundo foi apontado pelos investigadores, o esquema de fraude cibernética partia do princípio  de ludibriar a vítima, fazendo-a pensar de que sua operação BANKLINE era autêntica e segura, enquanto que o artificio malicioso usava uma combinação de um programa que registra o que é digitado no computador da vítima e uma "cavalo de tróia" que furta senhas bancárias.
+
+O "cavalo de tróia" ,ou "trojan", é um programa que é instalado sem a permissão do usuário e roda de forma imperceptível, dificultando a detecção de problemas. Quando o correntista acessa seu banco pela internet, o "cavalo de tróia"  já instalado no computador transfere  o login, a data de nascimento e um número de segurança para um servidor. Assim que o correntista inicia as transações online, o "cavalo de tróia"  recebe o código JavaScript do servidor de fora para substituir o código utilizado pelo banco.
+
+Agindo assim, o correntista interage normalmente com os formulários para realizar transações legítimas. O "cavalo de tróia" trabalha nos bastidores para manipular a transação, verificando o saldo da conta e determinando a quantia a ser subtraída dentro de um limite para não alertar os alarmes automáticos de detecção de fraude.
+
+Ademais, ao se encontrar de posse dos dados bancários da vítima, como seu número de celular, os integrantes da organização criminosa mantinham contato com a operadora de telefonia celular, cancelando o chip do cliente e em seguida solicitando um novo, para assim receber o código "ITOKEN", código este necessário para finalizar as transações fraudulentas.
+
+Subtraídos os valores monetários das contas da vítimas, o processo de lavagem de dinheiro era imediatamente iniciado, através da ocultação desses valores, como mais adiante será demonstrado.
+
+Durante as investigações, várias diligências foram cumpridas, assim como medidas cautelares judicialmente autorizadas.
+
+II. DA EXISTÊNCIA DE ORGANIZAÇÃO CRIMINOSA (...)
+
+III- DOS REQUISITOS E DA DEFINIÇÃO DE ORGANIZAÇÃO CRIMINOSA (...)
+
+IV-  DO CRIME ANTECEDENTE
+
+Os crimes são aqueles cometidos e que dão origem aos recursos destinados ao processo de lavagem de dinheiro. Sem os recursos dos crimes antecedentes não há como se falar em lavagem de dinheiro (vide art. 1º, caput, da Lei nº 9.613/98, com a redação dada pela lei nº 12.683/12)
+
+Pelo art. 2º, § 1º, da referida lei, a "denuncia será instruída com indícios suficientes da existência da infração penal antecedente". No presente caso, temos que o crime antecedente restou cabalmente comprovado (materialidade), tratando-se de furto qualificado mediante fraude (art. 155. §4º, II, do CP). A autoria, entretanto, até o presente momento, ainda é incerta, mormente pela complexidade desses crimes cibernéticos.
+
+A vítima do furto (além do Banco Itaú Unibanco S/A), no caso concreto, foi a empresa R R COM MODUL DEC LTDA ME, inscrita no CNPJ 04.371.309/0001-49, conta corrente 05099-0, Agência 1575, Banco Itaú S/A, Florianópolis- SC. (fl. 820 do IPL, Vol. III).
+
+O valor furtado da conta da citada empresa foi ao montante de R$ 51.766,00 (Cinquenta e um mil setecentos e sessenta e seis reais), fato ocorrido no dia 10 de março de 2016. No mesmo dia ocorreram as transações financeiras com o fim de lavar a quantia subtraída.
+
+V- DA LAVAGEM DE DINHEIRO
+
+De acordo com as investigações, substanciadas pela quebra de sigilo bancário autorizado judicialmente, identificou-se que os denunciados movimentaram, fraudulentamente, da conta da vítima   R R COM MODUL DEC LTDA ME, a quantia de R$187.134,59 ( Cento e oitenta e sete mil, cento e trinta e quatro reais e cinquenta e nove centavos), no dia 10 de março de 2016, cujos valores seriam direcionados para diversas contas depósito em diferentes instituições financeiras. Contudo, o grupo logrou êxito em subtrair da vítima (a autoria da subtração ainda não foi descoberta) a quantia total da fraude no valor de R$ 51.766,00 (Cinquenta e um mil setecentos e sessenta e seis reais).
+
+Conforme análise das planilhas de quebra de sigilo bancário, caracterizou-se vínculo entre a fraude de R$ 51.766,00 (Cinquenta e um mil setecentos e sessenta e seis reais) e 04 (quatro) denunciados, comprovados através de extratos bancários, figurando como vítima a empresa R R COM MODUL DEC LTDA ME, inscrita no CNPJ 04.371.309/0001-49, conta corrente 05099-0, agência 1575, Banco Itaú S/A, Florianópolis- SC."
+
+A denúncia, constante de ID 55282674 (17/22), foi oferecida inicialmente ao juízo da Vara de Combate ao Crime Organizado que rejeitou a imputação do tocante ao delito do art. 2°, caput, da Lei nº. 12.850/2013 (ID 55282676) e declinou da competência relativamente às demais infrações penais.
+
+Neste juízo, o Ministério Público aditou a denúncia para alterar a classificação jurídico-penal do fato, limitada, então, ao art. 1º, § 1º, II da Lei nº. 9.613/1998 (ID 56323078).
+
+A denúncia e seu aditamento foram recebidos em 10/05/2022 (ID 59759996).
+
+Os réus Maxlene de Jesus Nascimento da Silva e José Raimundo Soares de Souza foram pessoalmente citados. Respostas à acusação constantes de ID 78477804 e ID 79004637.
+
+Ademir Rocha da Silva e Elaine Cristina Cravo Vieira foram citados por edital e o curso do processo e do prazo prescricional foi, em relação a eles, suspenso (ID 81122698).
+
+Habilitação do assistente de acusação Itaú Unibanco S.A deferida em decisão constante de ID 101320359.
+
+Na instrução criminal foram inquiridas as testemunhas Luiz Fernando Romero, Henrique de Souza Jordão e Vanessa Lee Pinto Araujo. Os acusados não compareceram à audiência e não foram, portanto, interrogados.
+
+Não houve diligências complementares.
+
+Em memoriais finais, o Ministério Público requereu a condenação de Maxlene de Jesus Nascimento da Silva e José Raimundo Soares de Souza pela prática do crime do art. 1º, § 1º, II da Lei nº. 9.613/1998 (ID 117531943).
+
+O assistente de acusação reiterou o pedido ministerial de condenação e pleiteou, ademais, o pagamento do valor de R$ 90.466,00 (noventa mil, quatrocentos e sessenta e seis reais) a título de reparação dos danos.
+
+A defesa requereu a absolvição pela insuficiência da prova de autoria e materialidade do crime de lavagem de dinheiro (ID 118882018).
+
+É o relatório. Fundamento e decido.
+
+Processo sem nulidades. Examino a prova.
+
+Luiz Fernando Romero, inspetor de segurança de fraudes bancárias do Itaú Unibanco, declarou que foram constatadas transferências ilícitas de contas de clientes do banco. Esclareceu que a fraude ocorria da seguinte forma: um vírus era enviado aos clientes através de e-mail e, uma vez ativado, os agentes tinham acesso a informações pessoais dos clientes do banco, como números de agência, conta e senha. Além disso, de acordo com a testemunha, os agentes realizavam uma portabilidade do número de telefone dos clientes, a fim de gerar o duplo fator de autenticidade consistente na digitalização do iToken que, à época, era enviado por mensagem SMS. Segundo a testemunha, foram identificadas 54 (cinquenta e quatro) vítimas desse procedimento fraudulento. Mencionou ainda que, em relação à empresa R. R. COM. COZ. MODUL. DEC. LTDA ME, o prejuízo do banco foi de aproximadamente R$ 90.466,00 (noventa mil, quatrocentos e sessenta e seis reais), uma vez que todos os clientes vítimas foram ressarcidos.
+
+Henrique de Souza Jordão, funcionário na área de prevenção à fraude no Itaú Unibanco, disse que na época do fato houve várias fraudes com o programa trojan mediante envio de malwares aos computadores de empresas, por meio do qual os golpistas conseguiram acessar o aplicativo do banco fazendo o SIM Swap do número da vítima junto à operadora de telefonia. Relatou que o banco só tomava conhecimento da fraude quando o cliente contestava uma transação. Descreveu ainda o modus operandi dos responsáveis pela fraude e informou que todas as vítimas foram ressarcidas, ressaltando que em relação à empresa R. R. COM. COZ. MODUL. DEL. LTDA ME houve prejuízo de aproximadamente R$ 90.000,00 (noventa mil reais).
+
+Vanessa Lee Pinto Araujo, delegada de polícia civil, descreveu a investigação realizada no inquérito. Relatou que mediante afastamento de sigilo bancário e fiscal, foi possível identificar que os valores subtraídos das contas do banco foram pulverizados para vários beneficiários, de modo a dificultar a identificação dos autores e beneficiários, sendo que os acusados receberam parte dos valores.
+
+Os réus não foram interrogados. Não há, portanto, versão da autodefesa.
+
+A materialidade do furto mediante fraude - crime que pode anteceder ao de lavagem de dinheiro - restou plenamente configurada pela prova testemunhal e documental. Consta dos autos relatório apresentado pelo Itaú Unibanco de todas as transações fraudulentas (ID 55280682, fls. 11/19). Dentre essas transações figuram as que causaram prejuízo à empresa R. R. COM. MODUL. DEC. LTDA ME em valor correspondente a R$ 187.134,59 (cento e oitenta e sete mil, cento e trinta e quatro reais e cinquenta e nove centavos), realizadas no dia 10 de março de 2016.
+
+Dessa quantia, R$ 13.766,00 (treze mil, setecentos e sessenta e seis reais) foram transferidos para a conta corrente do acusado José Raimundo Soares de Souza (conta corrente 8244539, Ag 0022, CEF, Belém). Dez dias mais tarde, este réu realizou um débito direto autorizado (DDA) do mesmo valor (ID 55282395, fls. 104/105).
+
+Além disso, R$ 25.000,00 (vinte e cinco mil reais) foram transferidos para a conta de Maxlene de Jesus Nascimento da Silva (conta corrente 613649, agência 3524, Banco do Brasil, Belém). Ainda no dia 10/03/2016, esta acusada realizou uma aplicação em sua poupança no valor de R$ 50.926,50 (cinquenta mil, novecentos e vinte e seis reais e cinquenta centavos), conforme se depreende do relatório constante de ID 55282395 (fls. 105/106).
+
+Todavia, conforme alegado pela defesa, não há prova de que os réus José Raimundo Soares de Souza e Maxlene de Jesus Nascimento da Silva tinham consciência e vontade relativamente a participar de lavagem de dinheiro. Falta, assim, a prova do dolo específico exigido para a configuração desse delito, e sem a qual não pode haver responsabilização penal.
+
+A jurisprudência tem se manifestado nesse sentido:
+
+Ementa: APELAÇÃO CRIMINAL. LAVAGEM DE DINHEIRO. PROVA INSUFICIENTE PARA JUÍZO CONDENATÓRIO. IRRESIGNAÇÃO DO MINISTÉRIO PÚBLICO. ABSOLVIÇÃO MANTIDA. O fato de terem sido feitas meras transferências para contas bancárias, não dá margem para conclusão condenatória. A peça inicial apoia sua condenação apenas no fato de o acusado ter realizado transferências para contas bancárias de outras pessoas e da própria. Não configurado o delito autônomo de lavagem de dinheiro, na medida em que não se verifica ocultação ou dissimulação da origem ilícita dos valores, consistindo em mera transferência direta da conta da vítima para as contas destino. Inexistentes atos subsequentes e autônomos ao delito antecedente. APELAÇÃO MINISTERIAL DESPROVIDA.(Apelação Criminal, Nº 50081182520188210021, Quinta Câmara Criminal, Tribunal de Justiça do RS, Relator: Volnei dos Santos Coelho, Julgado em: 26-01-2023)[0]
+
+APELAÇÃO CRIMINAL - DELITO DE LAVAGEM DE DINHEIRO (ART. 1º, DA LEI Nº 9.613/98) - SENTENÇA ABSOLUTÁRIA DA ACUSADA E CONDENATÓRIA DO ACUSADO, DESCLASSIFICADA A CONDUTA DESTE PARA O CRIME DE ESTELIONATO - APELO MINISTERIAL ALMEJANDO A CONDENAÇÃO NOS EXATOS TERMOS DA EXORDIAL E DEFENSIVO BUSCANDO A DESCLASSIFICAÇÃO DA CONDUTA. PRELIMINAR - ARGUIÇÃO DE DECADÊNCIA PELA AUSÊNCIA DE REPRESENTAÇÃO - IMPOSSIBILIDADE - INOVAÇÃO DA LEI PROCESSUAL QUE, EMBORA SEJA MAIS BENÉFICA, NÃO PODE SER APLICADA AO CASO - DENÚNCIA OFERECIDA E RECEBIDA ANTES DA ENTRADA EM VIGOR DA LEI Nº 13.964/19 - PRELIMINAR REJEITADA. CABIMENTO DA IRRESIGNAÇÃO DEFENSIVA - DENÚNCIA QUE IMPUTA AOS ACUSADOS A CONDUTA DE OCULTAR E DISSIMULAR A ORIGEM, A MOVIMENTAÇÃO E A PROPRIEDADE DE VALORES PROVENIENTES DE CRIME DE ESTELIONATO - FATO DO DEPÓSITO DE NUMERÁRIO NA CONTA DOS RÉUS QUE, POR SI SOMENTE, NÃO AUTORIZA DEDUZIR OU PRESUMIR A AUTORIA NO CRIME DE LAVAGEM DE DINHEIRO, AUSENTE DEMONSTRAÇÃO ESCORREITA DO INTUITO DE OCULTAR OU DISSIMULAR AS QUANTIAS PROVENIENTES DE DELITO ANTERIOR - PRECEDENTES - AUSÊNCIA DE CERTEZA INDISPENSÁVEL PARA UMA CONDENAÇÃO, INADMISSÍVEL CONFUNDIR-SE CONSUMAÇÃO OU O EXAURIMENTO DA INFRAÇÃO ANTECEDENTE COM O CRIME DE LAVAGEM DE DINHEIRO, CUJO BEM JURÍDICO TUTELADO A ADMINISTRAÇÃO DA JUSTIÇA - RACIOCÍNIO PRESUNTIVO A RESPEITO DA AUTORIA E DA CULPABILIDADE CRIMINOSAS, ADEMAIS, QUE NÃO BASTA PARA UMA CONDENAÇÃO - SENTENÇA REFORMADA PARA DECRETAR-SE A ABSOLVIÇÃO (CPP, ART. 386, VII) - RECURSO MINISTERIAL DESPROVIDO, PROVIDO O DEFENSIVO. (TJSP;  Apelação Criminal 0008035-37.2018.8.26.0577; Relator (a): Ivana David; Órgão Julgador: 7ª Câmara de Direito Criminal; Foro de São José dos Campos - 1ª Vara Criminal; Data do Julgamento: 19/01/2023; Data de Registro: 19/01/2023)
+
+Crime de lavagem de dinheiro. Dolo. Provas.  1 - A chamada teoria da "cegueira deliberada" pressupõe seja demonstrado que, pelas circunstâncias do caso concreto, há grande probabilidade de que o agente soubesse da natureza ou origem criminosa dos bens, direitos ou valores decorrentes do crime de lavagem de dinheiro, mas preferiu ignorar o fato, com intenção de obter vantagem indevida.   2 - Se há dúvidas de que o réu - que residia em outro país - concorreu para o negócio simulado a fim de ocultar o imóvel proveniente de crime ou, ao menos, tinha ciência da existência deste e do negócio que deu origem a aquisição do imóvel, não se ficando provado o dolo de branqueamento de capitais, é de manter a sentença absolutória.  3 - Apelação não provida. (TJDFT. Acórdão 1650236, 00069084020198070001, Relator: JAIR SOARES, 2ª Turma Criminal, data de julgamento: 7/12/2022, publicado no PJe: 24/1/2023)
+
+É a mesma direção interpretativa trilhada pela doutrina:
+
+"O tipo objetivo do art. 1º, caput, na forma de ocultação ou dissimulação exige, portanto, algum ato de mascaramento do valor procedente da infração. O uso aberto do produto do crime não caracteriza lavagem. Se o agente utiliza o dinheiro procedente da infração para comprar imóvel, bens ou o deposita em conta corrente, em seu próprio nome, não existe crime em discussão. O mero usufruir do produto infracional não é típico. Aquele que se propõe a praticar uma infração penal com resultado patrimonial o faz, em regra, com a intenção de gastar em proveito próprio os bens adquiridos, trata-se de mero aproveitamento do produto do crime, ato irrelevante para a administração da Justiça." (Lavagem de dinheiro: aspectos penais e processuais penais: comentários à Lei n° 9.613/1998, com alterações da Lei n° 12.683/2012. BOTTINI, Pierpaolo Cruz, BADARÓ, Gustavo Henrique. São Paulo: Editora Revista dos Tribunais, 2012, Pág. 65)
+
+E particularmente em relação ao crime do art. 1º, § 1º, II da Lei nº. 9.613/1998:
+
+"Além do dolo, o § 1º exige expressamente um elemento subjetivo especial. Faz-se necessária a constatação da intenção transcendental de ocultar ou dissimular a utilização dos bens. e é coerente a menção expressa, do contrário o gasto em consumo pessoal dos bens oriundos de infrações penais seria lavagem de dinheiro, pois, como já indicado, tal ato consiste na conversão dos bens em ativos lícitos. Comprar um carro, um iate, ou reformar casa aumentando-lhe o valor é transformar o bem originalmente maculado em ativos aparentemente lícitos.
+Diante disso, é imprescindível a intenção de ocultar ou dissimular. O agente que adquire bens de origem ilícita, sem vontade de ocultação, não concorre para a lavagem de dinheiro. O advogado que recebe seus honorários em valores maculados, o médico cuja consulta é paga com dinheiro proveniente de ilícitos penais, ou o mecânico cujo serviço é remunerado por numerário de origem delitiva não cometem o crime de lavagem - mesmo que tenham ciência da infração antecedente -  a não ser que o recebimento dos valores seja acompanhado da intenção de cooperar com seu encobrimento, como no casos de remuneração por serviços não prestados, de confecção de recibos falsos, sempre com o objetivo de devolver de parte dos valores ao agente da lavagem de dinheiro com aparência lícita." (Lavagem de dinheiro: aspectos penais e processuais penais: comentários à Lei n° 9.613/1998, com alterações da Lei n° 12.683/2012. BOTTINI, Pierpaolo Cruz, BADARÓ, Gustavo Henrique. São Paulo: Editora Revista dos Tribunais, 2012, Pág. 109/110)
+
+E no caso dos presentes autos não está suficientemente comprovado que os réus agiram mediante dolo específico do delito de lavagem de dinheiro.
+
+Diante do exposto, julgo improcedente a pretensão acusatória deduzida na denúncia de ID 49038811 e absolvo José Raimundo Soares de Souza e Maxlene de Jesus Nascimento da Silva, qualificados nos autos, na forma do art. 386, VII, do Código de Processo Penal.
+
+Sem custas.
+
+Após as comunicações de estilo e o trânsito em julgado desta sentença, ajustem-se informações no PJE.
+
+O processo permanecerá suspenso em relação aos réus Ademir Rocha da Silva e Elaine Cristina Cravo Vieira, nos termos da decisão constante de ID 81122698.
+
+P.R.I.C.
+
+Belém (PA), data da assinatura digital.
+
+Marcus Alan de Melo Gomes
+
+Juiz de Direito da 9ª Vara Criminal

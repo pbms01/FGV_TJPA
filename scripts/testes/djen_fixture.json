@@ -1,0 +1,99 @@
+{
+ "status": "success",
+ "message": "Sucesso (fixture sintética, nomes fictícios)",
+ "count": 4,
+ "items": [
+  {
+   "id": 1001,
+   "data_disponibilizacao": "2026-03-10",
+   "siglaTribunal": "TJPA",
+   "tipoComunicacao": "Intimação",
+   "nomeOrgao": "1ª Vara Criminal de Belém",
+   "idOrgao": 1,
+   "numero_processo": "08000011120248140401",
+   "numeroprocessocommascara": "0800001-11.2024.8.14.0401",
+   "tipoDocumento": "Sentença",
+   "nomeClasse": "AÇÃO PENAL - PROCEDIMENTO ORDINÁRIO",
+   "codigoClasse": "283",
+   "texto": "SENTENÇA. O Ministério Público ofereceu denúncia pela prática do crime do art. 171, § 2º-A, do Código Penal, a fraude eletrônica. Ante o exposto, julgo procedente a denúncia e condeno o réu.",
+   "destinatarios": [
+    {
+     "nome": "FULANO DE TAL",
+     "polo": "P"
+    }
+   ],
+   "destinatarioadvogados": []
+  },
+  {
+   "id": 1002,
+   "data_disponibilizacao": "2026-10-01",
+   "siglaTribunal": "TJPA",
+   "tipoComunicacao": "Intimação",
+   "nomeOrgao": "1ª Turma de Direito Penal",
+   "idOrgao": 2,
+   "numero_processo": "08000011120248140401",
+   "numeroprocessocommascara": "0800001-11.2024.8.14.0401",
+   "tipoDocumento": "Ementa",
+   "nomeClasse": "APELAÇÃO CRIMINAL",
+   "codigoClasse": "417",
+   "texto": "APELAÇÃO CRIMINAL. ESTELIONATO MEDIANTE FRAUDE ELETRÔNICA. RECURSO DESPROVIDO.",
+   "destinatarios": [
+    {
+     "nome": "FULANO DE TAL",
+     "polo": "A"
+    }
+   ],
+   "destinatarioadvogados": [
+    {
+     "advogado": {
+      "nome": "BELTRANO DA SILVA",
+      "numero_oab": "1",
+      "uf_oab": "PA"
+     }
+    }
+   ]
+  },
+  {
+   "id": 1003,
+   "data_disponibilizacao": "2026-05-05",
+   "siglaTribunal": "TJPA",
+   "tipoComunicacao": "Intimação",
+   "nomeOrgao": "2ª Vara Criminal de Ananindeua",
+   "idOrgao": 3,
+   "numero_processo": "08000022220258140006",
+   "numeroprocessocommascara": "0800002-22.2025.8.14.0006",
+   "tipoDocumento": "Decisão",
+   "nomeClasse": "INQUÉRITO POLICIAL",
+   "codigoClasse": "279",
+   "texto": "DECISÃO. Investiga-se fraude eletrônica por meio de anúncio falso. Defiro a quebra de sigilo bancário.",
+   "destinatarios": [],
+   "destinatarioadvogados": [
+    {
+     "advogado": {
+      "nome": "BELTRANO DA SILVA"
+     }
+    }
+   ]
+  },
+  {
+   "id": 1004,
+   "data_disponibilizacao": "2026-06-06",
+   "siglaTribunal": "TJPA",
+   "tipoComunicacao": "Intimação",
+   "nomeOrgao": "Seção de Direito Penal",
+   "idOrgao": 4,
+   "numero_processo": "08000033320268140000",
+   "numeroprocessocommascara": "0800003-33.2026.8.14.0000",
+   "tipoDocumento": "Ementa",
+   "nomeClasse": "HABEAS CORPUS CRIMINAL",
+   "codigoClasse": "307",
+   "texto": "HABEAS CORPUS. ESTELIONATO MEDIANTE FRAUDE ELETRÔNICA. ORDEM DENEGADA.",
+   "destinatarios": [
+    {
+     "nome": "FULANO DE TAL"
+    }
+   ],
+   "destinatarioadvogados": []
+  }
+ ]
+}

@@ -17,7 +17,7 @@ Referências do tipo `claude/<nome>.md` dentro dos textos apontam para os docume
 
 - `sentencas_tjsp_base100/`: íntegras das sentenças, `indice.csv`, `fichas.jsonl`, a planilha exportada (`planilha/`) e a coleta com seus scripts (`coleta/`).
 - `roteiro_aula_magistrados/`: roteiro de aula para magistrados e assessores sobre quinze casos da base.
-- Branch `coleta-datajud` (em andamento, ainda não mesclado no main): plano de captura da base processual (`docs/plano-captura.md`), arquitetura das linhas de pesquisa (`docs/linhas-de-pesquisa.md`), roteiros de coleta do TJPA e do TJSP (`docs/RUNBOOK.md`, `docs/RUNBOOK_TJSP.md`), coletores, amostra de denúncias do TJSP e extração por regras.
+- Base processual das fases 1 (TJSP) e 2 (TJPA), vinda do branch `coleta-datajud` e mesclada no main em 21/11/2026: plano de captura (`docs/plano-captura.md`), arquitetura das linhas de pesquisa (`docs/linhas-de-pesquisa.md`), roteiros de coleta (`docs/RUNBOOK.md`, `docs/RUNBOOK_TJSP.md`, `docs/RUNBOOK_TJPA.md`), coletores, amostra de denúncias do TJSP e extração por regras, e as peças do TJPA lidas pelo Codex (`textos/tjpa/`).
 
 ## Versões editáveis
 
