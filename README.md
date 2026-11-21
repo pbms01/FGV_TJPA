@@ -28,7 +28,9 @@ Estado em 20/11/2026, à noite: a fase 1 (TJSP) tem a amostra de 200 denúncias 
 | `scripts/analisa_censo.py`, `amostra.py` | Análise local do censo e sorteio local |
 | `scripts/panorama.py` | Panorama por metadados de TJSP, TJMG, TJBA e TJPA |
 | `scripts/pipe_conversa.py`, `scripts/mk_mapa.sh` | Coleta das denúncias na conversa: IDs da peça a partir do mapa do Codex, gravação do texto, manifesto e status |
-| `scripts/pipe_sentencas.py` | Coleta das sentenças na conversa, pela ordem de `dados/extracao/matriz_casos.csv`: IDs repetidos para o batch, gravação do texto sem a linha `Original:`, manifesto, status e impressão do dispositivo; resultado em `dados/extracao/sentencas_matriz.csv` |
+| `scripts/pipe_sentencas.py` | Coleta das sentenças na conversa: na matriz, pela ordem de `dados/extracao/matriz_casos.csv`; na amostra, `prox`, `lote`, `djen`, `corrige` e `recalcula`, com gravação do texto sem a linha `Original:`, manifesto, status e uma linha por processo em `dados/extracao/sentencas_amostra.csv` |
+| `scripts/resultado_sentenca.py` | Leitor por regras do dispositivo: resultado, capitulação acolhida, pena, regime, substituição e menção à Lei 15.397/2026; `valida` compara com as 30 linhas lidas à mão da matriz |
+| `scripts/consolida_sentencas.py` | Consolidação das sentenças da amostra por estrato, com peso, mudança de capitulação, variável da Lei 15.397/2026 e divergência entre movimento e texto; grava `dados/extracao/resumo_sentencas.json` |
 | `scripts/sorteio_complemento_fe.py` | Complemento do sorteio da FE (ordens 120 a 131) |
 | `scripts/extrai_denuncias.py` | Extração por regras das 200 denúncias da amostra TJSP: cota, narrativa, capitulação, dispositivos, indicadores de meio, alertas; saídas e validação em `dados/extracao/LEIAME.md` |
 | `scripts/lote_codificacao.py`, `scripts/grava_codificacao.py` | Codificação assistida de artifício, meio e papel: o primeiro imprime em forma compacta o próximo lote não codificado de um estrato, o segundo grava em `dados/extracao/codificacao_assistida.csv` com checagem de vocabulário |

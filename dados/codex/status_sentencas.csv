@@ -200,3 +200,6 @@ numero,caso,status,docs,quando,detalhe
 1528251-61.2024.8.26.0050,FE 126,ok,1,2026-11-21T03:58:00+00:00,2026-09-01|Procedência|Julgada Procedente a Ação
 1501202-71.2022.8.26.0161,FE 127,ok,1,2026-11-21T03:59:20+00:00,2024-11-20|Procedência|Condenação à Pena Privativa de Liberdade e Multa COM Decretação da Prisão
 1507403-04.2024.8.26.0228,FE 128,ok,1,2026-11-21T04:00:40+00:00,2024-11-27|Procedência|Condenação à Pena Privativa de Liberdade Substituída por Restritiva de Direito
+1500711-49.2022.8.26.0554,CL 20,ok_djen,0,2026-11-21T04:01:33+00:00,2026-10-09|Procedência|Julgada Procedente a Ação
+1500775-25.2023.8.26.0554,CL 30,ok_djen,0,2026-11-21T04:02:04+00:00,2026-10-26|Procedência|Julgada Procedente a Ação
+1520051-36.2022.8.26.0050,CL 32,ok_djen,0,2026-11-21T04:02:43+00:00,2026-04-16|Procedência em Parte|Sentença Condenatória/Absolutória Proferida

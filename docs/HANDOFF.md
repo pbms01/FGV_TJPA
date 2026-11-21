@@ -1,4 +1,4 @@
-# Handoff: fase 1 TJSP, com amostra, extração, codificação de papel e sentenças da matriz (21/11/2026)
+# Handoff: fase 1 TJSP, com amostra, extração, codificação de papel e sentenças da amostra (21/11/2026)
 
 Repositório pbms01/FGV_TJPA, branch `coleta-datajud`, que ainda não foi mesclado no main. Este arquivo substitui o estado da conversa e deve ser lido antes de qualquer passo novo.
 
@@ -23,7 +23,7 @@ Arquivos de dados:
 
 Codificação de artifício, meio e papel: cobre as 200 denúncias, com 36 manuais (`dados/extracao/codificacao_manual_r1.csv` e `_r2.csv`) e 164 assistidas (`dados/extracao/codificacao_assistida.csv`). A assistida foi feita pelo assistente, por leitura caso a caso com `scripts/lote_codificacao.py` e gravação por `scripts/grava_codificacao.py`, e ainda não foi conferida pelo pesquisador. Regras, categorias novas e casos de fronteira estão na seção própria do `dados/extracao/LEIAME.md`.
 
-Sentenças: as 29 da matriz de seleção foram lidas, com mais a do corréu do CL 11 (`scripts/pipe_sentencas.py`). Texto em `textos/tjsp/sentencas/<numero>/`, manifesto em `textos/tjsp/manifesto_sentencas.csv`, status em `dados/codex/status_sentencas.csv` e resultado, capitulação acolhida e pena em `dados/extracao/sentencas_matriz.csv` (30 linhas). As outras 171 denúncias da amostra ainda não têm sentença lida. A seção final do `dados/extracao/LEIAME.md` descreve a coleta.
+Sentenças: 197 das 198 denúncias sem duplicatas têm sentença lida (falta o FE 16). As 29 da matriz foram lidas à mão (`dados/extracao/sentencas_matriz.csv`, 30 linhas com o corréu do CL 11); as demais, pelo leitor por regras de `scripts/resultado_sentenca.py`, validado contra a matriz, com revisão à mão dos casos marcados. Uma linha por processo em `dados/extracao/sentencas_amostra.csv` (199 linhas, com as duas duplicatas), texto em `textos/tjsp/sentencas/<numero>/`, manifesto em `textos/tjsp/manifesto_sentencas.csv`, status em `dados/codex/status_sentencas.csv` e consolidação em `scripts/consolida_sentencas.py`, que grava `dados/extracao/resumo_sentencas.json`. As duas seções finais do `dados/extracao/LEIAME.md` descrevem a coleta, o leitor e os resultados.
 
 Extração: `python scripts/extrai_denuncias.py` gera `dados/extracao/denuncias_tjsp.csv` (200 linhas, cerca de 72 colunas) e `dados/extracao/segmentos/<numero>.json` (cota, narrativa, capitulação). As regras, a validação e as decisões estão em `dados/extracao/LEIAME.md`, a leitura obrigatória antes de mexer na extração.
 
@@ -56,6 +56,18 @@ Sentenças da matriz (29 casos, sem peso, porque a matriz é escolha e não amos
 - O titular da conta de passagem vai da absolvição (FE 55, FE 107) a 5a4m em semiaberto (CL 18, oito dias antes da lei), com 4 anos no §2º-A como resposta mais comum. No mesmo fato do CL 11, o executor recebeu 11a4m em fechado e o cedente da conta 1 ano em aberto.
 - Os indicadores `condena` e `absolve` do cjpg acertaram 21 de 28 condenações e 1 de 8 absolvições. O teor do cjpg para perto de 50 mil caracteres e perde o dispositivo das sentenças longas, de modo que não servem como resultado.
 
+Sentenças da amostra (197 de 198 denúncias sem duplicatas, % ponderado dentro do estrato):
+
+| Estrato | Ao menos um réu condenado | Capitulação acolhida nas condenações | Mantém a capitulação da denúncia |
+| --- | --- | --- | --- |
+| INV | 85,3% | 154-A 66,7% | 70,4% |
+| CL | 94,2% | 171 §2º-A 31,5%; 171 sem §2º-A 25,9%; 171 §2º, VII 22,7% | 65,8% |
+| FE | 87,3% | 171 §2º-A 82,1%; 171 sem §2º-A 15,3% | 86,7% |
+
+- Lei 15.397/2026: das 32 sentenças CL posteriores a 04/05/2026, 10 aplicam o 171 §2º, VII, 8 recusam, 2 o mencionam sem decidir sobre ele, 10 silenciam e 2 só têm o dispositivo. Na FE, das 39 posteriores, 1 aplica (FE 42), 2 recusam (FE 72, FE 77) e 36 silenciam. As recusas se apoiam em participação maior que a cessão da conta, em falta de prova da cessão inocente ou em direito intertemporal, onde FE 72 (irretroatividade) e CL 13 (lei mais benéfica) leem o mesmo problema ao contrário.
+- Pena mediana no 171 §2º-A: 48 meses no CL e na FE; no 171 §2º, VII, 12 meses; no 171 sem §2º-A, 12 a 14 meses.
+- O movimento do Codex contradiz o texto em cinco absolvições (INV 19, CL 31, FE 4, FE 7, FE 18).
+
 Achados da codificação de 198 denúncias sem duplicatas (36 manuais e 162 assistidas), com peso dentro do estrato:
 
 - O valor do fato entrou em conta de denunciado em 48 das 50 denúncias CL (96,5%) e em 90 das 114 FE (78,8%). As duas CL restantes estão fora da tipologia (tráfico e anabolizantes). Em FE o papel se divide em titular 52,7%, misto 26,1% e executor sem conta 21,2%; os executores concentram-se em compras fraudulentas contra empresas e no golpe do motoboy.
@@ -67,8 +79,8 @@ A validação das regex fora da amostra (rodada r2, 12 casos) deu concordância 
 ## Próximos passos, em ordem
 
 1. Conferência da codificação assistida pelo pesquisador, numa amostra estratificada (por exemplo, 8 casos por estrato com semente nova) somada aos casos de fronteira listados no `dados/extracao/LEIAME.md`. Correções entram por `python3 scripts/grava_codificacao.py`, que substitui a linha do mesmo número. A conferência decide também se as categorias novas (`relacional`, `extorsao_transferencia`, `taxa_antecipada`, `devassa_privacidade`, `falso_relacionamento`, `outro`) ficam ou são fundidas.
-2. Sentenças das outras 171 denúncias da amostra, pelo mesmo roteiro do `scripts/pipe_sentencas.py` (seção do Codex abaixo). Para isso, o `next` precisa ler a lista de `amostra_tjsp.csv` e pular os 29 já lidos, e convém escrever uma regex de resultado sobre o dispositivo, validada contra as 30 linhas de `sentencas_matriz.csv`, para não depender de `condena` e `absolve` do cjpg.
-3. Variável da Lei 15.397/2026 nas sentenças: data do fato e da sentença em relação a 04/05/2026, aplicação ou recusa do 171 §2º, VII e fundamento. A matriz já tem os pares (CL 11, CL 7 e FE 77 depois da lei; CL 18 e FE 115 antes), que conversam com a análise contrafactual do Project.
+2. Conferência das 113 sentenças com `conferido=auto` por segundo leitor, numa amostra estratificada, e decisão sobre o FE 16 (1505916-93.2021.8.26.0554, sentença de 14/11/2024 no cjpg sem movimento nem DJEN; tentar a lista de documentos do Codex ou o cjpg no navegador).
+3. Lei 15.397/2026 em segundo grau: as apelações das sentenças que aplicam ou recusam o 171 §2º, VII (lista na seção de sentenças do LEIAME), com o acórdão citado no CL 29 e no CL 34 (Apelação 1503076-37.2022.8.26.0664, não conferida), para ver qual das leituras de direito intertemporal o TJSP adota. Conversa com a análise contrafactual do Project.
 4. Portar as melhorias do pipe da conversa (`scripts/pipe_conversa.py`) para `scripts/codex_denuncias.py`: candidata de reserva antes do "Recebida a denúncia", filtro de denúncia nomeada, deduplicação por código PJe, guarda contra folha de inquérito e regras de OCR.
 5. Máscara de CPF, RG, telefone e endereço para a versão de circulação, quando o usuário decidir.
 6. Fase 2 (TJPA), a replanejar. Convém testar se a consulta de julgados do TJPA permite a mesma busca textual.
@@ -87,7 +99,8 @@ A validação das regex fora da amostra (rodada r2, 12 casos) deu concordância 
 - Sem denúncia nomeada, use a petição ou manifestação do MP imediatamente anterior ao movimento "Recebida a denúncia". A denúncia às vezes está em "Outros".
 - Quando o texto nativo vem cortado, procure no mapa uma cópia posterior da mesma peça, sem texto indexado, e leia-a por OCR.
 - O `pipe_conversa.py` usa `/tmp/cur.json` como estado do processo corrente, que se perde ao trocar de sessão.
-- Sentenças, com `scripts/pipe_sentencas.py`: `next` dá o caso; `pdpj_list_movimentos(NUM, tipo_filter="cedência")` dá o movimento de procedência ou improcedência e o ID da sentença; `ids NUM ID[:chars]` imprime os IDs repetidos; o batch com eles grava em arquivo; `grava <arquivo>` guarda texto, manifesto e status e imprime só o dispositivo. Sem documento no movimento, `pdpj_list_documentos` acha a sentença pelo nome (CL 1, CL 11). O estado fica em `/tmp/sent_cur.json`; rodar `ids` antes de cada batch.
+- Limite por hora: a coleta das sentenças, em cerca de 100 processos por hora (duas chamadas cada), esbarrou no limite horário do conector, que respondeu com espera de 1109 s e aviso contra uso em lote. Retomada com intervalo mínimo de 40 s entre chamadas (cerca de 90 por hora), sem novo bloqueio. Não repetir a chamada recusada antes da espera indicada.
+- Sentenças da amostra, com `scripts/pipe_sentencas.py`: `prox` dá o próximo caso da amostra; depois do `pdpj_list_movimentos` e do batch (ID repetido 15 vezes para a saída ir a arquivo), `lote <arquivo> "data|movimento|complemento"` grava e lê; `djen NUM "mov" campo=valor` registra o dispositivo lido no DJEN; `corrige NUM campo=valor` corrige à mão; `recalcula` relê tudo depois de mudar o leitor. Roteiro antigo da matriz: `next` dá o caso; `pdpj_list_movimentos(NUM, tipo_filter="cedência")` dá o movimento de procedência ou improcedência e o ID da sentença; `ids NUM ID[:chars]` imprime os IDs repetidos; o batch com eles grava em arquivo; `grava <arquivo>` guarda texto, manifesto e status e imprime só o dispositivo. Sem documento no movimento, `pdpj_list_documentos` acha a sentença pelo nome (CL 1, CL 11). O estado fica em `/tmp/sent_cur.json`; rodar `ids` antes de cada batch.
 
 ## Restrições permanentes
 

@@ -168,3 +168,38 @@ Conferência dos indicadores do cjpg (`amostra_tjsp.csv`) contra a leitura:
 - `absolve` procura "absolvo" ou "julgo improcedente" e marcou 1 dos 8 casos com absolvição de réu ou imputação. Perde "ABSOLVER o réu", "rejeito o pedido" e a absolvição dentro de procedência parcial.
 - Para a amostra inteira, os dois indicadores não servem como resultado. O resultado deve vir da leitura do dispositivo, ou de regex nova validada contra estas 30 linhas.
 
+
+## Sentenças da amostra (198 denúncias sem duplicatas)
+
+Coletadas pelo Codex em 21/11/2026, depois das 29 da matriz, com `scripts/pipe_sentencas.py` (`prox`, `lote`, `djen`, `corrige`, `recalcula`) e lidas por regras em `scripts/resultado_sentenca.py`. O roteiro por caso é o da matriz: `pdpj_list_movimentos` com `tipo_filter="cedência"` dá o movimento e o documento, a leitura em lote grava o texto, e o leitor por regras preenche resultado, capitulação acolhida, pena, regime, substituição e menção à Lei 15.397/2026. Sem movimento de procedência, a lista completa de movimentos achou a extinção por prescrição (FE 46). Quando o Codex devolve a peça sem conteúdo ou a corta perto de 100 mil caracteres, o dispositivo vem da publicação no DJEN (`pdpj_buscar_comunicacoes` com o número e uma janela de duas semanas a partir do movimento), e a linha fica com `documentos=0`.
+
+Cobertura: 197 das 198 denúncias têm sentença lida. São 162 pelo texto do Codex com o leitor por regras, 29 da matriz lidas à mão e 6 só pelo dispositivo do DJEN (INV 6, CL 20, CL 30, CL 32, FE 8 e FE 118; FE 31 e INV 2 têm texto cortado e o dispositivo do DJEN nas notas; INV 8 e INV 36 também foram cortados antes do dispositivo, sem publicação útil no DJEN, e têm o resultado só pelo movimento). Falta o FE 16 (1505916-93.2021.8.26.0554), cuja sentença de 14/11/2024 no cjpg não aparece em nenhum movimento nem no DJEN de novembro de 2024 a janeiro de 2025.
+
+O leitor por regras acerta 30 de 30 condenações, 29 de 30 absolvições e 30 de 30 capitulações acolhidas contra `sentencas_matriz.csv` (`python3 scripts/resultado_sentenca.py valida`). Na coleta, toda sentença marcada para revisão (procedência parcial, desclassificação, menção à lei nova, divergência com o movimento) teve o dispositivo impresso e lido, e 57 linhas foram corrigidas ou anotadas à mão (`conferido=lido`). As 113 linhas restantes (`conferido=auto`) não tiveram segundo leitor. Ajustes feitos no leitor durante a coleta, cada um por um caso concreto: "rejeito o pedido de desclassificação" deixou de valer como absolvição; "deixo de condenar" deixou de valer como condenação (FE 4); "§2ºA" sem hífen passou a ser lido como §2º-A (FE 1); "10 dias multa" deixou de contar como pena de prisão (FE 45); "regime prisional aberto" passou a ser lido (FE 80); o dispositivo recua até o "ante o exposto" quando a condenação vem antes do primeiro "absolvo" (FE 102); a menção à lei nova deixou de casar com números de processo como 1539731 e passou a cobrir o inciso citado sem o número da lei (CL 43, CL 48, CL 49).
+
+Consolidação: `python3 scripts/consolida_sentencas.py` imprime as tabelas e grava `resumo_sentencas.json`. A unidade é a denúncia sem duplicatas, com o peso do processo, e os percentuais são ponderados dentro do estrato.
+
+| Estrato | Lidas | Ao menos um réu condenado | Absolvição integral | Capitulação acolhida nas condenações | Regime nas condenações |
+| --- | --- | --- | --- | --- | --- |
+| INV | 34 de 34 | 85,3% | 14,7% | 154-A 66,7%, o resto espalhado (147, 147-A, 158, 180, 171, 155, 138, 312) | aberto 57,7%, fechado 26,9% |
+| CL | 50 de 50 | 94,2% | 5,8% | 171 §2º-A 31,5%, 171 sem §2º-A 25,9%, 171 §2º, VII 22,7%, 155 §4º-B 6,7% | aberto 69,8%, semiaberto 19,6% |
+| FE | 113 de 114 | 87,3% | 12,1% (e 0,6% de extinção) | 171 §2º-A 82,1%, 171 sem §2º-A 15,3% | aberto 57,3%, semiaberto 27,6% |
+
+- A sentença mantém a capitulação da denúncia em 70,4% das condenações INV, 65,8% das CL e 86,7% das FE. No CL, a mudança dominante é a desclassificação para o 171 §2º, VII (22,7%); na FE, o afastamento do §2º-A (6,7%), quase sempre para o 171 caput ou para o privilégio do §1º, contra 4,0% que acrescentam o §2º-A a uma denúncia do 171 simples.
+- Penas medianas (meses, sem peso, primeira pena privativa do dispositivo): 171 §2º-A 48 no CL e na FE; 171 sem §2º-A 14,25 no CL e 12 na FE; 171 §2º, VII 12; 154-A 32 no INV.
+- "Procedência parcial" junta a condenação por parte das imputações e a sentença que condena um réu e absolve outro. Por isso o movimento "Procedência" contra o texto "procedência parcial" (ou o inverso) não conta como erro; aconteceu em 9 sentenças INV, 21 CL e 19 FE.
+- O movimento contradiz o texto em cinco sentenças, todas absolutórias com movimento de procedência ou procedência em parte: INV 19, CL 31, FE 4, FE 7 e FE 18. O movimento sozinho não serve como resultado.
+
+Variável da Lei 15.397/2026 (publicada em 04/05/2026), pela data do movimento da sentença. As categorias vêm da capitulação acolhida e, para as sentenças que mencionam a lei sem aplicá-la, do dicionário `LEI_MANUAL` do `consolida_sentencas.py`, codificado pela leitura do trecho:
+
+| Estrato | Sentenças depois da lei | Aplica o §2º, VII | Recusa | Outras menções | Sem menção | Só dispositivo |
+| --- | --- | --- | --- | --- | --- | --- |
+| INV | 3 | 0 | 0 | 0 | 2 | 1 |
+| CL | 32 | 10 | 8 | 2 (CL 31 absolve e diz que a falta de dolo alcança o inciso; CL 37 cita a lei só como reforço do dolo) | 10 | 2 |
+| FE | 39 | 1 (FE 42, por emendatio) | 2 (FE 72, FE 77) | 0 | 36 | 0 |
+
+- Os fundamentos da recusa são de três tipos: o réu fez mais do que ceder a conta (integrou a fraude ou movimentou a conta de forma articulada: CL 10, CL 16, CL 28, CL 33); falta de prova da cessão inocente ou do vínculo com atividade criminosa (CL 49, FE 77); e direito intertemporal. No direito intertemporal estão o FE 72, que recusa por irretroatividade porque o fato é anterior à lei, o CL 36, para o qual o inciso seria mais grave que a receptação aplicada a fato anterior, e o CL 57, que mantém o caput dizendo que a lei nova não tornou atípica a conduta. A leitura oposta é a do CL 13 e da matriz (CL 7, CL 11), que aplicam o inciso a fato anterior como lei mais benéfica. O CL 48 nega a desclassificação pedida com base na nova figura sem tratar do inciso.
+- Pelo ano do fato da extração (`ano_fato`, com ruído conhecido, como um 1995), quase todos os fatos julgados depois da lei são anteriores a ela, de modo que toda aplicação do inciso é retroativa.
+- Na FE, 36 das 39 sentenças posteriores à lei não tratam do inciso, inclusive as que condenam o titular da conta no §2º-A.
+
+Limitações: a pena e o regime são os do primeiro réu condenado no dispositivo; o dicionário `LEI_MANUAL` precisa ser revisto se entrar sentença nova que mencione a lei, porque o script marca essas como "menciona, sem codificar"; as linhas só com o dispositivo do DJEN não permitem dizer se a fundamentação tratou do inciso; o `ano_fato` vem da regex da denúncia e não foi conferido caso a caso.

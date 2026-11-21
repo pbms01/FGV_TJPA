@@ -71,6 +71,8 @@ def lei_15397(x):
         return "aplica"
     if x["caso"] in LEI_MANUAL:
         return LEI_MANUAL[x["caso"]]
+    if x["documentos"] == "0":  # só o dispositivo do DJEN: a fundamentação não foi lida
+        return "só dispositivo"
     if x["menciona_lei_15397"] in ("True", "1"):
         return "menciona, sem codificar"  # aparece se uma sentença nova não entrou no dicionário
     return "sem menção"
