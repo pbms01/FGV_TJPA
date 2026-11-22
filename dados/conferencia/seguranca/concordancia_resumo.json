@@ -1,0 +1,59 @@
+{
+ "via": {
+  "casos": 68,
+  "concordancia": 0.74,
+  "kappa": 0.67
+ },
+ "elementar_denuncia": {
+  "casos": 68,
+  "concordancia": 0.94,
+  "kappa": 0.83
+ },
+ "elementar_sentenca": {
+  "casos": 8,
+  "concordancia": 0.88,
+  "kappa": 0.77
+ },
+ "tecnica_na_pena": {
+  "casos": 38,
+  "concordancia": 1.0,
+  "kappa": 1.0
+ },
+ "respostas": {
+  "denuncias": 68,
+  "sentencas": 38
+ },
+ "prova_interna_segundo_leitor": {
+  "INV 34": "registro_sistema",
+  "INV 28": "outra",
+  "INV 41": "outra",
+  "INV 26": "outra",
+  "INV 35": "outra",
+  "INV 11": "registro_sistema",
+  "INV 38": "outra",
+  "INV 42": "outra",
+  "INV 24": "outra",
+  "INV 2": "registro_sistema",
+  "INV 19": "outra",
+  "INV 21": "outra",
+  "INV 10": "outra",
+  "INV 44": "outra",
+  "INV 43": "outra",
+  "INV 17": "registro_sistema",
+  "INV 8": "registro_sistema",
+  "INV 22": "outra",
+  "INV 33": "outra",
+  "INV 27": "outra",
+  "INV 4": "outra",
+  "INV 39": "outra",
+  "INV 30": "registro_sistema",
+  "INV 45": "registro_sistema",
+  "INV 20": "outra",
+  "INV 29": "outra",
+  "INV 32": "outra"
+ },
+ "confianca_na_pena": [
+  "INV 8",
+  "INV 4"
+ ]
+}

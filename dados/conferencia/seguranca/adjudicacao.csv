@@ -1,0 +1,24 @@
+campo,caso,final,decisao,motivo
+via,FE 105,sem_barreira,segunda,maquininha: a vítima digitou a senha numa cobrança de valor oculto; o agente não acessou conta nem obteve credencial; a triagem da q6 marcou credencial pelo termo
+via,FE 18,sem_barreira,segunda,maquininha; idem FE 105
+via,FE 29,sem_barreira,segunda,maquininha com visor adulterado; idem FE 105
+via,CL 24,sem_barreira,segunda,maquininha da falsa taxa de entrega; idem FE 105
+via,FE 50,sem_barreira,segunda,maquininha; o coletor por bluetooth do laudo não é narrado como via do fato principal
+via,FE 110,sem_barreira,segunda,"comprovante de Pix falso; nenhum acesso a conta, sistema ou aparelho"
+via,FE 16,sem_barreira,segunda,triangulação na OLX; a vítima pagou; denunciada é titular da conta de passagem
+via,CL 49,sem_barreira,segunda,falso parente; a vítima transferiu; o cartão e a senha entregues são da conta da própria denunciada
+via,FE 10,nao_narrada,segunda,pedido de cartões com dados pessoais da vítima; a denúncia não diz se houve acesso à conta nem como
+via,FE 102,nao_narrada,segunda,compras no cadastro da vítima no site; acesso e via não narrados
+via,FE 17,nao_narrada,segunda,compras com cartões de terceiros cuja obtenção não é narrada
+via,FE 97,nao_narrada,segunda,no fato principal a senha do cliente foi obtida por meio não esclarecido; o modus operandi genérico não basta
+via,INV 36,nao_narrada,segunda,os funcionários cooptados não tinham acesso legítimo à base do INSS; a invasão não diz como
+via,INV 34,tecnica,segunda,o fato principal é o ataque ao sistema da INFOCAR por negação de serviço e força bruta; a senha de administrador abriu só o computador de onde partiu
+via,INV 22,nao_narrada,segunda,"a denúncia lista ferramentas achadas pela perícia, mas não diz como entrou no sistema da Polícia Civil"
+via,INV 44,nao_narrada,segunda,"desbloqueou o celular: havia barreira, e o como não é narrado"
+via,INV 4,nao_narrada,segunda,o cargo de escrevente não dava acesso à conta gov.br do juiz; a denúncia não diz como (a sentença menciona o 'esqueci a senha')
+via,CL 41,nao_narrada,segunda,celular roubado com aplicativos protegidos; a denúncia narra a violação dos sistemas de segurança dos bancos sem dizer como
+elementar_denuncia,INV 11,redacao_revogada,segunda,'violando indevidamente mecanismo de segurança' é a fórmula revogada com outro verbo; regex ampliada
+elementar_denuncia,INV 2,nao,primeira,"o trecho descreve a senha funcional que permitia a troca do ICCID, não a violação de mecanismo"
+elementar_denuncia,INV 36,violacao_como_fato,segunda,narra a invasão e os métodos para burlar a base do INSS como fato
+elementar_denuncia,INV 4,violacao_como_fato,segunda,'violando inclusive o modo de segurança em duas etapas' narra a violação como fato
+elementar_sentenca,INV 27,nao_trata,segunda,"condena sem enfrentar a tese defensiva da elementar e sem dizer por quê; pelo livro, não é dispensa"

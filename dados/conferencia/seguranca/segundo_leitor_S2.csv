@@ -1,0 +1,10 @@
+id,elementar_sentenca,tecnica_na_pena,trecho_pena,confianca_na_pena,prova_autoria,nota
+"S10","nao_trata",0,"",0,"outra","Fato de 01/2023. Condena 154-A (vítima Raian) sem discutir barreira; senhas obtidas sob ameaça; 154-A da vítima Luciene absorvido pela extorsão. Autoria por reconhecimento das vítimas e imagens do caixa eletrônico. Texto traz a mesma sentença repetida três vezes."
+"S11","exige_e_encontra",0,"",0,"registro_sistema","Fato de 01/2021: aplica a redação antiga e acha violação no uso indevido de senha e token no sistema da Tim (SIM swap). Autoria de Libdi pelo login no sistema da operadora. Texto cortado no fim, antes da dosimetria."
+"S12","nao_trata",0,"",0,"outra","Fato de 10/2022. Absolve por falta de prova de autoria, sem discutir a barreira. Vínculo por nickname e confissão extrajudicial rejeitado; falta IP, log e perícia."
+"S13","nao_trata",0,"",0,"outra","Condena 154-A tentado (senhas compradas não funcionaram), sem discutir barreira. Pena-base sobe pela segurança pública, não pela técnica. Autoria por áudios de WhatsApp, apreensão e policiais."
+"S14","dispensa",0,"",0,"outra","Diz que após a Lei 14.155 a violação não é mais exigida (acesso com senha de terceira); 154-A absorvido pelo peculato-furto. Autoria por confissão e testemunhas. Confiança só na tipificação."
+"S15","exige_e_encontra",0,"",0,"outra","Fato de 09/2025. Contra a tese defensiva, acha a transposição da barreira (celular bloqueado). Autoria por palavra da vítima, testemunhas e confissão."
+"S16","dispensa",0,"",0,"nao_se_aplica","Fato de 09/2021. Afirma que a nova redação dispensa a violação, mas absolve porque o réu não conseguiu abrir o celular. Não atribui acesso ao réu; prova oral da vítima."
+"S17","nao_trata",0,"",0,"outra","Fato de 11/2021. Condena 154-A §3º (link malicioso, Instagram) sem discutir barreira. Autoria por policiais e confissão; a denúncia cita dados telemáticos."
+"S18","nao_trata",0,"",0,"nao_se_aplica","Só art. 171, §2º-A, sem 154-A em julgamento. Réu cedeu conta bancária; a invasão do Instagram é de terceiro não identificado."

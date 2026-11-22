@@ -1,33 +1,36 @@
 {
  "universo": 68,
  "via_sistema_objeto": {
-  "credencial própria de quem tinha acesso legítimo": 7,
+  "credencial própria de quem tinha acesso legítimo": 4,
   "credencial de quem tinha acesso legítimo, comprada ou cedida": 2,
-  "credencial obtida da vítima por engano": 4,
+  "credencial obtida da vítima por engano": 3,
   "credencial obtida da vítima por relação ou coação": 3,
-  "aparelho ou sessão em mãos, sem barreira narrada": 6,
+  "aparelho ou sessão em mãos, sem barreira narrada": 4,
   "técnica (falha explorada, programa malicioso, força bruta)": 5,
   "a barreira resistiu": 1,
-  "via não narrada": 10
+  "via não narrada": 16,
+  "sem barreira: a vítima pagou ou autorizou, sem entregar credencial": 0
  },
  "via_sistema_meio_triagem": {
   "credencial própria de quem tinha acesso legítimo": 0,
   "credencial de quem tinha acesso legítimo, comprada ou cedida": 1,
-  "credencial obtida da vítima por engano": 27,
+  "credencial obtida da vítima por engano": 16,
   "credencial obtida da vítima por relação ou coação": 2,
   "aparelho ou sessão em mãos, sem barreira narrada": 0,
   "técnica (falha explorada, programa malicioso, força bruta)": 0,
   "a barreira resistiu": 0,
-  "via não narrada": 0
+  "via não narrada": 3,
+  "sem barreira: a vítima pagou ou autorizou, sem entregar credencial": 8
  },
  "objeto_total": 38,
  "denuncia_narra_elementar": {
-  "fato_posterior_14155": "6 de 28",
-  "fato_anterior_14155": "6 de 10",
+  "fato_posterior_14155": "7 de 28",
+  "fato_anterior_14155": "7 de 10",
   "posterior_com_redacao_revogada": [
    "INV 33"
   ],
   "posterior_narra_como_fato": [
+   "INV 4",
    "INV 6",
    "INV 13",
    "CL 10",
@@ -43,37 +46,94 @@
   "transcreve a redação revogada": 1,
   "barreira presente e rompida": 1
  },
+ "sentenca_elementar_pos_14155_2l": {
+  "exige_e_afasta": [
+   "INV 13",
+   "INV 14",
+   "INV 26"
+  ],
+  "exige_e_encontra": [
+   "INV 38",
+   "INV 44"
+  ],
+  "dispensa": [
+   "INV 1",
+   "INV 20",
+   "INV 39"
+  ],
+  "nao_trata": [
+   "INV 4",
+   "INV 17",
+   "INV 19",
+   "INV 21",
+   "INV 24",
+   "INV 27",
+   "INV 28",
+   "INV 30",
+   "INV 32",
+   "INV 33",
+   "INV 42",
+   "INV 43",
+   "CL 10",
+   "CL 15",
+   "CL 28",
+   "CL 41",
+   "FE 73",
+   "FE 88",
+   "FE 97"
+  ]
+ },
+ "confianca_na_pena": [
+  "INV 4",
+  "INV 8"
+ ],
+ "vias_narradas": 41,
+ "via_total": {
+  "credencial própria de quem tinha acesso legítimo": 4,
+  "credencial de quem tinha acesso legítimo, comprada ou cedida": 3,
+  "credencial obtida da vítima por engano": 19,
+  "credencial obtida da vítima por relação ou coação": 5,
+  "aparelho ou sessão em mãos, sem barreira narrada": 4,
+  "técnica (falha explorada, programa malicioso, força bruta)": 5,
+  "a barreira resistiu": 1,
+  "via não narrada": 19,
+  "sem barreira: a vítima pagou ou autorizou, sem entregar credencial": 8
+ },
  "tecnica_na_pena": [
   "INV 4"
  ],
  "acesso_interno": {
   "casos": [
    "INV 2",
-   "INV 4",
    "INV 8",
    "INV 10",
    "INV 11",
    "INV 21",
    "INV 30",
-   "INV 34",
-   "INV 36",
    "INV 45"
   ],
   "por_via": {
-   "credencial própria de quem tinha acesso legítimo": 7,
+   "credencial própria de quem tinha acesso legítimo": 4,
    "credencial de quem tinha acesso legítimo, comprada ou cedida": 3
   },
   "resultado": {
-   "procedência parcial": 6,
-   "condenação": 3,
-   "absolvição": 1
+   "procedência parcial": 4,
+   "condenação": 3
   },
   "com_prova_lida": [
    "INV 2",
    "INV 11",
    "INV 21",
-   "INV 30",
-   "INV 34"
-  ]
+   "INV 30"
+  ],
+  "prova_na_sentenca": {
+   "INV 2": "registro_sistema",
+   "INV 8": "registro_sistema",
+   "INV 10": "outra",
+   "INV 11": "registro_sistema",
+   "INV 21": "outra",
+   "INV 30": "registro_sistema",
+   "INV 45": "registro_sistema"
+  }
  }
 }

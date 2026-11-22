@@ -7,6 +7,7 @@ Par: INV 2 (âncora, TJSP) e AP 2428 (contraste, STF). Perguntas examinadas: 1, 
 - Exercício: "Esqueceu a senha?".
 - STF, Primeira Turma, Ação Penal 2428/DF, relator ministro Alexandre de Moraes. Denúncia da PGR (Pet 11626) recebida em maio de 2024; condenação unânime concluída em 14/05/2025; embargos de declaração rejeitados em sessão virtual encerrada em 06/06/2025.
 - Fatos entre agosto de 2022 e janeiro de 2023, posteriores à Lei 14.155/2021.
+- Caso citado da base: INV 4 (TJSP), o escrevente que entrou duas vezes na conta gov.br de um juiz, mesmo depois da troca de senha e da verificação em duas etapas, e confessou ter usado a opção "esqueci a senha"; condenado no 154-A, §3º, com "expertise e habilidade incomuns" valoradas na pena.
 - Peças lidas: o voto do relator, em reprodução publicada pelo Migalhas, lido por extração automática em duas partes; o texto não foi gravado no repositório, e a captura do inteiro teor no portal do STF fica pendente. Não passou pelo segundo leitor.
 
 ## 1. Conduta registrada
@@ -27,7 +28,7 @@ Dosimetria do executor. Quatro circunstâncias judiciais negativas: culpabilidad
 
 Pergunta 1. O caso de maior repercussão do período confirma o padrão da base: a porta foi aberta por credenciais, a recuperação de senha e um segredo exposto num repositório; a habilidade do agente estava em encontrar e encadear essas falhas, não em quebrar a criptografia.
 
-Pergunta 2. Com o fato já sob a Lei 14.155, a violação do mecanismo deixa de ser questão de tipicidade e migra para a pena: o "conhecimento técnico" entra na culpabilidade, e o planejamento, nas circunstâncias. Na base estadual, a mesma migração aparece numa sentença (INV 4).
+Pergunta 2. Com o fato já sob a Lei 14.155, a violação do mecanismo deixa de ser questão de tipicidade e migra para a pena: o "conhecimento técnico" entra na culpabilidade, e o planejamento, nas circunstâncias. Na base estadual, a mesma migração aparece numa sentença, a do INV 4, que é também a mesma via: a recuperação de senha.
 
 Pergunta 4. A credencial de terceiro é o oposto da credencial própria do INV 2: lá a prova da autoria veio do registro, que apontava para a dona da credencial; aqui, o registro apontava para os titulares das credenciais, que não agiram, e a autoria se provou pela confissão, pelo material entregue pelo executor e pela investigação.
 

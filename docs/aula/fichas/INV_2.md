@@ -8,8 +8,8 @@ Par: INV 2 (âncora, TJSP) e AP 2428 (contraste, STF). Perguntas examinadas: 1 (
 - Processo 1500431-37.2021.8.26.0482, 3ª Vara Criminal de Presidente Prudente. Estrato INV.
 - Fatos de 20 a 22/01/2021 contra as vítimas de Presidente Prudente, com a organização narrada desde 2019; fato anterior à Lei 14.155/2021, de modo que o 154-A é o da redação de 2012, que exigia a "violação indevida de mecanismo de segurança". Denúncia de 17/10/2023 (32,9 meses depois do fato, questão 5). Sentença de 26/09/2025, publicada no DJEN em 29/09/2025; recurso de uma das rés recebido em 06/10/2025. Andamento em segundo grau não verificado.
 - Peças lidas: a denúncia (quatro partes), a sentença até o limite de 100 mil caracteres do Codex e o dispositivo pelo DJEN. A dosimetria não foi lida.
-- Casos citados: INV 11 (senhas de policiais compradas, condenado), INV 34 (administrador de rede, absolvido), INV 13, INV 14 e INV 26 (sentenças que exigem a elementar suprimida).
-- Não passou pelo segundo leitor.
+- Casos citados: INV 11 (senhas de policiais compradas, condenado, autoria pelo IP do acesso), INV 8 e INV 45 (acesso interno com autoria pelos logs), INV 13, INV 14 e INV 26 (sentenças que exigem a elementar suprimida e absolvem), INV 38 e INV 44 (que a exigem e a encontram).
+- Conferido por segundo leitor cego (via, elementar e prova da autoria; `docs/analise/segundo-leitor-seguranca.md`). O texto da sentença está cortado antes da dosimetria.
 
 ## 1. Conduta registrada
 
@@ -31,11 +31,11 @@ Dispositivo. Nova definição jurídica do 171, §2º-A, para o 155, §4º, II e
 
 ## 3. Leitura pelas perguntas
 
-Pergunta 1. Na base, a técnica é a via em 5 das 58 denúncias em que a passagem está narrada; em 10, a porta foi aberta por quem tinha acesso legítimo. O INV 2 é o caso mais claro dessas 10: a "invasão" é o uso, por quem a tinha, de uma credencial válida.
+Pergunta 1. Na base, a técnica é a via em 5 das 41 denúncias em que a passagem está narrada; em 7, a porta foi aberta por quem tinha acesso legítimo. O INV 2 é o caso mais claro dessas 7: a "invasão" é o uso, por quem a tinha, de uma credencial válida.
 
-Pergunta 2. Sob a redação de 2012, a sentença precisou chamar de "violação de mecanismo de segurança" o uso de senha e token legítimos. A leitura é defensável, mas mostra por que a elementar foi suprimida: a barreira estava íntegra, e quem a abriu estava autorizado a abri-la para outro fim. Depois de 28/05/2021 a pergunta já não é de tipicidade; três sentenças da base ainda a fazem e absolvem.
+Pergunta 2. Sob a redação de 2012, a sentença precisou chamar de "violação de mecanismo de segurança" o uso de senha e token legítimos. A leitura é defensável, mas mostra por que a elementar foi suprimida: a barreira estava íntegra, e quem a abriu estava autorizado a abri-la para outro fim. Depois de 28/05/2021 a pergunta já não é de tipicidade, e cinco sentenças da base com fato posterior ainda a fazem: três absolvem por falta da barreira e duas a encontram, contra quatro que a dispensam.
 
-Pergunta 4. A credencial interna é a oportunidade e é a prova. O mesmo registro que permitiu a troca permitiu atribuí-la, e o detalhe técnico que decidiu (o token de 30 segundos) é um controle de segurança lido como prova.
+Pergunta 4. A credencial interna é a oportunidade e é a prova: nos 7 acessos internos da base, todos com condenação ao menos parcial, a sentença atribuiu o acesso pelo registro do sistema em 5. O mesmo registro que permitiu a troca permitiu atribuí-la, e o detalhe técnico que decidiu (o token de 30 segundos) é um controle de segurança lido como prova.
 
 O acréscimo ao magistrado. Na cautelar e na instrução, pedir à operadora ou à empresa o registro de quem executou a operação (login, token, horário, terminal) antes do rastro externo; na sentença, distinguir a credencial cedida da credencial própria usada fora da finalidade; na dosimetria, a posição de confiança dentro do serviço é o dado a examinar.
 
