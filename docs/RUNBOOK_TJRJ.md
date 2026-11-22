@@ -93,3 +93,14 @@ Estado: 19 tratados (14 com denúncia e sentença ou só denúncia, 1 só com se
 - Dossiês no STJ (AREsp, sistema SIAJ) abrem no Codex com as peças do 1º grau.
 - Classe do DJEN não garante ação penal: 0034414-11.2026 era pedido de prisão preventiva extinto por litispendência (`sem_denuncia`).
 - Denúncia sem texto indexado no DCP antigo (0069207-15.2022) volta "(sem conteudo)": `so_sentenca`, para a segunda passada.
+
+## Lições dos processos 20 a 30 (22/11/2026)
+
+Estado: 30 tratados, todos do grupo 1 (19 `ok`, 8 `sigilo`, 1 `so_sentenca`, 1 `sem_denuncia`, 1 `sem_texto`), 129 chamadas registradas. Próximo da fila: 0000096-45.2019.8.19.0066 (ordem 31), apelação no eJUD de processo DCP de Volta Redonda, com 327 documentos; a visão geral já foi lida e o processo não tem status gravado.
+
+- Limite do Codex. Duas respostas de "limite de consultas por minuto" nesta sessão, a primeira com chamadas em paralelo e a segunda já com chamadas em série, pausas de 8 a 10 s entre elas e 30 s entre processos. A mensagem diz que o serviço é para consultas pontuais, não para automação, raspagem em lote ou extração massiva, e que o uso inadequado pode levar à suspensão da conta. A coleta parou aqui por cautela, a pedido do usuário. Antes de retomar, decidir o ritmo (uma chamada por vez, com o intervalo de 40 s do roteiro entre processos e mais espaço entre chamadas do mesmo processo) ou pedir limite maior ao suporte, e considerar fechar só o grupo 1.
+- Sigilo cresce: 8 de 30 (27%), contra 19 de 225 no TJPA. Os dois números de órgão 0601 tratados estavam em sigilo (0802538-82.2025 e 0803746-04.2025; o DJEN os dá como varas criminais da Capital). Chamar a visão geral sozinha primeiro, porque o sigilo responde em uma chamada e poupa as demais.
+- DCP do Juizado de Violência Doméstica (0001060-58.2023.8.19.0014, rótulo INV): sem movimento de recebimento da denúncia, e a "Petição Inicial.pdf" do tipo "Petição Inicial/Doc. de Origem" é a denúncia, como nos demais DCP; a classe do Codex é Inquérito Policial.
+- DCP antigo sem texto em todo o processo (0009844-84.2019.8.19.0007, Barra Mansa, 462 documentos): a lista marca "[sem texto indexado: leitura mais lenta]" e a leitura em lote devolve "(sem conteudo)" para a denúncia, a cota e a sentença. Gravado como `sem_texto`, com os IDs na nota, para a segunda passada pelo original (`pdpj_get_documento_url`, como nos acórdãos do TJPA). O julgamento aparece no filtro "Conclus", não em "Julgado".
+- Capitulação divergente entre denúncia e sentença: 0964662-37.2023.8.19.0001 foi denunciado por extorsão (art. 158, §1º) e condenado no art. 171, §2º, VII; fica para a extração conferir a precisão do recorte.
+- O leitor do dispositivo pegou a linha das despesas processuais em 0816832-93.2025.8.19.0002 ("Condeno ao réu, outrossim, ao pagamento das despesas"): o filtro do `grava` exclui "custas" e "honor", mas não "despesas"; corrigir na extração, sem mexer na coleta.
