@@ -165,7 +165,9 @@ def cmd_grava(arq, chamadas, extra=""):
     tem_den = any(p["papel"] == "den" for p in cur["pecas"])
     for p in cur["pecas"]:
         corpo = textos.get(p["id"])
-        if not corpo or len(corpo.strip()) < 40:
+        # o Codex devolve "(sem conteudo)" ou só o marcador de procedência quando não há texto indexado
+        util = re.sub(r"^\[[^\]\n]{0,60}\]\s*", "", (corpo or "").strip())
+        if not corpo or len(util) < 200 or util.startswith("(sem conteudo)"):
             notas.append("sem texto: %s %s" % (p["papel"], p["id"]))
             continue
         assert "?t=" not in corpo and "Original:" not in corpo
