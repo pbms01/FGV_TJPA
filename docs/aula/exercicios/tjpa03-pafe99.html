@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vinte e quatro boletos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Layout: o mesmo do exercício do caso âncora (coluna única; o caso em cima, as
+   questões em cartões, a síntese do par ao fim), para que os dois se leiam juntos. */
+:root {
+  --bg: #f3f5f7;
+  --surface: #ffffff;
+  --ink: #18212b;
+  --muted: #5a6573;
+  --line: #d9dee4;
+  --accent: #1d4f73;
+  --accent-soft: #e6eef4;
+  --ok: #2f6b4f;
+  --ok-soft: #e7f1ec;
+  --del: #8a2f2f;
+  --font-display: "Literata", Georgia, "Times New Roman", serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #12171d;
+    --surface: #1a2129;
+    --ink: #e4e9ee;
+    --muted: #9aa6b3;
+    --line: #2c3641;
+    --accent: #7fb3d9;
+    --accent-soft: #1e2e3b;
+    --ok: #7cc4a0;
+    --ok-soft: #18302a;
+    --del: #e08a8a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #12171d;
+  --surface: #1a2129;
+  --ink: #e4e9ee;
+  --muted: #9aa6b3;
+  --line: #2c3641;
+  --accent: #7fb3d9;
+  --accent-soft: #1e2e3b;
+  --ok: #7cc4a0;
+  --ok-soft: #18302a;
+  --del: #e08a8a;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+/* o atributo hidden prevalece sobre qualquer display definido por classe */
+[hidden] { display: none !important; }
+html, body { margin: 0; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+}
+a { color: var(--accent); }
+.wrap {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 32px 20px 64px;
+  display: grid;
+  gap: 28px;
+}
+header { display: grid; gap: 10px; }
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+h1, h2, h3 { font-family: var(--font-display); font-weight: 600; text-wrap: balance; margin: 0; line-height: 1.25; }
+h1 { font-size: 30px; }
+h2 { font-size: 21px; }
+h3 { font-size: 18px; }
+p { margin: 0; max-width: 65ch; }
+.lead { color: var(--muted); }
+
+.status { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+.chip {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--muted);
+}
+.chip.done { border-color: var(--ok); color: var(--ok); background: var(--ok-soft); }
+
+section.caso {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 22px;
+  display: grid;
+  gap: 14px;
+}
+dl { margin: 0; display: grid; gap: 10px; }
+dl div { display: grid; grid-template-columns: 120px 1fr; gap: 12px; }
+dt { font-weight: 600; color: var(--muted); font-size: 14.5px; padding-top: 1px; }
+dd { margin: 0; max-width: 60ch; }
+@media (max-width: 520px) { dl div { grid-template-columns: 1fr; gap: 2px; } }
+
+.questoes { display: grid; gap: 20px; }
+article.q {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--line);
+  border-radius: 10px;
+  padding: 22px;
+  display: grid;
+  gap: 14px;
+}
+article.q.answered { border-left-color: var(--ok); }
+.qhead { display: flex; gap: 12px; align-items: baseline; }
+.qnum { font-family: var(--font-mono); font-size: 13px; color: var(--accent); flex: none; }
+label.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+textarea {
+  width: 100%;
+  min-height: 130px;
+  resize: vertical;
+  padding: 12px 14px;
+  font: inherit;
+  color: var(--ink);
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+textarea:focus-visible, button:focus-visible, input:focus-visible, a:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+textarea[readonly] { opacity: 0.85; }
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; justify-content: space-between; }
+.count { font-family: var(--font-mono); font-size: 12.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+button {
+  font: inherit;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 9px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: var(--surface);
+  cursor: pointer;
+}
+button:disabled { opacity: 0.45; cursor: not-allowed; }
+button.ghost { background: transparent; color: var(--accent); }
+
+.gabarito {
+  display: grid;
+  gap: 12px;
+  background: var(--ok-soft);
+  border: 1px solid var(--ok);
+  border-radius: 8px;
+  padding: 18px;
+}
+.gabarito h3 { color: var(--ok); font-size: 16px; font-family: var(--font-body); }
+.lei {
+  font-family: var(--font-display);
+  font-size: 15px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 12px 14px;
+  display: grid;
+  gap: 8px;
+}
+.lei del { color: var(--del); text-decoration-thickness: 2px; }
+.lei ins { text-decoration: none; border-bottom: 2px solid var(--ok); }
+.lei b { font-family: var(--font-body); font-weight: 600; font-size: 13.5px; }
+.lei small { display: block; font-family: var(--font-body); font-size: 13px; color: var(--muted); }
+.base { font-size: 14.5px; color: var(--muted); }
+fieldset { border: 0; margin: 0; padding: 0; display: grid; gap: 6px; }
+legend { font-weight: 600; font-size: 14.5px; margin-bottom: 6px; }
+.ponto { display: flex; gap: 10px; align-items: flex-start; }
+.ponto input { margin-top: 5px; width: 16px; height: 16px; accent-color: var(--ok); flex: none; }
+.placar { font-family: var(--font-mono); font-size: 13px; color: var(--ok); font-variant-numeric: tabular-nums; }
+
+section.sintese {
+  border: 1px dashed var(--line);
+  border-radius: 10px;
+  padding: 22px;
+  display: grid;
+  gap: 12px;
+}
+section.sintese.open { border-style: solid; border-color: var(--accent); background: var(--accent-soft); }
+section.sintese ul { margin: 0; padding-left: 20px; display: grid; gap: 8px; max-width: 65ch; }
+footer { font-size: 13.5px; color: var(--muted); display: grid; gap: 10px; }
+@media (prefers-reduced-motion: no-preference) {
+  .gabarito:not([hidden]) { animation: abre 220ms ease-out; }
+  @keyframes abre { from { opacity: 0.4; transform: translateY(-3px); } to { opacity: 1; transform: none; } }
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <div class="eyebrow">Cibercriminologia para magistrados · Par TJPA 3 · Caso de contraste</div>
+    <h1>Vinte e quatro boletos</h1>
+    <p class="lead">Este caso faz par com o das <a href="https://claude.ai/artifact/Tq7W44YmrFo3j5Ho1aM9dE">cinquenta vítimas por dia</a>. Nos dois, o sistema é o instrumento do furto, e o processo chegou ao autor. Leia o caso, que vem sem o desfecho, e responda às quatro questões. O gabarito de cada uma aparece quando você envia a sua resposta. Depois, marque os pontos que a sua resposta cobriu.</p>
+    <div class="status">
+      <span class="chip" id="progresso" aria-live="polite">0 de 4 respondidas</span>
+      <button type="button" class="ghost" id="recomecar">Recomeçar</button>
+    </div>
+  </header>
+
+  <section class="caso" aria-labelledby="t-caso">
+    <h2 id="t-caso">O caso</h2>
+    <p>Entre 2014 e 2015, os pagamentos de um grupo varejista de Belém seguiam um fluxo: o setor de contas a pagar conferia os títulos no sistema de gestão, gerava o arquivo de pagamento e o enviava ao banco. Dois funcionários com acesso ao banco de dados do sistema alteravam o código de barras e o beneficiário de boletos legítimos e acrescentavam parcelas a boletos já pagos. O banco pagava a uma empresa de "serviços contábeis e tecnologia" que os dois haviam constituído, e o dinheiro seguia para contas pessoais deles e de terceiros.</p>
+    <dl>
+      <div><dt>Datas</dt><dd>Fatos de setembro de 2014 a dezembro de 2015; denúncia em setembro de 2018 (TJPA).</dd></div>
+      <div><dt>Investigação</dt><dd>Um notebook ficava escondido num armário, ligado à rede interna por um cabo passado por um furo no móvel e operado à distância pelo TeamViewer; nunca foi periciado. A alteração foi feita direto no banco de dados, sem registro de criação ou de alteração dos títulos, mas os registros de acesso do sistema mostraram o perfil de um dos réus em 24 boletos adulterados. O banco devolveu sem pagar três títulos de um mesmo dia. A empresa dos réus recebeu R$ 3,8 milhões numa só conta, e os dois, R$ 1,7 milhão e R$ 1,3 milhão. Houve quebras de sigilo, sequestro de bens e relatórios de inteligência financeira. Um dos réus ofereceu a uma funcionária R$ 4.000,00 por boleto para que ela fosse trabalhar no setor de pagamentos.</dd></div>
+      <div><dt>Denúncia</dt><dd>O GAECO denunciou vários funcionários por furto qualificado (art. 155, §4º, do CP, na redação da época), lavagem de dinheiro e organização criminosa, e pediu o perdimento dos bens sequestrados. Este processo é o de dois deles.</dd></div>
+    </dl>
+  </section>
+
+  <div class="questoes">
+
+    <article class="q" id="q1" aria-labelledby="t-q1">
+      <div class="qhead"><span class="qnum">1 de 4</span><h3 id="t-q1">Os réus alteraram boletos no sistema, e a empresa pagou. É furto mediante fraude ou estelionato, e em que redação da lei?</h3></div>
+      <label class="sr" for="r1">Sua resposta à questão 1</label>
+      <textarea id="r1" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c1">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b1" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g1" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>Furto mediante fraude. A empresa pagou o que o sistema, alterado às escondidas, apresentava como dívida com fornecedores, e não consentiu em pagar aos réus: a fraude burlou a vigilância. Para fatos de 2014 e 2015, cabe o §4º, II (fraude) e IV (concurso), com pena de 2 a 8 anos; depois da Lei 14.155/2021, a mesma conduta cabe no §4º-B, porque é furto mediante fraude por dispositivo informático, conectado ou não à rede, hoje com pena de 4 a 10 anos.</p>
+        <p>Desfecho. A sentença condenou por furto qualificado, e o acórdão da 1ª Turma de Direito Penal afastou a tese do estelionato com esse critério. É a mesma linha da âncora: o sistema é o instrumento da subtração, e não há entrega voluntária ao agente.</p>
+        <div class="lei">
+          <span><b>Art. 155, §4º, do CP.</b> "A pena é de reclusão, de 2 (dois) a 8 (oito) anos, e multa, se o crime é cometido: (...) II - com abuso de confiança, ou mediante fraude, escalada ou destreza; (...) IV - mediante concurso de duas ou mais pessoas."</span>
+          <span><b>Art. 155, §4º-B, do CP</b> (pena de 4 a 10 anos depois da Lei 15.397/2026). Qualifica o furto mediante fraude "cometido por meio de dispositivo eletrônico ou informático, conectado ou não à rede de computadores, com ou sem a violação de mecanismo de segurança ou a utilização de programa malicioso, ou por qualquer outro meio fraudulento análogo".</span>
+        </div>
+        <p class="base">Na base de pesquisa do TJSP, a invasão de conta ou de sistema recebe quatro capitulações diferentes na denúncia e outras quatro na sentença.</p>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" id="p1a" data-q="1"> Identificou o furto mediante fraude, e não o estelionato.</label>
+          <label class="ponto"><input type="checkbox" id="p1b" data-q="1"> Explicou por que o pagamento não foi entrega voluntária.</label>
+          <label class="ponto"><input type="checkbox" id="p1c" data-q="1"> Aplicou a redação da época dos fatos.</label>
+          <label class="ponto"><input type="checkbox" id="p1d" data-q="1"> Indicou o §4º-B para fatos posteriores à Lei 14.155/2021.</label>
+        </fieldset>
+        <span class="placar" id="s1">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+
+    <article class="q" id="q2" aria-labelledby="t-q2">
+      <div class="qhead"><span class="qnum">2 de 4</span><h3 id="t-q2">O GAECO imputou organização criminosa. O que a lei exige, e o que você faria com essa imputação?</h3></div>
+      <label class="sr" for="r2">Sua resposta à questão 2</label>
+      <textarea id="r2" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c2">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b2" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g2" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>A lei exige a associação de 4 ou mais pessoas, estruturalmente ordenada e com divisão de tarefas, ainda que informal, para obter vantagem com infrações de pena máxima superior a 4 anos. Os autos narram a divisão: o acesso ao banco de dados, o perfil no sistema, o setor de pagamentos cooptado, a empresa de fachada, a conta aberta por terceiros.</p>
+        <p>Desfecho. A sentença absolveu da organização por falta de hierarquia, que não está no texto da lei, e condenou pela associação criminosa, com 2 anos. A associação prescreveu no segundo grau: a pena de 2 anos prescreve em 4, e o processo levou 5 anos e 9 meses do recebimento da denúncia à sentença.</p>
+        <div class="lei">
+          <span><b>Art. 1º, §1º, da Lei 12.850/2013.</b> "Considera-se organização criminosa a associação de 4 (quatro) ou mais pessoas estruturalmente ordenada e caracterizada pela divisão de tarefas, ainda que informalmente", com objetivo de obter vantagem mediante infrações cujas penas máximas sejam superiores a 4 anos, ou de caráter transnacional.</span>
+        </div>
+        <p class="base">Na base do TJSP, o enquadramento como organização não acompanha a estrutura narrada: só 4 grupos preenchem o critério da lei numa leitura conservadora, e 4 das 13 imputações de associação ou organização recaem sobre um único denunciado.</p>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" id="p2a" data-q="2"> Testou a imputação contra os elementos do art. 1º, §1º, da Lei 12.850.</label>
+          <label class="ponto"><input type="checkbox" id="p2b" data-q="2"> Notou que hierarquia não é requisito do texto.</label>
+          <label class="ponto"><input type="checkbox" id="p2c" data-q="2"> Identificou a divisão de tarefas narrada.</label>
+          <label class="ponto"><input type="checkbox" id="p2d" data-q="2"> Apontou o risco de prescrição da associação pela duração do processo.</label>
+        </fieldset>
+        <span class="placar" id="s2">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+
+    <article class="q" id="q3" aria-labelledby="t-q3">
+      <div class="qhead"><span class="qnum">3 de 4</span><h3 id="t-q3">A alteração não deixou registro no banco de dados, e o notebook nunca foi periciado. De onde pode vir a prova da autoria, e o que se perde?</h3></div>
+      <label class="sr" for="r3">Sua resposta à questão 3</label>
+      <textarea id="r3" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c3">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b3" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g3" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>Dos registros de acesso do sistema da própria vítima, que mostraram o perfil de um réu nos boletos adulterados, da auditoria interna e do caminho do dinheiro nos bancos. São dados que não vencem como os de provedor de aplicação, porque estão com a vítima e com os bancos.</p>
+        <p>Perde-se a prova de quem operava pelo acesso remoto. A defesa fez da falta de perícia uma tese de cerceamento, que o acórdão rejeitou porque a autoria tinha outra prova. Quando o ataque é interno, a perícia cedo do equipamento e a preservação dos registros do sistema são o que o juiz pode deferir antes que a própria empresa os altere ou perca.</p>
+        <p class="base">Na base do TJSP, das 106 denúncias com canal pela internet, nenhuma narra dado de plataforma ou de conexão; o que sobrevive é o cadastro e o caminho do dinheiro.</p>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" id="p3a" data-q="3"> Apontou os registros de acesso do sistema da vítima.</label>
+          <label class="ponto"><input type="checkbox" id="p3b" data-q="3"> Mencionou a auditoria e o caminho bancário.</label>
+          <label class="ponto"><input type="checkbox" id="p3c" data-q="3"> Indicou a perícia do equipamento de acesso remoto.</label>
+          <label class="ponto"><input type="checkbox" id="p3d" data-q="3"> Explicou por que esses dados não vencem como os de provedor.</label>
+        </fieldset>
+        <span class="placar" id="s3">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+
+    <article class="q" id="q4" aria-labelledby="t-q4">
+      <div class="qhead"><span class="qnum">4 de 4</span><h3 id="t-q4">O que protegeu, ou pode proteger, a vítima neste caso?</h3></div>
+      <label class="sr" for="r4">Sua resposta à questão 4</label>
+      <textarea id="r4" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c4">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b4" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g4" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>O controle externo e as medidas assecuratórias. O banco devolveu sem pagar três títulos de um mesmo dia, e o sequestro de bens começou em 2017. Na sentença, o destino do que foi sequestrado é a restituição ao lesado: a perda em favor da União ressalva o direito dele, e só o que não lhe couber vai aos cofres públicos.</p>
+        <p>Desfecho. A sentença decretou o perdimento dos bens sequestrados em favor da empresa vítima, e o acórdão leu os três títulos barrados como tentativa, sem efeito na pena pela continuidade. A pena caiu de 16 anos e 8 meses para 11 anos em regime fechado: 2 anos com a prescrição da associação e 3 anos e 8 meses porque o acórdão refez as penas-base pelo critério de um oitavo do intervalo, à falta de fundamento concreto para frações maiores.</p>
+        <div class="lei">
+          <span><b>Art. 91, II, b, do CP.</b> É efeito da condenação "a perda em favor da União, ressalvado o direito do lesado ou de terceiro de boa-fé", do produto do crime ou do proveito auferido com ele.</span>
+          <span><b>Art. 133, §1º, do CPP.</b> Do dinheiro apurado com a venda dos bens cujo perdimento foi decretado, "será recolhido aos cofres públicos o que não couber ao lesado ou a terceiro de boa-fé".</span>
+        </div>
+        <p class="base">Na base do TJSP, a reparação foi omitida em 58 das 171 condenações. A âncora deste par é uma delas, com o valor bloqueado e sem destino na sentença.</p>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" id="p4a" data-q="4"> Indicou o controle do banco pagador e o sequestro de bens.</label>
+          <label class="ponto"><input type="checkbox" id="p4b" data-q="4"> Apontou a restituição ao lesado como destino do sequestrado.</label>
+          <label class="ponto"><input type="checkbox" id="p4c" data-q="4"> Notou a tentativa nos títulos não pagos.</label>
+          <label class="ponto"><input type="checkbox" id="p4d" data-q="4"> Explicou a redução da pena no segundo grau.</label>
+        </fieldset>
+        <span class="placar" id="s4">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+
+  </div>
+
+  <section class="sintese" id="sintese" aria-labelledby="t-sintese" aria-live="polite">
+    <h2 id="t-sintese">O que o par acrescenta à decisão</h2>
+    <p id="sintese-espera">A síntese aparece quando as quatro questões estiverem respondidas.</p>
+    <ul id="sintese-lista" hidden>
+      <li>A mesma leitura jurídica da âncora: quando o sistema é o instrumento e não há entrega voluntária, é furto mediante fraude, e a redação aplicável é a da data do fato.</li>
+      <li>No ataque interno, a prova está no sistema da própria vítima e no caminho do dinheiro, e o equipamento de acesso remoto precisa de perícia cedo.</li>
+      <li>Organização criminosa se testa pelos elementos da lei, e não por hierarquia; e o processo longo pode custar a condenação pelos crimes de pena baixa.</li>
+      <li>O sequestro feito cedo e o destino dado na sentença são o que separa a vítima deste caso da vítima da âncora.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Caso de uma ação penal do TJPA, com denúncia, sentença e, quando houve, acórdão lidos e anonimizados. Os números de comparação vêm da base de pesquisa do TJSP, de 198 denúncias e suas sentenças.</p>
+    <p>As respostas ficam só nesta página e se perdem ao recarregá-la.</p>
+  </footer>
+</main>
+
+<script>
+(function () {
+  var MIN = 40;
+  var QS = [1, 2, 3, 4];
+  var respondidas = {};
+  QS.forEach(function (q) { respondidas[q] = false; });
+
+  function el(id) { return document.getElementById(id); }
+
+  function atualizaProgresso() {
+    var n = QS.filter(function (q) { return respondidas[q]; }).length;
+    var chip = el("progresso");
+    chip.textContent = n + " de " + QS.length + " respondidas";
+    chip.classList.toggle("done", n === QS.length);
+    var aberta = n === QS.length;
+    el("sintese").classList.toggle("open", aberta);
+    el("sintese-lista").hidden = !aberta;
+    el("sintese-espera").hidden = aberta;
+  }
+
+  function atualizaPlacar(q) {
+    var caixas = document.querySelectorAll('input[data-q="' + q + '"]');
+    var marcados = Array.prototype.filter.call(caixas, function (c) { return c.checked; }).length;
+    el("s" + q).textContent = marcados + " de " + caixas.length + " pontos marcados";
+  }
+
+  QS.forEach(function (q) {
+    var campo = el("r" + q), botao = el("b" + q), conta = el("c" + q);
+    campo.addEventListener("input", function () {
+      var n = campo.value.trim().length;
+      conta.textContent = n + (n === 1 ? " caractere" : " caracteres") + " · mínimo de " + MIN;
+      botao.disabled = n < MIN;
+    });
+    botao.addEventListener("click", function () {
+      if (campo.value.trim().length < MIN) return;
+      campo.readOnly = true;
+      botao.disabled = true;
+      botao.textContent = "Resposta enviada";
+      el("g" + q).hidden = false;
+      el("q" + q).classList.add("answered");
+      respondidas[q] = true;
+      atualizaProgresso();
+    });
+    document.querySelectorAll('input[data-q="' + q + '"]').forEach(function (c) {
+      c.addEventListener("change", function () { atualizaPlacar(q); });
+    });
+  });
+
+  el("recomecar").addEventListener("click", function () {
+    QS.forEach(function (q) {
+      var campo = el("r" + q), botao = el("b" + q);
+      campo.value = "";
+      campo.readOnly = false;
+      botao.disabled = true;
+      botao.textContent = "Responder e ver o gabarito";
+      el("c" + q).textContent = "0 caracteres · mínimo de " + MIN;
+      el("g" + q).hidden = true;
+      el("q" + q).classList.remove("answered");
+      document.querySelectorAll('input[data-q="' + q + '"]').forEach(function (c) { c.checked = false; });
+      atualizaPlacar(q);
+      respondidas[q] = false;
+    });
+    atualizaProgresso();
+    el("r1").focus();
+  });
+})();
+</script>
+</body>
+</html>

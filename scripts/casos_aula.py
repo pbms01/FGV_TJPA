@@ -1,4 +1,4 @@
-"""Casos da aula: índice dos 16 casos do plano (e do par 9, do TJPA) e esqueleto de cada ficha.
+"""Casos da aula: índice dos 16 casos do plano (e dos pares do TJPA) e esqueleto de cada ficha.
 
 Uso, da raiz do repo:
     python3 scripts/casos_aula.py indice            # grava dados/aula/casos_aula.csv
@@ -35,10 +35,15 @@ PARES = [
 # designado pelo número curto (na extração descrita no Project, PA-FE 89 e PA-CL 95), e os metadados vêm da leitura (estrato pela conduta).
 PARES_TJPA = [
     (9, "TJPA 0800121", "TJPA 0815181", "1,3,5,7"),
+    # Par TJPA 3 (22/11/2026): os dois casos de maior técnica em que o processo chegou ao
+    # autor; designados pelo código da extração descrita no Project (PA-FE n).
+    (10, "PA-FE 24", "PA-FE 99", "1,2,3,4,6"),
 ]
 CASOS_TJPA = {
     "TJPA 0800121": ("0800121-52.2024.8.14.0401", "CL", "Belém (6ª Vara Criminal)"),
     "TJPA 0815181": ("0815181-65.2024.8.14.0401", "CL", "Belém (1ª Vara Criminal)"),
+    "PA-FE 24": ("0824890-27.2024.8.14.0401", "FE", "Belém (1ª Vara Criminal)"),
+    "PA-FE 99": ("0811772-81.2024.8.14.0401", "FE", "Belém (Vara de Combate ao Crime Organizado)"),
 }
 
 INDICE = "dados/aula/casos_aula.csv"
@@ -161,7 +166,7 @@ def indice():
     for ordem, ancora, contraste, qs in PARES_TJPA:
         for papel, caso in (("âncora", ancora), ("contraste", contraste)):
             n, estrato, comarca = CASOS_TJPA[caso]
-            ficha = os.path.join(FICHAS, caso.replace(" ", "_") + ".md")
+            ficha = os.path.join(FICHAS, caso.replace(" ", "_").replace("-", "_") + ".md")
             estado = "redigida" if os.path.exists(ficha) else "pendente"
             u = urls(n, "tjpa")
             linhas.append({
