@@ -2,6 +2,10 @@
 
 19/11/2026, revisto em 20/11/2026 · Pedro Mourão. Cópia do documento editável: https://claude.ai/artifact/Kw2iKide29wwxXsfJixi2q
 
+## Revisão de 22/11/2026: TJRJ e TJSC
+
+O mesmo desenho se estende ao TJRJ (fase 3, `docs/RUNBOOK_TJRJ.md`) e ao TJSC (fase 4, `docs/RUNBOOK_TJSC.md`). No TJSC a lista do DJEN tem 454 números de ação penal ou apelação, mas 320 só aparecem pelo edital de citação de réu em lugar incerto, e a fila os põe num grupo 3, lido por último e em ordem aleatória, para que a parada no meio deixe amostra desse estrato com peso conhecido. A busca no TJSC roda as frases também com entidades HTML, porque o inteiro teor vem codificado assim. Nenhum dos dois tribunais tem consulta pública de sentenças de 1º grau.
+
 ## Revisão de 21/11/2026: porta de entrada do TJPA
 
 O recorte TJPA volta como fase 2, com o desenho da fase 1. O universo não sai mais do DataJud por código: os números-alvo vêm da API pública do DJEN, por busca textual nas publicações, porque o TJPA não tem consulta de sentenças de 1º grau. A lista de 01/01/2020 a 20/11/2026 tem 299 números (225 de ação penal ou apelação criminal, 99 com sentença conhecida, 74 inquéritos) e cabe inteira, o que troca a amostra pelo censo. O DataJud fica como denominador e como teste de cobertura do DJEN. No Codex, a denúncia se localiza pelo tipo de documento ou pelo movimento de recebimento, porque a "Peça Inicial" do TJPA é o ofício do delegado ou o inquérito. Detalhes em `docs/RUNBOOK_TJPA.md`. O restante deste plano (livro de códigos, regra de seleção das peças, dado pessoal, riscos) continua valendo.

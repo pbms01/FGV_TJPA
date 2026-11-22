@@ -28,10 +28,12 @@ Estado em 21/11/2026: a coleta da fase 1 (TJSP) está encerrada para fins de an�
 | `docs/linhas-de-pesquisa.md` | Arquitetura das linhas de pesquisa em criminologia informática que o livro de códigos serve |
 | `docs/RUNBOOK.md` | Roteiro da coleta noturna do TJPA pelo DataJud (19 e 20/11/2026), substituído na porta de entrada pelo `RUNBOOK_TJPA.md` |
 | `docs/RUNBOOK_TJPA.md` | Fase 2: números-alvo pela API do DJEN (semântica da busca, consultas, vieses), localização da denúncia no Codex do TJPA, custo e pendências |
+| `docs/RUNBOOK_TJRJ.md` | Fase 3: TJRJ pelo DJEN (janela desde 11/2024) e pelo Codex (PJe, DCP e eJUD) |
+| `docs/RUNBOOK_TJSC.md` | Fase 4: TJSC pelo DJEN, com as frases também em entidades HTML; lista de 454 ações penais ou apelações e fila em três grupos, com o grupo dos réus citados por edital |
 | `scripts/djen_alvos.py` | Números-alvo pela API pública do DJEN: cinco rótulos de consulta por frase, união por id, filtro de classe, indicadores e consolidação por número, sem nomes de pessoas (só biblioteca padrão; roda no computador do usuário) |
-| `scripts/djen_navegador.js` | Mesmo coletor para rodar numa aba do comunica.pje.jus.br (via da sondagem de 21/11/2026) |
+| `scripts/djen_navegador.js` | Mesmo coletor para rodar numa aba do comunica.pje.jus.br (via da sondagem de 21/11/2026); `entidades: true` roda as frases também com entidades HTML (TJSC), e a janela que bate no teto de 10.000 se parte por data |
 | `scripts/testes/djen_fixture.json` | Fixture sintética da resposta do DJEN para testar o coletor (`--teste`) |
-| `dados/djen/` | Lista de alvos do TJPA (`alvos_djen_tjpa.csv`, 299 números) e totais por frase, rótulo e classe, com a série de controle de cobertura (`totais_tjpa.json`) |
+| `dados/djen/` | Listas de alvos do TJPA (`alvos_djen_tjpa.csv`, 299 números), do TJRJ e do TJSC (`alvos_djen_tjsc.csv`, 467 números, com os metadados de cada publicação em `publicacoes_tjsc.csv`) e totais por frase, rótulo e classe, com as séries de controle de cobertura (`totais_<trib>.json`) |
 | `docs/RUNBOOK_TJSP.md` | Fase 1: números-alvo pelo cjpg, localização da denúncia no Codex, gravação do texto lido, campos do corpus, achados do piloto |
 | `scripts/cjpg_alvos.py` | Números-alvo do TJSP pela Consulta de Julgados de 1º Grau: quatro consultas textuais, indicadores de precisão, consolidação por número (só biblioteca padrão) |
 | `scripts/cjpg_navegador.js` | Mesmo coletor para rodar numa aba do cjpg (via do piloto) |

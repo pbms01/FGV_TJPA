@@ -21,7 +21,8 @@
 // Uso (cada chamada deve voltar em menos de 45 s; a coleta roda em segundo plano):
 //   1. Colar este arquivo inteiro na aba do comunica.pje.jus.br.
 //   2. djen.iniciar({tribunal: 'TJPA', inicio: '2020-01-01', fim: '2026-11-20'})
-//      (opcional: so: ['FE','INV'], texto: true para guardar o inteiro teor na memória)
+//      (opcional: so: ['FE','INV'], texto: true para guardar o inteiro teor na memória,
+//       entidades: true para rodar também as frases com entidades HTML, como no TJSC)
 //   3. djen.estado()                 // acompanha: frase, página, publicações
 //   4. djen.totais()                 // totais por frase, por rótulo e por classe
 //   5. djen.csv()                    // uma linha por processo, sem nomes de pessoas
@@ -44,10 +45,13 @@ window.djen = (() => {
   const sleep = ms => new Promise(r => setTimeout(r, ms));
   const norm = s => (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
   const st = {status: 'parado', erro: null, frase: null, pagina: 0, par: null,
-              totais: {}, itens: new Map(), textos: new Map()};
+              totais: {}, itens: new Map(), textos: new Map(), janelas: []};
 
+  // Texto em HTML com entidades (TJSC): decodifica e tira as marcas antes dos indicadores.
+  const decodifica = s => { const d = document.createElement('textarea');
+    d.innerHTML = (s || '').replace(/<[^>]+>/g, ' '); return d.value; };
   const indicadores = (texto, tipoDoc) => {
-    const t = norm(texto), fim = t.slice(-4000);
+    const t = norm(st.par.entidades ? decodifica(texto) : texto), fim = t.slice(-4000);
     return {
       m_fraude_eletronica: /fraude eletronica/.test(t),
       m_171_2A: /171[^.;]{0,40}2[ºo°]?\s*-\s*a\b/.test(t),
@@ -61,13 +65,13 @@ window.djen = (() => {
     };
   };
 
-  const url = (frase, p) => API + '?texto=' + encodeURIComponent(frase) +
-    '&siglaTribunal=' + st.par.tribunal + '&dataDisponibilizacaoInicio=' + st.par.inicio +
-    '&dataDisponibilizacaoFim=' + st.par.fim + '&pagina=' + p + '&itensPorPagina=' + POR_PAGINA;
+  const url = (frase, p, ini, fim) => API + '?texto=' + encodeURIComponent(frase) +
+    '&siglaTribunal=' + st.par.tribunal + '&dataDisponibilizacaoInicio=' + (ini || st.par.inicio) +
+    '&dataDisponibilizacaoFim=' + (fim || st.par.fim) + '&pagina=' + p + '&itensPorPagina=' + POR_PAGINA;
 
-  async function pagina(frase, p) {
+  async function pagina(frase, p, ini, fim) {
     for (let k = 0; k < 3; k++) {
-      const r = await fetch(url(frase, p));
+      const r = await fetch(url(frase, p, ini, fim));
       if (r.status === 200) return r.json();
       if (r.status === 429 || r.status >= 500) { await sleep(30000 * (k + 1)); continue; }
       throw new Error('HTTP ' + r.status + ' em "' + frase + '", página ' + p);
@@ -92,22 +96,55 @@ window.djen = (() => {
     if (!x.frases.includes(frase)) x.frases.push(frase);
   }
 
+  // A contagem `count` satura em 10.000. Janela que bate no teto
+  // se parte ao meio por data, recursivamente; abaixo do teto o resultado é o mesmo
+  // da coleta em janela única (TJPA e TJRJ não mudam).
+  const TETO = 10000;
+  const dia = s => new Date(s + 'T12:00:00Z');
+  const iso = d => d.toISOString().slice(0, 10);
+
+  async function janela(rotulo, frase, ini, fim) {
+    const j1 = await pagina(frase, 1, ini, fim);
+    await sleep(PAUSA);
+    if (j1.count >= TETO && ini < fim) {
+      const meio = new Date((dia(ini).getTime() + dia(fim).getTime()) / 2);
+      const m = iso(meio), m1 = iso(new Date(meio.getTime() + 864e5));
+      st.janelas.push([frase, ini, fim, 'partida']);
+      return (await janela(rotulo, frase, ini, m)) + (await janela(rotulo, frase, m1, fim));
+    }
+    st.janelas.push([frase, ini, fim, j1.count]);
+    let p = 1, n = 0, j = j1;
+    while (true) {
+      const its = j.items || [];
+      its.forEach(it => registra(it, rotulo, frase));
+      n += its.length; st.pagina = p;
+      if (its.length < POR_PAGINA || n >= j.count) break;
+      p++;
+      j = await pagina(frase, p, ini, fim);
+      await sleep(PAUSA);
+    }
+    return j1.count;
+  }
+
+  // No TJSC (eproc) o inteiro teor vem em HTML com entidades nomeadas, e a busca do
+  // DJEN casa a cadeia crua: "fraude eletr&ocirc;nica" devolve 74 publicações em 2025,
+  // "fraude eletrônica", 30 (sondagem de 22/11/2026). Com entidades: true, cada frase
+  // acentuada roda também na forma com entidades, e a união continua pelo id; o
+  // rótulo é o mesmo. Sem a opção, TJPA e TJRJ se reproduzem como antes.
+  const ENT = {'á': 'aacute', 'à': 'agrave', 'â': 'acirc', 'ã': 'atilde', 'é': 'eacute',
+    'ê': 'ecirc', 'í': 'iacute', 'ó': 'oacute', 'ô': 'ocirc', 'õ': 'otilde', 'ú': 'uacute',
+    'ç': 'ccedil', '§': 'sect', 'º': 'ordm', 'ª': 'ordf'};
+  const entidades = f => f.replace(/[áàâãéêíóôõúç§ºª]/g, c => '&' + ENT[c] + ';');
+  const frasesDe = fs => st.par.entidades ?
+    fs.flatMap(f => entidades(f) === f ? [f] : [f, entidades(f)]) : fs;
+
   async function rodar() {
     for (const [rotulo, frases] of Object.entries(CONSULTAS)) {
       if (st.par.so && !st.par.so.includes(rotulo)) continue;
-      for (const frase of frases) {
+      for (const frase of frasesDe(frases)) {
         st.frase = frase;
-        let p = 1, n = 0;
-        while (true) {
-          const j = await pagina(frase, p);
-          if (p === 1) st.totais[frase] = {rotulo, publicacoes: j.count};
-          const its = j.items || [];
-          its.forEach(it => registra(it, rotulo, frase));
-          n += its.length; st.pagina = p;
-          await sleep(PAUSA);
-          if (its.length < POR_PAGINA || n >= j.count) break;
-          p++;
-        }
+        const n = await janela(rotulo, frase, st.par.inicio, st.par.fim);
+        st.totais[frase] = {rotulo, publicacoes: n};
       }
     }
     st.status = 'ok';
@@ -164,7 +201,7 @@ window.djen = (() => {
       const k = x.codigoClasse + ' ' + x.nomeClasse;
       porClasse[k] = porClasse[k] || new Set(); porClasse[k].add(x.numero);
     }
-    return {parametros: st.par, frases: st.totais, por_rotulo: rot,
+    return {parametros: st.par, frases: st.totais, janelas: st.janelas, por_rotulo: rot,
       publicacoes_distintas: st.itens.size,
       processos_por_classe: Object.fromEntries(Object.entries(porClasse).map(([k, s]) => [k, s.size])),
       alvos: {processos: ps.length, acao_penal: ps.filter(p => p.AP).length,
@@ -195,8 +232,8 @@ window.djen = (() => {
     CONSULTAS, CLASSES,
     iniciar: (par = {}) => {
       st.par = {tribunal: 'TJPA', inicio: '2020-01-01',
-                fim: new Date().toISOString().slice(0, 10), texto: false, so: null, ...par};
-      Object.assign(st, {status: 'rodando', erro: null, totais: {}, itens: new Map(), textos: new Map()});
+                fim: new Date().toISOString().slice(0, 10), texto: false, so: null, entidades: false, ...par};
+      Object.assign(st, {status: 'rodando', erro: null, totais: {}, itens: new Map(), textos: new Map(), janelas: []});
       rodar().catch(e => { st.status = 'erro'; st.erro = String(e); });
       return 'iniciado ' + st.par.tribunal + ' ' + st.par.inicio + ' a ' + st.par.fim;
     },

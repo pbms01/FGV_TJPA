@@ -1,0 +1,468 @@
+numero,acao_penal,apelacao,inquerito,flagrante,data_sentenca_djen,primeira_pub,ultima_pub,consultas,m_fraude_eletronica,m_171_2A,m_154A,m_laranja,n_pubs,n_pubs_sem_advogado,orgao_1g
+0305409-25.2017.8.24.0039,0,0,1,0,,2026-05-29,2026-05-29,FE,1,0,0,0,1,0,Vara Regional de Garantias da Comarca de Lages
+5000027-52.2025.8.24.0235,1,0,0,0,,2025-05-22,2025-05-22,FE+FE_amp,1,1,0,0,1,1,Vara Única da Comarca de Herval d Oeste
+5000039-57.2026.8.24.0065,1,0,0,0,,2026-05-25,2026-05-25,FE+FE_amp,1,1,0,0,1,1,Vara Única da Comarca de São José do Cedro
+5000041-07.2023.8.24.0235,1,0,0,0,,2023-09-11,2023-09-11,FE_amp,0,1,0,0,1,1,Vara Única da Comarca de Herval d Oeste
+5000041-55.2023.8.24.0025,1,0,0,0,,2025-07-03,2025-07-03,FE_amp,0,1,0,0,1,1,Vara Criminal da Comarca de Gaspar
+5000045-97.2026.8.24.0539,1,0,0,0,,2026-09-01,2026-09-01,FE_amp,0,1,0,0,1,0,1ª Vara Criminal da Comarca de Lages
+5000051-55.2026.8.24.0523,1,0,0,0,,2026-07-13,2026-07-13,FE_amp,0,1,0,0,1,1,3ª Vara Criminal da Comarca da Capital
+5000051-71.2026.8.24.0065,1,0,0,0,,2026-05-14,2026-05-14,FE,1,1,0,0,1,1,Vara Única da Comarca de São José do Cedro
+5000051-93.2024.8.24.0048,1,0,0,0,,2024-06-27,2024-06-27,FE_amp,0,1,0,0,1,1,2ª Vara da Comarca de Balneário Piçarras
+5000058-17.2025.8.24.0124,1,0,0,0,,2025-10-07,2025-10-07,FE_amp,0,1,0,0,1,1,Vara Única da Comarca de Itá
+5000058-21.2023.8.24.0016,1,0,0,0,2025-08-18,2025-08-18,2026-04-15,FE_amp,0,1,0,0,2,0,2ª Vara da Comarca de Capinzal
+5000063-44.2024.8.24.0554,0,0,1,0,,2025-09-09,2026-01-30,FE+FE_amp,1,1,0,0,2,0,Vara Única da Comarca de Ascurra
+5000068-32.2024.8.24.0048,1,0,0,0,,2024-06-27,2024-06-27,FE_amp,0,1,0,0,1,1,2ª Vara da Comarca de Balneário Piçarras
+5000078-82.2026.8.24.0088,1,0,0,0,,2026-10-27,2026-10-27,FE_amp,0,1,0,0,1,0,Vara Única da Comarca de Lebon Regis
+5000080-70.2026.8.24.0567,1,0,0,0,,2026-09-08,2026-10-14,FE_amp,0,1,0,0,3,0,Vara Única da Comarca de Itapiranga
+5000085-97.2025.8.24.0124,1,0,0,0,,2025-10-01,2026-05-13,FE_amp,0,1,0,0,2,0,Vara Única da Comarca de Itá
+5000111-05.2026.8.24.0175,1,0,0,0,,2026-06-16,2026-06-16,FE_amp,0,1,0,0,1,1,Vara Única da Comarca de Meleiro
+5000140-64.2024.8.24.0518,1,0,0,0,,2026-03-13,2026-03-13,FE_amp,0,1,0,0,1,1,1ª Vara Criminal da Comarca de Chapecó
+5000143-71.2024.8.24.0048,1,0,0,0,,2026-04-23,2026-04-23,FE_amp,0,1,0,0,1,0,2ª Vara da Comarca de Balneário Piçarras
+5000154-09.2024.8.24.0143,1,0,0,0,,2024-08-28,2024-08-28,FE_amp,0,1,0,0,1,1,Vara Única da Comarca de Rio do Campo
+5000160-40.2024.8.24.0523,1,0,0,0,2026-04-16,2026-04-16,2026-04-16,FE_amp,0,1,0,0,1,0,2ª Vara Criminal da Comarca da Capital
+5000161-25.2024.8.24.0523,1,0,0,0,,2024-10-16,2024-10-16,FE,1,0,0,0,1,0,2ª Vara Criminal da Comarca da Capital
+5000172-32.2025.8.24.0519,1,0,0,0,2026-11-16,2026-11-16,2026-11-16,FE_amp,0,1,0,0,1,0,Vara Criminal da Comarca de Xanxerê
+5000173-89.2025.8.24.0010,1,0,0,0,,2025-09-25,2025-09-25,FE_amp,0,1,0,0,1,0,Vara Criminal da Comarca de Braço do Norte
+5000175-92.2026.8.24.0505,1,0,0,0,,2026-02-02,2026-02-02,EE+FE+FE_amp,1,1,0,0,1,0,2ª Vara Criminal da Comarca de Balneário Camboriú
+5000219-90.2026.8.24.0027,1,0,0,0,,2026-05-11,2026-05-11,FE_amp,0,1,0,0,1,1,2ª Vara da Comarca de Ibirama
+5000227-20.2025.8.24.0539,1,0,0,0,,2025-03-05,2025-03-05,FE+FE_amp,1,1,0,0,1,1,1ª Vara Criminal da Comarca de Lages
+5000243-62.2026.8.24.0175,1,0,0,0,,2026-08-21,2026-08-21,FE_amp,0,1,0,0,1,1,Vara Única da Comarca de Meleiro
+5000248-55.2026.8.24.0508,1,0,0,0,,2026-08-21,2026-08-21,FE_amp,0,1,0,0,1,0,2ª Vara Criminal da Comarca de Blumenau
+5000253-18.2025.8.24.0539,1,0,0,0,2026-08-19,2025-09-30,2026-08-19,FE+FE_amp,1,1,0,0,2,1,3ª Vara Criminal da Comarca de Lages
+5000263-28.2026.8.24.0539,1,0,0,0,,2026-06-19,2026-06-19,FE_amp,0,1,0,0,1,1,3ª Vara Criminal da Comarca de Lages
+5000270-90.2024.8.24.0021,1,0,0,0,,2024-07-16,2024-07-16,FE+FE_amp,1,1,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5000273-23.2026.8.24.0523,1,0,0,0,,2026-06-12,2026-06-12,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5000301-25.2025.8.24.0523,1,0,0,0,2026-08-03,2025-05-28,2026-08-07,FE+FE_amp,1,1,0,0,18,0,3ª Vara Criminal da Comarca da Capital
+5000308-05.2026.8.24.0063,1,0,0,0,,2026-08-14,2026-08-14,FE,1,0,0,0,1,0,2ª Vara da Comarca de São Joaquim
+5000326-53.2026.8.24.0636,1,0,0,0,,2026-09-10,2026-09-10,FE_amp,0,1,0,0,1,1,Vara Criminal da Comarca de Guaramirim
+5000355-78.2023.8.24.0064,1,0,0,0,,2024-01-22,2024-01-22,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca de São José
+5000367-64.2023.8.24.0235,1,0,0,0,,2023-04-28,2023-04-28,FE_amp,0,1,0,0,1,1,Vara Única da Comarca de Herval d Oeste
+5000405-80.2026.8.24.0523,1,0,0,0,,2026-09-16,2026-09-16,FE+FE_amp,1,1,0,0,1,0,2ª Vara Criminal da Comarca da Capital
+5000429-79.2024.8.24.0038,1,0,0,0,,2024-04-03,2024-04-03,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca de Joinville
+5000472-06.2026.8.24.0051,1,0,0,0,,2026-09-10,2026-09-10,FE_amp,0,1,0,0,1,1,Vara Única da Comarca de Ponte Serrada
+5000475-93.2023.8.24.0235,1,0,0,0,,2024-01-24,2024-01-24,FE_amp,0,1,0,0,1,1,Vara Única da Comarca de Herval d Oeste
+5000489-97.2025.8.24.0141,1,0,0,0,,2025-05-23,2025-05-23,FE_amp,0,1,0,0,1,1,Vara Única da Comarca de Presidente Getúlio
+5000510-95.2025.8.24.0554,1,0,0,0,,2026-02-13,2026-02-13,FE_amp,0,1,0,0,1,1,2ª Vara da Comarca de Ituporanga
+5000529-45.2026.8.24.0044,1,0,0,0,,2026-08-19,2026-08-19,FE_amp,0,1,0,0,1,1,2ª Vara da Comarca de Orleans
+5000546-23.2026.8.24.0031,1,0,0,0,,2026-06-24,2026-06-24,FE_amp,0,1,0,0,1,1,Vara Criminal da Comarca de Indaial
+5000547-07.2025.8.24.0075,1,0,0,0,,2025-07-07,2026-05-18,FE_amp,0,1,0,0,2,0,2ª Vara Criminal da Comarca de Tubarão
+5000549-29.2025.8.24.0575,1,0,0,0,2026-11-12,2026-09-18,2026-11-12,FE_amp,0,1,0,0,2,0,Vara Criminal da Comarca de Tubarão
+5000550-59.2025.8.24.0075,1,0,0,0,,2026-05-11,2026-05-11,FE_amp,0,1,0,0,1,0,2ª Vara Criminal da Comarca de Tubarão
+5000552-29.2024.8.24.0539,1,0,0,0,,2025-06-24,2025-06-24,FE,1,0,0,0,1,0,2ª Vara Criminal da Comarca de Lages
+5000556-33.2026.8.24.0010,1,0,0,0,,2026-07-09,2026-07-09,FE+FE_amp,1,1,0,0,1,1,Vara Criminal da Comarca de Braço do Norte
+5000577-56.2025.8.24.0523,0,0,1,0,,2026-06-01,2026-06-01,FE,1,0,0,0,1,0,Vara Regional de Garantias da Comarca da Capital
+5000580-78.2024.8.24.0512,1,0,0,0,,2025-02-17,2025-02-17,FE+FE_amp,1,1,0,0,1,1,Vara Única da Comarca de Herval d Oeste
+5000587-21.2026.8.24.0538,1,0,0,0,,2026-06-05,2026-06-05,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca de Joinville
+5000609-92.2024.8.24.0039,1,0,0,0,,2024-03-27,2024-03-27,FE+FE_amp,1,1,0,0,1,1,3ª Vara Criminal da Comarca de Lages
+5000610-46.2025.8.24.0523,1,0,0,0,,2025-02-24,2025-02-24,FE_amp,0,1,0,0,1,1,1ª Vara Criminal da Comarca da Capital
+5000633-26.2024.8.24.0523,1,0,0,0,,2025-11-17,2025-11-17,FE_amp,0,1,0,0,1,0,1ª Vara Criminal da Comarca da Capital
+5000655-50.2025.8.24.0523,1,0,0,0,,2025-02-13,2025-02-13,FE_amp,0,1,0,0,1,1,3ª Vara Criminal da Comarca da Capital
+5000675-52.2025.8.24.0002,1,0,0,0,,2026-11-11,2026-11-11,FE_amp,0,1,0,0,1,1,Vara Única da Comarca de Anchieta
+5000695-70.2024.8.24.0554,1,0,0,0,,2024-09-17,2024-09-17,FE_amp,0,1,0,0,1,1,2ª Vara da Comarca de Trombudo Central
+5000703-43.2024.8.24.0523,1,0,0,0,,2024-10-16,2024-10-16,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5000726-67.2026.8.24.0539,1,0,0,0,,2026-07-30,2026-07-30,FE+FE_amp,1,1,0,0,1,0,1ª Vara Criminal da Comarca de Lages
+5000730-93.2024.8.24.0533,1,0,0,0,,2025-05-16,2025-05-16,FE_amp,0,1,0,0,1,1,2ª Vara da Comarca de Balneário Piçarras
+5000782-16.2026.8.24.0567,1,0,0,0,,2026-08-27,2026-08-27,FE_amp,0,1,0,0,1,1,Vara Única da Comarca de Itapiranga
+5000786-62.2026.8.24.0564,1,0,0,0,,2026-05-19,2026-06-19,FE_amp,0,1,0,0,2,0,1ª Vara Criminal da Comarca de Palhoça
+5000789-14.2024.8.24.0523,1,0,0,0,,2024-07-30,2024-07-30,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5000797-54.2025.8.24.0523,1,0,0,0,,2025-07-03,2025-07-03,FE_amp,0,1,0,0,1,1,3ª Vara Criminal da Comarca da Capital
+5000801-09.2025.8.24.0518,1,0,0,0,,2025-08-27,2025-08-27,FE_amp,0,1,0,0,1,1,1ª Vara Criminal da Comarca de Chapecó
+5000837-67.2024.8.24.0039,1,0,0,0,,2024-06-18,2024-06-18,FE+FE_amp,1,1,0,0,1,1,3ª Vara Criminal da Comarca de Lages
+5000850-98.2026.8.24.0523,1,0,0,0,,2026-04-29,2026-04-29,FE_amp,0,1,0,0,1,1,1ª Vara Criminal da Comarca da Capital
+5000853-87.2025.8.24.0523,1,0,0,0,2026-01-21,2026-01-21,2026-01-21,FE_amp,0,1,0,0,1,0,2ª Vara Criminal da Comarca da Capital
+5000871-42.2024.8.24.0039,1,0,0,0,,2024-07-01,2024-07-01,FE+FE_amp,1,1,0,0,1,1,3ª Vara Criminal da Comarca de Lages
+5000902-49.2026.8.24.0538,1,0,0,0,,2026-10-20,2026-10-20,FE_amp,0,1,0,0,1,1,Juizado de Viol. Dom. e Fam. c. a Mulher e Crimes c. a Criança e o Adolesc. da Comarca de Joinville
+5000936-89.2024.8.24.0539,1,0,0,0,,2026-03-10,2026-03-10,FE_amp,0,1,0,0,1,0,Vara Única da Comarca de Correia Pinto
+5000938-91.2026.8.24.0538,1,0,0,0,,2026-05-06,2026-09-21,FE_amp,0,1,0,0,8,4,2ª Vara Criminal da Comarca de Joinville
+5001009-75.2025.8.24.0523,1,0,0,0,,2025-04-01,2025-05-22,FE_amp,0,1,0,0,2,1,3ª Vara Criminal da Comarca da Capital
+5001033-44.2025.8.24.0575,1,0,0,0,,2026-02-19,2026-02-19,FE_amp,0,1,0,0,1,0,Vara Criminal da Comarca de Braço do Norte
+5001053-28.2024.8.24.0039,1,0,0,0,,2025-04-03,2025-04-03,FE+FE_amp,1,1,0,0,1,1,3ª Vara Criminal da Comarca de Lages
+5001059-19.2026.8.24.0539,1,0,0,0,,2026-04-16,2026-04-16,FE+FE_amp,1,1,0,0,1,1,1ª Vara Criminal da Comarca de Lages
+5001060-04.2026.8.24.0539,1,0,0,0,,2026-08-06,2026-08-06,FE+FE_amp,1,1,0,0,1,0,3ª Vara Criminal da Comarca de Lages
+5001074-15.2024.8.24.0003,1,0,0,0,,2024-12-17,2024-12-17,FE_amp,0,1,0,0,1,1,Vara Única da Comarca de Anita Garibaldi
+5001078-93.2025.8.24.0075,1,0,0,0,,2026-07-02,2026-07-02,FE_amp,0,1,0,0,1,0,2ª Vara Criminal da Comarca de Tubarão
+5001087-94.2024.8.24.0235,1,0,0,0,,2026-06-25,2026-06-25,FE_amp,0,1,0,0,1,0,Vara Única da Comarca de Herval d Oeste
+5001129-52.2024.8.24.0039,1,0,0,0,2026-08-17,2026-08-17,2026-08-17,FE_amp,0,1,0,0,1,0,3ª Vara Criminal da Comarca de Lages
+5001136-96.2024.8.24.0539,1,0,0,0,,2025-12-03,2025-12-03,FE+FE_amp,1,1,0,0,1,1,2ª Vara Criminal da Comarca de Lages
+5001168-81.2026.8.24.0523,1,0,0,0,,2026-08-10,2026-08-10,FE_amp,0,1,0,0,1,1,3ª Vara Criminal da Comarca da Capital
+5001176-91.2026.8.24.0512,1,0,0,0,,2026-07-03,2026-08-20,FE_amp,0,1,0,0,2,0,Vara Única da Comarca de Herval d Oeste
+5001182-61.2023.8.24.0235,1,0,0,0,,2023-11-06,2024-05-24,FE_amp,0,1,0,0,2,2,Vara Única da Comarca de Herval d Oeste
+5001184-31.2024.8.24.0159,1,0,0,0,,2026-02-02,2026-02-02,FE_amp,0,1,0,0,1,1,Vara Única da Comarca de Armazém
+5001190-22.2023.8.24.0014,1,0,0,0,,2023-12-14,2023-12-14,FE_amp,0,1,0,0,1,1,Vara Criminal da Comarca de Campos Novos
+5001209-15.2024.8.24.0104,1,0,0,0,,2026-06-12,2026-06-12,FE_amp,0,1,0,0,1,1,Vara Única da Comarca de Ascurra
+5001209-83.2025.8.24.0167,1,0,0,0,,2025-05-29,2025-05-29,FE_amp,0,1,0,0,1,1,Vara Única da Comarca de Garopaba
+5001219-41.2025.8.24.0519,1,0,0,0,,2026-09-30,2026-09-30,FE_amp,0,1,0,0,1,1,Vara Única da Comarca de Ponte Serrada
+5001228-84.2024.8.24.0083,1,0,0,0,,2025-02-05,2025-03-21,FE_amp,0,1,0,0,2,0,Vara Única da Comarca de Correia Pinto
+5001232-75.2026.8.24.0011,1,0,0,0,,2026-07-02,2026-07-02,FE_amp,0,1,0,0,1,1,Vara Criminal da Comarca de Brusque
+5001240-52.2025.8.24.0087,0,1,0,0,,2026-09-01,2026-09-01,FE+FE_amp,1,1,0,0,1,0,
+5001258-60.2024.8.24.0523,1,0,0,0,,2024-08-29,2024-08-29,FE,1,1,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5001260-27.2024.8.24.0039,1,0,0,0,,2024-05-22,2024-05-22,FE+FE_amp,1,1,0,0,1,1,3ª Vara Criminal da Comarca de Lages
+5001262-15.2025.8.24.0539,1,0,0,0,,2026-01-21,2026-01-21,FE,1,1,0,0,1,1,3ª Vara Criminal da Comarca de Lages
+5001264-92.2024.8.24.0159,1,0,0,0,,2025-05-23,2026-10-27,FE+FE_amp,1,1,0,0,2,1,Vara Única da Comarca de Armazém
+5001275-73.2026.8.24.0508,1,0,0,0,,2026-10-21,2026-10-21,FE_amp,0,1,0,0,1,0,1ª Vara Criminal da Comarca de Blumenau
+5001276-69.2025.8.24.0063,1,0,0,0,,2025-09-05,2025-09-05,FE_amp,0,1,0,0,2,2,2ª Vara da Comarca de São Joaquim
+5001277-47.2026.8.24.0539,1,0,0,0,,2026-08-06,2026-10-01,EE+FE_amp,0,1,0,0,2,0,1ª Vara Criminal da Comarca de Lages
+5001277-70.2025.8.24.0575,1,0,0,0,,2025-11-26,2026-02-27,FE_amp,0,1,0,0,2,2,2ª Vara Criminal da Comarca de Tubarão
+5001279-40.2025.8.24.0575,1,0,0,0,,2026-05-12,2026-05-12,FE_amp,0,1,0,0,1,1,1ª Vara Criminal da Comarca de Tubarão
+5001280-21.2024.8.24.0523,1,0,0,0,,2024-11-07,2024-11-07,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5001281-10.2025.8.24.0575,1,0,0,0,,2026-05-21,2026-05-21,FE_amp,0,1,0,0,1,0,2ª Vara Criminal da Comarca de Tubarão
+5001285-24.2026.8.24.0539,1,0,0,0,,2026-08-19,2026-08-19,FE_amp,0,1,0,0,1,0,1ª Vara Criminal da Comarca de Lages
+5001297-38.2026.8.24.0539,1,0,0,0,,2026-07-30,2026-07-30,FE+FE_amp,1,1,0,0,1,0,1ª Vara Criminal da Comarca de Lages
+5001301-98.2025.8.24.0575,1,0,0,0,2026-07-13,2026-07-13,2026-07-13,FE+FE_amp,1,1,0,0,1,0,1ª Vara Criminal da Comarca de Tubarão
+5001339-76.2026.8.24.0575,1,0,0,0,,2026-08-10,2026-08-10,FE_amp,0,1,0,0,1,1,Vara Única da Comarca de Capivari de Baixo
+5001340-43.2024.8.24.0539,1,0,0,0,,2025-02-06,2025-02-06,FE_amp,0,1,0,0,1,0,Vara Criminal da Comarca de Curitibanos
+5001404-33.2026.8.24.0523,1,0,0,0,,2026-05-08,2026-06-09,FE_amp,0,1,0,0,2,2,2ª Vara Criminal da Comarca da Capital
+5001444-64.2026.8.24.0539,1,0,0,0,,2026-10-27,2026-10-27,FE_amp,0,1,0,0,2,2,3ª Vara Criminal da Comarca de Lages
+5001461-60.2025.8.24.0014,1,0,0,0,,2025-12-15,2025-12-15,FE_amp,0,1,0,0,1,1,Vara Criminal da Comarca de Campos Novos
+5001466-28.2026.8.24.0538,1,0,0,0,2026-11-18,2026-04-15,2026-11-18,EE+FE+FE_amp,1,1,0,1,6,0,2ª Vara Criminal da Comarca de Joinville
+5001503-37.2025.8.24.0523,1,0,0,0,,2025-06-30,2025-06-30,FE+FE_amp,1,1,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5001510-47.2026.8.24.0538,1,0,0,0,,2026-08-12,2026-10-20,FE_amp,0,1,0,0,3,0,2ª Vara Criminal da Comarca de Joinville
+5001523-91.2026.8.24.0523,1,0,0,0,,2026-09-22,2026-09-22,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5001535-91.2025.8.24.0539,1,0,0,0,,2026-01-26,2026-01-26,FE_amp,0,1,0,0,1,0,3ª Vara Criminal da Comarca de Lages
+5001540-50.2024.8.24.0539,1,0,0,0,,2025-12-11,2025-12-11,FE+FE_amp,1,0,0,0,1,1,3ª Vara Criminal da Comarca de Lages
+5001541-16.2025.8.24.0049,1,0,0,0,,2026-07-15,2026-07-15,FE_amp,0,1,0,0,1,0,2ª Vara da Comarca de Pinhalzinho
+5001569-55.2025.8.24.0575,1,0,0,0,,2026-08-10,2026-08-10,FE_amp,0,1,0,0,1,1,Vara Única da Comarca de Capivari de Baixo
+5001570-40.2025.8.24.0575,1,0,0,0,,2026-07-16,2026-07-16,FE_amp,0,1,0,0,1,1,Vara Única da Comarca de Capivari de Baixo
+5001602-15.2024.8.24.0079,1,0,0,0,,2025-01-21,2025-01-21,FE_amp,0,1,0,0,1,1,Vara Criminal da Comarca de Videira
+5001612-84.2026.8.24.0533,1,0,0,0,,2026-05-25,2026-05-25,FE_amp,0,1,0,0,1,1,2ª Vara da Comarca de Balneário Piçarras
+5001639-38.2024.8.24.0533,1,0,0,0,,2025-07-09,2025-07-09,FE_amp,0,1,0,0,1,1,Vara Criminal da Comarca de Brusque
+5001656-18.2025.8.24.0508,1,0,0,0,,2025-07-24,2025-07-24,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca de Blumenau
+5001671-47.2026.8.24.0024,1,0,0,0,,2026-07-20,2026-07-20,FE_amp,0,1,0,0,1,1,2ª Vara da Comarca de Fraiburgo
+5001678-46.2025.8.24.0518,1,0,0,0,,2025-07-18,2025-07-18,FE_amp,0,1,0,0,1,0,2ª Vara Criminal da Comarca de Chapecó
+5001687-11.2026.8.24.0538,1,0,0,0,2026-11-03,2026-11-03,2026-11-03,FE_amp,0,1,0,0,1,0,2ª Vara Criminal da Comarca de Joinville
+5001687-81.2024.8.24.0505,1,0,0,0,,2024-12-09,2024-12-09,FE_amp,0,1,0,0,1,1,2ª Vara da Comarca de Porto Belo
+5001709-60.2024.8.24.0014,1,0,0,0,,2025-01-21,2025-03-21,FE_amp,0,1,0,0,2,2,Vara Criminal da Comarca de Campos Novos
+5001711-67.2026.8.24.0076,1,0,0,0,,2026-08-05,2026-08-05,FE,1,0,0,0,1,1,Vara Única da Comarca de Turvo
+5001722-84.2024.8.24.0523,1,0,0,0,,2024-10-25,2025-01-29,FE_amp,0,1,0,0,2,2,3ª Vara Criminal da Comarca da Capital
+5001751-11.2024.8.24.0079,1,0,0,0,,2024-10-24,2024-10-24,FE_amp,0,1,0,0,1,1,Vara Criminal da Comarca de Videira
+5001759-59.2024.8.24.0508,1,0,0,0,,2026-01-21,2026-01-21,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca de Blumenau
+5001766-35.2026.8.24.0523,1,0,0,0,,2026-04-23,2026-07-10,EE+FE+FE_amp,1,1,0,0,2,0,1ª Vara Criminal da Comarca da Capital
+5001766-44.2026.8.24.0520,1,0,0,0,,2026-07-07,2026-07-07,FE_amp,0,1,0,0,1,1,1ª Vara Criminal da Comarca de Criciúma
+5001786-60.2025.8.24.0523,1,0,0,0,,2025-04-01,2025-04-01,FE_amp,0,1,0,0,1,0,2ª Vara Criminal da Comarca da Capital
+5001795-85.2026.8.24.0523,1,0,0,0,,2026-06-22,2026-06-22,FE_amp,0,1,0,0,1,1,1ª Vara Criminal da Comarca da Capital
+5001809-89.2024.8.24.0539,1,0,0,0,,2025-02-05,2025-02-05,FE_amp,0,1,0,0,1,1,Vara Única da Comarca de Correia Pinto
+5001814-28.2025.8.24.0523,1,0,0,0,,2025-07-07,2025-07-07,FE+FE_amp,1,1,0,0,1,0,2ª Vara Criminal da Comarca da Capital
+5001815-13.2025.8.24.0523,1,0,0,0,,2025-10-22,2026-02-20,FE_amp,0,1,0,0,2,0,3ª Vara Criminal da Comarca da Capital
+5001824-38.2026.8.24.0523,1,0,0,0,,2026-03-27,2026-03-27,FE_amp,0,1,0,0,1,1,1ª Vara Criminal da Comarca da Capital
+5001832-87.2023.8.24.0048,1,0,0,0,,2023-08-04,2023-08-04,FE_amp,0,1,0,0,1,1,2ª Vara da Comarca de Balneário Piçarras
+5001832-87.2025.8.24.0575,1,0,0,0,,2026-07-16,2026-07-16,FE_amp,0,1,0,0,1,1,Vara Única da Comarca de Capivari de Baixo
+5001897-10.2026.8.24.0523,1,0,0,0,,2026-07-14,2026-07-14,FE_amp,0,1,0,0,1,0,2ª Vara Criminal da Comarca da Capital
+5001899-48.2024.8.24.0523,1,0,0,0,,2024-09-26,2024-09-26,FE+FE_amp,1,1,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5001910-77.2024.8.24.0523,1,0,0,0,,2025-07-08,2025-09-19,FE_amp,0,1,0,0,4,0,3ª Vara Criminal da Comarca da Capital
+5001920-52.2025.8.24.0567,1,0,0,0,,2026-01-21,2026-05-28,FE_amp,0,1,0,0,4,4,Vara Única da Comarca de Itapiranga
+5001940-91.2025.8.24.0163,1,0,0,0,,2026-08-10,2026-08-10,FE_amp,0,1,0,0,1,1,Vara Única da Comarca de Capivari de Baixo
+5001946-89.2024.8.24.0533,0,1,0,0,,2025-10-08,2025-10-08,FE+FE_amp,1,1,0,0,1,0,
+5001947-36.2026.8.24.0523,1,0,0,0,,2026-05-05,2026-05-05,FE_amp,0,1,0,0,1,1,1ª Vara Criminal da Comarca da Capital
+5001967-92.2024.8.24.0039,1,0,0,0,,2024-05-22,2024-05-22,FE+FE_amp,1,1,0,0,1,1,3ª Vara Criminal da Comarca de Lages
+5001986-22.2025.8.24.0538,1,0,0,0,,2026-04-20,2026-04-20,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca de Joinville
+5001989-56.2024.8.24.0523,1,0,0,0,,2024-11-28,2024-11-28,FE_amp,0,1,0,0,1,1,1ª Vara Criminal da Comarca da Capital
+5002043-06.2026.8.24.0538,1,0,0,0,,2026-06-11,2026-09-10,FE_amp,0,1,0,0,2,0,2ª Vara Criminal da Comarca de Joinville
+5002044-47.2022.8.24.0015,1,0,0,0,,2022-05-12,2022-05-12,FE_amp,0,1,0,0,1,1,Vara Criminal da Comarca de Canoinhas
+5002046-40.2025.8.24.0523,1,0,0,0,,2025-07-28,2025-07-28,FE,1,0,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5002079-16.2024.8.24.0539,1,0,0,0,,2025-05-23,2025-05-23,FE+FE_amp,1,1,0,0,1,1,1ª Vara Criminal da Comarca de Lages
+5002109-40.2025.8.24.0014,1,0,0,0,2026-09-22,2026-09-22,2026-09-22,FE_amp,0,1,0,0,1,1,Vara Criminal da Comarca de Campos Novos
+5002120-60.2026.8.24.0523,1,0,0,0,,2026-07-06,2026-08-25,FE+FE_amp,1,1,0,0,2,1,2ª Vara Criminal da Comarca da Capital
+5002139-86.2024.8.24.0539,1,0,0,0,,2025-04-10,2025-04-10,FE+FE_amp,1,1,0,0,1,1,3ª Vara Criminal da Comarca de Lages
+5002141-18.2025.8.24.0508,1,0,0,0,,2025-10-16,2025-10-16,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca de Blumenau
+5002156-77.2025.8.24.0575,1,0,0,0,,2026-03-16,2026-03-16,FE_amp,0,1,0,0,1,1,Vara Única da Comarca de Capivari de Baixo
+5002176-30.2025.8.24.0523,1,0,0,0,,2025-08-04,2025-08-25,FE_amp,0,1,0,0,3,3,2ª Vara Criminal da Comarca da Capital
+5002213-18.2022.8.24.0085,1,0,0,0,,2023-04-14,2023-04-14,FE_amp,0,1,0,0,1,1,Vara Única da Comarca de Coronel Freitas
+5002249-40.2025.8.24.0575,1,0,0,0,,2025-12-19,2026-01-16,FE_amp,0,1,0,0,2,0,Vara Criminal da Comarca de Braço do Norte
+5002266-87.2025.8.24.0539,1,0,0,0,,2025-12-11,2025-12-11,FE+FE_amp,1,1,0,0,1,1,3ª Vara Criminal da Comarca de Lages
+5002298-77.2024.8.24.0523,1,0,0,0,,2024-11-21,2025-08-13,FE_amp,0,1,0,0,5,1,3ª Vara Criminal da Comarca da Capital
+5002327-59.2026.8.24.0523,1,0,0,0,,2026-04-16,2026-04-16,FE+FE_amp,1,1,0,0,1,0,2ª Vara Criminal da Comarca da Capital
+5002348-21.2025.8.24.0539,1,0,0,0,,2026-02-11,2026-09-16,EE+FE_amp,0,1,0,0,3,1,1ª Vara Criminal da Comarca de Lages
+5002351-96.2026.8.24.0520,1,0,0,0,,2026-08-13,2026-08-13,FE+FE_amp,1,1,0,0,1,1,1ª Vara Criminal da Comarca de Criciúma
+5002358-68.2025.8.24.0538,0,1,0,0,,2026-06-24,2026-06-24,FE,1,0,0,0,1,0,
+5002367-92.2024.8.24.0076,1,0,0,0,,2025-05-08,2025-05-08,FE,1,1,0,0,1,0,Vara Única da Comarca de Turvo
+5002372-47.2024.8.24.0066,1,0,0,0,,2025-05-26,2025-06-03,FE,1,0,0,0,4,4,Vara Única da Comarca de São Lourenço do Oeste
+5002392-62.2025.8.24.0564,1,0,0,0,,2026-06-26,2026-07-02,FE_amp,0,1,0,0,2,0,2ª Vara Criminal da Comarca de São José
+5002414-49.2025.8.24.0523,1,0,0,0,,2025-05-22,2025-11-24,FE_amp,0,1,0,0,13,0,3ª Vara Criminal da Comarca da Capital
+5002419-71.2025.8.24.0523,1,0,0,0,,2025-07-10,2025-07-10,FE_amp,0,1,0,0,1,1,3ª Vara Criminal da Comarca da Capital
+5002420-76.2024.8.24.0075,1,0,0,0,,2024-07-01,2024-07-01,FE_amp,0,1,0,0,1,1,1ª Vara Criminal da Comarca de Tubarão
+5002443-36.2024.8.24.0523,1,0,0,0,,2024-10-10,2026-07-22,FE+FE_amp,1,1,0,0,5,1,1ª Vara Criminal da Comarca da Capital
+5002486-69.2026.8.24.0533,1,0,0,0,,2026-06-18,2026-06-18,FE,1,0,0,0,1,1,1ª Vara Criminal da Comarca de Itajaí
+5002492-95.2025.8.24.0538,0,0,1,0,,2026-06-03,2026-06-03,FE,1,0,0,0,1,0,Vara Regional de Garantias da Comarca de Joinville
+5002515-86.2025.8.24.0523,1,0,0,0,,2026-08-18,2026-08-18,FE,1,1,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5002587-73.2025.8.24.0523,1,0,0,0,,2025-08-15,2025-08-15,FE_amp,0,1,0,0,1,0,2ª Vara Criminal da Comarca da Capital
+5002611-40.2024.8.24.0005,1,0,0,0,,2024-07-03,2024-07-03,FE,1,0,0,0,1,1,2ª Vara Criminal da Comarca de Balneário Camboriú
+5002613-45.2023.8.24.0037,0,1,0,0,,2026-09-01,2026-09-01,FE+FE_amp,1,1,0,0,1,0,
+5002624-62.2023.8.24.0235,1,0,0,0,2025-07-15,2025-07-15,2025-07-15,FE+FE_amp,1,1,0,0,1,0,Vara Única da Comarca de Herval d Oeste
+5002634-81.2024.8.24.0523,1,0,0,0,,2024-10-23,2025-11-03,FE_amp,0,1,0,0,2,1,3ª Vara Criminal da Comarca da Capital
+5002636-07.2023.8.24.0064,1,0,0,0,,2023-09-04,2023-09-04,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca de São José
+5002638-68.2022.8.24.0045,1,0,0,0,2025-08-01,2025-08-01,2025-08-01,FE_amp,0,1,0,0,1,0,1ª Vara Criminal da Comarca de Palhoça
+5002655-23.2025.8.24.0523,1,0,0,0,,2025-10-31,2025-10-31,FE_amp,0,1,0,0,1,1,3ª Vara Criminal da Comarca da Capital
+5002657-32.2025.8.24.0025,1,0,0,0,,2026-09-25,2026-09-25,FE_amp,0,1,0,0,1,0,Vara Criminal da Comarca de Gaspar
+5002658-41.2026.8.24.0523,1,0,0,0,,2026-11-05,2026-11-05,FE_amp,0,1,0,0,1,0,3ª Vara Criminal da Comarca da Capital
+5002688-47.2024.8.24.0523,1,0,0,0,,2026-01-26,2026-01-26,FE_amp,0,1,0,0,1,0,3ª Vara Criminal da Comarca da Capital
+5002694-83.2026.8.24.0523,0,0,1,0,,2026-05-04,2026-05-04,FE_amp,0,1,0,0,1,0,Vara Regional de Garantias da Comarca da Capital
+5002702-41.2025.8.24.0282,1,0,0,0,,2026-08-14,2026-08-14,FE+FE_amp,1,1,0,0,1,1,2ª Vara da Comarca de Jaguaruna
+5002715-46.2026.8.24.0010,1,0,0,0,,2026-05-20,2026-05-20,FE+FE_amp,1,1,0,0,1,1,Vara Criminal da Comarca de Braço do Norte
+5002724-70.2026.8.24.0539,1,0,0,0,,2026-10-08,2026-10-08,FE_amp,0,1,0,0,1,1,1ª Vara Criminal da Comarca de Lages
+5002733-55.2023.8.24.0048,1,0,0,0,,2023-08-04,2023-08-04,FE_amp,0,1,0,0,1,1,2ª Vara da Comarca de Balneário Piçarras
+5002759-49.2024.8.24.0523,1,0,0,0,,2025-01-21,2025-01-21,FE_amp,0,1,0,0,1,1,3ª Vara Criminal da Comarca da Capital
+5002777-85.2025.8.24.0539,1,0,0,0,,2025-11-04,2025-11-04,FE+FE_amp,1,1,0,0,1,1,3ª Vara Criminal da Comarca de Lages
+5002780-54.2026.8.24.0523,1,0,0,0,2026-11-18,2026-05-04,2026-11-18,FE+FE_amp,1,1,0,0,6,0,3ª Vara Criminal da Comarca da Capital
+5002803-34.2025.8.24.0523,1,0,0,0,,2025-09-10,2025-09-10,FE+FE_amp,1,1,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5002831-40.2025.8.24.0575,1,0,0,0,,2026-09-09,2026-09-09,FE_amp,0,1,0,0,1,1,Vara Única da Comarca de Capivari de Baixo
+5002881-50.2025.8.24.0063,1,0,0,0,,2026-09-09,2026-09-09,FE,1,0,0,0,1,0,2ª Vara da Comarca de São Joaquim
+5002913-96.2026.8.24.0523,1,0,0,0,,2026-06-09,2026-06-09,FE+FE_amp,1,1,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5002925-57.2022.8.24.0004,1,0,0,0,,2023-01-17,2023-01-17,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca de Araranguá
+5002933-11.2026.8.24.0031,1,0,0,0,,2026-07-01,2026-07-01,FE_amp,0,1,0,0,1,0,Vara Criminal da Comarca de Indaial
+5002942-49.2026.8.24.0523,1,0,0,0,,2026-07-31,2026-07-31,FE_amp,0,1,0,0,1,0,1ª Vara Criminal da Comarca da Capital
+5002951-88.2025.8.24.0541,1,0,0,0,,2026-07-14,2026-07-14,FE_amp,0,1,0,0,1,1,Vara Criminal da Comarca de São Bento do Sul
+5002973-55.2025.8.24.0539,1,0,0,0,,2026-10-20,2026-10-20,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca de Lages
+5003014-09.2025.8.24.0026,1,0,0,0,,2026-02-25,2026-02-25,FE,1,1,0,0,1,1,Vara Criminal da Comarca de Guaramirim
+5003020-23.2025.8.24.0541,1,0,0,0,,2026-10-02,2026-10-23,FE_amp,0,1,0,0,2,0,Vara Criminal da Comarca de Mafra
+5003037-79.2026.8.24.0523,1,0,0,0,,2026-05-13,2026-05-13,FE,1,0,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5003045-90.2025.8.24.0523,1,0,0,0,,2025-06-26,2025-09-03,FE_amp,0,1,0,0,2,2,2ª Vara Criminal da Comarca da Capital
+5003084-83.2022.8.24.0041,1,0,0,0,2023-08-21,2023-08-21,2023-08-21,FE_amp,0,1,0,0,1,0,Vara Criminal da Comarca de Mafra
+5003088-42.2026.8.24.0539,1,0,0,0,,2026-11-11,2026-11-11,FE+FE_amp,1,1,0,0,1,1,3ª Vara Criminal da Comarca de Lages
+5003089-79.2025.8.24.0533,1,0,0,0,,2026-07-30,2026-07-30,FE_amp,0,1,0,0,1,0,2ª Vara da Comarca de Balneário Piçarras
+5003105-04.2023.8.24.0048,1,0,0,0,,2024-05-13,2024-05-13,FE_amp,0,1,0,0,1,1,2ª Vara da Comarca de Balneário Piçarras
+5003117-14.2024.8.24.0523,1,0,0,0,2026-07-24,2026-01-21,2026-07-24,FE_amp,0,1,0,0,2,0,1ª Vara Criminal da Comarca da Capital
+5003119-13.2026.8.24.0523,1,0,0,0,2026-11-10,2026-08-05,2026-11-10,FE_amp,0,1,0,0,3,0,1ª Vara Criminal da Comarca da Capital
+5003120-41.2024.8.24.0014,1,0,0,0,,2025-02-05,2025-02-05,FE_amp,0,1,0,0,1,1,Vara Criminal da Comarca de Campos Novos
+5003128-24.2026.8.24.0539,1,0,0,0,,2026-11-11,2026-11-11,FE_amp,0,1,0,0,1,0,3ª Vara Criminal da Comarca de Lages
+5003156-08.2024.8.24.0039,1,0,0,0,,2024-04-25,2024-04-25,FE+FE_amp,1,1,0,0,1,1,3ª Vara Criminal da Comarca de Lages
+5003160-29.2026.8.24.0539,1,0,0,0,,2026-09-18,2026-09-18,FE_amp,0,1,0,0,1,1,3ª Vara Criminal da Comarca de Lages
+5003168-40.2025.8.24.0539,1,0,0,0,,2026-06-17,2026-06-17,FE+FE_amp,1,1,0,0,1,0,1ª Vara Criminal da Comarca de Lages
+5003169-73.2025.8.24.0523,1,0,0,0,,2025-11-19,2025-11-19,FE_amp,0,1,0,0,1,1,1ª Vara Criminal da Comarca da Capital
+5003238-57.2025.8.24.0539,1,0,0,0,,2026-04-29,2026-04-29,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca de Lages
+5003261-21.2025.8.24.0533,1,0,0,0,,2025-09-19,2025-09-19,FE+FE_amp,1,1,0,0,1,1,1ª Vara Criminal da Comarca de Itajaí
+5003270-22.2025.8.24.0520,1,0,0,0,,2026-09-02,2026-09-02,FE,1,1,0,0,1,1,1ª Vara Criminal da Comarca de Criciúma
+5003286-30.2026.8.24.0523,1,0,0,0,,2026-07-07,2026-07-07,FE+FE_amp,1,1,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5003291-41.2025.8.24.0538,1,0,0,0,,2026-01-21,2026-01-21,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca de Joinville
+5003293-56.2025.8.24.0523,1,0,0,0,,2025-07-08,2025-07-08,FE,1,0,0,0,1,0,2ª Vara Criminal da Comarca da Capital
+5003297-30.2024.8.24.0523,1,0,0,0,2026-03-16,2026-03-16,2026-03-16,FE+FE_amp,1,1,0,0,1,0,3ª Vara Criminal da Comarca da Capital
+5003298-78.2025.8.24.0523,0,0,1,0,,2025-06-23,2025-06-23,FE_amp,0,1,0,0,1,0,Vara Regional de Garantias da Comarca da Capital
+5003299-94.2024.8.24.0039,1,0,0,0,,2024-07-16,2024-07-16,FE+FE_amp,1,1,0,0,1,1,3ª Vara Criminal da Comarca de Lages
+5003300-79.2024.8.24.0039,1,0,0,0,,2024-05-20,2024-05-20,FE+FE_amp,1,1,0,0,1,0,3ª Vara Criminal da Comarca de Lages
+5003302-49.2024.8.24.0039,1,0,0,0,,2026-03-30,2026-03-30,FE_amp,0,1,0,0,1,0,3ª Vara Criminal da Comarca de Lages
+5003315-51.2024.8.24.0523,1,0,0,0,2025-06-26,2025-01-21,2025-06-26,FE_amp,0,1,0,0,2,0,2ª Vara Criminal da Comarca da Capital
+5003324-76.2025.8.24.0523,1,0,0,0,,2026-07-20,2026-07-20,FE_amp,0,1,0,0,1,1,3ª Vara Criminal da Comarca da Capital
+5003342-31.2024.8.24.0039,1,0,0,0,,2024-07-11,2026-01-21,FE+FE_amp,1,1,0,0,3,1,3ª Vara Criminal da Comarca de Lages
+5003390-56.2025.8.24.0523,1,0,0,0,,2026-05-20,2026-05-20,FE_amp,0,1,0,0,1,0,1ª Vara Criminal da Comarca da Capital
+5003420-66.2025.8.24.0014,1,0,0,0,,2026-05-08,2026-05-08,FE+FE_amp,1,1,0,0,1,1,Vara Criminal da Comarca de Campos Novos
+5003458-06.2025.8.24.0523,1,0,0,0,,2026-03-26,2026-03-26,FE_amp,0,1,0,0,1,1,3ª Vara Criminal da Comarca da Capital
+5003463-59.2024.8.24.0039,1,0,0,0,2026-07-13,2026-07-13,2026-07-13,FE_amp,0,1,0,0,1,0,3ª Vara Criminal da Comarca de Lages
+5003466-80.2025.8.24.0523,1,0,0,0,,2026-06-02,2026-06-02,FE_amp,0,1,0,0,1,0,1ª Vara Criminal da Comarca da Capital
+5003476-48.2025.8.24.0031,1,0,0,0,,2026-01-26,2026-01-26,FE+FE_amp,1,1,0,0,1,1,Vara Criminal da Comarca de Indaial
+5003477-30.2026.8.24.0538,1,0,0,0,,2026-11-11,2026-11-11,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca de Joinville
+5003513-88.2024.8.24.0523,1,0,0,0,2025-12-04,2025-12-04,2025-12-04,FE_amp,0,1,0,0,1,0,2ª Vara Criminal da Comarca da Capital
+5003514-20.2024.8.24.0282,1,0,0,0,,2026-07-10,2026-07-10,FE+FE_amp,1,1,0,0,1,1,2ª Vara da Comarca de Jaguaruna
+5003517-28.2024.8.24.0523,1,0,0,0,2025-07-07,2025-07-07,2025-07-07,FE_amp,0,1,0,0,1,0,3ª Vara Criminal da Comarca da Capital
+5003540-17.2022.8.24.0014,1,0,0,0,,2023-06-07,2023-06-07,FE_amp,0,1,0,0,1,1,Vara Criminal da Comarca de Campos Novos
+5003608-05.2026.8.24.0538,1,0,0,0,,2026-09-03,2026-09-03,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca de Joinville
+5003621-83.2025.8.24.0523,1,0,0,0,,2025-09-05,2025-09-05,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5003638-85.2026.8.24.0523,1,0,0,0,,2026-09-09,2026-09-09,FE_amp,0,1,0,0,1,1,3ª Vara Criminal da Comarca da Capital
+5003686-68.2023.8.24.0064,1,0,0,0,2025-06-09,2025-06-09,2025-06-09,FE_amp,0,1,0,0,1,0,2ª Vara Criminal da Comarca de São José
+5003701-31.2025.8.24.0011,0,1,0,0,,2026-09-21,2026-09-21,FE,1,0,0,0,1,0,
+5003723-71.2026.8.24.0523,1,0,0,0,,2026-07-09,2026-07-09,FE_amp,0,1,0,0,1,1,3ª Vara Criminal da Comarca da Capital
+5003748-21.2025.8.24.0523,1,0,0,0,,2025-11-14,2026-01-21,FE_amp,0,1,0,0,2,2,1ª Vara Criminal da Comarca da Capital
+5003759-16.2026.8.24.0523,1,0,0,0,2026-11-18,2026-11-18,2026-11-18,FE_amp,0,1,0,0,1,0,3ª Vara Criminal da Comarca da Capital
+5003776-23.2024.8.24.0523,1,0,0,0,,2025-04-08,2025-04-08,FE_amp,0,1,0,0,1,0,3ª Vara Criminal da Comarca da Capital
+5003788-37.2024.8.24.0523,1,0,0,0,,2025-10-21,2025-10-21,FE+FE_amp,1,1,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5003798-47.2025.8.24.0523,1,0,0,0,,2026-03-09,2026-03-09,FE_amp,0,1,1,0,1,1,1ª Vara Criminal da Comarca da Capital
+5003809-13.2024.8.24.0523,1,0,0,0,2025-06-16,2025-06-16,2025-06-16,FE_amp,0,1,0,0,1,0,3ª Vara Criminal da Comarca da Capital
+5003811-80.2024.8.24.0523,1,0,0,0,,2025-07-01,2025-07-01,FE_amp,0,0,0,0,1,0,3ª Vara Criminal da Comarca da Capital
+5003819-72.2025.8.24.0539,1,0,0,0,,2025-12-11,2025-12-11,FE+FE_amp,1,1,0,0,1,1,3ª Vara Criminal da Comarca de Lages
+5003830-04.2025.8.24.0539,1,0,0,0,,2026-05-29,2026-05-29,FE_amp,0,1,0,0,1,1,1ª Vara Criminal da Comarca de Lages
+5003839-77.2026.8.24.0523,1,0,0,0,,2026-08-31,2026-10-01,FE_amp,0,1,0,0,2,0,1ª Vara Criminal da Comarca da Capital
+5003846-24.2026.8.24.0538,1,0,0,0,,2026-10-26,2026-10-28,FE_amp,0,1,0,0,6,6,1ª Vara Criminal da Comarca de Joinville
+5003870-08.2023.8.24.0037,1,0,0,0,,2023-09-22,2023-09-22,FE_amp,0,1,0,0,1,1,Vara Criminal da Comarca de Joaçaba
+5003925-34.2025.8.24.0539,1,0,0,0,,2025-10-23,2025-10-23,FE+FE_amp,1,1,0,0,1,1,3ª Vara Criminal da Comarca de Lages
+5003941-70.2024.8.24.0523,1,0,0,0,,2025-04-07,2025-04-07,FE_amp,0,1,0,0,1,0,3ª Vara Criminal da Comarca da Capital
+5003959-38.2023.8.24.0067,1,0,0,0,2026-05-15,2025-11-05,2026-05-15,FE_amp,0,1,0,0,4,0,Vara Criminal da Comarca de São Miguel do Oeste
+5003979-14.2026.8.24.0523,1,0,0,0,,2026-10-30,2026-10-30,FE_amp,0,1,0,0,1,1,3ª Vara Criminal da Comarca da Capital
+5003993-91.2024.8.24.0062,1,0,0,0,,2025-01-21,2026-01-23,FE_amp,0,1,0,0,2,2,2ª Vara da Comarca de São João Batista
+5004042-30.2025.8.24.0505,1,0,0,0,,2025-09-26,2025-09-26,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca de Balneário Camboriú
+5004045-19.2024.8.24.0505,1,0,0,0,,2024-12-11,2024-12-11,FE_amp,0,1,0,0,1,1,1ª Vara Criminal da Comarca de Balneário Camboriú
+5004046-47.2024.8.24.0523,1,0,0,0,,2026-02-25,2026-02-25,FE_amp,0,1,0,0,1,0,3ª Vara Criminal da Comarca da Capital
+5004078-18.2025.8.24.0523,1,0,0,0,,2025-08-22,2025-08-22,FE_amp,0,1,0,0,1,1,1ª Vara Criminal da Comarca da Capital
+5004079-03.2025.8.24.0523,1,0,0,0,,2025-07-16,2025-07-16,FE_amp,0,1,0,0,1,1,1ª Vara Criminal da Comarca da Capital
+5004142-59.2023.8.24.0018,1,0,0,0,,2025-09-17,2025-09-17,FE_amp,0,1,0,0,1,0,2ª Vara Criminal da Comarca de Chapecó
+5004183-49.2025.8.24.0505,1,0,0,0,,2026-04-30,2026-08-05,FE_amp,0,1,0,0,3,1,1ª Vara Criminal da Comarca de Balneário Camboriú
+5004186-47.2025.8.24.0523,1,0,0,0,,2026-02-23,2026-09-23,FE_amp,0,1,0,0,2,0,3ª Vara Criminal da Comarca da Capital
+5004232-72.2025.8.24.0026,1,0,0,0,,2026-06-05,2026-06-05,FE_amp,0,1,0,0,1,1,Vara Criminal da Comarca de Guaramirim
+5004233-36.2025.8.24.0518,1,0,0,0,,2025-11-11,2025-11-11,FE_amp,0,1,0,0,1,1,1ª Vara Criminal da Comarca de Chapecó
+5004242-70.2023.8.24.0064,1,0,0,0,,2023-09-14,2023-09-14,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca de São José
+5004275-27.2025.8.24.0505,1,0,0,0,,2025-12-02,2025-12-02,FE,1,1,0,0,1,0,2ª Vara Criminal da Comarca de Balneário Camboriú
+5004291-42.2026.8.24.0538,1,0,0,0,,2026-11-11,2026-11-11,FE_amp,0,1,0,0,1,0,1ª Vara Criminal da Comarca de Joinville
+5004293-67.2024.8.24.0025,1,0,0,0,,2025-02-20,2025-02-20,FE_amp,0,1,0,0,1,0,Vara Criminal da Comarca de Gaspar
+5004296-98.2025.8.24.0538,1,0,0,0,2025-12-04,2025-12-04,2025-12-04,FE_amp,0,1,0,0,1,0,2ª Vara Criminal da Comarca de Joinville
+5004298-79.2026.8.24.0523,1,0,0,0,,2026-07-07,2026-07-07,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5004304-38.2023.8.24.0282,1,0,0,0,,2024-06-25,2024-06-25,FE+FE_amp,1,1,0,0,1,1,2ª Vara da Comarca de Jaguaruna
+5004308-50.2023.8.24.0064,1,0,0,0,,2024-01-22,2024-01-22,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca de São José
+5004309-54.2025.8.24.0520,1,0,0,0,,2026-01-21,2026-01-21,FE_amp,0,1,0,0,1,0,2ª Vara Criminal da Comarca de Criciúma
+5004326-76.2020.8.24.0064,0,1,0,0,,2026-11-05,2026-11-05,FE+FE_amp,1,1,0,0,1,0,
+5004365-68.2023.8.24.0064,1,0,0,0,,2024-01-22,2024-01-22,FE_amp,0,1,0,0,1,0,2ª Vara Criminal da Comarca de São José
+5004379-32.2025.8.24.0533,0,0,1,0,,2025-11-05,2025-11-05,FE_amp,0,1,0,0,1,0,Vara Regional de Garantias da Comarca de Itajaí
+5004393-21.2026.8.24.0520,1,0,0,0,2026-11-12,2026-11-12,2026-11-12,FE_amp,0,1,0,0,1,0,2ª Vara Criminal da Comarca de Criciúma
+5004506-72.2026.8.24.0520,1,0,0,0,,2026-10-15,2026-10-15,FE+FE_amp,1,1,0,0,1,1,1ª Vara Criminal da Comarca de Criciúma
+5004515-35.2024.8.24.0025,1,0,0,0,,2025-06-13,2025-06-13,FE_amp,0,1,0,0,1,0,Vara Criminal da Comarca de Gaspar
+5004524-88.2025.8.24.0533,1,0,0,0,,2026-09-03,2026-09-03,FE_amp,0,1,0,0,1,0,2ª Vara da Comarca de Balneário Piçarras
+5004526-88.2025.8.24.0523,0,0,1,0,,2026-03-13,2026-03-13,FE,1,0,0,0,1,0,Vara Regional de Garantias da Comarca da Capital
+5004566-25.2025.8.24.0538,1,0,0,0,,2025-10-09,2026-02-12,FE_amp,0,1,0,0,6,0,2ª Vara Criminal da Comarca de Joinville
+5004604-82.2025.8.24.0523,1,0,0,0,,2025-11-07,2025-12-18,FE,1,1,0,0,2,2,2ª Vara Criminal da Comarca da Capital
+5004622-69.2026.8.24.0523,1,0,0,0,,2026-08-31,2026-08-31,FE_amp,0,1,0,0,1,0,2ª Vara Criminal da Comarca da Capital
+5004627-04.2024.8.24.0025,1,0,0,0,,2025-02-07,2025-02-26,FE_amp,0,1,0,0,2,1,Vara Criminal da Comarca de Gaspar
+5004631-49.2025.8.24.0011,1,0,0,0,,2025-05-15,2025-05-15,FE_amp,0,1,0,0,1,1,Vara Criminal da Comarca de Brusque
+5004689-89.2025.8.24.0031,1,0,0,0,,2026-04-08,2026-04-08,FE,1,0,0,1,1,0,Vara Criminal da Comarca de Indaial
+5004773-21.2025.8.24.0054,1,0,0,0,,2025-09-26,2025-09-26,FE_amp,0,1,0,0,1,1,Vara Criminal da Comarca de Rio do Sul
+5004796-15.2025.8.24.0523,1,0,0,0,2026-10-08,2026-10-08,2026-10-08,FE_amp,0,1,0,0,1,0,3ª Vara Criminal da Comarca da Capital
+5004800-04.2025.8.24.0539,1,0,0,0,,2026-09-22,2026-09-22,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca de Lages
+5004833-57.2025.8.24.0518,1,0,0,0,,2026-01-21,2026-01-21,FE_amp,0,1,0,0,1,1,1ª Vara Criminal da Comarca de Chapecó
+5004853-33.2022.8.24.0072,1,0,0,0,2025-06-09,2024-01-22,2025-06-09,FE_amp,0,1,0,0,2,0,Vara Criminal da Comarca de Tijucas
+5004856-33.2025.8.24.0508,1,0,0,0,,2026-01-22,2026-01-22,FE_amp,0,1,0,0,1,0,1ª Vara Criminal da Comarca de Blumenau
+5004874-81.2025.8.24.0014,1,0,0,0,,2026-02-03,2026-02-03,FE+FE_amp,1,1,0,0,1,1,Vara Criminal da Comarca de Campos Novos
+5004952-52.2026.8.24.0075,1,0,0,0,,2026-07-02,2026-07-02,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca de Tubarão
+5005033-15.2026.8.24.0523,1,0,0,0,,2026-09-23,2026-09-23,FE_amp,0,1,0,0,1,0,1ª Vara Criminal da Comarca da Capital
+5005072-64.2026.8.24.0538,1,0,0,0,,2026-11-19,2026-11-19,FE+FE_amp,1,1,0,1,1,0,1ª Vara Criminal da Comarca de Joinville
+5005099-81.2025.8.24.0538,1,0,0,0,2026-01-29,2026-01-29,2026-01-29,FE_amp,0,1,0,0,1,0,1ª Vara Criminal da Comarca de Joinville
+5005115-57.2025.8.24.0078,1,0,0,0,,2026-05-22,2026-05-22,FE_amp,0,1,0,0,1,1,2ª Vara da Comarca de Urussanga
+5005127-94.2025.8.24.0523,1,0,0,0,,2026-04-14,2026-04-14,FE_amp,0,0,0,0,1,1,3ª Vara Criminal da Comarca da Capital
+5005155-17.2025.8.24.0538,1,0,0,0,,2026-01-21,2026-01-21,FE+FE_amp,1,1,0,0,1,0,1ª Vara Criminal da Comarca de Joinville
+5005266-88.2025.8.24.0024,1,0,0,0,,2026-04-27,2026-04-27,FE_amp,0,0,0,0,1,1,2ª Vara da Comarca de Fraiburgo
+5005267-94.2026.8.24.0523,1,0,0,0,,2026-09-22,2026-09-22,FE_amp,0,1,0,0,1,0,1ª Vara Criminal da Comarca da Capital
+5005284-33.2026.8.24.0523,1,0,0,0,,2026-11-10,2026-11-10,FE,1,0,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5005293-81.2025.8.24.0538,1,0,0,0,,2026-03-24,2026-03-24,FE+FE_amp,1,1,0,0,1,1,1ª Vara Criminal da Comarca de Joinville
+5005334-48.2025.8.24.0538,1,0,0,0,,2026-02-18,2026-03-12,FE_amp,0,1,0,0,2,0,1ª Vara Criminal da Comarca de Joinville
+5005334-93.2025.8.24.0523,1,0,0,0,,2026-01-21,2026-01-21,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5005352-90.2024.8.24.0025,1,0,0,0,,2025-04-24,2025-04-24,FE_amp,0,1,0,0,1,0,Vara Criminal da Comarca de Gaspar
+5005357-05.2026.8.24.0523,0,0,1,0,,2026-10-21,2026-10-21,FE+FE_amp,1,1,0,0,1,0,Vara Regional de Garantias da Comarca da Capital
+5005448-12.2022.8.24.0014,1,0,0,0,,2025-11-14,2025-11-14,FE_amp,0,1,0,0,1,0,Vara Criminal da Comarca de Campos Novos
+5005491-66.2025.8.24.0523,1,0,0,0,,2025-11-11,2025-12-09,EE+FE_amp,0,1,0,0,2,0,2ª Vara Criminal da Comarca da Capital
+5005608-77.2024.8.24.0075,1,0,0,0,,2024-07-23,2024-07-23,FE_amp,0,1,0,0,1,1,1ª Vara Criminal da Comarca de Tubarão
+5005652-58.2024.8.24.0023,1,0,0,0,,2024-01-23,2024-01-23,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5005676-38.2024.8.24.0039,1,0,0,0,,2026-01-23,2026-01-23,FE_amp,0,1,0,0,1,0,3ª Vara Criminal da Comarca de Lages
+5005678-40.2026.8.24.0523,1,0,0,0,,2026-09-11,2026-11-11,FE+FE_amp,1,1,0,0,5,0,3ª Vara Criminal da Comarca da Capital
+5005719-76.2022.8.24.0125,1,0,0,0,,2023-05-29,2023-05-29,FE_amp,0,1,0,0,1,1,Vara Criminal da Comarca de Itapema
+5005726-32.2025.8.24.0103,1,0,0,0,,2026-04-07,2026-04-07,FE_amp,0,1,0,0,1,1,2ª Vara da Comarca de Araquari
+5005777-44.2025.8.24.0523,1,0,0,0,2026-06-08,2025-10-09,2026-06-08,FE+FE_amp,1,1,0,0,6,0,3ª Vara Criminal da Comarca da Capital
+5005784-85.2025.8.24.0539,1,0,0,0,,2026-07-21,2026-07-21,FE_amp,0,1,0,0,1,0,1ª Vara Criminal da Comarca de Lages
+5005866-33.2026.8.24.0523,1,0,0,0,,2026-11-09,2026-11-09,FE+FE_amp,1,1,0,0,1,1,1ª Vara Criminal da Comarca da Capital
+5005943-12.2022.8.24.0061,1,0,0,0,,2025-05-26,2025-05-26,FE+FE_amp,1,1,0,0,1,0,Vara Criminal da Comarca de São Francisco do Sul
+5005944-13.2025.8.24.0539,1,0,0,0,,2026-03-17,2026-03-17,FE_amp,0,1,0,0,1,1,1ª Vara Criminal da Comarca de Lages
+5005976-71.2025.8.24.0004,1,0,0,0,,2025-09-18,2025-09-18,INV,0,0,0,0,1,0,1ª Vara Criminal da Comarca de Araranguá
+5005985-77.2025.8.24.0539,1,0,0,0,,2026-03-30,2026-04-14,FE_amp,0,1,0,0,3,3,3ª Vara Criminal da Comarca de Lages
+5005987-52.2025.8.24.0505,1,0,0,0,2026-11-06,2026-11-06,2026-11-06,INV,0,0,1,0,1,0,1ª Vara Criminal da Comarca de Balneário Camboriú
+5006176-81.2024.8.24.0079,1,0,0,0,,2025-03-26,2025-07-23,FE_amp,0,1,0,0,2,2,Vara Criminal da Comarca de Videira
+5006191-42.2025.8.24.0523,1,0,0,0,,2026-01-21,2026-01-21,FE+FE_amp,1,1,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5006199-82.2026.8.24.0523,1,0,0,0,,2026-11-06,2026-11-06,FE+FE_amp,1,1,0,0,1,0,2ª Vara Criminal da Comarca da Capital
+5006235-42.2021.8.24.0025,0,1,0,0,,2026-07-09,2026-07-09,FE_amp,0,1,0,0,1,0,
+5006320-47.2025.8.24.0523,1,0,0,0,,2026-02-20,2026-09-30,FE+FE_amp,1,1,0,0,3,1,2ª Vara Criminal da Comarca da Capital
+5006396-85.2026.8.24.0022,1,0,0,0,,2026-06-09,2026-06-09,FE_amp,0,1,0,0,1,1,Vara Criminal da Comarca de Curitibanos
+5006426-18.2025.8.24.0520,1,0,0,0,,2026-03-06,2026-03-06,FE+FE_amp,1,1,0,0,1,1,1ª Vara Criminal da Comarca de Araranguá
+5006434-53.2025.8.24.0533,1,0,0,0,,2025-11-27,2025-12-19,FE_amp,0,1,0,0,2,0,Vara Criminal da Comarca de Navegantes
+5006456-24.2023.8.24.0035,1,0,0,0,2025-06-26,2024-02-21,2025-06-26,FE_amp,0,1,0,0,5,0,2ª Vara da Comarca de Ituporanga
+5006457-29.2025.8.24.0523,0,0,1,0,,2025-11-26,2025-11-26,FE,1,0,0,0,1,0,Juizado Especial Criminal da Comarca da Capital - Eduardo Luz
+5006503-24.2024.8.24.0015,1,0,0,0,2026-07-17,2026-07-17,2026-07-17,FE_amp,0,1,0,0,1,0,Vara Criminal da Comarca de Canoinhas
+5006506-70.2025.8.24.0523,1,0,0,0,,2026-03-18,2026-09-09,FE_amp,0,1,0,0,2,1,3ª Vara Criminal da Comarca da Capital
+5006525-76.2025.8.24.0523,1,0,0,0,,2025-11-21,2026-05-28,FE,1,0,0,0,5,0,2ª Vara Criminal da Comarca da Capital
+5006649-80.2024.8.24.0010,1,0,0,0,,2026-04-28,2026-04-28,FE_amp,0,1,0,0,1,0,Vara Criminal da Comarca de Braço do Norte
+5006699-71.2025.8.24.0075,1,0,0,0,,2025-09-29,2025-09-29,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca de Tubarão
+5006788-11.2025.8.24.0523,0,0,1,0,,2026-03-12,2026-03-12,FE,1,0,0,0,1,0,Vara Regional de Garantias da Comarca da Capital
+5006904-85.2025.8.24.0080,1,0,0,0,,2026-06-11,2026-06-11,FE_amp,0,1,0,0,1,1,Vara Criminal da Comarca de Xanxerê
+5006918-98.2025.8.24.0523,1,0,0,0,,2025-12-10,2026-05-28,EE+FE+FE_amp,1,1,0,0,4,0,2ª Vara Criminal da Comarca da Capital
+5006937-38.2024.8.24.0039,1,0,0,0,,2025-01-27,2025-01-27,FE+FE_amp,1,1,0,0,1,1,3ª Vara Criminal da Comarca de Lages
+5007046-91.2024.8.24.0026,1,0,0,0,,2025-05-20,2025-05-20,FE_amp,0,1,0,0,1,1,Vara Criminal da Comarca de Guaramirim
+5007158-73.2025.8.24.0075,1,0,0,0,2026-10-02,2025-08-29,2026-10-02,FE_amp,0,1,0,0,2,0,Vara Criminal da Comarca de Tubarão
+5007282-70.2025.8.24.0523,1,0,0,0,,2026-05-04,2026-05-04,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5007352-21.2024.8.24.0039,1,0,0,0,,2025-02-25,2025-02-25,FE+FE_amp,1,1,0,0,1,1,3ª Vara Criminal da Comarca de Lages
+5007406-53.2025.8.24.0523,1,0,0,0,,2026-05-19,2026-08-17,FE+FE_amp,1,1,0,0,4,0,2ª Vara Criminal da Comarca da Capital
+5007451-25.2023.8.24.0039,1,0,0,0,2026-06-22,2026-06-22,2026-06-22,FE_amp,0,1,0,0,1,0,3ª Vara Criminal da Comarca de Lages
+5007507-60.2025.8.24.0533,1,0,0,0,2026-09-09,2025-11-17,2026-09-09,FE_amp,0,1,0,1,3,0,2ª Vara da Comarca de Balneário Piçarras
+5007626-71.2024.8.24.0075,1,0,0,0,2025-12-15,2025-12-15,2025-12-15,FE_amp,0,1,0,0,1,0,1ª Vara Criminal da Comarca de Tubarão
+5007773-93.2023.8.24.0023,1,0,0,0,,2023-03-14,2025-09-17,FE_amp,0,1,0,0,2,1,1ª Vara Criminal da Comarca da Capital
+5008020-89.2024.8.24.0039,1,0,0,0,,2024-08-05,2024-08-05,FE+FE_amp,1,1,0,0,1,1,3ª Vara Criminal da Comarca de Lages
+5008043-13.2025.8.24.0035,1,0,0,0,,2026-02-27,2026-03-12,FE_amp,0,1,0,0,2,2,2ª Vara da Comarca de Ituporanga
+5008294-89.2025.8.24.0533,1,0,0,0,,2026-03-17,2026-04-16,EE+FE+FE_amp,1,1,0,0,2,0,Vara Única da Comarca de Guabiruba
+5008908-04.2022.8.24.0015,1,0,0,0,,2023-01-26,2023-02-01,FE_amp,0,1,0,0,3,2,Vara Criminal da Comarca de Canoinhas
+5008919-91.2022.8.24.0125,1,0,0,0,,2023-10-11,2023-10-11,FE_amp,0,1,0,0,1,1,Vara Criminal da Comarca de Itapema
+5009297-43.2024.8.24.0039,1,0,0,0,,2024-09-16,2024-09-16,FE+FE_amp,1,1,0,0,1,0,3ª Vara Criminal da Comarca de Lages
+5009563-48.2026.8.24.0075,1,0,0,0,,2026-07-27,2026-07-27,FE_amp,0,1,0,0,1,1,1ª Vara Criminal da Comarca de Tubarão
+5009725-25.2024.8.24.0039,1,0,0,0,,2024-09-20,2024-09-20,FE+FE_amp,1,1,0,0,1,1,3ª Vara Criminal da Comarca de Lages
+5010204-18.2024.8.24.0039,1,0,0,0,,2024-11-18,2024-11-18,FE+FE_amp,1,1,0,0,1,1,3ª Vara Criminal da Comarca de Lages
+5010205-03.2024.8.24.0039,1,0,0,0,,2026-03-27,2026-03-27,FE+FE_amp,1,1,0,0,1,0,3ª Vara Criminal da Comarca de Lages
+5010377-08.2024.8.24.0018,1,0,0,0,,2024-10-10,2024-10-10,FE+FE_amp,1,1,0,0,1,1,2ª Vara Criminal da Comarca de Chapecó
+5010824-30.2024.8.24.0039,1,0,0,0,,2026-01-21,2026-01-21,FE+FE_amp,1,1,0,0,1,1,3ª Vara Criminal da Comarca de Lages
+5011016-13.2025.8.24.0011,1,0,0,0,,2026-02-25,2026-02-25,FE_amp,0,1,0,0,1,1,Vara Criminal da Comarca de Brusque
+5011383-84.2024.8.24.0039,1,0,0,0,,2024-09-23,2024-11-18,FE+FE_amp,1,1,0,0,2,2,3ª Vara Criminal da Comarca de Lages
+5011933-82.2024.8.24.0038,1,0,0,0,,2024-05-16,2024-05-16,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca de Joinville
+5011991-82.2024.8.24.0039,1,0,0,0,,2024-11-21,2024-11-21,FE+FE_amp,1,1,0,0,1,1,3ª Vara Criminal da Comarca de Lages
+5012053-75.2025.8.24.0011,1,0,0,0,,2026-05-27,2026-05-27,FE_amp,0,1,0,0,1,1,Vara Criminal da Comarca de Brusque
+5012306-22.2024.8.24.0036,1,0,0,0,,2025-05-02,2025-09-11,FE_amp,0,1,0,0,3,0,1ª Vara Criminal da Comarca de Jaraguá do Sul
+5012394-73.2024.8.24.0064,1,0,0,0,,2025-03-06,2025-03-06,FE_amp,0,1,0,0,1,1,1ª Vara Criminal da Comarca de São José
+5013109-19.2023.8.24.0075,1,0,0,0,,2024-05-03,2024-09-09,FE_amp,0,1,0,0,2,2,1ª Vara Criminal da Comarca de Tubarão
+5013395-60.2024.8.24.0075,1,0,0,0,,2025-10-14,2025-10-14,FE_amp,0,1,0,0,1,0,2ª Vara Criminal da Comarca de Tubarão
+5013475-31.2024.8.24.0008,1,0,0,0,2025-05-22,2024-06-04,2025-05-22,FE_amp,0,1,0,0,2,0,2ª Vara Criminal da Comarca de Blumenau
+5013588-41.2025.8.24.0075,1,0,0,0,,2026-11-05,2026-11-05,FE_amp,0,1,0,0,1,0,Vara Criminal da Comarca de Tubarão
+5013876-23.2024.8.24.0075,1,0,0,0,,2025-12-18,2026-02-23,FE_amp,0,1,0,0,2,1,1ª Vara Criminal da Comarca de Tubarão
+5013997-21.2023.8.24.0064,1,0,0,0,,2024-05-10,2024-05-10,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca de São José
+5014524-82.2022.8.24.0039,1,0,0,0,,2024-06-20,2024-06-20,FE_amp,0,1,0,0,1,0,1ª Vara Criminal da Comarca de Lages
+5015167-97.2022.8.24.0020,1,0,0,0,2026-10-02,2026-10-02,2026-10-02,FE_amp,0,1,0,0,1,0,2ª Vara Criminal da Comarca de Criciúma
+5015269-28.2023.8.24.0039,1,0,0,0,,2023-11-30,2023-11-30,FE_amp,0,1,0,0,1,1,1ª Vara Criminal da Comarca de Lages
+5015555-49.2026.8.24.0023,1,0,0,0,2026-09-21,2026-03-24,2026-09-21,FE+FE_amp,1,1,0,1,7,0,3ª Vara Criminal da Comarca da Capital
+5015982-19.2025.8.24.0011,1,0,0,0,,2026-09-15,2026-09-15,FE_amp,0,1,0,0,1,1,Vara Criminal da Comarca de Brusque
+5016520-70.2023.8.24.0075,1,0,0,0,,2026-08-26,2026-08-26,FE_amp,0,1,0,0,1,0,2ª Vara Criminal da Comarca de Tubarão
+5016763-14.2023.8.24.0075,1,0,0,0,2026-09-18,2024-03-15,2026-09-18,FE_amp,0,1,0,0,2,2,2ª Vara Criminal da Comarca de Tubarão
+5016911-20.2025.8.24.0054,1,0,0,0,,2026-11-09,2026-11-09,FE_amp,0,1,0,0,3,3,Vara Criminal da Comarca de Rio do Sul
+5017112-91.2024.8.24.0039,1,0,0,0,,2025-10-01,2025-10-01,FE+FE_amp,1,1,0,0,1,1,3ª Vara Criminal da Comarca de Lages
+5017995-61.2023.8.24.0075,1,0,0,0,2026-05-05,2026-02-26,2026-05-05,FE_amp,0,1,0,0,2,0,1ª Vara Criminal da Comarca de Tubarão
+5018320-13.2024.8.24.0039,1,0,0,0,,2025-05-02,2025-05-02,FE+FE_amp,1,1,0,0,1,1,3ª Vara Criminal da Comarca de Lages
+5019639-50.2023.8.24.0039,1,0,0,0,,2024-01-22,2024-01-22,FE+FE_amp,1,1,0,0,1,1,3ª Vara Criminal da Comarca de Lages
+5020192-63.2024.8.24.0039,1,0,0,0,,2025-02-10,2025-02-10,FE+FE_amp,1,1,0,0,1,1,3ª Vara Criminal da Comarca de Lages
+5020481-93.2023.8.24.0018,1,0,0,0,,2024-08-22,2024-08-22,FE,1,0,0,0,1,1,2ª Vara Criminal da Comarca de Chapecó
+5021336-23.2024.8.24.0023,1,0,0,0,,2024-03-27,2024-03-27,FE+FE_amp,1,1,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5022049-27.2026.8.24.0023,1,0,0,0,,2026-04-27,2026-09-08,FE+FE_amp,1,1,0,0,4,0,1ª Vara Criminal da Comarca da Capital
+5022726-32.2023.8.24.0033,1,0,0,0,,2024-07-15,2024-07-15,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca de Itajaí
+5023038-35.2024.8.24.0045,1,0,0,0,,2025-07-29,2025-07-29,FE_amp,0,1,0,0,1,0,2ª Vara Criminal da Comarca de Palhoça
+5024341-87.2023.8.24.0023,1,0,0,0,,2023-06-26,2023-08-01,FE_amp,0,1,0,0,2,2,1ª Vara Criminal da Comarca da Capital
+5025204-77.2022.8.24.0023,1,0,0,0,,2022-04-13,2022-04-13,FE_amp,0,1,0,0,1,1,4ª Vara Criminal da Comarca de Florianópolis
+5025595-32.2022.8.24.0023,1,0,0,0,2024-05-22,2024-05-22,2024-05-22,FE_amp,0,1,0,0,1,1,1ª Vara Criminal da Comarca da Capital
+5025691-84.2023.8.24.0064,1,0,0,0,,2024-06-14,2024-06-14,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca de São José
+5026436-89.2025.8.24.0033,0,0,1,0,,2026-04-09,2026-04-09,INV,0,0,0,0,1,0,Juizado Especial Criminal e de Violência Doméstica e Familiar contra a Mulher - Itajaí
+5026565-65.2023.8.24.0033,1,0,0,0,2026-10-01,2026-10-01,2026-10-01,FE_amp,0,1,0,0,1,0,1ª Vara Criminal da Comarca de Itajaí
+5026858-13.2023.8.24.0008,1,0,0,0,,2023-09-18,2023-09-18,FE_amp,0,1,0,0,1,1,1ª Vara Criminal da Comarca de Blumenau
+5029185-20.2024.8.24.0064,1,0,0,0,2026-07-08,2026-07-08,2026-07-08,FE_amp,0,1,0,0,1,0,2ª Vara Criminal da Comarca de São José
+5035209-90.2024.8.24.0023,1,0,0,0,,2024-04-18,2024-04-18,FE_amp,0,1,0,0,1,1,3ª Vara Criminal da Comarca da Capital
+5035333-96.2022.8.24.0038,1,1,0,0,2025-12-15,2025-07-22,2026-10-30,FE+FE_amp,1,1,0,0,3,0,1ª Vara Criminal da Comarca de Joinville
+5036857-08.2024.8.24.0023,1,0,0,0,,2024-07-16,2024-07-16,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5039774-34.2023.8.24.0023,1,0,0,0,,2023-06-26,2023-06-26,FE_amp,0,1,0,0,1,1,1ª Vara Criminal da Comarca da Capital
+5040637-53.2024.8.24.0023,1,0,0,0,,2024-06-17,2024-06-17,FE_amp,0,1,0,0,1,0,2ª Vara Criminal da Comarca da Capital
+5043881-87.2024.8.24.0023,1,0,0,0,,2024-07-12,2025-09-04,FE_amp,0,1,0,0,4,4,2ª Vara Criminal da Comarca da Capital
+5044327-56.2025.8.24.0023,1,0,0,0,,2025-09-16,2025-09-16,FE_amp,0,1,0,0,1,1,1ª Vara Criminal da Comarca da Capital
+5045420-20.2026.8.24.0023,1,0,0,0,,2026-10-30,2026-10-30,FE_amp,0,1,0,0,1,1,3ª Vara Criminal da Comarca da Capital
+5045583-97.2026.8.24.0023,1,0,0,0,,2026-11-19,2026-11-19,FE_amp,0,1,0,0,1,0,3ª Vara Criminal da Comarca da Capital
+5045585-38.2024.8.24.0023,1,0,0,0,,2024-07-31,2024-07-31,FE+FE_amp,1,1,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5045666-84.2024.8.24.0023,1,0,0,0,,2024-08-09,2024-11-22,FE_amp,0,1,0,0,2,1,3ª Vara Criminal da Comarca da Capital
+5046912-18.2024.8.24.0023,1,0,0,0,2025-09-12,2025-09-12,2025-09-12,FE_amp,0,1,0,0,1,0,3ª Vara Criminal da Comarca da Capital
+5048053-09.2023.8.24.0023,1,0,0,0,,2023-10-24,2023-10-24,FE_amp,0,1,0,0,1,1,3ª Vara Criminal da Comarca da Capital
+5049437-70.2024.8.24.0023,0,0,1,0,,2025-07-28,2025-07-28,FE+FE_amp,1,1,0,0,1,0,3ª Vara Criminal da Comarca da Capital
+5049680-14.2024.8.24.0023,1,0,0,0,,2024-12-06,2024-12-06,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5049747-76.2024.8.24.0023,1,0,0,0,2026-04-07,2026-04-06,2026-04-07,FE_amp,0,1,0,0,2,0,1ª Vara Criminal da Comarca da Capital
+5049999-45.2025.8.24.0023,1,0,0,0,,2025-12-18,2026-09-17,FE_amp,0,1,0,0,2,2,3ª Vara Criminal da Comarca da Capital
+5051317-97.2024.8.24.0023,1,0,0,0,,2024-05-24,2024-05-24,FE+FE_amp,1,1,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5052260-17.2024.8.24.0023,1,0,0,0,,2024-09-11,2024-09-11,FE_amp,0,1,0,0,1,1,3ª Vara Criminal da Comarca da Capital
+5054883-83.2026.8.24.0023,1,0,0,0,,2026-09-15,2026-09-30,EE+FE+FE_amp,1,1,0,0,2,0,1ª Vara Criminal da Comarca da Capital
+5059192-05.2026.8.24.0038,1,0,0,0,,2026-11-18,2026-11-18,FE_amp,0,1,0,0,2,2,2ª Vara Criminal da Comarca de Joinville
+5065678-90.2022.8.24.0023,1,0,0,0,,2022-06-29,2022-06-29,FE_amp,0,1,0,0,1,0,4ª Vara Criminal da Comarca de Florianópolis
+5071940-56.2022.8.24.0023,1,0,0,0,2025-07-10,2025-07-10,2025-07-10,FE_amp,0,1,0,0,1,0,3ª Vara Criminal da Comarca da Capital
+5072792-46.2023.8.24.0023,1,0,0,0,,2023-09-14,2023-11-01,FE_amp,0,1,0,0,2,2,1ª Vara Criminal da Comarca da Capital
+5074544-19.2024.8.24.0023,1,0,0,0,,2024-12-19,2024-12-19,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5078902-61.2023.8.24.0023,1,0,0,0,,2024-05-14,2024-05-14,FE+FE_amp,1,1,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5079882-08.2023.8.24.0023,1,0,0,0,2025-06-16,2025-05-26,2025-06-16,FE_amp,0,1,0,0,2,0,3ª Vara Criminal da Comarca da Capital
+5080263-79.2024.8.24.0023,1,0,0,0,2026-10-22,2026-10-22,2026-10-22,FE_amp,0,1,0,0,1,0,1ª Vara Criminal da Comarca da Capital
+5081386-15.2024.8.24.0023,1,0,0,0,,2025-09-02,2025-09-02,FE_amp,0,1,0,0,1,0,3ª Vara Criminal da Comarca da Capital
+5084611-77.2023.8.24.0023,1,0,0,0,2025-11-14,2025-11-14,2025-11-14,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5089848-92.2023.8.24.0023,1,0,0,0,2026-04-23,2026-04-23,2026-04-23,FE_amp,0,1,0,0,1,0,2ª Vara Criminal da Comarca da Capital
+5093013-50.2023.8.24.0023,1,0,0,0,2025-10-29,2025-10-29,2025-10-29,FE_amp,0,1,0,0,1,0,2ª Vara Criminal da Comarca da Capital
+5095453-19.2023.8.24.0023,1,0,0,0,,2024-01-22,2024-01-22,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5096869-22.2023.8.24.0023,1,0,0,0,,2023-10-10,2023-10-10,FE_amp,0,1,0,0,1,1,1ª Vara Criminal da Comarca da Capital
+5104203-10.2023.8.24.0023,1,0,0,0,2026-02-19,2024-07-24,2026-02-19,FE_amp,0,1,0,0,4,1,2ª Vara Criminal da Comarca da Capital
+5105191-65.2022.8.24.0023,1,0,0,0,,2022-10-18,2022-10-18,FE_amp,0,1,0,0,1,0,2ª Vara Criminal da Comarca da Capital
+5107377-61.2022.8.24.0023,1,0,0,0,,2022-10-17,2022-10-17,FE_amp,0,1,0,0,1,1,2ª Vara Criminal da Comarca da Capital
+5111892-08.2023.8.24.0023,1,1,0,0,2025-10-31,2025-10-31,2026-04-15,FE+FE_amp,1,1,0,0,2,0,2ª Vara Criminal da Comarca da Capital
+5112508-80.2023.8.24.0023,1,0,0,0,2026-02-19,2024-03-20,2026-02-19,FE_amp,0,1,0,0,4,1,2ª Vara Criminal da Comarca da Capital
+5113272-66.2023.8.24.0023,1,1,0,0,2025-05-30,2025-05-27,2026-01-21,EE+FE_amp,0,1,0,0,3,0,2ª Vara Criminal da Comarca da Capital

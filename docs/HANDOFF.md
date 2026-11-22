@@ -1,8 +1,12 @@
-# Handoff: fase 1 TJSP coletada; análise criminológica com as questões 1 a 7 feitas, as três primeiras conferidas por segundo leitor; exame em aula com os pares 1, 2, 9 e 10 (estes dois do TJPA) prontos; fase 2 TJPA coletada pelo Codex, com a extração como ponto de partida (22/11/2026)
+# Handoff: fase 4 TJSC com lista de alvos e fila; fase 1 TJSP coletada; análise criminológica com as questões 1 a 7 feitas, as três primeiras conferidas por segundo leitor; exame em aula com os pares 1, 2, 9 e 10 (estes dois do TJPA) prontos; fase 2 TJPA coletada pelo Codex, com a extração como ponto de partida (22/11/2026)
 
 Repositório pbms01/FGV_TJPA (o GitHub avisa que o endereço novo é https://github.com/pbms01/FGV_TJPA.git; o push pelo antigo ainda funciona). O branch `coleta-datajud` foi mesclado no main duas vezes em 21/11/2026: depois da questão 3, junto com a base de 130 casos que estava só no main, e de novo à noite, com a coleta da fase 2 no TJPA. O trabalho segue no main. Este arquivo substitui o estado da conversa e deve ser lido antes de qualquer passo novo.
 
 Há duas frentes abertas, independentes entre si: a extração da fase 2 (TJPA), descrita na seção seguinte, que é o ponto de partida escolhido para a próxima sessão; e o exame em aula, que segue pelo par 3 (ponto de partida na seção "Análise sob a perspectiva da criminologia informática").
+
+## Fase 4 (TJSC): lista de alvos e fila prontas, Codex ainda não consultado (22/11/2026)
+
+Plano, sondagem e vieses em `docs/RUNBOOK_TJSC.md` (Project: `claude/plano-captura-base-tjsc.md`). Lista pelo DJEN em `dados/djen/alvos_djen_tjsc.csv` (467 números, 454 de ação penal ou apelação), metadados das 1.283 publicações em `dados/djen/publicacoes_tjsc.csv`, totais e séries em `dados/djen/totais_tjsc.json`, fila em `dados/codex_tjsc/fila.csv` (68 no grupo 1, 66 no grupo 2 e 320 no grupo 3, dos que só aparecem pelo edital de citação), condutor `TRIB=tjsc python3 scripts/pipe_tjpa.py`. Duas diferenças em relação às fases anteriores: o inteiro teor do TJSC vem em HTML com entidades, e a busca do DJEN só acha a maior parte das publicações pela forma com entidades (`djen.iniciar({..., entidades: true})`); e a cobertura decisória do DJEN no TJSC começa em maio de 2025, antes do que só há editais. Próximo passo: abrir 3 a 5 ações penais no Codex para achar onde o eproc guarda a denúncia e a sentença, acrescentar as regras ao `mapa` do condutor e começar pelo grupo 1.
 
 ## Aula de segurança da informação e criptografia (22/11/2026)
 

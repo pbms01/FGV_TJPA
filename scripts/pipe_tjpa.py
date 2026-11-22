@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Coleta das fases 2 (TJPA) e 3 (TJRJ, com TRIB=tjrj) na conversa: denúncia e sentença pelo Codex, gravadas sem passar pelo contexto.
+"""Coleta das fases 2 (TJPA), 3 (TJRJ, com TRIB=tjrj) e 4 (TJSC, com TRIB=tjsc) na conversa: denúncia e sentença pelo Codex, gravadas sem passar pelo contexto.
 
 Rodar da raiz do repositório. Roteiro por processo (docs/RUNBOOK_TJPA.md):
   1. python3 scripts/pipe_tjpa.py prox
@@ -38,17 +38,18 @@ import sys
 sys.path.insert(0, os.path.join(os.path.dirname(__file__)))
 import codex_denuncias as c  # noqa: E402  (reusa separa_lote, procedencia, anexar, ler_csv, agora)
 
-# Tribunal pela variável de ambiente TRIB (tjpa, padrão da fase 2, ou tjrj, fase 3). As regras são as mesmas;
+# Tribunal pela variável de ambiente TRIB (tjpa, padrão da fase 2; tjrj, fase 3; tjsc, fase 4). As regras são as mesmas;
 # só mudam os caminhos, a semente da fila e, no mapa, os nomes de documento próprios de cada sistema.
 TRIB = os.environ.get("TRIB", "tjpa").lower()
-assert TRIB in ("tjpa", "tjrj"), TRIB
+assert TRIB in ("tjpa", "tjrj", "tjsc"), TRIB
 ALVOS = os.path.join("dados", "djen", "alvos_djen_%s.csv" % TRIB)
 FILA = os.path.join("dados", "codex_%s" % TRIB, "fila.csv")
 STATUS = os.path.join("dados", "codex_%s" % TRIB, "status.csv")
 MANIFESTO = os.path.join("textos", TRIB, "manifesto.csv")
 DIR = {"den": os.path.join("textos", TRIB, "denuncias"), "sent": os.path.join("textos", TRIB, "sentencas")}
 CUR = "/tmp/%s_cur.json" % TRIB
-SEMENTE = {"tjpa": 20261121, "tjrj": 20261122}[TRIB]
+# TJSC: semente da data do plano (22/11/2026) com o sufixo 4 da fase, para não repetir a do TJRJ
+SEMENTE = {"tjpa": 20261121, "tjrj": 20261122, "tjsc": 202611224}[TRIB]
 CAMPOS_STATUS = ["numero", "grupo", "status", "denuncia", "sentenca", "chamadas", "quando", "detalhe"]
 CAMPOS_MANIFESTO = ["numero", "papel", "documento_id", "parte", "nome", "data", "procedencia", "chars", "sha256", "lido_em"]
 
@@ -64,9 +65,22 @@ def fila():
         g1 = [a["numero"] for a in alvos if (a["acao_penal"] == "1" or a["apelacao"] == "1")
               and (a["data_sentenca_djen"] or a["apelacao"] == "1")]
         g2 = [a["numero"] for a in alvos if a["acao_penal"] == "1" and a["numero"] not in g1]
+        # TJSC: 320 das 386 ações sem sentença só aparecem no DJEN pelo edital de citação (réu em lugar
+        # incerto, tipo "Edital", "80" ou "EDITAL DE CITAÇÃO"); vão a um grupo 3, lido por último, para que
+        # parar no meio deixe uma subamostra aleatória desse estrato e não misture as duas populações
+        g3 = []
+        if TRIB == "tjsc":
+            ed = {"Edital", "80", "EDITAL DE CITAÇÃO"}
+            tipos = {}
+            for x in c.ler_csv(os.path.join("dados", "djen", "publicacoes_tjsc.csv")):
+                if x["codigoClasse"] in ("283", "10943", "10944", "417"):
+                    tipos.setdefault(x["numero"], set()).add(x["tipoDocumento"])
+            g3 = [n for n in g2 if tipos.get(n) and tipos[n] <= ed]
+            g2 = [n for n in g2 if n not in g3]
         rnd = random.Random(SEMENTE)
         rnd.shuffle(g1)
         rnd.shuffle(g2)
+        rnd.shuffle(g3)
         os.makedirs(os.path.dirname(FILA), exist_ok=True)
         with open(FILA, "w", newline="", encoding="utf-8") as f:
             w = csv.writer(f)
@@ -75,6 +89,8 @@ def fila():
                 w.writerow([k, 1, n])
             for k, n in enumerate(g2, len(g1) + 1):
                 w.writerow([k, 2, n])
+            for k, n in enumerate(g3, len(g1) + len(g2) + 1):
+                w.writerow([k, 3, n])
     return c.ler_csv(FILA)
 
 
@@ -112,14 +128,15 @@ def ler(arq):
 def cmd_prox():
     fs, fe = fila(), feitos()
     pend = [f for f in fs if f["numero"] not in fe]
-    ok = {g: sum(1 for f in fs if f["grupo"] == g and fe.get(f["numero"], {}).get("status") == "ok") for g in ("1", "2")}
-    tot = {g: sum(1 for f in fs if f["grupo"] == g) for g in ("1", "2")}
+    gs = sorted({f["grupo"] for f in fs} | {"1", "2"})
+    ok = {g: sum(1 for f in fs if f["grupo"] == g and fe.get(f["numero"], {}).get("status") == "ok") for g in gs}
+    tot = {g: sum(1 for f in fs if f["grupo"] == g) for g in gs}
     if not pend:
         print("FIM", ok)
         return
     p = pend[0]
-    print(p["numero"], "grupo", p["grupo"], "ordem", p["ordem"], "| ok g1 %d/%d, g2 %d/%d | tratados %d" %
-          (ok["1"], tot["1"], ok["2"], tot["2"], len(fe)))
+    print(p["numero"], "grupo", p["grupo"], "ordem", p["ordem"], "| ok " +
+          ", ".join("g%s %d/%d" % (g, ok[g], tot[g]) for g in gs) + " | tratados %d" % len(fe))
 
 
 def cmd_sel(num, specs):

@@ -1,0 +1,362 @@
+{
+ "parametros": {
+  "tribunal": "TJSC",
+  "inicio": "2020-01-01",
+  "fim": "2026-11-21",
+  "texto": false,
+  "so": null,
+  "entidades": true
+ },
+ "frases": {
+  "fraude eletrônica": {
+   "rotulo": "FE",
+   "publicacoes": 88
+  },
+  "fraude eletr&ocirc;nica": {
+   "rotulo": "FE",
+   "publicacoes": 625
+  },
+  "171, § 2º-A": {
+   "rotulo": "FE_amp",
+   "publicacoes": 285
+  },
+  "171, &sect; 2&ordm;-A": {
+   "rotulo": "FE_amp",
+   "publicacoes": 391
+  },
+  "art. 171, § 2º-A": {
+   "rotulo": "FE_amp",
+   "publicacoes": 109
+  },
+  "art. 171, &sect; 2&ordm;-A": {
+   "rotulo": "FE_amp",
+   "publicacoes": 214
+  },
+  "invasão de dispositivo informático": {
+   "rotulo": "INV",
+   "publicacoes": 3
+  },
+  "invas&atilde;o de dispositivo inform&aacute;tico": {
+   "rotulo": "INV",
+   "publicacoes": 14
+  },
+  "conta laranja": {
+   "rotulo": "CL",
+   "publicacoes": 9
+  },
+  "contas laranja": {
+   "rotulo": "CL",
+   "publicacoes": 4
+  },
+  "contas laranjas": {
+   "rotulo": "CL",
+   "publicacoes": 2
+  },
+  "cessão de conta": {
+   "rotulo": "CL",
+   "publicacoes": 0
+  },
+  "cess&atilde;o de conta": {
+   "rotulo": "CL",
+   "publicacoes": 4
+  },
+  "cessão de contas": {
+   "rotulo": "CL",
+   "publicacoes": 11
+  },
+  "cess&atilde;o de contas": {
+   "rotulo": "CL",
+   "publicacoes": 3
+  },
+  "estelionato eletrônico": {
+   "rotulo": "EE",
+   "publicacoes": 0
+  },
+  "estelionato eletr&ocirc;nico": {
+   "rotulo": "EE",
+   "publicacoes": 23
+  }
+ },
+ "janelas": [
+  [
+   "fraude eletrônica",
+   "2020-01-01",
+   "2026-11-21",
+   88
+  ],
+  [
+   "fraude eletr&ocirc;nica",
+   "2020-01-01",
+   "2026-11-21",
+   625
+  ],
+  [
+   "171, § 2º-A",
+   "2020-01-01",
+   "2026-11-21",
+   285
+  ],
+  [
+   "171, &sect; 2&ordm;-A",
+   "2020-01-01",
+   "2026-11-21",
+   391
+  ],
+  [
+   "art. 171, § 2º-A",
+   "2020-01-01",
+   "2026-11-21",
+   109
+  ],
+  [
+   "art. 171, &sect; 2&ordm;-A",
+   "2020-01-01",
+   "2026-11-21",
+   214
+  ],
+  [
+   "invasão de dispositivo informático",
+   "2020-01-01",
+   "2026-11-21",
+   3
+  ],
+  [
+   "invas&atilde;o de dispositivo inform&aacute;tico",
+   "2020-01-01",
+   "2026-11-21",
+   14
+  ],
+  [
+   "conta laranja",
+   "2020-01-01",
+   "2026-11-21",
+   9
+  ],
+  [
+   "contas laranja",
+   "2020-01-01",
+   "2026-11-21",
+   4
+  ],
+  [
+   "contas laranjas",
+   "2020-01-01",
+   "2026-11-21",
+   2
+  ],
+  [
+   "cessão de conta",
+   "2020-01-01",
+   "2026-11-21",
+   0
+  ],
+  [
+   "cess&atilde;o de conta",
+   "2020-01-01",
+   "2026-11-21",
+   4
+  ],
+  [
+   "cessão de contas",
+   "2020-01-01",
+   "2026-11-21",
+   11
+  ],
+  [
+   "cess&atilde;o de contas",
+   "2020-01-01",
+   "2026-11-21",
+   3
+  ],
+  [
+   "estelionato eletrônico",
+   "2020-01-01",
+   "2026-11-21",
+   0
+  ],
+  [
+   "estelionato eletr&ocirc;nico",
+   "2020-01-01",
+   "2026-11-21",
+   23
+  ]
+ ],
+ "por_rotulo": {
+  "FE": {
+   "publicacoes": 713,
+   "acoes_penais": 121,
+   "com_sentenca": 4,
+   "apelacoes": 8
+  },
+  "FE_amp": {
+   "publicacoes": 676,
+   "acoes_penais": 421,
+   "com_sentenca": 60,
+   "apelacoes": 7
+  },
+  "CL": {
+   "publicacoes": 33,
+   "acoes_penais": 0,
+   "com_sentenca": 0,
+   "apelacoes": 0
+  },
+  "EE": {
+   "publicacoes": 23,
+   "acoes_penais": 9,
+   "com_sentenca": 0,
+   "apelacoes": 1
+  },
+  "INV": {
+   "publicacoes": 17,
+   "acoes_penais": 2,
+   "com_sentenca": 1,
+   "apelacoes": 0
+  }
+ },
+ "publicacoes_distintas": 1283,
+ "processos_por_classe": {
+  "283 AçãO PENAL - PROCEDIMENTO ORDINáRIO": 440,
+  "7 PROCEDIMENTO COMUM CíVEL": 212,
+  "156 CUMPRIMENTO DE SENTENçA": 32,
+  "157 CUMPRIMENTO PROVISóRIO DE SENTENçA": 1,
+  "436 PROCEDIMENTO DO JUIZADO ESPECIAL CíVEL": 98,
+  "10944 AçãO PENAL - PROCEDIMENTO SUMARíSSIMO": 2,
+  "198 APELAçãO CíVEL": 65,
+  "460 RECURSO INOMINADO CíVEL": 43,
+  "307 HABEAS CORPUS CRIMINAL": 19,
+  "272 REPRESENTAçãO CRIMINAL/NOTíCIA DE CRIME": 8,
+  "417 APELAçãO CRIMINAL": 10,
+  "1294 OUTROS PROCEDIMENTOS DE JURISDIçãO VOLUNTáRIA": 1,
+  "12134 TUTELA CAUTELAR ANTECEDENTE": 6,
+  "12135 TUTELA ANTECIPADA ANTECEDENTE": 4,
+  "202 AGRAVO DE INSTRUMENTO": 44,
+  "279 INQUéRITO POLICIAL": 13,
+  "310 PEDIDO DE QUEBRA DE SIGILO DE DADOS E/OU TELEFôNICO": 1,
+  "193 PRODUçãO ANTECIPADA DA PROVA": 3,
+  "1727 PETIçãO CRIMINAL": 5,
+  "241 PETIçãO CíVEL": 6,
+  "81 BUSCA E APREENSãO EM ALIENAçãO FIDUCIáRIA": 1,
+  "14695 Procedimento do Juizado Especial da Fazenda Pública": 1,
+  "326 RESTITUIçãO DE COISAS APREENDIDAS": 4,
+  "278 TERMO CIRCUNSTANCIADO": 1,
+  "1710 MANDADO DE SEGURANçA CRIMINAL": 1,
+  "305 LIBERDADE PROVISóRIA COM OU SEM FIANçA": 3,
+  "12154 EXECUçãO DE TíTULO EXTRAJUDICIAL": 1,
+  "300 PROCEDIMENTO ESPECIAL DA LEI ANTITóXICOS": 3,
+  "282 AçãO PENAL DE COMPETêNCIA DO JúRI": 1,
+  "10943 AçãO PENAL - PROCEDIMENTO SUMáRIO": 5,
+  "12394 REVISãO CRIMINAL": 2,
+  "11955 CAUTELAR INOMINADA CRIMINAL": 1,
+  "288 CRIMES DE CALúNIA, INJúRIA E DIFAMAçãO DE COMPETêNCIA DO JUIZ SINGULAR": 1,
+  "52 ALIENAçãO JUDICIAL DE BENS": 1,
+  "120 MANDADO DE SEGURANçA CíVEL": 10,
+  "1728 APELAçãO / REMESSA NECESSáRIA": 1
+ },
+ "alvos": {
+  "processos": 467,
+  "acao_penal": 447,
+  "apelacao": 10,
+  "acao_penal_ou_apelacao": 454,
+  "so_apelacao": 7,
+  "com_sentenca_djen": 61,
+  "sentenca_ou_apelacao": 68,
+  "inquerito": 13,
+  "flagrante": 0
+ },
+ "sondagem_20261122": {
+  "nota": "contagens da API do DJEN, siglaTribunal=TJSC, pelo navegador embutido; meses fecham no último dia, novembro de 2026 até o dia 21",
+  "controle_por_ano": {
+   "estelionato": {
+    "2021": 20,
+    "2022": 48,
+    "2023": 65,
+    "2024": 77,
+    "2025": 1590,
+    "2026": 1797
+   },
+   "fraude eletrônica (acentuada)": {
+    "2021": 0,
+    "2022": 0,
+    "2023": 0,
+    "2024": 30,
+    "2025": 30,
+    "2026": 28
+   }
+  },
+  "controle_estelionato_por_mes": {
+   "2024-01": 4,
+   "2024-02": 6,
+   "2024-03": 7,
+   "2024-04": 6,
+   "2024-05": 12,
+   "2024-06": 6,
+   "2024-07": 3,
+   "2024-08": 7,
+   "2024-09": 9,
+   "2024-10": 6,
+   "2024-11": 5,
+   "2024-12": 6,
+   "2025-01": 1,
+   "2025-02": 2,
+   "2025-03": 3,
+   "2025-04": 6,
+   "2025-05": 61,
+   "2025-06": 143,
+   "2025-07": 203,
+   "2025-08": 322,
+   "2025-09": 248,
+   "2025-10": 231,
+   "2025-11": 183,
+   "2025-12": 187,
+   "2026-01": 157,
+   "2026-02": 183,
+   "2026-03": 200,
+   "2026-04": 162,
+   "2026-05": 160,
+   "2026-06": 142,
+   "2026-07": 187,
+   "2026-08": 158,
+   "2026-09": 177,
+   "2026-10": 154,
+   "2026-11": 117
+  },
+  "entidades_2025": {
+   "fraude eletrônica": 30,
+   "fraude eletronica": 30,
+   "fraude eletr&ocirc;nica": 74,
+   "fraude eletr&#244;nica (2020-2026)": 1,
+   "171, § 2º-A": 114,
+   "171, &sect; 2&ordm;-A": 85,
+   "invasão de dispositivo informático": 1,
+   "invas&atilde;o de dispositivo inform&aacute;tico (2020-2026)": 14,
+   "TJPA, fraude eletrônica": 301,
+   "TJPA, fraude eletr&ocirc;nica": 0
+  },
+  "variantes_2020_2026": {
+   "FRAUDE ELETR&Ocirc;NICA": 625,
+   "171, &sect;2&ordm;-A": 391,
+   "171, &sect; 2&ordm;-a": 391,
+   "171, &sect; 2&deg;-A (fora da coleta)": 28,
+   "154-A (fora da coleta)": 247
+  },
+  "tipos_publicacao_criminal": {
+   "ate_2025_04": {
+    "80": 152
+   },
+   "desde_2025_05": {
+    "Edital": 227,
+    "DESPACHO/DECISÃO": 166,
+    "80": 70,
+    "Sentença": 54,
+    "Acórdão": 3,
+    "EDITAL DE CITAÇÃO": 3
+   }
+  },
+  "fila": {
+   "grupo_1": 68,
+   "grupo_2": 66,
+   "grupo_3_so_edital": 320,
+   "semente": 202611224
+  }
+ }
+}
