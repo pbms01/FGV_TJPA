@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>O Celta anunciado na OLX</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f3f5f7;
+  --surface: #ffffff;
+  --ink: #18212b;
+  --muted: #5a6573;
+  --line: #d9dee4;
+  --accent: #1d4f73;
+  --accent-soft: #e6eef4;
+  --ok: #2f6b4f;
+  --ok-soft: #e7f1ec;
+  --del: #8a2f2f;
+  --font-display: "Literata", Georgia, "Times New Roman", serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #12171d; --surface: #1a2129; --ink: #e4e9ee; --muted: #9aa6b3; --line: #2c3641;
+    --accent: #7fb3d9; --accent-soft: #1e2e3b; --ok: #7cc4a0; --ok-soft: #18302a; --del: #e08a8a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #12171d; --surface: #1a2129; --ink: #e4e9ee; --muted: #9aa6b3; --line: #2c3641;
+  --accent: #7fb3d9; --accent-soft: #1e2e3b; --ok: #7cc4a0; --ok-soft: #18302a; --del: #e08a8a;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 16px; line-height: 1.6; }
+.wrap { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; display: grid; gap: 28px; }
+header { display: grid; gap: 10px; }
+.eyebrow { font-family: var(--font-mono); font-size: 12.5px; letter-spacing: 0.04em; color: var(--muted); text-transform: uppercase; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 600; text-wrap: balance; margin: 0; line-height: 1.25; }
+h1 { font-size: 30px; } h2 { font-size: 21px; } h3 { font-size: 18px; }
+p { margin: 0; max-width: 65ch; }
+.lead { color: var(--muted); }
+.status { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+.chip { font-family: var(--font-mono); font-size: 13px; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--muted); }
+.chip.done { border-color: var(--ok); color: var(--ok); background: var(--ok-soft); }
+section.caso { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 22px; display: grid; gap: 14px; }
+dl { margin: 0; display: grid; gap: 10px; }
+dl div { display: grid; grid-template-columns: 120px 1fr; gap: 12px; }
+dt { font-weight: 600; color: var(--muted); font-size: 14.5px; padding-top: 1px; }
+dd { margin: 0; max-width: 60ch; }
+@media (max-width: 520px) { dl div { grid-template-columns: 1fr; gap: 2px; } }
+.questoes { display: grid; gap: 20px; }
+article.q { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--line); border-radius: 10px; padding: 22px; display: grid; gap: 14px; }
+article.q.answered { border-left-color: var(--ok); }
+.qhead { display: flex; gap: 12px; align-items: baseline; }
+.qnum { font-family: var(--font-mono); font-size: 13px; color: var(--accent); flex: none; }
+label.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+textarea { width: 100%; min-height: 130px; resize: vertical; padding: 12px 14px; font: inherit; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; }
+textarea:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+textarea[readonly] { opacity: 0.85; }
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; justify-content: space-between; }
+.count { font-family: var(--font-mono); font-size: 12.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+button { font: inherit; font-weight: 600; font-size: 15px; padding: 9px 16px; border-radius: 8px; border: 1px solid var(--accent); background: var(--accent); color: var(--surface); cursor: pointer; }
+button:disabled { opacity: 0.45; cursor: not-allowed; }
+button.ghost { background: transparent; color: var(--accent); }
+.gabarito { display: grid; gap: 12px; background: var(--ok-soft); border: 1px solid var(--ok); border-radius: 8px; padding: 18px; }
+.gabarito h3 { color: var(--ok); font-size: 16px; font-family: var(--font-body); }
+.lei { font-family: var(--font-display); font-size: 15px; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px; }
+.lei small { display: block; margin-top: 6px; font-family: var(--font-body); font-size: 13px; color: var(--muted); }
+.base { font-size: 14.5px; color: var(--muted); }
+fieldset { border: 0; margin: 0; padding: 0; display: grid; gap: 6px; }
+legend { font-weight: 600; font-size: 14.5px; margin-bottom: 6px; }
+.ponto { display: flex; gap: 10px; align-items: flex-start; }
+.ponto input { margin-top: 5px; width: 16px; height: 16px; accent-color: var(--ok); flex: none; }
+.placar { font-family: var(--font-mono); font-size: 13px; color: var(--ok); font-variant-numeric: tabular-nums; }
+section.sintese { border: 1px dashed var(--line); border-radius: 10px; padding: 22px; display: grid; gap: 12px; }
+section.sintese.open { border-style: solid; border-color: var(--accent); background: var(--accent-soft); }
+section.sintese ul { margin: 0; padding-left: 20px; display: grid; gap: 8px; max-width: 65ch; }
+footer { font-size: 13.5px; color: var(--muted); display: grid; gap: 10px; }
+@media (prefers-reduced-motion: no-preference) {
+  .gabarito:not([hidden]) { animation: abre 220ms ease-out; }
+  @keyframes abre { from { opacity: 0.4; transform: translateY(-3px); } to { opacity: 1; transform: none; } }
+}
+
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <div class="eyebrow">Identidade digital e anonimato · Par TJSP · Caso de contraste</div>
+    <h1>O Celta anunciado na OLX</h1>
+    <p class="lead">Leia o caso e responda às três questões. O gabarito de cada uma aparece quando você envia a sua resposta. Depois, marque os pontos que a sua resposta cobriu.</p>
+    <div class="status">
+      <span class="chip" id="progresso" aria-live="polite">0 de 3 respondidas</span>
+      <button type="button" class="ghost" id="recomecar">Recomeçar</button>
+    </div>
+  </header>
+
+  <section class="caso" aria-labelledby="t-caso">
+    <h2 id="t-caso">O caso</h2>
+    <p>Golpe da triangulação. Com os dados do dono de um carro obtidos nas redes sociais, os golpistas anunciaram o veículo na OLX. Para a compradora, apresentaram-se como o vendedor; para o dono, como interessados na compra. O dono levou o carro à compradora, que o fez vistoriar e, no cartório, transferiu R$ 7.900,00: R$ 200,00 para a conta de um denunciado e R$ 7.700,00 para a conta da outra denunciada numa instituição de pagamento. O dono não recebeu nada.</p>
+    <p>Na polícia, a titular da conta maior negou tudo: nunca esteve no estado, perdeu os documentos havia cinco anos e nunca abriu conta naquela instituição. A denúncia respondeu que os documentos apresentados por ela à polícia e os da instituição eram idênticos. A resposta da instituição mostrou ainda que, da conta, saíram R$ 2.800,00 para um boleto e R$ 4.900,00 por Pix para outra conta em nome da própria titular.</p>
+    <dl>
+      <div><dt>Datas</dt><dd>Fato em fevereiro de 2022; denúncia em maio de 2025; sentença em julho de 2026; trânsito em julgado em setembro de 2026 (TJSP).</dd></div>
+      <div><dt>Denúncia</dt><dd>Art. 171, §§2º-A e 4º, do Código Penal, contra os dois titulares, a quem atribui fornecer as contas e os dados pessoais. ANPP recusado pela pena mínima; pedido de bloqueio de R$ 7.900,00 e de reparação do mesmo valor.</dd></div>
+      <div><dt>Instrução</dt><dd>Em juízo, a titular disse que a conta foi dela, mas foi bloqueada e invadida. O outro denunciado foi revel. O MP pediu a desclassificação para o inciso VII do §2º do art. 171.</dd></div>
+      <div><dt>Sentença</dt><dd>Condenação dos dois no art. 171, §2º, VII, como lei mais benéfica: 1 ano de reclusão, substituída, e reparação dividida pelo que entrou em cada conta.</dd></div>
+    </dl>
+  </section>
+
+  <div class="questoes">
+    <article class="q" id="q1" aria-labelledby="t-q1">
+      <div class="qhead"><span class="qnum">1 de 3</span><h3 id="t-q1">A titular disse ter perdido os documentos e nunca ter aberto a conta. O que derrubou essa versão, e havia nos autos um dado ainda mais forte?</h3></div>
+      <label class="sr" for="r1">Sua resposta à questão 1</label>
+      <textarea id="r1" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c1">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b1" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g1" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>Derrubou a versão a prova da abertura: os documentos que a titular apresentou à polícia eram os mesmos que estavam na instituição. A negativa de abertura caiu, e a versão em juízo mudou para conta própria, bloqueada e invadida.</p>
+        <p>O dado mais forte, que a sentença não usou, estava na resposta da instituição: metade do dinheiro foi por Pix para outra conta em nome da própria titular. Isso fala de controle da conta pela titular, e não só de titularidade.</p>
+
+        <p class="base">Na base (38 denúncias do TJSP em que o titular nega ou não reconhece a conta): com documentos ou ficha de abertura, 5 de 5 terminaram em condenação; com selfie ou biometria da abertura, 12 de 13.</p>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" data-q="1"> Apontou os documentos de abertura coincidentes como resposta à negativa.</label>
+          <label class="ponto"><input type="checkbox" data-q="1"> Percebeu a mudança da versão entre a polícia e o juízo.</label>
+          <label class="ponto"><input type="checkbox" data-q="1"> Identificou o Pix para outra conta da própria titular.</label>
+          <label class="ponto"><input type="checkbox" data-q="1"> Distinguiu controle da conta de simples titularidade.</label>
+        </fieldset>
+        <span class="placar" id="s1">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+    <article class="q" id="q2" aria-labelledby="t-q2">
+      <div class="qhead"><span class="qnum">2 de 3</span><h3 id="t-q2">A sentença diz não haver prova cabal de que os réus soubessem que concorriam para o estelionato e, ainda assim, condena no inciso VII. A conclusão é coerente com o tipo?</h3></div>
+      <label class="sr" for="r2">Sua resposta à questão 2</label>
+      <textarea id="r2" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c2">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b2" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g2" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>O inciso VII pune quem cede, gratuita ou onerosamente, conta bancária para que nela transitem recursos destinados ao financiamento de atividade criminosa ou que dela sejam fruto. Há duas questões. A primeira é de fato: os autos provam a titularidade e o recebimento, mas não narram nenhum ato de cessão (a quem, quando, por quanto). A segunda é de tipo: a expressão para que pede que a cessão se faça para esse trânsito, e a sentença afasta a prova da ciência quanto ao estelionato.</p>
+        <p>A discussão admite as duas leituras: ou a sentença supriu o elemento subjetivo com o recebimento, ou o tipo novo foi usado como desclassificação de conveniência entre o §2º-A e a absolvição. O Pix para a própria titular aponta para uma terceira hipótese, a de participação no golpe, que a acusação abandonou ao pedir o inciso VII.</p>
+
+        <p class="base">Na base, só 4 denúncias ou sentenças narram que o titular cedeu documentos, dados pessoais ou selfie, ou abriu a conta a pedido de outro; nas demais, a cessão é inferida do registro.</p>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" data-q="2"> Separou a titularidade provada do ato de cessão não narrado.</label>
+          <label class="ponto"><input type="checkbox" data-q="2"> Examinou o elemento para que do inciso VII.</label>
+          <label class="ponto"><input type="checkbox" data-q="2"> Relacionou a falta de prova da ciência ao elemento subjetivo do tipo.</label>
+          <label class="ponto"><input type="checkbox" data-q="2"> Considerou o Pix para a própria titular como indício de participação.</label>
+        </fieldset>
+        <span class="placar" id="s2">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+    <article class="q" id="q3" aria-labelledby="t-q3">
+      <div class="qhead"><span class="qnum">3 de 3</span><h3 id="t-q3">A sentença dividiu a reparação pelo que entrou em cada conta, deixou o dono do carro sem reparação e não examinou a causa de aumento do §4º, imputada na denúncia. O que ela acertou e o que ficou em aberto?</h3></div>
+      <label class="sr" for="r3">Sua resposta à questão 3</label>
+      <textarea id="r3" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c3">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b3" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g3" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>Acertou ao limitar a reparação de cada réu ao que entrou na conta dele: R$ 7.700,00 para a titular e R$ 200,00 para o outro denunciado. A regra, na base, é o valor inteiro do golpe.</p>
+        <p>Ficaram em aberto dois pontos. O dono do carro também foi enganado e teve despesas, mas a reparação dele não foi pedida na denúncia, e a sentença o mandou às vias ordinárias. E a causa de aumento do §4º, imputada, não foi examinada nem afastada expressamente.</p>
+
+        <p class="base">Na base, a reparação recai sobre o titular pelo valor inteiro em 19 de 31 sentenças FE, e só 8 a limitam ao que entrou na conta.</p>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" data-q="3"> Reconheceu o acerto da limitação da reparação por conta.</label>
+          <label class="ponto"><input type="checkbox" data-q="3"> Notou que a vítima secundária ficou sem reparação por falta de pedido.</label>
+          <label class="ponto"><input type="checkbox" data-q="3"> Apontou a causa de aumento imputada e não examinada.</label>
+          <label class="ponto"><input type="checkbox" data-q="3"> Relacionou o pedido da denúncia ao alcance da reparação do art. 387, IV, do CPP.</label>
+        </fieldset>
+        <span class="placar" id="s3">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+  </div>
+
+  <section class="sintese" id="sintese" aria-labelledby="t-sintese" aria-live="polite">
+    <h2 id="t-sintese">O que o caso acrescenta à decisão</h2>
+    <p id="sintese-espera">A síntese aparece quando as três questões estiverem respondidas.</p>
+    <ul id="sintese-lista" hidden>
+      <li>Na autoria, a prova da abertura responde à negativa de quem diz não ter aberto a conta, mas não prova, sozinha, o ato de cessão.</li>
+      <li>No tipo, o inciso VII não dispensa narrar a cessão e o seu fim; sem isso, ele vira um meio-termo entre o §2º-A e a absolvição.</li>
+      <li>Na reparação, cada réu responde pelo que entrou na conta dele, e a vítima que a denúncia não nomeia fica fora.</li>
+      <li>Comparado ao caso âncora, o mesmo tipo de negativa, contra a mesma instituição, mudou de desfecho conforme a instituição pôde ou não mostrar quem abriu a conta.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Caso de uma ação penal do TJSP, com cota, denúncia e sentença lidas por inteiro e anonimizadas. Os números vêm da base de pesquisa de 198 denúncias e suas sentenças.</p>
+    <p>As respostas ficam só nesta página e se perdem ao recarregá-la.</p>
+  </footer>
+</main>
+
+<script>
+(function () {
+  var MIN = 40;
+  var respondidas = { 1: false, 2: false, 3: false };
+  function el(id) { return document.getElementById(id); }
+  function atualizaProgresso() {
+    var n = Object.keys(respondidas).filter(function (k) { return respondidas[k]; }).length;
+    var chip = el("progresso");
+    chip.textContent = n + " de 3 respondidas";
+    chip.classList.toggle("done", n === 3);
+    var aberta = n === 3;
+    el("sintese").classList.toggle("open", aberta);
+    el("sintese-lista").hidden = !aberta;
+    el("sintese-espera").hidden = aberta;
+  }
+  function atualizaPlacar(q) {
+    var caixas = document.querySelectorAll('input[data-q="' + q + '"]');
+    var marcados = Array.prototype.filter.call(caixas, function (c) { return c.checked; }).length;
+    el("s" + q).textContent = marcados + " de " + caixas.length + " pontos marcados";
+  }
+  [1, 2, 3].forEach(function (q) {
+    var campo = el("r" + q), botao = el("b" + q), conta = el("c" + q);
+    campo.addEventListener("input", function () {
+      var n = campo.value.trim().length;
+      conta.textContent = n + (n === 1 ? " caractere" : " caracteres") + " · mínimo de " + MIN;
+      botao.disabled = n < MIN;
+    });
+    botao.addEventListener("click", function () {
+      if (campo.value.trim().length < MIN) return;
+      campo.readOnly = true;
+      botao.disabled = true;
+      botao.textContent = "Resposta enviada";
+      el("g" + q).hidden = false;
+      el("q" + q).classList.add("answered");
+      respondidas[q] = true;
+      atualizaProgresso();
+    });
+    document.querySelectorAll('input[data-q="' + q + '"]').forEach(function (c) {
+      c.addEventListener("change", function () { atualizaPlacar(q); });
+    });
+  });
+  el("recomecar").addEventListener("click", function () {
+    [1, 2, 3].forEach(function (q) {
+      var campo = el("r" + q), botao = el("b" + q);
+      campo.value = "";
+      campo.readOnly = false;
+      botao.disabled = true;
+      botao.textContent = "Responder e ver o gabarito";
+      el("c" + q).textContent = "0 caracteres · mínimo de " + MIN;
+      el("g" + q).hidden = true;
+      el("q" + q).classList.remove("answered");
+      document.querySelectorAll('input[data-q="' + q + '"]').forEach(function (c) { c.checked = false; });
+      atualizaPlacar(q);
+      respondidas[q] = false;
+    });
+    atualizaProgresso();
+    el("r1").focus();
+  });
+})();
+
+</script>
+</body>
+</html>

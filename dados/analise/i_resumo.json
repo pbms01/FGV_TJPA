@@ -1,0 +1,207 @@
+{
+ "I1": {
+  "fraude": 164,
+  "identidade_meio": {
+   "CL": {
+    "não usa identidade alheia": 14,
+    "fictícia": 13,
+    "instituição": 11,
+    "pessoa real": 12
+   },
+   "FE": {
+    "pessoa real": 26,
+    "fictícia": 45,
+    "instituição": 26,
+    "não usa identidade alheia": 17
+   }
+  },
+  "identidade_meio_total": {
+   "não usa identidade alheia": 31,
+   "fictícia": 58,
+   "instituição": 37,
+   "pessoa real": 38
+  },
+  "capitulacao_por_identidade": {
+   "pessoa real": {
+    "171 outro": 9,
+    "171 §2º-A": 29
+   },
+   "instituição": {
+    "171 outro": 4,
+    "171 §2º-A": 30,
+    "155 §4º-B": 1,
+    "155 outro": 1,
+    "180": 1
+   },
+   "fictícia": {
+    "180": 1,
+    "171 outro": 9,
+    "171 §2º-A": 48
+   }
+  },
+  "instrumento": {
+   "CL 42": "linha habilitada com dados de terceiro para o perfil da falsa filha",
+   "CL 22": "linha pré-paga habilitada em nome de terceiro",
+   "FE 66": "dois números cadastrados em nome de terceiros",
+   "FE 7": "linha habilitada com dados de terceiro",
+   "CL 15": "cartões bancários em nome de terceiros apreendidos",
+   "FE 29": "cartão bancário em nome de terceira pessoa apreendido",
+   "FE 6": "dados de terceiros e de empresas para compras fraudulentas",
+   "FE 102": "dados pessoais de terceiros obtidos na internet para compras"
+  },
+  "cap_307_na_denuncia": [],
+  "imputacao_autonoma": {
+   "INV 4": "denúncia capitulou 304 c/c 297 a falsa identidade da locação; a sentença deu ao fato a definição do art. 307 (art. 383 do CPP) e absolveu por consunção, como etapa necessária do estelionato; condenou pelo 297, §1º, do holerite falso, como falso autônomo com potencialidade além da locação; absolveu do 299 (386, III)",
+   "FE 122": "falsa central presencial: denúncia imputou também o 328, p. ú., e o 304 c/c 297; absolvição nesses dois, porque o réu só se apresentou verbalmente como funcionário; condenação no 171, §2º-A"
+  }
+ },
+ "I2": {
+  "cessao": {
+   "titular cedeu documentos, dados pessoais ou selfie, ou abriu conta a pedido": [
+    "CL 23",
+    "CL 39",
+    "FE 14",
+    "FE 41"
+   ],
+   "vítima entregou documentos, dados pessoais ou selfie ao golpista": [
+    "CL 21",
+    "CL 36",
+    "CL 45",
+    "CL 48",
+    "FE 126",
+    "FE 127",
+    "FE 24",
+    "FE 70",
+    "FE 90"
+   ],
+   "mercado de dados de terceiros narrado": [
+    "INV 36",
+    "INV 4"
+   ]
+  },
+  "cap_308": []
+ },
+ "I3": {
+  "so_conta": 101,
+  "negativas": 38,
+  "abertura_negativas": {
+   "só titularidade, extrato ou cadastro": 15,
+   "nada sobre a conta": 3,
+   "selfie ou biometria da abertura nos autos": 13,
+   "documentos ou ficha de abertura, sem selfie": 5,
+   "instituição não colheu ou não achou foto ou documento": 2
+  },
+  "abertura_demais_triagem": {
+   "triagem: dado cadastral, titularidade ou extrato": 40,
+   "triagem: selfie, biometria ou reconhecimento facial": 14,
+   "triagem: documentos ou ficha de abertura": 7,
+   "triagem: nada sobre a abertura": 2
+  }
+ },
+ "I4": {
+  "selfie ou biometria da abertura nos autos": {
+   "n": 13,
+   "com_sentenca": 13,
+   "condena": 12,
+   "absolve": 1,
+   "casos": [
+    "CL 19",
+    "CL 22",
+    "CL 27",
+    "CL 33",
+    "CL 47",
+    "CL 58",
+    "FE 119",
+    "FE 45",
+    "FE 47",
+    "FE 74",
+    "FE 75",
+    "FE 96",
+    "FE 98"
+   ]
+  },
+  "documentos ou ficha de abertura, sem selfie": {
+   "n": 5,
+   "com_sentenca": 5,
+   "condena": 5,
+   "absolve": 0,
+   "casos": [
+    "CL 28",
+    "CL 43",
+    "FE 124",
+    "FE 36",
+    "FE 77"
+   ]
+  },
+  "instituição não colheu ou não achou foto ou documento": {
+   "n": 2,
+   "com_sentenca": 2,
+   "condena": 0,
+   "absolve": 2,
+   "casos": [
+    "FE 114",
+    "FE 4"
+   ]
+  },
+  "só titularidade, extrato ou cadastro": {
+   "n": 15,
+   "com_sentenca": 14,
+   "condena": 11,
+   "absolve": 3,
+   "casos": [
+    "CL 38",
+    "CL 4",
+    "CL 41",
+    "CL 42",
+    "CL 6",
+    "FE 106",
+    "FE 113",
+    "FE 16",
+    "FE 26",
+    "FE 64",
+    "FE 70",
+    "FE 76",
+    "FE 89",
+    "FE 90",
+    "FE 94"
+   ]
+  },
+  "nada sobre a conta": {
+   "n": 3,
+   "com_sentenca": 3,
+   "condena": 2,
+   "absolve": 1,
+   "casos": [
+    "CL 50",
+    "FE 41",
+    "FE 92"
+   ]
+  },
+  "abertura documentada (A+B)": {
+   "n": 18,
+   "com_sentenca": 18,
+   "condena": 17,
+   "absolve": 1,
+   "casos": [
+    "CL 19",
+    "CL 22",
+    "CL 27",
+    "CL 28",
+    "CL 33",
+    "CL 43",
+    "CL 47",
+    "CL 58",
+    "FE 119",
+    "FE 124",
+    "FE 36",
+    "FE 45",
+    "FE 47",
+    "FE 74",
+    "FE 75",
+    "FE 77",
+    "FE 96",
+    "FE 98"
+   ]
+  }
+ }
+}

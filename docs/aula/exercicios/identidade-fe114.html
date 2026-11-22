@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>O investidor do perfil clonado</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f3f5f7;
+  --surface: #ffffff;
+  --ink: #18212b;
+  --muted: #5a6573;
+  --line: #d9dee4;
+  --accent: #1d4f73;
+  --accent-soft: #e6eef4;
+  --ok: #2f6b4f;
+  --ok-soft: #e7f1ec;
+  --del: #8a2f2f;
+  --font-display: "Literata", Georgia, "Times New Roman", serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #12171d; --surface: #1a2129; --ink: #e4e9ee; --muted: #9aa6b3; --line: #2c3641;
+    --accent: #7fb3d9; --accent-soft: #1e2e3b; --ok: #7cc4a0; --ok-soft: #18302a; --del: #e08a8a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #12171d; --surface: #1a2129; --ink: #e4e9ee; --muted: #9aa6b3; --line: #2c3641;
+  --accent: #7fb3d9; --accent-soft: #1e2e3b; --ok: #7cc4a0; --ok-soft: #18302a; --del: #e08a8a;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 16px; line-height: 1.6; }
+.wrap { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; display: grid; gap: 28px; }
+header { display: grid; gap: 10px; }
+.eyebrow { font-family: var(--font-mono); font-size: 12.5px; letter-spacing: 0.04em; color: var(--muted); text-transform: uppercase; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 600; text-wrap: balance; margin: 0; line-height: 1.25; }
+h1 { font-size: 30px; } h2 { font-size: 21px; } h3 { font-size: 18px; }
+p { margin: 0; max-width: 65ch; }
+.lead { color: var(--muted); }
+.status { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+.chip { font-family: var(--font-mono); font-size: 13px; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--muted); }
+.chip.done { border-color: var(--ok); color: var(--ok); background: var(--ok-soft); }
+section.caso { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 22px; display: grid; gap: 14px; }
+dl { margin: 0; display: grid; gap: 10px; }
+dl div { display: grid; grid-template-columns: 120px 1fr; gap: 12px; }
+dt { font-weight: 600; color: var(--muted); font-size: 14.5px; padding-top: 1px; }
+dd { margin: 0; max-width: 60ch; }
+@media (max-width: 520px) { dl div { grid-template-columns: 1fr; gap: 2px; } }
+.questoes { display: grid; gap: 20px; }
+article.q { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--line); border-radius: 10px; padding: 22px; display: grid; gap: 14px; }
+article.q.answered { border-left-color: var(--ok); }
+.qhead { display: flex; gap: 12px; align-items: baseline; }
+.qnum { font-family: var(--font-mono); font-size: 13px; color: var(--accent); flex: none; }
+label.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+textarea { width: 100%; min-height: 130px; resize: vertical; padding: 12px 14px; font: inherit; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; }
+textarea:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+textarea[readonly] { opacity: 0.85; }
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; justify-content: space-between; }
+.count { font-family: var(--font-mono); font-size: 12.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+button { font: inherit; font-weight: 600; font-size: 15px; padding: 9px 16px; border-radius: 8px; border: 1px solid var(--accent); background: var(--accent); color: var(--surface); cursor: pointer; }
+button:disabled { opacity: 0.45; cursor: not-allowed; }
+button.ghost { background: transparent; color: var(--accent); }
+.gabarito { display: grid; gap: 12px; background: var(--ok-soft); border: 1px solid var(--ok); border-radius: 8px; padding: 18px; }
+.gabarito h3 { color: var(--ok); font-size: 16px; font-family: var(--font-body); }
+.lei { font-family: var(--font-display); font-size: 15px; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px; }
+.lei small { display: block; margin-top: 6px; font-family: var(--font-body); font-size: 13px; color: var(--muted); }
+.base { font-size: 14.5px; color: var(--muted); }
+fieldset { border: 0; margin: 0; padding: 0; display: grid; gap: 6px; }
+legend { font-weight: 600; font-size: 14.5px; margin-bottom: 6px; }
+.ponto { display: flex; gap: 10px; align-items: flex-start; }
+.ponto input { margin-top: 5px; width: 16px; height: 16px; accent-color: var(--ok); flex: none; }
+.placar { font-family: var(--font-mono); font-size: 13px; color: var(--ok); font-variant-numeric: tabular-nums; }
+section.sintese { border: 1px dashed var(--line); border-radius: 10px; padding: 22px; display: grid; gap: 12px; }
+section.sintese.open { border-style: solid; border-color: var(--accent); background: var(--accent-soft); }
+section.sintese ul { margin: 0; padding-left: 20px; display: grid; gap: 8px; max-width: 65ch; }
+footer { font-size: 13.5px; color: var(--muted); display: grid; gap: 10px; }
+@media (prefers-reduced-motion: no-preference) {
+  .gabarito:not([hidden]) { animation: abre 220ms ease-out; }
+  @keyframes abre { from { opacity: 0.4; transform: translateY(-3px); } to { opacity: 1; transform: none; } }
+}
+
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <div class="eyebrow">Identidade digital e anonimato · Par TJSP · Caso âncora</div>
+    <h1>O investidor do perfil clonado</h1>
+    <p class="lead">Leia o caso e responda às três questões. O gabarito de cada uma aparece quando você envia a sua resposta. Depois, marque os pontos que a sua resposta cobriu.</p>
+    <div class="status">
+      <span class="chip" id="progresso" aria-live="polite">0 de 3 respondidas</span>
+      <button type="button" class="ghost" id="recomecar">Recomeçar</button>
+    </div>
+  </header>
+
+  <section class="caso" aria-labelledby="t-caso">
+    <h2 id="t-caso">O caso</h2>
+    <p>A vítima viu, no Instagram de uma amiga, a indicação de um investidor com rendimentos acima do mercado. Conversou com o perfil da amiga, que confirmou o investimento, e com o suposto investidor, e pagou R$ 6.000,00 por Pix a uma chave de e-mail formada com o nome do denunciado, numa conta de instituição de pagamento aberta em nome dele. Não houve retorno. Depois, a vítima soube que o perfil da amiga tinha sido clonado.</p>
+    <p>Já no inquérito, a instituição de pagamento informou ao juízo que não solicitou fotografia nem documento para abrir a conta. O denunciado nunca foi ouvido na polícia; em juízo, disse desconhecer a conta, que teria sido aberta fraudulentamente em seu nome.</p>
+    <dl>
+      <div><dt>Datas</dt><dd>Fato em janeiro de 2023; denúncia em agosto de 2025; sentença em abril de 2026; trânsito em julgado em maio de 2026 (TJSP).</dd></div>
+      <div><dt>Denúncia</dt><dd>Art. 171, §2º-A, c/c art. 29 do Código Penal. Para a denúncia, a documentação e o rastro financeiro não deixam dúvida de que o Pix beneficiou o denunciado. ANPP recusado pela pena mínima de quatro anos.</dd></div>
+      <div><dt>Prova</dt><dd>Boletim de ocorrência, capturas de tela da rede social, comprovante da transferência, extrato da conta do denunciado e a resposta da instituição sobre a abertura.</dd></div>
+      <div><dt>Sentença</dt><dd>Absolvição pelo art. 386, V, do CPP. Nos debates, acusação e defesa pediram a absolvição.</dd></div>
+    </dl>
+  </section>
+
+  <div class="questoes">
+    <article class="q" id="q1" aria-labelledby="t-q1">
+      <div class="qhead"><span class="qnum">1 de 3</span><h3 id="t-q1">A denúncia imputou o golpe ao titular com base no Pix e no extrato. O titular diz não reconhecer a conta. O que essa prova demonstra, e o que ela não demonstra?</h3></div>
+      <label class="sr" for="r1">Sua resposta à questão 1</label>
+      <textarea id="r1" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c1">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b1" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g1" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>Demonstra que o dinheiro entrou numa conta registrada em nome do denunciado. Não demonstra que o denunciado é a pessoa que abriu e usou a conta, que é justamente o que a negativa contesta. Quem responde a essa contestação é o procedimento de abertura, que a Resolução CMN 4.753/2019 obriga a instituição a adotar para verificar e validar a identidade dos titulares (art. 2º).</p>
+        <p>Aqui a instituição disse que não pediu foto nem documento. Sem isso, a titularidade não liga o nome à pessoa, e o titular pode ser ele próprio vítima de usurpação de identidade, como a sentença admitiu.</p>
+
+        <p class="base">Na base (38 denúncias do TJSP em que o titular nega ou não reconhece a conta): quando a instituição não tinha foto nem documento da abertura, 2 de 2 terminaram em absolvição; com só a titularidade, o extrato ou o cadastro, 11 de 14 terminaram em condenação.</p>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" data-q="1"> Distinguiu a titularidade da conta da autoria do golpe.</label>
+          <label class="ponto"><input type="checkbox" data-q="1"> Apontou que a negativa contesta o vínculo entre o nome e a pessoa.</label>
+          <label class="ponto"><input type="checkbox" data-q="1"> Usou a resposta da instituição sobre a abertura.</label>
+          <label class="ponto"><input type="checkbox" data-q="1"> Considerou o titular como possível vítima de usurpação de identidade.</label>
+        </fieldset>
+        <span class="placar" id="s1">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+    <article class="q" id="q2" aria-labelledby="t-q2">
+      <div class="qhead"><span class="qnum">2 de 3</span><h3 id="t-q2">O golpe usou o perfil clonado de uma amiga da vítima, pessoa real. Que crime de identidade há aí, e por que ele não aparece na capitulação?</h3></div>
+      <label class="sr" for="r2">Sua resposta à questão 2</label>
+      <textarea id="r2" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c2">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b2" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g2" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>A falsa identidade do art. 307 do CP pune quem se atribui ou atribui a terceiro falsa identidade para obter vantagem, mas só se o fato não constitui elemento de crime mais grave. Quando a falsa identidade é o próprio engano do estelionato, ela é absorvida, na linha da Súmula 17 do STJ: o falso que se exaure no estelionato, sem mais potencialidade lesiva, é por este absorvido.</p>
+        <p>A clonagem do perfil pode ser outra coisa: se houve acesso indevido à conta da amiga, há fato autônomo, de outra vítima, que o art. 154-A pode alcançar. O processo não apurou nada disso. O perfil clonado foi tratado como cenário, e não como crime nem como rastro.</p>
+
+        <p class="base">Na base, 133 das 164 denúncias de fraude usam a identidade de outra pessoa diante da vítima (38 de pessoa real), e o art. 307 não aparece em nenhuma das 198 capitulações.</p>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" data-q="2"> Lembrou a subsidiariedade expressa do art. 307.</label>
+          <label class="ponto"><input type="checkbox" data-q="2"> Aplicou a consunção da Súmula 17 do STJ.</label>
+          <label class="ponto"><input type="checkbox" data-q="2"> Separou a identidade usada para enganar da identidade usada para receber.</label>
+          <label class="ponto"><input type="checkbox" data-q="2"> Notou que a clonagem do perfil pode ser fato autônomo e não foi apurada.</label>
+        </fieldset>
+        <span class="placar" id="s2">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+    <article class="q" id="q3" aria-labelledby="t-q3">
+      <div class="qhead"><span class="qnum">3 de 3</span><h3 id="t-q3">A denúncia saiu 31 meses depois do fato. Que diligências, e em que prazo, poderiam ter alcançado quem operou o golpe?</h3></div>
+      <label class="sr" for="r3">Sua resposta à questão 3</label>
+      <textarea id="r3" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c3">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b3" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g3" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>Primeiro, o dossiê de abertura da conta: documentos, selfie ou prova de vida, IP, dispositivo e geolocalização da abertura, e o destino do dinheiro depois do Pix. Depois, os registros das aplicações usadas: o perfil do investidor, o perfil clonado da amiga e a conta de e-mail usada como chave Pix.</p>
+        <p>O prazo é o ponto. O Marco Civil obriga a guarda dos registros de acesso a aplicações por 6 meses (art. 15) e dos de conexão por 1 ano (art. 13). Sem pedido de preservação no início, 31 meses depois esses registros já não precisam existir, e o único rastro que sobra é o do banco, que leva ao titular.</p>
+
+        <p class="base">Na base, no canal internet, 97 de 106 denúncias chegam depois dos 6 meses e 88 depois de 1 ano, e nenhuma cota pede preservação de registros.</p>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" data-q="3"> Pediu o dossiê de abertura, e não só o extrato.</label>
+          <label class="ponto"><input type="checkbox" data-q="3"> Incluiu os perfis e o e-mail usados no golpe.</label>
+          <label class="ponto"><input type="checkbox" data-q="3"> Relacionou as diligências aos prazos de guarda do Marco Civil.</label>
+          <label class="ponto"><input type="checkbox" data-q="3"> Concluiu que, sem preservação, o rastro só leva ao titular.</label>
+        </fieldset>
+        <span class="placar" id="s3">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+  </div>
+
+  <section class="sintese" id="sintese" aria-labelledby="t-sintese" aria-live="polite">
+    <h2 id="t-sintese">O que o caso acrescenta à decisão</h2>
+    <p id="sintese-espera">A síntese aparece quando as três questões estiverem respondidas.</p>
+    <ul id="sintese-lista" hidden>
+      <li>Na autoria, a titularidade da conta não responde à negativa de quem diz não ter aberto a conta: quem responde é o procedimento de abertura, e a sua falta é dúvida sobre a pessoa.</li>
+      <li>No tipo, a identidade usada para enganar é absorvida pelo estelionato; a usada para receber é a única que chega ao processo.</li>
+      <li>Na investigação, o dossiê de abertura e a preservação dos registros das aplicações precisam ser pedidos no início.</li>
+      <li>Na base, das 38 negativas, as 2 em que a instituição não tinha foto nem documento da abertura terminaram em absolvição, e as duas são da mesma comarca.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Caso de uma ação penal do TJSP, com cota, denúncia e sentença lidas por inteiro e anonimizadas. Os números vêm da base de pesquisa de 198 denúncias e suas sentenças.</p>
+    <p>As respostas ficam só nesta página e se perdem ao recarregá-la.</p>
+  </footer>
+</main>
+
+<script>
+(function () {
+  var MIN = 40;
+  var respondidas = { 1: false, 2: false, 3: false };
+  function el(id) { return document.getElementById(id); }
+  function atualizaProgresso() {
+    var n = Object.keys(respondidas).filter(function (k) { return respondidas[k]; }).length;
+    var chip = el("progresso");
+    chip.textContent = n + " de 3 respondidas";
+    chip.classList.toggle("done", n === 3);
+    var aberta = n === 3;
+    el("sintese").classList.toggle("open", aberta);
+    el("sintese-lista").hidden = !aberta;
+    el("sintese-espera").hidden = aberta;
+  }
+  function atualizaPlacar(q) {
+    var caixas = document.querySelectorAll('input[data-q="' + q + '"]');
+    var marcados = Array.prototype.filter.call(caixas, function (c) { return c.checked; }).length;
+    el("s" + q).textContent = marcados + " de " + caixas.length + " pontos marcados";
+  }
+  [1, 2, 3].forEach(function (q) {
+    var campo = el("r" + q), botao = el("b" + q), conta = el("c" + q);
+    campo.addEventListener("input", function () {
+      var n = campo.value.trim().length;
+      conta.textContent = n + (n === 1 ? " caractere" : " caracteres") + " · mínimo de " + MIN;
+      botao.disabled = n < MIN;
+    });
+    botao.addEventListener("click", function () {
+      if (campo.value.trim().length < MIN) return;
+      campo.readOnly = true;
+      botao.disabled = true;
+      botao.textContent = "Resposta enviada";
+      el("g" + q).hidden = false;
+      el("q" + q).classList.add("answered");
+      respondidas[q] = true;
+      atualizaProgresso();
+    });
+    document.querySelectorAll('input[data-q="' + q + '"]').forEach(function (c) {
+      c.addEventListener("change", function () { atualizaPlacar(q); });
+    });
+  });
+  el("recomecar").addEventListener("click", function () {
+    [1, 2, 3].forEach(function (q) {
+      var campo = el("r" + q), botao = el("b" + q);
+      campo.value = "";
+      campo.readOnly = false;
+      botao.disabled = true;
+      botao.textContent = "Responder e ver o gabarito";
+      el("c" + q).textContent = "0 caracteres · mínimo de " + MIN;
+      el("g" + q).hidden = true;
+      el("q" + q).classList.remove("answered");
+      document.querySelectorAll('input[data-q="' + q + '"]').forEach(function (c) { c.checked = false; });
+      atualizaPlacar(q);
+      respondidas[q] = false;
+    });
+    atualizaProgresso();
+    el("r1").focus();
+  });
+})();
+
+</script>
+</body>
+</html>
