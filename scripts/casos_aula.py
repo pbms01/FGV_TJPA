@@ -31,8 +31,8 @@ PARES = [
 ]
 
 # Par 9, do TJPA, montado por decisão do usuário em 22/11/2026 (plano 0.3): família CL,
-# com sentença e acórdão nos dois casos. O TJPA não tem extração nem fenômenos; o caso é
-# designado pelo número curto, e os metadados vêm da leitura (estrato pela conduta).
+# com sentença e acórdão nos dois casos. A extração do TJPA não está no main e não há fenômenos do TJPA; o caso é
+# designado pelo número curto (na extração descrita no Project, PA-FE 89 e PA-CL 95), e os metadados vêm da leitura (estrato pela conduta).
 PARES_TJPA = [
     (9, "TJPA 0800121", "TJPA 0815181", "1,3,5,7"),
 ]
