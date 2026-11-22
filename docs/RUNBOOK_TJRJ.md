@@ -82,3 +82,14 @@ Lições dos primeiros cinco:
 - O condutor ganhou duas regras do TJRJ no `mapa`: "Ajuizamento de Ação" no nome é denúncia, e "Despacho / Sentença / Decisão" com mais de 8 mil caracteres é candidata a sentença.
 - O movimento "Recebida a denúncia" aparece no mapa do PJe; a juntada da denúncia aparece como "Juntada de Petição de Sob sigilo", como no TJPA.
 - Custo de contexto: o mapa de um dossiê de 280 a 330 documentos às vezes cabe na resposta e entra inteiro na conversa (até 25 mil tokens). Para economizar, preferir: `pdpj_visao_geral_processo`; `pdpj_list_movimentos(tipo_filter="cedência", limit=5)` para a sentença; `pdpj_list_documentos(limit=30, offset=total-30)` para as primeiras peças; e o mapa só quando a denúncia não aparecer na janela. Em sessão longa, a coleta inteira (cerca de 280 processos) pede mais de uma conversa.
+
+## Lições dos processos 6 a 19 (22/11/2026)
+
+Estado: 19 tratados (14 com denúncia e sentença ou só denúncia, 1 só com sentença, 3 em sigilo, 1 sem denúncia), 86 chamadas registradas, cerca de 4,5 por processo, quase o dobro do TJPA.
+
+- DCP e dossiês do eJUD de processo DCP: a denúncia é a "Petição Inicial.pdf" do tipo "Petição Inicial/Doc. de Origem", o documento mais antigo da lista (`offset` = total menos 2), às vezes com a "COTA DEN" ao lado. O julgamento aparece como movimento "Conclusão" com a descrição "Julgado procedente o pedido" (o filtro por tipo "cedência" não o acha; usar `tipo_filter="Conclus"`); o documento do movimento gêmeo é só a capa "Conclusão ao Juiz" (cerca de 400 caracteres), e a sentença é o "Despacho / Sentença / Decisão.pdf" juntado logo depois, às vezes repetido com os mandados de intimação. Às vezes a lista marca o tipo "(Sentença)".
+- PJe: a denúncia ("Ajuizamento de Ação.pdf", "Petição Inicial", "Den. 171 ...") vem depois das peças numeradas do inquérito e logo antes da decisão de recebimento; o movimento "Recebida a denúncia" dá a posição. Em flagrante, a denúncia pode estar entre as "Petição de Sob sigilo" anteriores ao recebimento.
+- "Sentença.html" pode dizer só "Sentença em anexo"; o texto está no anexo do mesmo dia ("PJE - Sentença - ....pdf", tipo Outros Anexos). O condutor agora rejeita documento com menos de 200 caracteres úteis ou "(sem conteudo)".
+- Dossiês no STJ (AREsp, sistema SIAJ) abrem no Codex com as peças do 1º grau.
+- Classe do DJEN não garante ação penal: 0034414-11.2026 era pedido de prisão preventiva extinto por litispendência (`sem_denuncia`).
+- Denúncia sem texto indexado no DCP antigo (0069207-15.2022) volta "(sem conteudo)": `so_sentenca`, para a segunda passada.
