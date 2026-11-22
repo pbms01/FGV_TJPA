@@ -1,0 +1,230 @@
+[Texto do HTML original via link do PDPJ/Codex]
+
+TRIBUNAL DE JUSTIÇA DO ESTADO DO PARÁ
+
+APELAÇÃO CRIMINAL (417) - 0815181-65.2024.8.14.0401
+
+APELANTE: KEREM VITORIA MOGENO NARDES
+
+APELADO: MINISTERIO PUBLICO DO ESTADO DO PARA
+
+RELATOR(A):
+ Desembargadora ALDA GESSYANE MONTEIRO DE SOUZA TUMA
+
+EMENTA
+
+Ementa
+: 
+DIREITO PENAL E PROCESSUAL PENAL. APELAÇÃO CRIMINAL. ESTELIONATO MEDIANTE FRAUDE ELETRÔNICA. PARTICIPAÇÃO. CONTA BANCÁRIA UTILIZADA PARA RECEBIMENTO DO PRODUTO DO CRIME. MATERIALIDADE E AUTORIA COMPROVADAS. VERSÕES CONTRADITÓRIAS DA ACUSADA. ABSOLVIÇÃO POR INSUFICIÊNCIA DE PROVAS. IMPOSSIBILIDADE. LEI Nº 15.397/2026. INAPLICABILIDADE COMO LEI PENAL POSTERIOR MAIS BENÉFICA. MENORIDADE RELATIVA. PENA-BASE NO MÍNIMO LEGAL. SÚMULA 231 DO STJ. PARTICIPAÇÃO DE MENOR IMPORTÂNCIA. REFORMATIO IN PEJUS. REGIME ABERTO E SUBSTITUIÇÃO DA PENA MANTIDOS. PRESCRIÇÃO NÃO CONFIGURADA. RECURSO DESPROVIDO. 
+
+I. CASO EM EXAME
+
+1.
+
+Apelação criminal interposta contra sentença que condenou a recorrente pela prática de estelionato mediante fraude eletrônica, na condição de partícipe de menor importância, à pena de 2 anos e 8 meses de reclusão, em regime inicial aberto, e 7 dias-multa, substituída a pena privativa de liberdade por duas restritivas de direitos, sustentando a defesa insuficiência de provas quanto à participação consciente no golpe e, subsidiariamente, a redução da pena abaixo do mínimo legal em razão da atenuante da menoridade relativa. 
+
+II. QUESTÃO EM DISCUSSÃO
+
+2.
+
+Há quatro questões em discussão: (i) definir se o conjunto probatório demonstra que a apelante concorreu conscientemente para o estelionato eletrônico mediante disponibilização de conta bancária para recebimento do produto da fraude; (ii) estabelecer se a Lei nº 15.397/2026, que inseriu no art. 171, § 2º, VII, do Código Penal hipótese relativa à cessão de conta bancária para trânsito de recursos de origem criminosa, constitui lei posterior mais benéfica aplicável ao caso; (iii) determinar se a atenuante da menoridade relativa pode reduzir a pena intermediária abaixo do mínimo legal; e (iv) verificar a manutenção da redução por participação de menor importância, do regime inicial aberto, da substituição da pena privativa de liberdade e a eventual ocorrência de prescrição. 
+
+III. RAZÕES DE DECIDIR
+
+3.
+
+O comprovante do Pix de R$ 1.400,00 efetuado pela vítima para conta bancária de titularidade da apelante comprova a materialidade da fraude e o ingresso do produto do crime em conta vinculada à acusada. 
+
+4.
+
+Os dados fornecidos pela instituição financeira demonstram que a conta foi aberta treze dias antes do golpe com o CPF e fotografia do rosto da apelante, circunstância incompatível com a versão policial de que terceiros teriam aberto a conta após encontrarem documentos posteriormente perdidos. 
+
+5.
+
+A prova oral demonstra que o executor do golpe forneceu especificamente a chave Pix da apelante às vítimas, apresentando-a como pertencente à sua companheira, o que, somado ao efetivo recebimento do valor, evidencia prévio ajuste e divisão de tarefas. 
+
+6.
+
+A condenação não decorre da mera titularidade da conta bancária, mas da conjugação entre sua abertura com fotografia da apelante poucos dias antes do delito, a indicação da respectiva chave Pix pelo executor da fraude e as versões contraditórias apresentadas pela acusada acerca da posse e utilização da conta. 
+
+7.
+
+A versão judicial de que o celular, a identidade e a senha bancária teriam sido roubados não encontra apoio em elemento probatório, pois a apelante não registrou ocorrência nem soube indicar quando o suposto roubo aconteceu, além de essa narrativa divergir da versão anteriormente apresentada à polícia. 
+
+8.
+
+A inexistência de prova de que a apelante tenha criado o anúncio fraudulento ou mantido contato direto com as vítimas não afasta sua adesão consciente ao delito, mas justifica o reconhecimento da participação de menor importância. 
+
+9.
+
+A Lei nº 15.397/2026 não configura novatio legis in mellius no caso, porque a condenação decorre da participação consciente no estelionato eletrônico, conduta que continua submetida ao art. 171, § 2º-A, combinado com o art. 29 do Código Penal, cujas consequências penais não foram reduzidas pela nova disciplina. 
+
+10.
+
+A atenuante da menoridade relativa não reduz a pena abaixo do mínimo legal quando a pena-base já está fixada no piso cominado, conforme a Súmula 231 do Superior Tribunal de Justiça e a orientação reafirmada pela Terceira Seção da Corte. 
+
+11.
+
+A redução de um terço pela participação de menor importância deve ser preservada, ainda que precedente do STJ reconheça como essencial a disponibilização de conta bancária em estelionato eletrônico, porque o recurso é exclusivo da defesa e a proibição da 
+reformatio in pejus
+ impede o agravamento da situação da recorrente. 
+
+12.
+
+O regime inicial aberto e a substituição da pena privativa de liberdade por duas penas restritivas de direitos permanecem adequados à quantidade da pena aplicada e à primariedade da apelante. 
+
+13.
+
+A prescrição não se configura, pois o prazo de oito anos correspondente à pena aplicada é reduzido à metade em razão da idade inferior a 21 anos ao tempo do fato, e nenhum intervalo entre o delito, o recebimento da denúncia e a sentença alcança quatro anos. 
+
+IV. DISPOSITIVO E TESE
+
+14.
+
+Recurso desprovido. 
+
+Tese de julgamento
+: 1. A utilização de conta bancária aberta com dados e fotografia do acusado, associada à indicação específica da respectiva chave Pix pelo executor da fraude, ao recebimento do produto do crime e à apresentação de versões contraditórias, comprova a participação consciente no estelionato eletrônico. 2. A Lei nº 15.397/2026 não retroage quando a conduta de participação consciente em estelionato eletrônico permanece submetida às mesmas normas incriminadoras e não há disciplina penal posterior mais benéfica. 3. A atenuante da menoridade relativa não autoriza a redução da pena abaixo do mínimo legal quando a pena-base já se encontra no piso cominado. 4. O recurso exclusivo da defesa impede o afastamento de causa de diminuição reconhecida na sentença quando isso importar agravamento da situação do condenado. 5. Não ocorre prescrição quando, considerado o prazo reduzido pela menoridade do agente, nenhum dos intervalos entre os marcos interruptivos alcança o lapso legal. 
+
+Dispositivos relevantes citados
+:
+ CP, arts. 2º, parágrafo único, 29, § 1º, 59, 65, I, 109, IV, 115 e 171, § 2º, VII, e § 2º-A; CPP, arts. 386, VII, e 617; Lei nº 15.397/2026. 
+
+Jurisprudência relevante citada
+:
+ TJPA, Apelação Criminal nº 0802098-73.2024.8.14.0015, 1ª Turma de Direito Penal, Rel. Des. Rosi Maria Gomes de Farias, sessão virtual de 09.06.2025 a 16.06.2025; STJ, AgRg nos EDcl no AREsp nº 3.152.230/SP, Rel. Min. Ribeiro Dantas, Quinta Turma, j. 05.05.2026, DJEN 12.05.2026; STJ, REsp nº 1.869.764/MS, Rel. Min. Rogerio Schietti Cruz, Rel. para acórdão Min. Messod Azulay Neto, Terceira Seção, j. 14.08.2024, DJe 18.09.2024, em conjunto com os REsps nº 2.052.085/TO e 2.057.181/SE; STJ, AgRg no REsp nº 2.122.715/RS, Rel. Min. Reynaldo Soares da Fonseca, Quinta Turma, j. 01.07.2024, DJe 03.07.2024; STJ, Súmula 231. 
+
+ACÓRDÃO
+
+Vistos, relatados e discutidos estes autos, acordam os Excelentíssimos Senhores Desembargadores, integrantes da 1ª Turma de Direito Penal do Tribunal de Justiça do Estado, à unanimidade, conhecer do recurso e negar-lhe provimento, nos termos do voto da Relatora. 
+
+Sessões de Julgamento por Plenário Virtual do Tribunal de Justiça do Estado do Pará, aos 22 dias do mês de outubro de 2026.
+
+RELATÓRIO
+
+RELATÓRIO
+
+Trata-se de apelação criminal interposta por KEREM VITÓRIA MOGENO NARDES, assistida pela Defensoria Pública, contra sentença proferida nos autos nº 0815181-65.2024.8.14.0401, oriunda da 1ª Vara Criminal da Comarca de Belém/PA, que a condenou pelo crime de estelionato mediante fraude eletrônica, tipificado no art. 171, § 2º-A, c/c art. 29, § 1º, do Código Penal (ID 37099858 -págs. 9-11).
+
+Narra a denúncia que, em 24/01/2024, as vítimas Rodrigo Ruan de Sousa Vieira e Edielen Jamili Corrêa Roldão, ao negociarem uma geladeira anunciada no Marketplace do Facebook pelo perfil “Jaqueline Maria”, tiveram prejuízo de R$ 1.400,00, pois Edielen transferiu o valor via Pix para conta da denunciada na Superdigital I.P.S.A. e o bem não foi entregue. A peça atribuiu à denunciada a autoria da fraude (ID 37099807 -págs. 1-3).
+
+Recebida a denúncia em 09/10/2024, a ré foi citada e apresentou resposta à acusação. Em 24/09/2025, foram ouvidas as vítimas e realizado o interrogatório (ID 37099858 -pág. 3).
+
+Sobreveio sentença que afastou a inépcia da denúncia e reconheceu que a ré não elaborou o ardil nem falou com as vítimas, limitando-se a disponibilizar a conta que recebeu o valor, razão pela qual aplicou a participação de menor importância na fração de 1/3 (ID 37099858 -págs. 3 e 9-10).
+
+Assim, a pena foi fixada em 2 anos e 8 meses de reclusão, em regime aberto, e 7 dias-multa, substituída a pena privativa de liberdade por 2 penas restritivas de direitos (ID 37099858 -págs. 10-11).
+
+Nas razões, a defesa pugna pela absolvição por insuficiência de provas, com fundamento no art. 386, VII, do CPP e no princípio 
+in dubio pro reo
+. Subsidiariamente, pede que a atenuante da menoridade reduza a pena abaixo do mínimo legal, com afastamento da Súmula 231 do STJ (ID 37099868 -págs. 4-6).
+
+Em contrarrazões, o douto Ministério Público de 1º grau pugnou pelo conhecimento e desprovimento do recurso (ID 37099871 -págs. 3-5).
+
+Nesta instância, a Procuradoria de Justiça manifestou-se pelo conhecimento e desprovimento do recurso (ID 38570926 -pág. 17).
+
+É o relatório. À revisão.
+
+Submeto o presente recurso a julgamento em ambiente de Plenário Virtual, nos termos da Resolução nº 13/2016-GP, com a redação da Resolução nº 21/2020-GP.
+
+VOTO
+
+VOTO
+
+1. DA ADMISSIBILIDADE
+
+De plano, o recurso é tempestivo, pois a apelação foi interposta em 04/05/2026 e recebida pelo juízo de origem (ID 37099862 -pág. 1; ID 37099865 -pág. 1), conforme certidão que, por erro material, alude ao assistente de acusação (ID 37099863 -pág. 1). Presentes os demais pressupostos, CONHEÇO do recurso.
+
+Não há prescrição a reconhecer. 
+
+2. DA ABSOLVIÇÃO POR INSUFICIÊNCIA DE PROVAS
+
+Inicialmente, a defesa sustenta que não há prova de que a apelante tenha participado conscientemente do golpe e pede a absolvição, com base no art. 386, VII, do CPP. A pretensão não merece acolhimento.
+
+Com efeito, a materialidade está comprovada pelo Pix de R$ 1.400,00 feito por Edielen em 24/01/2024, às 17h35, para conta em nome de KEREM VITÓRIA MOGENO NARDES na Superdigital I.P.S.A. (ID 37099800 -pág. 24).
+
+Ademais, a Superdigital informou que a conta foi aberta em 11/01/2024, às 15h32, com o CPF da apelante e uma fotografia do seu rosto (ID 37099800 -págs. 9-10). A conta, portanto, foi criada 13 dias antes do golpe.
+
+No mesmo sentido, a vítima Rodrigo Ruan de Sousa Vieira relatou em juízo que a primeira chave Pix enviada pela vendedora deu erro e que o suposto fretista passou nova chave, que exibia o nome da apelante como titular (ID 37099858 -págs. 4-5).
+
+Outrossim, a vítima Edielen Jamili Corrêa Roldão esclareceu que o fretista lhe enviou uma chave Pix de e-mail em nome de Kerem Vitória, dizendo que era “o Pix da mulher dele”, e que a geladeira nunca chegou (ID 37099858 -págs. 6-7).
+
+Por sua vez, ambas as vítimas negaram qualquer contato com a apelante, cuja ligação com o caso surgiu da chave indicada pelo executor do golpe (ID 37099858 -págs. 5 e 7). A fraude e o crédito do valor na conta da apelante estão, assim, provados.
+
+Contudo, o dolo não decorre apenas da titularidade da conta, e por isso deve ser examinado em conjunto com as versões apresentadas pela apelante.
+
+Nesse ponto, na fase policial, em 21/05/2024, a apelante negou ter conta na Superdigital e atribuiu a abertura a terceiros que teriam achado seus documentos, perdidos cerca de 3 meses antes (ID 37099801 -págs. 60-61).
+
+Ocorre que a conta foi aberta em 11/01/2024 e recebeu o Pix em 24/01/2024, antes da perda que a própria apelante situou cerca de 3 meses antes do depoimento (ID 37099800 -págs. 9, 10 e 24). Além disso, a perda de documentos não explica a fotografia do rosto da apelante no cadastro da conta. A primeira versão, portanto, não se sustenta.
+
+Já em juízo, a apelante mudou a versão. Admitiu que tinha conta na Superdigital e o aplicativo no celular, e disse que o aparelho foi roubado com a identidade e a senha anotada na capinha (ID 37099858 -pág. 8).
+
+Outrossim, a apelante não registrou ocorrência do suposto roubo nem indicou quando ele teria acontecido (ID 37099858 -págs. 8-9). Somada à primeira versão, já desmentida pelos dados bancários, a nova explicação não encontra apoio em nenhum elemento dos autos.
+
+Desse modo, não se condena pela mera titularidade da conta. A conclusão decorre da soma de 3 fatos: a conta aberta com a fotografia da apelante dias antes do golpe, a chave indicada pelo executor como sendo de sua companheira e versões que se contradizem.
+
+Nessa linha, esta 1ª Turma de Direito Penal já decidiu, em estelionato mediante fraude eletrônica, que a prova da materialidade e da autoria afasta a absolvição por insuficiência de provas:
+
+APELAÇÃO PENAL. CRIMES DE ESTELIONATO QUALIFICADO PELA UTILIZAÇÃO DO MEIO ELETRÔNICO E ASSOCIAÇÃO CRIMINOSA EM CONCURSO FORMAL E MATERIAL. (ARTIGOS 171, § 2º-A C/C 288, 69 E 70, DO CÓDIGO PENAL). (...) 1. DA ABSOLVIÇÃO POR INSUFICIÊNCIA DE PROVAS. NÃO ACOLHIMENTO. 
+PROVADAS SOBREMANEIRA A MATERIALIDADE E A AUTORIA DOS DELITOS DE FRAUDE ELETRÔNICA E ASSOCIAÇÃO CRIMINOSA, BEM COMO OS ELEMENTOS OBJETIVOS E SUBJETIVOS DO TIPO, CONSISTENTES EM INDUZIR ALGUÉM EM ERRO, COM O FIM ESPECIAL DE OBTER VANTAGEM INDEVIDA EM PREJUÍZO ALHEIO
+ (...). 
+ASSIM, IMPÕE-SE A MANUTENÇÃO DO ÉDITO CONDENATÓRIO, NÃO HAVENDO SE FALAR EM ABSOLVIÇÃO POR INSUFICIÊNCIA DE PROVAS
+, PORQUE INADMISSÍVEL NA HIPÓTESE EM ANÁLISE. (...) (TJPA, Apelação Criminal nº 0802098-73.2024.8.14.0015, 1ª Turma de Direito Penal, Relatora Desembargadora Rosi Maria Gomes de Farias, julgado na sessão virtual de 09/06/2025 a 16/06/2025). Destaquei.
+
+Do mesmo modo que no julgado desta Turma, aqui o comprovante do Pix, os dados cadastrais da conta e a prova oral demonstram a fraude eletrônica e a destinação do proveito à conta da apelante. Logo, a absolvição por insuficiência de provas também é inadmissível.
+
+Nesse sentido, o Superior Tribunal de Justiça reconheceu, em estelionato eletrônico, que o recebimento dos valores na conta do acusado e a indicação de seus dados pelo golpista comprovam a participação. Colaciono:
+
+DIREITO PENAL E PROCESSUAL PENAL. AGRAVO REGIMENTAL EM RECURSO ESPECIAL. ESTELIONATO ELETRÔNICO QUALIFICADO. ART. 171, § 2º-A, DO CÓDIGO PENAL. EMBARGOS DE DECLARAÇÃO. ALEGADA OMISSÃO. DESCLASSIFICAÇÃO. PARTICIPAÇÃO DE MENOR IMPORTÂNCIA. DOSIMETRIA DA PENA. AGRAVO REGIMENTAL IMPROVIDO. (...) 
+12. A ausência de prova técnica de vinculação do agravante ao aparelho celular utilizado na fraude não elide a autoria, pois sua participação está comprovada pelo recebimento dos valores em sua conta bancária e pela indicação específica de seus dados pelo golpista, o que evidencia prévia combinação e divisão de tarefas.
+ (...) (AgRg nos EDcl no AREsp n. 3.152.230/SP, relator Ministro Ribeiro Dantas, Quinta Turma, julgado em 5/5/2026, DJEN de 12/5/2026). Destaquei.
+
+À semelhança do precedente, o executor da fraude indicou especificamente a chave Pix da apelante, apresentando-a como de sua esposa, e o valor caiu na conta aberta por ela dias antes (ID 37099858 -pág. 7; ID 37099800 -págs. 9 e 24). Logo, há prova de prévio ajuste e divisão de tarefas.
+
+Registre-se que não há prova de que a apelante tenha criado o anúncio ou conversado com as vítimas, razão pela qual a sentença reconheceu a participação de menor importância (ID 37099858 -págs. 9-10). Essa limitação não afasta sua adesão consciente ao golpe.
+
+De ofício, examino a Lei nº 15.397/2026, publicada em 04/05/2026, depois da sentença. Essa lei criou o crime de ceder conta bancária para movimentar dinheiro de origem criminosa, a chamada conta laranja, com pena de 1 a 5 anos de reclusão (art. 171, § 2º, VII, do CP).
+
+Ainda assim, a nova lei não beneficia a apelante. O inciso VII pune quem cede conta para o trânsito de recursos ligados a atividade criminosa, ainda que não concorra para crime determinado, e não alterou a pena do § 2º-A, de 4 a 8 anos, nem o art. 29 do Código Penal.
+
+Com efeito, a sentença condenou a apelante como partícipe do estelionato eletrônico, por ter concorrido conscientemente para a fraude contra as vítimas (ID 37099858 -págs. 9-10). Essa conduta continua punida pelas mesmas normas, de modo que não há lei posterior mais benéfica a aplicar (art. 2º, parágrafo único, do CP).
+
+Por conseguinte, não há dúvida razoável que autorize a aplicação do 
+in dubio pro reo
+, e MANTENHO a condenação pelo art. 171, § 2º-A, c/c art. 29, § 1º, do Código Penal.
+
+3. DA DOSIMETRIA
+
+Subsidiariamente, a defesa pede que a menoridade relativa reduza a pena abaixo do mínimo legal, com afastamento da Súmula 231 do STJ (ID 37099868 -págs. 5-6). A pretensão também não prospera.
+
+De fato, a apelante nasceu em 09/02/2005 e tinha 18 anos na data do fato, fazendo jus à atenuante do art. 65, I, do CP, que a sentença reconheceu (ID 37099858 -págs. 1 e 10).
+
+Todavia, a 
+pena-base
+ foi fixada no mínimo legal de 4 anos de reclusão e 10 dias-multa, com as circunstâncias do art. 59 do CP neutras (ID 37099858 -pág. 10). Por isso, a atenuante não pode levá-la abaixo desse patamar, nos termos da Súmula 231 do STJ.
+
+Em caso de estelionato, a Quinta Turma do STJ decidiu:
+
+PENAL. AGRAVO REGIMENTAL NO RECURSO ESPECIAL. CRIME DOS ARTS. 171, § 3º E 297, § 3º, III, DO CÓDIGO PENAL. PRINCÍPIO DA CONSUNÇÃO. SÚMULA N. 7 DO STJ. CONFISSÃO. REDUÇÃO AQUÉM DO MÍNIMO LEGAL. IMPOSSIBILIDADE. SÚMULA 231/STJ. AGRAVO IMPROVIDO. (...) 
+3. Nos termos da Súmula 231 do STJ, a incidência de circunstância atenuante não pode implicar a redução da pena abaixo do mínimo legal.
+ (...) (AgRg no REsp n. 2.122.715/RS, relator Ministro Reynaldo Soares da Fonseca, Quinta Turma, julgado em 1/7/2024, DJe de 3/7/2024). Destaquei.
+
+Tal como no precedente, em que a atenuante não rompeu o mínimo legal em estelionato, aqui a menoridade relativa encontra a pena-base no piso do § 2º-A. Logo, a pena intermediária permanece em 4 anos de reclusão e 10 dias-multa.
+
+Na terceira fase, a sentença aplicou a participação de menor importância na fração de 1/3, chegando a 2 anos e 8 meses de reclusão e 7 dias-multa (ID 37099858 -pág. 10).
+
+Por fim, mantenho o regime aberto, compatível com a pena e com a primariedade da apelante (ID 37099857 - págs. 1-2), e a substituição por 2 penas restritivas de direitos (ID 37099858 -págs. 10-11).
+
+DISPOSITIVO
+
+Ante o exposto, CONHEÇO do recurso e NEGO-LHE PROVIMENTO. 
+Por conseguinte, MANTENHO hígida a sentença que condenou KEREM VITÓRIA MOGENO NARDES pela prática do crime previsto no art. 171, § 2º-A, c/c art. 29, § 1º, do Código Penal, à pena de 2 anos e 8 meses de reclusão, em regime inicial aberto, e 7 dias-multa, substituída a pena privativa de liberdade por 2 penas restritivas de direitos, a serem definidas pelo juízo da execução.
+
+É como voto.
+
+Belém (PA), data da assinatura eletrônica.
+
+ALDA GESSYANE MONTEIRO DE SOUZA TUMA
+
+Desembargadora Relatora
+
+Belém, 22/10/2026

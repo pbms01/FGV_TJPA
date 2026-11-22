@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A geladeira que não chegou</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Layout: o mesmo do exercício do caso âncora (coluna única; o caso em cima, as
+   questões em cartões, a síntese do par ao fim), para que os dois se leiam juntos. */
+:root {
+  --bg: #f3f5f7;
+  --surface: #ffffff;
+  --ink: #18212b;
+  --muted: #5a6573;
+  --line: #d9dee4;
+  --accent: #1d4f73;
+  --accent-soft: #e6eef4;
+  --ok: #2f6b4f;
+  --ok-soft: #e7f1ec;
+  --del: #8a2f2f;
+  --font-display: "Literata", Georgia, "Times New Roman", serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #12171d;
+    --surface: #1a2129;
+    --ink: #e4e9ee;
+    --muted: #9aa6b3;
+    --line: #2c3641;
+    --accent: #7fb3d9;
+    --accent-soft: #1e2e3b;
+    --ok: #7cc4a0;
+    --ok-soft: #18302a;
+    --del: #e08a8a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #12171d;
+  --surface: #1a2129;
+  --ink: #e4e9ee;
+  --muted: #9aa6b3;
+  --line: #2c3641;
+  --accent: #7fb3d9;
+  --accent-soft: #1e2e3b;
+  --ok: #7cc4a0;
+  --ok-soft: #18302a;
+  --del: #e08a8a;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+/* o atributo hidden prevalece sobre qualquer display definido por classe */
+[hidden] { display: none !important; }
+html, body { margin: 0; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+}
+a { color: var(--accent); }
+.wrap {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 32px 20px 64px;
+  display: grid;
+  gap: 28px;
+}
+header { display: grid; gap: 10px; }
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+h1, h2, h3 { font-family: var(--font-display); font-weight: 600; text-wrap: balance; margin: 0; line-height: 1.25; }
+h1 { font-size: 30px; }
+h2 { font-size: 21px; }
+h3 { font-size: 18px; }
+p { margin: 0; max-width: 65ch; }
+.lead { color: var(--muted); }
+
+.status { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+.chip {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--muted);
+}
+.chip.done { border-color: var(--ok); color: var(--ok); background: var(--ok-soft); }
+
+section.caso {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 22px;
+  display: grid;
+  gap: 14px;
+}
+dl { margin: 0; display: grid; gap: 10px; }
+dl div { display: grid; grid-template-columns: 120px 1fr; gap: 12px; }
+dt { font-weight: 600; color: var(--muted); font-size: 14.5px; padding-top: 1px; }
+dd { margin: 0; max-width: 60ch; }
+@media (max-width: 520px) { dl div { grid-template-columns: 1fr; gap: 2px; } }
+
+.questoes { display: grid; gap: 20px; }
+article.q {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--line);
+  border-radius: 10px;
+  padding: 22px;
+  display: grid;
+  gap: 14px;
+}
+article.q.answered { border-left-color: var(--ok); }
+.qhead { display: flex; gap: 12px; align-items: baseline; }
+.qnum { font-family: var(--font-mono); font-size: 13px; color: var(--accent); flex: none; }
+label.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+textarea {
+  width: 100%;
+  min-height: 130px;
+  resize: vertical;
+  padding: 12px 14px;
+  font: inherit;
+  color: var(--ink);
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+textarea:focus-visible, button:focus-visible, input:focus-visible, a:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+textarea[readonly] { opacity: 0.85; }
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; justify-content: space-between; }
+.count { font-family: var(--font-mono); font-size: 12.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+button {
+  font: inherit;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 9px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: var(--surface);
+  cursor: pointer;
+}
+button:disabled { opacity: 0.45; cursor: not-allowed; }
+button.ghost { background: transparent; color: var(--accent); }
+
+.gabarito {
+  display: grid;
+  gap: 12px;
+  background: var(--ok-soft);
+  border: 1px solid var(--ok);
+  border-radius: 8px;
+  padding: 18px;
+}
+.gabarito h3 { color: var(--ok); font-size: 16px; font-family: var(--font-body); }
+.lei {
+  font-family: var(--font-display);
+  font-size: 15px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 12px 14px;
+  display: grid;
+  gap: 8px;
+}
+.lei del { color: var(--del); text-decoration-thickness: 2px; }
+.lei ins { text-decoration: none; border-bottom: 2px solid var(--ok); }
+.lei b { font-family: var(--font-body); font-weight: 600; font-size: 13.5px; }
+.lei small { display: block; font-family: var(--font-body); font-size: 13px; color: var(--muted); }
+.base { font-size: 14.5px; color: var(--muted); }
+fieldset { border: 0; margin: 0; padding: 0; display: grid; gap: 6px; }
+legend { font-weight: 600; font-size: 14.5px; margin-bottom: 6px; }
+.ponto { display: flex; gap: 10px; align-items: flex-start; }
+.ponto input { margin-top: 5px; width: 16px; height: 16px; accent-color: var(--ok); flex: none; }
+.placar { font-family: var(--font-mono); font-size: 13px; color: var(--ok); font-variant-numeric: tabular-nums; }
+
+section.sintese {
+  border: 1px dashed var(--line);
+  border-radius: 10px;
+  padding: 22px;
+  display: grid;
+  gap: 12px;
+}
+section.sintese.open { border-style: solid; border-color: var(--accent); background: var(--accent-soft); }
+section.sintese ul { margin: 0; padding-left: 20px; display: grid; gap: 8px; max-width: 65ch; }
+footer { font-size: 13.5px; color: var(--muted); display: grid; gap: 10px; }
+@media (prefers-reduced-motion: no-preference) {
+  .gabarito:not([hidden]) { animation: abre 220ms ease-out; }
+  @keyframes abre { from { opacity: 0.4; transform: translateY(-3px); } to { opacity: 1; transform: none; } }
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <div class="eyebrow">Cibercriminologia para magistrados · Par 9 · Caso de contraste</div>
+    <h1>A geladeira que não chegou</h1>
+    <p class="lead">Este caso faz par com o do <a href="https://claude.ai/artifact/NnoPwkzQRdqPGmC2ioXPLF">carro anunciado por oitenta mil reais</a>. O papel é o mesmo: a titular da conta que recebeu o Pix. Leia o caso, que vem sem o desfecho, e responda às quatro questões. O gabarito de cada uma aparece quando você envia a sua resposta. Depois, marque os pontos que a sua resposta cobriu.</p>
+    <div class="status">
+      <span class="chip" id="progresso" aria-live="polite">0 de 4 respondidas</span>
+      <button type="button" class="ghost" id="recomecar">Recomeçar</button>
+    </div>
+  </header>
+
+  <section class="caso" aria-labelledby="t-caso">
+    <h2 id="t-caso">O caso</h2>
+    <p>Em janeiro de 2024, um casal de Belém achou no Marketplace do Facebook o anúncio de uma geladeira. A conversa passou ao WhatsApp, e o preço caiu para R$ 1.400,00. A vendedora disse que o pagamento podia ir para o fretista. A primeira chave Pix deu erro; o fretista mandou outra, um e-mail que exibia o nome de uma jovem de 18 anos que mora em Mato Grosso, dizendo que era "o Pix da mulher dele". A compradora fez o Pix, e a geladeira nunca chegou.</p>
+    <dl>
+      <div><dt>Datas</dt><dd>Pix em janeiro de 2024; denúncia em setembro de 2024 (TJPA).</dd></div>
+      <div><dt>Investigação</dt><dd>As instituições em que a titular tinha conta mandaram o cadastro e as fotos do rosto usadas nas aberturas. A busca na casa dela, em Cuiabá, não achou nada de ilícito. A quebra do sigilo e o sequestro acharam R$ 0,10 numa das contas. Uma segunda ordem judicial obrigou a instituição de destino a informar a abertura: a conta foi aberta 13 dias antes do golpe, com o CPF e a fotografia do rosto da titular. Os dois números de WhatsApp e o perfil do anúncio não foram rastreados.</dd></div>
+      <div><dt>Versões da titular</dt><dd>Na polícia, disse não ter conta naquela instituição e ter perdido os documentos cerca de três meses antes; terceiros teriam aberto a conta. Em juízo, disse que tinha a conta e o aplicativo e que o celular foi roubado com a identidade e a senha anotada atrás da capinha. Não registrou ocorrência e não soube dizer quando foi o roubo. As vítimas disseram nunca ter falado com ela.</dd></div>
+      <div><dt>Denúncia</dt><dd>Estelionato por fraude eletrônica (art. 171, §2º-A, do CP): a denúncia diz que a titular arquitetou o golpe e induziu as vítimas em erro. Não há pedido de reparação. O processo chegou ao segundo grau depois da Lei 15.397/2026.</dd></div>
+    </dl>
+  </section>
+
+  <div class="questoes">
+
+    <article class="q" id="q1" aria-labelledby="t-q1">
+      <div class="qhead"><span class="qnum">1 de 4</span><h3 id="t-q1">O que as duas versões e os dados do banco provam, e o que não provam?</h3></div>
+      <label class="sr" for="r1">Sua resposta à questão 1</label>
+      <textarea id="r1" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c1">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b1" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g1" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>Provam que a titular abriu a conta com o próprio rosto 13 dias antes do golpe e que a primeira versão é falsa: a conta é anterior à perda que ela mesma situou, e a perda não explica a fotografia. A segunda versão não foi testada, porque ninguém fixou a data do roubo nem pediu os registros de acesso ao aplicativo. Não provam, por si, que ela soubesse do golpe da geladeira: a versão desmentida tira a defesa da titular, mas não é prova de adesão. E a frase do fretista é a narrativa do próprio golpista à vítima, compatível com o ajuste e com uma conta que ele controlasse sem ela.</p>
+        <p>Desfecho. A sentença condenou a titular como partícipe de menor importância, a 2 anos e 8 meses em regime aberto, com a pena substituída, descrevendo uma cessão "a terceiro desconhecido" que ela nunca admitiu. A 1ª Turma de Direito Penal manteve a condenação pela soma de três fatos: a conta aberta com a fotografia dias antes do golpe, a chave indicada pelo executor como da companheira dele e as versões que se contradizem. Dezenove dias depois, a 2ª Turma absolveu a titular do caso do carro, que admitira a cessão.</p>
+        <p class="base">Na base do TJSP, quem nega a conta é condenado em 30 de 37 casos. A negativa absolve um em cada cinco, porque obriga a acusação a provar o vínculo com a conta, e é aí que a fotografia do cadastro e o extrato decidem.</p>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" id="p1a" data-q="1"> Identificou o que a data de abertura e a fotografia desmentem.</label>
+          <label class="ponto"><input type="checkbox" id="p1b" data-q="1"> Notou que a segunda versão ficou sem teste.</label>
+          <label class="ponto"><input type="checkbox" id="p1c" data-q="1"> Distinguiu a versão desmentida da prova de adesão ao golpe.</label>
+          <label class="ponto"><input type="checkbox" id="p1d" data-q="1"> Avaliou a frase do fretista como narrativa do golpista, de pouco poder de prova.</label>
+        </fieldset>
+        <span class="placar" id="s1">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+
+    <article class="q" id="q2" aria-labelledby="t-q2">
+      <div class="qhead"><span class="qnum">2 de 4</span><h3 id="t-q2">A denúncia atribui à titular o anúncio e a negociação. O que a prova sustenta?</h3></div>
+      <label class="sr" for="r2">Sua resposta à questão 2</label>
+      <textarea id="r2" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c2">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b2" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g2" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>Só a conta. As vítimas nunca falaram com a titular, e quem mandou a chave foi o fretista. A denúncia inferiu o ardil do registro; a sentença reduziu a imputação à participação de menor importância, e o acórdão a manteve como adesão consciente. O mesmo registro sustentou três leituras.</p>
+        <p>No recebimento, o juiz pode receber a denúncia sabendo que a instrução provavelmente vai reduzi-la e qual fato a acusação terá de provar. A sentença e o acórdão divergiram também sobre a contribuição: para a sentença, a conta era "não indispensável", porque o golpista poderia usar outras; o acórdão registrou que o STJ a tem por essencial e manteve a redução só porque o recurso era da defesa.</p>
+        <div class="lei">
+          <span><b>Art. 29, §1º, do CP.</b> Se a participação for de menor importância, a pena pode ser diminuída de um sexto a um terço.</span>
+          <span><b>Art. 617 do CPP.</b> O tribunal atenderá ao disposto nos arts. 383, 386 e 387, "não podendo, porém, ser agravada a pena, quando somente o réu houver apelado da sentença".</span>
+        </div>
+        <p class="base">Na base do TJSP, das 28 denúncias de fraude eletrônica que atribuem o ardil a quem foi identificado pelo registro, 23 o fazem só pela conta, pela linha ou pelo CNPJ.</p>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" id="p2a" data-q="2"> Notou que as vítimas nunca falaram com a titular.</label>
+          <label class="ponto"><input type="checkbox" id="p2b" data-q="2"> Identificou a autoria inferida do registro.</label>
+          <label class="ponto"><input type="checkbox" id="p2c" data-q="2"> Comparou as três leituras (denúncia, sentença e acórdão).</label>
+          <label class="ponto"><input type="checkbox" id="p2d" data-q="2"> Mencionou a divergência sobre a conta ser ou não indispensável.</label>
+        </fieldset>
+        <span class="placar" id="s2">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+
+    <article class="q" id="q3" aria-labelledby="t-q3">
+      <div class="qhead"><span class="qnum">3 de 4</span><h3 id="t-q3">O processo chegou ao segundo grau depois da Lei 15.397/2026. O inciso VII se aplica ao fato de janeiro de 2024?</h3></div>
+      <label class="sr" for="r3">Sua resposta à questão 3</label>
+      <textarea id="r3" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c3">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b3" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g3" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>Só como lei mais benéfica, e só se os fatos provarem a cessão consciente da conta sem adesão ao golpe determinado; aí a pena mínima cai de 4 anos no §2º-A (2 anos e 8 meses com o terço da menor importância) para 1 ano. Se provarem a adesão, o fato fica no §2º-A com o art. 29, que a lei não mudou. A 1ª Turma decidiu pela adesão e recusou o inciso VII, de ofício.</p>
+        <p>A divisão está na leitura dos fatos, e não na regra. Aqui, o único fato que remete ao golpe determinado é a frase do golpista à vítima; a conta aberta com o rosto da titular pouco antes do golpe é compatível com a conta aberta para ser vendida ou alugada. A leitura mais segura é a da cessão consciente.</p>
+        <div class="lei">
+          <span><b>Art. 171, §2º, VII, do CP</b> (incluído pela Lei 15.397/2026, em vigor desde 04/05/2026, com a pena do caput, de 1 a 5 anos). Nas mesmas penas incorre quem "cede, gratuita ou onerosamente, conta bancária para que nela transitem recursos destinados ao financiamento de atividade criminosa ou que dela sejam fruto".</span>
+          <span><b>Art. 2º, parágrafo único, do CP.</b> "A lei posterior, que de qualquer modo favorecer o agente, aplica-se aos fatos anteriores", ainda que decididos por sentença condenatória transitada em julgado.</span>
+        </div>
+        <p class="base">Nos 56 acórdãos do TJSP que decidem o inciso VII na ementa, ele é aplicado em 25 e recusado em 31, e a recusa se apoia na participação ou adesão ao golpe em 20 das 30 recusas expressas.</p>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" id="p3a" data-q="3"> Condicionou a retroação à prova de cessão sem adesão ao golpe.</label>
+          <label class="ponto"><input type="checkbox" id="p3b" data-q="3"> Comparou as penas mínimas do §2º-A com o art. 29 e do inciso VII.</label>
+          <label class="ponto"><input type="checkbox" id="p3c" data-q="3"> Notou que a lei não alterou o §2º-A nem o art. 29.</label>
+          <label class="ponto"><input type="checkbox" id="p3d" data-q="3"> Avaliou o peso de cada um dos três fatos para a adesão.</label>
+        </fieldset>
+        <span class="placar" id="s3">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+
+    <article class="q" id="q4" aria-labelledby="t-q4">
+      <div class="qhead"><span class="qnum">4 de 4</span><h3 id="t-q4">O sequestro achou R$ 0,10, e a denúncia não pediu reparação. Que dado teria testado a versão do roubo, e o que resta às vítimas?</h3></div>
+      <label class="sr" for="r4">Sua resposta à questão 4</label>
+      <textarea id="r4" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c4">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b4" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g4" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>Os registros de acesso ao aplicativo na data do Pix (data, hora e IP), que diriam se a conta foi movimentada do aparelho e da conexão habituais da titular, e os Pix de saída do dinheiro. O provedor de aplicação os guarda por 6 meses, e o prazo venceu em julho de 2024, antes da denúncia; o pedido de guarda por prazo maior cabia à polícia ou ao MP. A segunda ordem judicial, só para obter a abertura, mostra o custo de pedir aos pedaços: quem defere a quebra pode deferir de uma vez a abertura, o destino do crédito e os acessos.</p>
+        <p>Sem pedido, não houve reparação, e nenhuma decisão tratou dos R$ 1.400,00. Resta a pena substitutiva: a sentença deixou ao juízo da execução definir as duas restritivas de direitos, e a prestação pecuniária pode ser destinada às vítimas.</p>
+        <div class="lei">
+          <span><b>Art. 5º, VIII, da Lei 12.965/2014 (Marco Civil da Internet).</b> Registros de acesso a aplicações de internet são "o conjunto de informações referentes à data e hora de uso de uma determinada" aplicação a partir de um endereço IP.</span>
+          <span><b>Art. 15, caput e §2º.</b> O provedor de aplicações deve guardar esses registros por 6 (seis) meses; a autoridade policial ou administrativa ou o Ministério Público podem requerer cautelarmente que sejam guardados por prazo superior.</span>
+          <span><b>Art. 45, §1º, do CP.</b> "A prestação pecuniária consiste no pagamento em dinheiro à vítima, a seus dependentes" ou a entidade com destinação social, de 1 a 360 salários-mínimos; o valor pago é deduzido de eventual condenação em ação de reparação civil, se coincidentes os beneficiários.</span>
+        </div>
+        <p class="base">Na base do TJSP, 97 das 106 denúncias com canal pela internet chegam depois dos 6 meses de guarda; nas 91 fraudes de venda falsa e de falso parente, nenhum banco ou instituição de pagamento ressarciu a vítima.</p>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" id="p4a" data-q="4"> Apontou os registros de acesso ao aplicativo na data do Pix.</label>
+          <label class="ponto"><input type="checkbox" id="p4b" data-q="4"> Relacionou o prazo de 6 meses ao tempo até a denúncia.</label>
+          <label class="ponto"><input type="checkbox" id="p4c" data-q="4"> Propôs pedir abertura, destino do crédito e acessos na mesma decisão.</label>
+          <label class="ponto"><input type="checkbox" id="p4d" data-q="4"> Indicou a prestação pecuniária às vítimas na execução.</label>
+        </fieldset>
+        <span class="placar" id="s4">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+
+  </div>
+
+  <section class="sintese" id="sintese" aria-labelledby="t-sintese" aria-live="polite">
+    <h2 id="t-sintese">O que o par acrescenta à decisão</h2>
+    <p id="sintese-espera">A síntese aparece quando as quatro questões estiverem respondidas.</p>
+    <ul id="sintese-lista" hidden>
+      <li>A negativa desmentida pelo banco tira a defesa do titular, mas não prova que ele aderiu ao golpe: é preciso outro indicador.</li>
+      <li>A idade da conta, a referência do executor e a coerência das versões são indicadores observáveis; a frase do golpista à vítima é o mais fraco deles.</li>
+      <li>O inciso VII divide os tribunais pela leitura dos fatos: a cessão consciente sem adesão retroage como lei mais benéfica; a adesão ao golpe fica no §2º-A com o art. 29.</li>
+      <li>O que testaria a versão do titular está no banco de destino e vence em meses. Sem pedido de reparação, a vítima só recebe se a pena substitutiva for destinada a ela.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Caso de uma ação penal do TJPA, com denúncia, sentença e acórdão lidos por inteiro e anonimizados. Os números de comparação vêm da base de pesquisa do TJSP, de 198 denúncias e suas sentenças; o TJPA ainda não tem base extraída.</p>
+    <p>As respostas ficam só nesta página e se perdem ao recarregá-la.</p>
+  </footer>
+</main>
+
+<script>
+(function () {
+  var MIN = 40;
+  var QS = [1, 2, 3, 4];
+  var respondidas = {};
+  QS.forEach(function (q) { respondidas[q] = false; });
+
+  function el(id) { return document.getElementById(id); }
+
+  function atualizaProgresso() {
+    var n = QS.filter(function (q) { return respondidas[q]; }).length;
+    var chip = el("progresso");
+    chip.textContent = n + " de " + QS.length + " respondidas";
+    chip.classList.toggle("done", n === QS.length);
+    var aberta = n === QS.length;
+    el("sintese").classList.toggle("open", aberta);
+    el("sintese-lista").hidden = !aberta;
+    el("sintese-espera").hidden = aberta;
+  }
+
+  function atualizaPlacar(q) {
+    var caixas = document.querySelectorAll('input[data-q="' + q + '"]');
+    var marcados = Array.prototype.filter.call(caixas, function (c) { return c.checked; }).length;
+    el("s" + q).textContent = marcados + " de " + caixas.length + " pontos marcados";
+  }
+
+  QS.forEach(function (q) {
+    var campo = el("r" + q), botao = el("b" + q), conta = el("c" + q);
+    campo.addEventListener("input", function () {
+      var n = campo.value.trim().length;
+      conta.textContent = n + (n === 1 ? " caractere" : " caracteres") + " · mínimo de " + MIN;
+      botao.disabled = n < MIN;
+    });
+    botao.addEventListener("click", function () {
+      if (campo.value.trim().length < MIN) return;
+      campo.readOnly = true;
+      botao.disabled = true;
+      botao.textContent = "Resposta enviada";
+      el("g" + q).hidden = false;
+      el("q" + q).classList.add("answered");
+      respondidas[q] = true;
+      atualizaProgresso();
+    });
+    document.querySelectorAll('input[data-q="' + q + '"]').forEach(function (c) {
+      c.addEventListener("change", function () { atualizaPlacar(q); });
+    });
+  });
+
+  el("recomecar").addEventListener("click", function () {
+    QS.forEach(function (q) {
+      var campo = el("r" + q), botao = el("b" + q);
+      campo.value = "";
+      campo.readOnly = false;
+      botao.disabled = true;
+      botao.textContent = "Responder e ver o gabarito";
+      el("c" + q).textContent = "0 caracteres · mínimo de " + MIN;
+      el("g" + q).hidden = true;
+      el("q" + q).classList.remove("answered");
+      document.querySelectorAll('input[data-q="' + q + '"]').forEach(function (c) { c.checked = false; });
+      atualizaPlacar(q);
+      respondidas[q] = false;
+    });
+    atualizaProgresso();
+    el("r1").focus();
+  });
+})();
+</script>
+</body>
+</html>

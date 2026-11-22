@@ -1,4 +1,4 @@
-"""Casos da aula: índice dos 16 casos do plano e esqueleto de cada ficha.
+"""Casos da aula: índice dos 16 casos do plano (e do par 9, do TJPA) e esqueleto de cada ficha.
 
 Uso, da raiz do repo:
     python3 scripts/casos_aula.py indice            # grava dados/aula/casos_aula.csv
@@ -29,6 +29,17 @@ PARES = [
     (7, "FE 122", "FE 54", "1,3,4,5,6"),
     (8, "CL 48", "CL 13", "1,3,6,7"),
 ]
+
+# Par 9, do TJPA, montado por decisão do usuário em 22/11/2026 (plano 0.3): família CL,
+# com sentença e acórdão nos dois casos. O TJPA não tem extração nem fenômenos; o caso é
+# designado pelo número curto, e os metadados vêm da leitura (estrato pela conduta).
+PARES_TJPA = [
+    (9, "TJPA 0800121", "TJPA 0815181", "1,3,5,7"),
+]
+CASOS_TJPA = {
+    "TJPA 0800121": ("0800121-52.2024.8.14.0401", "CL", "Belém (6ª Vara Criminal)"),
+    "TJPA 0815181": ("0815181-65.2024.8.14.0401", "CL", "Belém (1ª Vara Criminal)"),
+}
 
 INDICE = "dados/aula/casos_aula.csv"
 FICHAS = "docs/aula/fichas"
@@ -96,28 +107,31 @@ def fenomenos(caso):
     return dentro, base
 
 
-def pecas(numero):
+def pecas(numero, trib="tjsp"):
     out = []
     for tipo in ["denuncias", "sentencas", "acordaos", "recursos"]:
-        d = os.path.join("textos/tjsp", tipo, numero)
+        d = os.path.join("textos", trib, tipo, numero)
         if os.path.isdir(d):
             n = sum(os.path.getsize(os.path.join(d, x)) for x in os.listdir(d))
             out.append(f"{tipo[:-1]}:{len(os.listdir(d))}:{n}")
     return ";".join(out)
 
 
-def urls(numero):
+def urls(numero, trib="tjsp"):
     """Peça -> link da pasta no GitHub, só para as peças gravadas."""
-    return {rotulo: f"{REPO}/textos/tjsp/{tipo}/{numero}" for tipo, rotulo in PECAS
-            if os.path.isdir(os.path.join("textos/tjsp", tipo, numero))}
+    return {rotulo: f"{REPO}/textos/{trib}/{tipo}/{numero}" for tipo, rotulo in PECAS
+            if os.path.isdir(os.path.join("textos", trib, tipo, numero))}
 
 
 def links(casos):
     num = numeros()
     for caso in casos:
-        if caso not in num:
+        if caso in CASOS_TJPA:
+            u = urls(CASOS_TJPA[caso][0], "tjpa")
+        elif caso in num:
+            u = urls(num[caso]["numero"])
+        else:
             sys.exit(f"caso desconhecido: {caso}")
-        u = urls(num[caso]["numero"])
         print(f"- {caso}: " + ", ".join(f"[{rotulo}]({url})" for rotulo, url in u.items()))
 
 
@@ -140,6 +154,21 @@ def indice():
                 "estrato": num[caso]["estrato"], "comarca": amo.get(n, {}).get("comarca", ""),
                 "questoes": qs, "fenomenos_numerador": ",".join(dentro), "fenomenos_base": ",".join(base),
                 "pecas": pecas(n), "ficha": ficha if estado == "redigida" else "", "estado": estado,
+                "url_denuncia": u.get("denúncia", ""), "url_sentenca": u.get("sentença", ""),
+                "url_acordao": u.get("acórdão", ""), "url_recursos": u.get("razões de recurso", ""),
+                "nota": anteriores.get(caso, {}).get("nota", ""),
+            })
+    for ordem, ancora, contraste, qs in PARES_TJPA:
+        for papel, caso in (("âncora", ancora), ("contraste", contraste)):
+            n, estrato, comarca = CASOS_TJPA[caso]
+            ficha = os.path.join(FICHAS, caso.replace(" ", "_") + ".md")
+            estado = "redigida" if os.path.exists(ficha) else "pendente"
+            u = urls(n, "tjpa")
+            linhas.append({
+                "ordem": ordem, "par": f"{ancora} / {contraste}", "papel": papel, "caso": caso, "numero": n,
+                "estrato": estrato, "comarca": comarca, "questoes": qs,
+                "fenomenos_numerador": "", "fenomenos_base": "",
+                "pecas": pecas(n, "tjpa"), "ficha": ficha if estado == "redigida" else "", "estado": estado,
                 "url_denuncia": u.get("denúncia", ""), "url_sentenca": u.get("sentença", ""),
                 "url_acordao": u.get("acórdão", ""), "url_recursos": u.get("razões de recurso", ""),
                 "nota": anteriores.get(caso, {}).get("nota", ""),
