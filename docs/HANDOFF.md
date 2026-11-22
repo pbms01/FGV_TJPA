@@ -1,4 +1,4 @@
-# Handoff: fase 4 TJSC com lista de alvos e fila; fase 1 TJSP coletada; análise criminológica com as questões 1 a 7 feitas, as três primeiras conferidas por segundo leitor; exame em aula com os pares 1, 2, 9 e 10 (estes dois do TJPA) prontos; fase 2 TJPA coletada pelo Codex, com a extração como ponto de partida (22/11/2026)
+# Handoff: fase 4 TJSC com lista de alvos e fila; fase 3 TJRJ em coleta (19 de 281); fase 1 TJSP coletada; análise criminológica com as questões 1 a 7 feitas, as três primeiras conferidas por segundo leitor; exame em aula com os pares 1, 2, 9 e 10 (estes dois do TJPA) prontos; fase 2 TJPA coletada pelo Codex, com a extração como ponto de partida (22/11/2026)
 
 Repositório pbms01/FGV_TJPA (o GitHub avisa que o endereço novo é https://github.com/pbms01/FGV_TJPA.git; o push pelo antigo ainda funciona). O branch `coleta-datajud` foi mesclado no main duas vezes em 21/11/2026: depois da questão 3, junto com a base de 130 casos que estava só no main, e de novo à noite, com a coleta da fase 2 no TJPA. O trabalho segue no main. Este arquivo substitui o estado da conversa e deve ser lido antes de qualquer passo novo.
 
@@ -12,9 +12,21 @@ Plano, sondagem e vieses em `docs/RUNBOOK_TJSC.md` (Project: `claude/plano-captu
 
 Plano aprovado no Project (`claude/arquitetura-aula-seguranca-criptografia.md`; questões em `claude/seguranca-criptografia-questoes.md`, só o grupo 1). Feito: `scripts/analise_s_barreira.py` (perguntas 1, 2 e 4; saídas `dados/analise/s_barreira.csv` e `s_resumo.json`), nota `docs/analise/s-barreira.md`, fichas `docs/aula/fichas/INV_2.md` (âncora) e `docs/aula/fichas/STF_AP_2428.md` (contraste), e o segundo leitor cego (`scripts/segundo_leitor_seguranca.py`, `dados/conferencia/seguranca/`, nota `docs/analise/segundo-leitor-seguranca.md`; via com concordância de 0,74 e 22 das 23 divergências adjudicadas para o segundo leitor). Achado adjudicado: a técnica é a via em 5 das 41 denúncias com a passagem narrada; 24 credenciais saíram da vítima, 7 vias são de acesso interno, com autoria pelo registro do sistema em 5; cinco sentenças com fato posterior à Lei 14.155 ainda tratam a barreira como exigência. Pendências: conferência humana da adjudicação; inteiro teor da AP 2428 no portal do STF; dosimetria do INV 2 e do INV 8 (textos cortados); sentenças duplicadas nos arquivos do INV 4, INV 17, INV 24 e INV 41; art. 313-A do CP; exercícios HTML e Gamma novo.
 
-## Fase 3 (TJRJ): plano feito e coleta iniciada (22/11/2026)
+## Fase 3 (TJRJ): coleta em andamento, 19 de 281 (22/11/2026)
 
-Plano, sondagem e estado em `docs/RUNBOOK_TJRJ.md` (Project: `claude/plano-captura-base-tjrj.md`). Lista de alvos pelo DJEN em `dados/djen/alvos_djen_tjrj.csv` (281 ações penais ou apelações, censo), fila em `dados/codex_tjrj/fila.csv` (186 no grupo 1, 95 no grupo 2), condutor `TRIB=tjrj python3 scripts/pipe_tjpa.py`. Diferença principal em relação ao TJPA: o DJEN só cobre o TJRJ desde 11/11/2024 (Aviso TJ 347/2024). Coletados 5 de 281. Método registrado como skill `coleta-denuncias-tribunal`.
+Plano, sondagem, estado e lições em `docs/RUNBOOK_TJRJ.md` (Project: `claude/plano-captura-base-tjrj.md`); método geral na skill `coleta-denuncias-tribunal`. Lista de alvos pelo DJEN em `dados/djen/alvos_djen_tjrj.csv` (281 ações penais ou apelações, censo); fila em `dados/codex_tjrj/fila.csv` (186 no grupo 1, 95 no grupo 2); status em `dados/codex_tjrj/status.csv` (vale a última linha); textos em `textos/tjrj/`, manifesto em `textos/tjrj/manifesto.csv`. Diferença principal em relação ao TJPA: o DJEN só cobre o TJRJ desde 11/11/2024 (Aviso TJ 347/2024).
+
+Estado: 19 tratados, todos do grupo 1 (14 `ok`, 1 `so_sentenca`, 3 `sigilo`, 1 `sem_denuncia`), 86 chamadas (4,5 por processo). Próximo da fila: 0805022-53.2024.8.19.0036 (ordem 20).
+
+Para retomar, da raiz do repo: `TRIB=tjrj python3 scripts/pipe_tjpa.py prox`, e por processo:
+
+1. `pdpj_visao_geral_processo` (sigilo: `status NUM sigilo "Codex: sob sigilo" 1`).
+2. Sentença: PJe e eJUD com número PJe, `pdpj_list_movimentos(tipo_filter="cedência", limit=3)`; DCP (número 00/01), `tipo_filter="Conclus"`, procurar "Julgado ..." e pegar o "Despacho / Sentença / Decisão.pdf" juntado logo depois da capa "Conclusão ao Juiz" (o doc do movimento é a capa).
+3. Denúncia: PJe, `tipo_filter="Denúncia"` dá o recebimento, e a denúncia ("Ajuizamento de Ação", "Petição Inicial", "Den. ...") é o documento logo antes da decisão, depois das peças numeradas do inquérito; em flagrante, entre as petições "Sob sigilo" anteriores ao recebimento (entram como `cand`). DCP: "Petição Inicial/Doc. de Origem", o documento mais antigo (`offset` = total menos 2).
+4. Acima de cerca de 330 documentos, `pdpj_mapa_documentos` vai a arquivo e `mapa ultimo` sugere den e sent; abaixo disso o mapa pode entrar inteiro no contexto (evitar).
+5. `sel` (tamanho 0 para peça de tamanho desconhecido), `pdpj_read_documentos_batch` com a lista, `grava ultimo N "nota"`. Commit e push a cada 5 a 10 processos (`git fetch --depth=50 origin main && git rebase origin/main` antes do push, porque outras sessões escrevem no main).
+
+Custo de contexto: cerca de 80 a 100 processos por conversa. Segunda passada pendente: sentença de 0864686-23.2024 (provável anexo "PJE - Sentença"), denúncia sem texto de 0069207-15.2022, decisão de 11/06/2025 de 0002770-50.2022 e a sentença curta de 01/07/2025 de 0883633-28.2024. Depois da coleta, extração pelas regras da fase 2 (`extrai_denuncias.py` e `sentencas_tjpa.py` parametrizados para `tjrj`, com regex CNJ `8\.19`).
 
 ## Para a próxima sessão: extração da fase 2 (TJPA)
 
