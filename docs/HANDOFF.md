@@ -4,6 +4,10 @@ Repositório pbms01/FGV_TJPA (o GitHub avisa que o endereço novo é https://git
 
 Há duas frentes abertas, independentes entre si: a extração da fase 2 (TJPA), descrita na seção seguinte, que é o ponto de partida escolhido para a próxima sessão; e o exame em aula, que segue pelo par 3 (ponto de partida na seção "Análise sob a perspectiva da criminologia informática").
 
+## Aula de segurança da informação e criptografia (22/11/2026)
+
+Plano aprovado no Project (`claude/arquitetura-aula-seguranca-criptografia.md`; questões em `claude/seguranca-criptografia-questoes.md`, só o grupo 1). Feito: `scripts/analise_s_barreira.py` (perguntas 1, 2 e 4; saídas `dados/analise/s_barreira.csv` e `s_resumo.json`; `valida` imprime os trechos de técnica na pena), nota `docs/analise/s-barreira.md`, fichas `docs/aula/fichas/INV_2.md` (âncora) e `docs/aula/fichas/STF_AP_2428.md` (contraste). Achado: a técnica é a via em 5 das 58 denúncias com a passagem narrada; 36 credenciais saíram da vítima e 10 vias são de acesso interno, com autoria provada pelo registro do sistema nos 5 casos lidos. Pendências: segundo leitor; texto do acórdão da AP 2428 capturado do portal do STF (a ficha usa a reprodução do Migalhas); dosimetria do INV 2 (texto cortado em 100 mil caracteres); art. 313-A do CP; exercícios HTML e Gamma novo.
+
 ## Fase 3 (TJRJ): plano feito e coleta iniciada (22/11/2026)
 
 Plano, sondagem e estado em `docs/RUNBOOK_TJRJ.md` (Project: `claude/plano-captura-base-tjrj.md`). Lista de alvos pelo DJEN em `dados/djen/alvos_djen_tjrj.csv` (281 ações penais ou apelações, censo), fila em `dados/codex_tjrj/fila.csv` (186 no grupo 1, 95 no grupo 2), condutor `TRIB=tjrj python3 scripts/pipe_tjpa.py`. Diferença principal em relação ao TJPA: o DJEN só cobre o TJRJ desde 11/11/2024 (Aviso TJ 347/2024). Coletados 5 de 281. Método registrado como skill `coleta-denuncias-tribunal`.

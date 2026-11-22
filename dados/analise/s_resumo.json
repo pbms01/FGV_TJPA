@@ -1,0 +1,79 @@
+{
+ "universo": 68,
+ "via_sistema_objeto": {
+  "credencial própria de quem tinha acesso legítimo": 7,
+  "credencial de quem tinha acesso legítimo, comprada ou cedida": 2,
+  "credencial obtida da vítima por engano": 4,
+  "credencial obtida da vítima por relação ou coação": 3,
+  "aparelho ou sessão em mãos, sem barreira narrada": 6,
+  "técnica (falha explorada, programa malicioso, força bruta)": 5,
+  "a barreira resistiu": 1,
+  "via não narrada": 10
+ },
+ "via_sistema_meio_triagem": {
+  "credencial própria de quem tinha acesso legítimo": 0,
+  "credencial de quem tinha acesso legítimo, comprada ou cedida": 1,
+  "credencial obtida da vítima por engano": 27,
+  "credencial obtida da vítima por relação ou coação": 2,
+  "aparelho ou sessão em mãos, sem barreira narrada": 0,
+  "técnica (falha explorada, programa malicioso, força bruta)": 0,
+  "a barreira resistiu": 0,
+  "via não narrada": 0
+ },
+ "objeto_total": 38,
+ "denuncia_narra_elementar": {
+  "fato_posterior_14155": "6 de 28",
+  "fato_anterior_14155": "6 de 10",
+  "posterior_com_redacao_revogada": [
+   "INV 33"
+  ],
+  "posterior_narra_como_fato": [
+   "INV 6",
+   "INV 13",
+   "CL 10",
+   "CL 15",
+   "CL 41"
+  ]
+ },
+ "sentenca_elementar_pos_14155": {
+  "dispensa": 3,
+  "exige a elementar suprimida": 3,
+  "dispensa implícita": 1,
+  "denúncia com a redação revogada": 1,
+  "transcreve a redação revogada": 1,
+  "barreira presente e rompida": 1
+ },
+ "tecnica_na_pena": [
+  "INV 4"
+ ],
+ "acesso_interno": {
+  "casos": [
+   "INV 2",
+   "INV 4",
+   "INV 8",
+   "INV 10",
+   "INV 11",
+   "INV 21",
+   "INV 30",
+   "INV 34",
+   "INV 36",
+   "INV 45"
+  ],
+  "por_via": {
+   "credencial própria de quem tinha acesso legítimo": 7,
+   "credencial de quem tinha acesso legítimo, comprada ou cedida": 3
+  },
+  "resultado": {
+   "procedência parcial": 6,
+   "condenação": 3,
+   "absolvição": 1
+  },
+  "com_prova_lida": [
+   "INV 2",
+   "INV 11",
+   "INV 21",
+   "INV 30",
+   "INV 34"
+  ]
+ }
+}
