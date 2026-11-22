@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Coleta da fase 2 (TJPA) na conversa: denúncia e sentença pelo Codex, gravadas sem passar pelo contexto.
+"""Coleta das fases 2 (TJPA) e 3 (TJRJ, com TRIB=tjrj) na conversa: denúncia e sentença pelo Codex, gravadas sem passar pelo contexto.
 
 Rodar da raiz do repositório. Roteiro por processo (docs/RUNBOOK_TJPA.md):
   1. python3 scripts/pipe_tjpa.py prox
@@ -38,13 +38,17 @@ import sys
 sys.path.insert(0, os.path.join(os.path.dirname(__file__)))
 import codex_denuncias as c  # noqa: E402  (reusa separa_lote, procedencia, anexar, ler_csv, agora)
 
-ALVOS = os.path.join("dados", "djen", "alvos_djen_tjpa.csv")
-FILA = os.path.join("dados", "codex_tjpa", "fila.csv")
-STATUS = os.path.join("dados", "codex_tjpa", "status.csv")
-MANIFESTO = os.path.join("textos", "tjpa", "manifesto.csv")
-DIR = {"den": os.path.join("textos", "tjpa", "denuncias"), "sent": os.path.join("textos", "tjpa", "sentencas")}
-CUR = "/tmp/tjpa_cur.json"
-SEMENTE = 20261121
+# Tribunal pela variável de ambiente TRIB (tjpa, padrão da fase 2, ou tjrj, fase 3). As regras são as mesmas;
+# só mudam os caminhos, a semente da fila e, no mapa, os nomes de documento próprios de cada sistema.
+TRIB = os.environ.get("TRIB", "tjpa").lower()
+assert TRIB in ("tjpa", "tjrj"), TRIB
+ALVOS = os.path.join("dados", "djen", "alvos_djen_%s.csv" % TRIB)
+FILA = os.path.join("dados", "codex_%s" % TRIB, "fila.csv")
+STATUS = os.path.join("dados", "codex_%s" % TRIB, "status.csv")
+MANIFESTO = os.path.join("textos", TRIB, "manifesto.csv")
+DIR = {"den": os.path.join("textos", TRIB, "denuncias"), "sent": os.path.join("textos", TRIB, "sentencas")}
+CUR = "/tmp/%s_cur.json" % TRIB
+SEMENTE = {"tjpa": 20261121, "tjrj": 20261122}[TRIB]
 CAMPOS_STATUS = ["numero", "grupo", "status", "denuncia", "sentenca", "chamadas", "quando", "detalhe"]
 CAMPOS_MANIFESTO = ["numero", "papel", "documento_id", "parte", "nome", "data", "procedencia", "chars", "sha256", "lido_em"]
 
@@ -234,11 +238,16 @@ def cmd_mapa(arq):
     rec = sorted({e["data"] for e in ent if "Recebida a den" in e["mov"]})
     print("recebimento da denúncia:", ", ".join(rec) or "não aparece no mapa")
     for e in ent:
-        if re.search(r"den[úu]ncia", e["nome"], re.I) and not re.search(r"recebi|rejei", e["nome"], re.I) and not e["dup"]:
+        # "Ajuizamento de Ação.pdf" é o nome que o MPRJ dá à denúncia no PJe (tipo Petição Inicial)
+        aj = TRIB == "tjrj" and re.search(r"ajuizamento de a[çc][ãa]o", e["nome"], re.I)
+        if (re.search(r"den[úu]ncia", e["nome"], re.I) or aj) and not re.search(r"recebi|rejei", e["nome"], re.I) and not e["dup"]:
             e["papel"] = "den"
             print(fmt(e))
     for e in ent:
-        if re.match(r"senten[çc]a", e["nome"], re.I) and not e["dup"]:
+        # no TJRJ (DCP e eJUD) a sentença vem como "Despacho / Sentença / Decisão.pdf", nome comum a qualquer
+        # ato do juiz; o mapa só a sugere quando passa de 8 mil caracteres, e a escolha final é pelo movimento
+        gen = TRIB == "tjrj" and re.search(r"despacho\s*/\s*senten", e["nome"], re.I) and e["chars"] >= 8000
+        if (re.match(r"senten[çc]a", e["nome"], re.I) or gen) and not e["dup"]:
             e["papel"] = "sent"
             print(fmt(e))
     if rec:

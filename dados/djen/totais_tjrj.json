@@ -1,0 +1,142 @@
+{
+ "parametros": {
+  "tribunal": "TJRJ",
+  "inicio": "2024-01-01",
+  "fim": "2026-11-21",
+  "texto": false,
+  "so": null
+ },
+ "frases": {
+  "fraude eletrônica": {
+   "rotulo": "FE",
+   "publicacoes": 977
+  },
+  "171, § 2º-A": {
+   "rotulo": "FE_amp",
+   "publicacoes": 322
+  },
+  "art. 171, § 2º-A": {
+   "rotulo": "FE_amp",
+   "publicacoes": 104
+  },
+  "invasão de dispositivo informático": {
+   "rotulo": "INV",
+   "publicacoes": 92
+  },
+  "conta laranja": {
+   "rotulo": "CL",
+   "publicacoes": 25
+  },
+  "contas laranja": {
+   "rotulo": "CL",
+   "publicacoes": 8
+  },
+  "contas laranjas": {
+   "rotulo": "CL",
+   "publicacoes": 12
+  },
+  "cessão de conta": {
+   "rotulo": "CL",
+   "publicacoes": 11
+  },
+  "cessão de contas": {
+   "rotulo": "CL",
+   "publicacoes": 3
+  },
+  "estelionato eletrônico": {
+   "rotulo": "EE",
+   "publicacoes": 63
+  }
+ },
+ "por_rotulo": {
+  "FE": {
+   "publicacoes": 977,
+   "acoes_penais": 109,
+   "com_sentenca": 68,
+   "apelacoes": 67
+  },
+  "CL": {
+   "publicacoes": 52,
+   "acoes_penais": 14,
+   "com_sentenca": 13,
+   "apelacoes": 2
+  },
+  "FE_amp": {
+   "publicacoes": 322,
+   "acoes_penais": 72,
+   "com_sentenca": 28,
+   "apelacoes": 61
+  },
+  "EE": {
+   "publicacoes": 63,
+   "acoes_penais": 21,
+   "com_sentenca": 12,
+   "apelacoes": 8
+  },
+  "INV": {
+   "publicacoes": 92,
+   "acoes_penais": 20,
+   "com_sentenca": 13,
+   "apelacoes": 8
+  }
+ },
+ "publicacoes_distintas": 1366,
+ "processos_por_classe": {
+  "426 RECURSO EM SENTIDO ESTRITO": 9,
+  "283 AçãO PENAL - PROCEDIMENTO ORDINáRIO": 187,
+  "7 PROCEDIMENTO COMUM CíVEL": 355,
+  "436 PROCEDIMENTO DO JUIZADO ESPECIAL CíVEL": 109,
+  "417 APELAçãO CRIMINAL": 97,
+  "213 RECURSO ESPECIAL": 18,
+  "10943 AçãO PENAL - PROCEDIMENTO SUMáRIO": 18,
+  "325 CONFLITO DE JURISDIçãO": 4,
+  "198 APELAçãO CíVEL": 105,
+  "307 HABEAS CORPUS CRIMINAL": 142,
+  "418 CARTA TESTEMUNHáVEL": 1,
+  "12135 TUTELA ANTECIPADA ANTECEDENTE": 5,
+  "202 AGRAVO DE INSTRUMENTO": 36,
+  "272 REPRESENTAçãO CRIMINAL/NOTíCIA DE CRIME": 2,
+  "212 RECURSO EXTRAORDINáRIO": 4,
+  "329 SEQüESTRO": 3,
+  "1294 OUTROS PROCEDIMENTOS DE JURISDIçãO VOLUNTáRIA": 2,
+  "280 AUTO DE PRISãO EM FLAGRANTE": 15,
+  "279 INQUéRITO POLICIAL": 10,
+  "460 RECURSO INOMINADO CíVEL": 8,
+  "193 PRODUçãO ANTECIPADA DA PROVA": 2,
+  "313 PEDIDO DE PRISãO PREVENTIVA": 2,
+  "413 AGRAVO DE EXECUçãO PENAL": 1,
+  "32 CONSIGNAçãO EM PAGAMENTO": 1,
+  "11955 CAUTELAR INOMINADA CRIMINAL": 1,
+  "233 INCIDENTE DE UNIFORMIZAçãO DE JURISPRUDêNCIA": 1,
+  "12134 TUTELA CAUTELAR ANTECEDENTE": 3,
+  "419 CORREIçãO PARCIAL CRIMINAL": 1,
+  "241 PETIçãO CíVEL": 1,
+  "81 BUSCA E APREENSãO EM ALIENAçãO FIDUCIáRIA": 1,
+  "1727 PETIçãO CRIMINAL": 2,
+  "278 TERMO CIRCUNSTANCIADO": 1,
+  "1464 PROCESSO DE APURAçãO DE ATO INFRACIONAL": 1,
+  "1268 MEDIDAS PROTETIVAS DE URGêNCIA (LEI MARIA DA PENHA) CRIMINAL": 3,
+  "69 ALIMENTOS - LEI ESPECIAL Nº 5.478/68": 2,
+  "282 AçãO PENAL DE COMPETêNCIA DO JúRI": 2,
+  "1208 AGRAVO INTERNO CíVEL": 1,
+  "309 PEDIDO DE BUSCA E APREENSãO CRIMINAL": 1,
+  "1733 PROCEDIMENTO INVESTIGATóRIO CRIMINAL (PIC-MP)": 1,
+  "120 MANDADO DE SEGURANçA CíVEL": 1,
+  "12763 Reconhecimento e Extinção de União Estável": 1,
+  "310 PEDIDO DE QUEBRA DE SIGILO DE DADOS E/OU TELEFôNICO": 2,
+  "228 EXIBIçãO DE DOCUMENTO OU COISA CíVEL": 1,
+  "1710 MANDADO DE SEGURANçA CRIMINAL": 1,
+  "326 RESTITUIçãO DE COISAS APREENDIDAS": 1
+ },
+ "alvos": {
+  "processos": 302,
+  "acao_penal": 205,
+  "apelacao": 97,
+  "acao_penal_ou_apelacao": 281,
+  "so_apelacao": 76,
+  "com_sentenca_djen": 108,
+  "sentenca_ou_apelacao": 186,
+  "inquerito": 10,
+  "flagrante": 15
+ }
+}

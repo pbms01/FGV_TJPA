@@ -4,6 +4,10 @@ Repositório pbms01/FGV_TJPA (o GitHub avisa que o endereço novo é https://git
 
 Há duas frentes abertas, independentes entre si: a extração da fase 2 (TJPA), descrita na seção seguinte, que é o ponto de partida escolhido para a próxima sessão; e o exame em aula, que segue pelo par 3 (ponto de partida na seção "Análise sob a perspectiva da criminologia informática").
 
+## Fase 3 (TJRJ): plano feito e coleta iniciada (22/11/2026)
+
+Plano, sondagem e estado em `docs/RUNBOOK_TJRJ.md` (Project: `claude/plano-captura-base-tjrj.md`). Lista de alvos pelo DJEN em `dados/djen/alvos_djen_tjrj.csv` (281 ações penais ou apelações, censo), fila em `dados/codex_tjrj/fila.csv` (186 no grupo 1, 95 no grupo 2), condutor `TRIB=tjrj python3 scripts/pipe_tjpa.py`. Diferença principal em relação ao TJPA: o DJEN só cobre o TJRJ desde 11/11/2024 (Aviso TJ 347/2024). Coletados 5 de 281. Método registrado como skill `coleta-denuncias-tribunal`.
+
 ## Para a próxima sessão: extração da fase 2 (TJPA)
 
 A coleta do TJPA terminou (seção "Fase 2" abaixo e seções finais do `docs/RUNBOOK_TJPA.md`). O passo agora é extrair das 191 denúncias e das 115 sentenças do TJPA (110 dos processos com denúncia e 5 dos que só têm a sentença) os mesmos campos da fase 1, com as mesmas regras, para que os dois tribunais se comparem campo a campo.
