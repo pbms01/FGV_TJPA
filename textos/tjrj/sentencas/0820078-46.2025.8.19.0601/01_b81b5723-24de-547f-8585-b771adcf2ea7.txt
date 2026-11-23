@@ -1,0 +1,86 @@
+[Texto nativo do PJe]
+
+Poder Judiciário do Estado do Rio de Janeiro
+
+Comarca da Capital
+
+39ª Vara Criminal da Comarca da Capital
+
+Avenida Erasmo Braga, 115, 812 - Lâmina II, Centro, RIO DE JANEIRO - RJ - CEP: 20020-000
+
+SENTENÇA
+
+Processo: 0820078-46.2025.8.19.0601
+
+Classe: AÇÃO PENAL - PROCEDIMENTO ORDINÁRIO (283)
+
+AUTOR: MINISTERIO PUBLICO DO ESTADO DO RIO DE JANEIRO
+
+RÉU: LUCIANA PINHEIRO DOS SANTOS
+
+LUCIANA PINHEIRO DOS SANTOS, devidamente qualificada, foi denunciada como incursa nas penas do artigo 171, § 2º-A, do Código Penal, por duas vezes, bem como do artigo 171, § 2º-A, c/c artigo 14, inciso II, ambos do Código Penal, na forma do artigo 71 do mesmo diploma legal, nos termos da narrativa ministerial (ID 243841292), a seguir transcrita:
+
+Entre os dias 19 e 22 de abril de 2024, nesta cidade, a denunciada, livre e consciente, obteve, para si ou para outrem, por duas vezes, vantagem ilícita, em prejuízo de Cláudia Cordeiro Cruz, mediante fraude eletrônica, na medida em que, utilizando-se de aplicativo de mensagens e de falsos comprovantes de transferência via PIX, fez-se passar por cliente de sua loja e induziu a vítima em erro, levando-a a realizar estornos em favor de conta bancária de titularidade da denunciada, totalizando prejuízo aproximado de R$ 1.282,00 (mil duzentos e oitenta e dois reais), conforme apurado no presente procedimento. Noticiam os autos que a vítima, proprietária da loja "Maison de l'Orchidée", relatou que, em 19/04/2024, recebeu mensagem (ID. 3) via WhatsApp, enviada pela denunciada, afirmando ter realizado compra no valor de R$ 640,00 (seiscentos e quarenta reais), paga por PIX, acompanhada de comprovante de transferência supostamente oriundo de conta do Banco Itaú, ocasião em que, alegando arrependimento, a suposta cliente solicitou o estorno do valor, o que foi prontamente atendido pela vítima, que transferiu o montante indicado para a conta informada; no dia seguinte, 20/04/2024, a mesma pessoa voltou a contatar a loja, afirmando ter realizado nova compra, agora no valor de R$ 642,00 (seiscentos e quarenta e dois reais), igualmente paga via PIX, enviando outro comprovante e, mais uma vez, requerendo o estorno, o que foi efetuado pela vítima em menos de uma hora; já em 22/04/2024, a denunciada encaminhou novo comprovante de pagamento, relativo a uma terceira compra, no valor de R$ 1.640,00 (mil seiscentos e quarenta reais), ocasião em que a vítima, desconfiada da reiteração das operações, entrou em contato com o setor financeiro e constatou que todos os comprovantes anteriormente recebidos eram falsos, porquanto continham o mesmo ID de transação, verificando, assim, que fora enganada e que os valores de R$ 640,00 (seiscentos e quarenta reais) e R$ 642,00 (seiscentos e quarenta e dois reais) (ID. 5) haviam sido estornados para conta bancária que não correspondia a qualquer pagamento real, não tendo, desta vez, o crime se consumado por circunstâncias alheias á vontade da denunciada. Conforme consta no ID. 09, foi expedido o Ofício nº 08919410162024 ao Banco Itaú, solicitando informações cadastrais da beneficiária das transferências, tendo sido identificada a denunciada como titular da conta. Os crimes, da mesma espécie, foram perpetrados em curto intervalo de tempo e nas mesmas condições de lugar e maneira de execução, devendo os subsequentes serem havidos como continuação do primeiro. Assim, em sendo objetiva e subjetivamente típicas e reprováveis as condutas acima narradas, está a denunciada incursa nas sanções do artigo 171, § 2º-A do Código Penal (2X, n/f art. 71) e 171, § 2º-A, c/c 14, II, do Código Penal, na forma do art. 71 do referido Diploma Legal.
+
+São essas, ipsis litteris, as condutas imputadas pelo Ministério Público.
+
+Acompanham a inicial acusatória o registro de ocorrência (ID 243841293), as conversas e os comprovantes bancários (IDs 243841295, 243841296, 243841297, 243841299 e 243841300), as informações bancárias e os demais documentos da investigação (IDs 243842851 e 243842859).
+
+A denúncia foi recebida em 24/11/2025, conforme decisão de ID 245643156.
+
+A acusada foi citada por carta precatória, conforme documentos de IDs 253077613 e 255693985 a 255693988.
+
+Assentada da audiência de instrução e julgamento no ID 283762894, ocasião em que foi ouvida a vítima. Posteriormente, a acusada foi interrogada, conforme assentada de ID 301608837.
+
+A Defesa apresentou manifestação e documentos no ID 301340330, incluindo extratos bancários e registros de conversas mantidas com pessoa identificada como Jeniffer Ribeiro dos Santos.
+
+O Ministério Público, em alegações finais escritas (ID 309776678), requereu a condenação da acusada pelos dois crimes de estelionato consumados, em continuidade delitiva, e sua absolvição quanto ao delito tentado, diante da ausência de prova de que o terceiro estorno seria direcionado à conta bancária da ré.
+
+A Defesa Técnica, em alegações finais (ID 311636324), requereu a absolvição, sustentando a insuficiência de provas da autoria e do dolo. Alegou que a acusada teria permitido a utilização de sua conta bancária por Jeniffer, sem conhecimento da origem fraudulenta dos valores, e destacou os repasses bancários realizados em favor da referida terceira pessoa.
+
+É O RELATÓRIO.
+
+FUNDAMENTO E DECIDO.
+
+A materialidade dos estelionatos consumados encontra respaldo no registro de ocorrência, nos comprovantes de transferências bancárias e nas conversas mantidas por aplicativo de mensagens, elementos corroborados pela prova oral colhida em juízo. A controvérsia reside na autoria e, particularmente, na demonstração de que a acusada tinha conhecimento da origem fraudulenta dos valores creditados em sua conta.
+
+Em juízo, a vítima Cláudia Cordeiro Cruz declarou que recebeu contato, pelo telefone da loja, de uma mulher que se apresentou como cliente e alegou ter adquirido flores pelo valor de R$ 640,00, encaminhando comprovante de transferência via PIX supostamente realizada pelo Banco Itaú; que, em seguida, a interlocutora afirmou ter desistido da compra e solicitou a devolução do dinheiro; que a mulher se mostrou alterada, gritando e tratando os funcionários de maneira grosseira, razão pela qual a gerente acionou a depoente; que, para evitar maiores transtornos no estabelecimento, situado no shopping Village Mall, decidiu efetuar o estorno sem consultar previamente o setor financeiro; que, no dia seguinte, a mesma mulher voltou a entrar em contato com a loja, afirmando ter realizado outra compra, no valor de R$ 642,00, também por PIX, e solicitou novo estorno; que a interlocutora alegou estar na entrada do shopping às 8h30, antes do horário de abertura, que ocorria às 10h, e reclamou da ausência de pessoa para entregar o arranjo; que a gerente advertiu a depoente sobre a situação e sobre a inexistência do arranjo solicitado no estabelecimento, mas, apesar da estranheza, realizou a segunda devolução; que, em uma terceira ocasião, a mulher encaminhou comprovante de pagamento no valor de R$ 1.640,00, repetindo a solicitação de estorno; que, dessa vez, desconfiou da situação e consultou o setor financeiro, constatando que não havia ingressado qualquer valor correspondente às supostas compras, tendo ocorrido apenas as transferências de devolução; que bloqueou o contato e comunicou que procuraria a delegacia; que a interlocutora reagiu de maneira agressiva, afirmou ser advogada, ameaçou envolver a polícia e outros advogados e disse residir em Buenos Aires, circunstância que utilizou para justificar o desconhecimento do horário de funcionamento do shopping; que compareceu à 16ª Delegacia de Polícia acompanhada da gerente, levando gravações, capturas das conversas e comprovantes falsos, inclusive em pen drive; que nunca viu pessoalmente a pessoa responsável pelos contatos, tendo se comunicado apenas por telefone e WhatsApp; que não recuperou os valores de R$ 640,00 e R$ 642,00; e que nenhum produto foi entregue à pessoa que realizou os contatos.
+
+Em interrogatório judicial, Luciana Pinheiro dos Santos declarou que recebeu em sua conta bancária duas transferências de aproximadamente seiscentos reais cada uma, a pedido de Jeniffer, pessoa que conhecia desde a época da faculdade; que Jeniffer alegou estar enfrentando instabilidade em sua própria conta e precisava receber determinados valores; que concordou com o pedido e, após os créditos, transferiu as quantias para Jeniffer; que não se recordava de quem partiram as transferências originais e que, por estar trabalhando, limitou-se a receber e repassar o dinheiro, sem indagar sua procedência; que não conhecia a pessoa que efetuou os pagamentos; que sua conta bancária foi posteriormente bloqueada, tendo procurado o Banco Itaú para obter esclarecimentos, sem sucesso, pois a instituição alegou sigilo; que se tratava de conta antiga, aberta em 2016, e que o bloqueio lhe causou prejuízos, inclusive em seus planos de financiamento; que procurou Jeniffer para compreender o ocorrido, mas esta afirmou desconhecer a situação e não esclareceu a origem dos valores; que somente depois de intimada e de ter acesso aos elementos do processo começou a compreender a possível utilização de sua conta na fraude; que obteve diretamente no banco os extratos das transferências para Jeniffer e os entregou à defesa; que Jeniffer era pessoa de sua confiança, colega de faculdade e que posteriormente manteve relacionamento amoroso com seu irmão; que não suspeitava dela à época dos fatos; que Jeniffer inicialmente negou ter aplicado qualquer golpe, alegando que os valores seriam provenientes de uma cliente devedora, e posteriormente afirmou que não pretendia prejudicá-la e se dispôs a ajudar com as consequências do processo; que a referida pessoa teria utilizado seu nome e seus dados pessoais, passando-se por ela; que, à época, utilizava número telefônico diferente daquele empregado nos contatos com a vítima; que não mencionou nominalmente Jeniffer em seu primeiro interrogatório policial porque ainda não tinha certeza de seu envolvimento, embora tenha informado que uma amiga lhe pedira para receber e transferir valores; que prestou declarações à polícia por videoconferência, encontrando-se nervosa, sozinha e sem experiência anterior com a Justiça; que inicialmente autorizou o acesso policial aos extratos, mas posteriormente revogou a autorização por insegurança e por desejar acompanhamento de advogado, tendo, mais tarde, entregue os documentos à defesa para juntada aos autos; que somente emprestava sua conta a Jeniffer; que a justificativa apresentada por esta era a instabilidade de sua própria conta; que sempre trabalhou e negou ter participado de qualquer fraude; que não esteve no Rio de Janeiro ou no shopping Village Mall; que não reconheceu o número telefônico utilizado para contatar o estabelecimento; que os comprovantes falsos apresentados na investigação não continham seu CPF ou seu telefone; que não permaneceu com qualquer quantia proveniente dos fatos; e que deixou de manter contato com Jeniffer.
+
+Encerrada a instrução criminal, embora comprovada a ocorrência das fraudes descritas na denúncia, não foram produzidos elementos seguros que permitam atribuir à acusada participação consciente nos delitos, impondo-se a absolvição por insuficiência probatória.
+
+Com efeito, a investigação demonstrou que os valores de R$ 640,00 e R$ 642,00 foram creditados em conta bancária de titularidade de Luciana, conforme informações prestadas pelo Banco Itaú e confirmado pela própria acusada, o que constitui indício relevante de sua vinculação aos fatos, mas não demonstra, isoladamente, que ela tenha praticado o ardil ou conhecido a origem fraudulenta das quantias.
+
+A vítima descreveu a dinâmica do golpe e confirmou que não conheceu pessoalmente a pessoa que manteve contato com a loja, sendo certo que os registros das mensagens e os falsos comprovantes permitem identificar a forma de execução dos estelionatos, mas não estabelecem vínculo seguro entre a acusada e o número telefônico utilizado nas tratativas, tampouco demonstram que tenha sido ela a responsável pelo envio das mensagens ou dos áudios.
+
+Em seu interrogatório, Luciana admitiu ter recebido e repassado os valores, esclarecendo que o fez a pedido de Jeniffer, pessoa de sua confiança, que alegava dificuldades para movimentar a própria conta bancária, mas negou ter participado das negociações com o estabelecimento comercial ou ter conhecimento da origem fraudulenta das transferências.
+
+Os extratos apresentados no ID 301340330 indicam que, em 19/04/2024, após o crédito de R$ 640,00, houve débito de R$ 600,00 em favor de Jeniffer; em 20/04/2024, após o crédito de R$ 642,00, consta débito de R$ 610,00 à mesma destinatária, circunstâncias que confirmam a movimentação de parte substancial dos valores recebidos em favor de terceira pessoa, mas não permitem, por si sós, esclarecer se a acusada tinha conhecimento da origem fraudulenta das quantias ou se efetivamente participou do ajuste criminoso.
+
+Embora o Ministério Público tenha questionado a cronologia e os valores dos repasses, as diferenças entre as quantias recebidas e transferidas, ainda que suscitem dúvidas acerca da dinâmica das operações, não constituem elementos suficientes para demonstrar que Luciana tinha conhecimento da origem fraudulenta dos recursos, tampouco permitem concluir, sem outras provas que evidenciem sua adesão consciente à empreitada criminosa, que o recebimento dos valores e sua posterior transferência a terceira pessoa caracterizem participação dolosa nos estelionatos.
+
+As conversas juntadas pela defesa também não permitem conclusão segura acerca do elemento subjetivo. Ao encaminhar a Jeniffer a fotografia de um documento judicial acompanhada da mensagem "Chegou o 'não dá nada'", Luciana fez referência a uma possível garantia anterior de que a utilização de sua conta bancária não acarretaria consequências, enquanto a resposta de Jeniffer, especialmente ao afirmar "Como todo mundo fez e não deu nada", suscita dúvidas quanto às circunstâncias em que as operações foram realizadas. Embora o teor dessas mensagens não afaste a possibilidade de que a acusada tivesse conhecimento da origem fraudulenta dos valores, tampouco autoriza concluir, com a segurança necessária à condenação, que ela estivesse ciente da prática criminosa em abril de 2024, sobretudo porque as conversas ocorreram posteriormente aos fatos. Assim, ainda que a versão defensiva não se mostre inteiramente convincente, as suspeitas decorrentes do conteúdo das mensagens não podem ser tomadas como prova suficiente de sua participação dolosa nos estelionatos.
+
+É possível que a disponibilização da conta bancária tenha facilitado a prática criminosa. Contudo, a responsabilidade penal exige demonstração de que a contribuição foi voluntária e consciente em relação à fraude, não bastando a mera imprudência na movimentação de recursos de terceiros ou a possibilidade de que a titular da conta suspeitasse de alguma irregularidade.
+
+Nesse cenário, embora a titularidade da conta bancária, o recebimento dos valores e os repasses realizados a Jeniffer constituam indícios relevantes da vinculação da acusada aos fatos, tais circunstâncias, mesmo examinadas em conjunto com os demais elementos probatórios, não permitem afirmar, com a segurança necessária à condenação, que Luciana tivesse conhecimento da origem fraudulenta das quantias e aderido conscientemente à prática dos estelionatos. Assim, ainda que sua versão não esteja inteiramente esclarecida, a dúvida quanto ao elemento subjetivo impede a formação de um juízo condenatório, sob pena de lhe atribuir responsabilidade penal com fundamento em presunções.
+
+Nos termos do artigo 155 do Código de Processo Penal, a convicção judicial deve decorrer da apreciação do conjunto probatório, respeitado o contraditório. Na hipótese, não foi afastada a dúvida razoável quanto à participação dolosa da acusada nos fatos descritos na denúncia.
+
+Diante desse cenário, em observância ao princípio da presunção de inocência, consagrado no artigo 5º, inciso LVII, da Constituição Federal, impõe-se a absolvição, na forma do artigo 386, inciso VII, do Código de Processo Penal.
+
+Diante do exposto, JULGO IMPROCEDENTE o pedido contido na denúncia para ABSOLVER LUCIANA PINHEIRO DOS SANTOS das imputações previstas no artigo 171, § 2º-A, do Código Penal, por duas vezes, e no mesmo dispositivo c/c artigo 14, inciso II, na forma do art. 71, do CP, com fundamento no artigo 386, inciso VII, do Código de Processo Penal.
+
+Após o trânsito em julgado, procedam-se às anotações e comunicações de estilo, dê-se baixa e arquivem-se os autos.
+
+Sem custas.
+
+Dê-se ciência ao Ministério Público e à Defesa.
+
+Publique-se. Registre-se. Intimem-se.
+
+RIO DE JANEIRO, 7 de novembro de 2026.
+
+LARISSA MARIA NUNES BARROS FRANKLIN DUARTE
+Juiz Substituto

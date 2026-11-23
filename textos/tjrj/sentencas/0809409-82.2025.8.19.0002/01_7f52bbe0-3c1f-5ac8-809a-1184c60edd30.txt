@@ -1,0 +1,124 @@
+[Texto nativo do PJe]
+
+Poder Judiciário do Estado do Rio de Janeiro
+
+Comarca de Niterói
+
+4ª Vara Criminal da Comarca de Niterói
+
+, S/N, 11º ANDAR, NITERÓI - RJ - CEP: 24020-069
+
+SENTENÇA
+
+Processo: 0809409-82.2025.8.19.0002
+
+Classe: AÇÃO PENAL - PROCEDIMENTO SUMÁRIO (10943)
+
+AUTOR: MINISTERIO PUBLICO DO ESTADO DO RIO DE JANEIRO, MINISTERIO PUBLICO DO ESTADO DO RIO DE JANEIRO
+
+RÉU: RAFAEL PEREIRA DE LIMA JUNIOR
+
+O MINISTÉRIO PÚBLICO DO ESTADO DO RIO DE JANEIRO ofereceu denúncia contra RAFAEL PEREIRA DE LIMA JUNIOR, imputando-lhe a prática do crime previsto no artigo 171, caput, do Código Penal. Segundo a denúncia:
+
+"No dia 16 de setembro de 2024, na Estrada da Florália, nº 333, Casa 04, nesta Comarca, o denunciado, livre e conscientemente, obteve vantagem ilícita no valor de R$ 6.000,00 (seis mil reais), mediante fraude eletrônica, em prejuízo de LOZIMAR LARRUBIA MUNIZ. Constatou-se que o denunciado, valendo-se de artifícios fraudulentos, acessou ilegalmente a conta bancária da vítima, onde realizou empréstimo pessoal no valor de R$ 1.500,00 (um mil e quinhentos reais) e efetuou pagamento de boleto no valor de R$ 4.500,00 (quatro mil e quinhentos reais) em favor de sua própria conta na plataforma PAGSEGURO. Para tanto, utilizou dados cadastrais falsos, vinculando a conta da vítima às operações ilícitas, sem qualquer autorização. A vítima, LOZIMAR LARRUBIA MUNIZ, declarou em sede policial que não realizou, autorizou ou teve ciência das transações, mantendo exclusividade no acesso aos seus dispositivos e dados bancários. Ressaltou, ainda, que não mantém relação com o denunciado e que todas as tentativas de contato com ele foram infrutíferas.".
+
+Denúncia – ID 181480457.
+
+Recebimento da denúncia – ID 221295364.
+
+Registro de Ocorrência (ID 181480459).
+
+Termo de Declaração da vítima (ID 181480458).
+
+Resposta da PagSeguro com dados cadastrais e fotos (ID 181480465).
+
+Extrato bancário e comprovantes (ID 181480460).
+
+Pesquisas em sistemas de segurança (ID 181480472).
+
+Decisão de ID 225234371 ratificou o recebimento da denúncia e designou Audiência de Instrução e Julgamento.
+
+O réu foi citado eletronicamente (ID 212838087) e apresentou resposta à acusação genérica por meio da Defensoria Pública (ID 224604888).
+
+Audiência de Instrução e Julgamento realizada conforme ata de ID 237194458, oportunidade em que foi colhido o depoimento da vítima Lozimar Larrubia Muniz.
+
+Audiência de instrução e julgamento realizada conforme ata de ID 237194458 oportunidade em que foi colhido o depoimento da vítima Lozimar Larrubia Muniz.
+
+O acusado não compareceu ao ato, sendo decretada sua revelia nos termos do artigo 367 do Código de Processo Penal (ID 257374482).
+
+Alegações finais do Ministério Público (ID 259514497), em que pugna pela procedência do pedido condenatório nos termos da denúncia, sustentando que a autoria e materialidade restaram cabalmente comprovadas.
+
+Alegações finais da Defesa (ID 261110645), em que pugna pela absolvição com fulcro no artigo 386, incisos V ou VII do CPP. Sustenta a inexistência de lastro probatório mínimo, a ausência de perícia técnica digital e a inadequação típica da conduta capitulada como estelionato, uma vez que não houve induzimento ao erro ou colaboração da vítima. Requer, subsidiariamente, a gratuidade de justiça.
+
+É o relatório. Passo a decidir.
+
+Trata-se de ação penal que versa sobre infração patrimonial cometida por meios eletrônicos, na qual a pretensão punitiva estatal busca a responsabilização do beneficiário de transações financeiras fraudulentas.
+
+A Defesa alega a insuficiência de justa causa e a fragilidade da prova formal em sede de preliminar de mérito. Tais argumentos confundem-se com o próprio mérito da causa e serão analisados no momento oportuno. No entanto, antecipo que a denúncia atende aos pressupostos do artigo 41 do CPP, expondo o fato criminoso em todas as suas circunstâncias, o que permitiu o exercício da ampla defesa.
+
+Em Juízo, a vítima Lozimar Larrubia Muniz declarou que:
+
+"Que foi ao banco para pegar o extrato e verificou que havia ocorrido algo de errado em sua conta; que, ao entrar em contato com o pessoal do banco, foi informada de que deveria ir à delegacia para fazer um boletim de ocorrência; que alguém havia entrado em sua conta, realizado um empréstimo de R$ 1.500,00 e pago uma fatura de R$ 4.500,00; que não sabe quem realizou essas operações; que não sabe como conseguiram acessar sua conta; que apenas percebeu que não havia feito aquelas transações; que foi ao banco porque havia perdido seu cartão e estava solicitando a segunda via; que, conversando com o atendente, soube que havia sido realizado um empréstimo em sua conta para pagar a referida fatura; que afirmou ao funcionário que não havia feito nenhuma daquelas operações; que não conhece o acusado; que nunca o viu antes e não faz ideia de quem seja; que não sabe como chegaram à identificação desse indivíduo; que, conforme foi informada no banco, ela possuía cerca de R$ 3.000,00 na conta, tendo sido realizado o empréstimo de R$ 1.500,00 para completar o valor necessário ao pagamento da fatura de R$ 4.500,00 em nome de Rafael; que nunca viu foto desse indivíduo e continua sem saber quem seja; que não recuperou seu dinheiro até a presente data; que não sabe se as operações foram feitas presencialmente ou de outra forma; que apenas descobriu o ocorrido quando foi ao banco; que foi surpreendida com o movimento realizado em sua conta sem sua autorização.".
+
+O acusado Rafael Pereira de Lima Junior, apesar de regularmente citado e intimado, não compareceu para prestar seu depoimento em juízo, optando pelo silêncio processual. Em sede policial, igualmente, não houve manifestação, restando infrutíferas as tentativas de contato via e-mail e telefone fornecidos pelo próprio réu à plataforma PagSeguro.
+
+Ao fim da instrução processual, a materialidade delitiva é incontestável. Está consubstanciada no Registro de Ocorrência nº 079-02609/2024 (ID 181480459), no comprovante de pagamento de boleto no valor de R$ 4.500,00 (ID 181480460) e no extrato descritivo de crédito pessoal nº 510239273 (ID 181480460), que comprova a contratação de empréstimo de R$ 1.500,00 na mesma data e hora. O desfalque patrimonial totaliza R$ 6.000,00, valor que não foi restituído à vítima até o encerramento da instrução.
+
+Quanto à autoria, a convicção deste juízo forma-se por meio de uma prova indiciária veemente, cujos elementos são convergentes e apontam para a responsabilidade do réu Rafael Pereira de Lima Junior. A peça fundamental é o ofício da PagSeguro Internet IP S.A. (ID 181480465), que identifica o réu como o titular exclusivo da conta digital beneficiária dos valores subtraídos da vítima.
+
+A defesa técnica sustenta que a titularidade da conta não implica autoria, argumentando que dados pessoais podem ser utilizados por terceiros em fraudes de identidade. Entretanto, este argumento permanece no campo das hipóteses abstratas e não resiste à análise pragmática do caso concreto. A conta digital do réu foi aberta em 31/03/2021, mais de três anos antes dos fatos, o que demonstra uma relação de permanência com a instituição financeira muito anterior aos fatos, descaracterizando a figura de uma conta "fantasma" criada apenas para este delito. Ademais, um boleto bancário de titularidade do réu foi quitado com o montante subtraído da vítima, o que tem o condão de enfraquecer ainda mais a tese. Ademais, a pesquisa realizada no sistema SINESP/INFOSEG (ID 181480472) certificou que não há registro de ocorrência feito pelo réu acerca de furto, roubo ou extravio de seus documentos de identificação. Segundo as regras de experiência comum (Art. 335, CPC c/c Art. 3º, CPP), o cidadão que tem sua identidade usurpada para a abertura de contas bancárias tende a buscar a proteção estatal tão logo percebe a fraude. O silêncio do réu, somado à sua revelia em juízo, corrobora a tese de que ele detinha o controle sobre o instrumento utilizado para o recebimento da vantagem ilícita.
+
+Em crimes cometidos em ambiente digital, o rastro financeiro é a prova de maior relevo. A vinculação direta da conta recebedora aos dados biométricos e biográficos do réu estabelece o liame subjetivo necessário para a atribuição da autoria.
+
+QUANTO AO CRIME DE FURTO MEDIANTE FRAUDE ELETRÔNICA (Art. 155, §4º-B, CP)
+
+A capitulação jurídica inicial da denúncia como estelionato (Art. 171, CP) não se coaduna com a descrição fática apresentada e com as provas colhidas. A distinção entre o estelionato e o furto mediante fraude é um dos temas mais sensíveis da dogmática penal contemporânea, especialmente após a reforma trazida pela Lei 14.155/2021.
+
+No estelionato, o agente utiliza a fraude para viciar a vontade da vítima, induzindo-a ou mantendo-a em erro, de modo que ela própria, voluntariamente, entrega o patrimônio ao criminoso. Há uma "colaboração" do lesado, ainda que baseada em uma falsa percepção da realidade. No presente caso, a vítima Lozimar foi categórica ao afirmar que não realizou, não autorizou e sequer teve ciência das transações no momento em que ocorreram; ela apenas tomou conhecimento do desfalque ao consultar seu extrato no banco.
+
+No furto mediante fraude, por outro lado, a fraude não é utilizada para convencer a vítima a entregar o bem, mas sim para burlar a sua vigilância, distrair a sua atenção ou transpor mecanismos de segurança, permitindo a subtração da coisa sem que a vítima perceba o desapossamento. No ambiente bancário, o acesso não autorizado a sistemas de internet banking ou aplicativos para a realização de transferências e pagamentos configura, tipicamente, o crime de furto qualificado pela fraude.
+
+A jurisprudência do Superior Tribunal de Justiça consolidou este entendimento:
+
+"A distinção entre o furto mediante fraude e o estelionato faz-se primordialmente com a análise do elemento comum da fraude que, no furto, é utilizada pelo agente com o fim de burlar a vigilância da vítima que, desatenta, tem seu bem subtraído; no estelionato, a fraude é usada como meio de obter o consentimento da vítima que, iludida, entrega voluntariamente o bem ao agente." (STJ, AgRg no REsp 1.412.971/PE, Rel. Min. Laurita Vaz).
+
+Mais especificamente sobre fraudes bancárias eletrônicas, a Terceira Seção do STJ sedimentou, no Conflito de Competência 149.752/PI, que a subtração de valores via transferência ou saque sem consentimento do titular configura furto mediante fraude. Com a inclusão do §4º-B no artigo 155 do Código Penal pela Lei 14.155/2021, o legislador criou uma qualificadora específica para a fraude cometida com o uso de dispositivo eletrônico ou informático, independentemente da violação de mecanismo de segurança.
+
+Neste sentido, procedo à emendatio libelli, com fulcro no artigo 383 do Código de Processo Penal. O réu se defende dos fatos narrados na denúncia, e a peça acusatória descreveu expressamente o "acesso ilegal" e a utilização de "dados cadastrais falsos" para vincular as operações, o que permite a correção da definição jurídica sem prejuízo ao contraditório. Note-se que as penas previstas para o furto mediante fraude eletrônica (reclusão de 4 a 8 anos) e para o estelionato eletrônico (reclusão de 4 a 8 anos, conforme §2º-A do Art. 171) são idênticas, o que afasta qualquer alegação de prejuízo na dosimetria.
+
+Quanto às teses defensivas de insuficiência de provas e falta de perícia (IP), estas não prosperam diante do princípio do livre convencimento motivado (Art. 155, CPP). A ausência de prova pericial direta da invasão é suprida pela prova documental da destinação do proveito. Admitir que a falta de IP gera absolvição automática em crimes digitais seria criar uma zona de impunidade absoluta para o beneficiário final de transações rastreáveis, em total descompasso com a Teoria da Prova e a proteção ao patrimônio. O dolo do réu é extraído da voluntariedade de manter sua conta ativa para o recebimento de valores ilícitos, não tendo apresentado qualquer contraprova de que sua conta teria sido operada por terceiros sem sua anuência.
+
+Culpável, por derradeiro, o acusado, já que imputável e ciente do ilícito agir, devendo e podendo dele ser exigida conduta de acordo com as normas proibitivas implicitamente previstas nos tipos praticados, inexistindo quaisquer causas de exclusão de antijuridicidade ou de culpabilidade aplicáveis ao caso dos autos.
+
+1) Passo, assim, a dosar a pena do réu, com arrimo nos artigos 59 e 68 do Código Penal:
+
+RÉU RAFAEL PEREIRA DE LIMA JUNIOR
+
+QUANTO AO CRIME DE FURTO MEDIANTE FRAUDE ELETRÔNICA (Art. 155, §4º-B, CP)
+
+1ª FASE: Conforme a Folha de Antecedentes Criminais (ID 270785678), o réu não possui condenações transitadas em julgado por fatos anteriores. A anotação existente refere-se ao processo em tela, o que impede a sua utilização para exasperar a pena-base, sob pena de violação ao princípio da presunção de inocência e à Súmula 444 do STJ.  Devem ser valoradas negativamente. O crime foi cometido contra vítima idosa (Lozimar Larrubia Muniz nasceu em 21/03/1960, contando com 64 anos à época do fato), o que demonstra uma escolha deliberada por um alvo com maior vulnerabilidade frente às tecnologias digitais. A exploração da fragilidade de idosos no ambiente cibernético revela uma gravidade concreta que transborda a descrição típica. Por este motivo, exaspero a pena-base na fração de 1/6. O prejuízo total foi de R$ 6.000,00. Embora não seja um valor exorbitante, para uma pessoa aposentada, representa um impacto severo em sua subsistência e organização financeira, especialmente considerando a contratação de um empréstimo em seu nome, cujas parcelas comprometem sua renda futura (ID 181480460). Tal circunstância, contudo, já é parcialmente abrangida pela gravidade das circunstâncias negativas. Diante da circunstância judicial negativa (vulnerabilidade da vítima idosa), fixo a pena-base em 04 (quatro) anos e 08 (oito) meses de reclusão e 11 (onze) dias-multa.
+
+2ª FASE: Inexistem circunstâncias atenuantes, uma vez que o réu é revel e não confessou a prática delitiva. Incide a agravante prevista no artigo 61, inciso II, alínea "h" do Código Penal, por ter sido o crime cometido contra maior de 60 anos. Embora a condição de idosa tenha sido considerada nas circunstâncias do crime na primeira fase, para evitar o bis in idem e garantir o rigor técnico, aplico a agravante nesta fase e mantenho a valoração negativa da circunstância judicial apenas no que tange à "especificidade da vulnerabilidade digital". Assim, aumento a pena na fração de 1/6, fixando-a em 05 (cinco) anos, 05 (cinco) meses e 10 (dez) dias de reclusão e 12 (doze) dias-multa.
+
+3ª FASE: Inexistem causas de aumento ou de diminuição de pena. Ressalto que a causa de aumento do repouso noturno (Art. 155, §1º) é inaplicável ao furto na sua forma qualificada, em observância à tese firmada pelo STJ no Tema Repetitivo 1.087. Fixo a pena definitiva em 05 (cinco) anos, 05 (cinco) meses e 10 (dez) dias de reclusão e 12 (doze) dias-multa, no valor unitário de um trigésimo do salário mínimo vigente ao tempo dos fatos.
+
+Ante o exposto, JULGO PROCEDENTE EM PARTE a pretensão punitiva estatal para DESCLASSIFICAR A CONDUTA E CONDENAR o réu RAFAEL PEREIRA DE LIMA JUNIOR, nas penas do artigo 155, §4º-B, do Código Penal (com a redação da Lei 14.155/2021), à pena de 05 (cinco) anos, 05 (cinco) meses e 10 (dez) dias de reclusão e 12 (doze) dias-multa, no valor unitário de um trigésimo do maior salário mínimo vigente à época do fato.
+
+2) Condeno o réu ao pagamento das custas processuais, nos termos do artigo 804 do CPP.
+
+3) Deixo de operar a substituição da pena privativa de liberdade por restritivas de direitos, uma vez que não restam preenchidos os requisitos do artigo 44, inciso I, do Código Penal, tendo em vista que a pena aplicada é superior a 04 (quatro) anos.
+
+4) Pelo mesmo motivo, deixo de aplicar a suspensão condicional da pena (SURSIS), nos termos do artigo 77 do Código Penal.
+
+5) Considerando o quantum da pena aplicada e a presença de circunstância judicial negativa (vulnerabilidade da vítima idosa), fixo o REGIME INICIAL SEMIABERTO para o início do cumprimento da pena, com fulcro no artigo 33, §2º, alínea "b" e §3º do Código Penal.
+
+6) Intimem-se as partes. Intime-se pessoalmente o réu, se localizado, ou por edital, caso permaneça em local incerto, observada a revelia já decretada.
+
+7) Em atenção ao artigo 387, inciso IV, do CPP, fixo o valor mínimo para a reparação dos danos materiais causados à vítima em R$ 6.000,00 (seis mil reais), valor que deverá ser corrigido monetariamente pelos índices oficiais a partir da data do prejuízo (16/09/2024) e acrescido de juros de mora de 1% ao mês desde a citação.
+
+8) Com o trânsito em julgado, expeçam-se as diligências necessárias para a execução definitiva da sentença. Com as comunicações de praxe, dê-se baixa e arquive-se.
+
+NITERÓI, 1 de abril de 2026.
+
+JULIANA GRILLO EL JAICK
+Juiz Titular
