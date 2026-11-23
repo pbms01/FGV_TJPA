@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Esqueceu a senha?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f3f5f7;
+  --surface: #ffffff;
+  --ink: #18212b;
+  --muted: #5a6573;
+  --line: #d9dee4;
+  --accent: #1d4f73;
+  --accent-soft: #e6eef4;
+  --ok: #2f6b4f;
+  --ok-soft: #e7f1ec;
+  --del: #8a2f2f;
+  --font-display: "Literata", Georgia, "Times New Roman", serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #12171d; --surface: #1a2129; --ink: #e4e9ee; --muted: #9aa6b3; --line: #2c3641;
+    --accent: #7fb3d9; --accent-soft: #1e2e3b; --ok: #7cc4a0; --ok-soft: #18302a; --del: #e08a8a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #12171d; --surface: #1a2129; --ink: #e4e9ee; --muted: #9aa6b3; --line: #2c3641;
+  --accent: #7fb3d9; --accent-soft: #1e2e3b; --ok: #7cc4a0; --ok-soft: #18302a; --del: #e08a8a;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 16px; line-height: 1.6; }
+.wrap { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; display: grid; gap: 28px; }
+header { display: grid; gap: 10px; }
+.eyebrow { font-family: var(--font-mono); font-size: 12.5px; letter-spacing: 0.04em; color: var(--muted); text-transform: uppercase; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 600; text-wrap: balance; margin: 0; line-height: 1.25; }
+h1 { font-size: 30px; } h2 { font-size: 21px; } h3 { font-size: 18px; }
+p { margin: 0; max-width: 65ch; }
+.lead { color: var(--muted); }
+.status { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+.chip { font-family: var(--font-mono); font-size: 13px; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--muted); }
+.chip.done { border-color: var(--ok); color: var(--ok); background: var(--ok-soft); }
+section.caso { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 22px; display: grid; gap: 14px; }
+dl { margin: 0; display: grid; gap: 10px; }
+dl div { display: grid; grid-template-columns: 120px 1fr; gap: 12px; }
+dt { font-weight: 600; color: var(--muted); font-size: 14.5px; padding-top: 1px; }
+dd { margin: 0; max-width: 60ch; }
+@media (max-width: 520px) { dl div { grid-template-columns: 1fr; gap: 2px; } }
+.questoes { display: grid; gap: 20px; }
+article.q { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--line); border-radius: 10px; padding: 22px; display: grid; gap: 14px; }
+article.q.answered { border-left-color: var(--ok); }
+.qhead { display: flex; gap: 12px; align-items: baseline; }
+.qnum { font-family: var(--font-mono); font-size: 13px; color: var(--accent); flex: none; }
+label.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+textarea { width: 100%; min-height: 130px; resize: vertical; padding: 12px 14px; font: inherit; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; }
+textarea:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+textarea[readonly] { opacity: 0.85; }
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; justify-content: space-between; }
+.count { font-family: var(--font-mono); font-size: 12.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+button { font: inherit; font-weight: 600; font-size: 15px; padding: 9px 16px; border-radius: 8px; border: 1px solid var(--accent); background: var(--accent); color: var(--surface); cursor: pointer; }
+button:disabled { opacity: 0.45; cursor: not-allowed; }
+button.ghost { background: transparent; color: var(--accent); }
+.gabarito { display: grid; gap: 12px; background: var(--ok-soft); border: 1px solid var(--ok); border-radius: 8px; padding: 18px; }
+.gabarito h3 { color: var(--ok); font-size: 16px; font-family: var(--font-body); }
+.lei { font-family: var(--font-display); font-size: 15px; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px; }
+.lei small { display: block; margin-top: 6px; font-family: var(--font-body); font-size: 13px; color: var(--muted); }
+.base { font-size: 14.5px; color: var(--muted); }
+fieldset { border: 0; margin: 0; padding: 0; display: grid; gap: 6px; }
+legend { font-weight: 600; font-size: 14.5px; margin-bottom: 6px; }
+.ponto { display: flex; gap: 10px; align-items: flex-start; }
+.ponto input { margin-top: 5px; width: 16px; height: 16px; accent-color: var(--ok); flex: none; }
+.placar { font-family: var(--font-mono); font-size: 13px; color: var(--ok); font-variant-numeric: tabular-nums; }
+section.sintese { border: 1px dashed var(--line); border-radius: 10px; padding: 22px; display: grid; gap: 12px; }
+section.sintese.open { border-style: solid; border-color: var(--accent); background: var(--accent-soft); }
+section.sintese ul { margin: 0; padding-left: 20px; display: grid; gap: 8px; max-width: 65ch; }
+footer { font-size: 13.5px; color: var(--muted); display: grid; gap: 10px; }
+@media (prefers-reduced-motion: no-preference) {
+  .gabarito:not([hidden]) { animation: abre 220ms ease-out; }
+  @keyframes abre { from { opacity: 0.4; transform: translateY(-3px); } to { opacity: 1; transform: none; } }
+}
+
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <div class="eyebrow">Segurança da informação · Par único · Caso de contraste (STF)</div>
+    <h1>Esqueceu a senha?</h1>
+    <p class="lead">Leia o caso e responda às três questões. O gabarito de cada uma aparece quando você envia a sua resposta. Depois, marque os pontos que a sua resposta cobriu.</p>
+    <div class="status">
+      <span class="chip" id="progresso" aria-live="polite">0 de 3 respondidas</span>
+      <button type="button" class="ghost" id="recomecar">Recomeçar</button>
+    </div>
+  </header>
+
+  <section class="caso" aria-labelledby="t-caso">
+    <h2 id="t-caso">O caso</h2>
+    <p>Entre agosto de 2022 e janeiro de 2023, os sistemas do Conselho Nacional de Justiça foram invadidos ao menos 13 vezes. Dentro deles, o invasor inseriu documentos falsos: alvarás de soltura, ordens de bloqueio e um mandado de prisão contra um ministro do Supremo Tribunal Federal. Agia, segundo a acusação, a mando de uma parlamentar.</p>
+    <p>O controle de acesso aos sistemas do CNJ (BNMP, Renajud e outros) passa por um sistema corporativo de login. Os registros de acesso apontavam usuários legítimos: servidores e uma magistrada, que não tinham feito as inserções.</p>
+    <dl>
+      <div><dt>Datas</dt><dd>Fatos de agosto de 2022 a janeiro de 2023, depois da Lei 14.155/2021; denúncia da PGR recebida em maio de 2024; julgamento pela Primeira Turma do STF em maio de 2025 (AP 2428).</dd></div>
+      <div><dt>Denúncia</dt><dd>Art. 154-A, §2º, do CP (invasão com prejuízo econômico), 13 vezes, e art. 299 do CP (falsidade ideológica), 16 vezes. A denúncia narra que o executor "teria violado indevidamente mecanismos de segurança".</dd></div>
+      <div><dt>Prova</dt><dd>Registros dos sistemas do CNJ, confissão do executor, material por ele entregue e investigação da Polícia Federal.</dd></div>
+      <div><dt>Defesa</dt><dd>Entre outras teses, a falta de acesso integral aos dados armazenados em nuvem do executor.</dd></div>
+    </dl>
+  </section>
+
+  <div class="questoes">
+    <article class="q" id="q1" aria-labelledby="t-q1">
+      <div class="qhead"><span class="qnum">1 de 3</span><h3 id="t-q1">O invasor não quebrou cifra nenhuma. Por onde ele passou pela barreira do CNJ?</h3></div>
+      <label class="sr" for="r1">Sua resposta à questão 1</label>
+      <textarea id="r1" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c1">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b1" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g1" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>Segundo o voto do relator, pela funcionalidade "Esqueceu a senha?" da tela de login do sistema de controle de acesso, por credenciais violadas de um funcionário e dados de outro usuário, por credenciais forjadas e pelas credenciais de uma magistrada no Renajud; e entrou no repositório de código do CNJ a partir de uma vulnerabilidade encontrada no GitHub, que expôs segredos e tokens.</p>
+        <p>A habilidade do agente estava em achar e encadear falhas de gestão de credenciais, não em vencer a criptografia. Na base do TJSP há o mesmo caminho: um escrevente entrou duas vezes na conta gov.br de um juiz, mesmo depois da troca de senha e da verificação em duas etapas, e confessou ter usado a opção "esqueci a senha" (INV 4).</p>
+
+        <p class="base">Na base, a técnica (falha explorada, programa malicioso, força bruta) é a via em 5 das 41 denúncias que narram a passagem; nas demais, a porta foi aberta por credenciais, da vítima, de quem tinha acesso ou recuperadas.</p>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" data-q="1"> Identificou a recuperação de senha como via.</label>
+          <label class="ponto"><input type="checkbox" data-q="1"> Apontou o uso de credenciais legítimas de terceiros.</label>
+          <label class="ponto"><input type="checkbox" data-q="1"> Mencionou o segredo exposto em repositório de código.</label>
+          <label class="ponto"><input type="checkbox" data-q="1"> Distinguiu falha de gestão de credenciais de quebra de criptografia.</label>
+        </fieldset>
+        <span class="placar" id="s1">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+    <article class="q" id="q2" aria-labelledby="t-q2">
+      <div class="qhead"><span class="qnum">2 de 3</span><h3 id="t-q2">Os fatos são posteriores à Lei 14.155/2021, mas a denúncia narra a violação de mecanismos de segurança. Isso importa à tipicidade? E à pena?</h3></div>
+      <label class="sr" for="r2">Sua resposta à questão 2</label>
+      <textarea id="r2" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c2">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b2" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g2" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>À tipicidade, não: desde 28/05/2021 o art. 154-A pune invadir, sem exigir barreira vencida, e o voto aplica a pena da redação nova sem analisar a elementar. À pena, sim: o voto conta quatro circunstâncias judiciais negativas e põe na culpabilidade o "reconhecido conhecimento técnico em matéria de invasão de sistemas informatizados", e nas circunstâncias o planejamento detalhado e as medidas para dificultar a descoberta. A pena do executor chegou a 8 anos e 3 meses, em regime fechado, com danos materiais e morais coletivos de R$ 2 milhões.</p>
+        <p>A violação da barreira migrou do tipo para a dosimetria, e lá precisa de fundamento concreto, como o voto deu.</p>
+
+        <p class="base">Na base do TJSP, a técnica do agente pesa na pena em uma sentença (INV 4, "expertise e habilidade incomuns"), e cinco sentenças com fato posterior à lei ainda tratam a barreira como exigência do tipo.</p>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" data-q="2"> Negou que a violação seja elementar depois de 28/05/2021.</label>
+          <label class="ponto"><input type="checkbox" data-q="2"> Identificou a técnica como matéria de culpabilidade e circunstâncias.</label>
+          <label class="ponto"><input type="checkbox" data-q="2"> Exigiu fundamento concreto para a valoração na pena.</label>
+          <label class="ponto"><input type="checkbox" data-q="2"> Comparou com sentenças da base que ainda exigem a barreira.</label>
+        </fieldset>
+        <span class="placar" id="s2">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+    <article class="q" id="q3" aria-labelledby="t-q3">
+      <div class="qhead"><span class="qnum">3 de 3</span><h3 id="t-q3">Os registros do CNJ apontavam as credenciais de servidores e de uma magistrada. Por que eles não bastavam para a autoria, e o que a completou?</h3></div>
+      <label class="sr" for="r3">Sua resposta à questão 3</label>
+      <textarea id="r3" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c3">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b3" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g3" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>Porque o registro identifica a credencial, e não a pessoa: com credencial de terceiro, o log aponta quem não agiu. A autoria se provou cruzando o registro com outra trilha, a confissão do executor, o material que ele entregou e a investigação.</p>
+        <p>É o oposto do caso âncora (INV 2), em que a credencial era da própria agente e o registro bastou para atribuir as trocas de chip a ela. A pergunta prática, diante de um log, é de quem era a credencial que ele registra.</p>
+
+        <p class="base">Na base, nos 7 acessos internos, o registro do sistema atribuiu o acesso em 5; nos dois restantes (credencial cedida por servidoras e senhas compradas que não funcionaram), a autoria veio da confissão e do aparelho apreendido.</p>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" data-q="3"> Distinguiu a identificação da credencial da identificação da pessoa.</label>
+          <label class="ponto"><input type="checkbox" data-q="3"> Indicou a necessidade de outra trilha de prova.</label>
+          <label class="ponto"><input type="checkbox" data-q="3"> Comparou com a credencial própria do caso âncora.</label>
+          <label class="ponto"><input type="checkbox" data-q="3"> Formulou a pergunta de quem era a credencial registrada.</label>
+        </fieldset>
+        <span class="placar" id="s3">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+  </div>
+
+  <section class="sintese" id="sintese" aria-labelledby="t-sintese" aria-live="polite">
+    <h2 id="t-sintese">O que o caso acrescenta à decisão</h2>
+    <p id="sintese-espera">A síntese aparece quando as três questões estiverem respondidas.</p>
+    <ul id="sintese-lista" hidden>
+      <li>Na tipicidade, a violação de mecanismo de segurança deixou de ser elementar do art. 154-A em 28/05/2021; narrada na denúncia, ela informa a pena, não o tipo.</li>
+      <li>Na dosimetria, o conhecimento técnico pode pesar na culpabilidade, com fundamento concreto, como o voto deu.</li>
+      <li>Na prova, o log identifica a credencial; com credencial alheia, a autoria depende de cruzar o registro com outra trilha.</li>
+      <li>No fenômeno, o caso de maior repercussão do período confirma o padrão da base: a porta é aberta por credenciais, não pela quebra da criptografia.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Caso de ação penal originária do STF (AP 2428), lido no voto do relator em reprodução publicada; os nomes das partes foram omitidos. Os números da base vêm de 198 denúncias do TJSP e suas sentenças, com codificação conferida por segundo leitor.</p>
+    <p>As respostas ficam só nesta página e se perdem ao recarregá-la.</p>
+  </footer>
+</main>
+
+<script>
+(function () {
+  var MIN = 40;
+  var respondidas = { 1: false, 2: false, 3: false };
+  function el(id) { return document.getElementById(id); }
+  function atualizaProgresso() {
+    var n = Object.keys(respondidas).filter(function (k) { return respondidas[k]; }).length;
+    var chip = el("progresso");
+    chip.textContent = n + " de 3 respondidas";
+    chip.classList.toggle("done", n === 3);
+    var aberta = n === 3;
+    el("sintese").classList.toggle("open", aberta);
+    el("sintese-lista").hidden = !aberta;
+    el("sintese-espera").hidden = aberta;
+  }
+  function atualizaPlacar(q) {
+    var caixas = document.querySelectorAll('input[data-q="' + q + '"]');
+    var marcados = Array.prototype.filter.call(caixas, function (c) { return c.checked; }).length;
+    el("s" + q).textContent = marcados + " de " + caixas.length + " pontos marcados";
+  }
+  [1, 2, 3].forEach(function (q) {
+    var campo = el("r" + q), botao = el("b" + q), conta = el("c" + q);
+    campo.addEventListener("input", function () {
+      var n = campo.value.trim().length;
+      conta.textContent = n + (n === 1 ? " caractere" : " caracteres") + " · mínimo de " + MIN;
+      botao.disabled = n < MIN;
+    });
+    botao.addEventListener("click", function () {
+      if (campo.value.trim().length < MIN) return;
+      campo.readOnly = true;
+      botao.disabled = true;
+      botao.textContent = "Resposta enviada";
+      el("g" + q).hidden = false;
+      el("q" + q).classList.add("answered");
+      respondidas[q] = true;
+      atualizaProgresso();
+    });
+    document.querySelectorAll('input[data-q="' + q + '"]').forEach(function (c) {
+      c.addEventListener("change", function () { atualizaPlacar(q); });
+    });
+  });
+  el("recomecar").addEventListener("click", function () {
+    [1, 2, 3].forEach(function (q) {
+      var campo = el("r" + q), botao = el("b" + q);
+      campo.value = "";
+      campo.readOnly = false;
+      botao.disabled = true;
+      botao.textContent = "Responder e ver o gabarito";
+      el("c" + q).textContent = "0 caracteres · mínimo de " + MIN;
+      el("g" + q).hidden = true;
+      el("q" + q).classList.remove("answered");
+      document.querySelectorAll('input[data-q="' + q + '"]').forEach(function (c) { c.checked = false; });
+      atualizaPlacar(q);
+      respondidas[q] = false;
+    });
+    atualizaProgresso();
+    el("r1").focus();
+  });
+})();
+
+</script>
+</body>
+</html>

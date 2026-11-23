@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>O chip que mudou de mão às 21h57</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f3f5f7;
+  --surface: #ffffff;
+  --ink: #18212b;
+  --muted: #5a6573;
+  --line: #d9dee4;
+  --accent: #1d4f73;
+  --accent-soft: #e6eef4;
+  --ok: #2f6b4f;
+  --ok-soft: #e7f1ec;
+  --del: #8a2f2f;
+  --font-display: "Literata", Georgia, "Times New Roman", serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #12171d; --surface: #1a2129; --ink: #e4e9ee; --muted: #9aa6b3; --line: #2c3641;
+    --accent: #7fb3d9; --accent-soft: #1e2e3b; --ok: #7cc4a0; --ok-soft: #18302a; --del: #e08a8a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #12171d; --surface: #1a2129; --ink: #e4e9ee; --muted: #9aa6b3; --line: #2c3641;
+  --accent: #7fb3d9; --accent-soft: #1e2e3b; --ok: #7cc4a0; --ok-soft: #18302a; --del: #e08a8a;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 16px; line-height: 1.6; }
+.wrap { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; display: grid; gap: 28px; }
+header { display: grid; gap: 10px; }
+.eyebrow { font-family: var(--font-mono); font-size: 12.5px; letter-spacing: 0.04em; color: var(--muted); text-transform: uppercase; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 600; text-wrap: balance; margin: 0; line-height: 1.25; }
+h1 { font-size: 30px; } h2 { font-size: 21px; } h3 { font-size: 18px; }
+p { margin: 0; max-width: 65ch; }
+.lead { color: var(--muted); }
+.status { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+.chip { font-family: var(--font-mono); font-size: 13px; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--muted); }
+.chip.done { border-color: var(--ok); color: var(--ok); background: var(--ok-soft); }
+section.caso { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 22px; display: grid; gap: 14px; }
+dl { margin: 0; display: grid; gap: 10px; }
+dl div { display: grid; grid-template-columns: 120px 1fr; gap: 12px; }
+dt { font-weight: 600; color: var(--muted); font-size: 14.5px; padding-top: 1px; }
+dd { margin: 0; max-width: 60ch; }
+@media (max-width: 520px) { dl div { grid-template-columns: 1fr; gap: 2px; } }
+.questoes { display: grid; gap: 20px; }
+article.q { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--line); border-radius: 10px; padding: 22px; display: grid; gap: 14px; }
+article.q.answered { border-left-color: var(--ok); }
+.qhead { display: flex; gap: 12px; align-items: baseline; }
+.qnum { font-family: var(--font-mono); font-size: 13px; color: var(--accent); flex: none; }
+label.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+textarea { width: 100%; min-height: 130px; resize: vertical; padding: 12px 14px; font: inherit; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; }
+textarea:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+textarea[readonly] { opacity: 0.85; }
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; justify-content: space-between; }
+.count { font-family: var(--font-mono); font-size: 12.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+button { font: inherit; font-weight: 600; font-size: 15px; padding: 9px 16px; border-radius: 8px; border: 1px solid var(--accent); background: var(--accent); color: var(--surface); cursor: pointer; }
+button:disabled { opacity: 0.45; cursor: not-allowed; }
+button.ghost { background: transparent; color: var(--accent); }
+.gabarito { display: grid; gap: 12px; background: var(--ok-soft); border: 1px solid var(--ok); border-radius: 8px; padding: 18px; }
+.gabarito h3 { color: var(--ok); font-size: 16px; font-family: var(--font-body); }
+.lei { font-family: var(--font-display); font-size: 15px; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px; }
+.lei small { display: block; margin-top: 6px; font-family: var(--font-body); font-size: 13px; color: var(--muted); }
+.base { font-size: 14.5px; color: var(--muted); }
+fieldset { border: 0; margin: 0; padding: 0; display: grid; gap: 6px; }
+legend { font-weight: 600; font-size: 14.5px; margin-bottom: 6px; }
+.ponto { display: flex; gap: 10px; align-items: flex-start; }
+.ponto input { margin-top: 5px; width: 16px; height: 16px; accent-color: var(--ok); flex: none; }
+.placar { font-family: var(--font-mono); font-size: 13px; color: var(--ok); font-variant-numeric: tabular-nums; }
+section.sintese { border: 1px dashed var(--line); border-radius: 10px; padding: 22px; display: grid; gap: 12px; }
+section.sintese.open { border-style: solid; border-color: var(--accent); background: var(--accent-soft); }
+section.sintese ul { margin: 0; padding-left: 20px; display: grid; gap: 8px; max-width: 65ch; }
+footer { font-size: 13.5px; color: var(--muted); display: grid; gap: 10px; }
+@media (prefers-reduced-motion: no-preference) {
+  .gabarito:not([hidden]) { animation: abre 220ms ease-out; }
+  @keyframes abre { from { opacity: 0.4; transform: translateY(-3px); } to { opacity: 1; transform: none; } }
+}
+
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <div class="eyebrow">Segurança da informação · Par único · Caso âncora (TJSP)</div>
+    <h1>O chip que mudou de mão às 21h57</h1>
+    <p class="lead">Leia o caso e responda às três questões. O gabarito de cada uma aparece quando você envia a sua resposta. Depois, marque os pontos que a sua resposta cobriu.</p>
+    <div class="status">
+      <span class="chip" id="progresso" aria-live="polite">0 de 3 respondidas</span>
+      <button type="button" class="ghost" id="recomecar">Recomeçar</button>
+    </div>
+  </header>
+
+  <section class="caso" aria-labelledby="t-caso">
+    <h2 id="t-caso">O caso</h2>
+    <p>Em janeiro de 2021, vítimas de Presidente Prudente perderam de repente o sinal do celular e acharam que era pane. A linha tinha passado a outro aparelho, que recebeu os códigos de verificação dos bancos e entrou nas contas: transferências, pagamentos de boletos, um Pix de R$ 190,00 a um desconhecido.</p>
+    <p>A investigação chegou a um grupo com quatro funções: quem obtinha as senhas bancárias, quem distribuía, quem cedia contas para receber e quem trocava as linhas. Uma das denunciadas trabalhava numa loja terceirizada da operadora e tinha login, senha e token do sistema de atendimento. Pelo sistema, trocava o ICCID do chip da vítima pelo de um chip do grupo. Em juízo, disse que os gerentes mandavam os funcionários emprestar as senhas aos colegas novos.</p>
+    <dl>
+      <div><dt>Datas</dt><dd>Fatos de 20 a 22/01/2021, antes da Lei 14.155/2021; denúncia em outubro de 2023; sentença em setembro de 2025 (3ª Vara Criminal de Presidente Prudente, TJSP).</dd></div>
+      <div><dt>Denúncia</dt><dd>Art. 171, §2º-A, e art. 154-A do CP, duas vezes cada; organização criminosa (Lei 12.850/2013) e lavagem (Lei 9.613/1998).</dd></div>
+      <div><dt>Prova</dt><dd>Registros do sistema da operadora sobre as trocas de chip, informações de operadoras, do Google e da Apple sobre os aparelhos que receberam as linhas, extratos da conta de destino.</dd></div>
+      <div><dt>Sentença</dt><dd>Nova definição para o furto mediante fraude (art. 155, §4º, II e IV). A funcionária foi condenada por uma das duas invasões, pelo furto e pela organização criminosa, a 5 anos e 4 meses de reclusão e 3 meses de detenção em regime semiaberto, e absolvida da outra invasão e da lavagem.</dd></div>
+    </dl>
+  </section>
+
+  <div class="questoes">
+    <article class="q" id="q1" aria-labelledby="t-q1">
+      <div class="qhead"><span class="qnum">1 de 3</span><h3 id="t-q1">Onde estava a barreira que o grupo precisava vencer para entrar nas contas, e por onde ela foi vencida?</h3></div>
+      <label class="sr" for="r1">Sua resposta à questão 1</label>
+      <textarea id="r1" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c1">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b1" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g1" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>A barreira era a autenticação da linha telefônica, que os bancos usam como segundo fator: quem tem o número recebe o código. O grupo não quebrou essa autenticação. Ela foi operada por dentro, por uma funcionária que tinha credencial legítima para trocar chips e a usou fora da finalidade.</p>
+        <p>O SIM swap aparece, para a vítima, como ataque técnico sofisticado; nos autos, é o uso de um acesso funcional. É o padrão que Ross Anderson descreveu em 1993 para os caixas eletrônicos: as fraudes vinham de erros de implementação e de gestão, não da criptoanálise.</p>
+
+        <p class="base">Na base (68 denúncias do TJSP com barreira entre o agente e o sistema), a técnica é a via em 5 das 41 denúncias que narram a passagem; em 24 a credencial saiu da própria vítima, e em 7 a porta foi aberta por quem tinha acesso legítimo.</p>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" data-q="1"> Identificou a autenticação da linha como segundo fator dos bancos.</label>
+          <label class="ponto"><input type="checkbox" data-q="1"> Distinguiu o uso de credencial legítima da quebra técnica da barreira.</label>
+          <label class="ponto"><input type="checkbox" data-q="1"> Localizou a vulnerabilidade no serviço da operadora, e não na vítima.</label>
+          <label class="ponto"><input type="checkbox" data-q="1"> Relacionou o caso ao acesso interno.</label>
+        </fieldset>
+        <span class="placar" id="s1">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+    <article class="q" id="q2" aria-labelledby="t-q2">
+      <div class="qhead"><span class="qnum">2 de 3</span><h3 id="t-q2">O fato é de janeiro de 2021, e a redação do art. 154-A então vigente exigia a invasão "mediante violação indevida de mecanismo de segurança". Onde a sentença encontrou essa violação, e o que muda para um fato posterior a 28/05/2021?</h3></div>
+      <label class="sr" for="r2">Sua resposta à questão 2</label>
+      <textarea id="r2" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c2">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b2" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g2" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>A sentença a encontrou no próprio uso da credencial: "mediante uso indevido de senha e token, funcionários de lojas terceirizadas da Tim acessaram o sistema da empresa", e "a violação do mecanismo de segurança deu-se por meio do aliciamento de funcionários com acesso ao sistema". A leitura é defensável, mas mostra o problema da elementar: a barreira estava íntegra, e quem a abriu estava autorizado a abri-la para outro fim.</p>
+        <p>A Lei 14.155/2021 suprimiu a exigência. Para fato posterior a 28/05/2021, invadir basta; a violação deixa de ser questão de tipicidade e passa, quando muito, à dosimetria.</p>
+
+        <p class="base">Na base, entre as sentenças com fato posterior à lei que se pronunciam sobre a questão, cinco ainda tratam a barreira como exigência (três absolvem por falta dela e duas a encontram), contra quatro que a dispensam.</p>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" data-q="2"> Apontou a redação de 2012 do art. 154-A como aplicável ao fato.</label>
+          <label class="ponto"><input type="checkbox" data-q="2"> Identificou o uso de senha e token legítimos como a "violação" achada.</label>
+          <label class="ponto"><input type="checkbox" data-q="2"> Notou a tensão entre barreira íntegra e acesso autorizado desviado.</label>
+          <label class="ponto"><input type="checkbox" data-q="2"> Concluiu que, depois da Lei 14.155, a barreira não é mais elementar.</label>
+        </fieldset>
+        <span class="placar" id="s2">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+    <article class="q" id="q3" aria-labelledby="t-q3">
+      <div class="qhead"><span class="qnum">3 de 3</span><h3 id="t-q3">A ré disse que as senhas eram emprestadas entre colegas. Que prova responde a essa versão? E a posição dela dentro do serviço pesou na pena do 154-A?</h3></div>
+      <label class="sr" for="r3">Sua resposta à questão 3</label>
+      <textarea id="r3" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c3">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b3" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g3" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>O próprio registro do sistema da operadora: o token mudava a cada 30 segundos, as trocas foram feitas fora do horário de trabalho dela (uma às 21h57) e em linhas de DDDs que ela dizia não conseguir atender, e ao menos 25 trocas dela em um mês correspondem a linhas de vítimas com boletim de ocorrência. O controle de segurança que ela usou para abrir a porta foi o que provou quem abriu.</p>
+        <p>Na pena, não pesou: para o 154-A, a sentença não viu "elementos de culpabilidade desfavoráveis" e fixou o mínimo (3 meses de detenção). Em outro caso de acesso interno da base (INV 8), a culpabilidade foi acentuada porque os réus "se aproveitaram da relação profissional e da confiança depositada neles". A posição de confiança é fundamento possível do art. 59, e aqui não foi pedido nem examinado.</p>
+
+        <p class="base">Na base, nos 7 acessos internos, todos com condenação ao menos parcial, a sentença atribuiu o acesso pelo registro do próprio sistema em 5; a posição de confiança pesou na pena em 2 sentenças.</p>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" data-q="3"> Usou o registro do sistema (login, token, horário, DDD) contra a versão de senha compartilhada.</label>
+          <label class="ponto"><input type="checkbox" data-q="3"> Notou que o controle de segurança virou prova da autoria.</label>
+          <label class="ponto"><input type="checkbox" data-q="3"> Constatou a pena mínima do 154-A, sem valoração da posição funcional.</label>
+          <label class="ponto"><input type="checkbox" data-q="3"> Discutiu a posição de confiança como circunstância do art. 59.</label>
+        </fieldset>
+        <span class="placar" id="s3">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+  </div>
+
+  <section class="sintese" id="sintese" aria-labelledby="t-sintese" aria-live="polite">
+    <h2 id="t-sintese">O que o caso acrescenta à decisão</h2>
+    <p id="sintese-espera">A síntese aparece quando as três questões estiverem respondidas.</p>
+    <ul id="sintese-lista" hidden>
+      <li>Na tipicidade, desde 28/05/2021 o art. 154-A não exige barreira vencida; quem ainda a procura absolve casos que a lei quis alcançar.</li>
+      <li>Na investigação, o registro de acesso do próprio sistema (login, token, horário, terminal) é a primeira diligência quando a porta foi aberta por dentro.</li>
+      <li>Na prova, a credencial própria se atribui pelo registro; a versão de senha compartilhada se testa contra o token, o horário e a região.</li>
+      <li>Na pena, a posição de confiança dentro do serviço é circunstância a examinar no art. 59, e não foi examinada neste caso.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Caso de uma ação penal do TJSP, com denúncia e sentença lidas por inteiro, sem os nomes dos réus. Os números vêm da base de pesquisa de 198 denúncias e suas sentenças, com codificação conferida por segundo leitor.</p>
+    <p>As respostas ficam só nesta página e se perdem ao recarregá-la.</p>
+  </footer>
+</main>
+
+<script>
+(function () {
+  var MIN = 40;
+  var respondidas = { 1: false, 2: false, 3: false };
+  function el(id) { return document.getElementById(id); }
+  function atualizaProgresso() {
+    var n = Object.keys(respondidas).filter(function (k) { return respondidas[k]; }).length;
+    var chip = el("progresso");
+    chip.textContent = n + " de 3 respondidas";
+    chip.classList.toggle("done", n === 3);
+    var aberta = n === 3;
+    el("sintese").classList.toggle("open", aberta);
+    el("sintese-lista").hidden = !aberta;
+    el("sintese-espera").hidden = aberta;
+  }
+  function atualizaPlacar(q) {
+    var caixas = document.querySelectorAll('input[data-q="' + q + '"]');
+    var marcados = Array.prototype.filter.call(caixas, function (c) { return c.checked; }).length;
+    el("s" + q).textContent = marcados + " de " + caixas.length + " pontos marcados";
+  }
+  [1, 2, 3].forEach(function (q) {
+    var campo = el("r" + q), botao = el("b" + q), conta = el("c" + q);
+    campo.addEventListener("input", function () {
+      var n = campo.value.trim().length;
+      conta.textContent = n + (n === 1 ? " caractere" : " caracteres") + " · mínimo de " + MIN;
+      botao.disabled = n < MIN;
+    });
+    botao.addEventListener("click", function () {
+      if (campo.value.trim().length < MIN) return;
+      campo.readOnly = true;
+      botao.disabled = true;
+      botao.textContent = "Resposta enviada";
+      el("g" + q).hidden = false;
+      el("q" + q).classList.add("answered");
+      respondidas[q] = true;
+      atualizaProgresso();
+    });
+    document.querySelectorAll('input[data-q="' + q + '"]').forEach(function (c) {
+      c.addEventListener("change", function () { atualizaPlacar(q); });
+    });
+  });
+  el("recomecar").addEventListener("click", function () {
+    [1, 2, 3].forEach(function (q) {
+      var campo = el("r" + q), botao = el("b" + q);
+      campo.value = "";
+      campo.readOnly = false;
+      botao.disabled = true;
+      botao.textContent = "Responder e ver o gabarito";
+      el("c" + q).textContent = "0 caracteres · mínimo de " + MIN;
+      el("g" + q).hidden = true;
+      el("q" + q).classList.remove("answered");
+      document.querySelectorAll('input[data-q="' + q + '"]').forEach(function (c) { c.checked = false; });
+      atualizaPlacar(q);
+      respondidas[q] = false;
+    });
+    atualizaProgresso();
+    el("r1").focus();
+  });
+})();
+
+</script>
+</body>
+</html>
