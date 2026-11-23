@@ -1,27 +1,18 @@
-[Texto nativo do PJe]
+[parser RTF do original]
 
-TRIBUNAL DE JUSTIÇA DO ESTADO DE SÃO PAULO
-COMARCA DE SÃO PAULO
-Foro Central Criminal Barra Funda
-26ª Vara Criminal
-Rua Abrahão Ribeiro,  Nº 313, São Paulo-SP - cep 01133-020
-Horário de Atendimento ao Público: das 13h00min às17h00min
-
-1523443-37.2019.8.26.0228 - lauda
 SENTENÇA
 
-Processo Digital nº:
-1523443-37.2019.8.26.0228
-Classe – Assunto:
-Ação Penal - Procedimento Ordinário - Extorsão
-Documento de Origem:
-Comunicação de Prisão em Flagrante, Comunicação de Prisão em Flagrante, Boletim de Ocorrência, Comunicação de Prisão em Flagrante, Boletim de Ocorrência, Comunicação de Prisão em Flagrante, Boletim de Ocorrência, Comunicação de Prisão em Flagrante, Boletim de Ocorrência, Comunicação de Prisão em Flagrante, Boletim de Ocorrência - 2283328/2019 - DEL.SEC.5ª LESTE, 7684432 - DEL.SEC.5ª LESTE, 98/19/200 - DEL.SEC.5ª LESTE, 2283328 - DEL.SEC.5ª LESTE, 98/19/200 - DEL.SEC.5ª LESTE, 2283328 - DEL.SEC.5ª LESTE, 98/19/200 - DEL.SEC.5ª LESTE, 2283328 - DEL.SEC.5ª LESTE, 98/19/200 - DEL.SEC.5ª LESTE, 2283328 - DEL.SEC.5ª LESTE, 98/19/200 - DEL.SEC.5ª LESTE
-Autor:
-Justiça Pública
-Réu:
-GUILHERME LOPES DE MOURA PENNA e outro
+Processo Digital nº:|1523443-37.2019.8.26.0228|
+Classe – Assunto:|Ação Penal - Procedimento Ordinário - Extorsão|
+Documento de Origem:|Comunicação de Prisão em Flagrante, Comunicação de Prisão em Flagrante, Boletim de Ocorrência, Comunicação de Prisão em Flagrante, Boletim de Ocorrência, Comunicação de Prisão em Flagrante, Boletim de Ocorrência, Comunicação de Prisão em Flagrante, Boletim de Ocorrência, Comunicação de Prisão em Flagrante, Boletim de Ocorrência - 2283328/2019 - DEL.SEC.5ª LESTE, 7684432 - DEL.SEC.5ª LESTE, 98/19/200 - DEL.SEC.5ª LESTE, 2283328 - DEL.SEC.5ª LESTE, 98/19/200 - DEL.SEC.5ª LESTE, 2283328 - DEL.SEC.5ª LESTE, 98/19/200 - DEL.SEC.5ª LESTE, 2283328 - DEL.SEC.5ª LESTE, 98/19/200 - DEL.SEC.5ª LESTE, 2283328 - DEL.SEC.5ª LESTE, 98/19/200 - DEL.SEC.5ª LESTE|
+Autor:|Justiça Pública|
+Réu:|GUILHERME LOPES DE MOURA PENNA e outro|
+
 
 VISTOS.
+
+
+
 
 GUILHERME LOPES DE MOURA PENA e ANA CAROLINA JACOMO, qualificados nos autos, foram presos em flagrante e denunciados como incursos no artigo 158, §1º, por 13 (treze) vezes, na forma do art. 71 e no art. 154-A, §4º, por 3 (três) vezes, todos na forma do art. 69, todos do Código Penal, em razão dos seguintes fatos delituosos:
 
@@ -68,6 +59,8 @@ Ainda, naquele mesmo dia, via SMS, pelo telefone (11) 958039247, fixaram o ender
 Frustrada a percepção da vantagem ilícita, os denunciados deram seguimento às ameaças. Assim, no dia 03 de setembro de 2019, utilizando-se do mesmo e-mail, voltaram as ameaças à Carolina, gravida à época, e aos seus filhos, sugerindo manobra abortiva caso não acatassem a entrega da quantia pleiteada, conforme se lê: “(...) guarda-costas são facilmente compráveis por qualquer merreca, mas é claro, fique à vontade para contratar um Carolzinha. (...) sabiam que substâncias abortivas não possuem sequer gosto e/ou cheiro? Estou bastante propenso a fazer uso desse tipo de artefato. Creio que uma das piores dores seria perder um herdeiro (...) Sim, já que não seguiram as regras do jogo, agora arcarão com as devidas consequências (...)” (pág. 76).
 
 Não contentes, os denunciados efetuaram novas ameaças também por SMS pelo telefone (11) 958039247: (...) “Escolha errada seus vermes imundos e agora acabaram as negociações. Nenhum de vcs esta mas seguro e isso inclui as duas vagabundas! A gravida logo perdera o lixo que carrega e não há dinheiro que os protejam!” (pág. 69).
+
+
 
 Na madrugada daquele mesmo dia, constatou-se que ANA CAROLINA efetivou tentativa de acesso ao sistema interno da empresa, munida, para tanto, do antigo login que mantinha junto à empresa enquanto ainda prestadora de serviços, qual seja, “caroljcm” (págs. 58), e que acessou o endereço de e-mail acessomaster@ecadeiras.com.br (págs. 60), do qual apenas ela, a vítima Ângelo e um funcionário de TI da empresa tinham acesso.
 
@@ -155,9 +148,11 @@ E, ainda, quanto ao terceiro crime de invasão de dispositivo informático quali
 
 Nestes termos, a materialidade dos delitos é cristalina, provada através das cópias do boletim de ocorrência de págs. 2/9, do auto de exibição/apreensão/entrega de pág. 13 (quantia de R$ 150.000,00), do auto de exibição e apreensão à pág. 20 (celulares encontrados com os acusados), dos documentos págs. 22/27, de págs. 28/30 e de págs. 31/36 (respectivamente, contrato firmado pelo acusado GUILHERME LOPES DE MOURA PENNA e , aditivo de contrato e outro contrato firmados por Jacomo Consulting LTDA EPP, empresa individual de ANA CAROLINA JACOMO, todos com a empresa Biomater Bioplásticos Comercial, Importadora e Exportadora LTDA – E-Cadeiras, representada por Ângelo José Bergamaschi Vicente, ora vítima), do documento de págs. 37/39 (termo encerramento do contrato de prestação de serviços, entre a empresa Biomater e GUILHERME), de págs. 40/53 (relação de mensagens eletrônicas recebidas), de págs. 54/55 (print do site reclameaqui.com.br), de págs. 63/64 (“comunicado interno”), de págs. 67/70 (SMS) de págs. 65/66, 71/132 e 282/288 (cópias de e-mails enviados às vítimas e a terceiros, acerca do vazamento de dados), não se ignorando as cópias de págs.3/4, 20/27, 29 e 31 dos autos em apenso de nº 1530572-45.2019.8.26.0050 e, por fim, laudo pericial do telefone celular Nokia apreendido em poder dos denunciados às págs. 398/408, sendo corroborada pelos demais elementos informativos e de prova coligidos nestes autos.
 
+
 A autoria também é certa. Não obstante as escusas dos denunciados, a prova é contundente em apontar a autoria em desfavor de ambos.
 
 O ofendido Luiz Clemente Lunardi, ouvido em juízo, relatou que é um dos sócios da empresa e sua filha, Carolina Lunardi, e seu genro, Ângelo são os executivos. Mora em Ribeirão Preto e em determinadas oportunidades ia até a empresa, fazia visita comercial para eles e em alguns momentos teve a oportunidade de se encontrar com Guilherme e com a Carolina na empresa. Sabia que eles eram do setor de tecnologia. Quando recebeu um e-mail, em agosto, com algumas ameaças contra sua filha, genro e empresa, imediatamente entrou em contato com seu genro para contar o que havia recebido e ele disse que também já havia recebido uns três emails iguais, mas que não havia o repostado para não preocupar. Os emails continuaram, mas como não deviam nada para ninguém, achou que fosse golpe e decidiu não responder. Os emails continuaram de forma mais intensa, enviados para clientes e colaboradores, tornando a situação insustentável. Procuraram a equipe do Dr. José Roberto para receberem orientações do que fazer, e então fizeram um Boletim de Ocorrência. Os emails eram direcionados como se seu genro tivesse passado. Isso chamou bastante atenção. Imaginaram que fosse um hacker por ter imagens da sua filha, da empresa. Fizeram ameaças de sequestrar seu neto. Recebeu ligações de madrugada ameaçando e ameaçando sua filha, que na época estava grávida. Essas pessoas falavam que era para ter cuidado, pois pessoas de dentro da empresa estavam sendo coniventes com a situação e que iriam colocar abortivos. Sua filha não podia comer nem beber nada, pois tinham pessoas que iam colocar abortivos. Foi uma situação bastante difícil. Ele é apenas sócio, mas sabia que os dois eram do setor de tecnologia. Depois que foram desligados da empresa perguntaram se ele poderia investir na empresa deles. Ele agradeceu, mas não teve interesse. Foi cerca de 15 dias depois do desligamento que começou a receber as ameaças.  Quando começaram a ocorrer as invasões, conversando com seu genro, eles viram que existia uma empresa que tinha um aplicativo, o qual foi invadido, e naquele momento pediu auxílio da companhia e eles disseram que quem estava fazendo aquilo tinha profundo conhecimento daquele negócio. Foram eles que disseram que poderia ser alguém da própria empresa. Não tinham ideia de que seriam duas pessoas que trabalhavam com eles. Quando eles foram pegos, ficaram pasmos ao saber quem eram. Ficou sabendo de todas as informações sobre os vazamentos de dados de clientes através de seu genro. Teve prejuízo para a empresa em virtude dos vazamentos de dados. Imediatamente após a prisão deles não teve mais nada de vazamento nem ameaças. Depois de soltos também não teve mais nada. Recebeu ligações tanto de homem, quanto de mulher, mas não falavam quem eram. Queriam dinheiro nas ameaças. Quando Carolina e Guilherme o procuraram para pedir investimento na empresa deles, o segmento da empresa era de tecnologia. A Jet tecnologia é uma empresa do depoente com seu irmão, em que seu irmão é o administrador. Essa empresa também recebeu emails e e seus colaboradores, desonrando a imagem deles. O seu irmão contratou empresas de proteção.
+
 
 A ofendida Carolina Marquezi, ouvida em juízo, relatou que foi a primeira a receber os e-mails. Recebeu um e-mail no seu endereço eletrônico profissional. Pensou que era apenas uma brincadeira e não tomou qualquer providência. No entanto, percebeu a seriedade da situação, vez que passaram a ameaçar contra a sua filha, da qual ainda estava grávida. Começaram a ameaçar também o seu filho, falando que iriam sequestrá-lo. Na época, foi muito estressante, pois não sabiam a autoria das ameaças. Depois, começaram a envolver seu esposo e seu pai, enviando e-mails para a base de clientes da empresa, bem como para seus funcionários, com mentiras. Tudo durou cerca de três meses. As primeiras mensagens diziam que estava sendo traída e que seu marido havia casa com ela apenas por dinheiro. As mensagens evidenciavam que os acusados tinham muito conhecimento, tanto da vida pessoal da família, bem como da empresa. Os primeiros 3 e-mails foram apenas ameaças. Depois, começaram a exigir a entrega de dinheiro. Poucas pessoas tinham acesso e conhecimento do sistema da empresa. Começaram a desconfiar pois, na madrugada de um dos e-mails enviados, seu marido recebeu notificação de tentativa de recuperação de senha do login do sistema da empresa e era justamente o e-mail que somente ANA CAROLINA tinha acesso. Os acusados trabalhavam juntos na empresa. Os fatos começaram depois de terem o contrato encerrado. Depois da saída deles, não teve mais contato com eles. Para ter acesso a base de clientes, a pessoa teria que ter acesso da empresa. Depois que eles saíram, trocaram algumas senhas, mas, considerando que foram eles os responsáveis pela implementação do sistema, sabiam como acessá-lo. Em razão destas invasões, a empresa perdeu credibilidade e muitas vendas. Nos últimos e-mails, os acusados enviaram uma apresentação em power point, passando-se por uma organização chamada black sheep. Os e-mails eram sempre no mesmo formato. Após as negociações, houve a entrega de uma quantia em dinheiro, mas avisaram o policial. Foi seu marido (Angelo) que levou o dinheiro ao local indicado. Os acusados foram contratados como prestadores de serviço e conviviam diretamente com a depoente e a família na empresa, convívio este limitado a questões profissionais. Os acusados tinham contato do seu pai, vez que este era sócio da empresa. Sua primeira atitude, ao receber os e-mails, foi lavrar um BO. No período em que os acusados estavam presos, pararam os e-mails e as invasões ao sistema. Depois que foram soltos, voltaram as ameaças. Ficou muito aterrorizada com as mensagens.
 
@@ -216,6 +211,7 @@ Não há qualquer elemento nos autos indicando que os policiais civis, sobretudo
 
 Decididamente, a prova oral produzida em juízo é consistente e suficiente para comprovar a autoria delitiva em desfavor dos denunciados.
 
+
 Quanto ao crime de extorsão majorada.
 
 A conduta típica descrita no artigo 158 do Código Penal é "Constranger alguém, mediante violência ou grave ameaça, e com o intuito de obter para si ou para outrem indevida vantagem econômica, a fazer, tolerar que se faça ou deixar fazer alguma coisa".
@@ -229,6 +225,7 @@ No caso em tela, provou-se que os réus constrangeram, mediante grave ameaça, a
 A grave ameaça é evidente, desdobrada em diversas mensagens, considerando o seu conteúdo, tanto por e-mails quanto por SMS e, mais, por ligações telefônicas, desde 15 de agosto de 2.019, direcionadas às três vítimas.
 
 Todavia, entendo ser o caso de reconhecer o crime único de extorsão majorada.
+
 
 As graves ameaças perpetradas pelos réus (tanto por e-mails quanto por mensagens de SMS e, ainda, por ligações telefônicas), no contexto dos autos, revelam a prática de uma única conduta, voltada a constranger os ofendidos a entregar-lhes a quantia em dinheiro, não se podendo afirmar, com a certeza que se exige, que os atos tenham ocorrido em contexto apto a evidenciar desígnios autônomos.
 
@@ -272,6 +269,8 @@ Nesse sentido, já decidiu o C. Superior Tribunal de Justiça:
 
 Não é outro o entendimento da a melhor doutrina: "(...) Forma de representação: não exige rigorismo formal, ou seja, um termo específico em que a vítima declare expressamente o desejo de representar contra o autor da infração penal. Basta que, das declarações prestadas no inquérito, por exemplo, fique bem claro o seu objetivo de dar início à ação penal, legitimando o Ministério Público a agir" (NUCCI, Guilherme de Souza. Código de Processo Penal Comentado. Rio de Janeiro. Forense, 13 ed., 2014, p. 113).
 
+
+
 Por outro ângulo, pese a narrativa trazida da denúncia ter declinado corretamente que a remessa de e-mail ofensivo à imagem corporativa das empresas das vítimas, a seus parceiros comerciais e clientes, deu-se na data de 19 de setembro de 2.019, descrevendo, inclusive, informações sobre dados bancários dos seus consumidores, demonstrando a invasão dos sistemas informáticos daquelas empresas, verifico que, erroneamente, tal circunstância constou também como uma nova invasão de dispositivo informático qualificada majorada, em novembro de 2.019, em desfavor da empresa E-Cadeiras (pág. 380).
 
 Porém, na realidade, conforme decisum às págs. 360/363 (item 2), aquela troca de mensagens eletrônicas às págs. 282/288 não se apresentou como novo fato, mas, sim, mero encaminhamento por um cliente das empresas das vítimas, datado de 19 de novembro de 2.019, de uma mensagem contendo a divulgação de dados e informações ocorrida em 19 de setembro de 2.019, sendo repetição de circunstância que é apta a majorar ambas as condutas (art. 154-A, §4º, do Código Penal).
@@ -286,7 +285,8 @@ Pena - reclusão, de 6 (seis) meses a 2 (dois) anos, e multa, se a conduta não 
 
 Já a redação dada ao seu §4º se manteve inalterada:
 
-§ 4º  Na hipótese do § 3º, aumenta-se a pena de um a dois terços se houver divulgação, comercialização ou transmissão a terceiro, a qualquer título, dos dados ou informações obtidos.
+§ 4º  Na hipótese do § 3º, aumenta-se a pena de um a dois terços se houver divulgação, comercialização ou transmissão a terceiro, a qualquer título, dos dados ou informações obtidos. 
+
 
 A Lei nº 14.155/2021, publicada em 27 de maio de 2.021, que modificou o caput e que aumentou a sua pena, bem como exasperando a pena da figura qualificada do § 3º não retroage para fatos cometidos antes da entrada em vigor da referida lei.
 
@@ -295,6 +295,7 @@ Da mesma forma, a nova redação do caput é mais gravosa porque não mais se ex
 Conforme doutrina à época da legislação anteriormente vigente:
 
 Invadir significa violar, transgredir, entrar à força em algum lugar, carregando o verbo nuclear do tipo um forte conteúdo normativo. Logo, a conduta do agente não é simplesmente entrar no dispositivo informático alheio, o que se pode dar por mero acidente, mas ocupar um espaço não permitido. O objeto da conduta é o dispositivo informático (qualquer mecanismo apto a concentrar informação por meio de computador ou equipamento similar). (...) A expressão mediante violação indevida de mecanismo de segurança é de valoração fático-jurídica. Segundo cremos, em primeiro plano, desnecessária a sua inserção. Afinal, se o verbo nuclear é invadir (e não simplesmente ingressar), já existe a forte conotação de transgressão e violação. Além disso, tratando-se de violação (infringência, entrar sem autorização), automaticamente, deduz-se ser indevida. Por outro lado, se houver violação (ofensa violenta a algo) devida, cuida-se de exercício regular de direito ou estrito cumprimento do dever legal (até mesmo, legítima defesa ou estado de necessidade). Mas é preciso conectar a violação indevida ao mecanismo de segurança (qualquer utilitário instalado para proteger o acesso ao dispositivo informático), o que reputamos o calcanhar de Aquiles do tipo em comento. Afinal, somente se configura o crime se a invasão do dispositivo informático se der por meio de violação de mecanismo de segurança. Ora, estão alijados da tutela penal todos os dispositivos informáticos que não possuam tal mecanismo. Noutros termos, se a vítima mantém computador com programa específico de proteção, necessitando-se de senha para se ter acesso ao aparelho, a invasão pode configurar-se, desde que o agente viole esse mecanismo de segurança. Mas, caso o ofendido se esqueça de ativar a senha de proteção ou mesmo não haja programa nesse prisma, está desguarnecido da proteção penal, o que não consideramos correto. Mas assim é o tipo incriminador. Invadir computador, conectado à Internet, que não possua mecanismo de segurança (como um firewall), é fato atípico. Quer-se, pois, que a vítima se proteja de algum modo; se não o fizer, a tutela penal não a alcança. (NUCCI. Guilherme de Souza. Curso de Direito Penal: Parte Especial – arts. 121 a 212 do Código Penal. Vol. 2. Rio de Janeiro: Forense. 2017, destaques meus)
+
 
 Ainda segundo lecionava MASSON, os dispositivos informáticos se subdividiriam em quatro grupos: a) dispositivos de processamento: são responsáveis pela análise de dados, com o fornecimento de informações, visando a compreensão de uma informação do dispositivo de entrada para envio aos dispositivos de saída ou de armazenamento. Exemplos: placas de vídeo e processadores de computadores e smartphones; b) dispositivos de entrada: relacionam-se à captação de dados escritos, orais ou visuais (exemplos: teclados, microfones e webcam); c) dispositivos de saída: fornecem uma interface destinada ao conhecimento ou captação, para outros dispositivos, da informação escrita, oral ou visual produzida no processamento (exemplos: impressoras e monitores); e d) dispositivos de armazenamento: dizem respeito à guarda de dados ou informações para posterior análise (exemplos: pendrives, HDs hard disks e CDs discos compactos). (MASSON, Cleber. Código Penal comentado, 2ª ed. ebook, São Paulo: Método, 2014, p. 1056).
 
@@ -306,7 +307,7 @@ A jurisprudência atual complementa:
 
 In casu, os dispositivos informáticos invadidos foram os sistemas informáticos das empresas das vítimas. Ad argumentandum tantum, caso fosse utilizado aquele conceito doutrinário de dispositivos informáticos, relacionando-os somente a instrumentos eletrônicos (hardware), tem-se que o sistema, operado por computação em nuvem, demanda servidores físicos e, portanto, poderia se encaixar na ideia de dispositivo de armazenamento.
 
-Igualmente configurada a invasão, mediante violação “indevida” de mecanismo de segurança. Na condição de ex prestadores de serviços, os acusados se utilizaram de seus acessos e conhecimentos privilegiados como meios da violação. Por exemplo, em 3 de setembro de 2.019, ANA CAROLINA acessou o e-mail acessomaster@ecadeiras.com.br, do qual apenas ela, a vítima Ângelo e um funcionário de TI da empresa E-Cadeiras tinham autorização de acesso. Ou seja, após o encerramento da relação contratual entre a acusada e a empresa das vítimas.
+Igualmente configurada a invasão, mediante violação “indevida” de mecanismo de segurança. Na condição de ex prestadores de serviços, os acusados se utilizaram de seus acessos e conhecimentos privilegiados como meios da violação. Por exemplo, em 3 de setembro de 2.019, ANA CAROLINA acessou o e-mail acessomaster@ecadeiras.com.br("mailto:acessomaster@ecadeiras.com.br"), do qual apenas ela, a vítima Ângelo e um funcionário de TI da empresa E-Cadeiras tinham autorização de acesso. Ou seja, após o encerramento da relação contratual entre a acusada e a empresa das vítimas.
 
 Nesta esteira, os réus foram os autores da extorsão e eram dotados de conhecimento íntimo dos sistemas utilizados pelas empresas vítimas, requisito necessário para a consecução da violação a mecanismo de segurança (vide págs. 56/58), efetivando as invasões, com o fim de obterem dados sigilosos das empresas das vítimas (dados bancários e sensíveis de clientes e parceiros), sem autorização expressa ou tácita do titular dos dispositivos (depois de encerrados os contratos de prestação de serviços celebrados com a empresa), divulgando-os e os transmitindo a terceiros.
 
@@ -333,7 +334,7 @@ Nestes termos, ficou suficientemente provado que, em data incerta, mas anterior 
 
 O crime, quanto à consumação, é formal, sendo prescindível a obtenção de resultado pelos invasores, nada obstante a ocorrência tanto das invasões, quanto da obtenção dos dados sigilos e, ainda, a divulgação e transmissão destes.
 
-Por fim, aplica-se a continuidade delitiva, nos termos do art. 71 do Código Penal, haja vista que os réus consumaram a prática delituosa em 2 (duas) oportunidades, considerando a pluralidade das empresas e dos seus sistemas informáticos (2). Os acusados cometeram crimes de mesma espécie, com semelhante modus operandi, e pelas condições de tempo, lugar, maneira de execução e outras semelhantes, deve o crime subsequente ser considerado continuação do primeiro.
+ Por fim, aplica-se a continuidade delitiva, nos termos do art. 71 do Código Penal, haja vista que os réus consumaram a prática delituosa em 2 (duas) oportunidades, considerando a pluralidade das empresas e dos seus sistemas informáticos (2). Os acusados cometeram crimes de mesma espécie, com semelhante modus operandi, e pelas condições de tempo, lugar, maneira de execução e outras semelhantes, deve o crime subsequente ser considerado continuação do primeiro.
 
 Não há elementos nos autos que apontem que tenha ocorrido uma terceira invasão de dispositivo informático qualificada e majorada, somente possível concluir, com a certeza de que se exige, que a divulgação dos dados anteriormente obtidos, nas 2 (duas) invasões provadas, deu-se em momento posterior.
 
@@ -342,6 +343,7 @@ Não há se falar na aplicação do princípio da insignificância, malgrados a 
 Conforme precedente anteriormente colacionado, o C. STF já firmou o entendimento de que o reconhecimento da atipicidade da conduta, com suporte na aplicação do princípio da insignificância deve observar os seguintes requisitos: (i) conduta minimamente ofensiva do agente; (ii) ausência de risco social da ação; (iii) reduzido grau de reprovabilidade do comportamento; e (IV) inexpressividade da lesão jurídica. (HC 115729, Relator (a): Min. RICARDO LEWANDOWSKI, Segunda Turma, julgado em 18/12/2012, PROCESSO ELETRÔNICO DJe-029 DIVULG 13-02-2013 PUBLIC 14-02-2013).
 
 No caso, considerando a gravidade concreta das condutas, como a natureza dos dados obtidos, os prejuízos financeiros e institucionais suportados pelas vítimas e, ainda, as ações terem sido praticadas em concurso material com a conduta de extorsão majorada, é impossível que as condutas dos denunciados sejam consideradas minimamente ofensivas, sem risco social,  tampouco de reduzido grau de reprovabilidade e muito menos que contassem com inexpressividade de lesão jurídica, havendo desvalor ímpar nestes critérios.
+
 
 Afastadas as teses defensivas, tem-se que os acusados eram, na data dos fatos, imputáveis, contavam com plena consciência da ilicitude de suas condutas, não havendo quaisquer excludentes de ilicitude ou de culpabilidade que possam beneficiá-los.
 
@@ -358,4 +360,66 @@ As circunstâncias do crime são de gravidade ímpar, superando a estrutura íns
 Ainda, quanto à culpabilidade dos agentes, o juízo de reprovabilidade deve ser acentuado. Os réus se aproveitaram da relação profissional e da confiança depositada neles pelas vítimas. Demais critérios judiciais dentro da normalidade. Assim, em razão das circunstâncias judiciais desfavoráveis acima apontadas, fixo a pena-base em 1/4 (um quarto) acima do mínimo, elevando-as para 5 (cinco) anos de reclusão e ao pagamento de 12 (doze) dias-multa, no piso.
 
 Na segunda fase, não há circunstâncias a serem sopesadas.
-Na terceira fase, há a incidência da causa de aumento prevista no art. 158, §1º, do Código Penal. Considerando o número de agentes (dois), elevo as penas na fração mínima de 1/3 (um terço), aumentando-as para 6 (seis) anos e 8 (oito) meses de reclusão e ao pagamento de 16 (deze
+Na terceira fase, há a incidência da causa de aumento prevista no art. 158, §1º, do Código Penal. Considerando o número de agentes (dois), elevo as penas na fração mínima de 1/3 (um terço), aumentando-as para 6 (seis) anos e 8 (oito) meses de reclusão e ao pagamento de 16 (dezesseis) dias-multa, no piso. Não havendo outras causas de aumento ou de diminuição de penas, torno-as definitivas nestes patamares.
+
+II. Quanto aos crimes de invasões qualificadas de dispositivos informáticos e majoradas, as circunstâncias judiciais são desfavoráveis aos réus. As consequência dos crimes foram graves, pois as ações dos denunciados provocaram impactos no funcionamento e credibilidade das empresas envolvidas.
+
+Ainda, quanto à culpabilidade dos agentes, o juízo de reprovabilidade deve ser acentuado. Os denunciados se aproveitaram da relação profissional e da confiança depositada neles, pelas vítimas, para a consecução dos crimes. Demais critérios judiciais dentro da normalidade. Assim, em virtude da presença dessas circunstâncias judiciais desfavoráveis, fixo a pena-base em ¼ (um quarto) acima do mínimo legal, elevando-as para 7 (sete) meses e 15 (quinze) dias de reclusão e ao pagamento de 12 (doze) dias-multa, no valor mínimo unitário.
+
+Na segunda fase, não há circunstâncias a serem sopesadas.
+
+Na terceira fase, presente a causa de aumento prevista no art. 154-A, §4º, do Código Penal. Considerando o alcance da divulgação perpetuado pelos acusados, entendo ser o caso da majoração das penas na fração mínima de 1/3 (um terço) somente, razão pela qual elevo-as para 10 (dez) meses de reclusão e ao pagamento de 16 (dezesseis) dias-multa, no piso.
+
+Por fim, ainda nesta fase, deve ser reconhecida a continuidade delitiva. Assim, observado o número de delitos perpetrados (dois), majoro as penas na fração de 1/6 (um sexto), pela regra prevista no art. 71, caput, do Código Penal, elevando-as para 11 (onze) meses e 20 (vinte) dias de reclusão e ao pagamento de 18 (dezoito) dias-multa, no valor mínimo unitário.
+
+
+
+Quanto à pena de multa, em que pesem as diretrizes trazidas no art. 72, do Código Penal, entendo que estas não são aplicadas quando do reconhecimento de crime continuado, pois trata-se de crime único, por mais que seja ficto. Nesse sentido, a orientação da jurisprudência do C. Superior Tribunal de Justiça:
+
+“PENAL – HABEAS CORPUS – CRIME CONTINUADO - DOIS CRIMES DA MESMA ESPÉCIE - MESMA VÍTIMA - COMETIMENTOS COM DIFERENÇA DE MAIS OU MENOS QUINZE DIAS - MESMO LOCAL – MESMA MANEIRA DE EXECUÇÃO- PENA DE MULTA QUE NÃO SE SUJEITA À REGRA DO ARTIGO 72, DO CÓDIGO PENAL - PRECEDENTES - ORDEM CONCEDIDA. 1- Configurada está a continuação delitiva entre dois crimes de roubo, cometidos contra a mesma vítima, mais ou menos numa mesma época, num mesmo local e com o mesmo modo de execução. 2 – Na hipótese da aplicação da pena de multa no crime continuado, não é aplicável a regra do artigo 72, do Código Penal. 3 – Ordem concedida.” (STJ - HC: 95641 DF 2007/0284545-2, Relator: Ministra JANE SILVA (DESEMBARGADORA CONVOCADA DO TJ/MG), Data de Julgamento: 18/03/2008, T6 - SEXTA TURMA, Data de Publicação: DJe 14/04/2008).
+
+DO VALOR DO DIA MULTA.
+
+O valor da multa deverá ser atualizado, nos termos do parágrafo 2º do artigo 49 do Código Penal, desde a data da infração. O dia-multa, em face da ausência de dados quanto à situação econômica dos denunciados, será calculado no valor unitário mínimo.
+
+DO CONCURSO MATERIAL DE CRIMES (ART. 69 DO CÓDIGO PENAL).
+
+Tendo em vista a aplicação das regras do art. 69 do Código Penal, observo que as ações delituosas decorreram de condutas dolosas e detentoras de desígnios autônomos (crime de extorsão majorada e os 2 crimes de invasões de dispositivos informáticos qualificadas majoradas, estes praticados em continuidade delitiva), uma vez que se dirigiram a lesionar bens jurídicos autônomos entre si e muito bem delimitados.
+
+Isto posto, conforme o dispositivo em comento, aplico a regra de cumulação objetiva das sanções aplicadas, na forma dos artigos 69 e 72, ambos do Código Penal, totalizando 7 (sete) anos, 7 (sete) meses e 20 (vinte) dias de reclusão e ao pagamento de 34 (trinta e quatro) dias-multa, no valor mínimo unitário.
+
+
+DO REGIME INICIAL DAS PENAS PRIVATIVAS DE LIBERDADE.
+
+Considerando que o quantum das penas somadas inferior é a 8 (oito) anos de reclusão, sem embargo de presença de algumas circunstâncias judiciais desfavoráveis, os réus, à época dos fatos, eram primários e não ostentavam antecedentes desabonadores.
+
+Assim sendo, atento aos critérios previstos do artigo 33, § 2º, alínea “b” e §3º, do Código Penal, entendo por bem em fixar o regime semiaberto para que iniciem o cumprimento das penas privativas de liberdade, regime que, no caso, se apresenta como compatível com as condições pessoais de ambos.
+
+Por não preencherem os requisitos legais exigidos, os réus não fazem jus à substituição das penas privativas de liberdade por restritivas de direitos, tampouco à suspensão condicional das penas.
+
+Deixo de estabelecer indenização mínima reparatória de danos sofridos pelas vítimas, visto que não houve sequer pedido formal e expresso na denúncia e seu posterior aditamento.
+
+Na realidade, para que seja possível decisão sobre o tema, em obediência aos princípios do devido processo legal e do contraditório, é imprescindível a existência de pedido expresso na denúncia e a indicação do quantum que o Parquet entende adequada na exordial e dilação probatória sobre o tema, para demonstração do efetivo prejuízo patrimonial das vítimas e a quantificação do dano causado, o que não ocorreu na espécie. Nesse sentido:  (AgRg no AREsp n. 2.068.728/MG, relator Ministro Reynaldo Soares da Fonseca, Quinta Turma, julgado em 10/5/2022, DJe de 13/5/2022).
+
+Diante do exposto, e do mais que dos autos consta, JULGO PARCIALMENTE PROCEDENTE a pretensão punitiva estatal para CONDENAR os acusados GUILHERME LOPES DE MOURA PENA e ANA CAROLINA JACOMO, qualificados nos autos, às seguintes penas, a serem aplicadas cumulativamente, em concurso material (art. 69, do Código Penal):
+
+I. 6 (seis) anos e 8 (oito) meses de reclusão, em regime inicial SEMIABERTO, mais o pagamento de 16 (dezesseis) dias-multa, no piso, pela prática do crime previsto no art. 158, §1º, do Código Penal, reconhecido o crime único;
+
+II. 11 (onze) meses e 20 (vinte) dias de reclusão, em regime inicial SEMIABERTO, mais o pagamento de 18 (dezoito) dias-multa, no valor mínimo unitário, pela prática dos crimes previstos no art. 154-A, §§ 3º e 4º (redação anterior à Lei nº 14.155, de 2021), por 2 (duas) vezes, na forma do art. 71, todos do Código Penal.
+
+Os réus responderam soltos a este processo, comparecendo a todos os seus atos. Assim sendo, e estando ausentes os requisitos da prisão preventiva, poderão apelar em liberdade.
+
+Com o trânsito em julgado, lancem-se os nomes dos réus no rol dos culpados, expedindo-se as guias de recolhimento definitivas e, se necessário, os mandados de prisão de regime semiaberto, nos termos do Comunicado CG nº 67/2025 desta E. Corte.
+
+Taxa judiciária pelos sentenciados, salvo se beneficiados pelo benefício da justiça gratuita.
+
+Com relação aos aparelhos de telefonia móvel apreendidos, decorrido o prazo de 90 (noventa) dias do trânsito em julgado da Sentença proferida e considerada a sua depreciação, por serem bens particularmente suscetíveis à desvalorização de intensidade ímpar, em razão das rápidas inovações tecnológicas que beneficiam o setor de smartphones, desde logo, deixo de determinar a realização de leilão, decretando desde logo o seu perdimento e autorizando a sua destruição. Oficie-se, nesta hipótese.
+
+   P.R.I.C.
+
+		São Paulo, 17 de março de 2.025.
+
+		MARCOS VIEIRA DE MORAIS
+  	   Juiz de Direito
+
+DOCUMENTO ASSINADO DIGITALMENTE NOS TERMOS DA LEI 11.419/2006, CONFORME IMPRESSÃO À MARGEM DIREITA

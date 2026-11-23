@@ -5,10 +5,10 @@ Par: INV 2 (âncora, TJSP) e AP 2428 (contraste, STF). Perguntas examinadas: 1, 
 ## Identificação
 
 - Exercício: "Esqueceu a senha?".
-- STF, Primeira Turma, Ação Penal 2428/DF, relator ministro Alexandre de Moraes. Denúncia da PGR (Pet 11626) recebida em maio de 2024; condenação unânime concluída em 14/05/2025; embargos de declaração rejeitados em sessão virtual encerrada em 06/06/2025.
+- STF, Primeira Turma, Ação Penal 2428/DF, relator ministro Alexandre de Moraes. Número único 0000237-08.2024.1.00.0000. Denúncia da PGR (Pet 11626) recebida em maio de 2024; julgamento de mérito em sessão virtual da Primeira Turma pautada de 09 a 16/05/2025, com condenação unânime; embargos de declaração rejeitados em sessão virtual extraordinária de 06/06/2025, que determinou a certificação do trânsito em julgado independentemente da publicação do acórdão.
 - Fatos entre agosto de 2022 e janeiro de 2023, posteriores à Lei 14.155/2021.
 - Caso citado da base: INV 4 (TJSP), o escrevente que entrou duas vezes na conta gov.br de um juiz, mesmo depois da troca de senha e da verificação em duas etapas, e confessou ter usado a opção "esqueci a senha"; condenado no 154-A, §3º, com "expertise e habilidade incomuns" valoradas na pena.
-- Peças lidas: o voto do relator, em reprodução publicada pelo Migalhas, lido por extração automática em duas partes; o texto não foi gravado no repositório, e a captura do inteiro teor no portal do STF fica pendente. Não passou pelo segundo leitor.
+- Peças lidas: a certidão de julgamento no portal do STF (dispositivo: penas, capitulação, continuidade e danos coletivos, conferidos em 23/11/2026) e o voto do relator, em reprodução publicada pelo Migalhas e pelo InternetLab, para a fundamentação (via de acesso e dosimetria). O acórdão publicado não está disponível na aba de decisões do portal; o texto do voto não foi gravado no repositório. Não passou pelo segundo leitor.
 
 ## 1. Conduta registrada
 
@@ -18,7 +18,7 @@ O sistema é o objeto, e a barreira é o controle de acesso do próprio CNJ. Ela
 
 ## 2. Processamento
 
-Capitulação. Art. 154-A, §2º, do CP, 13 vezes, e art. 299, 16 vezes, cada grupo em continuidade (art. 71), em concurso material (art. 69).
+Capitulação. Art. 154-A, §2º, do CP, 13 vezes, e art. 299, 16 vezes, cada grupo em continuidade (art. 71), em concurso material (art. 69). Pela certidão de julgamento: 4 anos e 6 meses pela invasão e 3 anos e 9 meses pela falsidade, para o executor.
 
 A elementar. A denúncia narra que o executor "teria violado indevidamente mecanismos de segurança"; o voto aplica a pena da Lei 14.155/2021, registra a alteração do tipo e não analisa a elementar, que já não existia.
 
@@ -44,6 +44,8 @@ O acréscimo ao magistrado. Em invasão por credencial alheia, o log identifica 
 ## Fontes
 
 - Voto do relator, AP 2428 (reprodução): https://www.migalhas.com.br/arquivos/2025/5/5811413F4DB41C_conteudo(2).pdf
+- STF, portal do processo (certidões de julgamento e andamentos): https://portal.stf.jus.br/processos/detalhe.asp?incidente=6950766
+- Voto do relator, reprodução do InternetLab: https://internetlab.org.br/wp-content/uploads/2025/05/conteudo.pdf
 - STF, rejeição dos embargos, 07/06/2025: https://noticias.stf.jus.br/?p=97957
 - STF, recebimento da denúncia (Pet 11626): https://noticias.stf.jus.br/?p=91641
 - MPF, votos pela condenação e penas: https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/ministros-do-stf-votam-pela-condenacao-de-deputada-federal-por-invasao-ao-sistema-virtual-do-cnj-em-2023

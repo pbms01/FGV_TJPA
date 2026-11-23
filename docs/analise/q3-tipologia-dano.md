@@ -1,10 +1,12 @@
 # Questão 3: que dano a sentença reconhece além do financeiro, e como se distribui a reparação mínima do art. 387, IV, do CPP
 
+
+Atualização de 23/11/2026: as sentenças do INV 2 e do INV 8 estavam cortadas em 100 mil caracteres pelo Codex, antes do dispositivo, e foram regravadas pelo texto integral do original (`scripts/regrava_sentenca_original.py`). O INV 2 passa de silente a fixa (R$ 190,00, dano moral negado) e o INV 8 de silente a nega (sem pedido, contraditório e valor não apurado); os números abaixo já trazem a correção, que não muda nenhuma conclusão.
 Nota analítica de 21/11/2026, sobre a base da fase 1 (TJSP), revista no mesmo dia depois da conferência por segundo leitor (`docs/analise/segundo-leitor.md`). Tabelas reproduzíveis por `python3 scripts/analise_q3_dano.py`, que grava `dados/analise/q3_dano.csv` (uma linha por denúncia) e `dados/analise/q3_resumo.json`. A leitura das sentenças é de `scripts/reparacao_387.py`, que se valida com `python3 scripts/reparacao_387.py valida`. Linha de pesquisa atendida: 3.3 (tipologia do dano), com reflexo na 3.4 (vulnerabilidade), na 2.2 (gargalos logísticos) e na 4.1 (governança privada). Usa os eixos de `scripts/eixos_mediacao.py` e o nível alcançado da questão 1 (`claude/analise-q1-alcance-elo-fisico.md`).
 
 ## Resposta
 
-A sentença penal reconhece, na prática, um único dano, o patrimonial, e mesmo esse é reparado em pouco mais da metade das condenações por fraude. Das 171 sentenças condenatórias lidas, 79 fixam o valor mínimo do art. 387, IV, do CPP, 34 o negam com fundamento e 58 silenciam, embora o dispositivo diga que o juiz "fixará" esse valor. Na fraude eletrônica a reparação é fixada em 47,2% das condenações, no estrato CL em 55,2% e na invasão de dispositivo em 14,8%. O dano não patrimonial aparece por duas portas, e nenhuma delas leva à vítima com regularidade. Pela reparação, o dano moral foi fixado em três sentenças (INV 39, INV 44 e FE 21), embora a denúncia o tenha pedido em 17; nas demais condenações em que foi pedido, a sentença fixou só o dano material ou silenciou. Pela dosimetria, as consequências do crime pesaram contra o réu em pelo menos 26 sentenças, e em 9 delas a sentença nomeou dano além do econômico: o abalo psicológico, a exposição e o uso dos dados pessoais, a perda do trabalho armazenado e dos clientes, os reflexos na família e no emprego, o nome sujo na praça. Só que, nessas 26, a vítima ficou sem reparação em 12. O dano que não é dinheiro entra na sentença para aumentar a pena, e não para compensar quem o sofreu.
+A sentença penal reconhece, na prática, um único dano, o patrimonial, e mesmo esse é reparado em pouco mais da metade das condenações por fraude. Das 171 sentenças condenatórias lidas, 80 fixam o valor mínimo do art. 387, IV, do CPP, 35 o negam com fundamento e 56 silenciam, embora o dispositivo diga que o juiz "fixará" esse valor. Na fraude eletrônica a reparação é fixada em 47,2% das condenações, no estrato CL em 55,2% e na invasão de dispositivo em 18,5%. O dano não patrimonial aparece por duas portas, e nenhuma delas leva à vítima com regularidade. Pela reparação, o dano moral foi fixado em três sentenças (INV 39, INV 44 e FE 21), embora a denúncia o tenha pedido em 17; nas demais condenações em que foi pedido, a sentença fixou só o dano material ou silenciou. Pela dosimetria, as consequências do crime pesaram contra o réu em pelo menos 26 sentenças, e em 9 delas a sentença nomeou dano além do econômico: o abalo psicológico, a exposição e o uso dos dados pessoais, a perda do trabalho armazenado e dos clientes, os reflexos na família e no emprego, o nome sujo na praça. Só que, nessas 26, a vítima ficou sem reparação em 12. O dano que não é dinheiro entra na sentença para aumentar a pena, e não para compensar quem o sofreu.
 
 A distribuição da reparação segue o rastro documental da transferência, e por isso recai sobre o titular da conta. Na fraude eletrônica, o Ministério Público pede a reparação na denúncia em 79,5% dos casos em que alcançou só o titular, contra 54,3% quando alcançou o autor remoto e 37,7% quando alcançou o elo logístico, porque o valor está no extrato da conta. A sentença acompanha o pedido (fixa em 64,2% das condenações com pedido e em 16,1% das sem pedido), e o resultado é que o titular é o devedor mais frequente: tem a reparação fixada em 65,1% das condenações, contra 35,7% do autor remoto, com mediana de R$ 6.900,00 contra R$ 1.790,00. A pergunta da questão tem resposta afirmativa e mais forte do que se supunha: o titular responde pela reparação do golpe que não executou e, em regra, pelo golpe inteiro. O valor fixado é igual ao valor do fato narrado na denúncia em 19 das 31 fixações a titulares na FE e em 14 das 22 no CL, e só oito sentenças da amostra o limitam ao que entrou na conta do condenado (seis no CL e duas na FE). A solidariedade com os coautores, que a denúncia declara desconhecidos, é afirmada em quatro. Na outra ponta, quando o banco já ressarciu a vítima, a reparação é negada e o dano sai do processo: no estrato CL, esse é o fundamento de 6 das 10 negativas.
 
@@ -22,20 +24,20 @@ As consequências do crime (art. 59 do CP) foram lidas por termos na dosimetria 
 
 | Reparação nas condenações | INV (27) | CL (44) | FE (100) |
 | --- | --- | --- | --- |
-| Fixa | 4 (14,8%) | 24 (55,2%) | 51 (47,2%) |
-| Nega com fundamento | 5 (18,5%) | 10 (23,0%) | 19 (22,2%) |
-| Silencia | 18 (66,7%) | 10 (21,7%) | 30 (30,5%) |
+| Fixa | 5 (18,5%) | 24 (55,2%) | 51 (47,2%) |
+| Nega com fundamento | 6 (22,2%) | 10 (23,0%) | 19 (22,2%) |
+| Silencia | 16 (59,3%) | 10 (21,7%) | 30 (30,5%) |
 | Pedido na denúncia | 12 (44,4%) | 32 (75,1%) | 69 (64,7%) |
-| Fixa, quando houve pedido | 33,3% | 61,7% | 64,2% |
+| Fixa, quando houve pedido | 41,7% | 61,7% | 64,2% |
 | Fixa, quando não houve | 0 | 35,8% | 16,1% |
 
-O pedido é o que mais pesa. Com ele, a reparação é fixada em cerca de seis de cada dez condenações por fraude; sem ele, em pouco mais de uma de cada três no CL e em menos de uma de cada cinco na FE. Ainda assim, 27 das 113 condenações com pedido na denúncia silenciam sobre ele (14 na FE, 5 no CL e 8 no INV), e seis sentenças fixaram a reparação sem pedido localizado na denúncia, no relatório ou no próprio texto (CL 32, CL 40, CL 50, FE 30, FE 63 e FE 103), o que mostra que a regra não é aplicada de modo uniforme nem num sentido nem no outro.
+O pedido é o que mais pesa. Com ele, a reparação é fixada em cerca de seis de cada dez condenações por fraude; sem ele, em pouco mais de uma de cada três no CL e em menos de uma de cada cinco na FE. Ainda assim, 26 das 113 condenações com pedido na denúncia silenciam sobre ele (14 na FE, 5 no CL e 7 no INV), e seis sentenças fixaram a reparação sem pedido localizado na denúncia, no relatório ou no próprio texto (CL 32, CL 40, CL 50, FE 30, FE 63 e FE 103), o que mostra que a regra não é aplicada de modo uniforme nem num sentido nem no outro.
 
-| Fundamento das 34 negativas (mais de um por sentença) | Sentenças |
+| Fundamento das 35 negativas (mais de um por sentença) | Sentenças |
 | --- | --- |
-| Falta de pedido | 15 |
-| Contraditório e instrução sobre o valor | 10 |
-| Valor não apurado | 9 |
+| Falta de pedido | 16 |
+| Contraditório e instrução sobre o valor | 11 |
+| Valor não apurado | 10 |
 | Remessa à via cível | 9 |
 | Vítima ressarcida (por banco, empresa ou devolução) | 8 |
 | Reparação por outro instrumento (prestação pecuniária, ANPP de corréu, valor bloqueado devolvido ao juízo) | 3 |

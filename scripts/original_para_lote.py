@@ -12,6 +12,8 @@ Decisões:
 - O marcador de procedência diz de onde veio o texto ("parser pdftotext do original" ou
   "OCR tesseract do original"), porque o codex_denuncias.procedencia() o registra no manifesto
   e a extração precisa saber que o texto do OCR é ruidoso.
+- Originais em RTF (o link do Codex devolve RTF para algumas sentenças do TJSP) passam por
+  striprtf, com o marcador "parser RTF do original".
 - A linha "Original:" leva só /doc/<numero>/<id>, sem o token ?t=, que o separa_lote usa para
   achar o ID e que o grava proíbe no corpo.
 """
@@ -30,9 +32,20 @@ def texto_html(arq):
     return "parser HTML do original", html.unescape(re.sub(r"<[^>]+>", "", s))
 
 
+def texto_rtf(arq):
+    # o link do Codex devolve RTF para algumas sentenças do TJSP (extensão .pdf no nome);
+    # striprtf (pip install striprtf) preserva as células de tabela separadas por "|"
+    from striprtf.striprtf import rtf_to_text
+    raw = open(arq, encoding="cp1252", errors="replace").read()
+    return "parser RTF do original", rtf_to_text(raw, errors="ignore")
+
+
 def texto_pdf(pdf):
     if pdf.lower().endswith((".html", ".htm")):
         return texto_html(pdf)
+    with open(pdf, "rb") as f:
+        if f.read(5) == b"{\\rtf":
+            return texto_rtf(pdf)
     paginas = int(next((l.split()[-1] for l in subprocess.run(
         ["pdfinfo", pdf], capture_output=True, text=True).stdout.splitlines() if l.startswith("Pages:")), "1"))
     camada = subprocess.run(["pdftotext", "-layout", pdf, "-"], capture_output=True, text=True).stdout
