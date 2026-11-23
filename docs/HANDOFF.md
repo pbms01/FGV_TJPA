@@ -4,7 +4,7 @@
 
 Estado: 72 de 281 tratados, todos do grupo 1 (46 `ok`, 16 `sigilo`, 6 `so_sentenca`, 1 `sem_denuncia`, 3 `sem_texto`), 286 chamadas ao Codex. Faltam 114 do grupo 1 e os 95 do grupo 2. Primeira chamada: `TRIB=tjrj python3 scripts/pipe_tjpa.py prox` (ordem 73, 0180954-67.2022.8.19.0001, com a visão geral já feita: eJUD de processo DCP, INV, público, 194 documentos).
 
-Limite novo (23/11/2026, tarde): o `pdpj_perguntar_processo` tem cota de 30 análises por dia na conta, somadas todas as sessões, e zera no dia seguinte; a mensagem é "Voce atingiu o limite de 30 analises automaticas por dia". Isso limita o roteiro abaixo a cerca de 30 processos não sigilosos por dia. A coleta parou no 72 por essa cota, não por aviso de uso em lote. O lote 51 a 72 saiu de uma sessão sem permissão de push, como `git bundle` aplicado pelo usuário; antes de retomar, conferir que o `prox` do main aponta a ordem 73, para não refazer o lote. Detalhes e lições do lote 51 a 72 na seção "Processos 51 a 72" do `docs/RUNBOOK_TJRJ.md`.
+Limite novo (23/11/2026, tarde): o `pdpj_perguntar_processo` tem cota de 30 análises por dia na conta, somadas todas as sessões, e zera no dia seguinte; a mensagem é "Voce atingiu o limite de 30 analises automaticas por dia". Isso limita o roteiro abaixo a cerca de 30 processos não sigilosos por dia. A coleta parou no 72 por essa cota, não por aviso de uso em lote. O lote 51 a 72 está no main desde 789d088. Detalhes e lições do lote 51 a 72 na seção "Processos 51 a 72" do `docs/RUNBOOK_TJRJ.md`.
 
 Roteiro por processo, em 4 chamadas, uma por vez, com cerca de 15 s entre chamadas e 40 s entre processos:
 
