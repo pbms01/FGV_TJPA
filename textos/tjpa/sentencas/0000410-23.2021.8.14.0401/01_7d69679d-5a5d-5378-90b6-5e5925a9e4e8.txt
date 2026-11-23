@@ -1,0 +1,130 @@
+[parser HTML do original]
+
+TRIBUNAL DE JUSTIÇA DO ESTADO DO PARÁ
+
+COMARCA DE BELÉM (PA)
+
+2ª VARA CRIMINAL - JUÍZO SINGULAR
+
+PROCESSO Nº 0000410-23.2021.8.14.0401
+
+AÇÃO PENAL - PROCEDIMENTO ORDINÁRIO (283)
+
+[Furto Qualificado , Outras fraudes, Crimes de "Lavagem" ou Ocultação de Bens, Direitos ou Valores, Invasão de Dispositivo Informático]
+
+AUTOR: MINISTÉRIO PÚBLICO DO ESTADO DO PARÁ
+
+Assistentes de acusação: CARLOS GILBERTO MARTINS JUNIOR - SP508313, NATASHA HOHLENWERGER FERREIRA DOS SANTOS - RJ224241
+
+Advogados do(a) REU: VERA LUCIA FARACO MACIEL – OAB/PA 5087, TAINA CORREA CUNHA – OAB/PA 24158, JOSE AILZO SOUZA CHAVES – OAB/PA 9921, JACY MONTEIRO COLARES NETO - OAB/PA 29507, IVY PINHEIRO RUFINO NEVES - OAB/PA  017073, ANA CRISTINA CAMPOS E SILVA CALDERARO - OAB/PA  007510, JHONATAN DE ALMEIDA DOS SANTOS - OAB/PA 21255
+
+RÉ: SAMARA DE MORAIS LIRA
+Endereço: Rua Santos Saraiva, 2211, sala 05, Estreito, FLORIANóPOLIS - SC - CEP: 88070-101
+RÉ: MARCIA CLAUDIA VIEIRA SANTA BRIGIDA
+Endereço: Travessa Monte Alegre, 1812, Jurunas, BELéM - PA - CEP: 66025-212
+RÉU: LUIS DIEGO MESQUITA DOS SANTOS
+Endereço: Avenida Engenheiro Fernando Guilhon, 1968, Cremação, BELéM - PA - CEP: 66045-205
+RÉU: JASON DE JESUS DAMASCENO
+Endereço: Passagem São Vicente, 23, Quadra 32, Ao lado do lava jato F5, Cabanagem, BELéM - PA - CEP: 66625-030
+
+SENTENÇA
+
+I – RELATÓRIO
+
+O Ministério Público do Estado do Pará ofereceu denúncia em face de SAMARA DE MORAIS LIRA, MARCIA CLAUDIA VIEIRA SANTA BRIGIDA, LUIS DIEGO MESQUITA DOS SANTOS, JASON DE JESUS DAMASCENO, YURI RODRIGUES DA SILVA, ELAINE CRISTINA BORGES LEMOS, ROSEMIRO SALGADO DO CANTO NETO E JAIR ELIAS PANTOJA SARRAF, todos identificados e qualificados nos autos, acusados da prática dos crimes de organização criminosa e lavagem de dinheiro.
+
+O juízo da vara de crime organizado declarou-se incompetente, visto não ter recebido a denúncia em relação ao crime de organização criminosa – Id. 55283165.
+
+Narra a denúncia, que, a operação policial foi deflagrada pela operação TROJAN, iniciada com a lavratura de boletim de ocorrência por instituição financeira, para investigação de crimes eletrônicos em que foi vítima, e os responsáveis lograram êxito em obter vantagens ilícitas através de fraudes eletrônicas. Foram oferecidas outras denúncias desmembradas da mesma operação.
+
+A presente versa especificamente sobre as transações envolvendo a empresa vítima GPN EQUIPAMENTOS I LTDA EPP. (CNPJ Nº 04.668.486/0001-91), cujo montante do valor furtado totaliza R$204.760,00 (duzentos e quatro mil, setecentos e sessenta reais), em prejuízo a esta INSTITUIÇÃO FINANCEIRA. O Ministério Público, no uso de suas atribuições legais, com base nos elementos de informação coletados no inquérito policial e demais peças de informação, ofereceu denúncia em desfavor de SAMARA DE MORAIS LIRA, LUIS DIEGO MESQUITA DOS SANTOS, MÁRCIA CLÁUDIA VIEIRA SANTA BRIGIDA, JASON DE JESUS DAMASCENO, ELAINE CRISTINA BORGES LEMOS, YURI RODRIGUES DA SILVA, ROSEMIRO SALGADO DO CANTO NETO E JAIR ELIAS PANTOJA SARRAF pela prática do crime previsto art. 1º, § 1º, II, da Lei nº 9.613/98 com as alterações da Lei 12.683/12, c/c art. 2º, caput, da Lei nº 12.850/13, conforme Id. 55283164.
+
+Sucintamente, a apuração dos fatos decorreu em virtude de Notícia de Crime (Id. 55280432, fls. 70 a 73) apresentada por esta INSTITUIÇÃO FINANCEIRA, gerando o Inquérito Policial nº 00487/2016.100003-2, para investigação de crimes eletrônicos ocorridos no âmbito da INSTITUIÇÃO FINANCEIRA vítima, praticados por meio obtenção de vantagens ilícitas através de fraudes eletrônicas realizadas.
+
+A denúncia ( ID 55283164) foi inicialmente oferecida pelo GAECO, vinculado o Juízo da Vara de combate às organizações criminosas.
+
+Contudo, em decisão de ID 55283165, o Juízo supracitado entendeu pela rejeição da denúncia com relação ao delito de organização criminosa e declinou da competência no que se refere ao crime de lavagem de dinheiro e associação criminosa.
+
+Em decisão de ID 78389272, após manifestação do Ministério Público vinculado a esta Vara pela ratificação da denúncia apresentada; este Juízo recebeu a denúncia contra os acusados com relação ao crime de lavagem de dinheiro.
+
+Os réus Samara, Jason, Marcia Claudia e Luis Diego foram citados, respectivamente em IDS 103052763, 87493832, 83601798 e 84093391.
+
+O processo foi desmembrado com relação aos corréus ELAINE CRISTINA BORGES LEMOS, YURI RODRIGUES DA SILVA, ROSEMIRO SAGADO DO CANTO NETO E JAIR ELIAS PANTOJA SARRAFF (Id. 118730206), devido à impossibilidade de citá-los, prosseguindo somente com relação a SAMARA DE MORAIS LIRA, MÁRCIA CLAUDIA VIEIRA SANTA BRIGIDA E JASON DE JESUS DAMASCENO..
+
+O denunciado LUIS DIEGO MESQUITA DOS SANTOS faleceu, tendo sua extinção de punibilidade declarada em sentença de ID 130128051.
+
+SAMARA E MÁRCIA BRIGIDA, em Resposta à Acusação (Id. 110335926 e Id. 84964562), não adentraram no mérito das imputações, limitando-se a argumentações genéricas suscitando insuficiência probatória.
+
+Jason de Jesus, por sua vez (Id. 88640096), pleiteou a nulidade do recebimento da denúncia por suposta inépcia e ausência de justa causa para o exercício da ação penal. Ademais, apontou a inexistência de quebra de sigilo bancário com relação à conta atribuída no processo como sua, sob a alegação de que a agência da Caixa Econômica Federal indicada sequer existia.
+
+Confirmado o recebimento da denúncia (Id. 118730206), foi designada audiência de instrução e julgamento para o dia 27.08.2024, oportunidade em que foram ouvidas as testemunhas HENRIQUE DE SOUZA JORDÃO, LUIZ FERNANDO ROMERO e os policiais civis RONALDO SÉRGIO GUIMARÃES, IGOR CARLÉO DE OLIVEIRA E VANESSA LEE PINTO ARAÚJO, bem como interrogadas SAMARA DE MORAIS LIRA E MÁRCIA CLAUDIA VIEIRA SANTA BRIGIDA (ID. 124372854).
+
+Na fase do art. 402 do CPP, as partes nada requereram.
+
+Em alegações finais, o Ministério Público pugnou pela absolvição das rés SAMARA E MARCIA, em razão da ausência de suporte probatório apto o suficiente para sustentar a condenação; e pela condenação do acusado JASON nos termos da inicial acusatória ( ID 140688486).
+
+A assistência de acusação, em memoriais finais, postulou pela condenação dos três denunciados, nos termos da denúncia ( ID 141638024).
+
+Por fim, as defesas postularam a absolvição dos acusados em razão da ausência de provas ( IDs 142404559 e 142910048).
+
+Vieram os autos conclusos em 13/05/2025.
+
+É o relatório. DECIDO.
+
+II – FUNDAMENTAÇÃO
+
+Inicialmente, importa consignar que um decreto condenatório demanda pormenorizada análise do contexto probatório e a integralização do binômio autoria-materialidade, sem o qual a absolvição do acusado é medida que se impõe.
+
+Com alicerce nestas balizas e não havendo questões preliminares, passo a analisar o mérito da causa.
+
+Sem maiores considerações, a materialidade encontra-se comprovada nos autos através dos elementos de prova colhidos durante o inquérito policial.
+
+Deve-se esclarecer, entretanto, embora os autores dos delitos de furto qualificado pela fraude (art. 155, § 4º, II, do Código Penal), que se utilizaram dos arquivos maliciosos para aplicar os golpes nas contas das correntistas desta INSTITUIÇÃO FINANCEIRA, não tenham sido localizados pela investigação, foi possível encontrar os responsáveis pela lavagem do dinheiro obtido. Através dos dados colhidos a partir da quebra de sigilo bancário, devidamente deferido em juízo, foi possível saber não só a titularidade das contas vilipendiadas, como também aferir qual o caminho tomado pelos valores subtraídos. Ou seja, foram descobertos os dados bancários das contas beneficiárias.
+
+Assim, no que concerne à autoria delitiva, acentuo que as provas dos autos não são suficientes para a condenação dos réus, sendo a absolvição medida que se impõe.
+
+Isso porque, não foram produzidas, em juízo, provas para condenação do réu, ou sequer a individualização de sua conduta para a prática do crime; havendo nos autos, apenas, indícios, os quais foram suficientes para o oferecimento da denúncia, mas insuficientes para prolação de uma sentença condenatória.
+
+Conforme relatório de investigação (Id. 55282682, fls. 17 a 28), SAMARA DE MORAIS LIRA (conta corrente nº 22577-8, Ag 3200, CEF Marituba/PA) foi beneficiária de uma transferência indevida de R$ 32.552,00 (trinta e dois mil, quinhentos e cinquenta e dois reais) advinda indevidamente da conta da vítima GPN EQUIPAMENTOS. Por sua vez, MARCIA CLÁUDIA VIEIRA SANTA BRIGIDA (CONTA CORRENTE Nº 366280, AG 0085, CEF BELÉM/PA) foi beneficiária da quantia de R$ 31.653,00 (trinta e um mil, seiscentos e cinquenta e três reais), advinda indevidamente da conta da vítima GPN EQUIPAMENTOS I. LTDA. EPP. Por fim, o réu JASON DE JESUS DAMASCENO (conta corrente 415642, agência 0003, CEF Belém/PA) foi beneficiário da quantia de R$ 36.000,00 (trinta e seis mil reais) advindos indevidamente da conta da vítima GPN EQUIPAMENTOS I. LTDA. EPP.
+
+Essencial para o esclarecimento dos fato foi o depoimento da DPC  VANESSA LEE PINTO ARAÚJO, responsável por conduzir as investigações, pois aduziu em juízo que a Polícia não entrou em contato com os bancos para verificar a titularidade das contas que supostamente receberam os valores ilícitos. Tal identificação foi realizada por meio das cautelares de quebra de sigilo fiscal das referidas contas. Contudo, no que se refere aos três réus citados, não foi possível a realização da quebra de sigilo fiscal.
+
+Logo, impossível afirmar que foram os acusados que receberam os valores, bem como que os tenham de qualquer forma manuseado ou movimentado as contas-correntes; assim como também não é possível constatar de forma inequívoca a titularidade das contas informadas pelo relatório policial.
+
+Assim, o conjunto probatório constante dos autos deixa dúvidas se os acusados foram os responsáveis pela prática do crime em questão, haja vista que, ainda que comprovada a materialidade do delito da lavagem de dinheiro, existem dúvidas acerca da autoria atribuída aos acusados, pois não há comprovação de que de alguma forma tenham movimentado as contas indicadas na denúncia.
+
+Dessa forma, os elementos de informação colhidos perante o juízo não são suficientes para sustentar o édito condenatório, pelo que a absolvição é medida de justiça.
+
+III – DISPOSITIVO
+
+Ante o exposto, e por tudo que dos autos consta, JULGO IMPROCEDENTE o pedido formulado na denúncia para ABSOLVER  SAMARA DE MORAIS LIRA, MARCIA CLAUDIA VIEIRA SANTA BRIGIDA e  JASON DE JESUS DAMASCENO, qualificado nos autos, das sanções punitivas do crime de  "Lavagem" ou Ocultação de Bens, Direitos ou Valores - art. 1º, § 1º, II, da Lei nº 9.613/98, com fundamento no artigo 386, inciso VII, do CPP.
+
+Cumpridas todas essas etapas, passo às DELIBERAÇÕES FINAIS:
+
+REVOGUEM-SE todas as eventuais medidas cautelares aplicadas.
+
+Havendo Bens apreendidos nos autos, venham estes conclusos para que seja efetuada a devida destinação.
+
+INTIME-SE pessoalmente os réus, ou, se não for possível, por edital.
+
+Com base na Resolução de nº253/2018 do CNJ, INTIME-SE a vítima acerca da presente decisão.
+
+CIÊNCIA ao Ministério Público e à Defesa.
+
+Sem custas processuais.
+
+Havendo o trânsito em julgado, arquivem-se.
+
+Havendo interposição de recurso, certifique-se sua tempestividade e faça a conclusão.
+
+PUBLIQUE-SE, REGISTRE-SE e CUMPRA-SE, expedindo o necessário.
+
+Belém (PA), 14 de maio de 2025
+
+BLENDA NERY RIGON CARDOSO
+
+Juíza de Direito titular da 2ª Vara Criminal de Belém
+
+E-mail: 2crimebelem@tjpa.jus.br – Fone: (91) 3205-2195
+
+Endereço: Fórum Criminal Des. Romão Amoedo Neto – Rua Tomázia Perdigão, 310, Cidade Velha, CEP. 66015-260 – 1º ANDAR.
