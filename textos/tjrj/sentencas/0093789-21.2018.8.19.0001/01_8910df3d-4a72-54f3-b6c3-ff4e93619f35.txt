@@ -1,0 +1,1274 @@
+[Texto nativo do PJe]
+
+Estado do Rio de Janeiro Poder Judiciário
+
+Tribunal de Justiça
+
+Comarca da Capital
+
+Cartório da 26ª Vara Criminal
+
+Av. Erasmo Braga, 115 L II sala 610CEP: 20020-903 - Centro - Rio de Janeiro - RJ        e-mail: cap26vcri@tjrj.jus.br
+
+Fls.
+
+Processo: 0093789-21.2018.8.19.0001
+
+Processo Eletrônico
+
+Classe/Assunto: Ação Penal - Procedimento Ordinário - Associação Criminosa (Art. 288 -
+
+Código Penal); Violação do segredo profissional  (Art. 154 - CP); Violação do segredo
+
+profissional    (Art. 154 - CP); Concurso Formal (Art. 70 - Cp); Concurso Material (Art. 69 - Cp)
+
+Autor: MINISTÉRIO PÚBLICO
+
+Assist. de Acusação: OI S.A.
+
+Réu: JOSE GONCALVES VILELA NETO
+
+Réu: JOHN KENNEDY BENTO DE GODOY
+
+Réu: RODRIGO SANTIAGO DE SA OLIVEIRA
+
+Flagrante    005-02863/2018    21/04/2018    5ª Delegacia Policial
+
+___________________________________________________________
+
+Nesta data, faço os autos conclusos ao MM. Dr. Juiz
+
+Ana Helena Mota Lima Valle
+
+Em 17/03/2025
+
+Sentença
+
+Vistos etc.
+
+O Ilustre Representante do Ministério Público, no exercício de suas funções nesta Vara,
+
+ofereceu denúncia em 07/05/2018, que foi recebida 18/09/2018 (e-doc. 370) em face de
+
+RODRIGO SANTIAGO DE SÁ OLIVEIRA, JOSÉ GONCALVES VILELA NETO e JOHN
+
+KENNEDY BENTO DE GODOY, pela prática das condutas descritas no art. 154-A,    caput,    e
+
+art. 154-A, §3º, ambos c/c o §2º    do mesmo artigo, n/f    do art. 70, e art. 288,    caput, n/f do
+
+art. 69, todos do Código Penal, assim resumidas:
+
+"No dia 20 de abril de 2018, entre os horários, aproximadamente, de 09h50min às 18:00h, no
+
+interior do Hotel Castelo, quarto 202, situado na Rua do Lavradio, número 62, Centro, nesta
+
+cidade do Rio de Janeiro, os    denunciados,    agindo de forma livre, consciente e voluntária,
+
+em comunhão de ações e desígnios entre si e demais pessoas ainda não identificadas,
+
+mediante violação indevida de mecanismo de segurança, invadiram dispositivo informático de
+
+propriedade da Operadora de Telefonia Oi, com IP interno nº    10.20.252.156 e MAC Adress
+
+02:1F:C6:50:3E:C8, sem autorização expressa ou tácita desta Operadora, sendo tal dispositivo
+
+conectado à rede mundial de computadores, com o fim de obter e adulterar dados cadastrais
+
+dos clientes da aludida empresa para migrar chips pré-pagos da Oi para se tornarem linhas de
+
+telefones pós-pagos em benefício de tais clientes da Oi ainda não identificados, para, assim,
+
+obterem vantagens ilícitas, conforme depoimentos de fl. 09 e 10, auto de apreensão e entrega
+
+de fl. 15/16 e Relatório de Análise de Incidente nº    20180420.
+
+Para ter acesso ao sistema de dados da Operadora Oi os denunciados se utilizaram
+
+indevidamente da autenticação no equipamento RJARC-CAP58 com a credencial de acesso
+
+01329599, pertencente a colaborador da Oi lotado em Brasília/DF, conforme informação do
+
+Relatório de Análise de Incidente nº    20180420, resumo de fl. 02.
+
+O acesso ao sistema de dados da Operadora Oi era realizado através de um dispositivo de
+
+conexão à internet que era conectado pelos criminosos, ao mesmo tempo, em um computador
+
+da Rede Corporativa da Oi e, na internet, fazendo uma ponte virtual entre o computador dos
+
+denunciados e um dos computadores da Oi com acesso aos sistemas internos da operadora
+
+110                                                                                                                                                ANAHELENAVALLE
+Estado do Rio de Janeiro Poder Judiciário
+
+Tribunal de Justiça
+
+Comarca da Capital
+
+Cartório da 26ª Vara Criminal
+
+Av. Erasmo Braga, 115 L II sala 610CEP: 20020-903 - Centro - Rio de Janeiro - RJ        e-mail: cap26vcri@tjrj.jus.br
+
+de telefonia. Com  o estabelecimento dessa conexão, os transgressores conseguiam,
+
+livremente, obter e adulterar dados do sistema da Operadora Oi, realizando fraudes
+
+sistêmicas, consistentes em migrar indevidamente chips de planos pré-pagos para planos pós-
+
+pagos, ativando o serviço de  roaming  internacional, realizar a interconexão entre linha
+
+móvel e linha fixa, recarga de créditos celular, realizar descontos indevidos, alterar dados
+
+cadastrais de clientes, enviar spams e SMS indevidos, dentre outras condutas ilícitas.
+
+Os transgressores se utilizavam do esquema de fraudes acima descrito para receber valores
+
+que lhes eram pagos por empresas ainda não identificadas, mas também envolvidas no
+
+esquema criminoso, sendo que tais empresas, que são clientes empresariais da Oi, recebiam
+
+descontos e isenções a partir dos golpes perpetrados pelos denunciados em prejuízo de
+
+outros clientes da Oi; tudo conforme depoimentos de fl. 09 e 10 do APF e informações de fl. 06
+
+e seguintes do procedimento administrativo em anexo, cedido por funcionários da Oi
+
+Assim, nas mesmas circunstâncias de tempo e lugar anteriormente descritas, os
+
+denunciados,    conscientes e voluntariamente, em comunhão de ações e desígnios entre si e
+
+demais pessoas ainda não Identificadas, através da invasão acima narrada ao sistema de
+
+Rede Corporativa da Operadora de Telefonia Oi, tinham o controle remoto não autorizado do
+
+dispositivo invadido, IP interno nº  10.20.252.156 e MAC Adress 02:1F:C6:50:3E:C8, de
+
+propriedade da Operadora Oi, conforme depoimento de fl. 09 e 10 e Relatório de Análise de
+
+Incidente nº    20180420.
+
+Na data dos fatos, funcionários do setor de Fraude Tecnológica da Operadora de Telefonia Oi
+
+receberam de seus equipamentos de segurança um alerta de ataque cibernético à Rede
+
+Corporativa da mencionada empresa.
+
+Utilizando um aparelho de rastreio de sinais de redes sem fio, os funcionários da Oi
+
+conseguiram identificar o local de onde partiam os acessos indevidos aos sistemas da
+
+empresa, tendo eles constatado que tais acessos vinham do Hotel Castelo, localizado em
+
+frente à sede da Oi, na Rua do Lavradio, no Bairro Centro desta cidade. Assim, a Polícia Militar
+
+foi acionada a fim de comparecer ao local para averiguar os fatos.
+
+Ao chegarem ao endereço indicado, solicitaram ao gerente do estabelecimento que verificasse
+
+a lista de hóspedes para averiguar se uma das pessoas que integrava a lista de fraudadores já
+
+conhecidos pela Operadora Oi estaria hospedado ali, não tendo obtido êxito em tal procura.
+
+Ato contínuo, os funcionários da empresa Oi e os policiais, com a autorização do gerente do
+
+estabelecimento, utilizaram o aparelho rastreador nas dependências daquele local e
+
+observaram a intensificação do sinal partindo do apartamento 202, razão pela qual bateram à
+
+porta do quarto.
+
+Após certo tempo, o denunciado John Kenedy abriu a porta e franqueou a entrada dos policiais
+
+e funcionários da 0i, que se depararam, ainda, com os denunciados Rodrigo e José. Neste
+
+momento, os próprios funcionários da Oi identificaram e reconheceram o denunciado Rodrigo
+
+como sendo um dos suspeitos constantes da lista de fraudadores dos sistemas da citada
+
+operadora, eis que Rodrigo já é investigado por fatos análogos no Estado de Goiás.
+
+Em revista no quarto do hotel, os policiais militares lograram encontrar e arrecadar
+
+computadores e diversos equipamentos que estavam sendo utilizados para invadir a rede da
+
+empresa de telefonia, conforme auto de apreensão de fl. 15.
+
+Ainda em sede de revista, o denunciado José arremessou pela janela do apartamento urna
+
+bolsa contendo 200 (duzentos) cartões de chips ainda lacrados da Operadora Oi. No entanto,
+
+os agentes da lei conseguiram apreender o citado material, eis que o funcionário da 0i, Thiago
+
+da Silva, viu o momento em que tal denunciado tentou se livrar da bolsa com os chips.
+
+Ato contínuo, todos os denunciados foram conduzidos à Delegacia de Polícia. Em sede
+
+policial, a testemunha Thiago da Silva (depoimento de fl. 10 do APF) informou que, enquanto
+
+110                                                                                                                                                ANAHELENAVALLE
+Estado do Rio de Janeiro Poder Judiciário
+
+Tribunal de Justiça
+
+Comarca da Capital
+
+Cartório da 26ª Vara Criminal
+
+Av. Erasmo Braga, 115 L II sala 610CEP: 20020-903 - Centro - Rio de Janeiro - RJ        e-mail: cap26vcri@tjrj.jus.br
+
+era lavrado o presente APF foi feito um ataque cibernético ao sistema da Oi realizado em
+
+Goiânia como represália à prisão dos denunciados, sendo que tal ataque causou a
+
+indisponibilidade do Call Center da Oi na própria cidade de Goiânia
+
+Conforme depoimento de fl. 10 (verso) do APF e documentos do procedimento administrativo
+
+anexado aos autos, verifica-se estar configurado o prejuízo econômico sofrido pela Operadora
+
+Oi com as condutas acima narradas, sendo tal prejuízo consistente na perda financeira com o
+
+pagamento de serviços não consumidos pelos clientes, publicidade negativa, aumento de
+
+reclamações na ANATEL, despesas com correções de sistemas fragilizados e aumento do
+
+consumo de recursos computacionais.
+
+Com efeito, as empresas ainda não identificadas envolvidas no esquema fraudulento eram
+
+responsáveis pelo pagamento dos denunciados para que eles cometessem os crimes
+
+descritos, recebendo tais empresas descontos e isenções supostamente concedidos pela
+
+Operadora Oi, sendo que tais descontos e isenções, assim como os chips fraudados, são, na
+
+verdade, produto da prática criminosa.
+
+Assim, em períodos que não se sabe precisar, todavia até o dia 20 de abril de 2018, entre os
+
+horários, aproximadamente, de 09h5Omin às 18:00h, no interior do Hotel Castelo, quarto 202,
+
+situado na Rua do Lavradio, número 62, Centro, nesta cidade do Rio de Janeiro, os
+
+denunciados    e demais pessoas ainda não identificadas, de forma voluntária e consciente,
+
+associaram-se, de forma estável e permanente, para o fim específico de cometer o crime de
+
+invasão de dispositivo informático de propriedade da Operadora de Telefonia Oi anteriormente
+
+narrado.
+
+Cumpre salientar que a associação criminosa constituída pelos denunciados já existe desde,
+
+no mínimo, o ano de 2017, e se iniciou no Estado de Goiás, onde todos residem e onde,
+
+conforme já mencionado, o denunciado Rodrigo é investigado por cometer fatos criminosos
+
+similares aos narrados nestes autos em comunhão de ações e desígnios com as pessoas
+
+listadas à fl. 10 do procedimento administrativo anexado aos autos e conforme termo de
+
+depoimento de fl. 10 do APF. Registre-se que nas cópias do citado procedimento há, inclusive,
+
+transcrições de diálogo do denunciado Rodrigo com as pessoas listadas à respectiva fl. 10..."
+
+O feito encontra-se instruído com as seguintes peças: Auto de Prisão em Flagrante (e-doc. 11 -
+
+fls. 02/03); Termos de declaração (e-doc. 11 - fls. 07/14v); Auto de apreensão (e-doc. 11 - fls.
+
+15/16); Registro de Ocorrência n° 005-02863/2018 (e-doc. 36); Notas de Culpa (e-doc. 40 - fls.
+
+20/22); Procurações (e-doc. 65); FAC do acusado José do Estado de Goiás (e-doc. 700 - fl.
+
+618); FAC's do acusado JOHN KENNEDY dos Estados do Rio de Janeiro e Goiás (fls. 895/898
+
+e 956); FAC's do acusado JOSÉ dos Estados do Rio de Janeiro e Goiás (fls. 899/902 e 954) e
+
+FAC's do acusado RODRIGO dos Estados do Rio de Janeiro e Goiás (fls. 903/906 e 955) e
+
+Relatórios de Análise de Incidente constantes do Anexo 1, pasta 24, denominada Documento -
+
+DOCUMENTOS (fls. 103/115)
+
+O Ministério Público em atuação perante o Plantão Judiciário pugnou pela conversão da prisão
+
+em flagrante em prisão preventiva, e-doc. 70.
+
+Decisão do Juízo do Plantão Judiciário, e-doc. 72, convertendo a prisão em flagrante dos
+
+acusados em prisão preventiva.
+
+Petição de Defesa do acusado John Kennedy requerendo a revogação da prisão preventiva,
+
+juntando documentos, e-doc. 91.
+
+Petição de Defesa do acusado José requerendo a revogação da prisão preventiva, juntando
+
+documentos, e-doc. 79.
+
+Audiência de custódia, em 24/04/2018, ocasião em que foram indeferidos os pleitos libertários
+
+das Defesas e mantida a prisão preventiva dos acusados, e-doc. 138.
+
+110                                                                                                                                                ANAHELENAVALLE
+Estado do Rio de Janeiro Poder Judiciário
+
+Tribunal de Justiça
+
+Comarca da Capital
+
+Cartório da 26ª Vara Criminal
+
+Av. Erasmo Braga, 115 L II sala 610CEP: 20020-903 - Centro - Rio de Janeiro - RJ        e-mail: cap26vcri@tjrj.jus.br
+
+Requerimento de revogação da prisão preventiva do acusado John Kennedy, e-doc. 147,
+
+juntando procuração, e-doc. 159, e documentos, e-doc. 160.
+
+Requerimento de revogação da prisão preventiva do acusado Rodrigo, e-doc. 178, juntando
+
+procuração, e-doc. 192, e documentos, e-doc. 193.
+
+Requerimento de revogação da prisão preventiva do acusado José, e-doc. 215, juntando
+
+procuração, e-doc. 227, e documentos, e-doc. 238.
+
+Ao oferecer denúncia, juntada em e-doc. 02, o Ministério Público requereu diligências e opinou
+
+pela manutenção da prisão preventiva dos acusados, e-doc. 278.
+
+Decisão de declínio de competência em favor do juízo da 8ª Vara Criminal da Comarca de
+
+Goiânia/GO, e-doc. 294.
+
+Juntada de decisão proferida pelo Eg. STJ, nos autos do Conflito de Competência suscitado
+
+pelo juízo da 8ª Vara Criminal da Comarca de Goiânia, reconhecendo a competência deste
+
+juízo, e-doc. 352
+
+Decisão, e-doc. 370, relaxando a prisão preventiva dos acusados e aplicando medidas
+
+cautelares, nos termos do art. 319 do CPP. Na ocasião, foi recebida a denúncia, deferida a
+
+cota ministerial e determinada a citação dos réus, na forma da lei.
+
+Juntada dos mandados citatórios dos acusados John Kennedy, e-doc. 409, José, e-doc. 412, e
+
+Rodrigo, e-doc. 415, devidamente cumpridos.
+
+Requerimento de habilitação como assistente de acusação da empresa lesada, e-doc. 424.
+
+Resposta à acusação dos acusados, e-doc. 485.
+
+Manifestação ministerial não se opondo ao requerimento de habilitação do assistente de
+
+acusação, pugnando pela manutenção do recebimento da denúncia e designação de AIJ, e-
+
+doc. 497.
+
+Despacho deferindo a habilitação do assistente de acusação, e-doc. 501.
+
+Petição do assistente de acusação requerendo a ratificação do recebimento da denúncia e    o
+
+prosseguimento do feito, e-doc.    502.
+
+Decisão, e-doc. 503, mantendo o recebimento da denúncia e designando AIJ para o dia
+
+03/09/2019, às 13:00 horas.
+
+Juntada de carta precatória relativa à oitiva das testemunhas Wanderson Henrique Michel
+
+Diniz Dantas e Jaciara Rodrigues de Morais, arroladas pela Defesa, e-doc. 520, sendo a mídia
+
+acautelada em cartório, e-doc. 536.
+
+Juntada de carta precatória negativa, informando a não localização da testemunha de Defesa
+
+Juliana Estefania, e-doc. 538 - fls. 479/489.
+
+Juntada de carta precatória relativa à oitiva das testemunhas Thais Cristina Alves da Silva e
+
+Lorran César de Oliveira Souza, arroladas pela Defesa, e-doc. 574, constando desistência em
+
+relação às testemunhas Orlando, Alexandre, Lorrany, Núbia, Vanilton e Adriano, sendo enviado
+
+código de acesso aos depoimentos, e-doc. 602 - fls. 532/534.
+
+Audiência de Instrução e Julgamento, em 03 de setembro de 2019, conforme assentada, e-
+
+doc. 591, tendo sido ouvidas as testemunhas da acusação Lucas Arloy de Souza, Thiago da
+
+Silva e PMERJ Márcio Brito dos Santos. O Ministério Público requereu a requisição de dois
+
+110                                                                                                                                                ANAHELENAVALLE
+Estado do Rio de Janeiro Poder Judiciário
+
+Tribunal de Justiça
+
+Comarca da Capital
+
+Cartório da 26ª Vara Criminal
+
+Av. Erasmo Braga, 115 L II sala 610CEP: 20020-903 - Centro - Rio de Janeiro - RJ        e-mail: cap26vcri@tjrj.jus.br
+
+policiais militares para a próxima audiência, com vistas à substituição de testemunha, ao que
+
+não se opuseram a Defesa e a Assistência de acusação, bem como a    expedição de ofício à
+
+empresa lesada para informar o valor do prejuízo. Ainda em audiência, a Defesa declarou que
+
+suas testemunhas eram caráter, não se opondo que fossem ouvidas antes das testemunhas
+
+de acusação, pugnando pela dispensa dos acusados na próxima audiência a ser designada e
+
+que fossem interrogados nas comarcas em que residem. O juízo deferiu ambos o pleitos
+
+ministeriais e designou audiência de continuação para o dia 31/01/2020, às 13h:00 horas,
+
+dispensado os acusados de comparecimento ao ato.
+
+Juntada de carta precatória relativa à oitiva das testemunhas Thiago Pereira dos Santos e
+
+Katia Celene Pereira dos Santos, arroladas pela Defesa, constando desistência em relação às
+
+testemunhas Mariane, Luzinalva e Renato, sendo a mídia acautelada em cartório, e-doc. 729 e
+
+730.
+
+Audiência de continuação, em 31 de janeiro de 2020, conforme assentada, e-doc. 739. Na
+
+ocasião, o Ministério Público requereu a substituição da testemunha Anderson pela
+
+testemunha PMERJ José Carlos Júnior, o que foi deferido pelo juízo, sendo realizada a sua
+
+oitiva. Ato contínuo, a Defesa declarou que suas testemunhas foram ouvidas no juízo
+
+deprecado, requerendo a revogação da medida cautelar de comparecimento dos acusados em
+
+juízo. Pela Assistência da Acusação foi dito que a Operadora Oi estava avaliando os prejuízos
+
+causados pela ação delituosa, razão pela qual ainda não havia informado tal valor ao juízo. O
+
+juízo deferiu a realização dos interrogatórios dos acusados por carta precatória, determinando
+
+a revogação da medida de comparecimento, após o cumprimento do ato.
+
+INFORMAÇÃO DE VIRTUALIZAÇÃO DOS AUTOS, e-doc. 755.
+
+Certidão cartorária informando não ter sido localizada distribuição das cartas precatória
+
+expedidas para realização dos interrogatórios dos acusados, fl. 761.
+
+Petição da Defesa informando os endereços atuais dos acusados e não se opondo à
+
+realização dos interrogatórios de forma remota, fls. 763/766.
+
+Despacho designando interrogatório dos réus, de forma remota, para o dia 10/05/2022, às 16
+
+horas, fls. 770/771.
+
+Requerimentos defensivos de adiamentos do ato às fls. 837/840 e fls. 859/862.
+
+Decisão redesignando a audiência de    interrogatório para o dia 13/09/2022, às 13 horas, fls.
+
+869/870.
+
+Audiência realizada em 13 de setembro de 2022, conforme assentada às fls. 917/919, ocasião
+
+em que os acusados foram interrogados, pugnando as partes pela apresentação de Alegações
+
+Finais por memoriais, o que foi deferido pelo juízo.
+
+Certidão cartorária informando link de acesso aos depoimentos das testemunhas de Defesa
+
+Katia Celene e Thiago Pereira, fl. 929.
+
+Manifestação Ministerial requerendo esclarecimentos do Assistente de acusação, previamente
+
+à apresentação de alegações finais, fl. 962, o que foi deferido pelo juízo, à fl. 970.
+
+Petição do Assistente de acusação, fl. 1003
+
+Certidão cartorária informando link de acesso aos depoimentos das testemunhas de Defesa
+
+Thais Cristina e Lorran Cesar, fl. 1013.
+
+O MINISTÉRIO PÚBLICO apresentou alegações finais, fls. 1018/1024, pugnando pela
+
+PROCEDÊNCIA PARCIAL do pedido formulado na denúncia, com a CONDENAÇÃO dos réus
+
+nos delitos previstos nos artigos 154-A, caput, e 154-A, §3º, ambos c/c §2º  do    mesmo
+
+110                                                                                                                                                ANAHELENAVALLE
+Estado do Rio de Janeiro Poder Judiciário
+
+Tribunal de Justiça
+
+Comarca da Capital
+
+Cartório da 26ª Vara Criminal
+
+Av. Erasmo Braga, 115 L II sala 610CEP: 20020-903 - Centro - Rio de Janeiro - RJ        e-mail: cap26vcri@tjrj.jus.br
+
+artigo,    tudo    na    forma    do    art.    70, todos    do    Código    Penal,    e    a    ABSOLVIÇÃO
+
+quanto ao crime do art. 288 do Código Penal, na forma do art. 386, VII, do CPP.
+
+O ASSISTENTE DE ACUSAÇÃO ratificou as alegações finais apresentadas pelo Ministério
+
+Público, fl. 1027.
+
+A Defesa apresentou alegações finais relativas aos acusados JOSÉ e JOHN KENNEDY, fls.
+
+1051/1067, requerendo:
+
+A) preliminarmente, o encaminhamento dos  autos  ao  Ministério  Público, para
+
+manifestação quanto à possibilidade ulterior de oferecimento de ANPP, em relação aos delitos
+
+dos artigos 154-A, caput, e 154-A, §3º, ambos c/c §2º do referido artigo, todos do CP;
+
+B) absolvição dos denunciados frente a ausência de dolo para prática delitiva;
+
+C) em caso de condenação, aplicação do instituto da    tentativa,    em    razão    da    não
+
+consumação    do    delito;
+
+D) não aplicação da causa de aumento de pena do § 2º, do    artigo    154-a    do    CP,    em
+
+razão    da    ausência    de comprovação de prejuízo econômico;
+
+E) não condenação nos    termos    da    denúncia,    pela ocorrência    de    bis    in    idem    se
+
+sentenciados    nas    formas    comum    e qualificada do delito;
+
+F) aplicação    da    circunstancia    atenuante    da    confissão espontânea;
+
+G) análise de possível prescrição da pretensão punitiva de eventual pena aplicada;
+
+H) absolvição quanto ao delito do artigo 288 CP, ante a ausência de provas de associação
+
+criminosa  com  caráter  de estabilidade e permanência, e conforme requerimento
+
+ministerial.
+
+A Defesa apresentou alegações finais relativas ao acusado RODRIGO, fls. 1069/1082,
+
+requerendo:
+
+A) preliminarmente, o encaminhamento dos  autos  ao  Ministério  Público, para
+
+manifestação quanto à possibilidade ulterior de oferecimento de ANPP, em relação aos delitos
+
+dos artigos 154-A, caput, e 154-A, §3º, ambos c/c §2º do referido artigo, todos do CP;
+
+B) em caso de condenação, aplicação do instituto da    tentativa,    em    razão    da    não
+
+consumação    do    delito;
+
+C) não aplicação da causa de aumento de pena do § 2º, do    artigo    154-a    do    Código
+
+Penal,    em    razão    da    ausência    de comprovação de prejuízo econômico;
+
+D) não condenação    nos    termos    da    denúncia,    pela ocorrência    de    bis    in    idem
+
+se    sentenciados    nas    formas    comum    e qualificada do delito;
+
+E) aplicação da    circunstância    atenuante    da    confissão espontânea;
+
+F) análise de possível prescrição da pretensão punitiva de eventual pena aplicada;
+
+G) absolvição quanto ao delito do artigo 288 CP, ante a ausência de provas de associação
+
+criminosa  com  caráter  de estabilidade e permanência, e conforme requerimento
+
+ministerial.
+
+É O RELATÓRIO.
+
+DECIDO.
+
+Imputa-se aos acusados a prática das condutas    descritas no art. 154-A,    caput,    e art. 154-
+
+A, §3º, ambos c/c o §2º    do mesmo artigo, n/f    do art. 70, e art. 288,    caput, n/f do art. 69,
+
+todos do Código Penal.
+
+DOS FATOS
+
+Em juízo, a testemunha LUCAS ARLOY DE SOUZA narrou que era especialista de patrimônio
+
+da Operadora Oi e, no dia    dos    fatos,    estava    na    sede    da    empresa,    em    Botafogo,
+
+quando seu gerente informou que estava ocorrendo uma invasão na rede da empresa.
+
+Relatou que o gerente determinou que fosse até a sede da empresa, no centro da cidade, para
+
+110                                                                                                                                                ANAHELENAVALLE
+Estado do Rio de Janeiro Poder Judiciário
+
+Tribunal de Justiça
+
+Comarca da Capital
+
+Cartório da 26ª Vara Criminal
+
+Av. Erasmo Braga, 115 L II sala 610CEP: 20020-903 - Centro - Rio de Janeiro - RJ        e-mail: cap26vcri@tjrj.jus.br
+
+acompanhar essa atividade com a equipe da Segurança    da    Informação. No local, estavam
+
+pessoas do escritório de advocacia tentando entender    o    que    estava    acontecendo, e,
+
+posteriormente, chegou a Polícia.
+
+De acordo com a testemunha, o pessoal da Segurança da Informação, utilizando um
+
+rastreador, identificou que o sinal da invasão ao sistema da empresa procedia do Hotel
+
+Castelo, localizado do outro lado da rua, em frente à sede da empresa.
+
+Diante de tal informação, foram até o hotel e explicaram ao gerente o que estava ocorrendo,
+
+tendo a equipe da Segurança    de    Informação exibido uma lista de nomes de pessoas que
+
+estavam sendo investigadas por práticas semelhantes em procedimento no Estado de Goiás,
+
+não sendo nenhuma delas identificada pelo funcionário do hotel na lista de hóspedes.
+
+O    gerente franqueou o ingresso nas dependências do hotel    e, através do rastreador, foi
+
+verificado que o sinal estava mais intenso em um quarto no segundo andar do hotel, indicando
+
+ser ali a sua origem.
+
+A testemunha narrou que o policial bateu à porta, mas ninguém respondeu, sendo possível
+
+ouvir barulho no ambiente, inclusive de uma descarga. Depois de algum tempo, um homem
+
+abriu a porta do quarto, onde havia três pessoas, sendo encontrados um computador, uma
+
+antena parabólica e alguns chips. Ainda no hotel, foi encontrada uma sacola com muitos chips
+
+que havia sido jogada por um dos acusados pela sacada para outro quarto, fato presenciado
+
+por um funcionário da Oi.
+
+Alegou que os réus não informaram o que faziam no hotel, aduzindo não ter conhecimento
+
+técnico sobre como era praticada a fraude.
+
+Declarou que, na ocasião, não sabia que o acusado Rodrigo tinha praticado esse tipo de
+
+fraude anteriormente e, apenas no    dia  dos    fatos, soube da investigação existente em
+
+outro Estado. Contudo, tinha conhecimento acerca da existência de uma quadrilha em outro
+
+Estado, que praticava fraudes, através de invasão ao sistema da empresa.
+
+Sobre como era o funcionamento dos mecanismos de segurança da Operadora, a testemunha
+
+respondeu não saber informar, salientado que era preciso    o uso de senha para todos os
+
+sistemas.
+
+Afirmou não saber se algum chip foi migrado de pré-pago para    pós-pago e se foram obtidos
+
+cadastros de clientes da Operadora.
+
+Por fim, indagado se quando estava na sede da empresa, em Botafogo, teria recebido a
+
+informação de que estariam tentando invadir o sistema da Operadora, respondeu que não,
+
+esclarecendo que a informação passada por seu gerente é que teriam invadido o sistema.
+
+A testemunha THIAGO DA SILVA, em juízo, declarou que era especialista de segurança da
+
+Operadora e, no dia dos fatos, na parte da manhã, receberam uma notificação do Centro de
+
+Operações sobre uma invasão na rede da Operadora.
+
+Diante da notificação, o    Centro de Segurança da informação, após proceder a investigação
+
+tecnológica    padrão nessa situação, identificou que estava sendo feito um acesso indevido na
+
+rede Wi-Fi do próprio prédio em que eles atuavam e que, através desse acesso, estava sendo
+
+feito um acesso a um servidor da Operadora.
+
+De acordo com a testemunha, verificaram sistemicamente que, através desta invasão,
+
+estavam acessando o sistema de CRM, que era o sistema que tratava de todo o controle de
+
+operação móvel, incluindo, registro de dispositivos de números telefônicos e dados de clientes.
+
+Narrou que, ao identificarem que estava sendo usada a rede Wi-Fi do próprio prédio,
+
+efetuaram um procedimento utilizando um equipamento para rastreio de dispositivos
+
+110                                                                                                                                                ANAHELENAVALLE
+Estado do Rio de Janeiro Poder Judiciário
+
+Tribunal de Justiça
+
+Comarca da Capital
+
+Cartório da 26ª Vara Criminal
+
+Av. Erasmo Braga, 115 L II sala 610CEP: 20020-903 - Centro - Rio de Janeiro - RJ        e-mail: cap26vcri@tjrj.jus.br
+
+conectados na rede Wi-Fi, e constataram que o sinal estava forte na parede que dava acesso
+
+à rua da frente do prédio. Fizeram o procedimento na rua, acreditando que o sinal pudesse
+
+estar vindo de algum veículo, mas verificaram, pela intensidade do sinal, que o equipamento
+
+que estava acessando a rede da operadora partia do Hotel em frente ao prédio.
+
+Aduziu que, como sua equipe cuidava da parte tecnológica, notificaram  o pessoal da
+
+Segurança Patrimonial, que cuidava da parte "física", sobre a ocorrência, tendo esta equipe
+
+notificado    a Polícia.
+
+Destacou que as credenciais utilizadas na invasão foram de um colaborador de Brasília, cuja
+
+senha já havia sido objeto de tentativa de quebra há alguns meses, de modo que não
+
+consideraram que o colaborador tivesse participado voluntariamente da fraude.
+
+Sobre a diligência no interior do hotel, esclareceu que acompanhou os policiais militares
+
+durante a busca, pois era preciso utilizar o rastreador, equipamento de difícil operação, para
+
+identificar a origem do sinal. Dentro do hotel, foi constatado que o sinal mais intenso vinha de
+
+um quarto no 2º andar.
+
+O funcionário relatou que o policial ficou alguns minutos batendo na porta e chamando, mas
+
+ninguém atendia, sendo ouvido barulhos que vinham do quarto, inclusive, de uma descarga.
+
+Declarou que um funcionário do hotel foi chamado pelo policial e abriu a porta que dava para
+
+uma antessala, momento em que um dos acusados abriu a porta que separava a antessala do
+
+quarto, sendo visto que havia outras pessoas no quarto.
+
+Alegou que viu quatro pessoas no quarto, mas o policial militar não permitiu que entrasse no
+
+recinto, tendo então saído do local, momento em que viu uma bolsa sendo jogada pela janela
+
+do quarto, onde foram encontrados diversos chips pré-pagos da operadora Oi.
+
+Asseverou que, apenas em sede policial, viu os equipamentos apreendidos pelos policiais
+
+militares no quarto do hotel, sendo dito, na ocasião, que havia um notebook e uma antena
+
+parabólica pequena ligada nesse equipamento, apontando na direção do prédio.
+
+A testemunha explicou que foi usado um notebook para se conectar à rede Wi-fi da operadora
+
+e, através da credencial de um colaborador de Brasília, acessaram à rede corporativa. A partir
+
+desse acesso à rede corporativa, acessaram remotamente um servidor da empresa e
+
+conseguiram abrir o sistema CRM, que permitia que fizessem a migração dos terminais pré-
+
+pago para pós-pago, bem como habilitá-los com números que não seriam válidos para a
+
+Operadora, pois não estariam atrelados a CPFs e não teriam cadastros.
+
+Indagado sobre como funcionava esse tipo de fraude e qual a vantagem obtida, o Sr. Thiago
+
+esclareceu que acessavam o sistema    CRM e faziam    a    migração    de    terminais    pré-pago
+
+para pós-pago,  habilitando  com  números  que, por serem de chips pré-pagos, não
+
+estavam vinculados a nenhum CPF e não tinham cadastros, de modo que não era possível a
+
+efetivação de cobranças de valores pela Operadora Oi. Esses números eram ativados e
+
+realizavam ligações para números premium, que são números cujas cobranças são feitas por
+
+minuto e as ligações recebidas geram bônus para quem recebe a ligação.
+
+Aduziu que, através desse números ativados, eram feitas ligações usando o DDD de outras
+
+operadoras, mas tendo a Operadora Oi como transporte, sendo a ligação    feita para o país
+
+cuja operadora tivesse fornecido o número premium.
+
+Destacou que esse esquema de fraude era conhecido mundialmente, onde o número premium
+
+é falso, sendo usado para receber a ligação e computar o tempo, sem a prestação do serviço.
+
+O detentor do número premium recebe o bônus gerado, mas como    o número que fez a
+
+ligação não é de um cliente cadastrado, não é possível a Operadora Oi efetuar a cobrança do
+
+serviço utilizado, arcando com tal prejuízo.
+
+110                                                                                                                                                ANAHELENAVALLE
+Estado do Rio de Janeiro Poder Judiciário
+
+Tribunal de Justiça
+
+Comarca da Capital
+
+Cartório da 26ª Vara Criminal
+
+Av. Erasmo Braga, 115 L II sala 610CEP: 20020-903 - Centro - Rio de Janeiro - RJ        e-mail: cap26vcri@tjrj.jus.br
+
+Esclareceu que participou da apuração interna sobre a fraude, asseverando que os acusados
+
+efetivamente conseguiram invadir o sistema da Operadora Oi, no dia dos fatos.
+
+Indagado sobre ter sido apurado alguma participação dos acusados em fraudes anteriores ao
+
+sistema, a testemunha respondeu que o acusado Rodrigo trabalhou em um call center da
+
+empresa, em Goiânia. Em 2017, houve uma operação da Polícia Civil relativa a um grupo que
+
+atuava com o mesmo modus operandi, constando o acusado Rodrigo como um dos
+
+envolvidos.
+
+Asseverou que o nome do acusado Rodrigo estava na lista exibida no hotel, contudo, o
+
+funcionário do hotel não o identificou na relação de hóspede, aduzindo que os outros acusados
+
+não constavam na lista.
+
+Sobre como foi possível descobrir a senha para acessar o sistema, a testemunha explicou que
+
+os invasores fazem uma espécie de ataque de força bruta para tentar adivinhar a senha e,
+
+naquele período, estava havendo esse tipo de ataque, constantemente.
+
+Indagado sobre como seria a cadeia de pagamento das ligações para as linhas premium, o Sr.
+
+Thiago respondeu não saber como funciona especificamente a parte financeira, pois atua na
+
+parte tecnológica, sabendo apenas que um chip da Operadora Oi é colocado no aparelho e
+
+esse terminal fez a ligação, usando o DDD da própria operadora ou de outra operadora, como
+
+foi no caso. A operadora usada faz o pagamento do bônus e cobra o serviço, sendo que como
+
+o cliente que fez a ligação não existe, a Operadora Oi não tem de quem cobrar.
+
+O Sr. Thiago afirmou que trabalhava na empresa Oi há cerca de 4 anos, mas atuava na área
+
+de segurança da informação há mais de 10 anos.
+
+Indagado se haveria prejuízo financeiro toda vez que esse tipo de procedimento de invasão ao
+
+sistema é feito, a testemunha respondeu que sim, aduzindo não ser a pessoa mais adequada
+
+para falar da parte financeira, pois sua atuação no dia a dia é focada em segurança da
+
+informação, mas, geralmente, quando há efetivação da fraude, há perda financeira.
+
+Explicou que a    experiência    mostrou que    as ligações    para os números premium eram
+
+feitas    utilizando    um    dispositivo, de modo que os minutos vão passando e gerando um
+
+grande volume de minutos para a conversão em bônus. Destacou que os fraudadores utilizam
+
+países com os quais o Brasil possui uma janela de comunicação aberta, pois as Operadoras
+
+não podem fazer restrição. Tais países possuem uma especificação de tempo muita alta e,
+
+geralmente, os fraudadores utilizam números premium desses países, acreditando que a
+
+fraude só vai ser detectada quando a cota do país estiver estourada.
+
+Inquirido sobre o valor do prejuízo sofrido pela empresa, a testemunha respondeu não tratar
+
+de valores e tais dados deveriam estar sendo levantados pela área específica da empresa.
+
+Confirmou que seria possível invadir o sistema da Operadora Oi com os dispositivos
+
+apreendidos em poder dos acusados, asseverando não haver dúvidas que houve a invasão ao
+
+sistema e feitas modificações que só poderiam ser feitas internamente pela empresa.
+
+Aduziu que, no episódio em exame, houve a migração de chips pré-pagos para pós-pagos,
+
+não sabendo precisar quais números teriam sido modificados, diante da grande quantidade.
+
+Alegou que, ante a proximidade do prédio em que os acusados se encontravam e a potência
+
+do equipamento da Operadora, questões ligadas ao tempo, como vento e chuva, não
+
+afetariam o sinal e não atrapalhariam o acesso indevido à rede e ao servidor.
+
+Asseverou que, no caso em exame, a fraude teve por finalidade    efetuar as ligações e gerar
+
+os minutos que virariam dinheiro.
+
+Indagado pelo juízo se os chips eram usados um a um ou se haveria um equipamento que
+
+110                                                                                                                                                ANAHELENAVALLE
+Estado do Rio de Janeiro Poder Judiciário
+
+Tribunal de Justiça
+
+Comarca da Capital
+
+Cartório da 26ª Vara Criminal
+
+Av. Erasmo Braga, 115 L II sala 610CEP: 20020-903 - Centro - Rio de Janeiro - RJ        e-mail: cap26vcri@tjrj.jus.br
+
+permitia a utilização de vários ao mesmo tempo, respondeu que poderia ser usada uma
+
+chipeira, equipamento que permite anexar 200, 300 chips, e ela gerar as ligações.
+
+Perguntado se tal equipamento foi apreendido, respondeu que não, declarando não saber se
+
+houve apreensão de aparelho celular, só se recordar do notebook e da antena.
+
+Indagado pelo Juízo se foi verificado pela Oi se os acusados conseguiram fazer os "disparos"
+
+das ligações, respondeu que    no mesmo dia receberam a notificação imediata da Telefônica e
+
+da Embratel relatando que essa fraude estava ocorrendo, eis que elas usam o serviço uma da
+
+outra e se comunicam.
+
+Esclareceu que as ligações poderiam ser feitas de uma chipeira ou de um celular, bastando
+
+um único dispositivo.
+
+Por fim, asseverou que houve a invasão sistêmica, sendo utilizada credencial indevida tanto
+
+para a conexão no Wi-Fi, quanto para o acesso ao servidor, não sabendo, contudo, diante de
+
+sua atuação na área técnica, precisar o valor do prejuízo.
+
+A testemunha PMERJ MÁRCIO BRITO DOS SANTOS narrou, em juízo, que participou da
+
+condução dos acusados, esclarecendo que, quando chegou ao hotel, os acusados já estavam
+
+detidos.
+
+Alegou que, ante o tempo decorrido, não se recordava dos detalhes da ocorrência, acreditando
+
+que tenha havido troca de guarnição durante a ocorrência.
+
+A testemunha PMERJ  JOSÉ    CARLOS    DE  PAULA    JUNIOR, em juízo, narrou que
+
+foram    comunicados,    via Maré    Zero,    que    uma equipe da Operadora Oi havia identificado
+
+um furto de    sinal    da    operadora.
+
+Relatou que essa equipe utilizava um equipamento que identificou que o sinal partia do hotel
+
+em frente à empresa. Ao entrarem no estabelecimento, esse equipamento mostrou que o sinal
+
+ficou mais intenso em um quarto no segundo andar.
+
+Afirmou que os cidadãos abriram a porta do quarto e havia três pessoas no local, sendo
+
+apreendidos um laptop, chips, algumas caixinhas, uma antena, tipo um repetidor, aduzindo
+
+haver alguns equipamentos eletrônicos que não sabia identificar.
+
+Declarou não se    recordar se    o    laptop    estava    ligado, aduzindo que havia uma "boa"
+
+quantidade de chips espalhados pelo quarto, alguns amarrados.
+
+De acordo com a testemunha, os acusados foram bem pacíficos e, ao serem indagados pelo
+
+funcionário da Oi se estariam furtando, assumiram o que estavam fazendo.
+
+Alegou não se recordar se algum material foi jogado pela janela ou arrecadado do lado de fora,
+
+esclarecendo que alguns policiais ficaram no saguão, na entrada do hotel
+
+Confirmou que a identificação do quarto foi feita pela intensidade do sinal e que os objetos
+
+apreendidos no local foram indicados no auto de apreensão constante dos autos.
+
+Indagado se quando chegaram no quarto os acusados já haviam invadido o sistema da Oi,
+
+respondeu não saber precisar, mas acreditava que sim, pois o funcionário da operadora falou
+
+que o sinal vindo dali estava forte.
+
+Por fim, esclareceu que foi um dos primeiros a entrar e que os acusados estavam dentro do
+
+quarto, não se recordando, contudo, se algum deles estava operando o notebook.
+
+As testemunhas arroladas pela Defesa não presenciaram os fatos, apresentando relatos sobre
+
+o bom comportamento dos acusados John Kennedy e José, e o desconhecimento do
+
+110                                                                                                                                                ANAHELENAVALLE
+Estado do Rio de Janeiro Poder Judiciário
+
+Tribunal de Justiça
+
+Comarca da Capital
+
+Cartório da 26ª Vara Criminal
+
+Av. Erasmo Braga, 115 L II sala 610CEP: 20020-903 - Centro - Rio de Janeiro - RJ        e-mail: cap26vcri@tjrj.jus.br
+
+envolvimento deles em outros delitos.
+
+As testemunhas Jaciara, Thiago Pereira e Wanderson aduziram que o acusado John Kennedy
+
+trabalhava com eletrônica, consertando rádio e televisão, e as testemunhas Thais e Lorran
+
+declaram que o acusado José trabalhava em feira.
+
+Por ocasião do INTERROGATÓRIO, o acusado RODRIGO    narrou que comprava telefones
+
+no camelódromo em Goiás para revender e, ao entrar no loja do acusado John Kennedy, ele e
+
+o acusado José conversavam sobre estarem passando por    dificuldades econômicas.
+
+Na ocasião, propôs que eles fossem com ele para o Rio de Janeiro, onde ganhariam um
+
+dinheiro, mas só esclareceria o que seria feito quando chegassem lá, tendo ambos
+
+concordado.
+
+Ao chegarem no Rio de Janeiro, foram para um hotel, onde ele explicou que iria fazer uma
+
+conexão com a internet da operadora    e    faria    a    conversão    de chips pré-pago para    pós
+
+pago,    e eles    venderiam    esses    chips no camelódromo, ganhando uma comissão de 10%
+
+do que conseguissem vender.
+
+Afirmou que tinha cerca de 200 chips, mas foram surpreendidos pelos policiais antes que
+
+tivessem começado a fazer a conversão, pois a conexão no local não estava muito boa e
+
+ainda não tinha conseguido entrar no sistema.
+
+Esclareceu que os acusados John Kennedy e José só ficaram sabendo o que seria feito
+
+quando já estavam no Rio de Janeiro, sendo sido a primeira vez que eles trabalhavam com
+
+ele.
+
+Por fim, asseverou que não chegou fazer a fraude, pois o sinal estava muito longe e não foi
+
+possível fazer a conexão.
+
+Em seu INTERROGATÓRIO, o acusado JOSÉ declarou que estava com uma filha "nova" e
+
+sua loja estava com pouco movimento, de modo que estava precisando de dinheiro, e aceitou
+
+a proposta do acusado Rodrigo de viajar para fazer um trabalho, mas não sabia o que seria
+
+feito.
+
+Ao chegarem ao hotel no Rio de Janeiro, o acusado Rodrigo    esclareceu    que    converteria
+
+chips    pré-pago    para    pós-pago,    e eles    revenderiam    esses    chips, mas enquanto ele
+
+tentava fazer a conexão, foram surpreendidos pelos policiais.
+
+Indagado sobre como conheceu o acusado Rodrigo, respondeu que sua loja era próxima ao
+
+Camelódromo, em Góias, e o acusado Rodrigo comprava muitos aparelhos com ele, tendo o
+
+conhecido há cerca de dois meses.
+
+Afirmou que o acusado Rodrigo falou que ele ganharia uma comissão de 10%, o que
+
+corresponderia a um valor de dois a quatro mil reais.
+
+Narrou que, no dia dos fatos, o acusado Rodrigo falou que a conexão  não  estava
+
+funcionando e teriam que "dar um tempo", e depois de meia hora, a Polícia entrou.
+
+Esclareceu que, quando o acusado Rodrigo falou sobre o que seria feito, achou que seria uma
+
+coisa errada, e por isso quando a Polícia chegou, tentou jogar os chips fora, arremessando a
+
+sacola pela janela
+
+Por fim, afirmou que foi a primeira vez que fez esse trabalho com o acusado Rodrigo.
+
+Ao ser INTERROGADO, o acusado JOHN KENNEDY narrou que sempre via o acusado
+
+Rodrigo no Camelódromo, em Goiânia, passando a ter um contato maior com ele cerca de dois
+
+meses antes da prisão.
+
+110                                                                                                                                                ANAHELENAVALLE
+Estado do Rio de Janeiro Poder Judiciário
+
+Tribunal de Justiça
+
+Comarca da Capital
+
+Cartório da 26ª Vara Criminal
+
+Av. Erasmo Braga, 115 L II sala 610CEP: 20020-903 - Centro - Rio de Janeiro - RJ        e-mail: cap26vcri@tjrj.jus.br
+
+Afirmou que conhecia o acusado José há um pouco mais de tempo, esclarecendo que todos
+
+se conheciam do Camelódromo.
+
+De acordo com o acusado John Kenedy, o acusado Rodrigo os chamou para ir com ele até o
+
+Rio de Janeiro, onde ganhariam um bom dinheiro, mas sem dizer o que iriam fazer.
+
+Esclareceu que Rodrigo não disse o valor certo que ganhariam, mas seria de dois a quatro mil
+
+reais, e eles aceitaram.
+
+Ao chegaram no Rio de Janeiro, Rodrigo tentou fazer uma conexão com a rede Wi-fi, mas não
+
+conseguiu e os policiais entraram no quarto, pegaram o computador do acusado Rodrigo e os
+
+telefones celulares deles.
+
+Alegou que o acusado Rodrigo tentou fazer a conexão com a Operadora Oi e que ele explicou
+
+que iria passar os chips pré-pago para pós-pago e eles venderiam esses chips.
+
+Por fim, asseverou que nunca tinha feito nenhum trabalho com o acusado Rodrigo e estava
+
+passando por uma situação difícil, alegando que ele e o acusado José entraram de "gaiato" na
+
+história.
+
+Narrados os fatos, passo ao exame do mérito.
+
+DO MÉRITO
+
+Necessário se faz a análise individual das condutas.
+
+Art. 288, caput, do Código Penal:
+
+Ao final da instrução criminal, verifico que assiste razão ao Ilustre Representante do Ministério
+
+Público, uma vez que não há nos autos prova contundente para embasar a condenação dos
+
+acusados pelo delito de associação criminosa imputado.
+
+Para que haja a configuração do delito acima, torna-se necessário que a associação seja
+
+estável, permanente e que vise a prática de crimes.
+
+No presente processo, muito embora haja indícios de que os acusados tenham se associado
+
+para prática de delitos, não há comprovação de que haja estabilidade e permanência do ânimo
+
+associativo entre eles, para esta prática.
+
+Os acusados John Kennedy e José declararam ter sido a primeira vez que participaram de um
+
+evento junto com o acusado Rodrigo e que somente quando estavam no Rio de Janeiro
+
+tiveram conhecimento de que o trabalho envolveria a invasão ao sistema da Operadora Oi.
+
+Tais relatos foram ratificados pelo acusado Rodrigo, por ocasião do interrogatório.
+
+O funcionário Thiago esclareceu que o nome do acusado Rodrigo constava do procedimento
+
+existente no Estado de Goiás acerca    desse tipo de fraude. Contudo, não havia menção aos
+
+nomes dos demais acusados.
+
+Para prolação de um decreto penal condenatório é indispensável prova robusta que dê
+
+certeza da existência do delito e sua autoria. A íntima convicção do julgador deve sempre se
+
+apoiar em dados objetivos indiscutíveis. Caso contrário, transforma o princípio do livre
+
+convencimento em arbítrio.
+
+Assim, em relação ao delito de formação de quadrilha, impõe-se a absolvição dos acusados,
+
+em observância ao princípio do in dubio pro reo.
+
+110                                                                                                                                                ANAHELENAVALLE
+Estado do Rio de Janeiro Poder Judiciário
+
+Tribunal de Justiça
+
+Comarca da Capital
+
+Cartório da 26ª Vara Criminal
+
+Av. Erasmo Braga, 115 L II sala 610CEP: 20020-903 - Centro - Rio de Janeiro - RJ        e-mail: cap26vcri@tjrj.jus.br
+
+Art. 154-A,    caput,    e art. 154-A, §3º, ambos c/c o §2º    do mesmo artigo, n/f    do art. 70,
+
+todos do Código Penal
+
+Diante da absolvição dos acusados quanto à prática do delito previsto no art. 288 do CP,
+
+verifica-se que os delitos remanescentes possuem penas mínimas cujas somas não
+
+ultrapassam o prazo de 4 anos.
+
+Conforme ressaltado pelo Ministério Público, os delitos narrados na    denúncia    ocorreram
+
+antes    das    alterações    trazidas pela Lei nº 14.155/21, que tornou mais grave os crimes de
+
+violação de dispositivo informático, devendo, portanto, ser considerada a antiga redação, em
+
+razão da irretroatividade da lei penal.
+
+Em suas alegações finais, a Defesa pugnou, preliminarmente, pela remessa dos autos ao
+
+Ministério Público para manifestação quanto à possibilidade ulterior de oferecimento  de
+
+Acordo de Não Persecução Penal.
+
+Assim, previamente ao exame do mérito, considerando-se as FAC's dos acusados, necessário
+
+se faz a manifestação ministerial quanto aos institutos despenalizadores cabíveis.
+
+Pelo exposto e por tudo que dos autos consta, JULGO IMPROCEDENTE a pretensão punitiva,
+
+EM RELAÇÃO AO DELITO PREVISTO NO ART. 288 DO CÓDIGO PENAL,    para ABSOLVER
+
+RODRIGO SANTIAGO DE SÁ OLIVEIRA, JOSÉ GONCALVES VILELA NETO e JOHN
+
+KENNEDY BENTO DE GODOY, com fulcro no art. 386, inciso VII, do CPP.
+
+Em relação aso delitos remanescentes, previstos no art. 154-A,    caput,    e art. 154-A, §3º,
+
+ambos c/c o §2º    do mesmo artigo, n/f  do art. 70, do CP, considerando-se as FACs dos
+
+acusados, manifeste-se o Ministério Público quanto aos institutos despenalizadores.
+
+Junte-se as FACs atualizadas e esclarecidas, inclusive, referente ao Estado de Goiás. Após,
+
+intime-se o MP para se manifestar.
+
+Após o trânsito em julgado, procedam-se às anotações e comunicações de praxe em relação
+
+ao delito previsto no art. 288 do CPP.
+
+Publique-se, Registre-se e Intimem-se. A empresa lesada figura como Assistente de Acusação.
+
+Rio de Janeiro, 10/04/2025.
+
+Ana Helena Mota Lima Valle - Juiz Titular
+
+___________________________________________________________
+
+Autos recebidos do MM. Dr. Juiz
+
+Ana Helena Mota Lima Valle
+
+Em ____/____/_____
+
+Código de Autenticação: 4AXV.PWUF.Q367.BZ74
+Este código pode ser verificado em: www.tjrj.jus.br – Serviços – Validação de documentos
+
+Øþ
+
+110                                                                                                                                                ANAHELENAVALLE
