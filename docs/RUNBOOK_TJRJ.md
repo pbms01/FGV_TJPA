@@ -124,3 +124,12 @@ Estado: 45 tratados, todos do grupo 1 (30 `ok`, 9 `sigilo`, 2 `so_sentenca`, 1 `
 - 0069207-15.2022.8.19.0001: as duas decisões gravadas são condenatórias e iguais salvo a capitulação; a de 02/04/2025 acrescenta o §2º-A e é a definitiva. A denúncia 2ffdbf47 segue sem texto.
 - Originais pelo `pdpj_get_documento_url`: o link baixa pelo `curl` do workspace, mas para as peças do TJRJ (DCP e eJUD, 2019 a 2026) o servidor respondeu 503 ("O sistema de origem está instável") em todas as tentativas, ao longo de cerca de 15 minutos: 0000096-45.2019 (a87bc7e8), 0004316-29.2021 (a8d472a6) e 0023749-06.2021 (6cf8c0d5). Ficam pendentes, com 0009844-84.2019 (6560b840, ebcc8efa, 09c34132) e a denúncia de 0069207-15.2022 (2ffdbf47), para nova tentativa em outro dia.
 - O texto do original entra no repositório pelo `scripts/original_para_lote.py`, que monta um lote no formato do Codex (camada de texto pelo `pdftotext`, OCR pelo `tesseract` quando a camada falta, HTML sem marcação) para o `grava ARQUIVO`; o PDF fica em `/tmp`, fora do repositório, e o manifesto registra a procedência ("parser pdftotext do original", "OCR tesseract do original" ou "parser HTML do original").
+
+## Processos 46 a 50 (23/11/2026)
+
+Estado: 50 tratados, todos do grupo 1 (33 `ok`, 11 `sigilo`, 3 `so_sentenca`, 1 `sem_denuncia`, 3 `sem_texto`, ver `resumo`). Próximo da fila: ordem 51 (`prox`).
+
+- Roteiro novo, mais barato em chamadas e em contexto: visão geral; movimento de julgamento (`tipo_filter="cedência"`, ou "Conclus" no DCP); `pdpj_perguntar_processo` com "Qual documento é a denúncia oferecida pelo Ministério Público? Informe o ID do documento, a data de juntada e a capitulação pedida."; leitura em lote. São 4 chamadas por processo, sem listas de documentos na conversa. No DCP, uma só pergunta pede a denúncia e a sentença de mérito ("Quais documentos são a denúncia ... e a sentença de mérito de primeiro grau? Informe o ID de cada um ..."), e a resposta aponta a peça mesmo quando não a lê (seção "PECAS NAO LIDAS").
+- Repetição no lote: com tamanhos desconhecidos, 4 a 5 repetições bastam para o resultado ir a arquivo; as 15 que o `sel` propõe geram até 700 mil caracteres sem necessidade.
+- Terceiro número de órgão 0601 em sigilo (0809777-40.2025); a regra se confirma.
+- 0000185-66.2022.8.19.0065 (Vassouras): emendatio libelli, de 171, §2º-A, para 171, caput; a denúncia ea014f4c não tem texto no Codex e o original deu 503.
