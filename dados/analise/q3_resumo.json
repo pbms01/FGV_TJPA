@@ -589,38 +589,36 @@
     48.1
    ],
    "negativa": [
-    6,
-    22.2
+    7,
+    25.9
    ],
    "neutra": [
-    4,
-    14.8
+    5,
+    18.5
    ],
    "não examinada": [
-    3,
-    11.1
-   ],
-   "não conferida": [
-    1,
-    3.7
+    2,
+    7.4
    ]
   },
   "danos_consequencias": {
    "econômico": 3,
    "psicológico": 2,
-   "digital": 3,
-   "reputacional": 1,
+   "digital": 4,
+   "reputacional": 2,
    "social": 2,
    "físico": 0,
-   "n": 6
+   "n": 7
   },
   "consequencias_alem_economico": [
+   "INV 8",
    "INV 22",
    "INV 4",
    "INV 30",
    "INV 39"
   ],
   "dano_extra_reconhecido": [
+   "INV 8",
    "INV 22",
    "INV 4",
    "INV 30",
@@ -628,6 +626,7 @@
    "INV 44"
   ],
   "conseq_negativa_e_reparacao": {
+   "INV 8": "nega",
    "INV 22": "silente",
    "INV 45": "silente",
    "INV 4": "nega",
