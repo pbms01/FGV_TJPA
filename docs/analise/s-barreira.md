@@ -42,7 +42,7 @@ Regime legal pela data do fato contra 28/05/2021, publicação e vigência da Le
 
 ## Limites
 
-A via é o que a denúncia narra, não o que o laudo prova, e as 19 vias não narradas fazem dos números pisos. O universo do acesso interno é pequeno (7). O segundo leitor é outra instância do mesmo modelo: a conferência mede a reprodutibilidade a partir do texto e do livro de códigos, não a ausência de viés comum; a conferência humana das 23 decisões de adjudicação fica pendente.
+A via é o que a denúncia narra, não o que o laudo prova, e as 19 vias não narradas fazem dos números pisos. O universo do acesso interno é pequeno (7). O segundo leitor é outra instância do mesmo modelo: a conferência mede a reprodutibilidade a partir do texto e do livro de códigos, não a ausência de viés comum; as 23 decisões de adjudicação foram conferidas e confirmadas pelo pesquisador em 23/11/2026.
 
 ## Fontes conferidas nesta sessão
 

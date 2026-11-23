@@ -106,7 +106,7 @@ VIA_MEIO = {c: SEM for c in ("FE 105", "FE 18", "FE 29", "CL 24", "FE 50", "FE 1
 VIA_MEIO.update({c: INDET for c in ("FE 10", "FE 102", "FE 17")})
 
 # Elementar narrada como fato que a regex não pega (segundo leitor).
-ELEM_DEN_MANUAL = {"INV 4", "INV 36"}
+ELEM_DEN_MANUAL = {"INV 4"}
 
 # Posição da sentença sobre a elementar, valoração na pena e prova da autoria, pela leitura
 # integral do segundo leitor (dados/conferencia/seguranca/segundo_leitor_S*.csv), adjudicada.
