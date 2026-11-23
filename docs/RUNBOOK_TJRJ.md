@@ -127,7 +127,7 @@ Estado: 45 tratados, todos do grupo 1 (30 `ok`, 9 `sigilo`, 2 `so_sentenca`, 1 `
 
 ## Processos 46 a 50 (23/11/2026)
 
-Estado: 50 tratados, todos do grupo 1 (33 `ok`, 11 `sigilo`, 3 `so_sentenca`, 1 `sem_denuncia`, 3 `sem_texto`, ver `resumo`). Próximo da fila: ordem 51 (`prox`).
+Estado: 50 tratados, todos do grupo 1 (33 `ok`, 11 `sigilo`, 2 `so_sentenca`, 1 `sem_denuncia`, 3 `sem_texto`), 215 chamadas registradas. Próximo da fila: ordem 51 (`prox`).
 
 - Roteiro novo, mais barato em chamadas e em contexto: visão geral; movimento de julgamento (`tipo_filter="cedência"`, ou "Conclus" no DCP); `pdpj_perguntar_processo` com "Qual documento é a denúncia oferecida pelo Ministério Público? Informe o ID do documento, a data de juntada e a capitulação pedida."; leitura em lote. São 4 chamadas por processo, sem listas de documentos na conversa. No DCP, uma só pergunta pede a denúncia e a sentença de mérito ("Quais documentos são a denúncia ... e a sentença de mérito de primeiro grau? Informe o ID de cada um ..."), e a resposta aponta a peça mesmo quando não a lê (seção "PECAS NAO LIDAS").
 - Repetição no lote: com tamanhos desconhecidos, 4 a 5 repetições bastam para o resultado ir a arquivo; as 15 que o `sel` propõe geram até 700 mil caracteres sem necessidade.
