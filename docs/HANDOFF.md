@@ -1,6 +1,23 @@
-# Handoff: fase 4 TJSC com lista de alvos e fila; fase 3 TJRJ em coleta (50 de 281); fase 1 TJSP coletada; análise criminológica com as questões 1 a 7 feitas, as três primeiras conferidas por segundo leitor; exame em aula com os pares 1, 2, 9 e 10 (estes dois do TJPA) prontos; fase 2 TJPA coletada pelo Codex, com a extração como ponto de partida (22/11/2026)
+# Handoff: fase 4 TJSC com lista de alvos e fila; fase 3 TJRJ em coleta (50 de 281, retomada pelo bloco abaixo); fase 1 TJSP coletada; análise criminológica com as questões 1 a 7 feitas, as três primeiras conferidas por segundo leitor; exame em aula com os pares 1, 2, 9 e 10 (estes dois do TJPA) prontos; fase 2 TJPA coletada pelo Codex, com a extração como ponto de partida (22/11/2026)
 
-Codex: a suspensão de 24 horas registrada às 17h30 UTC de 22/11/2026 foi levantada pelo usuário às 22h30 UTC do mesmo dia. A coleta do TJRJ seguiu até o processo 45 com uma chamada por vez, cerca de 15 s entre chamadas e 40 s entre processos, sem novo aviso. Se o aviso de limite voltar, parar e tentar de novo às 3h30 de Brasília.
+## Retomada da coleta do TJRJ (atualizado em 23/11/2026)
+
+Estado: 50 de 281 tratados, todos do grupo 1 (33 `ok`, 11 `sigilo`, 2 `so_sentenca`, 1 `sem_denuncia`, 3 `sem_texto`), 215 chamadas ao Codex. Faltam 136 do grupo 1 e os 95 do grupo 2. Primeira chamada: `TRIB=tjrj python3 scripts/pipe_tjpa.py prox` (ordem 51).
+
+Roteiro por processo, em 4 chamadas, uma por vez, com cerca de 15 s entre chamadas e 40 s entre processos:
+
+1. `pdpj_visao_geral_processo`, sozinha (sigilo encerra o processo com `status ... sigilo`).
+2. `pdpj_list_movimentos(tipo_filter="cedência", limit=3)` para a sentença (no DCP, `tipo_filter="Conclus"`, às vezes com `offset=10`).
+3. `pdpj_perguntar_processo` com "Qual documento é a denúncia oferecida pelo Ministério Público? Informe o ID do documento, a data de juntada e a capitulação pedida." (no DCP, uma só pergunta pede a denúncia e a sentença de mérito).
+4. `sel` e `pdpj_read_documentos_batch` com 4 a 5 repetições, depois `grava ultimo N "nota"`. Processo antigo com "[sem texto indexado]": testar só a denúncia com `max_chars_por_doc=600` e, vazia, marcar `sem_texto`.
+
+Commit e push a cada 5 a 10 processos, com `git fetch --depth=50 origin main && git rebase origin/main` antes. O Codex avisou duas vezes, em 22/11, que se destina a consulta pontual e não a extração em lote, sob pena de suspensão da conta; com o ritmo acima, 20 processos correram sem aviso. Se o aviso voltar, parar e tentar de novo às 3h30 de Brasília, como decidiu o usuário. A conversa comporta cerca de 25 a 30 processos antes de o contexto pesar; fechar o lote, atualizar este bloco e o `docs/RUNBOOK_TJRJ.md` e espelhar o runbook no doc `claude/plano-captura-base-tjrj.md` do Project.
+
+Segunda passada pendente no TJRJ, toda dependente do original pelo `pdpj_get_documento_url` e do `scripts/original_para_lote.py` (os originais de DCP e eJUD do TJRJ deram 503 o dia inteiro em 23/11): os `sem_texto` 0009844-84.2019.8.19.0007 (6560b840, ebcc8efa, 09c34132), 0000096-45.2019.8.19.0066 (a87bc7e8) e 0004316-29.2021.8.19.0030 (a8d472a6); as denúncias de 0069207-15.2022.8.19.0001 (2ffdbf47) e 0000185-66.2022.8.19.0065 (ea014f4c); a sentença de 0023749-06.2021.8.19.0002 (6cf8c0d5). Testar um link antes de gastar chamadas nos demais. No TJPA restam sem denúncia 0814581-95.2022 e 0811946-61.2022, que o Codex não acha.
+
+Skill `coleta-denuncias-tribunal`: há uma proposta de atualização com as lições do TJRJ e da segunda passada mostrada ao usuário em 23/11/2026 (card único que junta as duas propostas da conversa); conferir se foi salva antes de usá-la como referência.
+
+Depois da coleta do TJRJ, extração pelas regras da fase 2 (`extrai_denuncias.py` e `sentencas_tjpa.py` parametrizados para `tjrj`, com regex CNJ `8\.19`).
 
 Repositório pbms01/FGV_TJPA (o GitHub avisa que o endereço novo é https://github.com/pbms01/FGV_TJPA.git; o push pelo antigo ainda funciona). O branch `coleta-datajud` foi mesclado no main duas vezes em 21/11/2026: depois da questão 3, junto com a base de 130 casos que estava só no main, e de novo à noite, com a coleta da fase 2 no TJPA. O trabalho segue no main. Este arquivo substitui o estado da conversa e deve ser lido antes de qualquer passo novo.
 
