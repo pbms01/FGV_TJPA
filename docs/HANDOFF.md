@@ -1,6 +1,8 @@
 # Handoff: fase 4 TJSC com lista de alvos e fila; fase 3 TJRJ em coleta (80 de 281, retomada pelo bloco abaixo); fase 1 TJSP coletada; análise criminológica com as questões 1 a 7 feitas, as três primeiras conferidas por segundo leitor; exame em aula com os pares 1, 2, 9 e 10 (estes dois do TJPA) prontos; fase 2 TJPA coletada pelo Codex, com a extração como ponto de partida (22/11/2026)
 
-## Retomada da coleta do TJRJ (atualizado em 23/11/2026)
+## Retomada da coleta do TJRJ (atualizado em 24/11/2026)
+
+Push: a sessão nova precisa do repositório anexado com permissão de escrita. Na sessão de 23 e 24/11, o anexo com push foi negado duas vezes pelo controle de permissões e só foi aceito depois do pedido expresso do usuário ("atualize o repo remoto"); sem ele, o clone é só de leitura e o lote sai como `git bundle`.
 
 Estado: 80 de 281 tratados, todos do grupo 1 (51 `ok`, 18 `sigilo`, 6 `so_sentenca`, 1 `sem_denuncia`, 4 `sem_texto`), 311 chamadas ao Codex. Faltam 106 do grupo 1 e os 95 do grupo 2. Primeira chamada: `TRIB=tjrj python3 scripts/pipe_tjpa.py prox` (ordem 81, 0804606-17.2026.8.19.0036). Em 24/11/2026 foram 8 processos (73 a 80) e 6 perguntas da cota diária; a conversa fechou o lote pelo contexto, não por limite do Codex.
 
