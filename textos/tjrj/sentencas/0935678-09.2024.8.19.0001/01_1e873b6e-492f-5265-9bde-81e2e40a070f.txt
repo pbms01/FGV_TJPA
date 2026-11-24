@@ -1,0 +1,154 @@
+[Texto nativo do PJe]
+
+Poder Judiciário do Estado do Rio de Janeiro
+
+Comarca da Capital
+
+16ª Vara Criminal da Comarca da Capital
+
+Avenida Erasmo Braga, 115, 508 - Lâmina II, Centro, RIO DE JANEIRO - RJ - CEP: 20020-000
+
+SENTENÇA
+
+Processo: 0935678-09.2024.8.19.0001
+
+Classe: AÇÃO PENAL - PROCEDIMENTO ORDINÁRIO (283)
+
+AUTOR: MINISTERIO PUBLICO DO ESTADO DO RIO DE JANEIRO
+REPRESENTANTE: MINISTERIO PUBLICO DO ESTADO DO RIO DE JANEIRO
+ASSIST. DE ACUSAÇÃO: ANTONIO HENRIQUE MONTEIRO DA SILVA
+DEFENSORIA PÚBLICA: DP JUNTO À 16.ª VARA CRIMINAL DA CAPITAL ( 47 )
+
+RÉU: MARCUS ANDRE BORGES DOS SANTOS
+
+Processo nº 0935678-09.2024.8.19.0001
+
+Réu: MARCUS ANDRE BORGES DOS SANTOS
+
+I.
+RELATÓRIO
+
+Trata-se de ação penal oferecida pelo Ministério Público, em desfavor de MARCUS ANDRE BORGES DOS SANTOS, já qualificado, em que se imputa ao réu o crime de estelionato por fraude eletrônica, tipificado no art. 171, §2º-A do Código Penal.
+
+Através de registro de ocorrência (ID 149155143), relata a vítima que, ao realizar pesquisas na internet, deparou-se com o suposto site de leilões "joaoemilio.org", cuja apresentação visual e nomenclatura levavam a crer tratar-se do legítimo e já conhecido leiloeiro João Emílio. Acreditando estar em ambiente seguro e oficial, procedeu ao cadastro na referida plataforma e, em 05 de janeiro de 2024, efetuou a suposta arrematação de um lote, no valor de R$ 42.515,00 (quarenta e dois mil, quinhentos e quinze reais).
+
+Acrescenta, ainda, que após a negociação, recebeu por e-mail, por meio do endereço eletrônico "financeiro@joaoemilio.org", bem como por contato telefônico, as instruções para pagamento. O depósito foi realizado via transferência eletrônica (TED) em favor de conta bancária cujo titular constava como "João Emílio Leiloeiro", sendo apurado, posteriormente, que tratava-se de conta de titularidade do réu.
+
+No dia seguinte, a vítima dirigiu-se pessoalmente ao pátio oficial dos leilões de João Emílio, oportunidade em que foi informado por representantes da empresa de que o site em questão não lhe pertencia e que se tratava de golpe praticado por terceiros.
+
+Portaria de instauração do Inquérito Policial ao ID 149155147.
+
+A denúncia oferecida contra o réu, ao ID 149155142, foi recebida por este Juízo ao ID 149299511.
+
+Citado, o réu apresentou resposta à acusação (ID 157189526).
+
+Ratificado o recebimento da denúncia (ID 169952850).
+
+Ata da Audiência de Instrução e Julgamento ao ID 177860767, oportunidade em que foi ouvida a vítima Antônio Henrique Monteiro da Silva.
+
+A vítima requereu habilitação como assistente de acusação (ID 179748258), o que foi deferido pelo juízo ao ID 184806098.
+
+Em alegações finais apresentadas ao ID 179619392, o Ministério Público aduzindo a presença de prova de autoria e materialidade delitiva, requer a condenação do réu pela prática do crime previsto no art. 171, §2º-A do Código Penal. Postula, ainda, a fixação de valor mínimo de reparação dos danos materiais causados à vítima, em quantia não inferior ao montante do prejuízo suportado, devidamente atualizado.
+
+O assistente de acusação, por sua vez, em alegações finais (ID 185725661), requer o acolhimento da pretensão punitiva estatal e igualmente postula a fixação de valor mínimo de reparação em favor da vítima, nos mesmos termos pleiteados pelo órgão ministerial.
+
+A defesa, em alegações finais apresentadas sob o ID 184165175, pleiteia, em síntese, a absolvição do acusado, sob o argumento de atipicidade da conduta e ausência de provas. Subsidiariamente, requer a aplicação da pena no mínimo legal, a substituição da pena privativa de liberdade por restritivas de direitos, a concessão do sursis e a fixação do regime inicial aberto.
+
+É o relatório. Decido.
+
+II.
+FUNDAMENTAÇÃO
+
+Cuida-se de ação penal em que se busca apurar a responsabilidade criminal do réu Marcus Andre Borges dos Santos, anteriormente qualificado, pela prática do delito tipificado no artigo 171, §2º-A do Código Penal.
+
+Quanto o crime de estelionato eletrônico
+
+A materialidade do crime encontra-se sobejamente comprovada pelas provas coligidas aos autos, notadamente pelas declarações prestadas na fase inquisitorial, pela prova oral produzida em audiência de instrução, pelo comprovante de transferência bancária (ID 149155145), pelos dados cadastrais da conta corrente de titularidade do réu, com identificação fotográfica e número de registro geral (ID 149159854), pelas mensagens trocadas via aplicativo WhatsApp (ID 149155145), bem como pelo relatório final do inquérito policial.
+
+A autoria também é certa e recai sobre o réu.
+
+Com efeito, a dinâmica dos fatos evidencia a ocorrência de fraude eletrônica sofisticada, perpetrada com o deliberado intuito de induzir a vítima em erro e obter, de forma ardilosa, vantagem patrimonial indevida.
+
+Em juízo, a vítima, Antônio Henrique Monteiro da Silva, relatou ter acessado um site na internet que se apresentava como pertencente ao leiloeiro João Emílio, profissional vinculado a leiloeira regularmente constituída. A página eletrônica, à primeira vista, ostentava aparência legítima, sem qualquer elemento visível que sugerisse tratar-se de ambiente fraudulento. Após a navegação inicial, a vítima recebeu um número de WhatsApp para contato, por meio do qual passou a manter tratativas com os supostos representantes do leilão.
+
+Informado de que sua proposta de arrematação fora aceita, dirigiu-se a uma agência bancária, onde dialogou pessoalmente com o gerente da instituição financeira, sem que qualquer irregularidade tenha sido percebida. Em seguida, efetuou a transferência do valor acordado - R$42.515,00 - para conta indicada pelos interlocutores. No entanto, ao dirigir-se ao local designado para retirada do veículo, foi surpreendido com a informação de que o preposto com quem mantivera contato não possuía qualquer vínculo com a empresa leiloeira, sendo, ademais, falsa a página virtual utilizada.
+
+A conduta narrada insere-se no contexto do denominado "golpe do falso leilão", modalidade delitiva em que criminosos desenvolvem sites que reproduzem, com notável fidelidade, a identidade visual de leiloeiras legítimas, inclusive com simulações de funcionalidades reais, com o fim de atrair vítimas mediante promessas de bens a preços abaixo do valor de mercado. Uma vez convencidas da idoneidade do ambiente virtual, as vítimas fornecem dados pessoais e realizam transferências bancárias para contas sob controle dos fraudadores.
+
+Nesse contexto, a prova documental acostada aos autos revela que a nota fiscal da suposta aquisição fora emitida em nome de João Emílio de Oliveira Filho, o que conferia aparente legitimidade à negociação. Todavia, restou apurado que a conta bancária destinada ao recebimento do valor transferido tem como titular exclusivo o réu Marcus André Borges dos Santos, conforme demonstrado por documentação expedida pela própria instituição financeira (ID 149155145), inclusive com identificação fotográfica, circunstância que evidencia a deliberada ocultação da identidade do verdadeiro beneficiário, com o objetivo de conferir aparência de legalidade à transação fraudulenta.
+
+A defesa técnica alega, em alegações finais, a ausência de provas concretas que demonstrem que o acusado tenha sido o responsável por induzir a vítima a erro, sustentando que a conduta teria sido praticada por terceiros não identificados.
+
+Quando interrogado a respeito dos fatos, o réu permaneceu em silêncio.
+
+Nada obstante, ainda que não se tenha comprovado que o acusado tenha criado ou operado diretamente o site fraudulento, restou incontroverso que foi ele o beneficiário da quantia indevidamente recebida.
+
+Ora, a titularidade da conta bancária utilizada e a ausência de qualquer justificativa lícita para o recebimento dos valores reforçam, de maneira significativa, os indícios de sua participação ativa no esquema criminoso.
+
+Soma-se a esse contexto o fato de que, nos delitos patrimoniais praticados por meio eletrônico, a apuração da autoria direta revela-se, por sua própria natureza, notoriamente complexa, em razão do uso de instrumentos digitais voltados à dissimulação e ao anonimato. Nessa conjuntura, a identificação do beneficiário econômico da fraude constitui relevante elemento indiciário da autoria delitiva.
+
+A propósito, frise-se que no plano doutrinário, tem sido reconhecida a validade da prova indiciária, desde que lastreada em elementos objetivos, consistentes, convergentes e harmônicos entre si, aptos a formar um quadro probatório coeso e suficientemente robusto para amparar um juízo de certeza.
+
+Ora, em se tratando de delitos de natureza cibernética, cuja prática se dá, não raramente, por meio de sofisticados mecanismos de engenharia social, ocultação de identidade digital e múltiplas camadas de dissimulação e intermediação, a atuação criminosa é comumente fracionada entre diversos agentes, cujas condutas individualizadas dificilmente deixam rastros ou provas diretas do vínculo entre a ação e o resultado ilícito.
+
+Sendo assim, o exame atento da cadeia de indícios - como dados bancários, correspondências eletrônicas, transferências financeiras e demais vestígios digitais - torna-se essencial à reconstrução da dinâmica delitiva e à identificação dos autores, viabilizando o exercício do poder sancionador do Estado sem violação às garantias do devido processo legal. Em tais hipóteses, a prova indiciária, longe de representar uma forma inferior de convencimento, assume papel central na persecução penal eficaz, desde que analisada com o devido rigor metodológico e probatório.
+
+Em vista disso, a obtenção de vantagem ilícita mediante induzimento da vítima em erro, com uso de meio fraudulento eletrônico, restou amplamente demonstrada. Ora, a transferência do valor à conta de titularidade do réu, desprovida de qualquer contraprestação ou justificativa plausível, revela a presença do dolo específico e a adesão consciente ao esquema criminoso.
+
+Em outras palavras, mostra-se evidente que o acusado aderiu voluntariamente ao plano delituoso ao disponibilizar sua conta bancária para o recebimento de valores provenientes de fraude eletrônica, contribuindo, de forma efetiva, para o êxito da empreitada criminosa.
+
+Portanto, entendo que o acervo probatório constante dos autos superou, com segurança, o standard exigido de prova "além de qualquer dúvida razoável" - proof beyond a reasonable doubt - legitimando, assim, a formação do juízo condenatório.
+
+Por derradeiro, a conduta perpetrada é, sem sombra de dúvidas, típica e ilícita e o réu é culpável, tendo em vista a ausência de provas da incidência de qualquer circunstância excludente da tipicidade, ilicitude ou dirimente de sua culpabilidade.
+
+Nesta esteira, reputo estar evidenciado que Marcus André Borges dos Santos, de maneira livre, consciente e voluntária, percorreu todo o iter criminis, consumado a conduta tipificada no artigo 171, §2º-A do Código Penal, ao receber em conta de sua titularidade valores oriundos de fraude perpetrada contra a vítima, evidenciando o dolo na obtenção de vantagem indevida mediante engodo digital, com efetivo prejuízo patrimonial alheio.
+
+Quanto aos danos materiais experimentados
+
+Nos termos do art. 387, inciso IV, do Código de Processo Penal o juízo criminal, ao proferir sentença condenatória, deve fixar o valor mínimo para reparação dos danos causados pela infração penal, considerando os prejuízos sofridos pela vítima.
+
+No presente caso, restou comprovado que a vítima sofreu prejuízo material decorrente da prática do crime de estelionato eletrônico, consistente na transferência do valor de R$ 42.515,00 (quarenta e dois mil, quinhentos e quinze reais) à conta bancária de titularidade do acusado, sem qualquer retorno ou entrega do bem anunciado. A quantia, portanto, corresponde ao montante efetivamente perdido, conforme demonstrado.
+
+A obrigação de reparação do dano, além de decorrer diretamente do art. 91, inciso I, do Código Penal, encontra respaldo também nos arts. 29, §1º, e 39, inciso VII, da Lei de Execução Penal, que tratam do dever do condenado de indenizar o prejuízo causado pela infração, inclusive como condição a ser observada na execução penal.
+
+Diante do exposto, fixo o valor mínimo de reparação dos danos materiais em favor da vítima no montante de R$ 42.515,00 (quarenta e dois mil, quinhentos e quinze reais), acrescido de correção monetária, nos termos do índice oficial aplicável, e de juros legais, ambos incidentes a partir da data do evento danoso, nos termos do artigo 387, inciso IV, do Código de Processo Penal.
+
+Ressalta-se que a fixação ora realizada não obsta o exercício, pela vítima, do direito de buscar, na via própria, a complementação da indenização pelos danos materiais ou eventuais danos morais sofridos, nos termos do art. 387, §2º, do CPP.
+
+Passo à dosimetria da pena, fazendo-o fundamentadamente, para que se cumpra o preceito constitucional da individualização das decisões judiciais.
+
+III.
+DISPOSITIVO
+
+Ante o exposto, JULGO PROCEDENTE a pretensão punitiva deduzida na denúncia para CONDENAR o réu MARCUS ANDRE BORGES DOS SANTOS, já qualificado, pela prática do crime tipificado no art. 171, §2º-A do Código Penal.
+
+Considerando as diretrizes estabelecidas nos artigos 59 e 68, ambos do Código Penal, passo à individualização da pena imposta ao condenado.
+
+Na primeira fase da apenação, analisando as circunstâncias presentes no art. 59 do Código Penal, constato que a culpabilidade do réu, entendida como o grau de reprovabilidade das suas ações, foge à normalidade. Isso porque o valor do prejuízo financeiro da vítima deve ser levado em consideração na aferição do grau de reprovabilidade da conduta do agente, ainda mais por se tratar de crime contra o patrimônio. Com efeito, não se pode equiparar o crime de estelionato de pequenos valores, com o crime em tela, que envolveu a quantia de R$ 42.515,00 (quarenta e dois mil, quinhentos e quinze reais). O réu não possui maus antecedentes e não há nos autos elementos para análise de sua conduta social e personalidade. Ademais, o motivo, as circunstâncias e as consequências do crime, por sua vez, não concorrem para o recrudescimento da sanção. O comportamento da vítima, de igual modo, em nada influenciou na conduta do agente. Ademais, trata-se de circunstância neutra. Assim, considerando a circunstância desfavorável relativa à culpabilidade, aumento a pena base em 06 meses de reclusão e multa de 02 dias, fixando-a em 04 anos e 06 meses de reclusão e multa 12 dias.
+
+Na segunda fase, verifico que inexistem atenuantes ou agravantes a serem aplicadas, razão pela qual mantenho a pena intermediária em 04 anos e 06 meses de reclusão e multa 12 dias.
+
+Por fim, na terceira fase, vislumbro que não há causas de aumento e de diminuição de pena. Ante o exposto, torno a pena definitiva para este delito em 04 (quatro) anos e 06 meses de reclusão e multa de 12 (doze) dias, na razão de 1/30 (um trinta avos) do salário-mínimo vigente à época dos fatos.
+
+Fixo o REGIME SEMIABERTO para o cumprimento da pena, tendo em vista o quantum da pena aplicado, conforme o artigo 33, §2º, alínea "c" do Código Penal.
+
+Deixo de substituir a pena privativa de liberdade por restritiva de direitos, bem como, deixo de aplicar a suspensão condicional da pena, ante a ausência dos requisitos para tal.
+
+Condeno, ainda, o réu nas custas e despesas processuais, na forma do artigo 804 do Código de Processo Penal. Destaque-se que eventual requerimento de isenção deve ser formulado perante o Juízo da Execução Penal.
+
+A multa deverá ser paga em 10 (dez) dias, a contar do trânsito em julgado, nos termos do artigo 50 do Código Penal, observada a disposição constante do artigo 49, § 2°, do mesmo Codex.
+
+Considerando que a prisão preventiva do réu não foi anteriormente decretada, concedo-lhe o direito de apelar em liberdade
+
+Transitada em julgado a presente, façam-se as anotações e comunicações pertinentes, expedindo-se Carta de Sentença definitiva, nos termos do Art. 105 da LEP e, após, arquivem-se os autos, observando-se as demais formalidades legais.
+
+OFICIE-SE, em atenção ao estabelecido no artigo 15, inciso III, da Constituição da República, à Justiça Eleitoral, COMUNICANDO-SE a presente condenação.
+
+COMUNIQUEM-SE ao distribuidor, ao Instituto de Identificação e à delegacia de origem, certificando-se nos autos o trânsito em julgado desta sentença.
+
+PUBLIQUE-SE. REGISTRE-SE. INTIMEM-SE. ARQUIVEM-SE, oportunamente.
+
+RIO DE JANEIRO, 22 de julho de 2025.
+
+DANIELE LIMA PIRES BARBOSA
+Juiz Titular
