@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>O presente de aniversário</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Layout: o mesmo do exercício do caso âncora (coluna única; o caso em cima, as
+   questões em cartões, a síntese do par ao fim), para que os dois se leiam juntos. */
+:root {
+  --bg: #f3f5f7;
+  --surface: #ffffff;
+  --ink: #18212b;
+  --muted: #5a6573;
+  --line: #d9dee4;
+  --accent: #1d4f73;
+  --accent-soft: #e6eef4;
+  --ok: #2f6b4f;
+  --ok-soft: #e7f1ec;
+  --del: #8a2f2f;
+  --font-display: "Literata", Georgia, "Times New Roman", serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #12171d;
+    --surface: #1a2129;
+    --ink: #e4e9ee;
+    --muted: #9aa6b3;
+    --line: #2c3641;
+    --accent: #7fb3d9;
+    --accent-soft: #1e2e3b;
+    --ok: #7cc4a0;
+    --ok-soft: #18302a;
+    --del: #e08a8a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #12171d;
+  --surface: #1a2129;
+  --ink: #e4e9ee;
+  --muted: #9aa6b3;
+  --line: #2c3641;
+  --accent: #7fb3d9;
+  --accent-soft: #1e2e3b;
+  --ok: #7cc4a0;
+  --ok-soft: #18302a;
+  --del: #e08a8a;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+/* o atributo hidden prevalece sobre qualquer display definido por classe */
+[hidden] { display: none !important; }
+html, body { margin: 0; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+}
+a { color: var(--accent); }
+.wrap {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 32px 20px 64px;
+  display: grid;
+  gap: 28px;
+}
+header { display: grid; gap: 10px; }
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+h1, h2, h3 { font-family: var(--font-display); font-weight: 600; text-wrap: balance; margin: 0; line-height: 1.25; }
+h1 { font-size: 30px; }
+h2 { font-size: 21px; }
+h3 { font-size: 18px; }
+p { margin: 0; max-width: 65ch; }
+.lead { color: var(--muted); }
+
+.status { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+.chip {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--muted);
+}
+.chip.done { border-color: var(--ok); color: var(--ok); background: var(--ok-soft); }
+
+section.caso {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 22px;
+  display: grid;
+  gap: 14px;
+}
+dl { margin: 0; display: grid; gap: 10px; }
+dl div { display: grid; grid-template-columns: 120px 1fr; gap: 12px; }
+dt { font-weight: 600; color: var(--muted); font-size: 14.5px; padding-top: 1px; }
+dd { margin: 0; max-width: 60ch; }
+@media (max-width: 520px) { dl div { grid-template-columns: 1fr; gap: 2px; } }
+
+.questoes { display: grid; gap: 20px; }
+article.q {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--line);
+  border-radius: 10px;
+  padding: 22px;
+  display: grid;
+  gap: 14px;
+}
+article.q.answered { border-left-color: var(--ok); }
+.qhead { display: flex; gap: 12px; align-items: baseline; }
+.qnum { font-family: var(--font-mono); font-size: 13px; color: var(--accent); flex: none; }
+label.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+textarea {
+  width: 100%;
+  min-height: 130px;
+  resize: vertical;
+  padding: 12px 14px;
+  font: inherit;
+  color: var(--ink);
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+textarea:focus-visible, button:focus-visible, input:focus-visible, a:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+textarea[readonly] { opacity: 0.85; }
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; justify-content: space-between; }
+.count { font-family: var(--font-mono); font-size: 12.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+button {
+  font: inherit;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 9px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: var(--surface);
+  cursor: pointer;
+}
+button:disabled { opacity: 0.45; cursor: not-allowed; }
+button.ghost { background: transparent; color: var(--accent); }
+
+.gabarito {
+  display: grid;
+  gap: 12px;
+  background: var(--ok-soft);
+  border: 1px solid var(--ok);
+  border-radius: 8px;
+  padding: 18px;
+}
+.gabarito h3 { color: var(--ok); font-size: 16px; font-family: var(--font-body); }
+.lei {
+  font-family: var(--font-display);
+  font-size: 15px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 12px 14px;
+  display: grid;
+  gap: 8px;
+}
+.lei del { color: var(--del); text-decoration-thickness: 2px; }
+.lei ins { text-decoration: none; border-bottom: 2px solid var(--ok); }
+.lei b { font-family: var(--font-body); font-weight: 600; font-size: 13.5px; }
+.lei small { display: block; font-family: var(--font-body); font-size: 13px; color: var(--muted); }
+.base { font-size: 14.5px; color: var(--muted); }
+fieldset { border: 0; margin: 0; padding: 0; display: grid; gap: 6px; }
+legend { font-weight: 600; font-size: 14.5px; margin-bottom: 6px; }
+.ponto { display: flex; gap: 10px; align-items: flex-start; }
+.ponto input { margin-top: 5px; width: 16px; height: 16px; accent-color: var(--ok); flex: none; }
+.placar { font-family: var(--font-mono); font-size: 13px; color: var(--ok); font-variant-numeric: tabular-nums; }
+
+section.sintese {
+  border: 1px dashed var(--line);
+  border-radius: 10px;
+  padding: 22px;
+  display: grid;
+  gap: 12px;
+}
+section.sintese.open { border-style: solid; border-color: var(--accent); background: var(--accent-soft); }
+section.sintese ul { margin: 0; padding-left: 20px; display: grid; gap: 8px; max-width: 65ch; }
+footer { font-size: 13.5px; color: var(--muted); display: grid; gap: 10px; }
+@media (prefers-reduced-motion: no-preference) {
+  .gabarito:not([hidden]) { animation: abre 220ms ease-out; }
+  @keyframes abre { from { opacity: 0.4; transform: translateY(-3px); } to { opacity: 1; transform: none; } }
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <div class="eyebrow">Cibercriminologia para magistrados · Par TJPA 1 · Caso de contraste</div>
+    <h1>O presente de aniversário</h1>
+    <p class="lead">Este caso faz par com o do <a href="https://claude.ai/artifact/VevzD3mHXEyMvThGwDuAgr">irmão de celular quebrado</a>. O golpe, a comarca e o modo de identificar a titular da conta são os mesmos. Leia o caso, que vem sem o desfecho, e responda às quatro questões. O gabarito de cada uma aparece quando você envia a sua resposta. Depois, marque os pontos que a sua resposta cobriu.</p>
+    <div class="status">
+      <span class="chip" id="progresso" aria-live="polite">0 de 4 respondidas</span>
+      <button type="button" class="ghost" id="recomecar">Recomeçar</button>
+    </div>
+  </header>
+
+  <section class="caso" aria-labelledby="t-caso">
+    <h2 id="t-caso">O caso</h2>
+    <p>No dia do aniversário da filha, uma senhora de 70 anos recebeu pelo WhatsApp uma mensagem com a fotografia da filha: tinha comprado um celular novo, "me dei de presente". Dias antes, a filha tinha comentado que precisava de um aparelho para trabalhar. A interlocutora pediu que a mãe fizesse um pagamento por ela, porque o aplicativo dava erro. A vítima, que nunca tinha feito um Pix, seguiu as instruções e transferiu R$ 1.849,99 para a conta digital de uma jovem de outro estado. Quando veio o pedido de uma segunda transferência, ligou para o número antigo da filha.</p>
+    <dl>
+      <div><dt>Datas</dt><dd>Fato em março de 2024; denúncia em junho de 2025; sentença em abril de 2026, 25 dias antes da vigência da Lei 15.397/2026, numa vara criminal de Belém (TJPA).</dd></div>
+      <div><dt>Investigação</dt><dd>O banco informou os dados da titular e que o último login na conta foi no dia do fato. A perícia confirmou que a selfie de abertura é dela. Ouvida na polícia, ficou em silêncio. Não há extrato nos autos.</dd></div>
+      <div><dt>Denúncia</dt><dd>Art. 171, §2º-A e §4º, do CP, contra a titular. Declara o acordo de não persecução penal vedado pela pena mínima de 4 anos. Não pede reparação.</dd></div>
+      <div><dt>Instrução</dt><dd>A vítima conta que eram as últimas economias, guardadas para um tratamento. A titular diz que viu no Facebook um anúncio de empréstimo de R$ 300,00; que um homem, de quem sabe só o prenome, foi até ela, pediu os documentos e a fez mostrar o rosto no celular dele; que ele abriu a conta naquele dia, no aparelho dele, e lhe deu R$ 300,00 em mãos. "Eu tinha vendido uma conta minha porque falou que era empréstimo. Hoje eu sei que é vender." Diz que não sabia do golpe. O MP pede a condenação e, só nas alegações finais, a reparação. A defesa pede a absolvição por ausência de dolo ou, subsidiariamente, o reconhecimento da participação de menor importância.</dd></div>
+    </dl>
+  </section>
+
+  <div class="questoes">
+
+    <article class="q" id="q1" aria-labelledby="t-q1">
+      <div class="qhead"><span class="qnum">1 de 4</span><h3 id="t-q1">A titular admite ter vendido a conta e nega saber do golpe. Há prova do dolo, e de onde ele se infere?</h3></div>
+      <label class="sr" for="r1">Sua resposta à questão 1</label>
+      <textarea id="r1" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c1">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b1" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g1" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>A admissão prova o elemento material, a cessão da conta. O dolo é outra coisa e se infere de indícios que a sentença precisa nomear: o preço, o desconhecido, o rosto entregue a um terceiro, a conta aberta no aparelho do comprador no mesmo dia do crédito, o login no dia do fato.</p>
+        <p>A sentença condenou no §2º-A e no §4º, com a participação de menor importância e a redução máxima. Disse que o estelionato exige "dolo específico de obter vantagem indevida", mas não examinou se a titular sabia do golpe nem respondeu à tese de ausência de dolo: a condenação se apoiou, sem dizê-lo, na venda da conta. Na base de pesquisa do TJSP, quem admite a cessão é condenado em 45 de 47 sentenças, e o dolo é inferido da própria admissão.</p>
+        <div class="lei">
+          <span><b>Art. 29, §1º, do CP.</b> Se a participação for de menor importância, a pena pode ser diminuída de um sexto a um terço.</span>
+        </div>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" id="p1a" data-q="1"> Separou a prova da cessão da prova do dolo.</label>
+          <label class="ponto"><input type="checkbox" id="p1b" data-q="1"> Nomeou os indícios dos quais o dolo se infere.</label>
+          <label class="ponto"><input type="checkbox" id="p1c" data-q="1"> Exigiu que a sentença enfrentasse a tese de ausência de dolo.</label>
+          <label class="ponto"><input type="checkbox" id="p1d" data-q="1"> Ligou a menor importância à pena, e não à existência do dolo.</label>
+        </fieldset>
+        <span class="placar" id="s1">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+
+    <article class="q" id="q2" aria-labelledby="t-q2">
+      <div class="qhead"><span class="qnum">2 de 4</span><h3 id="t-q2">Qual é a capitulação adequada na data da sentença? E depois de 04/05/2026?</h3></div>
+      <label class="sr" for="r2">Sua resposta à questão 2</label>
+      <textarea id="r2" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c2">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b2" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g2" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>Na data da sentença, o §2º-A e o §4º, com o art. 29, §1º, como foi feito: 3 anos, 6 meses e 20 dias de reclusão, em regime aberto, substituída por duas penas restritivas de direitos.</p>
+        <p>Depois de 04/05/2026, o inciso VII do §2º descreve a conduta que a titular confessou, com a pena do caput, de 1 a 5 anos. Para fato anterior, entra como lei mais benéfica, no segundo grau ou na execução. Na base do TJSP, toda aplicação do inciso foi retroativa; uma sentença o recusou por falta de prova da origem ou do destino dos recursos, e aqui os recursos são o produto do próprio golpe. Com o inciso, a pena mínima fica abaixo de 4 anos, e o acordo de não persecução, que a denúncia declarou vedado, deixa de estar vedado pela pena.</p>
+        <div class="lei">
+          <span><b>Art. 2º, parágrafo único, do CP.</b> A lei posterior, que de qualquer modo favorecer o agente, aplica-se aos fatos anteriores, ainda que decididos por sentença condenatória transitada em julgado.</span>
+          <span><b>Art. 171, §2º, do CP.</b> Nas mesmas penas incorre quem: […] VII: cede, gratuita ou onerosamente, conta bancária para que nela transitem recursos destinados ao financiamento de atividade criminosa ou que dela sejam fruto. (Incluído pela Lei 15.397/2026.)</span>
+        </div>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" id="p2a" data-q="2"> Aplicou a lei vigente na data da sentença.</label>
+          <label class="ponto"><input type="checkbox" id="p2b" data-q="2"> Indicou o inciso VII como lei mais benéfica depois de 04/05/2026.</label>
+          <label class="ponto"><input type="checkbox" id="p2c" data-q="2"> Indicou o efeito sobre o acordo de não persecução.</label>
+          <label class="ponto"><input type="checkbox" id="p2d" data-q="2"> Situou a revisão no segundo grau ou na execução.</label>
+        </fieldset>
+        <span class="placar" id="s2">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+
+    <article class="q" id="q3" aria-labelledby="t-q3">
+      <div class="qhead"><span class="qnum">3 de 4</span><h3 id="t-q3">O MP pediu a reparação só nas alegações finais. A juíza podia fixá-la?</h3></div>
+      <label class="sr" for="r3">Sua resposta à questão 3</label>
+      <textarea id="r3" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c3">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b3" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g3" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>Sem pedido na denúncia, a jurisprudência do STJ não admite a fixação, e a sentença a negou por isso; os requisitos do pedido estão em discussão no Tema 1.389 do STJ. O momento da reparação é a denúncia.</p>
+        <p>A sentença deu um segundo fundamento: pelo caráter acessório da conduta, seria desproporcional impor à titular a reparação integral. Esse fundamento mede a reparação pela culpabilidade, quando a lei manda considerar os prejuízos do ofendido. E nem o valor ficou firme: na audiência falou-se em R$ 849,99, contra os R$ 1.849,99 da denúncia e do comprovante. O dano não econômico, as economias de um tratamento perdidas por uma pessoa idosa, não chegou à pena nem à reparação.</p>
+        <div class="lei">
+          <span><b>Art. 387 do CPP.</b> O juiz, ao proferir sentença condenatória: […] IV: fixará valor mínimo para reparação dos danos causados pela infração, considerando os prejuízos sofridos pelo ofendido;</span>
+        </div>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" id="p3a" data-q="3"> Situou o pedido de reparação na denúncia.</label>
+          <label class="ponto"><input type="checkbox" id="p3b" data-q="3"> Mencionou a exigência do STJ e o Tema 1.389.</label>
+          <label class="ponto"><input type="checkbox" id="p3c" data-q="3"> Criticou o fundamento que mede a reparação pela culpabilidade.</label>
+          <label class="ponto"><input type="checkbox" id="p3d" data-q="3"> Notou o valor indefinido ou o dano não econômico sem destino.</label>
+        </fieldset>
+        <span class="placar" id="s3">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+
+    <article class="q" id="q4" aria-labelledby="t-q4">
+      <div class="qhead"><span class="qnum">4 de 4</span><h3 id="t-q4">Compare com o caso do irmão de celular quebrado. O que separou a condenação da absolvição?</h3></div>
+      <label class="sr" for="r4">Sua resposta à questão 4</label>
+      <textarea id="r4" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c4">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b4" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g4" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>No outro caso, a titular negou, atribuiu o uso da conta à perda do celular e foi absolvida pelo art. 386, VII, do CPP: a sentença exigiu prova de que ela sabia para que a conta serviria, e não havia extrato nem registro de acesso. A comarca, o golpe, o valor e o modo de identificar a titular eram os mesmos.</p>
+        <p>O que separou os desfechos foi o que a titular disse e o que se sabia do uso da conta: aqui, a admissão da venda e o login no dia do fato; lá, a negativa e nenhum dado. A admissão fez o trabalho que os dados do banco poderiam ter feito. Quando a titular nega, só esses dados decidem, e os registros de acesso têm guarda mínima de seis meses.</p>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" id="p4a" data-q="4"> Identificou o que os dois casos têm em comum.</label>
+          <label class="ponto"><input type="checkbox" id="p4b" data-q="4"> Identificou a versão da titular como a diferença decisiva.</label>
+          <label class="ponto"><input type="checkbox" id="p4c" data-q="4"> Identificou o login como o único dado de uso da conta.</label>
+          <label class="ponto"><input type="checkbox" id="p4d" data-q="4"> Concluiu sobre os dados do banco como prova do dolo e sobre o seu prazo.</label>
+        </fieldset>
+        <span class="placar" id="s4">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+
+  </div>
+
+  <section class="sintese" id="sintese" aria-labelledby="t-sintese" aria-live="polite">
+    <h2 id="t-sintese">O que o par acrescenta à decisão</h2>
+    <p id="sintese-espera">A síntese aparece quando as quatro questões estiverem respondidas.</p>
+    <ul id="sintese-lista" hidden>
+      <li>A admissão da cessão prova o elemento material. O dolo ainda precisa ser inferido, e a inferência, dita na sentença.</li>
+      <li>A participação de menor importância mede a pena da titular, e não o dano da vítima.</li>
+      <li>O inciso VII da Lei 15.397/2026 descreve a conduta confessada. Para fato anterior, entra como lei mais benéfica e reabre o acordo de não persecução.</li>
+      <li>Entre duas titulares no mesmo golpe, o que separou a condenação da absolvição foi a palavra da própria titular, e não o que o banco sabia e ninguém pediu.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Caso de uma ação penal do TJPA, com denúncia e sentença lidas por inteiro e anonimizados. Os números vêm da base de pesquisa da fase 2 (TJPA, 191 denúncias e 111 sentenças) e da fase 1 (TJSP, 198 denúncias e suas sentenças).</p>
+    <p>As respostas ficam só nesta página e se perdem ao recarregá-la.</p>
+  </footer>
+</main>
+
+<script>
+(function () {
+  var MIN = 40;
+  var QS = [1, 2, 3, 4];
+  var respondidas = {};
+  QS.forEach(function (q) { respondidas[q] = false; });
+
+  function el(id) { return document.getElementById(id); }
+
+  function atualizaProgresso() {
+    var n = QS.filter(function (q) { return respondidas[q]; }).length;
+    var chip = el("progresso");
+    chip.textContent = n + " de " + QS.length + " respondidas";
+    chip.classList.toggle("done", n === QS.length);
+    var aberta = n === QS.length;
+    el("sintese").classList.toggle("open", aberta);
+    el("sintese-lista").hidden = !aberta;
+    el("sintese-espera").hidden = aberta;
+  }
+
+  function atualizaPlacar(q) {
+    var caixas = document.querySelectorAll('input[data-q="' + q + '"]');
+    var marcados = Array.prototype.filter.call(caixas, function (c) { return c.checked; }).length;
+    el("s" + q).textContent = marcados + " de " + caixas.length + " pontos marcados";
+  }
+
+  QS.forEach(function (q) {
+    var campo = el("r" + q), botao = el("b" + q), conta = el("c" + q);
+    campo.addEventListener("input", function () {
+      var n = campo.value.trim().length;
+      conta.textContent = n + (n === 1 ? " caractere" : " caracteres") + " · mínimo de " + MIN;
+      botao.disabled = n < MIN;
+    });
+    botao.addEventListener("click", function () {
+      if (campo.value.trim().length < MIN) return;
+      campo.readOnly = true;
+      botao.disabled = true;
+      botao.textContent = "Resposta enviada";
+      el("g" + q).hidden = false;
+      el("q" + q).classList.add("answered");
+      respondidas[q] = true;
+      atualizaProgresso();
+    });
+    document.querySelectorAll('input[data-q="' + q + '"]').forEach(function (c) {
+      c.addEventListener("change", function () { atualizaPlacar(q); });
+    });
+  });
+
+  el("recomecar").addEventListener("click", function () {
+    QS.forEach(function (q) {
+      var campo = el("r" + q), botao = el("b" + q);
+      campo.value = "";
+      campo.readOnly = false;
+      botao.disabled = true;
+      botao.textContent = "Responder e ver o gabarito";
+      el("c" + q).textContent = "0 caracteres · mínimo de " + MIN;
+      el("g" + q).hidden = true;
+      el("q" + q).classList.remove("answered");
+      document.querySelectorAll('input[data-q="' + q + '"]').forEach(function (c) { c.checked = false; });
+      atualizaPlacar(q);
+      respondidas[q] = false;
+    });
+    atualizaProgresso();
+    el("r1").focus();
+  });
+})();
+</script>
+</body>
+</html>

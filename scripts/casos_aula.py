@@ -31,19 +31,25 @@ PARES = [
 ]
 
 # Par 9, do TJPA, montado por decisão do usuário em 22/11/2026 (plano 0.3): família CL,
-# com sentença e acórdão nos dois casos. A extração do TJPA não está no main e não há fenômenos do TJPA; o caso é
+# com sentença e acórdão nos dois casos. Não há fenômenos do TJPA (a extração entrou no main em 25/11/2026, sem
+# as questões 1 a 7); o caso é
 # designado pelo número curto (na extração descrita no Project, PA-FE 89 e PA-CL 95), e os metadados vêm da leitura (estrato pela conduta).
 PARES_TJPA = [
     (9, "TJPA 0800121", "TJPA 0815181", "1,3,5,7"),
     # Par TJPA 3 (22/11/2026): os dois casos de maior técnica em que o processo chegou ao
     # autor; designados pelo código da extração descrita no Project (PA-FE n).
     (10, "PA-FE 24", "PA-FE 99", "1,2,3,4,6"),
+    # Par TJPA 1 (21/11/2026), feito numa sessão sem push e gravado no main em 25/11/2026,
+    # depois dos pares 9 e 10: por isso é o 11 na contagem do repositório.
+    (11, "PA-FE 74", "PA-FE 46", "1,3,5,6,7"),
 ]
 CASOS_TJPA = {
     "TJPA 0800121": ("0800121-52.2024.8.14.0401", "CL", "Belém (6ª Vara Criminal)"),
     "TJPA 0815181": ("0815181-65.2024.8.14.0401", "CL", "Belém (1ª Vara Criminal)"),
     "PA-FE 24": ("0824890-27.2024.8.14.0401", "FE", "Belém (1ª Vara Criminal)"),
     "PA-FE 99": ("0811772-81.2024.8.14.0401", "FE", "Belém (Vara de Combate ao Crime Organizado)"),
+    "PA-FE 74": ("0805971-87.2024.8.14.0401", "FE", "Belém (8ª Vara Criminal)"),
+    "PA-FE 46": ("0812575-64.2024.8.14.0401", "FE", "Belém (1ª Vara Criminal)"),
 }
 
 INDICE = "dados/aula/casos_aula.csv"

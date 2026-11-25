@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>O irmão de celular quebrado</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Layout: o mesmo dos exercícios dos pares do TJSP (coluna única; o caso em cima, as
+   questões em cartões, a síntese do par ao fim), para que os dois se leiam juntos. */
+:root {
+  --bg: #f3f5f7;
+  --surface: #ffffff;
+  --ink: #18212b;
+  --muted: #5a6573;
+  --line: #d9dee4;
+  --accent: #1d4f73;
+  --accent-soft: #e6eef4;
+  --ok: #2f6b4f;
+  --ok-soft: #e7f1ec;
+  --del: #8a2f2f;
+  --font-display: "Literata", Georgia, "Times New Roman", serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #12171d;
+    --surface: #1a2129;
+    --ink: #e4e9ee;
+    --muted: #9aa6b3;
+    --line: #2c3641;
+    --accent: #7fb3d9;
+    --accent-soft: #1e2e3b;
+    --ok: #7cc4a0;
+    --ok-soft: #18302a;
+    --del: #e08a8a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #12171d;
+  --surface: #1a2129;
+  --ink: #e4e9ee;
+  --muted: #9aa6b3;
+  --line: #2c3641;
+  --accent: #7fb3d9;
+  --accent-soft: #1e2e3b;
+  --ok: #7cc4a0;
+  --ok-soft: #18302a;
+  --del: #e08a8a;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+/* o atributo hidden prevalece sobre qualquer display definido por classe */
+[hidden] { display: none !important; }
+html, body { margin: 0; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+}
+a { color: var(--accent); }
+.wrap {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 32px 20px 64px;
+  display: grid;
+  gap: 28px;
+}
+header { display: grid; gap: 10px; }
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+h1, h2, h3 { font-family: var(--font-display); font-weight: 600; text-wrap: balance; margin: 0; line-height: 1.25; }
+h1 { font-size: 30px; }
+h2 { font-size: 21px; }
+h3 { font-size: 18px; }
+p { margin: 0; max-width: 65ch; }
+.lead { color: var(--muted); }
+
+.status { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+.chip {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--muted);
+}
+.chip.done { border-color: var(--ok); color: var(--ok); background: var(--ok-soft); }
+
+section.caso {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 22px;
+  display: grid;
+  gap: 14px;
+}
+dl { margin: 0; display: grid; gap: 10px; }
+dl div { display: grid; grid-template-columns: 120px 1fr; gap: 12px; }
+dt { font-weight: 600; color: var(--muted); font-size: 14.5px; padding-top: 1px; }
+dd { margin: 0; max-width: 60ch; }
+@media (max-width: 520px) { dl div { grid-template-columns: 1fr; gap: 2px; } }
+
+.questoes { display: grid; gap: 20px; }
+article.q {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--line);
+  border-radius: 10px;
+  padding: 22px;
+  display: grid;
+  gap: 14px;
+}
+article.q.answered { border-left-color: var(--ok); }
+.qhead { display: flex; gap: 12px; align-items: baseline; }
+.qnum { font-family: var(--font-mono); font-size: 13px; color: var(--accent); flex: none; }
+label.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+textarea {
+  width: 100%;
+  min-height: 130px;
+  resize: vertical;
+  padding: 12px 14px;
+  font: inherit;
+  color: var(--ink);
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+textarea:focus-visible, button:focus-visible, input:focus-visible, a:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+textarea[readonly] { opacity: 0.85; }
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; justify-content: space-between; }
+.count { font-family: var(--font-mono); font-size: 12.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+button {
+  font: inherit;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 9px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: var(--surface);
+  cursor: pointer;
+}
+button:disabled { opacity: 0.45; cursor: not-allowed; }
+button.ghost { background: transparent; color: var(--accent); }
+
+.gabarito {
+  display: grid;
+  gap: 12px;
+  background: var(--ok-soft);
+  border: 1px solid var(--ok);
+  border-radius: 8px;
+  padding: 18px;
+}
+.gabarito h3 { color: var(--ok); font-size: 16px; font-family: var(--font-body); }
+.lei {
+  font-family: var(--font-display);
+  font-size: 15px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 12px 14px;
+  display: grid;
+  gap: 8px;
+}
+.lei del { color: var(--del); text-decoration-thickness: 2px; }
+.lei ins { text-decoration: none; border-bottom: 2px solid var(--ok); }
+.lei b { font-family: var(--font-body); font-weight: 600; font-size: 13.5px; }
+.lei small { display: block; font-family: var(--font-body); font-size: 13px; color: var(--muted); }
+.base { font-size: 14.5px; color: var(--muted); }
+fieldset { border: 0; margin: 0; padding: 0; display: grid; gap: 6px; }
+legend { font-weight: 600; font-size: 14.5px; margin-bottom: 6px; }
+.ponto { display: flex; gap: 10px; align-items: flex-start; }
+.ponto input { margin-top: 5px; width: 16px; height: 16px; accent-color: var(--ok); flex: none; }
+.placar { font-family: var(--font-mono); font-size: 13px; color: var(--ok); font-variant-numeric: tabular-nums; }
+
+section.sintese {
+  border: 1px dashed var(--line);
+  border-radius: 10px;
+  padding: 22px;
+  display: grid;
+  gap: 12px;
+}
+section.sintese.open { border-style: solid; border-color: var(--accent); background: var(--accent-soft); }
+section.sintese ul { margin: 0; padding-left: 20px; display: grid; gap: 8px; max-width: 65ch; }
+footer { font-size: 13.5px; color: var(--muted); display: grid; gap: 10px; }
+@media (prefers-reduced-motion: no-preference) {
+  .gabarito:not([hidden]) { animation: abre 220ms ease-out; }
+  @keyframes abre { from { opacity: 0.4; transform: translateY(-3px); } to { opacity: 1; transform: none; } }
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <div class="eyebrow">Cibercriminologia para magistrados · Par TJPA 1 · Caso âncora</div>
+    <h1>O irmão de celular quebrado</h1>
+    <p class="lead">Este caso faz par com o do <a href="https://claude.ai/artifact/DLWnu2UMtx68y6pEbzsqgB">presente de aniversário</a>, que convém fazer depois deste. Leia o caso, que vem sem o desfecho, e responda às quatro questões. O gabarito de cada uma aparece quando você envia a sua resposta. Depois, marque os pontos que a sua resposta cobriu.</p>
+    <div class="status">
+      <span class="chip" id="progresso" aria-live="polite">0 de 4 respondidas</span>
+      <button type="button" class="ghost" id="recomecar">Recomeçar</button>
+    </div>
+  </header>
+
+  <section class="caso" aria-labelledby="t-caso">
+    <h2 id="t-caso">O caso</h2>
+    <p>Alguém escreveu pelo WhatsApp a uma mãe, passando-se pelo filho dela: o celular tinha quebrado, ele usava outro número e não conseguia entrar na própria conta, e precisava de R$ 1.550,00 emprestados para pagar um boleto. A mãe autorizou a filha, que cuida do dinheiro dela, a fazer a transferência. O interlocutor escreveu então à filha e mandou uma chave Pix: o CPF de uma jovem de outro estado, numa conta digital. A filha transferiu. Quando veio o pedido de uma segunda transferência, desconfiou, falou com o irmão e soube que não era ele.</p>
+    <dl>
+      <div><dt>Datas</dt><dd>Fato em julho de 2022; denúncia em agosto de 2025; sentença em novembro de 2026, numa vara criminal de Belém (TJPA).</dd></div>
+      <div><dt>Investigação</dt><dd>O banco informou por ofício os dados cadastrais da titular da conta. O cadastro foi comparado com o registro civil, e a perícia confirmou que a selfie de abertura, em que a titular segura o próprio documento, é dela. A conta foi aberta cinco dias antes do Pix. A linha do WhatsApp está em nome de outra pessoa, de São Paulo, que nega conhecer as vítimas. Não há extratos nem registros de acesso à conta nos autos.</dd></div>
+      <div><dt>Denúncia</dt><dd>Art. 171, §2º-A, com o art. 29 do CP, contra a titular, narrada como quem enviou as mensagens e se passou pelo irmão. Pedido de reparação mínima, sem indicação de valor.</dd></div>
+      <div><dt>Instrução</dt><dd>A vítima diz que o interlocutor nunca usou o nome da titular; o irmão nada sabe dela. A titular confirma a conta e a selfie, nega o golpe, diz que perdeu o celular meses antes e que abriu várias contas digitais ao completar 18 anos, em busca de crédito. Nos memoriais, o MP pede a condenação como partícipe, por ter cedido a conta, e lembra as várias contas e registros em que ela aparece como "envolvida" em outras ocorrências. A defesa pede a absolvição ou a desclassificação para receptação. Nenhuma parte pediu diligências.</dd></div>
+    </dl>
+  </section>
+
+  <div class="questoes">
+
+    <article class="q" id="q1" aria-labelledby="t-q1">
+      <div class="qhead"><span class="qnum">1 de 4</span><h3 id="t-q1">No recebimento da denúncia, o que ligava a titular ao golpe, e a denúncia narrou o que essa prova sustentava?</h3></div>
+      <label class="sr" for="r1">Sua resposta à questão 1</label>
+      <textarea id="r1" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c1">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b1" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g1" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>Só a conta: o cadastro enviado pelo banco e a perícia da selfie. A linha do WhatsApp levava a outra pessoa, e nada ligava a titular às mensagens. A denúncia, ainda assim, narrou-a como autora do ardil. A instrução desfez essa narrativa, e o MP passou à tese da cessão da conta só nos memoriais.</p>
+        <p>O que a prova permitia imputar era a participação pela cessão, e a participação pede indício próprio de que a titular sabia para que a conta serviria. Na base de pesquisa do TJSP, em nenhuma das 161 denúncias de fraude o rastro do canal do ardil (o número, o perfil, o IP) identificou o denunciado: a investigação alcança o elo físico, a conta, e para nele.</p>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" id="p1a" data-q="1"> Identificou o cadastro e a selfie como a única ligação da titular ao fato.</label>
+          <label class="ponto"><input type="checkbox" id="p1b" data-q="1"> Notou que a linha do WhatsApp levava a terceira pessoa.</label>
+          <label class="ponto"><input type="checkbox" id="p1c" data-q="1"> Distinguiu a autoria das mensagens, narrada, da participação pela cessão, provável.</label>
+          <label class="ponto"><input type="checkbox" id="p1d" data-q="1"> Notou que a participação exige indício do elemento subjetivo.</label>
+        </fieldset>
+        <span class="placar" id="s1">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+
+    <article class="q" id="q2" aria-labelledby="t-q2">
+      <div class="qhead"><span class="qnum">2 de 4</span><h3 id="t-q2">Que prova distinguiria a cessão da conta da perda do celular, e ela ainda estava ao alcance?</h3></div>
+      <label class="sr" for="r2">Sua resposta à questão 2</label>
+      <textarea id="r2" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c2">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b2" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g2" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>O extrato, que mostraria o destino do dinheiro (saque, repasse ou retenção pelo banco), e os registros de acesso à conta nos dias do crédito, com aparelho e IP. A abertura da conta cinco dias antes do Pix era indício a ser confrontado com esses dados.</p>
+        <p>Os prazos de guarda são diferentes. O banco deve conservar o cadastro e o registro das transações por pelo menos cinco anos, e por isso o extrato ainda estava ao alcance na denúncia e na instrução. Os registros de acesso a aplicações têm guarda mínima de seis meses: em 2025, só existiriam se tivessem sido pedidos ou preservados logo depois do fato. O momento útil era o inquérito; na ação, a fase do art. 402 do CPP era a última chance de juntar o extrato.</p>
+        <div class="lei">
+          <span><b>Lei 9.613/1998, art. 10, §2º.</b> Os cadastros e registros referidos nos incisos I e II deste artigo deverão ser conservados durante o período mínimo de cinco anos a partir do encerramento da conta ou da conclusão da transação, […]</span>
+          <span><b>Lei 12.965/2014, art. 15.</b> O provedor de aplicações de internet […] deverá manter os respectivos registros de acesso a aplicações de internet, sob sigilo, em ambiente controlado e de segurança, pelo prazo de 6 (seis) meses, nos termos do regulamento.</span>
+        </div>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" id="p2a" data-q="2"> Indicou o extrato e o destino do valor.</label>
+          <label class="ponto"><input type="checkbox" id="p2b" data-q="2"> Indicou os registros de acesso, com aparelho e IP.</label>
+          <label class="ponto"><input type="checkbox" id="p2c" data-q="2"> Distinguiu os prazos de guarda de cada dado.</label>
+          <label class="ponto"><input type="checkbox" id="p2d" data-q="2"> Situou o momento do pedido no inquérito ou na fase do art. 402.</label>
+        </fieldset>
+        <span class="placar" id="s2">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+
+    <article class="q" id="q3" aria-labelledby="t-q3">
+      <div class="qhead"><span class="qnum">3 de 4</span><h3 id="t-q3">A titular confirma a conta e a selfie, e a versão dela tem fragilidades. Isso basta para condenar?</h3></div>
+      <label class="sr" for="r3">Sua resposta à questão 3</label>
+      <textarea id="r3" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c3">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b3" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g3" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>Não, e foi o que a sentença decidiu: absolvição pelo art. 386, VII, do CPP. A titularidade prova a contribuição objetiva; a consciência e a vontade de concorrer para o crime alheio "não se presumem". Para a sentença, "a rejeição de um álibi, contudo, não equivale à prova do fato imputado". As várias contas são lícitas, as outras ocorrências sem trânsito em julgado não pesam, e a anuência da titular era presunção, porque nada nos autos dizia como ou por quem a conta foi acessada.</p>
+        <p>Na base de pesquisa do TJSP, quem nega ou não reconhece a conta é condenado em 30 de 37 sentenças. A negativa absolve um em cada cinco porque obriga a acusação a provar o vínculo da titular com o uso da conta, e é aí que o extrato decide. No TJPA, as absolvições integrais da fraude eletrônica somam 27 de 91 sentenças, 23 delas em Belém.</p>
+        <div class="lei">
+          <span><b>Art. 386 do CPP.</b> O juiz absolverá o réu, mencionando a causa na parte dispositiva, desde que reconheça: […] VII: não existir prova suficiente para a condenação.</span>
+        </div>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" id="p3a" data-q="3"> Separou a titularidade da conta do dolo de participar.</label>
+          <label class="ponto"><input type="checkbox" id="p3b" data-q="3"> Notou que rejeitar a versão da ré não prova o fato imputado.</label>
+          <label class="ponto"><input type="checkbox" id="p3c" data-q="3"> Avaliou os indícios do MP como presunções sem corroboração.</label>
+          <label class="ponto"><input type="checkbox" id="p3d" data-q="3"> Indicou o dado que os corroboraria.</label>
+        </fieldset>
+        <span class="placar" id="s3">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+
+    <article class="q" id="q4" aria-labelledby="t-q4">
+      <div class="qhead"><span class="qnum">4 de 4</span><h3 id="t-q4">A sentença saiu seis meses depois da Lei 15.397/2026. O inciso VII do §2º do art. 171 mudaria o desfecho?</h3></div>
+      <label class="sr" for="r4">Sua resposta à questão 4</label>
+      <textarea id="r4" placeholder="Escreva sua resposta aqui."></textarea>
+      <div class="actions">
+        <span class="count" id="c4">0 caracteres · mínimo de 40</span>
+        <button type="button" id="b4" disabled>Responder e ver o gabarito</button>
+      </div>
+      <div class="gabarito" id="g4" hidden aria-live="polite">
+        <h3>Gabarito</h3>
+        <p>Não. O inciso descreve a conduta que o MP sustentou nos memoriais, mas exige que a conta seja cedida "para que nela transitem recursos" de destino ou de origem criminosa: o ponto continua a ser o que a titular sabia. Para fato de 2022, ele só entraria como lei mais benéfica. A sentença não o menciona.</p>
+        <p>Numa condenação, o inciso mudaria a pena e o acordo: a pena mínima cai de 4 anos para 1, e o acordo de não persecução deixa de estar vedado pela pena. Na base do TJPA, uma única sentença aplica o inciso; esta é uma das 24 posteriores à lei que não o mencionam.</p>
+        <div class="lei">
+          <span><b>Art. 171, §2º, do CP.</b> Nas mesmas penas incorre quem: […] VII: cede, gratuita ou onerosamente, conta bancária para que nela transitem recursos destinados ao financiamento de atividade criminosa ou que dela sejam fruto. (Incluído pela Lei 15.397/2026, em vigor desde 04/05/2026; a pena do caput é de reclusão, de 1 a 5 anos, e multa.)</span>
+        </div>
+        <fieldset>
+          <legend>Sua resposta cobriu estes pontos?</legend>
+          <label class="ponto"><input type="checkbox" id="p4a" data-q="4"> Notou que o inciso exige o mesmo conhecimento da titular.</label>
+          <label class="ponto"><input type="checkbox" id="p4b" data-q="4"> Aplicou a regra da lei mais benéfica ao fato de 2022.</label>
+          <label class="ponto"><input type="checkbox" id="p4c" data-q="4"> Indicou o efeito sobre a pena mínima.</label>
+          <label class="ponto"><input type="checkbox" id="p4d" data-q="4"> Indicou o efeito sobre o acordo de não persecução.</label>
+        </fieldset>
+        <span class="placar" id="s4">0 de 4 pontos marcados</span>
+      </div>
+    </article>
+
+  </div>
+
+  <section class="sintese" id="sintese" aria-labelledby="t-sintese" aria-live="polite">
+    <h2 id="t-sintese">O que o caso acrescenta à decisão</h2>
+    <p id="sintese-espera">A síntese aparece quando as quatro questões estiverem respondidas.</p>
+    <ul id="sintese-lista" hidden>
+      <li>Na fraude que imita uma relação pessoal, à distância, a investigação chega à conta e para nela. A denúncia que narra a titular como autora das mensagens vai além do que a prova mostra.</li>
+      <li>A selfie de abertura identifica a titular, mas não diz o que ela fez com a conta. O dolo se decide pelo uso da conta, e esse dado está com o banco.</li>
+      <li>O extrato dura cinco anos; os registros de acesso, seis meses. O pedido que decide o caso é o dos primeiros meses.</li>
+      <li>O inciso VII da Lei 15.397/2026 reprecifica a cessão da conta, mas não dispensa a prova de que a titular sabia.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Caso de uma ação penal do TJPA, com denúncia e sentença lidas por inteiro e anonimizados. Os números vêm da base de pesquisa da fase 2 (TJPA, 191 denúncias e 111 sentenças) e da fase 1 (TJSP, 198 denúncias e suas sentenças).</p>
+    <p>As respostas ficam só nesta página e se perdem ao recarregá-la.</p>
+  </footer>
+</main>
+
+<script>
+(function () {
+  var MIN = 40;
+  var QS = [1, 2, 3, 4];
+  var respondidas = {};
+  QS.forEach(function (q) { respondidas[q] = false; });
+
+  function el(id) { return document.getElementById(id); }
+
+  function atualizaProgresso() {
+    var n = QS.filter(function (q) { return respondidas[q]; }).length;
+    var chip = el("progresso");
+    chip.textContent = n + " de " + QS.length + " respondidas";
+    chip.classList.toggle("done", n === QS.length);
+    var aberta = n === QS.length;
+    el("sintese").classList.toggle("open", aberta);
+    el("sintese-lista").hidden = !aberta;
+    el("sintese-espera").hidden = aberta;
+  }
+
+  function atualizaPlacar(q) {
+    var caixas = document.querySelectorAll('input[data-q="' + q + '"]');
+    var marcados = Array.prototype.filter.call(caixas, function (c) { return c.checked; }).length;
+    el("s" + q).textContent = marcados + " de " + caixas.length + " pontos marcados";
+  }
+
+  QS.forEach(function (q) {
+    var campo = el("r" + q), botao = el("b" + q), conta = el("c" + q);
+    campo.addEventListener("input", function () {
+      var n = campo.value.trim().length;
+      conta.textContent = n + (n === 1 ? " caractere" : " caracteres") + " · mínimo de " + MIN;
+      botao.disabled = n < MIN;
+    });
+    botao.addEventListener("click", function () {
+      if (campo.value.trim().length < MIN) return;
+      campo.readOnly = true;
+      botao.disabled = true;
+      botao.textContent = "Resposta enviada";
+      el("g" + q).hidden = false;
+      el("q" + q).classList.add("answered");
+      respondidas[q] = true;
+      atualizaProgresso();
+    });
+    document.querySelectorAll('input[data-q="' + q + '"]').forEach(function (c) {
+      c.addEventListener("change", function () { atualizaPlacar(q); });
+    });
+  });
+
+  el("recomecar").addEventListener("click", function () {
+    QS.forEach(function (q) {
+      var campo = el("r" + q), botao = el("b" + q);
+      campo.value = "";
+      campo.readOnly = false;
+      botao.disabled = true;
+      botao.textContent = "Responder e ver o gabarito";
+      el("c" + q).textContent = "0 caracteres · mínimo de " + MIN;
+      el("g" + q).hidden = true;
+      el("q" + q).classList.remove("answered");
+      document.querySelectorAll('input[data-q="' + q + '"]').forEach(function (c) { c.checked = false; });
+      atualizaPlacar(q);
+      respondidas[q] = false;
+    });
+    atualizaProgresso();
+    el("r1").focus();
+  });
+})();
+</script>
+</body>
+</html>

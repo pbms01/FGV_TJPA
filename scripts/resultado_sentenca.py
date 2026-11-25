@@ -128,7 +128,8 @@ def pena(trecho):
     meses = (num(a.group(1)) * 12 if a else 0) + (num(me.group(1)) if me else 0) + (round(num(di.group(1)) / 30, 1) if di else 0)
     return (meses or ""), re.sub(r"\s+", " ", base)[:120]
 
-def le(t):
+def le(t, tolerante=False):
+    """Resultado lido no dispositivo. `tolerante` lê os artigos com a normalização de OCR do TJPA."""
     d = dispositivo(t)
     cond, abs_, ext = bool(RE_COND.search(d)), bool(RE_ABS.search(d)), bool(RE_EXT.search(d))
     if cond and (abs_ or RE_PARCIAL.search(d)):
@@ -144,7 +145,7 @@ def le(t):
     tc = trechos_condenacao(d) if cond else ""
     # "§2ºA", "§ 2º A" e "parágrafo 2º-A" sem hífen: normaliza antes das regex da denúncia
     tc = re.sub(r"(§|par[áa]grafo)\s*2\s*[ºo°ª]?\s*-?\s*A\b", "§ 2º-A", tc)
-    f = artigos(tc) if tc else {}
+    f = artigos(tc, tolerante=tolerante) if tc else {}
     if tc:
         f["157"] = bool(re.search(r"\b157\b", tc))
     meses, ptxt = pena(tc) if tc else ("", "")
