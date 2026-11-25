@@ -69,6 +69,7 @@ Estado em 21/11/2026: a coleta da fase 1 (TJSP) está encerrada para fins de an�
 | `scripts/fenomenos_ponderados.py` | Os 18 fenômenos de maior valor prático das questões 1 a 7, com percentual simples e ponderado e os casos de origem; grava `dados/analise/fenomenos.csv` e `fenomenos_casos.csv` |
 | `scripts/segundo_leitor.py` | Concordância entre a primeira leitura (congelada em `dados/conferencia/primeira_leitura.csv`) e o segundo leitor cego, e conferência de que a adjudicação (`dados/conferencia/adjudicacao.csv`) está aplicada aos dados |
 | `docs/analise/` | Notas analíticas das questões 1 a 7 e nota de método do segundo leitor, espelhadas no Project "Criminologia Informática" |
+| `scripts/artificio_tjpa.py` | Codificação do artifício nas 183 denúncias sem duplicata do TJPA (`dados/extracao/codificacao_artificio_tjpa.csv`, com segundo leitor por amostra e adjudicação em `dados/conferencia/tjpa/adjudicacao_artificio.csv`): confere os códigos PA, a família e o quadro da nota `docs/analise/codificacao-artificio-tjpa.md` |
 | `docs/aula/` | Plano de exame em aula das sete questões em oito pares de casos, fichas dos casos (`fichas/`) e fontes dos exercícios com gabarito publicados como artefatos (`exercicios/`) |
 | `scripts/casos_aula.py` | Índice dos 16 casos da aula (`dados/aula/casos_aula.csv`), esqueleto de cada ficha com os valores já codificados e links do GitHub das peças |
 | `dados/aula/` | Índice dos casos da aula, divergências da leitura integral contra a codificação e triagem das sentenças do INV quanto à elementar de segurança do 154-A |
