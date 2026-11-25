@@ -1,0 +1,76 @@
+[Texto nativo do PJe]
+
+Poder Judiciário do Estado do Rio de Janeiro
+
+Comarca de Niterói
+
+4ª Vara Criminal da Comarca de Niterói
+
+, S/N, 11º ANDAR, NITERÓI - RJ - CEP: 24020-069
+
+SENTENÇA
+
+Processo: 0826635-37.2024.8.19.0002
+
+Classe: AÇÃO PENAL - PROCEDIMENTO SUMÁRIO (10943)
+
+AUTOR: MINISTERIO PUBLICO DO ESTADO DO RIO DE JANEIRO, MINISTERIO PUBLICO DO ESTADO DO RIO DE JANEIRO
+
+RÉU: TARCISIO LOPES DA SILVA JUNIOR, 077-01596/2023
+
+O MINISTÉRIO PÚBLICO DO ESTADO DO RIO DE JANEIRO ofereceu denúncia contra TARCISIO LOPES DA SILVA JUNIOR, imputando-lhe a prática do crime previsto no artigo 171, § 2º-A, do Código Penal. Segundo a denúncia:
+
+"No dia 13 de março de 2023, por volta das 22h00min., na Rua Gavião Peixoto, n. 34, Ap. 704, bairro Icaraí, nesta comarca, o denunciado, de forma livre e consciente, obteve para si vantagem ilícita de R$ 399,00 (trezentos e noventa e nove reais) em prejuízo de EMERSON GOMES DE SA, mediante fraude, ao fazê-lo acreditar que estava negociando uma TV 42" no site das Lojas Americanas, de anunciante idônea, com anúncio de venda na rede social "Facebook". O denunciado anunciou a venda da TV, ocasião em que o lesado foi direcionado para o WhatsApp (92) 99212-6354. Acreditando tratar-se de funcionário da varejista, a vítima realizou transferência via PIX para a conta do BANCO ASAAS I SA, cuja titularidade é de TARCISIO LOPES DA SILVA JUNIOR."
+
+Denúncia – ID 129465626.
+
+Recebimento da denúncia – ID 129498536, em 08/07/2024.
+
+Resposta à Acusação apresentada pela defesa técnica às fls. ID 234854007, arguindo, preliminarmente, a falta de justa causa e, no mérito, a ausência de dolo.
+
+FAC do réu sem anotações criminais relevantes (ID 276206594).
+
+Audiência de Instrução e Julgamento realizada em 30/04/2026 (ID 279064115), oportunidade em que foi colhido o depoimento da vítima Emerson Gomes de Sá. A oitiva da testemunha policial Jorge Inácio da Costa Junior foi dispensada pelas partes.
+
+Alegações finais do Ministério Público – ID 279064115 (Assentada), em que pugna pela absolvição do réu por insuficiência de provas quanto ao dolo.
+
+Alegações finais da Defesa – ID 279064115 (Assentada), em que pugna pela absolvição, ratificando o parecer ministerial e invocando o princípio in dubio pro reo.
+
+É o relatório. Passo a decidir.
+
+Em Juízo, a vítima EMERSON GOMES DE SÁ narrou a dinâmica do evento. Confirmou ter visto o anúncio patrocinado no Facebook de uma televisão de 42 polegadas por R$ 399,99. Explicou que foi redirecionado para o WhatsApp, onde o interlocutor se identificou como funcionário das Lojas Americanas e forneceu a chave PIX. Após o pagamento e a ausência de entrega do produto, percebeu o golpe. Não soube identificar visualmente o réu, limitando seu relato à dinâmica da fraude.
+
+O réu TARCISIO LOPES DA SILVA JUNIOR não foi interrogado presencialmente, sendo sua revelia decretada ou sua ausência suprida pela defesa técnica, conforme ata de audiência. Ressalte-se que, em sede policial, não houve declaração detalhada que vinculasse o réu ao domínio do fato.
+
+A materialidade delitiva encontra-se comprovada pelo Registro de Ocorrência nº 077-01596/2023 (ID 129465627), pelo comprovante de transferência PIX (ID 129465629) e pelas capturas de tela das conversas de WhatsApp e do anúncio fraudulento.
+
+Quanto à autoria e ao dolo, a análise revela contornos que impedem a condenação.
+
+QUANTO AO CRIME DE ESTELIONATO ELETRÔNICO (ART. 171, § 2º-A, CP)
+
+A tipicidade do crime de estelionato eletrônico exige a presença do elemento subjetivo do tipo: o dolo, consubstanciado na vontade livre e consciente de induzir a vítima em erro para obter vantagem ilícita. No caso vertente, embora a vantagem tenha sido vertida para a conta bancária de titularidade do acusado no Banco ASAAS, a instrução não logrou êxito em demonstrar o liame subjetivo entre Tarcisio e a criação do ardil digital.
+
+A investigação policial trouxe elementos que fragilizam a acusação. O ofício da operadora VIVO (ID 129465636) informou que a linha telefônica utilizada para enganar a vítima operava com um IMEI atrelado a diversas linhas ativadas de forma fraudulenta na modalidade pré-pago, vinculadas a endereços em Manaus/AM. O réu, por sua vez, reside em Recife/PE.
+
+No Direito Penal contemporâneo, a titularidade de conta bancária em instituições digitais, por si só, não autoriza a responsabilização automática por crimes cibernéticos. É comum a figura da "conta de passagem", na qual indivíduos têm seus dados subtraídos ou são cooptados para abrir contas cuja gestão é entregue a terceiros. Para a condenação, seria necessária a prova de que o réu movimentou o numerário ou de que manteve as conversas com a vítima, o que não ocorreu.
+
+A defesa sustenta que não há provas de que o réu agiu com dolo. Tal tese é corroborada pelo próprio Ministério Público em suas alegações finais. No sistema acusatório brasileiro, embora o art. 385 do CPP permita ao juiz condenar quando o MP pede a absolvição, tal faculdade deve ser exercida com parcimônia e fundamentação robusta. Conforme o STJ (REsp 2.022.413/PA, Informativo 765), o magistrado não é mero homologador, mas, neste caso específico, a análise lógica das provas converge para a mesma conclusão ministerial. Não há nos autos elementos que refutem a possibilidade de o réu ter sido vítima de fraude de terceiros ou operado como mero instrumento inconsciente.
+
+A dúvida sobre se o réu foi o mentor da fraude ou apenas teve seus dados utilizados é razoável e intransponível. A prova para condenação deve ser cabal e estreme de dúvidas. A fragmentariedade da investigação, que não periciou o aparelho do réu nem vinculou seu IP aos acessos do WhatsApp criminoso, impede a superação da presunção de inocência.
+
+O dolo eventual, citado em casos análogos de cessão de conta, também exige a prova de que o agente anuiu com o resultado criminoso ao ceder os dados. Sem a prova da cessão consciente ou do proveito econômico derivado da infração, a absolvição é o único caminho técnico.
+
+Ante a manifestação do dominus litis e a fragilidade do nexo de autoria, a improcedência da pretensão punitiva é medida de rigor.
+
+Ante o exposto, JULGO IMPROCEDENTE a pretensão punitiva estatal para ABSOLVER o réu TARCISIO LOPES DA SILVA JUNIOR da imputação da prática do crime previsto no artigo 171, § 2º-A, do Código Penal, com fulcro no artigo 386, inciso VII, do Código de Processo Penal.
+
+1) Sem custas, diante da absolvição.
+
+2) Intimem-se as partes e intime-se pessoalmente o réu.
+
+3) Com o trânsito em julgado, promovam-se as anotações de praxe, dê-se baixa e arquivem-se os autos.
+
+NITERÓI, 13 de maio de 2026.
+
+JULIANA GRILLO EL JAICK
+Juiz Titular
