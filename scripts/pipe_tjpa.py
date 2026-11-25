@@ -13,7 +13,9 @@ Rodar da raiz do repositório. Roteiro por processo (docs/RUNBOOK_TJPA.md):
   4. pdpj_read_documentos_batch(NUM, ids)  (o resultado vai para arquivo)
   5. python3 scripts/pipe_tjpa.py grava ARQUIVO
      -> grava o texto de cada peça (sem a linha Original:), o manifesto e o status; candidata só entra se
-        o texto for de denúncia; imprime a capitulação e o dispositivo, para conferência
+        o texto for de denúncia; imprime a capitulação e o dispositivo, para conferência; recusa o lote,
+        sem gravar nada, se a peça de papel "sent" tiver menos de 1000 caracteres (aviso de sentença em
+        audiência ou em anexo; ACEITA_CURTA=1 grava assim mesmo)
   Perdas: python3 scripts/pipe_tjpa.py status NUM sigilo|nao_encontrado|sem_denuncia|sem_texto "detalhe"
   Andamento: python3 scripts/pipe_tjpa.py resumo
 
@@ -172,10 +174,37 @@ def e_denuncia(texto):
     return bool(RE_DEN.search(cab)) and not RE_NAO_DEN.search(cab[:700])
 
 
+# Sentença do movimento com menos de mil caracteres é, no PJe do TJRJ, só o aviso "O texto da sentença está
+# disponível no documento Ata da Audiência" ou "Sentença em anexo" (5 de 15 no lote 116 a 140; uma já gravada
+# no 31 a 45). Nas 228 sentenças do TJPA e do TJRJ gravadas até 25/11/2026 a menor de verdade tem 2.128.
+MIN_SENT = 1000
+
+
+def util_de(corpo):
+    """Texto sem o marcador de procedência do Codex ("[Texto nativo do PJe]")."""
+    return re.sub(r"^\[[^\]\n]{0,60}\]\s*", "", (corpo or "").strip())
+
+
+def sentenca_curta(corpo):
+    """Há algum texto, mas não chega ao tamanho de sentença; a peça vazia segue para a nota 'sem texto'."""
+    u = util_de(corpo)
+    return 0 < len(u) < MIN_SENT and not u.startswith("(sem conteudo)")
+
+
 def cmd_grava(arq, chamadas, extra=""):
     cur = json.load(open(CUR))
     num = cur["numero"]
     textos = c.separa_lote(ler(arq))
+    curtas = [p for p in cur["pecas"] if p["papel"] == "sent" and sentenca_curta(textos.get(p["id"]))]
+    if curtas and not os.environ.get("ACEITA_CURTA"):
+        # nada é gravado: a denúncia do mesmo lote entraria no manifesto e teria de ser desfeita depois
+        for p in curtas:
+            u = re.sub(r"\s+", " ", util_de(textos[p["id"]]))
+            print("SENTENÇA CURTA", p["id"], len(u), "caracteres:", u[-330:])
+        sys.exit("lote de %s não gravado. Aviso de audiência: a ata é o documento de pdpj_list_movimentos("
+                 "tipo_filter=\"Audiência\", limit=2). 'Sentença em anexo': segunda pergunta pelo documento com o "
+                 "texto integral. Refazer o sel com a peça certa e ler de novo; ACEITA_CURTA=1 grava assim mesmo."
+                 % num)
     n = {"den": 0, "sent": 0}
     notas, cap, disp = [], "", ""
     cands = [p for p in cur["pecas"] if p["papel"] == "cand"]
@@ -183,7 +212,7 @@ def cmd_grava(arq, chamadas, extra=""):
     for p in cur["pecas"]:
         corpo = textos.get(p["id"])
         # o Codex devolve "(sem conteudo)" ou só o marcador de procedência quando não há texto indexado
-        util = re.sub(r"^\[[^\]\n]{0,60}\]\s*", "", (corpo or "").strip())
+        util = util_de(corpo)
         if not corpo or len(util) < 200 or util.startswith("(sem conteudo)"):
             notas.append("sem texto: %s %s" % (p["papel"], p["id"]))
             continue
@@ -318,6 +347,10 @@ def main():
         assert e_denuncia("O Ministério Público ... vem, perante V. Exa., oferecer a presente DENÚNCIA em face de")
         assert not e_denuncia("RESPOSTA À ACUSAÇÃO. O réu, nos autos da denúncia oferecida, vem apresentar")
         assert not e_denuncia("Requer a juntada de procuração e habilitação nos autos.")
+        aviso = "[Texto nativo do PJe]\n\n" + "SENTENÇA EM AUDIÊNCIA O texto da sentença está disponível na Ata. " * 8
+        assert sentenca_curta(aviso) and not sentenca_curta(aviso * 4)
+        assert sentenca_curta("[Texto nativo do PJe]\n\n Sentença em anexo.")
+        assert not sentenca_curta("(sem conteudo)") and not sentenca_curta("[Texto nativo do PJe]") and not sentenca_curta(None)
         print("ok")
     else:
         sys.exit(__doc__)
