@@ -1,0 +1,228 @@
+[Texto nativo do PJe]
+
+Poder Judiciário do Estado do Rio de Janeiro
+
+31ª Vara Criminal da Comarca da Capital
+
+Avenida Erasmo Braga, 115, 706 - Lâmina II, Centro, RIO DE JANEIRO - RJ - CEP: 20020-000
+
+SENTENÇA
+
+Processo: 0927942-37.2024.8.19.0001
+
+AUTOR: MINISTERIO PUBLICO DO ESTADO DO RIO DE JANEIRO
+
+RÉU: JORGE FELIPE DIAS GOMES e outros
+
+Ministério Público ofereceu denúncia contra JORGE FELIPE DIAS GOMES e JAQUELINE DE SOUSA FIRMINO, qualificados nos autos, dando-os como incursos nas sanções do artigo 171, §2º-A, do Código Penal, pela prática da seguinte conduta delituosa:
+
+“Entre os dias 23 e 25 de setembro, em horário que não se pode precisar, mas até 12h do dia 25/09, no hotel Santa Vista, localizado na Rua Doutor Júlio Otoni, n° 254, Santa Teresa, Rio de Janeiro, nesta cidade, os denunciados, consciente e voluntariamente, agindo em concurso de ações e desígnios, obtiveram, para si, vantagem ilícita, no valor de R$ 979,00 reais (novecentos e setenta e nove reais), mediante fraude por meio de dispositivo eletrônico conectado à rede de computadores, com violação a mecanismo de segurança, consistente em utilizar os dados do cartão de crédito VISA n° 4854 6412 3145 3903, validade 04/2028 e CVV 074, banco ITAU e o cartão de crédito com final 4212, ambos de propriedade do lesado Rogério de Oliveira Cabral, para efetuar o pagamento de uma diária do hotel acima citado, conforme descrito nos termos de declarações de ids. 146142533, 146142541 e 146142536 e no registro de ocorrência de id. 146142529.
+
+Os denunciados entraram em contato, via WhatsApp, com o hotel acima mencionado no dia 23 de setembro do corrente ano, identificando-se com o nome e o CPF do lesado Rogério Oliveira, para efetuar a reserva de uma diária do dia 24/09 a 25/09 e forneceram os dois cartões de crédito supracitados como meio de pagamento da estadia. Em seguida, no dia 24 de setembro, os denunciados, se passando por Rogério, entraram em contato com o estabelecimento, comunicando que realizaram a reserva em nome deste, mas quem iria usufruir da estadia seriam uma suposta sobrinha dele e o namorado.
+
+O casal chegou ao hotel no dia 24 de setembro para iniciar a estadia, sem o cartão físico, e informou que os eventuais consumos poderiam ser debitados no cartão de crédito de n° final 3903. Posteriormente, a gerente do hotel, ao ler a conversa no aplicativo WhatsApp, desconfiou de um possível golpe. Com isso, tentou entrar em contato com o titular dos cartões para confirmar a reserva, mas, como não obteve sucesso, acionou a polícia civil. Então, dois policiais se dirigiram para o local e, após conseguirem entrar em contato com o titular do cartão, o qual informou que não conhecia os denunciados e não aprovou qualquer tipo de compra em seu cartão, conduziram os dois à 19ª Delegacia de Polícia.”
+
+Acompanha a Denúncia o respectivo Auto de Prisão em Flagrante, índex 146142528.
+
+Registro de Ocorrência, índex 146142529.
+
+Auto de Apreensão (automóvel), índex 146142530,
+
+Autos de Apreensão (aparelhos celulares), indexadores 146142532 e 146142535.
+
+Dados da Reserva de Hospedagem, índex 146142534.
+
+Registro de Ocorrência Aditado, índex 146147802.
+
+Decisão do Flagrante, índex 146147805.
+
+Folha de Antecedentes Criminais da Acusada Jaqueline, índex 146548190.
+
+Folha de Antecedentes Criminais do Acusado Jorge, índex 146548192.
+
+Realizada Audiência de Custódia, ocasião em que foi deferia a liberdade provisória dos Acusados, sendo impostas medidas cautelares, índex 146571230.
+
+Recebimento de denúncia, índex 165397853.
+
+Resposta Preliminar, índex 172491619.
+
+Designada a Audiência de Instrução e Julgamento para o dia 15/05/2025, índex 181839927.
+
+Realizada Audiência de Instrução e Julgamento, ocasião em que foram ouvidas três testemunhas ministeriais. No mesmo ato, foi designada a continuação da AIJ para o dia 01/07/2025, índex 193032230.
+
+Ato adiado para o dia 19/08/2025, índex 205376833.
+
+Laudos de Perícia Criminal em Equipamento Computacional Portátil, indexadores 218181598 e 218181599.
+
+Realizada Audiência de Instrução e Julgamento, ocasião em que foi ouvida a vítima, bem como interrogados os Acusados, índex 218815713.
+
+Em Alegações Finais, o Ministério Público requer a condenação dos Acusados, nos termos da denúncia, índex 235977937.
+
+Em Alegações Finais, a Defesa requer, preliminarmente, o reconhecimento da imprestabilidade das provas digitais apresentadas, diante da quebra da cadeia de custódia. Subsidiariamente, pleiteia pela absolvição dos Acusados, nos termos do art. 386, II e VII, do CPP, índex 239865925.
+
+Eis o Relatório. Passo a Decidir.
+
+1.  Da Preliminar
+
+A Defesa dos Acusados arguiu, preliminarmente, em sede de memoriais, a nulidade processual, aduzindo que “As capturas de tela anexadas aos autos não foram coletadas por meio pericial, não possuem metadados, não têm origem certificada e sofreram evidente quebra da cadeia de custódia, em violação ao art. 158-A e seguintes do CPP.”
+
+Não assiste razão à Defesa. Vejamos.
+
+Inicialmente, merece destaque que a n. Defesa técnica assiste aos Réus desde o início desta Ação Penal, tendo apresentado Resposta Preliminar, sendo que jamais formulou qualquer requerimento de perícia acerca das capturas de tela acostadas ao índex 146142534.
+
+Como é sabido, a Defesa Preliminar é o momento processual adequado para “especificar as provas pretendidas e arrolar testemunhas, qualificando-as”, conforme prevê o art. 396-A, do CPP.
+
+Além do mais, merece registro que mesmo após encerrada a Instrução e julgamento, ao final da Audiência, a Defesa, novamente se manteve inerte, nada requerendo.
+
+Ou seja, a Defesa atuou desde o início da ação penal, sem NADA ter requerido acerca da prova ora contestada, preferindo somente em sede de memoriais fazê-lo, talvez porque não lhe tenha restado defesa de mérito a ser feita.
+
+Assim, vem a Defesa, frise-se, que atuou desde o início da ação penal, sem NADA ter requerido, somente neste momento processual, contestar a legitimidade de prova que jamais impugnou durante toda a Instrução Criminal.
+
+Conforme definido pelo n. Ministro do STJ Ribeiro Dantas no RHC nº 77.836, in verbis: "a cadeia de custódia tem como objetivo garantir a todos os acusados o devido processo legal e os recursos a ele inerentes, como a ampla defesa, o contraditório e, principalmente, o direito à prova lícita. O instituto abrange todo o caminho que deve ser percorrido pela prova até sua análise pelo magistrado, sendo certo que qualquer interferência durante o trâmite processual pode resultar na sua imprestabilidade".
+
+Ademais, a Jurisprudência do Superior Tribunal de Justiça possui entendimento consolidado de que capturadas de telas de mensagens de WhatsApp obtidas por particular desde que não haja sinal de adulteração e que sejam corroborados em juízo, não caracterizam afronta ao art. 158-A do Código de Processo Penal, como se deu no caso dos autos, in verbis:
+
+DIREITO PROCESSUAL PENAL. AGRAVO REGIMENTAL. PROVA DIGITAL. PRINTS DE WHATSAPP OBTIDOS POR PARTICULAR. VIOLÊNCIA DOMÉSTICA. APLICAÇÃO DA SÚMULA N. 7 DO STJ. AGRAVO DESPROVIDO. I. Caso em exame 1. Agravo regimental interposto contra decisão monocrática que conheceu do agravo para não conhecer do recurso especial, com fundamento na Súmula n. 7 do STJ. 2. O agravante foi condenado à pena de 1 mês e 10 dias de detenção, em regime aberto, pela prática do crime de ameaça (art. 147 do CP), no contexto da Lei Maria da Penha, além do pagamento de R$ 5.000,00 a título de reparação por dano moral. 3. A defesa sustenta que não se trata de reexame de provas, mas de revaloração jurídica quanto à ilicitude objetiva do meio de prova por violação ao art. 158-A do CPP, além de alegar contradição entre a sentença e o acórdão quanto aos elementos probatórios considerados para a condenação. II. Questão em discussão 4. A questão em discussão consiste em saber se os prints de mensagens de WhatsApp obtidos por particular, confirmados em juízo e sem indícios de manipulação, configuram violação ao art. 158-A do CPP e se podem ser utilizados como prova válida para condenação. III. Razões de decidir 5. A decisão monocrática aplicou corretamente a Súmula n. 7 do STJ, considerando que a análise da autenticidade e do valor probante dos prints de WhatsApp demandaria reexame de premissas fáticas definitivamente assentadas pelo Tribunal de origem. 6. Este Superior Tribunal de Justiça possui entendimento consolidado de que prints de mensagens de WhatsApp obtidos por particular, quando confirmados em juízo e sem indícios de manipulação, não configuram violação ao art. 158-A do CPP. 7. Os precedentes invocados pela defesa tratam de situações distintas, envolvendo provas digitais colhidas pela polícia sem observância de metodologia técnica adequada, o que não se aplica ao caso em que as provas foram obtidas por particular. 8. A palavra da vítima, em casos de violência doméstica, possui especial relevância probatória, especialmente quando corroborada por outros elementos de prova, conforme jurisprudência consolidada. 9. A defesa não apresentou argumentos novos capazes de infirmar os fundamentos da decisão monocrática, limitando-se a reiterar alegações já examinadas e rejeitadas. IV. Dispositivo e tese 10. Resultado do Julgamento: Agravo regimental desprovido. Tese de julgamento: 1. Prints de mensagens de WhatsApp obtidos por particular, confirmados em juízo e sem indícios de manipulação, não configuram violação ao art. 158-A do Código de Processo Penal. 2. A aplicação da Súmula n. 7 do STJ é adequada quando o acolhimento da tese defensiva demandaria reexame de premissas fáticas assentadas pelas instâncias ordinárias. 3. A palavra da vítima em casos de violência doméstica possui especial relevância probatória, especialmente quando corroborada por outros elementos de prova. Dispositivos relevantes citados: CPP, art. 158-A; CP, art. 147. Jurisprudência relevante citada: STJ, Súmula n. 7; EDcl no HC n. 945.157/SC, Rel. Min. Daniela Teixeira, Quinta Turma, julgado em 04.11.2024. (AgRg no AREsp n. 2.967.267/SC, relator Ministro Messod Azulay Neto, Quinta Turma, julgado em 21/10/2025, DJEN de 27/10/2025.) (destaquei)
+
+Mas, ainda que assim não fosse, a Jurisprudência Pátria possui entendimento pacífico que a alegada quebra da cadeia de custódia não invalida a condenação se esta foi amparada em evidências suficientes da materialidade do crime, uma vez que o reconhecimento de nulidade exige a comprovação de prejuízo efetivo, conforme o Princípio Pas de Nulité Sans Grief.
+
+Neste sentido, transcrevo a jurisprudência supra do Superior Tribunal de Justiça, verbis:
+
+PENAL. PROCESSO PENAL. AGRAVO REGIMENTAL NO AGRAVO EM RECURSO ESPECIAL. CONTRABANDO. ART. 334-A, § 1º, INCISO IV, DO CP. CIGARROS. MATERIALIDADE COMPROVADA. QUEBRA DA CADEIA DE CUSTÓDIA DA PROVA NÃO DEMONSTRADA. NULIDADE. AUSÊNCIA DE PREJUÍZO. AGRAVO REGIMENTAL NÃO PROVIDO. 1. A jurisprudência desta Corte Superior é no sentido de que o instituto da quebra da cadeia de custódia diz respeito à idoneidade do caminho que deve ser percorrido pela prova até sua análise pelo magistrado, sendo certo que qualquer interferência durante o trâmite processual pode resultar na sua imprestabilidade. Tem como objetivo garantir a todos os acusados o devido processo legal e os recursos a ele inerentes, como a ampla defesa, o contraditório e principalmente o direito à prova lícita (AgRg no HC 615.321/PR, Rel. Ministro RIBEIRO DANTAS, Quinta Turma, julgado em 03/11/2020, DJe 12/11/2020). 2. In casu, embora tenha se reconhecido a divergência da quantidade de cigarros apreendidos constantes no auto de infração confeccionado pela Receita Federal (1.050 maços) e no auto de apreensão e exibição da polícia civil (10.050 maços), não se pode falar na quebra da cadeia de custódia, uma vez que há provas suficientes nos autos para a condenação, tendo em vista que ficou comprovado que o acusado manteve em depósito pelo menos 1.050 maços de cigarros estrangeiros sem a devida documentação da regular internalização em território nacional. Assim, tal situação não induz à imprestabilidade da prova, tendo em vista que ficou comprovado que os 1.050 maços pertencem mesmo ao acusado, o que configura o delito. 3. Ademais, importante destacar que a jurisprudência desta Corte Superior se firmou no sentido de que, no campo da nulidade no processo penal, vigora o princípio pas de nulité sans grief, previsto no art. 563, do CPP, segundo o qual, o reconhecimento de nulidade exige a comprovação de efetivo prejuízo. Desse modo, a contradição do número de cigarros apreendidos não proporcionou prejuízo para a demonstração da materialidade do crime imputado ao acusado, sendo indubitável que o réu manteve em depósito pelo menos 1.050 maços de cigarros estrangeiros sem a devida documentação da regular internalização em território nacional. Assim, a defesa não logrou demonstrar prejuízo em razão do alegado vício, visto que a condenação se sustenta nos 1050 maços apreendidos. 4. Agravo regimental não provido. (AgRg no Agravo em Recurso Especial nº 1.847.296 – PR; STJ – 5ª Turma, Rel. Min. Reynaldo Soares da Fonseca, DJe 22 de junho de 2021) (grifei)
+
+“1. No moderno sistema processual penal, eventual alegação de nulidade, ainda que absoluta, deve vir acompanhada da demonstração do efetivo prejuízo. Não se proclama uma nulidade sem que se tenha verificado prejuízo concreto à parte, sob pena de a forma superar a essência. Vigora, portanto, o princípio pas de nulitté sans grief, a teor do que dispõe o art. 563 do Código de Processo Penal. (AgRg no HC n. 727.709/MG, relator Ministro Reynaldo Soares da Fonseca, Quinta Turma, julgado em 16/8/2022, DJe de 22/8/2022).
+
+Pelo exposto, REJEITO a preliminar aventada e passo à análise do mérito.
+
+2.  Do Mérito
+
+Imputa-se aos Acusados a prática do crime de estelionato qualificado mediante fraude eletrônica, nos termos do artigo 171, §2º-A, do Código Penal, de que foi lesada a Sociedade Empresária Hotel Santa Vista.
+
+Ao final da instrução criminal, resultou comprovada a acusação no entender deste Juízo, impondo-se a condenação, tão somente, do Acusado JORGE FELIPE DIAS, na forma que passarei a expor.
+
+Contudo, conforme irei demonstrar, em relação à corré JAQUELINE DE SOUSA, o mesmo não se pode concluir, não resultando comprovada a acusação.
+
+Materialidade e autoria (Réu JORGE FELIPE DIAS) comprovadas pelo Auto de Prisão em Flagrante, índex 146142528, Auto de Apreensão (automóvel), índex 146142530, Autos de Apreensão (aparelhos celulares), indexadores 146142532 e 146142535, Dados da Reserva de Hospedagem, índex 146142534, Registro de Ocorrência Aditado, índex 146147802, Decisão do Flagrante, índex 146147805, bem como pelas declarações da vítima e da testemunha em sede policial e em Juízo.
+
+Em Juízo, a vítima e as testemunhas de acusação ouvidas sob o crivo das garantias constitucionais do contraditório e da ampla defesa, assim declararam:
+
+Às perguntas de praxe respondeu que: é a vítima; que, à época dos fatos, nunca havia visto os Acusados; que não conhecia os acusados; que nunca teve contato pessoal com os Acusados. Às perguntas formuladas foi respondido que: por volta das 23 horas, recebeu uma ligação telefônica de número desconhecido em sua residência, a qual não atendeu por não atender chamadas após certo horário; que, na manhã seguinte, foi contatado pela polícia, que informou sobre uma tentativa de uso de cartão com seu nome em uma pousada localizada em Santa Teresa; que verificou que o cartão apresentado na tentativa de fraude continha apenas seu nome, sem correspondência com os números de qualquer um de seus cartões; que a ligação da pousada ocorreu na noite anterior, mas não foi atendida; que, na manhã seguinte, atendeu ligação da polícia informando sobre a tentativa de uso do cartão; que confirmou à polícia ter recebido chamada durante a noite anterior; que nunca teve contato pessoal com os acusados; que não conhece os acusados e nunca os viu; que não houve débito em sua conta bancária; que o cartão utilizado na tentativa de fraude não possuía numeração correspondente a nenhum dos seus cartões; que o cartão verdadeiro era da bandeira Visa, e que, ao consultar o banco Itaú, foi informado de que não havia qualquer tentativa de transação registrada; que não conhecia a pousada mencionada e apenas teve ciência do estabelecimento no dia dos fatos; que, embora conheça Santa Teresa, nunca ouvira falar no nome da pousada; que não teve contato direto com funcionários da pousada, apenas soube que uma representante do local esteve na delegacia; que não compareceu à delegacia; que prestou esclarecimentos por meio de aplicativo de mensagens; que o policial responsável entrou em contato por telefone, relatou os fatos e solicitou a assinatura do termo de declaração; que recebeu o documento, leu, conferiu e confirmou que estava de acordo com o que havia informado; que relutou inicialmente em fornecer seus dados pessoais por receio de fraude; que o delegado insistiu no contato, explicando a necessidade de colaboração; que recebeu a confirmação da veracidade do procedimento por um amigo policial, que conhecia o delegado responsável; que, após essa confirmação, forneceu seus dados pessoais para a formalização da ocorrência. (Vítima Rogério de Oliveira Cabral);
+
+Às perguntas de praxe respondeu que: era funcionária do hotel e exercia a função de gerente à época dos fatos; que conheceu os acusados exclusivamente como clientes, não tendo qualquer vínculo anterior com eles. Às perguntas formuladas foi respondido que: no momento da chegada dos Acusados ao hotel, encontrava-se em sua residência, mas acompanhava as comunicações do Hotel por meio do sistema interno de mensagens do estabelecimento, ao qual todos os funcionários com acesso podiam visualizar; que as mensagens trocadas com os Acusados chamaram sua atenção por apresentarem informações contraditórias e comportamento atípico; que os Acusados demonstraram insistência incomum em efetuar o pagamento integral da hospedagem à distância, o que gerou suspeita; que, questionados, os Acusados inicialmente afirmaram que o cartão utilizado era de um tio, depois disseram ser do tio da namorada, modificando a versão ao longo da conversa; que a identidade do titular do cartão foi enviada por meio digital para efetivação da reserva; que outro indivíduo, indicado pelos Acusados como amigo, também tentou realizar reserva no mesmo dia, enviando imagem de documento de identidade visivelmente falsificado; que, diante das inconsistências e suspeitas, bloqueou o sistema de reservas para impedir novas entradas; que entrou em contato com um policial conhecido, pois já havia ocorrido situação semelhante anteriormente, e solicitou orientação; que o policial consultou os dados e confirmou que o titular do cartão não era a pessoa hospedada; que foi combinada com a polícia a abordagem dos Acusados na manhã seguinte; que os Acusados passaram a noite no hotel e usufruíram da hospedagem, incluindo possível consumo de itens do frigobar; que a primeira transação foi aprovada, mas posteriormente contestada pelo titular do cartão junto ao banco; que o pagamento da segunda parte da hospedagem não foi efetivado; que o sistema do hotel exige pagamento de 50% da hospedagem no ato da reserva e 50% no check-in, além do envio prévio de documentação pessoal e dados de cartão de crédito; que os dados do cartão também servem para cobrir eventuais consumos realizados durante a estadia, os quais são cobrados no momento do check-out; que o Acusado já havia se hospedado anteriormente no hotel, acompanhado de outra pessoa, supostamente irmã, mas não estava presente naquela ocasião e desconhece os detalhes; que, nesta segunda estadia, foi efetuado o check-in normalmente e os Acusados permaneceram no hotel até a abordagem policial; que, após as suspeitas, repassou todas as informações diretamente à polícia, sem confrontar os Acusados; que acredita ter trocado algumas poucas palavras com o titular do cartão, possivelmente na Delegacia, e que ele afirmou não conhecer os Acusados nem ter autorizado o uso de seu cartão para qualquer reserva; que não se recorda se chegou a enviar mensagens diretamente ao titular do cartão na noite anterior aos fatos; que não recorda com exatidão o momento do contato com o titular, mas acredita que tenha ocorrido entre o dia do check-in e o dia seguinte; que todos os funcionários do hotel ficaram apreensivos diante da presença de pessoas suspeitas no local, temendo possíveis consequências. (Testemunha Luciana Lourenço Gomes);
+
+Às perguntas de praxe respondeu que: é policial civil; que reconhece os Acusados; que não conhecia os Acusados antes dos fatos; que se recorda dos fatos. Às perguntas formuladas foi respondido que: a gerente do hotel entrou em contato com a equipe policial após identificar uma situação suspeita envolvendo possível fraude; que a equipe já havia realizado uma prisão anterior no mesmo hotel, relacionada a fraude semelhante, consistente no uso de dados de cartão de crédito de terceiros para hospedagem; que a equipe deslocou-se até o local e conseguiu contato com a vítima, proprietária do cartão, que confirmou desconhecer a transação; que os policiais localizaram os dados da vítima por meio de pesquisa em sistema, identificando que ela residia, salvo engano, em Campo Grande; que, após a negativa da vítima quanto à compra, os policiais se dirigiram ao hotel e conduziram os dois acusados à delegacia; que, no momento da abordagem, os acusados estavam no quarto localizado logo após a recepção do hotel; que o delegado também estava presente e possivelmente foi quem fez o contato inicial com os envolvidos; que não recorda se o contato com a vítima foi feito antes da chegada ao hotel ou durante o trajeto; que acredita ter sido o responsável pelo contato com a vítima; que não se recorda da ordem exata dos acontecimentos; que a gerente informou que os acusados haviam feito check-in no dia anterior e que pernoitaram no hotel; que não se recorda do horário exato do check-in; que não sabe informar se a vítima prestou esclarecimentos pessoalmente na delegacia ou em Campo Grande; que acredita que o termo de declaração da vítima tenha sido assinado presencialmente em uma delegacia daquela localidade com apoio de equipe local; que, por se tratar de flagrante, não houve diligência posterior da equipe quanto às mensagens trocadas entre os acusados e o hotel; que apenas conduziu a ocorrência; que os acusados foram abordados no hotel enquanto dormiam no quarto; que a reserva havia sido feita utilizando dados de cartão em nome da vítima Rogério; que os acusados confessaram ter utilizado os dados do cartão; que um dos acusados afirmou ter obtido os dados por meio de um conhecido que aplicava esse tipo de fraude; que esse conhecido realizava as reservas em hotéis de alto padrão utilizando dados de terceiros e revendia as hospedagens por valor inferior ao de mercado; que o acusado adquiriu a reserva desse indivíduo por valor mais baixo; que o pagamento não era feito diretamente pelo acusado ao hotel, mas ao fraudador que utilizava cartões de terceiros; que esse intermediário não foi identificado. (Testemunha PCERJ Rafael Antônio Gomes Rangel Junior);
+
+Às perguntas de praxe respondeu que: é policial civil; que reconhece os Acusados; que não conhecia os Acusados antes dos fatos. Às perguntas formuladas foi respondido que: foi designado pelo Delegado da unidade policial para se dirigir a um hotel em Santa Teresa, a fim de averiguar possível ocorrência de fraude ou furto; que, ao chegar ao local, encontrou um casal, em relação ao qual a gerência do hotel manifestava suspeita de utilização de dados de terceiros para pagamento da hospedagem; que o Acusado afirmou ter adquirido a hospedagem por meio de um amigo, mediante pagamento de aproximadamente R$ 100,00; que o Acusado confirmou não ser titular do cartão utilizado e declarou que apenas comprara um voucher com crédito de hospedagem; que o Acusado afirmou não possuir dados do referido amigo, informando apenas tratar-se de um conhecido do bairro, sem vínculo próximo; que o Acusado relatou que utilizava a hospedagem juntamente com sua companheira no momento da abordagem; que, questionado sobre a identidade do suposto intermediador, o Acusado declarou não saber informar, limitando-se a dizer que se tratava de um conhecido; que não se recorda do horário exato da chegada ao hotel, apenas que já era dia e estava claro; que não sabe precisar se o fato ocorreu na data de check-in ou de check-out dos Acusados; que foi acionado diretamente pela Autoridade Policial e se dirigiu ao local; que não sabe informar como a vítima, Rogério, foi localizada; que presume ter sido por meio da inteligência policial, a partir da verificação no banco de dados que confirmou a divergência na titularidade do cartão; que não tem conhecimento sobre o momento exato em que a vítima foi contatada, se antes, durante ou após a diligência no hotel. (Testemunha PCERJ Gustavo Fernandes Silva)
+
+Os Acusados, no momento de seus interrogatórios, negaram os fatos que lhes foram imputados, prestando as seguintes declarações:
+
+Às perguntas formuladas foi respondido que: não são verdadeiras as acusações; à época dos fatos, mantinha união estável com o corréu; que ambos se hospedaram no hotel Santa Vista, em Santa Teresa, entre os dias 25 e 26 de dezembro; que não participou da realização da reserva; que foi convidada pelo companheiro para reatar o relacionamento e apenas o acompanhou; que não teve conhecimento prévio sobre a forma de pagamento ou sobre quem havia efetuado a reserva; que forneceu seus documentos normalmente no momento do check-in e permaneceu no local; que, na manhã seguinte, foi surpreendida com a chegada da polícia, sendo conduzida sem saber o motivo; que não foi informada por seu companheiro sobre o uso de cartão de crédito em nome de terceiro; que não teve oportunidade de conversar com o companheiro após a abordagem, pois foram separados logo no início da ação policial; que, após o ocorrido, o casal se separou e não houve explicações adicionais por parte do companheiro; que nunca havia sido presa ou processada anteriormente. (Acusada Jaqueline de Sousa Firmino)
+
+Às perguntas de praxe respondeu que: não são verdadeiras as acusações. Às perguntas formuladas foi respondido que: mantinha relacionamento com a corré à época dos fatos e que ambos estavam temporariamente separados; que convidou a corré para uma tentativa de reconciliação e a levou ao hotel Santa Vista, em Santa Teresa; que já havia se hospedado anteriormente no mesmo hotel sem qualquer problema; que um conhecido, ciente de que o interrogado frequentava o hotel, ofereceu um voucher de hospedagem em troca da prestação de um serviço de lavagem de estofados; que realizou a limpeza do sofá na residência desse conhecido e, em troca, recebeu o direito de utilizar o voucher para hospedagem; que o conhecido informou que bastava comparecer ao hotel e realizar o check-in, sem necessidade de efetuar pagamento; que chegou ao hotel com a corré, forneceu nome completo e fotos dos documentos de identificação de ambos por meio de aplicativo de mensagens; que foi informado que o valor da hospedagem seria pago posteriormente, no momento do check-out, conforme prática usual do hotel; que não sabe de quem eram os dados do cartão de crédito utilizado na reserva; que não forneceu dados de cartão de crédito em nome de terceiro; que não teve conhecimento prévio de que o cartão estava em nome de Rogério; que afirmou não ter trocado mensagens com o hotel anteriormente à chegada; que reconheceu ter fornecido documentos por WhatsApp no momento do check-in, conforme solicitado pelo hotel; que afirmou desconhecer a origem do cartão de crédito utilizado e não ter sido responsável por seu uso; que não forneceu nome completo nem dados do conhecido que lhe ofereceu o voucher, tendo apenas apelido e, possivelmente, endereço antigo, pois a pessoa mudava-se com frequência; que, durante a hospedagem, evitou consumir produtos do restaurante devido ao preço e optou por se alimentar em estabelecimento próximo; que, após a abordagem policial, não teve oportunidade de conversar com a corré sobre os fatos; que retomou contato com ela posteriormente, mas não trataram do ocorrido; que, nas hospedagens anteriores, sempre realizou pagamentos no check-out via Pix, sem necessidade de fornecer dados bancários antecipadamente; que, nas experiências anteriores no hotel, também não foi exigido fornecimento de cartão de crédito. (Acusado Jorge Felipe Dias Gomes)
+
+Segundo consta dos autos, o Acusado, de forma livre e consciente com animus fraudandi, obteve vantagem econômica ilícita, no valor de R$ 979,00 reais (novecentos e setenta e nove reais), mediante fraude por meio de dispositivo eletrônico conectado à rede de computadores, com violação a mecanismo de segurança, consistente em utilizar os dados do cartão de crédito VISA n° 4854 6412 3145 3903, validade 04/2028 e CVV 074, banco ITAÚ e o cartão de crédito com final 4212, para efetuar o pagamento de uma diária na Sociedade Empresária lesada Hotel Santa Vista.
+
+A vítima Rogério de Oliveira Cabral prestou depoimento em sede inquisitorial e em Juízo declarando que, na noite dos fatos, por volta das 23 horas, recebeu uma ligação telefônica de número desconhecido em sua residência, a qual não atendeu por não responder chamadas após certo horário. Ainda durante aquela noite, também recebeu uma ligação proveniente da pousada em Santa Teresa, a qual não atendeu.
+
+Na manhã seguinte, foi contatado pela Autoridade Policial da 19ª DP, que informou sobre uma tentativa de uso de um cartão de crédito em seu nome em uma pousada localizada em Santa Teresa. Ao verificar os dados, constatou que o cartão apresentado na tentativa de fraude continha apenas seu nome, mas não correspondia aos números de qualquer cartão de sua propriedade.
+
+Informou, ainda, que nunca teve contato pessoal com os Acusados e desconhecia a pousada lesada, bem como não teve contato direto com funcionários da pousada, tomando conhecimento apenas que uma representante do local compareceu à Delegacia.
+
+Ressalta que não compareceu pessoalmente à sede policial, tendo prestado esclarecimentos por meio de aplicativo de mensagens, ocasião em que o agente público responsável entrou em contato por telefone, expôs os acontecimentos e solicitou sua assinatura no termo de declaração, enviando-lhe o depoimento, oportunidade em que conferiu e confirmou que o conteúdo estava de acordo com as informações prestadas.
+
+Por fim, declarou que relutou em fornecer seus dados pessoais por receio de fraude, contudo, após confirmação da veracidade do procedimento, autorizou a formalização da ocorrência junto à Autoridade Policial.
+
+Ademais, a testemunha Luciana Lourenço Gomes, gerente do hotel Santa Vista à época dos fatos declarou em Juízo que no momento da chegada dos Acusados ao hotel, encontrava-se em sua residência, acompanhando as comunicações internas do estabelecimento pelo sistema de mensagens acessível aos funcionários.
+
+Relata que as conversas mantidas pelos Acusados chamaram sua atenção por apresentarem informações contraditórias e comportamento considerado atípico, uma vez que demonstravam insistência incomum em efetuar o pagamento integral da hospedagem à distância.
+
+Em sequência, ao serem questionados, mudaram a versão apresentada: inicialmente disseram que o cartão utilizado pertencia a um tio e, depois, afirmaram que seria do tio da namorada, sendo certo que a identidade do titular do cartão foi enviada de forma digital para viabilizar a reserva.
+
+Ainda no mesmo dia, outro indivíduo, apresentado pelos Acusados como amigo, tentou realizar reserva no hotel e enviou imagem de um documento de identidade que aparentava ser falsificado. Diante dessas inconsistências, prontamente decidiu bloquear o sistema de reservas para impedir novas entradas.
+
+Ato contínuo, entrou em contato com um policial conhecido, relatando que já havia enfrentado situação semelhante anteriormente, solicitando auxílio, oportunidade em que o agente público consultou os dados e confirmou que o titular do cartão não correspondia à pessoa que estava hospedada.
+
+Nesse contexto fático, foi ajustada com a Polícia Civil a abordagem dos Acusados para a manhã seguinte, circunstância em que os Acusados permaneceram no hotel durante a noite e usufruíram da hospedagem, incluindo possível consumo de itens do frigobar.
+
+Esclarece o sistema do hotel exige pagamento de 50% da hospedagem no ato da reserva e 50% no check-in, além do envio prévio de documentação pessoal e dados de cartão de crédito, utilizados inclusive para cobrir eventuais consumos até o checkout, ressaltando que a primeira transação referente ao pagamento foi aprovada, mas posteriormente contestada pelo titular do cartão junto ao banco, bem como a segunda parte do pagamento não chegou a ser efetuada.
+
+Informou que o Acusado já havia se hospedado anteriormente no hotel, acompanhado de outra pessoa que seria sua irmã, embora ela não estivesse presente na ocasião e não conhecesse detalhes daquele período. Na estadia dos fatos narrados na denúncia, o check-in ocorreu normalmente, e os acusados permaneceram no hotel até o momento da abordagem policial.
+
+Acrescentou ter trocado poucas palavras com o titular do cartão, possivelmente na Delegacia, ocasião em que ele afirmou não conhecer os acusados nem ter autorizado o uso de seu cartão para qualquer reserva.
+
+Por fim, declarou que todos os funcionários ficaram apreensivos diante da presença de pessoas consideradas suspeitas no ambiente do hotel.
+
+Constam, ainda, os depoimentos das testemunhas PCERJ Rafael Antônio Gomes Rangel Junior e Gustavo Fernandes Silva, corroborando a versão acusatória, declarando que, no dia dos fatos,  a gerente do Hotel Santa Vista entrou em contato com a equipe policial após identificar uma situação suspeita envolvendo possível fraude, sendo certo que já havia realizado uma prisão anterior no mesmo hotel por fraude semelhante, consistente no uso de dados de cartões de terceiros para hospedagem.
+
+Diante da nova comunicação, os policiais deslocaram-se até o local e conseguiram contato com o proprietário do cartão bancário utilizado pelos Acusados para realizar a reserva no referido hotel, que confirmou desconhecer a transação realizada em seu nome, de modo que os dados da vítima foram localizados por meio de pesquisa do setor de inteligência, sendo identificado que ela residia, salvo engano, em Campo Grande.
+
+Após a negativa da vítima quanto à hospedagem no estabelecimento, os policiais seguiram para o hotel, ocasião em que encontraram os Acusados no quarto situado logo após a recepção, onde haviam feito check-in no dia anterior e que pernoitaram no hotel, sendo conduzidos à sede policial.
+
+Esclareceram que o Acusado confessou informalmente que obteve as informações bancárias da vítima por meio de um conhecido que aplicava crimes com mesmo modus operandi, a saber, realizava reservas em hotéis de alto padrão usando cartões de terceiros e revendia as hospedagens por valores inferiores aos de mercado, de modo que o Acusado declarou ter adquirido a reserva desse intermediário por preço mais baixo, no valor de R$100,00 (cem reais) que fora pago diretamente a ele e não ao hotel, afirmando tratar-se apenas de um conhecido do bairro, sem vínculo próximo e sem apresentar qualquer qualificação.
+
+Ao final, por se tratar de flagrante, afirmaram que não houve diligência posterior da equipe quanto às mensagens trocadas entre os Acusados e o hotel, ficando restritos a conduzirem a ocorrência.
+
+Ademais, a prova documental, corrobora a versão acusatória, nesse ponto consta dos autos o dados da reserva de hospedagem, índex 146142534, confirmando os dados bancários inseridos em nome Rogério de Oliveira Cabral, resultando demonstrado que o Acusado se utilizou de fraude eletrônica para obter vantagem indevida em prejuízo do Hotel Santa Vista, afastando qualquer dúvida acerca de sua responsabilidade pelos fatos em apuração.
+
+A Ré, na ocasião de seu interrogatório, negou os fatos narrados na denúncia, esclarecendo que não teve qualquer participação na reserva do Hotel, apenas tendo sido convidada pelo corréu para um encontro no local, desconhecendo a forma de pagamento utilizada e a utilização de cartão de crédito em nome de terceiro, ressaltando, ainda, que foi surpreendida pela ação policial.
+
+Por sua vez, o Réu, ao ser interrogado, negou os fatos que lhe foram imputados, contudo, apresentou versão pouco crível, não sendo capaz de esclarecer – tampouco comprovar – como efetuou o pagamento pela hospedagem.
+
+Nesse ponto, alegou o Réu em Juízo que a reserva da hospedagem teria sido realizada por meio de um voucher fornecido por um conhecido em troca da prestação de um serviço de lavagem de estofados, circunstância em que foi informado de que bastaria comparecer ao hotel para realizar o check-in, sem necessidade de pagamento antecipado.
+
+Aduziu, ainda, desconhecer totalmente a origem e a titularidade do cartão utilizado na reserva, afirmando não ter fornecido dados de terceiros, tampouco saber que o cartão estava em nome de Rogério.
+
+Acrescentou que, em ocasiões anteriores em que se hospedara no mesmo hotel, o pagamento sempre ocorreu no checkout, via Pix, sem exigência de dados bancários ou cartão de crédito, razão pela qual acreditou que o procedimento seria o mesmo.
+
+Ora, o Acusado afirma ter recebido um “voucher” de hospedagem em troca da prestação de um serviço de lavagem de estofados de um “conhecido” cuja identidade sequer foi minimamente qualificada, eis que não forneceu nome, contato, referência concreta ou qualquer dado que permitisse a identificação desse suposto intermediário.
+
+Ademais, sustenta ter obtido a referida hospedagem por valor irrisório, cerca de R$ 100,00 (cem reais), quantia incompatível com o preço de mercado para o tipo de serviço contratado, não sendo crível o valor alegado, mesmo em promoções, para estadias em hotel situado no bairro de Santa Teresa, circunstância que, por si só, denota anormalidade suficiente para despertar desconfiança de fraude, sobretudo, diante do de uso de cartão de crédito pertencente a terceiro, cuja titularidade ele afirma desconhecer por completo.
+
+Por fim, a justificativa de que acreditava não haver irregularidade porque, em hospedagens anteriores, pagou no checkout, não é suficiente para esclarecer o porquê não questionou a forma de pagamento realizada por um terceiro, frisa-se, desconhecido, tampouco por que aceitou utilizar reserva obtida mediante procedimento supostamente diverso do adotado pelo hotel.
+
+Forçoso concluir que a versão apresentada pelo Acusado não encontra respaldo na prova dos autos, não passando de mera tentativa de se livrar da responsabilidade penal pela prática do crime de estelionato qualificado mediante fraude eletrônica.
+
+A n. Defesa, não produziu qualquer prova, deixando de ilidir a acusação, limitando-se a requerer a absolvição dos Réus.
+
+Conclui-se que o denunciado obteve vantagem ilícita em detrimento do lesado Hotel Santa Vista, mediante fraude por meio de dispositivo eletrônico conectado à rede de computadores, com violação a mecanismo de segurança, consistente em utilizar os dados do cartão de crédito de terceiro para efetuar o pagamento de uma diária do estabelecimento supra, ressaltando-se que a empresa suportou o prejuízo, eis que a primeira transação referente ao pagamento foi aprovada, mas posteriormente contestada pela Instituição Bancária emissora do cartão; a segunda parte do pagamento não chegou a ser efetuada, bem como os Acusados permaneceram no hotel durante a noite e usufruíram da hospedagem, incluindo possível consumo de itens do frigobar.
+
+No crime de estelionato a ação tipificada é obter vantagem ilícita (para si ou para outrem), em prejuízo alheio, induzindo ou mantendo alguém em erro mediante artifício, ardil ou qualquer outro meio fraudulento. Nesse sentido, segundo Cezar Roberto Bittencourt, a configuração do estelionato exige:
+
+“1) emprego de artifício, ardil ou qualquer outro meio fraudulento; 2) induzimento ou manutenção da vítima em erro; 3) obtenção de vantagem patrimonial ilícita em prejuízo alheio (do enganado ou de terceiros).”.
+
+No mais, têm-se como bem nítida a circunstância qualificadora referente à fraude eletrônica, uma vez que resultou comprovado que o Acusado utilizou os dados do cartão de crédito VISA n° 4854 6412 3145 3903, validade 04/2028 e CVV 074, banco ITAU e o cartão de crédito com final 4212 para efetuar o pagamento fraudulento de uma diária do hotel lesado por meio de dispositivo eletrônico conectado à rede de computadores, de modo que deve incidir a qualificadora prevista no §2º-A, do artigo 171, do Diploma Penal.
+
+Assim, presente a responsabilidade penal subjetiva do Acusado JORGE FELIPE DIAS GOMES pela prática do crime de estelionato qualificado mediante fraude eletrônica, tendo o delito resultado consumado, eis que a empresa lesada sofreu prejuízo patrimonial em detrimento do Réu.
+
+Relativamente à corré JAQUELINE DE SOUSA, ao final da Instrução Criminal, não resultou comprovada a acusação, conforme manifestação ministerial em sede de memoriais.
+
+Isso porque a Ré fora denunciada apenas por acompanhar o corréu JORGE FELIPE DIAS no momento da hospedagem, inexistindo qualquer elemento que indique sua participação consciente no uso de dados de cartão de crédito de terceiro, relatando em sede judicial ter apenas aceitado o convite do companheiro para reatar o relacionamento, sem participar da reserva, sem tratar da forma de pagamento e sem possuir ciência de qualquer fraude, tampouco, as testemunhas lhe atribuíram conduta relevante, não havendo indicação de que tenha interagido com o hotel para fornecer dados ou participar da dinâmica delitiva.
+
+Assim, forçoso concluir que sem uma prova segura, iniludível, escoimada de qualquer incerteza, a absolvição da Acusada JAQUELE DE SOUSA se impõe como medida de Justiça.
+
+Diante do exposto, JULGO PARCIALMENTE PROCEDENTE a pretensão punitiva estatal para CONDENAR JORGE FELIPE DIAS GOMES pela prática do crime previsto no artigo 171, §2º-A, do Código Penal; bem como ABSOLVER JAQUELINE DE SOUSA FIRMINO da prática do crime previsto artigo 171, §2º-A, do Código Penal, com fulcro no artigo 386, inciso VII, do CPP.
+
+Atendendo às circunstâncias judiciais previstas no artigo 59 do Código Penal, passo à fixação da pena:
+
+1) O Réu é primário e não possuidor de maus antecedentes, conforme sua Folha Penal de índex 146548192. Nesse sentido, não se vê motivos para que sua pena-base seja fixada acima do patamar mínimo legal, qual seja, qual seja, 04 (quatro) anos de reclusão e pagamento de 10 (dez) dias-multa, com o valor unitário do DM no mínimo legal.
+
+2) Não há incidência de circunstâncias atenuantes, nem agravantes.
+
+3) Não há causas de aumento ou diminuição de pena, em razão do que torno definitivos os quantitativos acima.
+
+Concedo ao Acusado a substituição de sua pena privativa de liberdade por 02 (duas) penas restritivas de direitos, sendo uma de prestação de serviços à comunidade, à razão de uma hora por dia de condenação, e outra de prestação pecuniária no valor de 03 (três) salários-mínimos, ambas a favor de entidade assistencial, a ser indicada pelo Juízo da Execução, com fulcro no art. 44, e §2º, primeira parte, c/c art. 45, §1º, c/c art. 46 e §§, todos do Código Penal.
+
+Fixo, o regime aberto para cumprimento da pena prisional do Acusado, em caso de descumprimento das condições acima impostas, na forma do artigo 33, § 2º, “c”, do Código Penal.
+
+Condeno o Réu, outrossim, no pagamento das despesas processuais, observando-se o disposto nos artigos 98, caput e parágrafo 4º, do CPC e 804, do CPP.
+
+Considerando-se que não consta nenhuma restrição relativa aos bens apreendidos, considerando-se, ainda, que não há qualquer indício de que os bens sejam produtos/proveitos do crime, DEFIRO a restituição do veículo e dos aparelhos celulares apreendidos. Oficie-se.
+
+Transitada em julgado, comunique-se a condenação aos órgãos competentes, inclusive na forma do artigo 259, XXIX a XXXII, do Código de Normas da CGJ, INTIME-SE a empresa lesada para fornecer os dados bancários para cumprimento da pena restritiva ora imposta. Após, INTIME-SE o Réu para comprovar o cumprimento da presente. Prazo 15 dias e expeçam-se Guias de Execução para Vara de Execuções de Penas e Medidas Alternativas da Capital (VEPEMA). Publicado eletronicamente. R. I. Após, aguarde-se em local virtual próprio.
+
+Após, ARQUIVEM-SE, anotando-se no Sistema Eletrônico o prazo para cumprimento da pena do Réu. Ao final do prazo, DESARQUIVEM-SE os autos, certificando-se e oficiando-se eletronicamente à VEPEMA a fim de comprovar o cumprimento da pena imposta.
+
+RIO DE JANEIRO, 8 de janeiro de 2026.
+
+DANIELA BARBOSA ASSUMPÇÃO DE SOUZA
+Juiz Titular
