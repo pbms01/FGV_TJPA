@@ -1,0 +1,1598 @@
+[Texto nativo do PJe]
+
+Estado do Rio de Janeiro Poder Judiciário
+
+Tribunal de Justiça
+
+Comarca de Barra Mansa
+
+Cartório da 2ª Vara Criminal
+
+Rua Argemiro de Paula Coutinho, 2000 CEP: 27310-020 - Barbara - Barra Mansa - RJ Tel.: (24)3325-3744     e-mail:
+
+bma02vcri@tjrj.jus.br
+
+Fls.
+
+Processo: 0009782-44.2019.8.19.0007
+
+Processo Eletrônico
+
+Classe/Assunto: Ação Penal - Procedimento Ordinário - Furto Qualificado  (Art. 155, § 4o. -
+
+CP); Concurso de Pessoas (Arts. 29 a 31 - Cp)
+
+Autor: MINISTERIO PUBLICO DO ESTADO DO RIO DE JANEIRO
+
+Acusado: IGOR CEZAR GUIMARAES GOES
+
+Acusado: LEONARDO VITOR DIAS NICODEMOS
+
+Acusado: RODRIGO THIAGO DE CASTRO SILVA TAVARES
+
+Inquérito  090-02561/2017  19/09/2017  90ª Delegacia Policial
+
+___________________________________________________________
+
+Nesta data, faço os autos conclusos ao MM. Dr. Juiz
+
+William Satoshi Yamakawa
+
+Em 17/03/2025
+
+Sentença
+
+Trata-se de ação penal proposta pelo Ministério Público do Estado do Rio de Janeiro, por meio
+
+do Grupo de Atuação Especial no Combate ao Crime Organizado - GAECO, contra os
+
+denunciados em referência, como incursos nas sanções do art. 155, § 4º, incisos II e IV do
+
+Código Penal, na forma do art. 29, ambos do Código Penal.
+
+Inicialmente destaco que os crimes imputados foram praticados por meio de organização
+
+criminosa e, conquanto os denunciados não a tenham constituído ou integrado, com ela
+
+contribuíram atuando como "laranjas", mencionando o Ministério Público a distribuição de
+
+diversas outras denúncias estruturadas pela função exercida por cada componente, a fim de
+
+que fosse viabilizado o exercício da ampla defesa diante do elevado número de integrantes do
+
+grupo criminoso.
+
+Passo a seguir à transcrição da denúncia, especificamente na parte como se estruturou a
+
+organização criminosa, seu "modus operandi" e a atuação dos réus:
+
+Passo a seguir à transcrição da denúncia, em síntese:
+
+"(...)  A  estrutura  da  organização  criminosa  contava  com  uma complexa divisão de
+
+tarefas, atribuindo função especifica a cada membro da  organização.  Como  uma
+
+verdadeira  empresa,  possuíam  uma  rígida disciplina  de  horários,  com  início,
+
+almoço  e  término,  denominando  sua prática  criminosa  como  "TRAMPO"  e  seus
+
+partícipes  subordinados  como funcionários.
+
+Desse  modo,  em  linhas  gerais,  podemos  traçar  da  seguinte maneira as atribuição e
+
+funções de cada membro:
+
+"LARANJA" - na base da pirâmide, integra o nível mais baixo da estrutura da organização.
+
+Responsável por fornecer sua conta bancária para  a  transferência  do  dinheiro  desviado,
+
+recebendo  um  percentual  do valor  furtado  (em  regra  10%).  Não  possui  vinculo
+
+estável  ou permanente  com  a  organização,  porém  tem  plena  consciência  da
+
+ilicitude dos fatos praticados.
+
+110                                                                        CLAUDIOSM
+Estado do Rio de Janeiro Poder Judiciário
+
+Tribunal de Justiça
+
+Comarca de Barra Mansa
+
+Cartório da 2ª Vara Criminal
+
+Rua Argemiro de Paula Coutinho, 2000 CEP: 27310-020 - Barbara - Barra Mansa - RJ Tel.: (24)3325-3744     e-mail:
+
+bma02vcri@tjrj.jus.br
+
+"LARANJA  ESPECIAL"  -  são  responsáveis  por  fornecer, reiteradamente, suas contas
+
+bancárias para receber  valores desviados. A reiteração das condutas demonstra a existência
+
+de um liame subjetivo estável e duradouro com os demais integrantes da organização
+
+criminosa.
+
+"ATIVADOR" - funcionários ou terceirizados de operadoras de telefonia  móvel  responsáveis
+
+em  realizar  "PUXADAS"  de  IMEI  e "RESGATES"   de  linhas  telefônicas  de
+
+vítimas  em  outros  "SIMCARD"  utilizados pelos HACKERS na fraude. Permitem, com isso,
+
+que o HACKER receba notificações (tokens) que a instituição bancária encaminharia para o
+
+telefone da vítima, em celulares da quadrilha.
+
+"ALICIADOR" - membros que gozam de algum prestígio dentro da  organização  criminosa
+
+e,  por  isso,  contam  com  a confiança dos líderes operacionais (denominados
+
+"CABEÇAS"). São responsáveis por angariar novos "LARANJAS" dispostos a cederem suas
+
+contas  pessoais  para  pronto  emprego  no  esquema fraudulento.
+
+"CABEÇA"  -  líder  de  cada  célula  criminosa,  integra  o  nível intermediário da
+
+organização, com uma função de "gerente". Coordenando uma rede  de  ALICIADORES,
+
+centraliza  todas  as  contas  angariadas determinado  qual  receberá  a  transferências
+
+do  valor  subtraído.  Com acesso  aos  HACKER's,  atua  como  uma  barreira  que
+
+impede  qualquer interligação dos níveis mais baixos da malta com os líderes.
+
+"LIGADOR"  -  atua  diretamente  com  o  HACKER,  sendo responsável  pela
+
+"ENGENHARIA  SOCIAL".  Tem  a  função  de  obter informações  privilegiadas,  ligando
+
+para  a  vítima  e  identificando-se, falsamente,  como  funcionário  de  instituições
+
+bancárias,  induzindo-as  a executarem  ações  em  seus  computadores,  como  acessar
+
+sites  falsos  e programas que capturam informações de senhas e tokens.
+
+"LAVADOR"  -  pessoa  de  extrema  confiança  do  HACKER, destina-se  a  receber,
+
+dissimular  e  ocultar  propriedade,  bens  e  valores angariados  com  a  prática
+
+criminosa.  É  por intermédio  deles  que  os HACKER's recebem e movimentam grandes
+
+quantias em dinheiro, atuando como pilar financeiro da organização criminosa.
+
+"CODER" - é um HACKER especializado, atuando com e para diversos outros HACKERS.
+
+Pessoa  expert em linguagem  de programação de  computadores,  com  a  função
+
+específica  em  desenvolver  "TELAS PHISHING"  e  programas  capazes  de  capturar
+
+informações  pessoais  e bancárias das vítimas, como senhas, tokens e até mesmo acesso
+
+remoto a seus  computadores.  O  CODER  pode  receber  pagamentos  semanais  pelo
+
+uso de suas TELAS, ou cobrar a comissão de 10% por cada "INFO"  obtida com elas.
+
+"HACKER"  -  no  topo  da  hierarquia,  é  um  expert  em tecnologia  de  informação,
+
+com  capacidade  em  burlar  sistemas  de segurança  eletrônica  de  bancos,  seja  por
+
+uso  de  engenharia  social,  seja  aproveitando falhas nos sistemas. Os HACKER's são os
+
+mentores de toda a organização  criminosa,  possuindo  uma  estrutura  de  pessoas
+
+subordinadas e empenhadas exclusivamente na aplicação e execução das  fraudes.  Podem
+
+atuar  de  forma  independente,  ou  em  cooperação  com outros HACKER's.
+
+...............................................................................................................
+
+MODO DE OPERAÇÃO DO NÚCLEO DE CAMPO
+
+Em  linhas  gerais,  é  possível  afirmar  que  o  NÚCLEO OPERACIONAL  da
+
+organização  criminosa  adotava  o  seguinte  modus operandi:
+
+Após  os  HACKERS  burlarem  a  segurança  bancária, conseguindo  acesso  aos
+
+dados  dos  titulares  de  contas  lesadas  (senhas, CPF,  nomes,  nº  de  agência  e
+
+conta  e  códigos  de  segurança  ou  tokens), dava-se início a operacionalização de
+
+campo, para a consumação do furto, com a obtenção e posse das res furtiva.
+
+110                                                                        CLAUDIOSM
+Estado do Rio de Janeiro Poder Judiciário
+
+Tribunal de Justiça
+
+Comarca de Barra Mansa
+
+Cartório da 2ª Vara Criminal
+
+Rua Argemiro de Paula Coutinho, 2000 CEP: 27310-020 - Barbara - Barra Mansa - RJ Tel.: (24)3325-3744     e-mail:
+
+bma02vcri@tjrj.jus.br
+
+Para  tanto,  os  HACKERS  acionam  os  "CABEÇAS"  da organização,  para  que
+
+forneçam  contas  de  "LARANJAS"  para  o direcionamento e transferências dos valores
+
+subtraídos das vítimas.
+
+Os "CABEÇAS", por sua vez, recorrem a seus ALICIADORES de confiança, e estes acionam
+
+suas redes de contatos para conseguirem um ou vários "LARANJAS" para receber o dinheiro.
+
+Visando garantir o sucesso da  empreitada  criminosa  e  a  efetiva  obtenção  do
+
+produto  do  crime,  as lideranças  da  malta  estabeleceram  uma  espécie  de
+
+protocolo  de verificação: o "LARANJA" é obrigado a fornecer seu CPF, dados da conta que
+
+receberá o dinheiro subtraído, uma cópia de um extrato atualizado e a sua senha de acesso,
+
+conforme a seguir:
+
+Tais informações são repassadas ao ALICIADOR, que, por sua vez,  as  encaminham  ao
+
+"CABEÇA",  sempre  por  meio  do  aplicativo WhatsApp, para dificultar o acesso por
+
+interceptação.
+
+O "CABEÇA" confere se a conta fornecida pelo "LARANJA" está  ativa  e  sem  débito.
+
+Após,  repassa  os  dados  da  conta  ao  HACKER,  que combina com os demais
+
+envolvidos o horário exato em que a transferência será  concretizada.  Isso  porque  o
+
+bando  tinha  uma  "janela"  de  poucos minutos para efetuar o saque do valor  sem que a
+
+transação fraudulenta fosse recebida e bloqueada pelos sistemas de segurança dos bancos.
+
+O  ALICIADOR  fica  responsável  por  acompanhar  o  "LARANJA" até a entrada da
+
+agência bancária para que o saque seja realizado na hora determinada  pelo  HACKER.  A
+
+transferência  só  é  feita  com  a  garantia  de que o ALICIADOR esteja ao lado do
+
+"LARANJA".
+
+Ultimada a transferência e efetuado o saque pelo "LARANJA", o proveito  do  crime  era
+
+imediatamente  entregue  ao  "ALICIADOR",  que repassava  10%  ao  "LARANJA"  e,
+
+posteriormente  repassava  o  percentual cabível ao "CABEÇA" e este ao "HACKER",
+
+normalmente por meio de seus LAVADORES.
+
+DIVISÃO DE VALORES
+
+Segundo  restou  apurado,  a  divisão  do  dinheiro  se  dava  da seguinte forma: O
+
+HACKER fica com a quantia de 40% do valor subtraído. O  LIGADOR  com  10%  do  valor.
+
+O  "CABEÇA",  por  sua  vez,  fica  com  a quantia equivalente a 25% do valor subtraído.
+
+O ALICIADOR fica com de 15% do valor furtado. O "LARANJA", por fim, fica com a quantia de
+
+10% do valor amealhado em cada fraude. Nas fraudes onde não são utilizados LIGADORES,
+
+o  HACKER  fica  com  50%  do  valor  subtraído.  No  curso  das investigações, não
+
+foi possível  definir  qual o montante do valor "lavado" permanecia  com  a pessoa  utilizada
+
+para  realizar  a  operação  de  lavagem de dinheiro.
+
+................................................................................................................ III.1.  DO  FURTO
+
+QUE  CONTOU  COM  A  PARTICIPAÇÃO  DO "LARANJA" IGOR CEZAR GUIMARÃES
+
+GOES
+
+Restou apurado que, nos dias 02 e 03 de agosto de 2017, na Rua  Barcelos  Domingos,  47,
+
+Campo  Grande,  Rio  de  Janeiro/RJ,  sede  da agência 0066, do Banco Santander, e na
+
+Praça Prudente de Morais, sem número,  Centro,  Indaiatuba/SP,  sede  da  agência
+
+4637,  do  Banco Santander,  NEWTON  CESAR  ROCHA  DE  CASTRO,  vulgo  NEW,
+
+com  a participação de THIAGO DOMINGOS LOPES, vulgo THIAGO SADAN, IGOR  CEZAR
+
+GUIMARÃES GOES e ARIEL BATISTA, em comunhão de ações e desígnios entre si e com
+
+terceiros não identificados, subtraíram para si e para outrem, mediante fraude, a quantia total
+
+de R$ 5.380,00 (cinco mil, trezentos  e  oitenta  reais)  de  propriedade  da  vítima
+
+LUCAS  FABRICIO PIRES.
+
+De  acordo  com  o  que  se  extrai  dos  elementos  indiciários contidos  nos
+
+110                                                                        CLAUDIOSM
+Estado do Rio de Janeiro Poder Judiciário
+
+Tribunal de Justiça
+
+Comarca de Barra Mansa
+
+Cartório da 2ª Vara Criminal
+
+Rua Argemiro de Paula Coutinho, 2000 CEP: 27310-020 - Barbara - Barra Mansa - RJ Tel.: (24)3325-3744     e-mail:
+
+bma02vcri@tjrj.jus.br
+
+presentes  autos,  o  "HACKER"  NEWTON  conseguiu  acesso  à conta corrente da
+
+vítima, mediante fraude. Solicitou, então, ao "CABEÇA" THIAGO SADAN dados bancários de
+
+um laranja, para realizar a transação fraudulenta.  THIAGO,  então,  passou  os  dados  de
+
+IGOR  CEZAR GUIMARÃES  GOES,  para  cuja  conta  foram  realizadas  as
+
+transações irregulares. Cumpre notar que o "CABEÇA" THIAGO conseguiu os dados do
+
+"LARANJA" com o ALICIADOR ARIEL BATISTA.
+
+É  incontestável  que  IGOR  concordou  em  receber  os  créditos de origem
+
+sabidamente espúria, no valor total de R$ 5.380,00 (subtraído da vítima).
+
+Portanto,  é  correto  afirmar  que  IGOR  CEZAR  GUIMARÃES GOES concorreu
+
+eficazmente para a subtração da quantia acima indicada, ao  fornecer  voluntariamente  os
+
+dados  de  sua  conta  bancária  para recebimento de valores subtraídos pela Organização
+
+Criminosa, mediante fraude.  Fraude  essa  consistente  em  utilizar  clandestinamente  os
+
+dados bancários da vítima para acessar sua conta bancária.
+
+III.2.  DOS  FURTOS  QUE  CONTARAM  COM  A  PARTICIPAÇÃO  DO "LARANJA"
+
+LEONARDO VITOR DIAS NICODEMOS
+
+Restou apurado que nos dias 04 e 07 de agosto de 2017, na Rua  Dom  Aquino,  sem
+
+número,  centro,  Campo  Grande/MS  e  Avenida Nossa  Senhora  de  Copacabana,
+
+1099,  Copacabana,  Rio  de  Janeiro/RJ, sede  das  Agências  1753  e  3254  do
+
+Banco  Santander,  respectivamente, ARIEL  BATISTA  em  comunhão  de  ações  e
+
+desígnios  com  THIAGO DOMINGOS  LOPES,  vulgo  THIAGO  SADAN,  e
+
+LEONARDO  VITOR  DIAS NICODEMOS,  e  terceiros  não  identificados,  subtraíram
+
+para  si  e  para outrem, mediante fraude, as quantias de R$ 4.000,00 (quatro mil reais) e R$
+
+5.100,00  (cinco  mil  e  cem  reais),  de  propriedade,  respectivamente, das vítimas
+
+MARIZA OLIVEIRA GOMES DA SILVA e JUAN AURÉLIO OSPINO PEREZ.
+
+O ALICIADOR  ARIEL forneceu os dados da conta  bancária do "LARANJA" LEONARDO
+
+VITOR para o "CABEÇA" THIAGO SADAN, que, por  seu  turno,  encaminhou  tais
+
+informações  para  algum  HACKER  ainda não  identificado.  Realizaram,  então,  as
+
+subtrações  das  quantias  acima referidas, transferindo-as para a conta do citado
+
+"LARANJA".
+
+É  incontestável  que  LEONARDO  VITOR  concordou  em receber os créditos de origem
+
+sabidamente espúria, subtraídos das citadas vítimas em datas diversas.
+
+Portanto,  é  correto  afirmar  que  LEONARDO  VITOR  DIAS NICODEMOS concorreu
+
+eficazmente para a subtração das quantias acima indicadas,  ao  fornecer  voluntariamente
+
+os  dados  de  sua  conta  bancária para  recebimento  de  valores  subtraídos  pela
+
+Organização  Criminosa, mediante fraude. Fraude essa consistente em utilizar
+
+clandestinamente os dados bancários da vítima para acessar sua conta bancária.
+
+III.3.  DOS  FURTOS  QUE  CONTARAM  COM  A  PARTICIPAÇÃO  DO "LARANJA"
+
+RODRIGO THIAGO DE CASTRO SILVA TAVARES
+
+Restou apurado que, no dia 02 de agosto de 2017, na Avenida Presidente  Vargas,  810,
+
+Centro,  Cabo  de  Santo  Agostinho/PE,  sede  da agência 4156, do Banco Santander, e
+
+na Rua do Comércio, 263, Centro, Angra dos Reis/RJ, sede da agência 1779, do Banco
+
+Santander, NEWTON CESAR  ROCHA  DE  CASTRO,  vulgo  NEW,  com  a
+
+participação  de  THIAGO DOMINGOS  LOPES,  vulgo  THIAGO  SADAN,  RODRIGO
+
+THIAGO  DE CASTRO SILVA TAVARES  e de ARIEL BATISTA, em comunhão de ações e
+
+desígnios entre si e com terceiros não identificados, subtraíram para si e para outrem,
+
+mediante fraude, a quantia de R$ 1.800,00 (mil e oitocentos reais)  e  R$  1.100,00  (mil  e
+
+cem  reais)  de  propriedade  das  vítimas LEONARDO MANGHI e GRACIELA ROSA DE
+
+OLIVEIRA, respectivamente.
+
+110                                                                        CLAUDIOSM
+Estado do Rio de Janeiro Poder Judiciário
+
+Tribunal de Justiça
+
+Comarca de Barra Mansa
+
+Cartório da 2ª Vara Criminal
+
+Rua Argemiro de Paula Coutinho, 2000 CEP: 27310-020 - Barbara - Barra Mansa - RJ Tel.: (24)3325-3744     e-mail:
+
+bma02vcri@tjrj.jus.br
+
+De  acordo  com  o  que  se  extrai  dos  elementos  indiciários contidos  nos
+
+presentes  autos,  o  "HACKER"  NEWTON  conseguiu  acesso  à conta  corrente  das
+
+vítimas,  mediante  fraude.  Solicitou,  então,  ao "CABEÇA" THIAGO SADAN dados
+
+bancários de um laranja, para realizar a transação  fraudulenta.  THIAGO,  então,  passou
+
+os  dados  de  RODRIGO THIAGO DE CASTRO SILVA TAVARES, para cuja conta foram
+
+realizadas as  transações  irregulares.  Deve-se  destacar  que  THIAGO  SADAN
+
+conseguiu os dados do "LARANJA" com o "ALICIADOR" ARIEL BATISTA.
+
+É  incontestável  que  RODRIGO  THIAGO  concordou  em receber os créditos de origem
+
+sabidamente espúria, subtraídos das citadas vítimas.
+
+Portanto,  é  correto  afirmar  que  RODRIGO  THIAGO  DE CASTRO  SILVA
+
+TAVARES  concorreu  eficazmente  para  a  subtração  das quantias  acima  indicadas,
+
+ao  fornecer  voluntariamente  os  dados  de  sua conta bancária para recebimento de
+
+valores subtraídos pela Organização Criminosa,  mediante  fraude.  Fraude  essa
+
+consistente  em  utilizar clandestinamente  os  dados  bancários  da  vítima  para
+
+acessar  sua  conta bancária."
+
+A denúncia foi instruída com o inquérito policial nº 090-02561/2017, oriundo da Delegacia de
+
+Polícia Civil desta cidade, bem como pelos autos da medida cautelar de afastamento do sigilo
+
+bancário nº 0006217-09.2018.8.19.0007 e relatórios da medida de afastamento do sigilo de
+
+dados e interceptação telefônica e telemática nº 0014897-80.2018.8.19.0007, cujos elementos
+
+se encontram alocados em nove anexos que compõem os autos.
+
+Decisão de recebimento da denúncia no index. 47.
+
+Os réus foram citados e apresentaram resposta à acusação nos indexs.66, 76 e 113.
+
+As questões processuais suscitadas foram decididas conforme index. 128.
+
+No index. 137 foi comunicada a prolação de decisão pelo Superior Tribunal de Justiça que
+
+tornou inválidas provas obtidas com a apreensão de computador de denunciado em processo
+
+do qual estes autos se originaram.
+
+No index. 242 este Juízo proferiu decisão acentuando que as provas que instruem a denúncia
+
+deste processo não se originaram daquelas declaradas inválidas pelo Tribunal Superior.
+
+Folhas de antecedentes criminais nos indexs.255/271.
+
+Audiência de instrução realizada conforme termos contidos nos indexs. 314 e 340.
+
+Alegações finais do Ministério Público no index. 349, salientando, em síntese, que o farto
+
+material probatório constante dos autos confirmou a atuação dos réus nas subtrações
+
+imputadas, tendo eles agido como "laranjas", cedendo suas contas para o recebimento de
+
+quantias desviadas dos bancos de dados de instituições bancárias por fraude, pugnando, pois,
+
+pela procedência da pretensão punitiva estatal.
+
+Alegações finais defensivas do acusado Leonardo Vítor Dias Nicodemos no index. 386,
+
+sustentando, em síntese, a fragilidade da prova acusatória, embasada, apenas, em informes
+
+de policiais, sem respaldo na medida cautelar de interceptação telefônica, razão pela qual
+
+pugnou pela absolvição. Subsidiariamente, requereu fossem as penas aplicadas no mínimo
+
+legal, com a substituição prevista no art. 44 do Código Penal.
+
+Alegações finais defensivas do acusado Igor Cézar Guimarães Góes no index. 395, pugnando
+
+pela absolvição, ante a incidência do princípio da insignificância. Subsidiariamente, pugnou
+
+pelo reconhecimento do privilégio e da participação de menor importância.
+
+No index. 399, a Defesa Técnica do denunciado Rodrigo Thiago de Castro Silva Tavares
+
+110                                                                        CLAUDIOSM
+Estado do Rio de Janeiro Poder Judiciário
+
+Tribunal de Justiça
+
+Comarca de Barra Mansa
+
+Cartório da 2ª Vara Criminal
+
+Rua Argemiro de Paula Coutinho, 2000 CEP: 27310-020 - Barbara - Barra Mansa - RJ Tel.: (24)3325-3744     e-mail:
+
+bma02vcri@tjrj.jus.br
+
+pugnou pela remessa dos autos ao Ministério Público para manifestação quanto ao cabimento
+
+de acordo de não persecução penal. Não obstante, apresentou alegações finais requerendo a
+
+absolvição, ante a fragilidade das provas na demonstração do dolo de agir, uma vez que o
+
+denunciado não quis o resultado e não assumiu o risco de produzi-lo. Subsidiariamente, pela
+
+aplicação das penas no mínimo legal, reconhecendo-se a participação de menor importância,
+
+com a substituição prevista no art. 44 do Código Penal.
+
+A manifestação do Ministério Público se encontra no index. 415, pelo não cabimento do acordo
+
+de não persecução penal, ante relevância  das  condutas  dos  denunciados  para  o
+
+sucesso da empreitada criminosa.
+
+É o relatório. Decido.
+
+Inicialmente consigno que a presente sentença analisará apenas as imputações de furto
+
+qualificado dirigidas aos denunciados em referência, salientando que não foi atribuída a eles a
+
+prática do crime de constituição ou integração em organização criminosa.
+
+Contextualizando os diversificados elementos de prova constantes dos autos,
+
+consubstanciados nos relatórios da medida cautelar de interceptação telefônica, naqueles
+
+elaborados a partir do afastamento do sigilo de dados de aparelhos de telefonia móvel
+
+apreendidos, além de documentos emitidos por instituições bancárias, depoimentos na fase
+
+policial e judicial, resta patente que os denunciados concorreram para a prática das subtrações
+
+noticiadas na denúncia, mediante fraude.
+
+Com efeito, as infrações penais imputadas foram cometidas por meio de organização
+
+criminosa constituída com o escopo de invadir bancos de dados de instituições bancárias e
+
+subtrair valores de correntistas.
+
+No comando das ações de inteligência estavam os indivíduos vulgarmente denominados de
+
+"hackers", que sabidamente ostentam vastos conhecimentos acerca de tecnologia da
+
+informação, desenvolvimento de sistemas e de programas de computador capazes de
+
+penetrarem em bancos de dados de instituições financeiras, violarem senhas e executarem
+
+transferências de valores.
+
+A estrutura operacional que tornou possível o resultado visado pelas ações dos "hackers" foi
+
+concebida mediante divisão funcional das atividades.
+
+Assim, os "experts" em tecnologia da informação contaram com a figura de um coordenador ou
+
+gerente, denominado "cabeça", único que com eles mantinha interlocução, cabendo-lhe,
+
+dentre outras atribuições, a verificação quanto a regularidade das contas bancárias cooptadas
+
+para o recebimento de valores desviados, a habilitação de "chips" clonados em aparelhos de
+
+telefonia móvel, viabilizando o contato com a instituição bancária alvo das ações, além da
+
+violação de senhas e códigos de "tokens", imprescindíveis à efetivação das transferências.
+
+Compreende-se também como funções do "cabeça" o gerenciamento de pessoas,
+
+especificamente, a coordenação e instrução do grupo de aliciadores, além de tarefas afetas à
+
+contabilidade dos recursos obtidos e sua distribuição, em percentuais também fixados, para
+
+cada componente.
+
+Em escalão imediatamente inferior, se colocavam os "aliciadores", componentes cujas funções
+
+se circunscreviam ao recrutamento de pessoas que cediam suas contas correntes para o
+
+recebimento dos valores desviados, mediante contraprestação em percentual da subtração,
+
+cabendo-lhes, ainda, pessoalmente, supervisionar os saques, evitando eventuais perdas para
+
+o grupo criminoso.
+
+Por fim, na cadeia estrutural foi comprovada a atuação de inúmeros indivíduos que cediam
+
+suas contas correntes para o recebimento de valores desviados, repita-se, mediante
+
+contraprestação em espécie, fixada em percentual estabelecido, os denominados "laranjas".
+
+110                                                                        CLAUDIOSM
+Estado do Rio de Janeiro Poder Judiciário
+
+Tribunal de Justiça
+
+Comarca de Barra Mansa
+
+Cartório da 2ª Vara Criminal
+
+Rua Argemiro de Paula Coutinho, 2000 CEP: 27310-020 - Barbara - Barra Mansa - RJ Tel.: (24)3325-3744     e-mail:
+
+bma02vcri@tjrj.jus.br
+
+O "modus operandi" adotado pela organização criminosa tinha como ponto de partida a
+
+invasão dos sistemas informatizados de dados das instituições bancárias, efetuada pelo
+
+"hacker". Obtido sucesso, o "expert" estabelecia contato com o "cabeça", buscando um
+
+número de conta corrente para a qual os valores seriam dirigidos. Ato contínuo, o "cabeça"
+
+acionava seus aliciadores, que consultavam o banco de contas que teriam sido cooptadas,
+
+informando aquela que melhor se adequava ao pleito formulado.
+
+Verificada a higidez da conta informada, o "cabeça" estabelecia novo contato com o "hacker",
+
+que efetivava a transferência, o que era objeto de conferência pelo "cabeça", que em seguida
+
+ordenava ao aliciador que acompanhasse o "laranja" à agência bancária para realizar o saque.
+
+Em linhas gerais, assim funcionava a engrenagem que movimentava o núcleo criminoso.
+
+Não obstante, se faz necessária uma breve exposição acerca da atuação de Thiago Domingos
+
+Lopes, alcunhado "Sadan".
+
+Com efeito, após a apreensão de aparelhos de telefonia móvel de alguns integrantes da
+
+organização criminosa e, bem assim, o afastamento do sigilo de dados e interceptação
+
+telefônica e telemática das referidas linhas, constatou-se a existência de intensa atividade do
+
+grupo voltada a dar suporte a ação desenvolvida pelos "hackers".
+
+Assevere-se que todas as transferências eletrônicas de valores efetuadas pelo grupo, objeto
+
+de mensagens contidas nos aparelhos de telefonia móvel apreendidos, foram confirmadas
+
+pelas instituições cujos clientes foram lesados, como tendo sido implementadas por meio de
+
+fraude.
+
+Os elementos coligidos evidenciaram que Thiago "Sadan" integrava a organização criminosa
+
+exercendo função de "escol", qual seja, aquela denominada na denúncia de "cabeça",
+
+consubstanciada na chefia de um de dos núcleos operacionais do organismo criminoso, com
+
+contato direto e exclusivo com os "hackers".
+
+Nessa conformidade, Thiago Domingos Lopes foi denunciado e condenado, por sentença
+
+transitada em julgado, pelo cometimento dos crimes de integração em organização criminosa e
+
+furtos qualificados pelo concurso de agentes e emprego de fraude.
+
+Impende também consignar que quando da deflagração da operação, com o cumprimento das
+
+ordens de prisão e busca e apreensão domiciliar, foi possível apreender o aparelho de
+
+telefonia móvel de Thiago "Sadan", cujo afastamento do sigilo de dados foi autorizado por este
+
+Juízo, estando todo o conteúdo alocado no anexos 4, 5 e 6 destes autos.
+
+À vista dos documentos mencionados, impressiona o volume de invasões aos sistemas de
+
+dados de diversas instituições bancárias e, por via de consequência, o volume de patrimônios
+
+atingidos pelo atuar, o que causou expressivo prejuízo, conforme pode ser constatado pelas
+
+informações constantes dos anexos mencionados.
+
+Vê-se das interlocuções de Thiago "Sadan" diversas transmissões de fotografias de vários
+
+cartões bancários, suas senhas, extratos, "sim cards" virgens, comprovantes de depósitos
+
+bancários, arquivos destinados à criação se "sites" falsos de instituições bancárias ("phishing"),
+
+recebimento de "tokens" autorizativos de transações, além de estratégias de saques de forma
+
+a não alcançarem o limite diário fixado pelas instituições, bem como a realização de
+
+pagamentos àqueles que cooperavam e integravam a organização no exercício de atividades
+
+diversas.
+
+Todo esse material traz a convicção acerca da natureza das atividades desenvolvidas pelo
+
+grupo criminoso e a efetiva atuação dos "experts" em tecnologia da informação, os
+
+denominados "hackers", que mantinham interlocução com Thiago "Sadan" solicitando números
+
+de contas correntes de "laranjas" para alocação dos recursos financeiros objetos de
+
+110                                                                        CLAUDIOSM
+Estado do Rio de Janeiro Poder Judiciário
+
+Tribunal de Justiça
+
+Comarca de Barra Mansa
+
+Cartório da 2ª Vara Criminal
+
+Rua Argemiro de Paula Coutinho, 2000 CEP: 27310-020 - Barbara - Barra Mansa - RJ Tel.: (24)3325-3744     e-mail:
+
+bma02vcri@tjrj.jus.br
+
+subtrações.
+
+Diante de tais elementos, repita-se, a atuação de Thiago "Sadan" sobressaía, revelando-se
+
+como verdadeiro operador do esquema fraudulento.
+
+Cabe ainda destacar a atuação de Ariel Batista junto à organização criminosa, que se mostrou
+
+bastante efetiva no aliciamento de contas correntes, de forma a possibilitar-lhe atuar em dois
+
+núcleos operacionais distintos, dentre os quais, o comandado por Thiago "Sadan".
+
+Saliento que em apenas dois meses de monitoramento telefônico autorizado judicialmente, foi
+
+possível observar a voracidade do atuar de Ariel na cooptação de contas correntes e, bem
+
+assim, na implementação de logística apropriada ao recebimento dos valores desviados com a
+
+necessária celeridade, o que também se constata da análise dos elementos extraídos do
+
+aparelho de telefonia móvel de Thiago "Sadan", cujo afastamento do sigilo de dados revelou
+
+que ambos mantinham interlocuções para a escolha de "laranjas" e a logística de retirada das
+
+quantias subtraídas nos caixas das instituições bancárias, evitando que fossem bloqueadas.
+
+Tal como se deu com Thiago "Sadan", Ariel Batista foi condenado por este Juízo, por sentença
+
+transitada em julgado, pelo cometimento dos crimes de integração em organização criminosa e
+
+diversos furtos qualificados pelo concurso de agentes e emprego de fraude.
+
+Analisando as condutas atribuídas aos denunciados destes autos, vê-se que foram cooptados
+
+pelo aliciador Ariel Batista (anexos 4, index. 120 e anexo 5, index. 510 e segs.), extraindo-se
+
+da prova documental que eles, conquanto não tenham integrado a organização criminosa,
+
+concorreram para algumas  subtrações realizadas por meio da estrutura daquele organismo.
+
+Com efeito, a atuação dos denunciados se mostrou efetiva na cessão de suas contas
+
+correntes para o recebimento de valores subtraídos por fraude eletrônica.
+
+Relativamente a Igor Cézar Guimarães Góes, do exame do material contido no anexo 5,
+
+indexs. 466/467 dos autos, extrai-se a demonstração da materialidade do delito, uma vez que
+
+o Banco Santander S/A comunicou que em 02/8/2017 foram efetivadas três transferências nos
+
+valores de R$ 1.990,00, R$ 370,00 e R$ 330,00 para a conta corrente do denunciado, no total
+
+de R$ 2.690,00, tendo as operações se repetido no dia 03/8/2017, em quantidade e valores,
+
+todas originadas da conta corrente de Lucas Fabricio Pires, que as contestou como
+
+fraudulentas.
+
+À vista do relatório de afastamento do sigilo de dados do telefone apreendido com Thiago
+
+"Sadan", constante do anexo 4, indexs. 122 e 128, observa-se que no dia 26/7/2017, Ariel
+
+Batista, atuando como aliciador, transmitiu mensagens de texto para "Sadan" informando os
+
+dados bancários do denunciado.
+
+Tais dados foram então repassados ao "hacker" no dia 02/8/2017, que realizou as
+
+transferências fraudulentas.
+
+Relevante pontuar que o montante subtraído, ou seja, R$ 5.380,00, aportou na conta corrente
+
+de Igor Guimarães e foi retirado por ele, pessoalmente, porquanto se constata do anexo
+
+mencionado que Ariel e "Sadan" mantiveram interlocução durante a empreitada de retirada das
+
+quantias, igualmente por mensagens de texto, sendo mencionada a presença do réu na
+
+agência bancária.
+
+Relativamente a Leonardo Vítor Dias Nicodemos, do exame do material contido no anexo 5,
+
+index. 466 dos autos, extrai-se a demonstração da materialidade do delito, uma vez que o
+
+Banco Santander S/A comunicou que em 04/8/2017 foi efetivada transferência no valor de R$
+
+4.000,00 para a conta corrente do denunciado, originada da conta corrente de Mariza Oliveira
+
+Gomes da Silva e no dia 07/8/2017, nova transferência foi realizada, no valor de R$ 5.100,00,
+
+originada da conta corrente de Juan Aurélio Ospino Perez.
+
+110                                                                        CLAUDIOSM
+Estado do Rio de Janeiro Poder Judiciário
+
+Tribunal de Justiça
+
+Comarca de Barra Mansa
+
+Cartório da 2ª Vara Criminal
+
+Rua Argemiro de Paula Coutinho, 2000 CEP: 27310-020 - Barbara - Barra Mansa - RJ Tel.: (24)3325-3744     e-mail:
+
+bma02vcri@tjrj.jus.br
+
+Assevere-se que ambos os lesados contestaram as transferências, informando terem sido
+
+realizadas por meio de fraude, sendo certo ainda que o montante subtraído, ou seja, R$
+
+9.100,00, aportou na conta corrente do denunciado e foi retirado por ele, consoante se
+
+constata pelos elementos constantes do relatório alocado no anexo 6, index. 131 dos autos.
+
+Quanto a Rodrigo Thiago de Castro Silva Tavares, do exame do material contido no anexo 5,
+
+index. 467 dos autos, extrai-se a demonstração da materialidade do delito, uma vez que o
+
+Banco Santander S/A comunicou que em 02/8/2017 foram efetivadas duas transferências nos
+
+valores de R$ 1.800,00 e R$ 1.100,00 para a conta corrente do denunciado, originadas,
+
+respectivamente, das contas correntes de Leonardo Manghi e Graciela Rosa de Oliveira.
+
+Assevere-se que ambos os lesados contestaram as transferências, informando terem sido
+
+realizadas por meio de fraude.
+
+À vista do relatório de afastamento do sigilo de dados do telefone apreendido com Thiago
+
+"Sadan", constante do anexo 4, index. 127, observa-se que no dia 1º/8/2017, Ariel Batista,
+
+atuando como aliciador, transmitiu mensagens de texto para "Sadan", informando os dados
+
+bancários de Rodrigo.
+
+Tais dados foram então repassados ao "hacker", que realizou as transferências fraudulentas.
+
+Relevante pontuar que o montante subtraído, ou seja, R$ 2.900,00, aportou na conta corrente
+
+do denunciado e foi retirado por ele, porquanto se constata do anexo mencionado que Ariel e
+
+"Sadan" mantiveram interlocução durante a empreitada de retirada das quantias, igualmente
+
+por mensagens de texto.
+
+Não obstante a contundência da prova documental analisada, impende destacar, por sua
+
+relevância e harmonia, os elementos coligidos pela prova testemunhal produzida sob o
+
+contraditório.
+
+Assim é que, Dr. Ronaldo Aparecido Ferreira Brito, Delegado de Polícia Civil que presidiu as
+
+investigações asseverou que: "...a operação open doors teve como finalidade identificar
+
+componentes de uma organização criminosa que atuava em furtos qualificados em bancários
+
+que tinham como vítimas  pessoas físicas e jurídicas; que no topo da organização estavam os
+
+'hackers'' e abaixo os aliciadores e por fim, os 'laranjas'; que os 'laranjas' eram imprescindíveis
+
+para a organização criminosa porque com o fornecimento das contas por eles as
+
+transferências de valores foram realizadas; que desde o início das investigações ficou claro
+
+que todos os 'laranjas' tinham pleno conhecimento de que estavam emprestando as contas
+
+para fins ilícitos; que para que a conta do 'laranja' fosse utilizada pela organização criminosa,
+
+ele previamente teria que passar os dados para o aliciador para que o 'hacker' checasse se a
+
+conta estava apta para receber valores, evitando o bloqueio de valores por eventuais dívidas
+
+do 'laranja'; que o aliciador acompanhava os 'laranjas' às agências bancárias para efetivarem
+
+os saques; que    que os saques eram imediatos, a fim de evitar que o banco detectasse a
+
+fraude e bloqueasse o saque; que quando não era possível o saque de toda a quantia, os
+
+'laranjas' eram orientados a realizarem transferências para contas indicadas pelos aliciador;
+
+que o 'laranja' ficava com 10% do valor do saque, como combinado anteriormente; que não se
+
+recorda dos réus; que rastrearam o destino dos valores subtraídos por meio de quebras do
+
+sigilo bancários autorizadas..."
+
+No mesmo sentido e trazendo elementos relativos à dinâmica do atuar delitivo e suas
+
+especificidades, asseverou o policial civil Thiago da Silva Tranin que: "... iniciaram as
+
+investigações após o recebimento de vários procedimentos oriundos de delegacias de outros
+
+Estados indicando que várias pessoas residentes nesta cidade teriam recebido valores
+
+indevidos em suas contas bancárias; que então realizaram trabalho de campo e contaram com
+
+interceptação telefônica e delação premiada; que descobriram a existência da organização
+
+criminosa que atuava com divisão de tarefas; que na primeira fase da operação descobriram
+
+os integrantes de núcleos operacionais do grupo; que o 'cabeça' era um gerente, que
+
+coordenava o rol de aliciadores; os aliciadores tinham a função de buscar contas para o grupo
+
+110                                                                        CLAUDIOSM
+Estado do Rio de Janeiro Poder Judiciário
+
+Tribunal de Justiça
+
+Comarca de Barra Mansa
+
+Cartório da 2ª Vara Criminal
+
+Rua Argemiro de Paula Coutinho, 2000 CEP: 27310-020 - Barbara - Barra Mansa - RJ Tel.: (24)3325-3744     e-mail:
+
+bma02vcri@tjrj.jus.br
+
+criminoso; que o 'laranja' fornecia a conta bancária para o recebimento de valores subtraídos;
+
+que o 'laranja' tinha conhecimento de que a operação bancária era ilícita e recebia
+
+porcentagem sobre o total subtraído;  que o 'aliciador' acompanhava o 'laranja' à agência
+
+bancária para garantir que o valor seria entregue ao grupo; que o 'cabeça' era o único que
+
+tinha contado com o 'hacker'; que o 'laranja', além de ceder os dados bancários, também
+
+informava a senha de acesso à conta, o que viabilizava o exame pela organização se a conta
+
+poderia receber valores sem risco de serem perdidos por dívidas do 'laranja'; que os réus
+
+deste processo atuaram como 'laranjas', fornecendo suas contas para o recebimento de
+
+valores subtraídos; que os dados dos réus foram obtidos por meio da análise de conversas
+
+entre Thiago "Sadan' e Ariel Batista, registradas no telefone do primeiro e verificadas após a
+
+quebra autorizada do sigilo; que Ariel transmitiu a 'Sadan' os dados dos denunciados deste
+
+processo; que em seguida solicitaram ao banco informações quanto as fraudes, sendo
+
+confirmadas..."
+
+O policial civil Thiago da Silva Pio informou que: "... Ariel atuava como aliciador junto a Thiago
+
+'Sadan' e a Thiago 'Veneno'; que tal função consiste em angariar pessoas que fornecessem
+
+contas bancárias para o recebimento de valores por meio de fraudes bancárias; que a
+
+organização criminosa se estruturava como uma pirâmide, que no ápice estavam os 'hackers",
+
+que possuíam conhecimento técnico; que os 'laranjas' ficavam com uma porcentagem dos
+
+valores subtraídos; que as investigações indicaram que as pessoas que emprestavam as
+
+contas sabiam da ilicitude da operação bancários; que aprenderam telefones e computadores,
+
+cujos dados revelaram a atuação criminosa; que houve vítimas em todo  país..."
+
+Oportunizado o interrogatório judicial, o denunciado Rodrigo Thiago de Castro Silva Tavares
+
+declarou que: "... forneceu os dados bancários para Ariel por duas vezes, porém ignorava a
+
+finalidade ilícita; que conhecia o irmão de Ariel, que era vizinho do interrogando; que Ariel
+
+pediu os dados da conta do interrogando para receber as quantias de R$ 1.600,00 e R$
+
+1.800,00; que Ariel alegou que vendia carros e tinha dívidas na conta corrente dele; que o
+
+interrogando fez os saques e entregou a Ariel na parte externa da agência bancária; que não
+
+informou a senha para Ariel; que Ariel ofereceu ao interrogando a quantia de R$ 200,00, não
+
+aceita pela interrogando; que fez um favor para Ariel; que não sabia que Ariel atuava em uma
+
+organização criminosa..."
+
+O denunciado Leonardo Vítor Dias Nicodemos optou pelo silêncio e o acusado Igor Cézar
+
+Guimarães Góes, conquanto regularmente notificado, não compareceu à audiência designada.
+
+Diante dos elementos destacados tem-se como provado que os réus, conscientes e
+
+voluntariamente, em unidade de ações e desígnios com componentes da organização
+
+criminosa, cederam seus dados bancários para o recebimento de valores subtraídos por meio
+
+de fraude, cientes da natureza ilícita da conduta.
+
+A tese sustentada pelo réu Rodrigo Thiago, pessoalmente, de que se tratou de mero
+
+empréstimo da conta para que um "conhecido" de seu irmão a utilizasse encontra obstáculo
+
+intransponível para ser admitida, na medida em que não se mostra crível que ele cedesse
+
+seus dados bancários para uma pessoa com a qual não mantinha qualquer relacionamento.
+
+Não obstante, há nos autos elementos robustos, notadamente a prova documental, que
+
+contradizem a tese..
+
+Com efeito, como já destacado, no dia em que a conta corrente do réu recebeu os valores
+
+subtraídos, enquanto se processava a operação de transferência e retirada dos valores, houve
+
+interlocução entre Thiago "Sadan" e Ariel Batista, o aliciador.
+
+Naquela oportunidade Ariel repassou para "Sadan", por meio de mensagem de texto, os dados
+
+bancários de Rodrigo Thiago, dentre os quais a senha de operação da conta, como se vê do
+
+anexo 4, index. 127.
+
+Nessa conformidade, o "empréstimo" da conta para o recebimento de valores, como um favor
+
+110                                                                        CLAUDIOSM
+Estado do Rio de Janeiro Poder Judiciário
+
+Tribunal de Justiça
+
+Comarca de Barra Mansa
+
+Cartório da 2ª Vara Criminal
+
+Rua Argemiro de Paula Coutinho, 2000 CEP: 27310-020 - Barbara - Barra Mansa - RJ Tel.: (24)3325-3744     e-mail:
+
+bma02vcri@tjrj.jus.br
+
+a alguém que o solicitou, jamais envolveria a revelação da senha de acesso à conta corrente,
+
+máxime, repita-se, de pessoa "conhecida" por ser vizinha da mãe do denunciado.
+
+Ademais, se o denunciado estava presente na agência bancária para realizar o saque,
+
+repita-se, prestando um favor a um conhecido, não haveria razão para revelar a ele a senha de
+
+acesso à conta.
+
+Impende ainda destacar, ao contrário do asseverado pelo réu, que houve a contraprestação
+
+em espécie, em percentual praticado pela organização criminosa, como informado pelos
+
+agentes ouvidos na condição de testemunhas.
+
+Nesse sentido, transcrevo a mensagem transmitida por Ariel a Thiago "Sadan" logo após a
+
+conclusão da transferência fraudulenta:
+
+"Mas vê legal aí mano, vê legal aí, vê essa porcentagem aí também tá dividindo para 3
+
+entendeu? Tem vezes que não vale muita a pena". (anexo 4, index. 127).
+
+O pleito formulado objetivou fosse revista a sistemática de distribuição dos valores subtraídos
+
+pela organização criminosa, notadamente, os percentuais, porquanto a forma vigente à época
+
+previa a divisão entre três envolvidos, ou seja, a maior parcela, devida a "Sadan", como
+
+operador do esquema, outra menor, devida a Ariel como aliciador, e a restante, destinada ao
+
+"laranja".
+
+Assim, não há dúvida de que o réu agiu ciente da natureza ilícita da operação, optando por
+
+contribuir com a empreitada criminosa, evidenciando, pois, o dolo de subtrair.
+
+No tocante a conduta do denunciado Igor Cézar Guimarães Góes, a prova documental
+
+produzida igualmente demonstra, estreme de dúvida, que ele agiu ciente da natureza ilícita
+
+das operações.
+
+Com efeito, do exame do material contido no anexo 4, indexs. 122 e 131/133 dos autos,
+
+extrai-se que o denunciado cedeu seus dados bancários a Ariel em 26/07/2017, dentre os
+
+quais, a senha de acesso à conta, conduta, repita-se, atípica, porquanto a mera utilização da
+
+conta para receber transferências ou depósitos de valores destinados a alguém do
+
+relacionamento do réu, não importaria na revelação da senha, máxime se o próprio
+
+denunciado compareceu à agência bancária para efetuar o saque do valor.
+
+Não obstante, a operação se deu em dias distintos, ou seja, em 02 e 03/8/2017 e em cada dia
+
+houve três transferências de valores, o que, em tese, poderia suscitar dúvida no réu sobre a
+
+legalidade da operação e questionar o terceiro acerca da razão pela qual as remessas se
+
+davam de forma fracionada, isso, é claro, se o réu estivesse agindo de boa-fé.
+
+Chama a atenção ainda a constatação de que os dados bancários, incluindo, repita-se, a
+
+senha, foram repassados a Ariel em 26/7/2017 e apenas seis dias após foram utilizados nas
+
+subtrações descritas, elemento que reforça a convicção de que Ariel formava um banco de
+
+"laranjas" para ser acessado quando o núcleo operacional da organização necessitava, tendo
+
+o réu, como visto, composto tal rol, porquanto não se mostra crível que alguém, de boa-fé,
+
+cedesse seus dados bancários para que um terceiro realizasse a operação bancária quase
+
+uma semana após.
+
+Assevere-se ainda que, tal como se deu como o denunciado Rodrigo Thiago, no dia em que
+
+houve a primeira subtração, ou seja, 02/8/2017, durante o processamento da operação
+
+bancária, "Sadan" manteve contato com Ariel por mensagens de texto.
+
+Vê-se do anexo 4, index. 131, que "Sadan" comunicou a Ariel a transferência inicial de R$
+
+1.990,00 para a conta do denunciado Igor, ordenando que fosse realizado o saque e
+
+informando que outros valores seriam transferidos em seguida: "Sacou vai mais".
+
+110                                                                        CLAUDIOSM
+Estado do Rio de Janeiro Poder Judiciário
+
+Tribunal de Justiça
+
+Comarca de Barra Mansa
+
+Cartório da 2ª Vara Criminal
+
+Rua Argemiro de Paula Coutinho, 2000 CEP: 27310-020 - Barbara - Barra Mansa - RJ Tel.: (24)3325-3744     e-mail:
+
+bma02vcri@tjrj.jus.br
+
+Em seguida Ariel informou "Sadan" que esteve em dois terminais do Banco 24 Horas que não
+
+estavam operando, comunicando que iria, em companhia do denunciado Igor, para a agência
+
+do Banco Santander S/A, sediada na Vila Santa Cecília, em Volta Redonda: "Então cara, vou
+
+pegar meu carro aqui agora que eu tava no carro de carona aqui pode crer, vou pegar meu
+
+carro aqui, tá eu o amigo da conta aqui e vou lá no Santander da vila lá rapidinho então".
+
+Observa-se da interlocução que não foi possível realizar os saques de todo o valor desviado,
+
+tendo Ariel comunicado a "Sadan" que marcaria com Igor para o dia seguinte, ou seja,
+
+03/8/2017, para dar continuidade aos saques: "da dando limite diário lá, marca com ele 7 horas
+
+da manhã ai, 7 horas da manhã".
+
+Em nova interlocução no dia 03/8/2017 (anexo 4, index. 134), vê-se que a subtração
+
+prosseguiu, com outras transferências para a conta do denunciado Igor, tendo Ariel confirmado
+
+para "Sadan" que poderia efetuá-las naquele momento.
+
+Relevante salientar que o denunciado acompanhou os deslocamentos de Ariel por agências
+
+bancárias e terminais de caixas eletrônicos nos quais realizaram os saques pretendidos,
+
+elemento que evidencia o atuar em unidade de ações e desígnios, porquanto tal circunstância
+
+suscitaria dúvida acerca da legalidade das operações naquele que estivesse agindo de boa-fé.
+
+Relativamente a Leonardo Vítor Dias Nicodemos, conquanto não se observe dos autos
+
+registros de interlocução do aliciador da conta com o gerente do núcleo operacional, as
+
+características das transações bancárias chamam a atenção pelo montante subtraído, ou seja,
+
+R$ 9.100,00, conforme se vê do anexo 5, index. 466 dos autos.
+
+Não há dúvida de que as operações foram realizadas por componentes da organização
+
+criminosa, nos dias que se seguiram às subtrações realizadas com a contribuição dos
+
+"laranjas" Igor Guimarães e Rodrigo Thiago, revelando "modus operandi" que ficou bem
+
+explicitado quando da análise dos delitos praticados por ambos, o que igualmente pode ser
+
+extraído do quantitativo de desvios documentados no anexo 4 dos autos.
+
+Ademais, reitero que os lesados comunicaram à instituição bancária que os valores retirados
+
+de suas contas corrente se deram de forma fraudulenta, tendo sido dirigidos à conta do
+
+denunciado Leonardo Vítor e sacados nas mesmas datas.
+
+Não se pode olvidar também que a prova testemunhal revelou que todos os envolvidos nas
+
+subtrações realizadas por meio da organização criminosa eram cientificados da ilicitude das
+
+operações e recebiam porcentagens sobre os valores desviados.
+
+Assim, contextualizando tais elementos, extrai-se que o réu agiu em união de ações e
+
+desígnios com componentes do grupo criminoso, ciente da natureza ilícita da conduta.
+
+Relativamente às teses defensivas sustentadas, saliento que para a consumação dos crimes
+
+contra o patrimônio imputados necessariamente havia atuação conjunta e coordenada de
+
+"hacker", "cabeça", aliciador e "laranja".
+
+Portanto, ao se mencionar cada subtração de "per si", ainda que apenas o "laranja" ou o
+
+"cabeça" tenha sido identificado, não se pode desprezar toda a cadeia de atos perpetrados por
+
+aqueles que fizeram chegar à conta corrente angariada, os valores subtraídos.
+
+Essa compartimentalização de atividades restou comprovada de forma irrefutável e o ânimo de
+
+colaborar se dava diante da contraprestação em percentual do esforço realizado.
+
+Nessa conformidade, a relevância da atividade desenvolvida pelos réus deste processo
+
+dispensa outros comentários, diante de tudo o que restou exposto, ressaltando, apenas, que o
+
+sistema de fraude adotado pelo grupo tinha como pressuposto básico a existência de contas
+
+correntes cedidas, caso contrário, até aquele momento, ou seja, até o nível em que as fraudes
+
+se davam na época dos fatos, aqueles que cediam suas contas eram fundamentais ao
+
+110                                                                        CLAUDIOSM
+Estado do Rio de Janeiro Poder Judiciário
+
+Tribunal de Justiça
+
+Comarca de Barra Mansa
+
+Cartório da 2ª Vara Criminal
+
+Rua Argemiro de Paula Coutinho, 2000 CEP: 27310-020 - Barbara - Barra Mansa - RJ Tel.: (24)3325-3744     e-mail:
+
+bma02vcri@tjrj.jus.br
+
+crescimento e fortalecimento do grupo, não havendo que se cogitar, pois, de participação de
+
+menor importância.
+
+Melhor sorte não assiste ao réu Igor Cézar Guimarães ao pugnar pela aplicação do princípio
+
+da insignificância ao caso dos autos.
+
+Como já assentou o Supremo Tribunal Federal, tal princípio incide quando presentes as
+
+seguintes condições objetivas: a) mínima ofensividade da conduta do agente; b) nenhuma
+
+periculosidade social da ação; c) grau reduzido de reprovabilidade do comportamento e, d)
+
+inexpressividade da lesão jurídica provocada.
+
+Cotejando esses requisitos com os elementos constantes dos autos, conclui-se que nenhum
+
+deles encontra-se satisfeito. Com efeito, trata-se de crimes de organização criminosa por
+
+extensão, revelando o grupo estrutura de elevado porte, com atuação em diversos estados da
+
+federação e que causou prejuízos em valor que ultrapassa os R$ 30.000.000,00 (trinta milhões
+
+de reais), sendo certo também que, especificamente no tocante às subtrações praticadas
+
+pelos réus deste processo, vê-se que superaram a quantia de R$ 17.000,00.
+
+Não obstante, o atuar repercutiu na ordem econômica, diante do substancial abalo e
+
+insegurança derivados das condutas praticadas, dirigidas a sistemas de dados e sigilo
+
+bancário, razões por que refuto a tese.
+
+Nessa esteira, incabível se mostra a incidência do privilégio, diante do montante de recursos
+
+financeiros que os denunciados destes autos contribuíram para que fosse subtraído.
+
+As subtrações cometidas pelos réus Leonardo Vítor e Rodrigo Thiago se deram em
+
+continuidade delitiva, diante das condições de tempo e maneira de execução semelhantes,
+
+revelando serem subsequentes.
+
+Exponho, por fim, que ficou comprovada a incidência das qualificadoras previstas no art. 155,
+
+§ 4º, incisos II e IV do Código Penal, porquanto as subtrações foram praticadas mediante
+
+fraude e concurso de agentes.
+
+Com efeito, a fraude consistiu na invasão dos bancos de dados das instituições bancárias,
+
+habilitações de "chips" clonados, obtenção de senhas e códigos de "tokens" que viabilizaram
+
+as transações, como se o lesado as tivesse autorizado.
+
+Quanto ao concurso de agentes, como já exaustivamente demonstrado, havia uma cadeia de
+
+ações que eram desenvolvidas por diversas pessoas de forma a concretizar as subtrações,
+
+uma vez que a conduta isolada de um réu não propiciaria o sucesso da empreitada criminosa.
+
+Assim, diante da fundamentação acima, JULGO PROCEDENTE a pretensão punitiva do
+
+Estado para CONDENAR IGOR CÉZAR GUIMARÃES GOES como incurso nas sanções do
+
+art. 155, § 4º, incisos II e IV, na forma do art. 29, ambos do Código Penal e CONDENAR
+
+LEONARDO VÍTOR DIAS NICODEMOS e RODRIGO THIAGO DE CASTRO SILVA TAVARES
+
+como incursos nas sanções do art. 155, § 4º, incisos II e IV, na forma do art. 29, nos termos do
+
+art. 71, todos do Código Penal.
+
+Passo em razão disso, a fixar-lhe as penas, atendendo as diretrizes do art. 59 do Código
+
+Penal:
+
+1 - Quanto ao réu Igor Cézar Guimarães Goes:
+
+Primeira fase: O réu não ostenta anotações em sua folha de antecedentes criminais que
+
+autorizem a majoração das penas nesta fase, contudo, diante da incidência de duas
+
+qualificadoras, ou seja, a fraude e o concurso de agentes, fixo as penas-base acima do mínimo
+
+legal, ou seja, em 2 (dois) anos e 4 (quatro) meses de reclusão e 11 (onze) dias-multa, no
+
+valor mínimo legal, diante da inexistência de outros elementos que possam influenciar na
+
+110                                                                        CLAUDIOSM
+Estado do Rio de Janeiro Poder Judiciário
+
+Tribunal de Justiça
+
+Comarca de Barra Mansa
+
+Cartório da 2ª Vara Criminal
+
+Rua Argemiro de Paula Coutinho, 2000 CEP: 27310-020 - Barbara - Barra Mansa - RJ Tel.: (24)3325-3744     e-mail:
+
+bma02vcri@tjrj.jus.br
+
+dosimetria nesta fase, relativamente à conduta social, personalidade, motivos e consequências
+
+do crime.
+
+Segunda fase: Considerando as circunstâncias atenuantes e agravantes, não verifico a
+
+incidência de nenhuma delas, mantendo as penas em 2 (dois) anos e 4 (quatro) meses de
+
+reclusão e 11 (onze) dias-multa, no valor mínimo legal.
+
+Terceira fase: Considerando as causas genéricas ou especiais de aumento ou diminuição de
+
+pena, não verifico a incidência de nenhuma delas, fixando as sanções, em definitivo, em 2
+
+(dois) anos e 4 (quatro) meses de reclusão e 11 (onze) dias-multa, no valor mínimo legal à
+
+época do fato.
+
+O regime para o cumprimento da pena de reclusão imposta ao réu, para este delito, será o
+
+aberto.
+
+Diante do disposto no art. 44, § 2º do Código Penal, sem prejuízo da pena de multa aplicada,
+
+substituo a pena privativa de liberdade por duas restritivas de direito, uma de prestação
+
+pecuniária fixada em valor correspondente a três salários-mínimos e outra de prestação de
+
+serviços comunitários pelo período de cumprimento da pena privativa de liberdade aplicada,
+
+com carga horária semanal de cinco horas, em entidade a ser designada pelo juízo da
+
+execução.
+
+2 - Quanto ao réu Leonardo Vítor Dias Nicodemos:
+
+Primeira fase: O réu não ostenta anotações em sua folha de antecedentes criminais que
+
+autorizem a majoração das penas nesta fase, contudo, diante da incidência de duas
+
+qualificadoras, ou seja, a fraude e o concurso de agentes, fixo as penas-base acima do mínimo
+
+legal, ou seja, em 2 (dois) anos e 4 (quatro) meses de reclusão e 11 (onze) dias-multa, no
+
+valor mínimo legal, diante da inexistência de outros elementos que possam influenciar na
+
+dosimetria nesta fase, relativamente à conduta social, personalidade, motivos e consequências
+
+do crime.
+
+Segunda fase: Considerando as circunstâncias atenuantes e agravantes, não verifico a
+
+incidência de nenhuma delas, mantendo as penas em 2 (dois) anos e 4 (quatro) meses de
+
+reclusão e 11 (onze) dias-multa, no valor mínimo legal.
+
+Terceira fase: Considerando as causas genéricas ou especiais de aumento ou diminuição de
+
+pena, diante da incidência da causa genérica de aumento relativa a continuidade delitiva,
+
+prevista no art. 71 do Código Penal, sopesando o período que perdurou a continuidade e o
+
+número de vezes em que ocorreu o crime, ou seja, duas, aumento as penas em 1/6 (um
+
+sexto), fixando-as, em definitivo, em 2 (dois) anos, 8 (oito) meses e 20 (vinte) dias de reclusão
+
+e 12 (doze) dias-multa, no valor mínimo, à época do fato.
+
+O regime para o cumprimento da pena de reclusão imposta ao réu, para este delito, será o
+
+aberto.
+
+Diante do disposto no art. 44, § 2º do Código Penal, sem prejuízo da pena de multa aplicada,
+
+substituo a pena privativa de liberdade por duas restritivas de direito, uma de prestação
+
+pecuniária fixada em valor correspondente a três salários-mínimos e outra de prestação de
+
+serviços comunitários pelo período de cumprimento da pena privativa de liberdade aplicada,
+
+com carga horária semanal de cinco horas, em entidade a ser designada pelo juízo da
+
+execução.
+
+3 - Quanto ao réu Rodrigo Thiago de Castro Silva Tavares:
+
+Primeira fase: O réu não ostenta anotações em sua folha de antecedentes criminais que
+
+autorizem a majoração das penas nesta fase, contudo, diante da incidência de duas
+
+qualificadoras, ou seja, a fraude e o concurso de agentes, fixo as penas-base acima do mínimo
+
+110                                                                        CLAUDIOSM
+Estado do Rio de Janeiro Poder Judiciário
+
+Tribunal de Justiça
+
+Comarca de Barra Mansa
+
+Cartório da 2ª Vara Criminal
+
+Rua Argemiro de Paula Coutinho, 2000 CEP: 27310-020 - Barbara - Barra Mansa - RJ Tel.: (24)3325-3744     e-mail:
+
+bma02vcri@tjrj.jus.br
+
+legal, ou seja, em 2 (dois) anos e 4 (quatro) meses de reclusão e 11 (onze) dias-multa, no
+
+valor mínimo legal, diante da inexistência de outros elementos que possam influenciar na
+
+dosimetria nesta fase, relativamente à conduta social, personalidade, motivos e consequências
+
+do crime.
+
+Segunda fase: Considerando as circunstâncias atenuantes e agravantes, não verifico a
+
+incidência de nenhuma delas, mantendo as penas em 2 (dois) anos e 4 (quatro) meses de
+
+reclusão e 11 (onze) dias-multa, no valor mínimo legal.
+
+Terceira fase: Considerando as causas genéricas ou especiais de aumento ou diminuição de
+
+pena, diante da incidência da causa genérica de aumento relativa a continuidade delitiva,
+
+prevista no art. 71 do Código Penal, sopesando o período que perdurou a continuidade e o
+
+número de vezes em que ocorreu o crime, ou seja, duas, aumento as penas em 1/6 (um
+
+sexto), fixando-as, em definitivo, em 2 (dois) anos, 8 (oito) meses e 20 (vinte) dias de reclusão
+
+e 12 (doze) dias-multa, no valor mínimo, à época do fato.
+
+O regime para o cumprimento da pena de reclusão imposta ao réu, para este delito, será o
+
+aberto.
+
+Diante do disposto no art. 44, § 2º do Código Penal, sem prejuízo da pena de multa aplicada,
+
+substituo a pena privativa de liberdade por duas restritivas de direito, uma de prestação
+
+pecuniária fixada em valor correspondente a três salários-mínimos e outra de prestação de
+
+serviços comunitários pelo período de cumprimento da pena privativa de liberdade aplicada,
+
+com carga horária semanal de cinco horas, em entidade a ser designada pelo juízo da
+
+execução.
+
+Pagarão os réus as custas processuais e a taxa judiciária, em decorrência da sucumbência,
+
+conforme já sedimentado entendimento pretoriano, não importando serem ou não
+
+juridicamente pobres.
+
+Nos termos do art. 387, inciso IV, do Código de Processo Penal, CONDENO ainda os
+
+denunciados a repararem o dano material causado aos lesados, restituindo as quantias que
+
+subtraíram, corrigidas a partir da data da subtração e acrescidas de juros de 1% (um por
+
+cento) ao mês, a partir do trânsito em julgado.
+
+Nessa parte, assevero que conquanto a denúncia tenha silenciado quanto a reparação
+
+material, trata-se de efeito secundário da sentença penal condenatória, nos termos do art. 91
+
+do Código Penal, cabendo consignar que há nos autos elementos seguros capazes de
+
+quantificar o prejuízo, diante do informe bancário anexado aos autos, com exposição do
+
+respectivo valor e data da subtração, elementos que permitiram aos denunciados discutirem o
+
+valor e produzirem contraprova, indicando eventual incorreção, não havendo, pois, que se
+
+cogitar de violação dos princípios do contraditório e da ampla defesa.
+
+Anote-se e comunique-se.
+
+Dê-se ciência ao Ministério Público e às Defesas.
+
+Publique-se. Registre-se. Intimem-se.
+
+Barra Mansa, 11/04/2025.
+
+William Satoshi Yamakawa - Juiz Titular
+
+___________________________________________________________
+
+Autos recebidos do MM. Dr. Juiz
+
+110                                                                        CLAUDIOSM
+Estado do Rio de Janeiro Poder Judiciário
+
+Tribunal de Justiça
+
+Comarca de Barra Mansa
+
+Cartório da 2ª Vara Criminal
+
+Rua Argemiro de Paula Coutinho, 2000 CEP: 27310-020 - Barbara - Barra Mansa - RJ Tel.: (24)3325-3744     e-mail:
+
+bma02vcri@tjrj.jus.br
+
+William Satoshi Yamakawa
+
+Em ____/____/_____
+
+Código de Autenticação: 4PK1.FMII.NNMQ.VZ74
+
+Este código pode ser verificado em: www.tjrj.jus.br – Serviços – Validação de documentos
+
+Øþ
+
+110                                                                        CLAUDIOSM
