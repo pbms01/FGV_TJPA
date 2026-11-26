@@ -104,3 +104,11 @@ pena_regra,0820374-48.2025.8.14.0006,FE,sentenca,pena_meses,60 (leitor da fase 1
 pena_regra,0823940-81.2025.8.14.0401,FE,sentenca,pena_meses,6 (leitor da fase 1),60,1,o leitor pegou 6 meses de outro trecho; a definitiva é de 5 anos
 pena_regra,0800267-58.2024.8.14.0057,FE,sentenca,pena_meses,24 (leitor da fase 1),24,1,"a primeira versão da regra pegou o título ""3ª Fase: Pena Definitiva""; o título passou a ser pulado"
 revisao_doc,0814514-45.2025.8.14.0401,FE,sentenca,tipo_acolhido,171 outro,171 §2º-A,0,"""Art. 171, & 2ºA"": o ""&"" no lugar do ""§""; corrigido em normaliza_ocr"
+segunda_passada,0003478-80.2013.8.14.0006,FE,denuncia,tipo_capitulacao,155 outro,155 outro,1,"art. 155, §4º, II e IV, c/c arts. 298 e 297 e 304 (chupa-cabra em caixa eletrônico); o ""§"" vem como ""8"" no OCR"
+segunda_passada,0800083-74.2023.8.14.0401,FE,denuncia,tipo_capitulacao,171 §2º-A,171 §2º-A,1,"""incurso nas sanções punitivas do Artigo 171, §2º-A c/c 69 do CPB"""
+segunda_passada,0801497-10.2023.8.14.0401,FE,denuncia,tipo_capitulacao,171 §2º-A,171 §2º-A,1,"a sentença, já lida, condena no 171 sem o §2º-A: afastamento novo, que só aparece com a denúncia"
+segunda_passada,0814230-71.2024.8.14.0401,FE,denuncia,tipo_capitulacao,171 §2º-A,171 §2º-A,1,"""incurso nas sanções punitivas do artigo 171, §2°-A"", com o sinal de grau no lugar do ordinal"
+segunda_passada,0818456-51.2026.8.14.0401,CL,denuncia,tipo_capitulacao,lavagem,lavagem,1,mesma denúncia do 0000586-02.2021 (Operação Trojan); duplicata pelo texto
+segunda_passada,0000410-23.2021.8.14.0401,INV,sentenca,resultado,absolvição,absolvição,1,"absolve os três réus da lavagem (art. 1º, §1º, II, da Lei 9.613/98) pelo art. 386, VII, do CPP"
+segunda_passada,0802544-82.2024.8.14.0401,FE,sentenca,tipo_acolhido,171 §2º-A,171 §2º-A,1,"denúncia pelo 171, caput; a sentença aplica de ofício a emendatio (art. 383 do CPP) para o §2º-A porque a máquina de cartão ""possui ligação direta com a internet""; condena também no 180, §3º, e absolve do 311 e do 288"
+segunda_passada,0802544-82.2024.8.14.0401,FE,sentenca,pena_meses,68.2,68.2,1,"primeiro réu: 5 anos, 7 meses e 6 dias pelo estelionato continuado, mais 1 mês de detenção pela receptação culposa, somados em 5 anos, 8 meses e 6 dias, semiaberto; o segundo réu, com participação de menor importância, fica em 4 anos, 3 meses e 12 dias"

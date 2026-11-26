@@ -200,6 +200,7 @@ CONFERIDAS = {n: "dispositivo e pena conferidos na leitura; leitura por regras m
     "0803127-79.2024.8.14.0009", "0804452-98.2024.8.14.0006", "0810363-70.2024.8.14.0401", "0811347-54.2024.8.14.0401",
     "0812575-64.2024.8.14.0401", "0813146-35.2024.8.14.0401", "0814661-08.2024.8.14.0401", "0815181-65.2024.8.14.0401",
     "0815210-18.2024.8.14.0401", "0815026-28.2025.8.14.0401", "0818456-51.2026.8.14.0401", "0014826-69.2016.8.14.0401",
+    "0802544-82.2024.8.14.0401",  # segunda passada, lida em 25/11/2026: emendatio de ofício do 171, caput, para o §2º-A
 )}
 
 CAMPOS_AUTO = rs_campos = ["resultado_auto", "condena_auto", "absolve_auto", "extingue_auto", "parcial_dito",

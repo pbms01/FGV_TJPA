@@ -15,12 +15,24 @@ evitar erro de digitação. Uma linha com número já gravado substitui a anteri
 o que permite corrigir sem editar o CSV à mão. Valores fora do vocabulário
 abortam a gravação, a menos que estejam em NOVOS (categorias acrescentadas na
 codificação assistida e documentadas no LEIAME).
+
+Com TRIB=tjpa grava em dados/extracao/codificacao_assistida_tjpa.csv, com as
+mesmas colunas, e tira o número de denuncias_tjpa.csv. O artifício do TJPA já
+foi codificado e conferido por segundo leitor (codificacao_artificio_tjpa.csv):
+na linha de entrada ele vai como "=", que copia o valor de lá; um valor escrito
+por extenso tem de ser igual ao de lá, senão a gravação aborta (para mudar o
+artifício, o caminho é scripts/artificio_tjpa.py). Duplicata não é codificada.
 """
 import csv
 import glob
+import os
 import sys
 
-ARQ = "dados/extracao/codificacao_assistida.csv"
+TRIB = os.environ.get("TRIB", "tjsp")
+ARQ = {"tjsp": "dados/extracao/codificacao_assistida.csv",
+       "tjpa": "dados/extracao/codificacao_assistida_tjpa.csv"}[TRIB]
+ARQ_DEN = {"tjsp": "dados/extracao/denuncias_tjsp.csv", "tjpa": "dados/extracao/denuncias_tjpa.csv"}[TRIB]
+ARQ_ARTIFICIO_TJPA = "dados/extracao/codificacao_artificio_tjpa.csv"
 COLS = ["numero", "estrato", "ordem", "contexto", "meio_contato", "artificio",
         "papel_denunciado", "whatsapp", "pix_pagamento", "boleto", "falso_parente",
         "falsa_central", "venda_falsa", "investimento", "conta_do_denunciado",
@@ -49,8 +61,14 @@ def vocabulario():
 
 
 def main():
-    with open("dados/extracao/denuncias_tjsp.csv", encoding="utf-8") as f:
-        numeros = {(r["estrato"], r["ordem"]): r["numero"] for r in csv.DictReader(f)}
+    with open(ARQ_DEN, encoding="utf-8") as f:
+        den = list(csv.DictReader(f))
+    numeros = {(r["estrato"], r["ordem"]): r["numero"] for r in den}
+    duplicatas = {r["numero"] for r in den if r.get("duplicata_de")} if TRIB == "tjpa" else set()
+    artificio_tjpa = {}
+    if TRIB == "tjpa":
+        with open(ARQ_ARTIFICIO_TJPA, encoding="utf-8") as f:
+            artificio_tjpa = {r["numero"]: r["artificio"] for r in csv.DictReader(f)}
     voc = vocabulario()
     try:
         with open(ARQ, encoding="utf-8") as f:
@@ -66,9 +84,18 @@ def main():
         estrato, ordem = chave.split()
         if len(bits) != 9 or set(bits) - {"0", "1"}:
             sys.exit(f"bits inválidos em {chave}: {bits}")
+        if TRIB == "tjpa":
+            numero = numeros[(estrato, ordem)]
+            if numero in duplicatas:
+                sys.exit(f"{chave}: duplicata, não se codifica")
+            if artificio not in ("=", artificio_tjpa[numero]):
+                sys.exit(f"{chave}: artificio={artificio} difere do codificado ({artificio_tjpa[numero]})")
+            artificio = artificio_tjpa[numero]
         valores = {"contexto": contexto, "meio_contato": meio,
                    "artificio": artificio, "papel_denunciado": papel}
         for k, v in valores.items():
+            if TRIB == "tjpa" and k == "artificio":
+                continue
             if v not in voc[k]:
                 sys.exit(f"{chave}: {k}={v} fora do vocabulário {sorted(voc[k])}")
         r = {"numero": numeros[(estrato, ordem)], "estrato": estrato, "ordem": ordem,

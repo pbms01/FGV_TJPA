@@ -15,29 +15,29 @@
       9.1
      ]
     },
-    "denuncias_com_sentenca": 7,
-    "sentencas_por_processo": 7,
+    "denuncias_com_sentenca": 8,
+    "sentencas_por_processo": 8,
     "sentencas_so_sentenca": 0,
-    "sentencas_lidas": 7,
+    "sentencas_lidas": 8,
     "resultado": {
      "condenação": [
       3,
-      42.9
+      37.5
+     ],
+     "absolvição": [
+      2,
+      25.0
      ],
      "procedência parcial": [
       2,
-      28.6
-     ],
-     "absolvição": [
-      1,
-      14.3
+      25.0
      ],
      "extinção sem mérito (decadência)": [
       1,
-      14.3
+      12.5
      ]
     },
-    "ao_menos_um_condenado": 71.4,
+    "ao_menos_um_condenado": 62.5,
     "tipo_acolhido": {
      "154-A": [
       3,
@@ -76,7 +76,7 @@
     },
     "sem_pena_lida": 0,
     "lei_15397": {
-     "anterior à lei": 6,
+     "anterior à lei": 7,
      "sem menção": 1
     },
     "operacoes": {
@@ -85,7 +85,7 @@
    },
    "CL": {
     "denuncias": 12,
-    "processos_com_denuncia": 12,
+    "processos_com_denuncia": 13,
     "capitulacao": {
      "171 §2º-A": [
       4,
@@ -114,27 +114,27 @@
     },
     "denuncias_com_sentenca": 12,
     "sentencas_por_processo": 13,
-    "sentencas_so_sentenca": 1,
-    "sentencas_lidas": 13,
+    "sentencas_so_sentenca": 0,
+    "sentencas_lidas": 12,
     "resultado": {
      "absolvição": [
-      6,
-      46.2
+      5,
+      41.7
      ],
      "condenação": [
       3,
-      23.1
+      25.0
      ],
      "procedência parcial": [
       3,
-      23.1
+      25.0
      ],
      "rejeição da denúncia": [
       1,
-      7.7
+      8.3
      ]
     },
-    "ao_menos_um_condenado": 46.2,
+    "ao_menos_um_condenado": 50.0,
     "tipo_acolhido": {
      "171 §2º-A": [
       2,
@@ -209,7 +209,7 @@
     },
     "sem_pena_lida": 0,
     "lei_15397": {
-     "menciona, sem codificar": 2,
+     "menciona, sem codificar": 1,
      "anterior à lei": 10,
      "aplica": 1
     },
@@ -218,46 +218,46 @@
     }
    },
    "FE": {
-    "denuncias": 156,
-    "processos_com_denuncia": 168,
+    "denuncias": 160,
+    "processos_com_denuncia": 172,
     "capitulacao": {
      "171 §2º-A": [
-      123,
+      126,
       78.8
      ],
      "171 outro": [
       14,
-      9.0
+      8.8
      ],
      "155 §4º-B": [
       9,
-      5.8
+      5.6
      ],
      "155 outro": [
-      6,
-      3.8
+      7,
+      4.4
      ],
      "lavagem": [
       4,
-      2.6
+      2.5
      ]
     },
-    "denuncias_com_sentenca": 87,
-    "sentencas_por_processo": 95,
-    "sentencas_so_sentenca": 4,
-    "sentencas_lidas": 91,
+    "denuncias_com_sentenca": 91,
+    "sentencas_por_processo": 96,
+    "sentencas_so_sentenca": 1,
+    "sentencas_lidas": 92,
     "resultado": {
      "condenação": [
       35,
-      38.5
+      38.0
      ],
      "absolvição": [
       27,
-      29.7
+      29.3
      ],
      "procedência parcial": [
-      25,
-      27.5
+      26,
+      28.3
      ],
      "extinção sem mérito (decadência)": [
       1,
@@ -276,66 +276,70 @@
       1.1
      ]
     },
-    "ao_menos_um_condenado": 65.9,
+    "ao_menos_um_condenado": 66.3,
     "tipo_acolhido": {
      "171 §2º-A": [
-      32,
-      53.3
+      33,
+      54.1
      ],
      "171 outro": [
       18,
-      30.0
+      29.5
      ],
      "155 §4º-B": [
       4,
-      6.7
+      6.6
      ],
      "155 outro": [
       3,
-      5.0
+      4.9
      ],
      "288": [
       1,
-      1.7
+      1.6
      ],
      "lavagem": [
       1,
-      1.7
+      1.6
      ],
      "157": [
       1,
-      1.7
+      1.6
      ]
     },
     "mudanca_capitulacao": {
      "mantém": [
-      46,
-      80.7
+      47,
+      78.3
      ],
      "afasta o §2º-A": [
-      7,
-      12.3
+      8,
+      13.3
      ],
      "171 outro → 155 outro": [
       1,
-      1.8
+      1.7
      ],
      "lavagem → 288": [
       1,
-      1.8
+      1.7
      ],
      "171 §2º-A → 155 §4º-B": [
       1,
-      1.8
+      1.7
+     ],
+     "acrescenta o §2º-A": [
+      1,
+      1.7
      ],
      "171 §2º-A → 157": [
       1,
-      1.8
+      1.7
      ]
     },
     "pena_mediana_meses": {
      "171 §2º-A": [
-      32,
+      33,
       48.0
      ],
      "171 outro": [
@@ -362,21 +366,21 @@
     "regime": {
      "aberto": [
       30,
-      62.5
+      61.2
      ],
      "semiaberto": [
-      15,
-      31.2
+      16,
+      32.7
      ],
      "fechado": [
       3,
-      6.2
+      6.1
      ]
     },
     "sem_pena_lida": 2,
     "lei_15397": {
      "sem menção": 23,
-     "anterior à lei": 67,
+     "anterior à lei": 68,
      "menciona, sem codificar": 1
     },
     "operacoes": {
@@ -385,58 +389,58 @@
     }
    },
    "total": {
-    "denuncias": 179,
-    "processos_com_denuncia": 191,
+    "denuncias": 183,
+    "processos_com_denuncia": 196,
     "capitulacao": {
      "171 §2º-A": [
-      127,
-      70.9
+      130,
+      71.0
      ],
      "171 outro": [
       16,
-      8.9
+      8.7
      ],
      "154-A": [
       10,
-      5.6
+      5.5
      ],
      "155 §4º-B": [
       10,
-      5.6
+      5.5
+     ],
+     "155 outro": [
+      7,
+      3.8
      ],
      "lavagem": [
       6,
-      3.4
-     ],
-     "155 outro": [
-      6,
-      3.4
+      3.3
      ],
      "outro tipo": [
       3,
-      1.7
+      1.6
      ],
      "158": [
       1,
-      0.6
+      0.5
      ]
     },
-    "denuncias_com_sentenca": 106,
-    "sentencas_por_processo": 115,
-    "sentencas_so_sentenca": 5,
-    "sentencas_lidas": 111,
+    "denuncias_com_sentenca": 111,
+    "sentencas_por_processo": 117,
+    "sentencas_so_sentenca": 1,
+    "sentencas_lidas": 112,
     "resultado": {
      "condenação": [
       41,
-      36.9
+      36.6
      ],
      "absolvição": [
       34,
-      30.6
+      30.4
      ],
      "procedência parcial": [
-      30,
-      27.0
+      31,
+      27.7
      ],
      "extinção sem mérito (decadência)": [
       2,
@@ -455,15 +459,15 @@
       0.9
      ]
     },
-    "ao_menos_um_condenado": 64.0,
+    "ao_menos_um_condenado": 64.3,
     "tipo_acolhido": {
      "171 §2º-A": [
-      34,
-      47.9
+      35,
+      48.6
      ],
      "171 outro": [
       19,
-      26.8
+      26.4
      ],
      "155 §4º-B": [
       4,
@@ -504,49 +508,53 @@
     },
     "mudanca_capitulacao": {
      "mantém": [
-      52,
-      76.5
+      53,
+      74.6
      ],
      "afasta o §2º-A": [
-      7,
-      10.3
+      8,
+      11.3
      ],
      "154-A → 147": [
       2,
-      2.9
+      2.8
      ],
      "171 outro → 155 outro": [
       1,
-      1.5
+      1.4
      ],
      "lavagem → 288": [
       1,
-      1.5
+      1.4
      ],
      "para 171 §2º VII": [
       1,
-      1.5
+      1.4
      ],
      "171 §2º-A → 155 §4º-B": [
       1,
-      1.5
+      1.4
+     ],
+     "acrescenta o §2º-A": [
+      1,
+      1.4
      ],
      "outro tipo → 159": [
       1,
-      1.5
+      1.4
      ],
      "outro tipo → 288": [
       1,
-      1.5
+      1.4
      ],
      "171 §2º-A → 157": [
       1,
-      1.5
+      1.4
      ]
     },
     "pena_mediana_meses": {
      "171 §2º-A": [
-      34,
+      35,
       48.0
      ],
      "171 outro": [
@@ -589,22 +597,22 @@
     "regime": {
      "aberto": [
       38,
-      66.7
+      65.5
      ],
      "semiaberto": [
-      15,
-      26.3
+      16,
+      27.6
      ],
      "fechado": [
       4,
-      7.0
+      6.9
      ]
     },
     "sem_pena_lida": 2,
     "lei_15397": {
      "sem menção": 24,
-     "anterior à lei": 83,
-     "menciona, sem codificar": 3,
+     "anterior à lei": 85,
+     "menciona, sem codificar": 2,
      "aplica": 1
     },
     "operacoes": {
