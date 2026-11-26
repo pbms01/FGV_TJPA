@@ -4,6 +4,10 @@ Uso (da raiz do repo):
     python3 scripts/fundamento_absolvicoes.py           confere e imprime as tabelas
     python3 scripts/fundamento_absolvicoes.py tabelas   só as tabelas
 
+Lê também dados/analise/posicao_mp_fe.csv, a posição do MP nas alegações finais em todas as
+sentenças de mérito da FE (TJPA 88, TJSP 112): nas condenações, lida por regra no relatório e, onde
+a regra não decidia, caso a caso; nas absolvições, copiada da codificação do fundamento.
+
 Lê dados/analise/fundamento_absolvicoes_fe.csv (leitura caso a caso da fundamentação e do
 dispositivo, em 26/11/2026), as sentenças lidas (sentencas_tjpa.csv, sentencas_amostra.csv), a
 codificação do papel (codificacao_assistida_tjpa.csv; q1_alcance.csv no TJSP) e a lista do DJEN
@@ -17,6 +21,9 @@ import sys
 from collections import Counter, defaultdict
 
 ARQ = "dados/analise/fundamento_absolvicoes_fe.csv"
+ARQ_MP = "dados/analise/posicao_mp_fe.csv"
+VOC_MP = {"condenacao", "parcial", "absolvicao", "nd"}
+MERITO = ("condenação", "procedência parcial", "absolvição")
 VOC = {
     "fundamento": {"titularidade_insuficiente", "adesao_nao_provada", "autoria_ato", "instrucao_vazia",
                    "atipicidade", "pedido_mp", "materialidade", "outro"},
@@ -63,6 +70,59 @@ def confere(A):
         if not r["trecho"]:
             erros.append(f"{r['caso']}: sem trecho")
     return erros
+
+
+def confere_mp(A):
+    pa, sp = universo()
+    M = le(ARQ_MP)
+    erros = []
+    alvo = {("TJPA", r["numero"]) for r in pa if r["resultado"] in MERITO}
+    alvo |= {("TJSP", r["numero"]) for r in sp if r["resultado"] in MERITO}
+    if {(r["tribunal"], r["numero"]) for r in M} != alvo or len(M) != len(alvo):
+        erros.append("posicao_mp_fe.csv não cobre exatamente as sentenças de mérito da FE")
+    res = {("TJPA", r["numero"]): r["resultado"] for r in pa}
+    res.update({("TJSP", r["numero"]): r["resultado"] for r in sp})
+    a = {(r["tribunal"], r["numero"]): r for r in A}
+    for r in M:
+        k = (r["tribunal"], r["numero"])
+        if r["mp_posicao"] not in VOC_MP:
+            erros.append(f"{r['caso']}: mp_posicao={r['mp_posicao']} fora do vocabulário")
+        if res.get(k) != r["resultado"]:
+            erros.append(f"{r['caso']}: resultado difere da leitura da sentença")
+        if r["resultado"] == "absolvição":
+            esperado = {"1": "absolvicao", "0": "condenacao", "nd": "nd"}[a[k]["mp_absolvicao"]]
+            if r["mp_posicao"] != esperado:
+                erros.append(f"{r['caso']}: posição do MP difere da codificação do fundamento")
+        elif r["fonte"] == "regra" and r["mp_posicao"] != "condenacao":
+            erros.append(f"{r['caso']}: a regra só decide pedidos de condenação")
+    return erros
+
+
+def tabela_mp():
+    pa, sp = universo()
+    peso = {r["numero"]: float(r["peso"]) for r in sp}
+    M = le(ARQ_MP)
+    print("\nPosição do MP nas alegações finais e desfecho, sentenças de mérito da FE\n")
+    print("| | TJPA (88, censo) | TJSP (112, % ponderado) |")
+    print("| --- | --- | --- |")
+    lin = []
+    for t in ("TJPA", "TJSP"):
+        sub = [r for r in M if r["tribunal"] == t]
+        w = (lambda r: peso[r["numero"]]) if t == "TJSP" else (lambda r: 1.0)
+        W = sum(w(r) for r in sub)
+        cond = [r for r in sub if r["mp_posicao"] in ("condenacao", "parcial")]
+        absol = [r for r in sub if r["mp_posicao"] == "absolvicao"]
+        nd = [r for r in sub if r["mp_posicao"] == "nd"]
+        def taxa(g, res):
+            return f"{sum(r['resultado'] == res for r in g)} de {len(g)} ({pct(sum(w(r) for r in g if r['resultado'] == res), sum(w(r) for r in g))})"
+        lin.append([f"{len(cond)} ({pct(sum(w(r) for r in cond), W)})", f"{len(absol)} ({pct(sum(w(r) for r in absol), W)})",
+                    f"{len(nd)} ({pct(sum(w(r) for r in nd), W)})", taxa(cond, "absolvição"), taxa(absol, "absolvição"),
+                    taxa(nd, "absolvição")])
+    rot = ["MP pediu a condenação (total ou parcial)", "MP pediu a absolvição", "posição não registrada",
+           "absolvição integral, com pedido de condenação", "absolvição integral, com pedido de absolvição",
+           "absolvição integral, sem registro"]
+    for i, r in enumerate(rot):
+        print(f"| {r} | {lin[0][i]} | {lin[1][i]} |")
 
 
 def pct(a, b):
@@ -126,12 +186,13 @@ def tabelas(A):
 def main():
     A = le(ARQ)
     if sys.argv[1:] != ["tabelas"]:
-        erros = confere(A)
+        erros = confere(A) + confere_mp(A)
         if erros:
             sys.exit("\n".join(erros))
         print(f"{len(A)} absolvições codificadas (TJPA {sum(r['tribunal'] == 'TJPA' for r in A)}, "
               f"TJSP {sum(r['tribunal'] == 'TJSP' for r in A)}); conferência sem divergência\n")
     tabelas(A)
+    tabela_mp()
 
 
 if __name__ == "__main__":

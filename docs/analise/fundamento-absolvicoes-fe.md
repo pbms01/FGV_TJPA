@@ -1,13 +1,14 @@
 # Fundamento das absolvições integrais da FE no TJPA e no TJSP
 
-Nota de 26/11/2026. Responde ao passo que o HANDOFF dava como o que mais pesa na fase 2: dizer se a absolvição integral de 29,3% na FE do TJPA, contra 12,1% no TJSP, é achado ou artefato da base. A resposta curta é que a diferença é achado, situado na acusação e não no julgamento: quando o Ministério Público pede a condenação, o TJPA absolve na FE em proporção próxima à do TJSP (7,6% contra 5,4%), e quase toda a distância vem das absolvições que o próprio MP pede nas alegações finais (20,7% contra 3,8%). A lista 2 do DJEN infla a taxa do TJPA, mas a lista 1 sozinha conserva o dobro do TJSP e a mesma decomposição.
+Nota de 26/11/2026. Responde ao passo que o HANDOFF dava como o que mais pesa na fase 2: dizer se a absolvição integral de 29,3% na FE do TJPA, contra 12,1% no TJSP, é achado ou artefato da base. A resposta curta é que a diferença é achado, situado na acusação e não no julgamento: quando o Ministério Público pede a condenação, o TJPA absolve na FE em proporção próxima à do TJSP (7,6% contra 5,4%), e quase toda a distância vem das absolvições que o próprio MP pede nas alegações finais (20,7% contra 3,8%). A lista 2 do DJEN infla a taxa do TJPA, mas a lista 1 sozinha conserva o dobro do TJSP e a mesma decomposição. Codificada depois a posição do MP também nas condenações, a conta fecha: dado o pedido de condenação, a absolvição integral é de 10,8% no TJPA e de 7,7% no TJSP; dado o pedido de absolvição, é de 100% nos dois tribunais; e o MP pede a absolvição em 21,6% das sentenças de mérito da FE no TJPA, contra 3,9% no TJSP.
 
 ## Base e método
 
 - TJPA: as 27 absolvições integrais entre as 92 sentenças da FE contadas por família (`dados/extracao/sentencas_tjpa.csv`, extração regerada em 25/11/2026). Censo, com contagens simples.
 - TJSP: as 11 absolvições integrais entre as 113 sentenças da FE da amostra do cjpg (`dados/analise/q1_alcance.csv`), com o peso amostral nas proporções.
 - Leitura de um só leitor, sem segundo leitor, sobre trechos selecionados de cada sentença (o relatório das alegações finais, as frases da fundamentação que tocam autoria, dolo, titularidade, prova judicializada, revelia e pedido do MP, e o dispositivo), completada por leitura adicional do texto em 13 sentenças em que os trechos não decidiam o fundamento ou a posição do MP. O papel e o artifício vêm da codificação das denúncias (`codificacao_assistida_tjpa.csv`; no TJSP, a tabela da questão 1).
-- Arquivos: `dados/analise/fundamento_absolvicoes_fe.csv` (uma linha por absolvição, com o trecho decisivo da sentença) e `scripts/fundamento_absolvicoes.py`, que confere a cobertura, o vocabulário e o papel contra a codificação e imprime as tabelas desta nota.
+- Posição do MP nas condenações (segunda etapa, no mesmo dia): nas 61 sentenças condenatórias da FE do TJPA e nas 101 do TJSP, um leitor por regras tomou, no relatório anterior à fundamentação, a frase em que o MP formula o pedido final; a regra só decidiu pedidos de condenação (103 sentenças), e uma amostra de 14 delas foi conferida no texto, com as 14 confirmadas (duas passaram a pedido parcial). As outras 59 foram lidas caso a caso. Nas absolvições, a posição é a da codificação do fundamento. O pedido parcial (condenação de uns réus ou crimes e absolvição de outros) está subcontado, porque a regra não o separa, o que não afeta a decomposição.
+- Arquivos: `dados/analise/fundamento_absolvicoes_fe.csv` (uma linha por absolvição, com o trecho decisivo da sentença), `dados/analise/posicao_mp_fe.csv` (a posição do MP nas 200 sentenças de mérito da FE dos dois tribunais, com a fonte e o trecho) e `scripts/fundamento_absolvicoes.py`, que confere a cobertura, o vocabulário, o papel contra a codificação e a posição do MP contra a das absolvições, e imprime as tabelas desta nota.
 
 ## Livro de códigos
 
@@ -51,11 +52,20 @@ Os demais campos são `inciso_386` (ou o inciso do art. 397), `mp_absolvicao` (o
 | 1 | 72 | 18 (25,0%) | 13 (18,1%) | 5 (6,9%) |
 | 2 | 19 | 9 (47,4%) | 6 (31,6%) | 3 (15,8%) |
 
+| Sentenças de mérito da FE | TJPA (88, censo) | TJSP (112, % ponderado) |
+| --- | --- | --- |
+| MP pediu a condenação, total ou parcial | 65 (73,9%) | 83 (71,0%) |
+| MP pediu a absolvição | 19 (21,6%) | 4 (3,9%) |
+| posição do MP não registrada | 4 (4,5%) | 25 (25,2%) |
+| absolvição integral, dado o pedido de condenação | 7 de 65 (10,8%) | 5 de 83 (7,7%) |
+| absolvição integral, dado o pedido de absolvição | 19 de 19 | 4 de 4 |
+| absolvição integral, sem registro da posição | 1 de 4 | 2 de 25 (11,5%) |
+
 Inciso: VII em 23 das 27 no TJPA (III em duas; absolvição sumária pelo art. 397, II e III, em duas) e em 9 das 11 no TJSP (III e V em uma cada).
 
 ## Leitura
 
-1. A diferença entre os tribunais está quase toda nas absolvições que o MP pede. Contra um pedido de condenação, o TJPA absolve em 7,6% das sentenças da FE e o TJSP em 5,4% (8,3% no limite, se as duas sem registro fossem contra o pedido); a pedido do MP, 20,7% contra 3,8% (6,7% no limite). O juiz paraense não absolve muito mais do que o paulista; o que muda é a acusação que se desfaz no fim da instrução.
+1. A diferença entre os tribunais está quase toda nas absolvições que o MP pede. Contra um pedido de condenação, o TJPA absolve em 7,6% das sentenças da FE e o TJSP em 5,4% (8,3% no limite, se as duas sem registro fossem contra o pedido); a pedido do MP, 20,7% contra 3,8% (6,7% no limite). Tomada a taxa condicional, a absolvição integral dado o pedido de condenação é de 10,8% no TJPA (7 de 65) e de 7,7% no TJSP (5 de 83), diferença pequena para contagens dessa ordem; dado o pedido de absolvição, é total nos dois tribunais, e nenhuma das 200 sentenças condena contra o pedido do MP, de modo que o art. 385 do CPP, na prática, não opera em nenhum deles. O juiz paraense não absolve muito mais do que o paulista; o que muda é a frequência com que a acusação se desfaz no fim da instrução, que é de 21,6% das sentenças de mérito no TJPA e de 3,9% no TJSP (até cerca de 6% se as duas absolvições paulistas sem registro tiverem sido pedidas).
 
 2. O que o MP abandona é, em primeiro lugar, o titular da conta. Das 19 absolvições pedidas, 9 têm por fundamento a titularidade insuficiente: a denúncia alcança quem recebeu o dinheiro, muitas vezes sem descrever outro ato (a codificação das denúncias já registrava casos em que "a denúncia não descreve seu ato além do recebimento", e o misto que vem da redação), e a mesma instituição reconhece, nos memoriais, que a conta não prova a adesão. Em três processos o réu admitiu ter cedido a conta, num deles por pequena quantia e noutro sacando e entregando o dinheiro a terceiro (PA-FE 108, 215 e 70), e o MP pediu a absolvição; no TJSP, quem admite a cessão é condenado em 45 de 47 sentenças, somados os estratos (questão 7).
 
@@ -73,6 +83,6 @@ Inciso: VII em 23 das 27 no TJPA (III em duas; absolvição sumária pelo art. 3
 
 - Um só leitor, sobre trechos, sem segundo leitor. A posição do MP foi lida no relatório da sentença, não nos memoriais; três ficaram sem registro. A fronteira entre `titularidade_insuficiente` e `autoria_ato` é a mais frágil e deve entrar no segundo leitor cego, com a do papel.
 - As contagens contra o pedido de condenação são pequenas (7 e 5), e a comparação é entre um censo e uma amostra ponderada.
-- A posição do MP nas condenações não foi codificada; a decomposição supõe que, nelas, houve pedido de condenação.
+- No TJSP, um quarto das sentenças de mérito não registra a posição do MP (alegações orais gravadas, relatório que só diz que as partes se manifestaram); 23 dessas 25 terminaram em condenação, sem nenhuma menção ao art. 385, o que sugere pedido de condenação, mas não o prova. No TJPA, são 4.
 - Singularidades registradas na coluna `nota`: o termo de audiência do PA-FE 37 traz o nome e o tipo (art. 121) de outro processo antes da sentença correta; o PA-FE 187 absolve também o corréu cujo processo estava suspenso pelo art. 366; o PA-FE 78 é absolvição sumária pedida depois da instrução, pelo art. 397, II.
-- Passo seguinte natural: codificar a posição do MP nas 61 condenações da FE do TJPA e nas do TJSP, para fechar a decomposição, e levar a variável `mp_absolvicao` às tabelas das questões 1 e 7.
+- Passo seguinte natural: levar a posição do MP (`posicao_mp_fe.csv`) às tabelas das questões 1 e 7, para ler o desfecho do titular com a posição da acusação ao lado, e estender a codificação aos estratos INV e CL.
