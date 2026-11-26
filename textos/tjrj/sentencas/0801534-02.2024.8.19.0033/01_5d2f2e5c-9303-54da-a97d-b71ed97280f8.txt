@@ -1,0 +1,60 @@
+[Texto nativo do PJe]
+
+Poder Judiciário do Estado do Rio de Janeiro
+
+Comarca de Miguel Pereira
+
+Vara Única da Comarca de Miguel Pereira
+
+RUA FRANCISCO ALVES, 105, FORUM, CENTRO, MIGUEL PEREIRA - RJ - CEP: 26900-000
+
+SENTENÇA
+
+Processo: 0801534-02.2024.8.19.0033
+
+Classe: AÇÃO PENAL - PROCEDIMENTO ORDINÁRIO (283)
+
+AUTOR: MINISTERIO PUBLICO DO ESTADO DO RIO DE JANEIRO, MINISTERIO PUBLICO DO ESTADO DO RIO DE JANEIRO
+
+RÉU: PAULO CESAR DO NASCIMENTO SILVA
+
+Trata-se de ação penal movida pelo Ministério Público em face de Paulo Cesar do Nascimento Silva, imputando-lhe a prática do crime de estelionato, por duas vezes, em continuidade delitiva, na modalidade de fraude eletrônica, previsto no artigo 171, §2º-A, do Código Penal.
+
+A denúncia, constante no ID 143591621, narra que, no dia 8 de abril de 2024, por volta das 15h20, na Avenida Aspirante Manso, nº 360, Vila Suissa, na comarca de Miguel Pereira/RJ, o denunciado, de forma consciente e voluntária, obteve para si vantagem ilícita em prejuízo da vítima Osvaldo Medeiros Junior. A acusação descreve que o réu, utilizando o número de WhatsApp (24) 99977-0757 e fazendo-se passar por Alessandra Rodrigues Medeiros, filha da vítima, solicitou uma transferência de R$ 390,00 via PIX para uma conta no Banco Neon Pagamentos S.A., cuja chave era o CPF do denunciado, 019.468.821-60. Após a vítima realizar a transação, o denunciado teria solicitado uma segunda transferência, no valor de R$ 1.000,00, para a mesma conta, que também foi efetuada. A denúncia afirma que a vítima só desconfiou da fraude em uma terceira solicitação de transferência, quando pediu um áudio para confirmar a identidade, o que foi negado, e, em seguida, as mensagens de texto foram apagadas pelo réu. O Ministério Público arrolou como testemunhas a vítima, sua filha Alessandra Rodrigues Medeiros e o policial civil Carlos André Da Cruz Silva.
+
+A denúncia foi recebida em 18 de setembro de 2024, conforme decisão de ID 144083111.
+
+O réu apresentou resposta à acusação no ID 210562981. A defesa argumentou, preliminarmente, a nulidade da acusação por ausência de justa causa, sustentando que a titularidade da conta bancária para a qual os valores foram transferidos é insuficiente para comprovar a autoria do crime. Alegou que a denúncia carece de provas mínimas, ressaltando que o próprio relatório policial admite a dificuldade de identificar coautores. No mérito, a defesa afirmou a inexistência de dolo ou participação do acusado, reiterando que não há elementos que demonstrem que ele tinha ciência da origem ilícita dos valores. A resposta à acusação destaca que não foi realizada perícia para vincular o réu ao número de WhatsApp utilizado na fraude e que o referido número não pertence a ele. Com base nesses argumentos e no princípio da presunção de inocência, a defesa requereu a absolvição sumária do acusado, com fundamento no artigo 397, inciso III, do Código de Processo Penal.
+
+Instado a se manifestar sobre a resposta à acusação, o Ministério Público, em promoção de ID 215312313, opinou pela absolvição sumária do réu. O órgão acusatório concordou com a tese defensiva, reconhecendo que o simples fato de a chave PIX corresponder ao CPF do acusado não é suficiente para comprovar a autoria delitiva. O Parquet ponderou sobre a facilidade de abertura de contas bancárias de forma não presencial, especialmente em bancos digitais, mediante o uso de dados de terceiros, o que torna frágil a prova de autoria baseada unicamente na titularidade da conta. Assim, por entender não haver comprovação suficiente de que o crime foi perpetrado pelo réu, requereu sua absolvição sumária, nos termos do artigo 395, III, do Código de Processo Penal.
+
+Os autos vieram conclusos.
+
+É O RELATÓRIO. DECIDO.
+
+O caso em tela comporta a absolvição sumária do acusado, nos termos do artigo 397 do Código de Processo Penal.
+
+A materialidade do delito está demonstrada pelo registro de ocorrência (ID 143591623) e pelos comprovantes das transferências bancárias efetuadas pela vítima (ID 143591625), que totalizaram um prejuízo de R$ 1.390,00. Contudo, os indícios de autoria em desfavor de Paulo Cesar do Nascimento Silva são excessivamente frágeis para sustentar a persecução penal em juízo.
+
+A acusação se baseia, fundamentalmente, no fato de que os valores transferidos pela vítima foram destinados a uma conta bancária cuja chave PIX é o número do CPF do réu. No entanto, como bem ressaltado pela defesa e, de forma conclusiva, pelo próprio Ministério Público em seu parecer (ID 215312313), este único elemento é insuficiente para estabelecer, com a segurança necessária para a continuidade da ação penal, que o réu foi o autor da fraude eletrônica.
+
+O Ministério Público, titular da ação penal, reconheceu a fragilidade do conjunto probatório ao afirmar que: "O simples fato de ter uma chave PIX com o número do CPF do acusado não é suficiente para comprovar que este obteve a vantagem ilícita". O órgão acusatório ainda elucidou que, "atualmente, é relativamente fácil a abertura de contas de forma não presencial, especialmente em bancos digitais sem agências físicas, bastando que se tenha acesso aos dados de qualificação de determinada pessoa".
+
+De fato, a investigação policial não logrou êxito em produzir outras provas que corroborassem a participação do acusado no crime. Não há nos autos qualquer elemento que vincule o réu ao número de telefone (24) 99977-0757, utilizado para aplicar o golpe, nem foram realizadas diligências para rastrear o endereço de IP ou os dados de acesso do dispositivo eletrônico de onde partiram as mensagens fraudulentas. O relatório final do inquérito policial (ID 143591632) chega a mencionar a possibilidade de o contato com a vítima ter sido feito por "co-autores que fazem parte da mesma associação criminosa e que, dificilmente, serão identificados".
+
+Dessa forma, a acusação se assenta em uma mera presunção. Embora o réu seja o titular da conta beneficiária, não se pode descartar a hipótese de que seus dados pessoais tenham sido utilizados por terceiros para a abertura da conta digital com o propósito de cometer fraudes, ou mesmo que ele tenha sido cooptado como "laranja" sem ter ciência da origem ilícita dos valores. A ausência de provas adicionais que demonstrem o dolo do acusado ou sua efetiva participação na empreitada criminosa impede a formação de um juízo de probabilidade mínimo para a deflagração da fase de instrução processual.
+
+A persecução penal não pode se basear em conjecturas. A ausência de justa causa, neste momento processual, é manifesta, pois não existem indícios suficientes de autoria. Prosseguir com a ação penal seria submeter o réu a um constrangimento ilegal e a um processo fadado à absolvição por insuficiência de provas, violando os princípios da economia processual e da presunção de inocência.
+
+DISPOSITIVO
+
+Ante o exposto, acolhendo a manifestação do Ministério Público, ABSOLVO SUMARIAMENTE o réu PAULO CESAR DO NASCIMENTO SILVA, já qualificado nos autos, da imputação da prática do crime previsto no artigo 171, §2º-A, do Código Penal, com fundamento no artigo 397, inciso III, do Código de Processo Penal, por entender que o fato narrado evidentemente não constitui crime no que tange à autoria imputada.
+
+Publique-se. Registre-se. Intimem-se.
+
+Após o trânsito em julgado, dê-se baixa e arquivem-se os autos, com as cautelas de praxe.
+
+MIGUEL PEREIRA, 14 de outubro de 2025.
+
+FELIPE CONSONNI FRAGA
+Juiz Substituto
