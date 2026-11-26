@@ -4,9 +4,9 @@ Nota de 26/11/2026. Leva ao TJPA a questão 7 da fase 1 (como o titular entra na
 
 ## Resposta
 
-Quando o MPPA denuncia o titular como titular (o papel da codificação é só a conta) e ele admite ter cedido a conta, o desfecho é o do TJSP: condenação em 8 de 8 sentenças, contra 45 de 47 em São Paulo. O que separa os tribunais está em dois lugares. O primeiro é a denúncia que descreve o titular como autor do ardil (o misto): entre os mistos que admitiram a cessão, só 1 de 6 foi condenado, e 4 das 5 absolvições foram pedidas pelo próprio MP. O segundo é a frequência do pedido de absolvição: na FE, o MP pede a absolvição em 16 das 54 sentenças de mérito de titulares e mistos no TJPA (30%), contra 2 das 57 do grupo "só conta" no TJSP (3,5%). Dado o pedido de condenação, a absolvição é igual nos dois tribunais: 4 de 36 (11,1%) no TJPA e 5 de 45 (11,1%) no TJSP.
+Quando o MPPA denuncia o titular como titular (o papel da codificação é só a conta) e ele admite ter cedido a conta, o desfecho é o do TJSP: condenação em 8 de 8 sentenças, contra 45 de 47 em São Paulo. O que separa os tribunais está em dois lugares. O primeiro é a denúncia que descreve o titular como autor do ardil (o misto): entre os mistos que admitiram a cessão, só 1 de 6 foi condenado, e 4 das 5 absolvições foram pedidas pelo próprio MP (a quinta é do CL, onde a posição do MP não foi codificada). O segundo é a frequência do pedido de absolvição: na FE, o MP pede a absolvição em 16 das 54 sentenças de mérito de titulares e mistos no TJPA (30%), contra 2 das 57 do grupo "só conta" no TJSP (3,5%). Dado o pedido de condenação, a absolvição é igual nos dois tribunais: 4 de 36 (11,1%) no TJPA e 5 de 45 (11,1%) no TJSP.
 
-A versão do titular, portanto, decide no TJPA o que decide no TJSP quando a acusação a sustenta até o fim; o que muda é a acusação, que no TJPA desiste com frequência dez vezes maior e desiste sobretudo do titular que ela própria descreveu como autor da mensagem.
+A versão do titular, portanto, decide no TJPA o que decide no TJSP quando a acusação a sustenta até o fim; o que muda é a acusação, que no TJPA desiste com frequência quase nove vezes maior e desiste sobretudo do titular que ela própria descreveu como autor da mensagem.
 
 ## Base e método
 
