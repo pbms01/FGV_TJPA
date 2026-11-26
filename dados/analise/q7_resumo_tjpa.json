@@ -1,0 +1,110 @@
+{
+ "titular_conta": {
+  "n": 62,
+  "com_sentenca_de_merito": 28,
+  "versao": {
+   "sem versão": 30,
+   "emprestou a alguém": 6,
+   "nega": 10,
+   "cedeu mediante pagamento": 5,
+   "perdeu o controle ou não reconhece a conta": 2,
+   "não localizado ou revel": 6,
+   "silêncio": 3
+  },
+  "desfecho_por_grupo": {
+   "cessão admitida": "8 de 8 (100%)",
+   "nega ou não reconhece": "5 de 11 (45%)",
+   "ausente": "3 de 4 (75%)",
+   "sem versão": "3 de 5 (60%)"
+  }
+ },
+ "misto": {
+  "n": 64,
+  "com_sentenca_de_merito": 35,
+  "versao": {
+   "não localizado ou revel": 8,
+   "sem versão": 28,
+   "emprestou a alguém": 4,
+   "perdeu o controle ou não reconhece a conta": 4,
+   "nega": 13,
+   "silêncio": 5,
+   "cedeu mediante pagamento": 2
+  },
+  "desfecho_por_grupo": {
+   "cessão admitida": "1 de 6 (17%)",
+   "nega ou não reconhece": "9 de 12 (75%)",
+   "ausente": "6 de 9 (67%)",
+   "sem versão": "4 de 8 (50%)"
+  }
+ },
+ "cessao_admitida_detalhe": {
+  "PA-CL 35": "titular_conta | emprestou a alguém | condenação | MP - | possuindo prontuário policial da mesma época registrado de mesma natureza, restando pouco crível versão de inocência da cessão de conta banc",
+  "PA-CL 76": "misto | emprestou a alguém | procedência parcial | MP - | elém I - 8º PJ Criminal Comum A equipe da polícia foi ao encontro de JENNY DAPHNNYE, que confessou ter sacado a quantia a pedido do primo e ",
+  "PA-CL 88": "misto | emprestou a alguém | absolvição | MP - | ANNE CAROLINE DOS SANTOS ROCHA disse: que emprestou seu cartão de banco para Suzianne para que ela depositasse seu salário.",
+  "PA-FE 7": "titular_conta | cedeu mediante pagamento | condenação | MP condenacao | hece Camila, que conviviam juntas até os fatos, que não conhece Bruno e Carlos, que Camila pediu sua conta emprestada e receberia uma porcen",
+  "PA-FE 14": "titular_conta | cedeu mediante pagamento | procedência parcial | MP parcial | confessou ter emprestado a conta, desempregado, sob promessa de contraprestação",
+  "PA-FE 25": "titular_conta | emprestou a alguém | procedência parcial | MP condenacao | , a defesa do acusado ALAN PEREIRA DA SILVA pleiteia a absolvição do acusado pelos crimes imputados, alegando que o réu emprestou a sua cont",
+  "PA-FE 44": "titular_conta | emprestou a alguém | procedência parcial | MP parcial | A Acusada Ana Elda declarou que uma outra pessoa que pediu sua conta emprestada, tendo esta cedido para Carlos Leno, o qual já havia um rela",
+  "PA-FE 46": "titular_conta | cedeu mediante pagamento | procedência parcial | MP condenacao | em juízo, admitiu ter vendido a conta por R$ 300,00 (contraste do Par 11)",
+  "PA-FE 70": "misto | emprestou a alguém | absolvição | MP absolvicao | Realizado o interrogatório do réu, que alegou ter cedido sua conta bancária a um conhecido de nome Leonardo Dias para o recebimento de valor",
+  "PA-FE 89": "titular_conta | emprestou a alguém | condenação | MP condenacao | Em suas razões, sustentou a tese de ausência de dolo e de envolvimento da ré, sob a alegação de que esta apenas emprestou sua conta bancária",
+  "PA-FE 108": "misto | cedeu mediante pagamento | absolvição | MP absolvicao | Os interrogatórios dos denunciados, nos quais a maioria alega ter “vendido” ou “emprestado” suas contas por valores irrisórios, reforçam a t",
+  "PA-FE 145": "titular_conta | emprestou a alguém | procedência parcial | MP condenacao | Em interrogatório, o réu negou envolvimento, sustentando ter emprestado sua conta digital à suposta vizinha Janaína Santos Figueira, a qual ",
+  "PA-FE 179": "misto | cedeu mediante pagamento | absolvição | MP absolvicao | os titulares recebiam pequena quantia por emprestar as contas",
+  "PA-FE 215": "misto | emprestou a alguém | absolvição | MP absolvicao | Na ocasião, o acusado negou a autoria dolosa do crime, afirmando que emprestou sua conta bancária a um colega conhecido como \"Juninho Farid\""
+ },
+ "fe_grupo_por_mp": {
+  "nega ou não reconhece": {
+   "MP condenacao, condena": 12,
+   "MP absolvicao, absolve": 7,
+   "MP parcial, condena": 1,
+   "MP condenacao, absolve": 2
+  },
+  "cessão admitida": {
+   "MP condenacao, condena": 5,
+   "MP parcial, condena": 2,
+   "MP absolvicao, absolve": 4
+  },
+  "sem versão": {
+   "MP condenacao, condena": 4,
+   "MP condenacao, absolve": 1,
+   "MP absolvicao, absolve": 3,
+   "MP nd, condena": 1
+  },
+  "ausente": {
+   "MP condenacao, condena": 7,
+   "MP absolvicao, absolve": 2,
+   "MP parcial, condena": 1,
+   "MP nd, condena": 1,
+   "MP condenacao, absolve": 1
+  }
+ },
+ "tjsp_fe_grupo_por_mp": {
+  "nega ou não reconhece": {
+   "MP nd, condena": 4,
+   "MP absolvicao, absolve": 1,
+   "MP condenacao, condena": 13,
+   "MP condenacao, absolve": 4,
+   "MP nd, absolve": 1
+  },
+  "cessão admitida": {
+   "MP condenacao, condena": 23,
+   "MP nd, condena": 4,
+   "MP condenacao, absolve": 1
+  },
+  "ausente": {
+   "MP condenacao, condena": 3,
+   "MP absolvicao, absolve": 1
+  },
+  "sem versão": {
+   "MP nd, condena": 1,
+   "MP condenacao, condena": 1
+  }
+ },
+ "tjsp_desfecho_por_grupo": {
+  "cessão admitida": "45 de 47 (96%)",
+  "nega ou não reconhece": "30 de 37 (81%)",
+  "ausente": "9 de 11 (82%)",
+  "sem versão": "4 de 4 (100%)"
+ }
+}

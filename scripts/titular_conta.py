@@ -6,6 +6,10 @@ Uso:
   python3 scripts/titular_conta.py valida      imprime a versão e o trecho que a sustenta em
                                                todas as denúncias de só conta, para conferência
   python3 scripts/titular_conta.py caso CL 26  imprime a leitura de uma denúncia
+  TRIB=tjpa python3 scripts/titular_conta.py valida [misto]
+                                               o mesmo no TJPA: as denúncias sem duplicata
+                                               codificadas com papel de titular de conta (com
+                                               "misto", também as de papel misto)
 
 Decisões que não saltam aos olhos:
 - A versão é procurada frase a frase, na narrativa e na cota da denúncia e no texto da
@@ -30,6 +34,8 @@ import sys
 
 BASE = os.path.join(os.path.dirname(__file__), "..")
 EXT = os.path.join(BASE, "dados/extracao")
+TRIB = os.environ.get("TRIB", "tjsp")
+DIR_SEG = {"tjsp": "segmentos", "tjpa": "segmentos_tjpa"}[TRIB]
 
 # só frases de declaração do titular, e não a descrição da conduta pela acusação ou pelo juiz
 SUJEITO = re.compile(r"\b(alegou|alega|afirmou|afirma|negou|nega|admitiu|admite|confessou|declarou|disse|sustentou|aduziu|relatou|explicou|esclareceu|justificou|asseverou|informou|contou|suscitou)\b"
@@ -79,6 +85,28 @@ VERSAO_MANUAL = {
     "CL 44": ("emprestou a alguém", "na polícia negou usar a conta; em juízo, disse tê-la cedido a uma amiga que prometera trabalhar com aplicativo de transporte"),
 }
 
+# Correções da conferência dos trechos no TJPA (TRIB=tjpa python3 scripts/titular_conta.py valida misto).
+VERSAO_MANUAL_TJPA = {
+    "PA-CL 16": ("sem versão", "a regra pegava \"à revelia dos titulares\" na descrição da Operação Trojan"),
+    "PA-FE 21": ("sem versão", "a regra pegava a descrição da Operação Trojan; dois réus interrogados e dois revéis, sem versão no texto"),
+    "PA-FE 91": ("não localizado ou revel", "os acusados não compareceram à audiência e não foram interrogados"),
+    "PA-FE 53": ("sem versão", "a regra pegava o direito ao silêncio na citação doutrinária da sentença"),
+    "PA-FE 80": ("sem versão", "a regra pegava o direito ao silêncio na citação doutrinária da sentença"),
+    "PA-FE 98": ("nega", "a ré negou o crime; a regra pegava o direito ao silêncio na fundamentação"),
+    "PA-FE 58": ("sem versão", "quem não foi localizada é a vítima"),
+    "PA-FE 42": ("sem versão", "quem perdeu o celular é a vítima; os réus confessam o Pix feito do aparelho"),
+    "PA-FE 81": ("silêncio", "o acusado permaneceu em silêncio; a regra pegava o depoimento da vítima sobre o pagamento"),
+    "PA-FE 14": ("cedeu mediante pagamento", "confessou ter emprestado a conta, desempregado, sob promessa de contraprestação"),
+    "PA-FE 46": ("cedeu mediante pagamento", "em juízo, admitiu ter vendido a conta por R$ 300,00 (contraste do Par 11)"),
+    "PA-FE 74": ("perdeu o controle ou não reconhece a conta", "confirmou a titularidade, desconhece o depósito e atribui o uso à perda do celular"),
+    "PA-FE 179": ("cedeu mediante pagamento", "os titulares recebiam pequena quantia por emprestar as contas"),
+    "PA-FE 2": ("nega", "o réu negou a autoria; testemunhas de defesa dizem que o celular dele fora subtraído antes do fato"),
+    "PA-FE 41": ("silêncio", "permaneceu em silêncio no interrogatório judicial"),
+    "PA-FE 47": ("silêncio", "os acusados exerceram o direito ao silêncio"),
+    "PA-FE 85": ("nega", "nega a acusação, mas confirma a relação comercial e o recebimento"),
+    "PA-FE 99": ("sem versão", "a regra pegava o depoimento de um sócio; a versão dos réus não está no texto"),
+}
+
 
 def frases(t):
     return [f for f in re.split(r"(?<=[.;!?])\s+", t) if SUJEITO.search(f)]
@@ -108,12 +136,12 @@ def versao(t):
 
 
 def texto_sentenca(numero):
-    fs = sorted(glob.glob(os.path.join(BASE, "textos/tjsp/sentencas", numero, "*")))
+    fs = sorted(glob.glob(os.path.join(BASE, f"textos/{TRIB}/sentencas", numero, "*")))
     return re.sub(r"\s+", " ", " ".join(open(f, encoding="utf-8", errors="ignore").read() for f in fs)) if fs else ""
 
 
 def le(caso, numero):
-    seg = json.load(open(os.path.join(EXT, "segmentos", f"{numero}.json"), encoding="utf-8"))
+    seg = json.load(open(os.path.join(EXT, DIR_SEG, f"{numero}.json"), encoding="utf-8"))
     den = re.sub(r"\s+", " ", seg.get("narrativa", "") + " " + seg.get("cota", ""))
     sen = texto_sentenca(numero)
     vd, td = versao(den)
@@ -121,8 +149,9 @@ def le(caso, numero):
     ordem = [k for k, _ in VERSOES] + ["sem versão"]
     # vence a mais específica das duas leituras
     final, fonte, trecho = (vd, "denúncia", td) if ordem.index(vd) <= ordem.index(vs) else (vs, "sentença", ts)
-    if caso in VERSAO_MANUAL:
-        final, fonte, trecho = VERSAO_MANUAL[caso][0], "manual", VERSAO_MANUAL[caso][1]
+    manual = VERSAO_MANUAL_TJPA if TRIB == "tjpa" else VERSAO_MANUAL
+    if caso in manual:
+        final, fonte, trecho = manual[caso][0], "manual", manual[caso][1]
     alvo = trecho if final in ("cedeu mediante pagamento", "aceitou proposta de trabalho, renda ou crédito", "emprestou a alguém") else ""
     quem = ""
     for rotulo, rx_quem in QUEM:  # o vínculo mais próximo vence o genérico ("terceira pessoa ... sua sobrinha")
@@ -141,16 +170,21 @@ def le(caso, numero):
                 antecedentes=ant, trecho_antecedentes=trecho_ant, jovem=bool(JOVEM.search(sen)), tem_sentenca=bool(sen))
 
 
-def _so_conta():
+def _so_conta(papeis=("titular_conta",)):
+    if TRIB == "tjpa":
+        # sem a tabela de nível da questão 1 no TJPA, a unidade é o papel da codificação assistida
+        cod = csv.DictReader(open(os.path.join(EXT, "codificacao_assistida_tjpa.csv"), encoding="utf-8"))
+        return [(f'PA-{x["estrato"]} {x["ordem"]}', x["numero"]) for x in cod
+                if x["papel_denunciado"] in papeis and x["estrato"] in ("FE", "CL")]
     q5 = [x for x in csv.DictReader(open(os.path.join(BASE, "dados/analise/q5_tempo_dado.csv"), encoding="utf-8"))
           if x["nivel"] == "só conta" and x["fora"] == "False"]
     return [(x["caso"], x["numero"]) for x in q5]
 
 
-def valida():
+def valida(papeis=("titular_conta",)):
     from collections import Counter
     c = Counter()
-    for caso, n in _so_conta():
+    for caso, n in _so_conta(papeis):
         x = le(caso, n)
         c[x["versao"]] += 1
         print(f"{caso}: {x['versao']} ({x['fonte_versao']}) | den {x['versao_denuncia']} | sen {x['versao_sentenca']} | {x['trecho_versao'][:230]}")
@@ -159,10 +193,10 @@ def valida():
 
 def main():
     if len(sys.argv) > 1 and sys.argv[1] == "valida":
-        valida()
+        valida(("titular_conta", "misto") if "misto" in sys.argv[2:] else ("titular_conta",))
     elif len(sys.argv) > 2 and sys.argv[1] == "caso":
         caso = " ".join(sys.argv[2:])
-        n = dict(_so_conta())[caso]
+        n = dict(_so_conta(("titular_conta", "misto")))[caso]
         for k, v in le(caso, n).items():
             print(f"{k}: {v}")
     else:
